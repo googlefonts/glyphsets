@@ -9,7 +9,7 @@ Instead, see the subdirectory `GF Glyph Sets` which provides glyph set definitio
 
 ## The "Namelist" file format
 
-This directory contains "Namelist" files, for developers.
+This repository contains "Namelist" files, for developers.
 Typeface designers typically want **glyph sets**, and the `GF Glyph Sets` subdirectory here contains a [`README.md`]('GF Glyph Sets/README.md') describing them.
 
 Their purpose is to subset fonts available from the Google Fonts API.
@@ -143,6 +143,10 @@ Example from `GF-latin-expert_unique-glyphs.nam`
 * `label {name}` A human readable name for the file, to be used in user interfaces. Could also have a further `{locale}` argument for internationalization.
 
 ## Scripts
+
+**NOTE:** The python scripts mentioned here are nowadays available as subcommands of GFTools, available at https://github.com/googlefonts/gftools/
+
+----
 
 A python script, `tools/namelist.py` can generate these files:
 
