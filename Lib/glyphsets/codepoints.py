@@ -199,7 +199,7 @@ def CodepointFileForSubset(subset):
   filename = os.path.join(nam_dir, '%s_unique-glyphs.nam' % subset)
   if not os.path.isfile(filename):
     ShowOnce('no cp file for %s found at %s' % (subset,
-                                                filename[len(enc_path):]))
+                                                filename[len(nam_dir):]))
     return None
 
   return filename

@@ -1,5 +1,8 @@
 Below are the most important changes from each release.
 
+## 0.2.1 (2021-Dec-17)
+  - Quick bugfix: undefined var `enc_path` (should be `nam_dir` instead!)
+
 ## 0.2.0 (2021-Dec-17)
 ### Noteworthy code-changes
   - Added function `set_encoding_path` that allows one to use `.nam` files from a different directory, other than the files shipped with the `glyphsets` module.
