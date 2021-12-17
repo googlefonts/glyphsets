@@ -43,16 +43,10 @@ nam_dir = resource_filename("glyphsets", "encodings")
 # '1234A'
 _NAMELIST_CODEPOINT_REGEX = re.compile('^([A-F0-9]{4,5})')
 
-
-class Error(Exception):
-  """Base for Google Fonts errors."""
-
-
-class ParseError(Error):
-  """Exception used when parse failed."""
-
-
-
+_PLATFORM_ID_MICROSOFT = 3
+_PLATFORM_ENC_UNICODE_BMP = 1
+_PLATFORM_ENC_UNICODE_UCS4 = 10
+_PLATFORM_ENCS_UNICODE = (_PLATFORM_ENC_UNICODE_BMP, _PLATFORM_ENC_UNICODE_UCS4)
 
 def UnicodeCmapTables(font):
   """Find unicode cmap tables in font.
@@ -86,20 +80,6 @@ def ShowOnce(msg):
   print(msg, file=sys.stderr)
 
 
-def UniqueSort(*args):
-  """Returns a sorted list of the unique items from provided iterable(s).
-
-  Args:
-    *args: Iterables whose items will be merged, sorted and de-duplicated.
-  Returns:
-    A list.
-  """
-  s = set()
-  for arg in args:
-    s.update(arg)
-  return sorted(s)
-
-
 def ListSubsets():
   """Returns a list of all subset names, in lowercase."""
   return subsets.SUBSETS
@@ -113,14 +93,14 @@ def SubsetsForCodepoint(cp):
   Returns:
     List of lowercase names of subsets or [] if none match.
   """
-  subsets = []
+  _subsets = []
   for subset in ListSubsets():
     cps = CodepointsInSubset(subset, unique_glyphs=True)
     if not cps:
       continue
     if cp in cps:
-      subsets.append(subset)
-  return subsets
+      _subsets.append(subset)
+  return _subsets
 
 
 def SubsetForCodepoint(cp):
@@ -131,12 +111,12 @@ def SubsetForCodepoint(cp):
   Returns:
     The lowercase name of the subset, e.g. latin, or None.
   """
-  subsets = SubsetsForCodepoint(cp)
-  if not subsets:
+  _subsets = SubsetsForCodepoint(cp)
+  if not _subsets:
     return None
 
-  result = subsets[0]
-  for subset in sorted(subsets):
+  result = _subsets[0]
+  for subset in sorted(_subsets):
     # prefer x to x-ext
     if result + '-ext' == subset:
       pass
@@ -148,6 +128,11 @@ def SubsetForCodepoint(cp):
       result = subset
 
   return result
+
+
+def set_encoding_path(enc_path):
+  global nam_dir
+  nam_dir = enc_path
 
 
 def CodepointsInSubset(subset, unique_glyphs=False):
@@ -425,7 +410,7 @@ def _ReadNameList(cache, filename, unique_glyphs):
   return item
 
 
-class NamelistRecursionError(Error):
+class NamelistRecursionError(Exception):
   """Exception to control infinite recursion in Namelist includes."""
   pass
 
