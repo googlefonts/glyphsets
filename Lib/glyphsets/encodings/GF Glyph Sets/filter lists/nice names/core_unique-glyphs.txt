@@ -1,5 +1,3 @@
-NULL
-CR
 space
 exclam
 quotedbl
@@ -99,7 +97,6 @@ nbspace
 exclamdown
 cent
 sterling
-currency
 yen
 brokenbar
 section
@@ -108,7 +105,6 @@ copyright
 ordfeminine
 guillemetleft
 logicalnot
-softhyphen
 registered
 macron
 degree
@@ -213,4 +209,3 @@ fraction
 foursuperior
 euro
 minus
-divisionslash
