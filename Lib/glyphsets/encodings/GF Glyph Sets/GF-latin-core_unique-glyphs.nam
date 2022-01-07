@@ -1,5 +1,4 @@
 #$ include GF-latin-ascii_unique-glyphs.nam
-         .notdef
 0x0020   SPACE
 0x00A0   NO-BREAK SPACE
 0x0021 ! EXCLAMATION MARK
@@ -378,22 +377,3 @@
 0x2260 ≠ NOT EQUAL TO
 0x2264 ≤ LESS-THAN OR EQUAL TO
 0x2265 ≥ GREATER-THAN OR EQUAL TO
-         periodcentered.loclCAT
-         one.dnom
-         two.dnom
-         three.dnom
-         four.dnom
-         five.dnom
-         six.dnom
-         seven.dnom
-         eight.dnom
-         nine.dnom
-         one.numr
-         two.numr
-         three.numr
-         four.numr
-         five.numr
-         six.numr
-         seven.numr
-         eight.numr
-         nine.numr
