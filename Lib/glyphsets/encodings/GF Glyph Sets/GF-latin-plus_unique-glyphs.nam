@@ -1,3 +1,4 @@
+#$ include GF-latin-core_unique-glyphs.nam
 0x0020   SPACE
 0x0021 ! EXCLAMATION MARK
 0x0022 " QUOTATION MARK
