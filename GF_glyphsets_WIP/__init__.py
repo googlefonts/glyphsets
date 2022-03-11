@@ -1,51 +1,65 @@
 """
 Tools to generate the GF Glyph Database
 """
-from glob import glob
 import json
+import os
+from re import L
+from glyphsLib import GSFont
+from defcon import Font
+import logging
 
 
-# Glyph data schema
-database = {
-    "glyphs": [
-        {"production_name": "A", "human_name": "A", "unicode": 0x0030, "glyphsets": ["LatinCore", "LatinKernel"]},
-        {"production_name": "A.alt", "human_name": "A.alt", "unicode": None, "glyphsets": ["LatinCore"]},
-        {"production_name": "f", "human_name": "f", "unicode": 0x0013, "glyphsets": ["Latin"]}
-
-    ],
-    # This needs work. Aim is to allow us to auto gen OT features from a glyphset
-    "features": [
-        {
-            "glyphs_in_use": ["A", "A.alt"],
-            "fea": "sub A by A.alt;",
-            "feature": "ss01",
-        },
-        {
-            "glyphs_in_use": ["f", "f_f"],
-            "fea": "sub f f by f_f",
-            "feature": "liga",
-        }
-    ]
-}
+DATA = os.path.join(os.path.dirname(__file__), "data.json")
+log = logging.getLogger(__file__)
 
 
 class GFGlyphData:
-    def __init__(self, db="path/to/data"):
-        self.data = db if isinstance(db, dict) else self._read_data(db)
-    
-    def _read_data(self, path):
-        with open(path) as db:
-            json.load(db)
-    
-    def save(self):
-        pass
+    def __init__(self, data=json.load(open(DATA))):
+        self._data = data
+        self._in_use = set(g["nice_name"] for g in self._data["glyphs"])
 
-    def update_database_from_sources(self, sources):
+    def save(self, fp=DATA):
+        with open(fp, "w") as db:
+            json.dump(self._data, db, indent=2)
+
+    @classmethod
+    def from_json(cls, fp):
+        with open(fp) as db:
+            data = json.load(db)
+            return cls(data)
+
+    def __getitem__(self, k):
+        return self._data[k]
+
+    def update_from_sources(self, sources):
         """Update the database by using the glyphsets from source files.
-        
+
         Please note that you may need to edit some data by hand"""
         for src in sources:
-            pass
+            if isinstance(src, GSFont):
+                glyphset = os.path.basename(src.filepath).split(".")[0]
+                for g in src.glyphs:
+                    self._add_glyph(glyphset, g.name, unicodes=g.unicode)
+            elif isinstance(src, Font):
+                glyphset = os.path.basename(src.path).split(".")[0]
+                for g in src:
+                    self._add_glyph(glyphset, g.name, unicodes=g.unicode)
+            else:
+                raise NotImplementedError(f"{src} not supported yet!")
+
+    def _add_glyph(self, glyphset, nice_name=None, unicodes=None):
+        if nice_name in self._in_use:
+            entry = next(
+                (g for g in self._data["glyphs"] if g["nice_name"] == nice_name), None
+            )
+            if glyphset in entry["glyphsets"]:
+                log.warning(f"Skipping {glyphset}.{nice_name}. Already exists!")
+                return
+            entry["glyphsets"].append(glyphset)
+        else:
+            self._data["glyphs"].append(
+                {"nice_name": nice_name, "unicode": unicodes, "glyphsets": [glyphset]}
+            )
 
     def build_glyphsapp_filter_lists(self, glyphset, type="production_name"):
         "Build filter lists for glyphs app"
@@ -55,15 +69,25 @@ class GFGlyphData:
         "Build GF nam files"
         pass
 
-    def update_source_glyphset(self,src, glyphset):
+    def update_source_glyphset(self, src, glyphset):
         """Add glyphs to a source file"""
-        pass
-    
+        if isinstance(src, Font):
+            glyphs_in_font = set(g.name for g in src)
+            for g in self._data["glyphs"]:
+                if g["nice_name"] not in glyphs_in_font and glyphset in g["glyphsets"]:
+                    new_glyph = src.newGlyph(g["nice_name"])
+                    new_glyph.color = "Red"
+            src.save()
+        else:
+            raise NotImplementedError()
+
     def build_fea(self, glyphset):
         """Generate a .fea file based on a glyphset"""
-        pass
+        # TODO this is 2022 Q3/4 goal
+        raise NotImplementedError()
 
 
-glyph_data = GFGlyphData()
-glyph_data.build_glyphsapp_filter_lists("LatinCore", "nice_names")
-glyph_data.build_glyphsapp_filter_lists("LatinCore", "prod_names")
+src = Font("demo.ufo")
+data = GFGlyphData()
+data.update_source_glyphset(src, "GFLatinPlus")
+print()
