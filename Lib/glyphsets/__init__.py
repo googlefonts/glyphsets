@@ -8,6 +8,7 @@ from glyphsLib import GSFont, GSGlyph
 from defcon import Font
 import logging
 import unicodedata2 as uni
+from glyphsLib.glyphdata import get_glyph
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -38,7 +39,7 @@ class _GFGlyphData:
     def __getitem__(self, k):
         return self._data[k]
 
-    def update_from_sources(self, sources):
+    def update_db_from_sources(self, sources):
         """Update the database by using the glyphsets from source files.
 
         Please note that you may need to edit some data by hand"""
@@ -71,9 +72,11 @@ class _GFGlyphData:
             else:
                 uni_char = None
                 character = None
+            glyphslib_data = get_glyph(nice_name)
             self._data["glyphs"].append(
                 {
                     "nice_name": nice_name,
+                    "production_name": glyphslib_data.production_name,
                     "character": character,
                     "unicode": uni_char,
                     "glyphsets": [glyphset],
@@ -92,15 +95,20 @@ class _GFGlyphData:
                 doc.write("\n".join(res))
         return res
 
-    def build_nam_file(self, glyphset, out=None):
-        "Build GF nam files"
+    def build_nam_file(self, glyphsets, out=None):
+        "Build GF nam files from glyphsets"
         res = []
-        for g in self._data["glyphs"]:
-            if not g["unicode"]:
-                continue
-            if glyphset in g["glyphsets"]:
-                res.append(f"{g['character']} {uni.name(g['character'])}")
+        seen = set()
+        for glyphset in glyphsets:
+            for g in self._data["glyphs"]:
+                if not g["unicode"] or g["unicode"] in seen:
+                    continue
+                seen.add(g["unicode"])
+                if glyphset in g["glyphsets"]:
+                    code = "0x" + hex(ord(g['character'])).replace("0x", "").zfill(4).upper()
+                    res.append(f"{code} {uni.name(g['character'])}")
         if out:
+            res.sort()
             with open(out, "w") as doc:
                 doc.write("\n".join(res))
         return res

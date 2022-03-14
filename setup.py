@@ -44,6 +44,7 @@ setup(
                       "encodings/GF Glyph Sets/*.nam"
                   ]
                  },
+    entry_points={"console_scripts": ["glyphsets = glyphsets.__main__:main"]},
     zip_safe=False,
     classifiers=[
         'Intended Audience :: Developers',
