@@ -9,6 +9,12 @@ from defcon import Font
 import logging
 import unicodedata2 as uni
 
+try:
+    from ._version import version as __version__  # type: ignore
+except ImportError:
+    __version__ = "0.0.0+unknown"
+
+
 
 DATA_FP = os.path.join(os.path.dirname(__file__), "data.json")
 log = logging.getLogger(__file__)
