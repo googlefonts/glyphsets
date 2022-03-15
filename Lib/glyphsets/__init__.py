@@ -16,7 +16,6 @@ except ImportError:
     __version__ = "0.0.0+unknown"
 
 
-
 DATA_FP = os.path.join(os.path.dirname(__file__), "data.json")
 log = logging.getLogger(__file__)
 
@@ -39,6 +38,17 @@ class _GFGlyphData:
     def __getitem__(self, k):
         return self._data[k]
 
+    def glyphs_in_glyphsets(self, glyphsets):
+        res = []
+        seen = set()
+        for g in self["glyphs"]:
+            for glyphset in g["glyphsets"]:
+                if glyphset not in glyphsets or g["nice_name"] in seen:
+                    continue
+                res.append(g)
+                seen.add(g["nice_name"])
+        return res
+
     def update_db_from_sources(self, sources):
         """Update the database by using the glyphsets from source files.
 
@@ -47,15 +57,15 @@ class _GFGlyphData:
             if isinstance(src, GSFont):
                 glyphset = os.path.basename(src.filepath).split(".")[0]
                 for g in src.glyphs:
-                    self._add_glyph(glyphset, g.name, unicodes=g.unicode)
+                    self.add_glyph(glyphset, g.name, unicodes=g.unicode)
             elif isinstance(src, Font):
                 glyphset = os.path.basename(src.path).split(".")[0]
                 for g in src:
-                    self._add_glyph(glyphset, g.name, unicodes=g.unicode)
+                    self.add_glyph(glyphset, g.name, unicodes=g.unicode)
             else:
                 raise NotImplementedError(f"{src} not supported yet!")
 
-    def _add_glyph(self, glyphset, nice_name=None, unicodes=None):
+    def add_glyph(self, glyphset, nice_name=None, unicodes=None):
         if nice_name in self._in_use:
             entry = next(
                 (g for g in self._data["glyphs"] if g["nice_name"] == nice_name), None
@@ -73,26 +83,24 @@ class _GFGlyphData:
                 uni_char = None
                 character = None
             glyphslib_data = get_glyph(nice_name)
+            glyphslib_unicode = (
+                None if not glyphslib_data.unicode else int(glyphslib_data.unicode, 16)
+            )
             self._data["glyphs"].append(
                 {
                     "nice_name": nice_name,
                     "production_name": glyphslib_data.production_name,
                     "character": character,
-                    "unicode": uni_char,
+                    "unicode": uni_char or glyphslib_unicode,
                     "glyphsets": [glyphset],
                 }
             )
+            self._in_use.add(nice_name)
 
     def build_glyphsapp_filter_lists(self, glyphsets, out=None):
         "Build filter lists for glyphs app"
-        res = []
-        seen = set()
-        for glyphset in glyphsets:
-            for g in self._data["glyphs"]:
-                if glyphset not in g["glyphsets"] or g["nice_name"] in seen:
-                    continue
-                seen.add(g["nice_name"])
-                res.append(g["nice_name"])
+        glyphs = self.glyphs_in_glyphsets(glyphsets)
+        res = [g["nice_name"] for g in glyphs]
         if out:
             with open(out, "w") as doc:
                 doc.write("\n".join(res))
@@ -100,41 +108,39 @@ class _GFGlyphData:
 
     def build_nam_file(self, glyphsets, out=None):
         "Build GF nam files from glyphsets"
+        glyphs = [g for g in self.glyphs_in_glyphsets(glyphsets) if g["unicode"]]
         res = []
-        seen = set()
-        for glyphset in glyphsets:
-            for g in self._data["glyphs"]:
-                if not g["unicode"] or g["unicode"] in seen:
-                    continue
-                if glyphset in g["glyphsets"]:
-                    seen.add(g["unicode"])
-                    code = "0x" + hex(ord(g['character'])).replace("0x", "").zfill(4).upper()
-                    res.append(f"{code} {uni.name(g['character'])}")
+        for glyph in glyphs:
+            code = (
+                "0x" + hex(ord(glyph["character"])).replace("0x", "").zfill(4).upper()
+            )
+            res.append(f"{code} {uni.name(glyph['character'])}")
+        res.sort()
         if out:
-            res.sort()
             with open(out, "w") as doc:
                 doc.write("\n".join(res))
         return res
 
     def update_source_glyphset(self, src, glyphsets):
         """Add glyphs to a source file"""
+        glyphs = self.glyphs_in_glyphsets(glyphsets)
         if isinstance(src, Font):
             glyphs_in_font = set(g.name for g in src)
-            for glyphset in glyphsets:
-                for g in self._data["glyphs"]:
-                    if g["nice_name"] not in glyphs_in_font and glyphset in g["glyphsets"]:
-                        new_glyph = src.newGlyph(g["nice_name"])
-                        new_glyph.color = "Red"
-                        glyphs_in_font.add(g["nice_name"])
+            for glyph in glyphs:
+                if glyph["nice_name"] in glyphs_in_font:
+                    continue
+                new_glyph = src.newGlyph(glyph["nice_name"])
+                new_glyph.color = "Red"
+                glyphs_in_font.add(glyph["nice_name"])
         elif isinstance(src, GSFont):
             glyphs_in_font = set(g.name for g in src.glyphs)
-            for glyphset in glyphsets:
-                for g in self._data["glyphs"]:
-                    if g["nice_name"] not in glyphs_in_font and glyphset in g["glyphsets"]:
-                        new_glyph = GSGlyph(g["nice_name"])
-                        new_glyph.color = 1
-                        src.glyphs.append(new_glyph)
-                        glyphs_in_font.add(g["nice_name"])
+            for glyph in glyphs:
+                if glyph["nice_name"] in glyphs_in_font:
+                    continue
+                new_glyph = GSGlyph(glyph["nice_name"])
+                new_glyph.color = 1
+                src.glyphs.append(new_glyph)
+                glyphs_in_font.add(glyph["nice_name"])
         else:
             raise NotImplementedError(f"Cannot add glyphs font source not supported!")
 
