@@ -83,13 +83,16 @@ class _GFGlyphData:
                 }
             )
 
-    def build_glyphsapp_filter_lists(self, glyphset, out=None):
+    def build_glyphsapp_filter_lists(self, glyphsets, out=None):
         "Build filter lists for glyphs app"
         res = []
-        for g in self._data["glyphs"]:
-            if glyphset not in g["glyphsets"]:
-                continue
-            res.append(g["nice_name"])
+        seen = set()
+        for glyphset in glyphsets:
+            for g in self._data["glyphs"]:
+                if glyphset not in g["glyphsets"] or g["nice_name"] in seen:
+                    continue
+                seen.add(g["nice_name"])
+                res.append(g["nice_name"])
         if out:
             with open(out, "w") as doc:
                 doc.write("\n".join(res))
@@ -103,8 +106,8 @@ class _GFGlyphData:
             for g in self._data["glyphs"]:
                 if not g["unicode"] or g["unicode"] in seen:
                     continue
-                seen.add(g["unicode"])
                 if glyphset in g["glyphsets"]:
+                    seen.add(g["unicode"])
                     code = "0x" + hex(ord(g['character'])).replace("0x", "").zfill(4).upper()
                     res.append(f"{code} {uni.name(g['character'])}")
         if out:
@@ -113,22 +116,25 @@ class _GFGlyphData:
                 doc.write("\n".join(res))
         return res
 
-    def update_source_glyphset(self, src, glyphset):
+    def update_source_glyphset(self, src, glyphsets):
         """Add glyphs to a source file"""
         if isinstance(src, Font):
             glyphs_in_font = set(g.name for g in src)
-            for g in self._data["glyphs"]:
-                if g["nice_name"] not in glyphs_in_font and glyphset in g["glyphsets"]:
-                    new_glyph = src.newGlyph(g["nice_name"])
-                    new_glyph.color = "Red"
-            src.save()
+            for glyphset in glyphsets:
+                for g in self._data["glyphs"]:
+                    if g["nice_name"] not in glyphs_in_font and glyphset in g["glyphsets"]:
+                        new_glyph = src.newGlyph(g["nice_name"])
+                        new_glyph.color = "Red"
+                        glyphs_in_font.add(g["nice_name"])
         elif isinstance(src, GSFont):
             glyphs_in_font = set(g.name for g in src.glyphs)
-            for g in self._data["glyphs"]:
-                if g["nice_name"] not in glyphs_in_font and glyphset in g["glyphsets"]:
-                    new_glyph = GSGlyph(g["nice_name"])
-                    new_glyph.color = 1
-                    src.glyphs.append(new_glyph)
+            for glyphset in glyphsets:
+                for g in self._data["glyphs"]:
+                    if g["nice_name"] not in glyphs_in_font and glyphset in g["glyphsets"]:
+                        new_glyph = GSGlyph(g["nice_name"])
+                        new_glyph.color = 1
+                        src.glyphs.append(new_glyph)
+                        glyphs_in_font.add(g["nice_name"])
         else:
             raise NotImplementedError(f"Cannot add glyphs font source not supported!")
 
