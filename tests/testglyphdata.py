@@ -92,7 +92,7 @@ def test_build_name_file(db, test_input, expected):
     ],
 )
 def test_glyphsapp_filter_lists(db, test_input, expected):
-    filter_list = db.build_glyphsapp_filter_lists(test_input)
+    filter_list = db.build_glyphsapp_filter_list(test_input)
     assert filter_list == expected
 
 

@@ -97,7 +97,7 @@ class _GFGlyphData:
             )
             self._in_use.add(nice_name)
 
-    def build_glyphsapp_filter_lists(self, glyphsets, out=None):
+    def build_glyphsapp_filter_list(self, glyphsets, out=None):
         "Build filter lists for glyphs app"
         glyphs = self.glyphs_in_glyphsets(glyphsets)
         res = [g["nice_name"] for g in glyphs]
