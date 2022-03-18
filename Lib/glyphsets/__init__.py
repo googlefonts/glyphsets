@@ -38,6 +38,36 @@ class _GFGlyphData:
     def __getitem__(self, k):
         return self._data[k]
 
+    def missing_glyphsets_in_font(self, ttFont, threshold=0.8):
+        glyphs_in_font = set(ttFont.getGlyphOrder())
+        unicodes_in_font = set(ttFont.getBestCmap().values())
+        res = {}
+        for g in self["glyphs"]:
+            for glyphset in g["glyphsets"]:
+                if glyphset not in res:
+                    res[glyphset] = {"has": [], "missing": []}
+                if any(
+                    [
+                        g["nice_name"] in glyphs_in_font,
+                        g["production_name"] in glyphs_in_font,
+                        g["unicode"] in unicodes_in_font,
+                    ]
+                ):
+                    res[glyphset]["has"].append(g["nice_name"])
+                else:
+                    res[glyphset]["missing"].append(g["nice_name"])
+
+        fulfilled = {
+            k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
+            for k, v in res.items()
+        }
+        missing = {}
+        for k, v in fulfilled.items():
+            if v == 1.0 or v < threshold:
+                continue
+            missing[k] = res[k]["missing"]
+        return missing
+
     def glyphs_in_glyphsets(self, glyphsets):
         res = []
         seen = set()

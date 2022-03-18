@@ -1,8 +1,11 @@
 import pytest
+from fontTools.ttLib import TTFont
 from glyphsets import _GFGlyphData
 from glyphsLib import GSFont, GSGlyph
 from defcon import Font
+import os
 
+DATA_FP = os.path.join(os.path.dirname(__file__), "data")
 
 @pytest.fixture
 def db():
@@ -40,6 +43,13 @@ def db():
         ]
     }
     return _GFGlyphData(data)
+
+
+@pytest.fixture
+def ttFont():
+    fp = os.path.join(DATA_FP, "MavenPro[wght].ttf")
+    return TTFont(fp)
+    
 
 
 def glyphs_src1():
@@ -161,3 +171,9 @@ def test_update_db(db):
     assert len(db["glyphs"]) == db_size + 2
 
     # TODO ufo sources
+
+
+def test_glyphsets_missing_in_font(db, ttFont):
+    # TODO use fonttools fontbuilder and make a font from scratch
+    missing = db.missing_glyphsets_in_font(ttFont, threshold=0)
+    assert missing == {"GFLatinAfrican": ["fdotaccent"]}

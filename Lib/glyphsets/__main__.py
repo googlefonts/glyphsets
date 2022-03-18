@@ -2,6 +2,7 @@ import argparse
 from glyphsets import GFGlyphData
 from glyphsLib import GSFont
 from defcon import Font
+from fontTools.ttLib import TTFont
 
 
 def load_source(fp):
@@ -23,7 +24,9 @@ def main():
     update_db_parser.add_argument("srcs", help="Source file to use", nargs="+")
 
     update_src_parser = subparsers.add_parser("update-srcs")
-    update_src_parser.add_argument("--srcs", help="Source files to update", nargs="+", required=True)
+    update_src_parser.add_argument(
+        "--srcs", help="Source files to update", nargs="+", required=True
+    )
     update_src_parser.add_argument("glyphsets", nargs="+")
 
     filter_lists_parser = subparsers.add_parser("filter-list")
@@ -34,24 +37,48 @@ def main():
     nam_file_parser.add_argument("glyphsets", nargs="+")
     nam_file_parser.add_argument("-o", "--out", required=True, help="output path")
 
+    font_file_parser = subparsers.add_parser("missing-in-font")
+    font_file_parser.add_argument("font", help="Path for font binary")
+    font_file_parser.add_argument(
+        "-t",
+        "--threshold",
+        help="Show missing glyphs if glyph count is greater than",
+        default=0.8,
+    )
     args = parser.parse_args()
 
     if args.command == "filter-list":
         GFGlyphData.build_glyphsapp_filter_list(args.glyphsets, args.out)
-    
+
     elif args.command == "update-srcs":
         srcs = [load_source(src) for src in args.srcs]
         for src in srcs:
             GFGlyphData.update_source_glyphset(src, args.glyphsets)
             src.save()
-    
+
     elif args.command == "update-db":
         srcs = [load_source(src) for src in args.srcs]
         GFGlyphData.update_db_from_sources(srcs)
         GFGlyphData.save()
-    
+
     elif args.command == "nam-file":
         GFGlyphData.build_nam_file(args.glyphsets, args.out)
+
+    elif args.command == "missing-in-font":
+        ttFont = TTFont(args.font)
+        missing = GFGlyphData.missing_glyphsets_in_font(ttFont, args.threshold)
+        if not missing:
+            print("No missing glyphs from glyph sets")
+        else:
+            for k, v in missing.items():
+                if v:
+                    print(f"{k} Missing glyphs:")
+                    print("\n".join([f"  {i}" for i in v]))
+                    print()
+        print(
+            "Please note: Unencoded glyphs may be falsely reported due "
+            "to the glyph names in the font using a custom naming schema!"
+        )
 
 
 if __name__ == "__main__":
