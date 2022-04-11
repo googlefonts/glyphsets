@@ -58,5 +58,7 @@ setup(
     install_requires=[
         'setuptools',
         'FontTools[ufo]',
+        'glyphsLib',
+        'defcon',
     ]
 )

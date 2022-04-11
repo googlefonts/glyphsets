@@ -1,3 +1,4 @@
---index-url https://pypi.python.org/simple/
-fontTools==4.28.1
--e .
+setuptools
+FontTools[ufo]
+glyphsLib
+defcon

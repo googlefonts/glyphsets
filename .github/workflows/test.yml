@@ -25,7 +25,7 @@ jobs:
       - name: Install packages
         run: |
           pip install .
-          pip install mypy pytest
+          pip install pytest
       - name: Run Tests
         run: |
           pytest ./tests/*.py
