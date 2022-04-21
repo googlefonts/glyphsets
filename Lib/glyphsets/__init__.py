@@ -127,10 +127,13 @@ class _GFGlyphData:
             )
             self._in_use.add(nice_name)
 
-    def build_glyphsapp_filter_list(self, glyphsets, out=None):
+    def build_glyphsapp_filter_list(self, glyphsets, use_production_names=False, out=None):
         "Build filter lists for glyphs app"
         glyphs = self.glyphs_in_glyphsets(glyphsets)
-        res = [g["nice_name"] for g in glyphs]
+        if use_production_names:
+            res = [g["production_name"] for g in glyphs]
+        else:
+            res = [g["nice_name"] for g in glyphs]
         if out:
             with open(out, "w") as doc:
                 doc.write("\n".join(res))
