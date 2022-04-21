@@ -1,0 +1,3308 @@
+{
+.appVersion = "3124";
+.formatVersion = 3;
+date = "2021-10-28 12:22:31 +0000";
+familyName = "GF Greek Ancient Musical Symbols";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature ordn;
+feature case;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_2;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+tag = case;
+}
+);
+fontMaster = (
+{
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = u1D000;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118784;
+},
+{
+glyphname = u1D001;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118785;
+},
+{
+glyphname = u1D002;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118786;
+},
+{
+glyphname = u1D003;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118787;
+},
+{
+glyphname = u1D004;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118788;
+},
+{
+glyphname = u1D005;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118789;
+},
+{
+glyphname = u1D006;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118790;
+},
+{
+glyphname = u1D007;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118791;
+},
+{
+glyphname = u1D008;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118792;
+},
+{
+glyphname = u1D009;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118793;
+},
+{
+glyphname = u1D00A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118794;
+},
+{
+glyphname = u1D00B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118795;
+},
+{
+glyphname = u1D00C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118796;
+},
+{
+glyphname = u1D00D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118797;
+},
+{
+glyphname = u1D00E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118798;
+},
+{
+glyphname = u1D00F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118799;
+},
+{
+glyphname = u1D010;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118800;
+},
+{
+glyphname = u1D011;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118801;
+},
+{
+glyphname = u1D012;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118802;
+},
+{
+glyphname = u1D013;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118803;
+},
+{
+glyphname = u1D014;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118804;
+},
+{
+glyphname = u1D015;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118805;
+},
+{
+glyphname = u1D016;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118806;
+},
+{
+glyphname = u1D017;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118807;
+},
+{
+glyphname = u1D018;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118808;
+},
+{
+glyphname = u1D019;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118809;
+},
+{
+glyphname = u1D01A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118810;
+},
+{
+glyphname = u1D01B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118811;
+},
+{
+glyphname = u1D01C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118812;
+},
+{
+glyphname = u1D01D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118813;
+},
+{
+glyphname = u1D01E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118814;
+},
+{
+glyphname = u1D01F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118815;
+},
+{
+glyphname = u1D020;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118816;
+},
+{
+glyphname = u1D021;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118817;
+},
+{
+glyphname = u1D022;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118818;
+},
+{
+glyphname = u1D023;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118819;
+},
+{
+glyphname = u1D024;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118820;
+},
+{
+glyphname = u1D025;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118821;
+},
+{
+glyphname = u1D026;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118822;
+},
+{
+glyphname = u1D027;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118823;
+},
+{
+glyphname = u1D028;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118824;
+},
+{
+glyphname = u1D029;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118825;
+},
+{
+glyphname = u1D02A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118826;
+},
+{
+glyphname = u1D02B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118827;
+},
+{
+glyphname = u1D02C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118828;
+},
+{
+glyphname = u1D02D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118829;
+},
+{
+glyphname = u1D02E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118830;
+},
+{
+glyphname = u1D02F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118831;
+},
+{
+glyphname = u1D030;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118832;
+},
+{
+glyphname = u1D031;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118833;
+},
+{
+glyphname = u1D032;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118834;
+},
+{
+glyphname = u1D033;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118835;
+},
+{
+glyphname = u1D034;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118836;
+},
+{
+glyphname = u1D035;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118837;
+},
+{
+glyphname = u1D036;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118838;
+},
+{
+glyphname = u1D037;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118839;
+},
+{
+glyphname = u1D038;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118840;
+},
+{
+glyphname = u1D039;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118841;
+},
+{
+glyphname = u1D03A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118842;
+},
+{
+glyphname = u1D03B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118843;
+},
+{
+glyphname = u1D03C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118844;
+},
+{
+glyphname = u1D03D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118845;
+},
+{
+glyphname = u1D03E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118846;
+},
+{
+glyphname = u1D03F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118847;
+},
+{
+glyphname = u1D040;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118848;
+},
+{
+glyphname = u1D041;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118849;
+},
+{
+glyphname = u1D042;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118850;
+},
+{
+glyphname = u1D043;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118851;
+},
+{
+glyphname = u1D044;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118852;
+},
+{
+glyphname = u1D045;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118853;
+},
+{
+glyphname = u1D046;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118854;
+},
+{
+glyphname = u1D047;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118855;
+},
+{
+glyphname = u1D048;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118856;
+},
+{
+glyphname = u1D049;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118857;
+},
+{
+glyphname = u1D04A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118858;
+},
+{
+glyphname = u1D04B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118859;
+},
+{
+glyphname = u1D04C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118860;
+},
+{
+glyphname = u1D04D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118861;
+},
+{
+glyphname = u1D04E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118862;
+},
+{
+glyphname = u1D04F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118863;
+},
+{
+glyphname = u1D050;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118864;
+},
+{
+glyphname = u1D051;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118865;
+},
+{
+glyphname = u1D052;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118866;
+},
+{
+glyphname = u1D053;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118867;
+},
+{
+glyphname = u1D054;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118868;
+},
+{
+glyphname = u1D055;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118869;
+},
+{
+glyphname = u1D056;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118870;
+},
+{
+glyphname = u1D057;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118871;
+},
+{
+glyphname = u1D058;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118872;
+},
+{
+glyphname = u1D059;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118873;
+},
+{
+glyphname = u1D05A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118874;
+},
+{
+glyphname = u1D05B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118875;
+},
+{
+glyphname = u1D05C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118876;
+},
+{
+glyphname = u1D05D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118877;
+},
+{
+glyphname = u1D05E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118878;
+},
+{
+glyphname = u1D05F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118879;
+},
+{
+glyphname = u1D060;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118880;
+},
+{
+glyphname = u1D061;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118881;
+},
+{
+glyphname = u1D062;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118882;
+},
+{
+glyphname = u1D063;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118883;
+},
+{
+glyphname = u1D064;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118884;
+},
+{
+glyphname = u1D065;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118885;
+},
+{
+glyphname = u1D066;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118886;
+},
+{
+glyphname = u1D067;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118887;
+},
+{
+glyphname = u1D068;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118888;
+},
+{
+glyphname = u1D069;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118889;
+},
+{
+glyphname = u1D06A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118890;
+},
+{
+glyphname = u1D06B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118891;
+},
+{
+glyphname = u1D06C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118892;
+},
+{
+glyphname = u1D06D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118893;
+},
+{
+glyphname = u1D06E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118894;
+},
+{
+glyphname = u1D06F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118895;
+},
+{
+glyphname = u1D070;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118896;
+},
+{
+glyphname = u1D071;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118897;
+},
+{
+glyphname = u1D072;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118898;
+},
+{
+glyphname = u1D073;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118899;
+},
+{
+glyphname = u1D074;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118900;
+},
+{
+glyphname = u1D075;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118901;
+},
+{
+glyphname = u1D076;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118902;
+},
+{
+glyphname = u1D077;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118903;
+},
+{
+glyphname = u1D078;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118904;
+},
+{
+glyphname = u1D079;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118905;
+},
+{
+glyphname = u1D07A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118906;
+},
+{
+glyphname = u1D07B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118907;
+},
+{
+glyphname = u1D07C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118908;
+},
+{
+glyphname = u1D07D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118909;
+},
+{
+glyphname = u1D07E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118910;
+},
+{
+glyphname = u1D07F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118911;
+},
+{
+glyphname = u1D080;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118912;
+},
+{
+glyphname = u1D081;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118913;
+},
+{
+glyphname = u1D082;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118914;
+},
+{
+glyphname = u1D083;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118915;
+},
+{
+glyphname = u1D084;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118916;
+},
+{
+glyphname = u1D085;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118917;
+},
+{
+glyphname = u1D086;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118918;
+},
+{
+glyphname = u1D087;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118919;
+},
+{
+glyphname = u1D088;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118920;
+},
+{
+glyphname = u1D089;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118921;
+},
+{
+glyphname = u1D08A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118922;
+},
+{
+glyphname = u1D08B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118923;
+},
+{
+glyphname = u1D08C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118924;
+},
+{
+glyphname = u1D08D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118925;
+},
+{
+glyphname = u1D08E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118926;
+},
+{
+glyphname = u1D08F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118927;
+},
+{
+glyphname = u1D090;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118928;
+},
+{
+glyphname = u1D091;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118929;
+},
+{
+glyphname = u1D092;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118930;
+},
+{
+glyphname = u1D093;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118931;
+},
+{
+glyphname = u1D094;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118932;
+},
+{
+glyphname = u1D095;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118933;
+},
+{
+glyphname = u1D096;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118934;
+},
+{
+glyphname = u1D097;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118935;
+},
+{
+glyphname = u1D098;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118936;
+},
+{
+glyphname = u1D099;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118937;
+},
+{
+glyphname = u1D09A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118938;
+},
+{
+glyphname = u1D09B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118939;
+},
+{
+glyphname = u1D09C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118940;
+},
+{
+glyphname = u1D09D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118941;
+},
+{
+glyphname = u1D09E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118942;
+},
+{
+glyphname = u1D09F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118943;
+},
+{
+glyphname = u1D0A0;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118944;
+},
+{
+glyphname = u1D0A1;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118945;
+},
+{
+glyphname = u1D0A2;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118946;
+},
+{
+glyphname = u1D0A3;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118947;
+},
+{
+glyphname = u1D0A4;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118948;
+},
+{
+glyphname = u1D0A5;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118949;
+},
+{
+glyphname = u1D0A6;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118950;
+},
+{
+glyphname = u1D0A7;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118951;
+},
+{
+glyphname = u1D0A8;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118952;
+},
+{
+glyphname = u1D0A9;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118953;
+},
+{
+glyphname = u1D0AA;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118954;
+},
+{
+glyphname = u1D0AB;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118955;
+},
+{
+glyphname = u1D0AC;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118956;
+},
+{
+glyphname = u1D0AD;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118957;
+},
+{
+glyphname = u1D0AE;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118958;
+},
+{
+glyphname = u1D0AF;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118959;
+},
+{
+glyphname = u1D0B0;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118960;
+},
+{
+glyphname = u1D0B1;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118961;
+},
+{
+glyphname = u1D0B2;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118962;
+},
+{
+glyphname = u1D0B3;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118963;
+},
+{
+glyphname = u1D0B4;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118964;
+},
+{
+glyphname = u1D0B5;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118965;
+},
+{
+glyphname = u1D0B6;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118966;
+},
+{
+glyphname = u1D0B7;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118967;
+},
+{
+glyphname = u1D0B8;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118968;
+},
+{
+glyphname = u1D0B9;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118969;
+},
+{
+glyphname = u1D0BA;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118970;
+},
+{
+glyphname = u1D0BB;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118971;
+},
+{
+glyphname = u1D0BC;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118972;
+},
+{
+glyphname = u1D0BD;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118973;
+},
+{
+glyphname = u1D0BE;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118974;
+},
+{
+glyphname = u1D0BF;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118975;
+},
+{
+glyphname = u1D0C0;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118976;
+},
+{
+glyphname = u1D0C1;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118977;
+},
+{
+glyphname = u1D0C2;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118978;
+},
+{
+glyphname = u1D0C3;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118979;
+},
+{
+glyphname = u1D0C4;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118980;
+},
+{
+glyphname = u1D0C5;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118981;
+},
+{
+glyphname = u1D0C6;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118982;
+},
+{
+glyphname = u1D0C7;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118983;
+},
+{
+glyphname = u1D0C8;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118984;
+},
+{
+glyphname = u1D0C9;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118985;
+},
+{
+glyphname = u1D0CA;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118986;
+},
+{
+glyphname = u1D0CB;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118987;
+},
+{
+glyphname = u1D0CC;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118988;
+},
+{
+glyphname = u1D0CD;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118989;
+},
+{
+glyphname = u1D0CE;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118990;
+},
+{
+glyphname = u1D0CF;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118991;
+},
+{
+glyphname = u1D0D0;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118992;
+},
+{
+glyphname = u1D0D1;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118993;
+},
+{
+glyphname = u1D0D2;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118994;
+},
+{
+glyphname = u1D0D3;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118995;
+},
+{
+glyphname = u1D0D4;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118996;
+},
+{
+glyphname = u1D0D5;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118997;
+},
+{
+glyphname = u1D0D6;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118998;
+},
+{
+glyphname = u1D0D7;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 118999;
+},
+{
+glyphname = u1D0D8;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119000;
+},
+{
+glyphname = u1D0D9;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119001;
+},
+{
+glyphname = u1D0DA;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119002;
+},
+{
+glyphname = u1D0DB;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119003;
+},
+{
+glyphname = u1D0DC;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119004;
+},
+{
+glyphname = u1D0DD;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119005;
+},
+{
+glyphname = u1D0DE;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119006;
+},
+{
+glyphname = u1D0DF;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119007;
+},
+{
+glyphname = u1D0E0;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119008;
+},
+{
+glyphname = u1D0E1;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119009;
+},
+{
+glyphname = u1D0E2;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119010;
+},
+{
+glyphname = u1D0E3;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119011;
+},
+{
+glyphname = u1D0E4;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119012;
+},
+{
+glyphname = u1D0E5;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119013;
+},
+{
+glyphname = u1D0E6;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119014;
+},
+{
+glyphname = u1D0E7;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119015;
+},
+{
+glyphname = u1D0E8;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119016;
+},
+{
+glyphname = u1D0E9;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119017;
+},
+{
+glyphname = u1D0EA;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119018;
+},
+{
+glyphname = u1D0EB;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119019;
+},
+{
+glyphname = u1D0EC;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119020;
+},
+{
+glyphname = u1D0ED;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119021;
+},
+{
+glyphname = u1D0EE;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119022;
+},
+{
+glyphname = u1D0EF;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119023;
+},
+{
+glyphname = u1D0F0;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119024;
+},
+{
+glyphname = u1D0F1;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119025;
+},
+{
+glyphname = u1D0F2;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119026;
+},
+{
+glyphname = u1D0F3;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119027;
+},
+{
+glyphname = u1D0F4;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119028;
+},
+{
+glyphname = u1D0F5;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119029;
+},
+{
+glyphname = u1D200;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119296;
+},
+{
+glyphname = u1D201;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119297;
+},
+{
+glyphname = u1D202;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119298;
+},
+{
+glyphname = u1D203;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119299;
+},
+{
+glyphname = u1D204;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119300;
+},
+{
+glyphname = u1D205;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119301;
+},
+{
+glyphname = u1D206;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119302;
+},
+{
+glyphname = u1D207;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119303;
+},
+{
+glyphname = u1D208;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119304;
+},
+{
+glyphname = u1D209;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119305;
+},
+{
+glyphname = u1D20A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119306;
+},
+{
+glyphname = u1D20B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119307;
+},
+{
+glyphname = u1D20C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119308;
+},
+{
+glyphname = u1D20D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119309;
+},
+{
+glyphname = u1D20E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119310;
+},
+{
+glyphname = u1D20F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119311;
+},
+{
+glyphname = u1D210;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119312;
+},
+{
+glyphname = u1D211;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119313;
+},
+{
+glyphname = u1D212;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119314;
+},
+{
+glyphname = u1D213;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119315;
+},
+{
+glyphname = u1D214;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119316;
+},
+{
+glyphname = u1D215;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119317;
+},
+{
+glyphname = u1D216;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119318;
+},
+{
+glyphname = u1D217;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119319;
+},
+{
+glyphname = u1D218;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119320;
+},
+{
+glyphname = u1D219;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119321;
+},
+{
+glyphname = u1D21A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119322;
+},
+{
+glyphname = u1D21B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119323;
+},
+{
+glyphname = u1D21C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119324;
+},
+{
+glyphname = u1D21D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119325;
+},
+{
+glyphname = u1D21E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119326;
+},
+{
+glyphname = u1D21F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119327;
+},
+{
+glyphname = u1D220;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119328;
+},
+{
+glyphname = u1D221;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119329;
+},
+{
+glyphname = u1D222;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119330;
+},
+{
+glyphname = u1D223;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119331;
+},
+{
+glyphname = u1D224;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119332;
+},
+{
+glyphname = u1D225;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119333;
+},
+{
+glyphname = u1D226;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119334;
+},
+{
+glyphname = u1D227;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119335;
+},
+{
+glyphname = u1D228;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119336;
+},
+{
+glyphname = u1D229;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119337;
+},
+{
+glyphname = u1D22A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119338;
+},
+{
+glyphname = u1D22B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119339;
+},
+{
+glyphname = u1D22C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119340;
+},
+{
+glyphname = u1D22D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119341;
+},
+{
+glyphname = u1D22E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119342;
+},
+{
+glyphname = u1D22F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119343;
+},
+{
+glyphname = u1D230;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119344;
+},
+{
+glyphname = u1D231;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119345;
+},
+{
+glyphname = u1D232;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119346;
+},
+{
+glyphname = u1D233;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119347;
+},
+{
+glyphname = u1D234;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119348;
+},
+{
+glyphname = u1D235;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119349;
+},
+{
+glyphname = u1D236;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119350;
+},
+{
+glyphname = u1D237;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119351;
+},
+{
+glyphname = u1D238;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119352;
+},
+{
+glyphname = u1D239;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119353;
+},
+{
+glyphname = u1D23A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119354;
+},
+{
+glyphname = u1D23B;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119355;
+},
+{
+glyphname = u1D23C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119356;
+},
+{
+glyphname = u1D23D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119357;
+},
+{
+glyphname = u1D23E;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119358;
+},
+{
+glyphname = u1D23F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119359;
+},
+{
+glyphname = u1D240;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119360;
+},
+{
+glyphname = u1D241;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119361;
+},
+{
+glyphname = u1D242;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119362;
+},
+{
+glyphname = u1D243;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119363;
+},
+{
+glyphname = u1D244;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119364;
+},
+{
+glyphname = u1D245;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119365;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
