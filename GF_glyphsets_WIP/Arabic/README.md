@@ -15,8 +15,6 @@ The character sets intentionally omit Arabic Presentation Forms, because:
 Core
 ----
 
-[GF-arabic-core.nam](https://github.com/googlefonts/gftools/blob/master/Lib/gftools/encodings/GF Glyph Sets/Arabic/GF-arabic-core.nam)
-
 ### Language coverage
 * Arabic, including characters used in Maghrebi varieties of Arabic.
 * Persian
@@ -27,8 +25,6 @@ Core
 
 Plus
 ----
-
-[GF-arabic-plus.nam](https://github.com/googlefonts/gftools/blob/master/Lib/gftools/encodings/GF Glyph Sets/Arabic/GF-arabic-plus.nam)
 
 ### Language coverage
 In addition to languages supported by **Core**:
