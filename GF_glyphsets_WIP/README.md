@@ -20,3 +20,31 @@
 - We want a cli tool (maybe it could be also run inside font editors) which can add glyphs to sources so that they fulfil a glyphset
 - The filter lists and nam files should be automatically generated
 - What about automatic features. Glyphsapp kinda has this but it would be great to make this .fea
+
+--
+Taken from old readme (to rewrite)
+
+Google Fonts 2016 Glyph Sets
+============================
+
+Three levels of Latin glyph sets were developed in June 2016 as a new baseline standard for fonts in the Google Fonts library.
+Existing fonts in the library can be upgraded to these as part of a drive towards new quality standards.
+All new fonts submitted to the library must now support the Plus level as a minumum requirement.
+
+### Acknowledgements:
+
+GF Glyph Sets defined by Alexei Vanyashin (@alexeiva) and Kalapi Gajjar (@kalapi) from 2016-06-27 to 2016-10-11, with input from
+Dave Crossland,
+Denis Jacquerye,
+Frank Grießhammer,
+Georg Seifert,
+Gunnar Vilhjálmsson,
+Jacques Le Bailly,
+Michael Everson,
+Nhung Nguyen (Vietnamese lists),
+Pablo Impallari (Impallari Encoding),
+Rainer Erich Scheichelbauer (@mekkablue),
+Thomas Jockin,
+Thomas Phinney
+(Adobe Cyrillic lists), and
+Underware (Latin Plus Encoding)

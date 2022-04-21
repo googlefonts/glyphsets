@@ -1,0 +1,918 @@
+{
+.appVersion = "3124";
+.formatVersion = 3;
+date = "2021-10-28 12:22:31 +0000";
+familyName = "GF Greek Core";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature ordn;
+feature case;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_2;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+tag = case;
+}
+);
+fontMaster = (
+{
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = Alpha;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 913;
+},
+{
+glyphname = Beta;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 914;
+},
+{
+glyphname = Gamma;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 915;
+},
+{
+glyphname = Delta;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 916;
+},
+{
+glyphname = Epsilon;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 917;
+},
+{
+glyphname = Zeta;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 918;
+},
+{
+glyphname = Eta;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 919;
+},
+{
+glyphname = Theta;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 920;
+},
+{
+glyphname = Iota;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 921;
+},
+{
+glyphname = Kappa;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 922;
+},
+{
+glyphname = Lambda;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 923;
+},
+{
+glyphname = Mu;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 924;
+},
+{
+glyphname = Nu;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 925;
+},
+{
+glyphname = Xi;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 926;
+},
+{
+glyphname = Omicron;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 927;
+},
+{
+glyphname = Pi;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 928;
+},
+{
+glyphname = Rho;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 929;
+},
+{
+glyphname = Sigma;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 931;
+},
+{
+glyphname = Tau;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 932;
+},
+{
+glyphname = Upsilon;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 933;
+},
+{
+glyphname = Phi;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 934;
+},
+{
+glyphname = Chi;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 935;
+},
+{
+glyphname = Psi;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 936;
+},
+{
+glyphname = Omega;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 937;
+},
+{
+glyphname = Alphatonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 902;
+},
+{
+glyphname = Epsilontonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 904;
+},
+{
+glyphname = Etatonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 905;
+},
+{
+glyphname = Iotatonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 906;
+},
+{
+glyphname = Omicrontonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 908;
+},
+{
+glyphname = Upsilontonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 910;
+},
+{
+glyphname = Omegatonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 911;
+},
+{
+glyphname = Iotadieresis;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 938;
+},
+{
+glyphname = Upsilondieresis;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 939;
+},
+{
+glyphname = KaiSymbol;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 975;
+},
+{
+glyphname = alpha;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 945;
+},
+{
+glyphname = beta;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 946;
+},
+{
+glyphname = gamma;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 947;
+},
+{
+glyphname = delta;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 948;
+},
+{
+glyphname = epsilon;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 949;
+},
+{
+glyphname = zeta;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 950;
+},
+{
+glyphname = eta;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 951;
+},
+{
+glyphname = theta;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 952;
+},
+{
+glyphname = iota;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 953;
+},
+{
+glyphname = kappa;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 954;
+},
+{
+glyphname = lambda;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 955;
+},
+{
+glyphname = mu;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 956;
+},
+{
+glyphname = nu;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 957;
+},
+{
+glyphname = xi;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 958;
+},
+{
+glyphname = omicron;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 959;
+},
+{
+glyphname = pi;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 960;
+},
+{
+glyphname = rho;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 961;
+},
+{
+glyphname = sigmafinal;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 962;
+},
+{
+glyphname = sigma;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 963;
+},
+{
+glyphname = tau;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 964;
+},
+{
+glyphname = upsilon;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 965;
+},
+{
+glyphname = phi;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 966;
+},
+{
+glyphname = chi;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 967;
+},
+{
+glyphname = psi;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 968;
+},
+{
+glyphname = omega;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 969;
+},
+{
+glyphname = iotatonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 943;
+},
+{
+glyphname = iotadieresis;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 970;
+},
+{
+glyphname = iotadieresistonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 912;
+},
+{
+glyphname = upsilontonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 973;
+},
+{
+glyphname = upsilondieresis;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 971;
+},
+{
+glyphname = upsilondieresistonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 944;
+},
+{
+glyphname = omicrontonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 972;
+},
+{
+glyphname = omegatonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 974;
+},
+{
+glyphname = alphatonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 940;
+},
+{
+glyphname = epsilontonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 941;
+},
+{
+glyphname = etatonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 942;
+},
+{
+glyphname = kaiSymbol;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 983;
+},
+{
+glyphname = anoteleia;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 903;
+},
+{
+glyphname = questiongreek;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 894;
+},
+{
+glyphname = "numeral-greek";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 884;
+},
+{
+glyphname = "lowernumeral-greek";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 885;
+},
+{
+glyphname = tonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 900;
+},
+{
+glyphname = dieresistonos;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 901;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

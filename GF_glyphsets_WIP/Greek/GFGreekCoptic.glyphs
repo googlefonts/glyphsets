@@ -1,0 +1,1506 @@
+{
+.appVersion = "3124";
+.formatVersion = 3;
+date = "2021-10-28 12:22:31 +0000";
+familyName = "GF Greek Coptic";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature ordn;
+feature case;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_2;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+tag = case;
+}
+);
+fontMaster = (
+{
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = "Alfa-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11392;
+},
+{
+glyphname = "Vida-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11394;
+},
+{
+glyphname = "Gamma-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11396;
+},
+{
+glyphname = "Dalda-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11398;
+},
+{
+glyphname = "Eie-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11400;
+},
+{
+glyphname = "Sou-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11402;
+},
+{
+glyphname = "Zata-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11404;
+},
+{
+glyphname = "Hate-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11406;
+},
+{
+glyphname = "Thethe-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11408;
+},
+{
+glyphname = "Iauda-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11410;
+},
+{
+glyphname = "Kapa-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11412;
+},
+{
+glyphname = "Laula-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11414;
+},
+{
+glyphname = "Mi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11416;
+},
+{
+glyphname = "Ni-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11418;
+},
+{
+glyphname = "Ksi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11420;
+},
+{
+glyphname = "O-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11422;
+},
+{
+glyphname = "Pi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11424;
+},
+{
+glyphname = "Ro-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11426;
+},
+{
+glyphname = "Sima-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11428;
+},
+{
+glyphname = "Tau-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11430;
+},
+{
+glyphname = "Ua-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11432;
+},
+{
+glyphname = "Fi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11434;
+},
+{
+glyphname = "Khi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11436;
+},
+{
+glyphname = "Psi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11438;
+},
+{
+glyphname = "Oou-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11440;
+},
+{
+glyphname = "Cryptogrammiceie-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11446;
+},
+{
+glyphname = "dialectPkapa-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11448;
+},
+{
+glyphname = "dialectPni-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11450;
+},
+{
+glyphname = "Cryptogrammicni-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11452;
+},
+{
+glyphname = "OouOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11454;
+},
+{
+glyphname = "Sampi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11456;
+},
+{
+glyphname = "Shei-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 994;
+},
+{
+glyphname = "SheiCryptogrammic-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11499;
+},
+{
+glyphname = "SheiCrossed-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11458;
+},
+{
+glyphname = "SheiOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11460;
+},
+{
+glyphname = "EshOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11462;
+},
+{
+glyphname = "Fei-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 996;
+},
+{
+glyphname = "Khei-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 998;
+},
+{
+glyphname = "KheiBohairic-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11506;
+},
+{
+glyphname = "KheiAkhmimic-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11464;
+},
+{
+glyphname = "Hori-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1000;
+},
+{
+glyphname = "HoriDialectP-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11466;
+},
+{
+glyphname = "HoriOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11468;
+},
+{
+glyphname = "HaOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11470;
+},
+{
+glyphname = "HaLshaped-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11472;
+},
+{
+glyphname = "HeiOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11474;
+},
+{
+glyphname = "HatOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11476;
+},
+{
+glyphname = "Gangia-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1002;
+},
+{
+glyphname = "GangiaCryptogrammic-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11501;
+},
+{
+glyphname = "GangiaOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11478;
+},
+{
+glyphname = "Shima-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1004;
+},
+{
+glyphname = "DjaOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11480;
+},
+{
+glyphname = "ShimaOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11482;
+},
+{
+glyphname = "Dei-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1006;
+},
+{
+glyphname = "AlefDialectP-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11442;
+},
+{
+glyphname = "AinOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11444;
+},
+{
+glyphname = "alfa-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11393;
+},
+{
+glyphname = "vida-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11395;
+},
+{
+glyphname = "gamma-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11397;
+},
+{
+glyphname = "dalda-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11399;
+},
+{
+glyphname = "eie-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11401;
+},
+{
+glyphname = "sou-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11403;
+},
+{
+glyphname = "zata-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11405;
+},
+{
+glyphname = "hate-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11407;
+},
+{
+glyphname = "thethe-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11409;
+},
+{
+glyphname = "iauda-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11411;
+},
+{
+glyphname = "kapa-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11413;
+},
+{
+glyphname = "laula-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11415;
+},
+{
+glyphname = "mi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11417;
+},
+{
+glyphname = "ni-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11419;
+},
+{
+glyphname = "ksi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11421;
+},
+{
+glyphname = "o-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11423;
+},
+{
+glyphname = "pi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11425;
+},
+{
+glyphname = "ro-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11427;
+},
+{
+glyphname = "sima-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11429;
+},
+{
+glyphname = "tau-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11431;
+},
+{
+glyphname = "ua-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11433;
+},
+{
+glyphname = "fi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11435;
+},
+{
+glyphname = "khi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11437;
+},
+{
+glyphname = "psi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11439;
+},
+{
+glyphname = "oou-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11441;
+},
+{
+glyphname = "cryptogrammiceie-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11447;
+},
+{
+glyphname = "dialectpkapa-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11449;
+},
+{
+glyphname = "dialectpni-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11451;
+},
+{
+glyphname = "cryptogrammicni-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11453;
+},
+{
+glyphname = "oouOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11455;
+},
+{
+glyphname = "sampi-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11457;
+},
+{
+glyphname = "shei-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 995;
+},
+{
+glyphname = "sheiCryptogrammic-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11500;
+},
+{
+glyphname = "sheiCrossed-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11459;
+},
+{
+glyphname = "sheiOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11461;
+},
+{
+glyphname = "eshOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11463;
+},
+{
+glyphname = "fei-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 997;
+},
+{
+glyphname = "khei-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 999;
+},
+{
+glyphname = "kheiBohairic-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11507;
+},
+{
+glyphname = "kheiAkhmimic-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11465;
+},
+{
+glyphname = "hori-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1001;
+},
+{
+glyphname = "horiDialectP-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11467;
+},
+{
+glyphname = "horiOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11469;
+},
+{
+glyphname = "haOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11471;
+},
+{
+glyphname = "haLshaped-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11473;
+},
+{
+glyphname = "heiOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11475;
+},
+{
+glyphname = "hatOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11477;
+},
+{
+glyphname = "gangia-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1003;
+},
+{
+glyphname = "gangiaCryptogrammic-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11502;
+},
+{
+glyphname = "gangiaOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11479;
+},
+{
+glyphname = "shima-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1005;
+},
+{
+glyphname = "djaOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11481;
+},
+{
+glyphname = "shimaOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11483;
+},
+{
+glyphname = "dei-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1007;
+},
+{
+glyphname = "alefDialectP-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11443;
+},
+{
+glyphname = "ainOld-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11445;
+},
+{
+glyphname = "onehalf-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11517;
+},
+{
+glyphname = "fullstop-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11518;
+},
+{
+glyphname = "morphologicaldivider-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11519;
+},
+{
+glyphname = "kai-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11492;
+},
+{
+glyphname = "miro-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11493;
+},
+{
+glyphname = "piro-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11494;
+},
+{
+glyphname = "stauros-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11495;
+},
+{
+glyphname = "tauro-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11496;
+},
+{
+glyphname = "khiro-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11497;
+},
+{
+glyphname = "shimasima-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11498;
+},
+{
+glyphname = uni2CEF;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11503;
+},
+{
+glyphname = uni2CF0;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11504;
+},
+{
+glyphname = uni2CF1;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 11505;
+},
+{
+glyphname = "oldNgi-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldNyi-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldShima-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldWau-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "olddirectquestion-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldfullstop-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldindirectquestion-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldngi-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldnyi-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldshima-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldversedivider-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldwau-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
