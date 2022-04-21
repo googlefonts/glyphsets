@@ -1,6 +1,7 @@
 """
 GF Glyph Database
 """
+import plistlib
 import json
 import os
 from re import L
@@ -128,12 +129,30 @@ class _GFGlyphData:
             self._in_use.add(nice_name)
 
     def build_glyphsapp_filter_list(self, glyphsets, use_production_names=False, out=None):
-        "Build filter lists for glyphs app"
+        """Build filter lists"""
         glyphs = self.glyphs_in_glyphsets(glyphsets)
-        if use_production_names:
-            res = [g["production_name"] for g in glyphs]
+        if out.endswith("plist"):
+            # glyphsapp need a prefix for the out file of "CustomFilter"
+            if not os.path.basename(out).startswith("CustomFilter"):
+                print("Prefixing 'CustomFilter' to out path since file is intended for Glyphsapp")
+                out = os.path.join(os.path.dirname(out), "CustomFilter" + os.path.basename(out))
+            res = {k:[] for k in glyphsets}
+            for glyphset in glyphsets:
+                for glyph in glyphs:
+                    if glyphset in glyph["glyphsets"]:
+                        if use_production_names:
+                            res[glyphset].append(glyph["production_name"])
+                        else:
+                            res[glyphset].append(glyph["nice_name"])
+
+            res = [{"name": k, "list": v} for k,v in res.items()]
+            res = [plistlib.dumps(res).decode("utf-8")]
         else:
-            res = [g["nice_name"] for g in glyphs]
+            if use_production_names:
+                res = [g["production_name"] for g in glyphs]
+            else:
+                res = [g["nice_name"] for g in glyphs]
+
         if out:
             with open(out, "w") as doc:
                 doc.write("\n".join(res))
