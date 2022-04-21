@@ -131,7 +131,7 @@ class _GFGlyphData:
     def build_glyphsapp_filter_list(self, glyphsets, use_production_names=False, out=None):
         """Build filter lists"""
         glyphs = self.glyphs_in_glyphsets(glyphsets)
-        if out.endswith("plist"):
+        if out and out.endswith("plist"):
             # glyphsapp need a prefix for the out file of "CustomFilter"
             if not os.path.basename(out).startswith("CustomFilter"):
                 print("Prefixing 'CustomFilter' to out path since file is intended for Glyphsapp")
