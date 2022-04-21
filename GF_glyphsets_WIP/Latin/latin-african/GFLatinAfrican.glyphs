@@ -1,5 +1,5 @@
 {
-.appVersion = "3116";
+.appVersion = "3124";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Latin African";
@@ -184,7 +184,7 @@ unicode = 194;
 {
 color = 1;
 glyphname = Acircumflexdotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -796,7 +796,7 @@ unicode = 7704;
 {
 color = 1;
 glyphname = Ecircumflexdotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -844,7 +844,7 @@ unicode = 278;
 {
 color = 1;
 glyphname = Edotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -976,7 +976,7 @@ unicode = 582;
 {
 color = 1;
 glyphname = Etilde;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -1444,7 +1444,7 @@ unicode = 304;
 {
 color = 1;
 glyphname = Idotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -1528,7 +1528,7 @@ unicode = 407;
 {
 color = 1;
 glyphname = Itilde;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -2128,7 +2128,7 @@ unicode = 212;
 {
 color = 1;
 glyphname = Ocircumflexdotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -2200,7 +2200,7 @@ unicode = 560;
 {
 color = 1;
 glyphname = Odotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -2344,7 +2344,7 @@ unicode = 216;
 {
 color = 1;
 glyphname = Oslashacute;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -3100,7 +3100,7 @@ unicode = 469;
 {
 color = 1;
 glyphname = Udotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -3208,7 +3208,7 @@ unicode = 366;
 {
 color = 1;
 glyphname = Utilde;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -3736,7 +3736,7 @@ unicode = 226;
 {
 color = 1;
 glyphname = acircumflexdotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -3796,7 +3796,7 @@ unicode = 551;
 {
 color = 1;
 glyphname = adotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -4372,7 +4372,7 @@ unicode = 7705;
 {
 color = 1;
 glyphname = ecircumflexdotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -4420,7 +4420,7 @@ unicode = 279;
 {
 color = 1;
 glyphname = edotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -4540,7 +4540,7 @@ unicode = 583;
 {
 color = 1;
 glyphname = etilde;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -4576,7 +4576,7 @@ unicode = 477;
 {
 color = 1;
 glyphname = schwa;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -5043,7 +5043,7 @@ width = 600;
 {
 color = 1;
 glyphname = idotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -5139,7 +5139,7 @@ unicode = 616;
 {
 color = 1;
 glyphname = itilde;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -5751,7 +5751,7 @@ unicode = 244;
 {
 color = 1;
 glyphname = ocircumflexdotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -5823,7 +5823,7 @@ unicode = 561;
 {
 color = 1;
 glyphname = odotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -5967,7 +5967,7 @@ unicode = 248;
 {
 color = 1;
 glyphname = oslashacute;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -6243,7 +6243,7 @@ unicode = 7773;
 {
 color = 1;
 glyphname = rfishhook;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -6747,7 +6747,7 @@ unicode = 470;
 {
 color = 1;
 glyphname = udotbelow;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -6855,7 +6855,7 @@ unicode = 367;
 {
 color = 1;
 glyphname = utilde;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -8053,7 +8053,7 @@ unicode = 39;
 {
 color = 1;
 glyphname = florin;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -8473,7 +8473,7 @@ unicode = 768;
 {
 color = 1;
 glyphname = gravecomb_macroncomb;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -8496,7 +8496,7 @@ unicode = 769;
 {
 color = 1;
 glyphname = acutecomb_macroncomb;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -8602,7 +8602,7 @@ unicode = 772;
 {
 color = 1;
 glyphname = macroncomb_gravecomb;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -8613,7 +8613,7 @@ width = 600;
 {
 color = 1;
 glyphname = macroncomb_acutecomb;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -8792,7 +8792,7 @@ unicode = 816;
 {
 color = 1;
 glyphname = macronbelowcomb;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:43:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -9140,7 +9140,7 @@ unicode = 42926;
 {
 color = 7;
 glyphname = uniA7B8;
-lastChange = "2022-03-04 15:36:06 +0000";
+lastChange = "2022-04-21 09:49:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -9150,9 +9150,7 @@ width = 600;
 unicode = 42936;
 },
 {
-color = 7;
 glyphname = uniA7B9;
-lastChange = "2022-03-04 15:36:06 +0000";
 layers = (
 {
 layerId = m01;
