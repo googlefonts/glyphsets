@@ -87,6 +87,8 @@ class _GFGlyphData:
             if isinstance(src, GSFont):
                 glyphset = os.path.basename(src.filepath).split(".")[0]
                 for g in src.glyphs:
+                    if not g.export:
+                        continue
                     self.add_glyph(glyphset, g.name, unicodes=g.unicode)
             elif isinstance(src, Font):
                 glyphset = os.path.basename(src.path).split(".")[0]
