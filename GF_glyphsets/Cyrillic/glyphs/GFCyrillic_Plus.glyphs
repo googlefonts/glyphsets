@@ -1,0 +1,1087 @@
+{
+.appVersion = "3124";
+.formatVersion = 3;
+date = "2021-10-28 12:22:31 +0000";
+familyName = "GF Cyrillic Plus";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature ordn;
+feature case;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_2;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+tag = case;
+}
+);
+fontMaster = (
+{
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = "Gedescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1270;
+},
+{
+glyphname = "Gestroke-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1170;
+},
+{
+glyphname = "Gemiddlehook-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1172;
+},
+{
+glyphname = "Yat-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1122;
+},
+{
+glyphname = "Yusbig-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1130;
+},
+{
+glyphname = "Fita-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1138;
+},
+{
+glyphname = "Izhitsa-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1140;
+},
+{
+glyphname = "Zhedescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1174;
+},
+{
+glyphname = "Zedescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1176;
+},
+{
+glyphname = "Kadescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1178;
+},
+{
+glyphname = "Kaverticalstroke-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1180;
+},
+{
+glyphname = "Kabashkir-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1184;
+},
+{
+glyphname = "Endescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1186;
+},
+{
+glyphname = "EnGe-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1188;
+},
+{
+glyphname = "Esdescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1194;
+},
+{
+glyphname = "Ustraight-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1198;
+},
+{
+glyphname = "Ustraightstroke-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1200;
+},
+{
+glyphname = "Hadescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1202;
+},
+{
+glyphname = "Chedescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1206;
+},
+{
+glyphname = "Cheverticalstroke-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1208;
+},
+{
+glyphname = "Shha-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1210;
+},
+{
+glyphname = "Palochka-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1216;
+},
+{
+glyphname = "Zhebreve-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1217;
+},
+{
+glyphname = "Chekhakassian-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1227;
+},
+{
+glyphname = "Abreve-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1232;
+},
+{
+glyphname = "Adieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1234;
+},
+{
+glyphname = "Aie-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1236;
+},
+{
+glyphname = "Iebreve-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1238;
+},
+{
+glyphname = "Schwa-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1240;
+},
+{
+glyphname = "Zhedieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1244;
+},
+{
+glyphname = "Zedieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1246;
+},
+{
+glyphname = "Imacron-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1250;
+},
+{
+glyphname = "Idieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1252;
+},
+{
+glyphname = "Odieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1254;
+},
+{
+glyphname = "Obarred-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1256;
+},
+{
+glyphname = "Umacron-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1262;
+},
+{
+glyphname = "Udieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1264;
+},
+{
+glyphname = "Uhungarumlaut-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1266;
+},
+{
+glyphname = "Chedieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1268;
+},
+{
+glyphname = "Yerudieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1272;
+},
+{
+glyphname = "Qa-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1306;
+},
+{
+glyphname = "We-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1308;
+},
+{
+glyphname = "gedescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1271;
+},
+{
+glyphname = "gestroke-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1171;
+},
+{
+glyphname = "gemiddlehook-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1173;
+},
+{
+glyphname = "yat-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1123;
+},
+{
+glyphname = "yusbig-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1131;
+},
+{
+glyphname = "fita-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1139;
+},
+{
+glyphname = "izhitsa-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1141;
+},
+{
+glyphname = "zhedescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1175;
+},
+{
+glyphname = "zedescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1177;
+},
+{
+glyphname = "kadescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1179;
+},
+{
+glyphname = "kaverticalstroke-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1181;
+},
+{
+glyphname = "kabashkir-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1185;
+},
+{
+glyphname = "endescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1187;
+},
+{
+glyphname = "enge-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1189;
+},
+{
+glyphname = "esdescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1195;
+},
+{
+glyphname = "ustraight-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1199;
+},
+{
+glyphname = "ustraightstroke-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1201;
+},
+{
+glyphname = "hadescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1203;
+},
+{
+glyphname = "chedescender-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1207;
+},
+{
+glyphname = "cheverticalstroke-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1209;
+},
+{
+glyphname = "shha-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1211;
+},
+{
+glyphname = "palochka-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1231;
+},
+{
+glyphname = "zhebreve-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1218;
+},
+{
+glyphname = "chekhakassian-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1228;
+},
+{
+glyphname = "abreve-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1233;
+},
+{
+glyphname = "adieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1235;
+},
+{
+glyphname = "aie-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1237;
+},
+{
+glyphname = "iebreve-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1239;
+},
+{
+glyphname = "schwa-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1241;
+},
+{
+glyphname = "zhedieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1245;
+},
+{
+glyphname = "zedieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1247;
+},
+{
+glyphname = "imacron-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1251;
+},
+{
+glyphname = "idieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1253;
+},
+{
+glyphname = "odieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1255;
+},
+{
+glyphname = "obarred-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1257;
+},
+{
+glyphname = "umacron-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1263;
+},
+{
+glyphname = "udieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1265;
+},
+{
+glyphname = "uhungarumlaut-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1267;
+},
+{
+glyphname = "chedieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1269;
+},
+{
+glyphname = "yerudieresis-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1273;
+},
+{
+glyphname = "qa-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1307;
+},
+{
+glyphname = "we-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1309;
+},
+{
+glyphname = hryvnia;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 8372;
+},
+{
+glyphname = tenge;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 8376;
+},
+{
+glyphname = tugrik;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 8366;
+},
+{
+glyphname = "brevecomb-cy";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = dieresiscomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 776;
+},
+{
+glyphname = gravecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 768;
+},
+{
+glyphname = acutecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 769;
+},
+{
+glyphname = hungarumlautcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 779;
+},
+{
+glyphname = macroncomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 772;
+},
+{
+glyphname = apostrophemod;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 700;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
