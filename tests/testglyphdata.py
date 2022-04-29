@@ -7,6 +7,7 @@ import os
 
 DATA_FP = os.path.join(os.path.dirname(__file__), "data")
 
+
 @pytest.fixture
 def db():
     data = {
@@ -49,7 +50,6 @@ def db():
 def ttFont():
     fp = os.path.join(DATA_FP, "MavenPro[wght].ttf")
     return TTFont(fp)
-    
 
 
 def glyphs_src1():
@@ -176,4 +176,14 @@ def test_update_db(db):
 def test_glyphsets_missing_in_font(db, ttFont):
     # TODO use fonttools fontbuilder and make a font from scratch
     missing = db.missing_glyphsets_in_font(ttFont, threshold=0)
-    assert missing == {"GFLatinAfrican": ["fdotaccent"]}
+    assert missing == {
+        "GFLatinAfrican": [
+            {
+                "nice_name": "fdotaccent",
+                "production_name": "uni1E1F",
+                "character": "ḟ",
+                "unicode": 7711,
+                "glyphsets": ["GFLatinAfrican"],
+            }
+        ]
+    }

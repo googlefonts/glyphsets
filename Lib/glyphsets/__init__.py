@@ -54,9 +54,9 @@ class _GFGlyphData:
                         g["unicode"] in unicodes_in_font,
                     ]
                 ):
-                    res[glyphset]["has"].append(g["nice_name"])
+                    res[glyphset]["has"].append(g)
                 else:
-                    res[glyphset]["missing"].append(g["nice_name"])
+                    res[glyphset]["missing"].append(g)
 
         fulfilled = {
             k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
@@ -129,6 +129,17 @@ class _GFGlyphData:
                 }
             )
             self._in_use.add(nice_name)
+
+    def get_glyph(self, nice_name=None, production_name=None, character=None, uni=None):
+        if nice_name:
+            return next((g for g in self._data["glyphs"] if g["nice_name"] == nice_name), None)
+        elif production_name:
+            return next((g for g in self._data["glyphs"] if g["production_name"] == production_name), None)
+        elif character:
+            return next((g for g in self._data["glyphs"] if g["character"] == character), None)
+        elif uni:
+            return next((g for g in self._data["glyphs"] if g["unicode"] == uni), None)
+        return None
 
     def build_glyphsapp_filter_list(self, glyphsets, use_production_names=False, out=None):
         """Build filter lists"""
