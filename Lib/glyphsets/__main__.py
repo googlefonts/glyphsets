@@ -49,7 +49,9 @@ def main():
     args = parser.parse_args()
 
     if args.command == "filter-list":
-        GFGlyphData.build_glyphsapp_filter_list(args.glyphsets, args.prod_names, args.out)
+        GFGlyphData.build_glyphsapp_filter_list(
+            args.glyphsets, args.prod_names, args.out
+        )
 
     elif args.command == "update-srcs":
         srcs = [load_source(src) for src in args.srcs]
