@@ -49,7 +49,9 @@ def main():
     args = parser.parse_args()
 
     if args.command == "filter-list":
-        GFGlyphData.build_glyphsapp_filter_list(args.glyphsets, args.prod_names, args.out)
+        GFGlyphData.build_glyphsapp_filter_list(
+            args.glyphsets, args.prod_names, args.out
+        )
 
     elif args.command == "update-srcs":
         srcs = [load_source(src) for src in args.srcs]
@@ -74,7 +76,7 @@ def main():
             for k, v in missing.items():
                 if v:
                     print(f"{k} Missing glyphs:")
-                    print("\n".join([f"  {i}" for i in v]))
+                    print("\n".join([f"  {i['nice_name']}" for i in v]))
                     print()
         print(
             "Please note: Unencoded glyphs may be falsely reported due "
