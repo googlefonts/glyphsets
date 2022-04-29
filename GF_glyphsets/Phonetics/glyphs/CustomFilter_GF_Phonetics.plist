@@ -344,7 +344,7 @@
 			<string>ogonek</string>
 		</array>
 		<key>name</key>
-		<string>GFLatin_Core</string>
+		<string>GF_Latin_Core</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -372,19 +372,19 @@
 			<string>thetamod</string>
 		</array>
 		<key>name</key>
-		<string>GFPhonetics_APA</string>
+		<string>GF_Phonetics_APA</string>
 	</dict>
 	<dict>
 		<key>list</key>
 		<array/>
 		<key>name</key>
-		<string>GFPhonetics_DisorderedSpeech</string>
+		<string>GF_Phonetics_DisorderedSpeech</string>
 	</dict>
 	<dict>
 		<key>list</key>
 		<array/>
 		<key>name</key>
-		<string>GFPhonetics_IPACaps</string>
+		<string>GF_Phonetics_IPACaps</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -403,7 +403,7 @@
 			<string>ts</string>
 		</array>
 		<key>name</key>
-		<string>GFPhonetics_IPAHistorical</string>
+		<string>GF_Phonetics_IPAHistorical</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -596,13 +596,13 @@
 			<string>verticallinelowmod</string>
 		</array>
 		<key>name</key>
-		<string>GFPhonetics_IPAStandard</string>
+		<string>GF_Phonetics_IPAStandard</string>
 	</dict>
 	<dict>
 		<key>list</key>
 		<array/>
 		<key>name</key>
-		<string>GFPhonetics_UPA</string>
+		<string>GF_Phonetics_UPA</string>
 	</dict>
 </array>
 </plist>

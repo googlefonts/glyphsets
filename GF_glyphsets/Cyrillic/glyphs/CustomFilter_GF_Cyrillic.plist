@@ -344,7 +344,7 @@
 			<string>ogonek</string>
 		</array>
 		<key>name</key>
-		<string>GFLatin_Core</string>
+		<string>GF_Latin_Core</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -450,7 +450,7 @@
 			<string>numero</string>
 		</array>
 		<key>name</key>
-		<string>GFCyrillic_Core</string>
+		<string>GF_Cyrillic_Core</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -493,7 +493,7 @@
 			<string>uni047F</string>
 		</array>
 		<key>name</key>
-		<string>GFCyrillic_Historical</string>
+		<string>GF_Cyrillic_Historical</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -594,7 +594,7 @@
 			<string>apostrophemod</string>
 		</array>
 		<key>name</key>
-		<string>GFCyrillic_Plus</string>
+		<string>GF_Cyrillic_Plus</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -630,7 +630,7 @@
 			<string>te-cy.loclSRB</string>
 		</array>
 		<key>name</key>
-		<string>GFCyrillic_PlusLoclItalic</string>
+		<string>GF_Cyrillic_PlusLoclItalic</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -672,7 +672,7 @@
 			<string>hardsign-cy.loclBGR</string>
 		</array>
 		<key>name</key>
-		<string>GFCyrillic_PlusLoclRoman</string>
+		<string>GF_Cyrillic_PlusLoclRoman</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -735,7 +735,7 @@
 			<string>eldescender-cy</string>
 		</array>
 		<key>name</key>
-		<string>GFCyrillic_Pro</string>
+		<string>GF_Cyrillic_Pro</string>
 	</dict>
 </array>
 </plist>

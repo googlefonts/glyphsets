@@ -423,7 +423,7 @@
 			<string>uniA7B9</string>
 		</array>
 		<key>name</key>
-		<string>GFLatin_African</string>
+		<string>GF_Latin_African</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -767,7 +767,7 @@
 			<string>ogonek</string>
 		</array>
 		<key>name</key>
-		<string>GFLatin_Core</string>
+		<string>GF_Latin_Core</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -893,7 +893,7 @@
 			<string>grave</string>
 		</array>
 		<key>name</key>
-		<string>GFLatin_Kernel</string>
+		<string>GF_Latin_Kernel</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -943,7 +943,7 @@
 			<string>verticallinemod</string>
 		</array>
 		<key>name</key>
-		<string>GFLatin_Minorities</string>
+		<string>GF_Latin_Minorities</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -1081,7 +1081,7 @@
 			<string>leftWhiteSmallTriangle</string>
 		</array>
 		<key>name</key>
-		<string>GFLatin_Plus</string>
+		<string>GF_Latin_Plus</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -1195,7 +1195,7 @@
 			<string>horncomb</string>
 		</array>
 		<key>name</key>
-		<string>GFLatin_Vietnamese</string>
+		<string>GF_Latin_Vietnamese</string>
 	</dict>
 </array>
 </plist>

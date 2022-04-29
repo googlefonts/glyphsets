@@ -344,7 +344,7 @@
 			<string>ogonek</string>
 		</array>
 		<key>name</key>
-		<string>GFLatin_Core</string>
+		<string>GF_Latin_Core</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -667,7 +667,7 @@
 			<string>u1D245</string>
 		</array>
 		<key>name</key>
-		<string>GFGreek_AncientMusicalSymbols</string>
+		<string>GF_Greek_AncientMusicalSymbols</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -817,7 +817,7 @@
 			<string>whiteSquare</string>
 		</array>
 		<key>name</key>
-		<string>GFGreek_Archaic</string>
+		<string>GF_Greek_Archaic</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -961,7 +961,7 @@
 			<string>oldwau-nubian-coptic</string>
 		</array>
 		<key>name</key>
-		<string>GFGreek_Coptic</string>
+		<string>GF_Greek_Coptic</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -1045,7 +1045,7 @@
 			<string>dieresistonos</string>
 		</array>
 		<key>name</key>
-		<string>GFGreek_Core</string>
+		<string>GF_Greek_Core</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -1334,7 +1334,7 @@
 			<string>dieresistonos.sc</string>
 		</array>
 		<key>name</key>
-		<string>GFGreek_Expert</string>
+		<string>GF_Greek_Expert</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -1606,7 +1606,7 @@
 			<string>perispomeni</string>
 		</array>
 		<key>name</key>
-		<string>GFGreek_Plus</string>
+		<string>GF_Greek_Plus</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -1695,7 +1695,7 @@
 			<string>dotaccent</string>
 		</array>
 		<key>name</key>
-		<string>GFGreek_Pro</string>
+		<string>GF_Greek_Pro</string>
 	</dict>
 </array>
 </plist>
