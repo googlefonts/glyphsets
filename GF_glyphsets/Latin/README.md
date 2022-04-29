@@ -1,7 +1,7 @@
 Google Fonts Latin Character Sets
 ==================================
 
-These glyphset are still a work in progress.
+These glyphset are new, and production-ready, but are expected to continue to evolve in summer 2022 until they settle down for a few years again. Upcoming changes include:
 - "Minority" set still doesn't support indigenous latin transcript for Northen American languages.
 - We should define a number of speaker that draws the line between Core and Minority 
 
