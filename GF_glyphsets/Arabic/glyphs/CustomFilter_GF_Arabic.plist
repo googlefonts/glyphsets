@@ -344,7 +344,7 @@
 			<string>ogonek</string>
 		</array>
 		<key>name</key>
-		<string>GFLatin_Core</string>
+		<string>GF_Latin_Core</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -495,7 +495,7 @@
 			<string>uni069COVE</string>
 		</array>
 		<key>name</key>
-		<string>GFArabic_Core</string>
+		<string>GF_Arabic_Core</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -545,7 +545,7 @@
 			<string>fathaHorizont-ar</string>
 		</array>
 		<key>name</key>
-		<string>GFArabic_Plus</string>
+		<string>GF_Arabic_Plus</string>
 	</dict>
 </array>
 </plist>
