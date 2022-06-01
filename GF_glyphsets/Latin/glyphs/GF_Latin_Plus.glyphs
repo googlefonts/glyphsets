@@ -56,6 +56,106 @@ width = 600;
 );
 },
 {
+glyphname = zero.tf;
+lastChange = "2022-06-01 08:34:53 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = one.tf;
+lastChange = "2022-06-01 08:34:53 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = two.tf;
+lastChange = "2022-06-01 08:34:53 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = three.tf;
+lastChange = "2022-06-01 08:34:53 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = four.tf;
+lastChange = "2022-06-01 08:34:53 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = five.tf;
+lastChange = "2022-06-01 08:34:53 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = six.tf;
+lastChange = "2022-06-01 08:34:53 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = seven.tf;
+lastChange = "2022-06-01 08:34:53 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = eight.tf;
+lastChange = "2022-06-01 08:34:53 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = nine.tf;
+lastChange = "2022-06-01 08:34:53 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
 glyphname = zero.dnom;
 lastChange = "2022-04-27 12:14:42 +0000";
 layers = (
