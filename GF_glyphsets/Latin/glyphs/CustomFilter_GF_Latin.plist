@@ -956,6 +956,8 @@
 			<string>pi</string>
 			<string>dblverticalbar</string>
 			<string>kip</string>
+			<string>paragraph</string>
+			<string>section</string>
 			<string>zero.zero</string>
 			<string>zero.dnom</string>
 			<string>one.dnom</string>
@@ -1079,6 +1081,16 @@
 			<string>rightWhiteSmallTriangle</string>
 			<string>downWhiteSmallTriangle</string>
 			<string>leftWhiteSmallTriangle</string>
+			<string>zero.tf</string>
+			<string>one.tf</string>
+			<string>two.tf</string>
+			<string>three.tf</string>
+			<string>four.tf</string>
+			<string>five.tf</string>
+			<string>six.tf</string>
+			<string>seven.tf</string>
+			<string>eight.tf</string>
+			<string>nine.tf</string>
 		</array>
 		<key>name</key>
 		<string>GF_Latin_Plus</string>
