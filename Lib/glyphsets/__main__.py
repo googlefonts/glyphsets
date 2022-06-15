@@ -45,6 +45,7 @@ def main():
         "--threshold",
         help="Show missing glyphs if glyph count is greater than",
         default=0.8,
+        type=float,
     )
     args = parser.parse_args()
 
