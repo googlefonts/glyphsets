@@ -22743,9 +22743,7 @@
       "character": "\u00b6",
       "unicode": 182,
       "glyphsets": [
-        "GF_Latin_Core",
-        "GF_Latin_Kernel",
-        "GF_Latin_Plus"
+        "GF_Latin_Core"
       ]
     },
     {
@@ -22754,9 +22752,7 @@
       "character": "\u00a7",
       "unicode": 167,
       "glyphsets": [
-        "GF_Latin_Core",
-        "GF_Latin_Kernel",
-        "GF_Latin_Plus"
+        "GF_Latin_Core"
       ]
     },
     {

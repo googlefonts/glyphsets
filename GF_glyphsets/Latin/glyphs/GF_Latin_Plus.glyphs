@@ -1,5 +1,5 @@
 {
-.appVersion = "3129";
+.appVersion = "3132";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Latin Plus";
@@ -662,26 +662,6 @@ width = 600;
 }
 );
 unicode = 3647;
-},
-{
-glyphname = paragraph;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 182;
-},
-{
-glyphname = section;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 167;
 },
 {
 glyphname = minute;

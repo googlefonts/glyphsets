@@ -876,8 +876,6 @@
 			<string>underscore</string>
 			<string>at</string>
 			<string>ampersand</string>
-			<string>paragraph</string>
-			<string>section</string>
 			<string>copyright</string>
 			<string>registered</string>
 			<string>trademark</string>
@@ -956,8 +954,6 @@
 			<string>pi</string>
 			<string>dblverticalbar</string>
 			<string>kip</string>
-			<string>paragraph</string>
-			<string>section</string>
 			<string>zero.zero</string>
 			<string>zero.dnom</string>
 			<string>one.dnom</string>

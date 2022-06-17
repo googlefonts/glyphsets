@@ -6,8 +6,6 @@ whiteSquare
 pi
 dblverticalbar
 kip
-paragraph
-section
 zero.zero
 zero.dnom
 one.dnom

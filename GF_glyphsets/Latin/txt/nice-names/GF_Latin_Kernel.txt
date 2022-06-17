@@ -102,8 +102,6 @@ emdash
 underscore
 at
 ampersand
-paragraph
-section
 copyright
 registered
 trademark

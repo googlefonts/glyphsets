@@ -6,8 +6,6 @@ uni25A1
 pi
 uni2016
 uni20AD
-paragraph
-section
 zero.zero
 zero.dnom
 one.dnom
