@@ -876,8 +876,6 @@
 			<string>underscore</string>
 			<string>at</string>
 			<string>ampersand</string>
-			<string>paragraph</string>
-			<string>section</string>
 			<string>copyright</string>
 			<string>registered</string>
 			<string>trademark</string>
@@ -1079,6 +1077,16 @@
 			<string>rightWhiteSmallTriangle</string>
 			<string>downWhiteSmallTriangle</string>
 			<string>leftWhiteSmallTriangle</string>
+			<string>zero.tf</string>
+			<string>one.tf</string>
+			<string>two.tf</string>
+			<string>three.tf</string>
+			<string>four.tf</string>
+			<string>five.tf</string>
+			<string>six.tf</string>
+			<string>seven.tf</string>
+			<string>eight.tf</string>
+			<string>nine.tf</string>
 		</array>
 		<key>name</key>
 		<string>GF_Latin_Plus</string>

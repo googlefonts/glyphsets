@@ -1,5 +1,5 @@
 {
-.appVersion = "3124";
+.appVersion = "3132";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Latin Core";
@@ -3361,9 +3361,7 @@ width = 600;
 unicode = 38;
 },
 {
-color = 10;
 glyphname = paragraph;
-lastChange = "2022-03-04 12:31:22 +0000";
 layers = (
 {
 layerId = m01;
@@ -3373,9 +3371,7 @@ width = 600;
 unicode = 182;
 },
 {
-color = 10;
 glyphname = section;
-lastChange = "2022-03-04 12:31:22 +0000";
 layers = (
 {
 layerId = m01;

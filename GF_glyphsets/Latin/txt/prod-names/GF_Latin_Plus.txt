@@ -129,3 +129,13 @@ uni25B5
 uni25B9
 uni25BF
 uni25C3
+zero.tf
+one.tf
+two.tf
+three.tf
+four.tf
+five.tf
+six.tf
+seven.tf
+eight.tf
+nine.tf

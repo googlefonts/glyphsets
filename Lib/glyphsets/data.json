@@ -22743,8 +22743,7 @@
       "character": "\u00b6",
       "unicode": 182,
       "glyphsets": [
-        "GF_Latin_Core",
-        "GF_Latin_Kernel"
+        "GF_Latin_Core"
       ]
     },
     {
@@ -22753,8 +22752,7 @@
       "character": "\u00a7",
       "unicode": 167,
       "glyphsets": [
-        "GF_Latin_Core",
-        "GF_Latin_Kernel"
+        "GF_Latin_Core"
       ]
     },
     {
@@ -26352,6 +26350,96 @@
       "unicode": null,
       "glyphsets": [
         "GF_TransLatin_Pinyin"
+      ]
+    },
+    {
+      "nice_name": "zero.tf",
+      "production_name": "zero.tf",
+      "character": null,
+      "unicode": null,
+      "glyphsets": [
+        "GF_Latin_Plus"
+      ]
+    },
+    {
+      "nice_name": "one.tf",
+      "production_name": "one.tf",
+      "character": null,
+      "unicode": null,
+      "glyphsets": [
+        "GF_Latin_Plus"
+      ]
+    },
+    {
+      "nice_name": "two.tf",
+      "production_name": "two.tf",
+      "character": null,
+      "unicode": null,
+      "glyphsets": [
+        "GF_Latin_Plus"
+      ]
+    },
+    {
+      "nice_name": "three.tf",
+      "production_name": "three.tf",
+      "character": null,
+      "unicode": null,
+      "glyphsets": [
+        "GF_Latin_Plus"
+      ]
+    },
+    {
+      "nice_name": "four.tf",
+      "production_name": "four.tf",
+      "character": null,
+      "unicode": null,
+      "glyphsets": [
+        "GF_Latin_Plus"
+      ]
+    },
+    {
+      "nice_name": "five.tf",
+      "production_name": "five.tf",
+      "character": null,
+      "unicode": null,
+      "glyphsets": [
+        "GF_Latin_Plus"
+      ]
+    },
+    {
+      "nice_name": "six.tf",
+      "production_name": "six.tf",
+      "character": null,
+      "unicode": null,
+      "glyphsets": [
+        "GF_Latin_Plus"
+      ]
+    },
+    {
+      "nice_name": "seven.tf",
+      "production_name": "seven.tf",
+      "character": null,
+      "unicode": null,
+      "glyphsets": [
+        "GF_Latin_Plus"
+      ]
+    },
+    {
+      "nice_name": "eight.tf",
+      "production_name": "eight.tf",
+      "character": null,
+      "unicode": null,
+      "glyphsets": [
+        "GF_Latin_Plus"
+      ]
+    },
+    {
+      "nice_name": "nine.tf",
+      "production_name": "nine.tf",
+      "character": null,
+      "unicode": null,
+      "glyphsets": [
+        "GF_Latin_Plus"
       ]
     }
   ]

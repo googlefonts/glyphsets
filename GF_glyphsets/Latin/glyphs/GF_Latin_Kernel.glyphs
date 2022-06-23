@@ -1,5 +1,5 @@
 {
-.appVersion = "3124";
+.appVersion = "3129";
 .formatVersion = 3;
 date = "2021-09-08 07:29:12 +0000";
 familyName = "GF Latin Kernel";
@@ -1185,30 +1185,6 @@ width = 600;
 }
 );
 unicode = 38;
-},
-{
-color = 5;
-glyphname = paragraph;
-lastChange = "2022-03-04 12:37:26 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 182;
-},
-{
-color = 5;
-glyphname = section;
-lastChange = "2022-03-04 12:37:26 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 167;
 },
 {
 color = 5;
