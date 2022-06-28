@@ -41,7 +41,7 @@ class _GFGlyphData:
 
     def missing_glyphsets_in_font(self, ttFont, threshold=0.8):
         glyphs_in_font = set(ttFont.getGlyphOrder())
-        unicodes_in_font = set(ttFont.getBestCmap().values())
+        unicodes_in_font = set(ttFont.getBestCmap().keys())
         res = {}
         for g in self["glyphs"]:
             for glyphset in g["glyphsets"]:
