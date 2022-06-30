@@ -1,2 +1,5 @@
+*env
+*egg*
+_version*
 .DS_Store
 *.pyc
