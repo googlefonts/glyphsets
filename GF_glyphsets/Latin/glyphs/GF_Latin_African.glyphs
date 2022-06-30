@@ -4056,6 +4056,16 @@ width = 600;
 unicode = 42921;
 },
 {
+glyphname = tcedilla;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 355;
+},
+{
 color = 7;
 glyphname = tcircumflexbelow;
 lastChange = "2022-03-04 15:36:06 +0000";
