@@ -1,5 +1,5 @@
 {
-.appVersion = "3124";
+.appVersion = "3133";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Latin African";
@@ -1788,6 +1788,16 @@ width = 600;
 }
 );
 unicode = 42920;
+},
+{
+glyphname = Tcedilla;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 354;
 },
 {
 color = 7;
