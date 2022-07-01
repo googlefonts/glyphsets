@@ -180,7 +180,6 @@ uni1E92
 Zmacronbelow
 uni01B5
 uni026A
-Usmallstroke
 uni1EAD
 uni0201
 uni01DF
