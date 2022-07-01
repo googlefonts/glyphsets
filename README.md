@@ -6,7 +6,7 @@ This python module provides an API with data about glyph sets for many different
 GF glyph sets
 -------------
 
-If you are a font developer or typeface designer, see the [`GF Glyphsets`](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets) subdirectory which provides glyphset definition "standards" that are typically useful sets to draw. The GF_Glyphsets are thought as modules you can accumulate. Therefore the Vietname set only contains additional glyphs to Latin Core to be able to support Vietnamese language.
+If you are a font developer or typeface designer, see the [`GF Glyphsets`](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets) subdirectory which provides glyphset definition "standards" that are typically useful sets to draw. The GF_Glyphsets are thought as modules you can accumulate. Therefore the Vietnamese set only contains additional glyphs to Latin Core to be able to support Vietnamese language.
 
 - Fonts commissioned by Google Fonts must support Latin level 1 to 4: i.e **Latin Core**, **Vietnamese** and **Plus sets**.
 - Fonts submitted to Google Fonts must support at least **GF Latin Core**, and designers are strongly encouraged to consider adding the **GF Latin Plus set**.
