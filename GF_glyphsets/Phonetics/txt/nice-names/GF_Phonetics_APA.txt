@@ -1,6 +1,7 @@
 lambda
 phi
 Cstroke
+Usmallstroke
 cstroke
 ezhcaron
 lambdastroke

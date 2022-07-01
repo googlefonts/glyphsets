@@ -18134,11 +18134,11 @@
     },
     {
       "nice_name": "Usmallstroke",
-      "production_name": "Usmallstroke",
+      "production_name": "uni1D7E",
       "character": "\u1d7e",
       "unicode": 7550,
       "glyphsets": [
-        "GF_Latin_African"
+        "GF_Phonetics_APA"
       ]
     },
     {
