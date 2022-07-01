@@ -19,3 +19,4 @@ uni01F0
 uni02B8
 uni1D4D
 uni1DBF
+uni1D7E
