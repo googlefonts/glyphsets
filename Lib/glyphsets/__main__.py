@@ -20,25 +20,37 @@ def main():
 
     subparsers = parser.add_subparsers(dest="command", required=True)
 
-    update_db_parser = subparsers.add_parser("update-db")
+    update_db_parser = subparsers.add_parser(
+        "update-db",
+        help="Update the database by using the glyphsets from source files.",
+    )
     update_db_parser.add_argument("srcs", help="Source file to use", nargs="+")
 
-    update_src_parser = subparsers.add_parser("update-srcs")
+    update_src_parser = subparsers.add_parser(
+        "update-srcs", help="Add missing glyphs to font source."
+    )
     update_src_parser.add_argument(
         "--srcs", help="Source files to update", nargs="+", required=True
     )
     update_src_parser.add_argument("glyphsets", nargs="+")
 
-    filter_lists_parser = subparsers.add_parser("filter-list")
+    filter_lists_parser = subparsers.add_parser(
+        "filter-list", help="Ouput Glyphs.app filter from given glyphset(s)."
+    )
     filter_lists_parser.add_argument("glyphsets", nargs="+")
     filter_lists_parser.add_argument("--prod-names", action="store_true", default=False)
     filter_lists_parser.add_argument("-o", "--out", required=True, help="output path")
 
-    nam_file_parser = subparsers.add_parser("nam-file")
+    nam_file_parser = subparsers.add_parser(
+        "nam-file", help="Ouput .nam file from given glyphset(s)."
+    )
     nam_file_parser.add_argument("glyphsets", nargs="+")
     nam_file_parser.add_argument("-o", "--out", required=True, help="output path")
 
-    font_file_parser = subparsers.add_parser("missing-in-font")
+    font_file_parser = subparsers.add_parser(
+        "missing-in-font",
+        help="Report missing glyphs in font binary needed to cover glyphsets.",
+    )
     font_file_parser.add_argument("font", help="Path for font binary")
     font_file_parser.add_argument(
         "-t",
