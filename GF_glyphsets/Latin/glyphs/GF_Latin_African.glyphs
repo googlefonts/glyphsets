@@ -2294,18 +2294,6 @@ width = 600;
 unicode = 618;
 },
 {
-color = 7;
-glyphname = Usmallstroke;
-lastChange = "2022-03-04 15:36:06 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7550;
-},
-{
 color = 1;
 glyphname = acircumflexdotbelow;
 lastChange = "2022-03-04 15:36:06 +0000";
