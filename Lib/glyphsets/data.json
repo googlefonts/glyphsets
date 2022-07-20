@@ -23151,7 +23151,8 @@
       "character": "\u0162",
       "unicode": 354,
       "glyphsets": [
-        "GF_Latin_Minorities"
+        "GF_Latin_Minorities",
+        "GF_Latin_African"
       ]
     },
     {
@@ -23233,7 +23234,8 @@
       "character": "\u0163",
       "unicode": 355,
       "glyphsets": [
-        "GF_Latin_Minorities"
+        "GF_Latin_Minorities",
+        "GF_Latin_African"
       ]
     },
     {
@@ -26439,6 +26441,16 @@
       "character": null,
       "unicode": null,
       "glyphsets": [
+        "GF_Latin_Plus"
+      ]
+    },
+    {
+      "nice_name": "dottedCircle",
+      "production_name": "uni25CC",
+      "character": "\u25cc",
+      "unicode": 9676,
+      "glyphsets": [
+        "GF_Arabic_Core",
         "GF_Latin_Plus"
       ]
     }

@@ -1,5 +1,5 @@
 {
-.appVersion = "3124";
+.appVersion = "3133";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Arabic Core";
@@ -1440,6 +1440,16 @@ width = 600;
 }
 );
 unicode = 37;
+},
+{
+glyphname = dottedCircle;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9676;
 },
 {
 glyphname = "hamzaabove-ar";
