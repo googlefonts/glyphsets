@@ -1,8 +1,8 @@
 {
-.appVersion = "3124";
+.appVersion = "3135";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
-familyName = "GF Phonetics IPA Caps";
+familyName = "GF Phonetics Sino Ext";
 featurePrefixes = (
 {
 automatic = 1;
@@ -121,6 +121,116 @@ name = Regular;
 }
 );
 glyphs = (
+{
+glyphname = Asmall;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7424;
+},
+{
+glyphname = Esmall;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7431;
+},
+{
+glyphname = dcurl;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 545;
+},
+{
+glyphname = eshsquatreversed;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 645;
+},
+{
+glyphname = hturnedfishhook;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 686;
+},
+{
+glyphname = hturnedfishhookandtail;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 687;
+},
+{
+glyphname = lcurl;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 564;
+},
+{
+glyphname = ncurl;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 565;
+},
+{
+glyphname = rfishhookreversed;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 639;
+},
+{
+glyphname = tcurl;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 566;
+},
+{
+glyphname = Omegasmall;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 43877;
+}
 );
 metrics = (
 {
