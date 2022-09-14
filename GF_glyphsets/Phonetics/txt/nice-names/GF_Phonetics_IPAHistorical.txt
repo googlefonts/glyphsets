@@ -10,3 +10,6 @@ qhook
 tccurl
 tesh
 ts
+raiseddownarrowmod
+raiseduparrowmod
+retroflexhookcomb

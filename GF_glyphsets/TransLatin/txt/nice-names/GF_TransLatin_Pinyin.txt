@@ -80,13 +80,13 @@ umacron
 circumflexcomb
 caroncomb
 brevecomb
+Nmod
 Ebreve
 Ibreve
 Obreve
 ebreve
 ibreve
 obreve
-Nmod
 gravecomb_dotaboverightcomb
 acutecomb_dotaboverightcomb
 circumflexcomb_dotaboverightcomb
