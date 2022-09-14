@@ -1,7 +1,6 @@
 lambda
 phi
 uni023B
-uni1D7E
 uni023C
 uni01EF
 uni019B
@@ -14,9 +13,11 @@ uni1E8B
 uniA789
 uni0313
 lacute
-uni1D05
-Ismallstroke
+uni0328
 uni01F0
 uni02B8
-uni1D4D
 uni1DBF
+uni1D05
+Ismallstroke
+Usmallstroke
+uni1D4D
