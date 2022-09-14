@@ -1,5 +1,5 @@
 {
-.appVersion = "3124";
+.appVersion = "3135";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Phonetics Disordered Speech";
@@ -121,6 +121,641 @@ name = Regular;
 }
 );
 glyphs = (
+{
+glyphname = Kturned;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 42928;
+},
+{
+glyphname = Kturned.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = bidentalpercussive;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 685;
+},
+{
+glyphname = bilabialpercussive;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 684;
+},
+{
+glyphname = lretroflexhookandbelt;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 42894;
+},
+{
+glyphname = lsdigraph;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 682;
+},
+{
+glyphname = lzdigraph;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 683;
+},
+{
+glyphname = rturnedmod;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 692;
+},
+{
+glyphname = smod;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 738;
+},
+{
+glyphname = "fitalic-math";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119891;
+},
+{
+glyphname = "pitalic-math";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 119901;
+},
+{
+glyphname = "fitalic-math.subs";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "pitalic-math.subs";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "fitalic-math.sups";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "pitalic-math.sups";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Nmod;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7482;
+},
+{
+glyphname = schwamod;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7498;
+},
+{
+glyphname = unaspiratedmod;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 749;
+},
+{
+glyphname = voicingmod;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 748;
+},
+{
+glyphname = C.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9400;
+},
+{
+glyphname = F.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9403;
+},
+{
+glyphname = G.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9404;
+},
+{
+glyphname = L.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9409;
+},
+{
+glyphname = N.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9411;
+},
+{
+glyphname = P.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9413;
+},
+{
+glyphname = R.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9415;
+},
+{
+glyphname = S.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9416;
+},
+{
+glyphname = T.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9417;
+},
+{
+glyphname = V.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9419;
+},
+{
+glyphname = largeCircle;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9711;
+},
+{
+glyphname = gbridgeabovecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 838;
+},
+{
+glyphname = equalbelowcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 839;
+},
+{
+glyphname = leftanglebelowcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 841;
+},
+{
+glyphname = nottildeabovecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 842;
+},
+{
+glyphname = homotheticabovecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 843;
+},
+{
+glyphname = almostequaltoabovecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 844;
+},
+{
+glyphname = arrowleftrightbelowcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 845;
+},
+{
+glyphname = arrowupbelowcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 846;
+},
+{
+glyphname = arrowheadleftbelowcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 852;
+},
+{
+glyphname = arrowheadrightbelowcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 853;
+},
+{
+glyphname = arrowdoublerightbelowcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 866;
+},
+{
+glyphname = parentabovecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 6843;
+},
+{
+glyphname = parentbelowcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 6845;
+},
+{
+glyphname = uni1AC1;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 6849;
+},
+{
+glyphname = uni1AC2;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 6850;
+},
+{
+glyphname = uni1AC3;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 6851;
+},
+{
+glyphname = uni1AC4;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 6852;
+},
+{
+glyphname = uniA7AF;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 42927;
+},
+{
+glyphname = u10790;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 67472;
+},
+{
+glyphname = u10799;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 67481;
+},
+{
+glyphname = u1079A;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 67482;
+},
+{
+glyphname = u1079C;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 67484;
+},
+{
+glyphname = u1079D;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 67485;
+},
+{
+glyphname = u1079F;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 67487;
+},
+{
+glyphname = u107A1;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 67489;
+},
+{
+glyphname = u107AA;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 67498;
+},
+{
+glyphname = u1DF00;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 122624;
+},
+{
+glyphname = u1DF01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 122625;
+},
+{
+glyphname = u1DF02;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 122626;
+},
+{
+glyphname = u1DF03;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 122627;
+},
+{
+glyphname = u1DF04;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 122628;
+},
+{
+glyphname = u1DF05;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 122629;
+},
+{
+glyphname = u1DF06;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 122630;
+},
+{
+glyphname = u1DF07;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 122631;
+}
 );
 metrics = (
 {
