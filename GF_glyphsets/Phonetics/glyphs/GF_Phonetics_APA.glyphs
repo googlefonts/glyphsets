@@ -152,6 +152,18 @@ width = 600;
 unicode = 7547;
 },
 {
+color = 7;
+glyphname = Usmallstroke;
+lastChange = "2022-03-04 15:36:06 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7550;
+},
+{
 glyphname = cstroke;
 layers = (
 {

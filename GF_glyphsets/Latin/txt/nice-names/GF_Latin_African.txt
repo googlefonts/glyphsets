@@ -180,7 +180,6 @@ Zdotbelow
 Zmacronbelow
 Zstroke
 Ismall
-Usmallstroke
 acircumflexdotbelow
 adblgrave
 adieresismacron
