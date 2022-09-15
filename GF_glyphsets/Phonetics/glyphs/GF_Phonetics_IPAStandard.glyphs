@@ -1,5 +1,5 @@
 {
-.appVersion = "3124";
+.appVersion = "3135";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Phonetics IPA Standard";
@@ -1182,26 +1182,6 @@ width = 600;
 unicode = 952;
 },
 {
-glyphname = raiseddownarrowmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 42780;
-},
-{
-glyphname = raiseduparrowmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 42779;
-},
-{
 glyphname = "leftanglebracket_rightanglebracket-math";
 layers = (
 {
@@ -1399,6 +1379,16 @@ width = 600;
 }
 );
 unicode = 124;
+},
+{
+glyphname = dottedCircle;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9676;
 },
 {
 glyphname = dieresiscomb;

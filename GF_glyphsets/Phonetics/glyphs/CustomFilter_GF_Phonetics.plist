@@ -352,7 +352,6 @@
 			<string>lambda</string>
 			<string>phi</string>
 			<string>Cstroke</string>
-			<string>Usmallstroke</string>
 			<string>cstroke</string>
 			<string>ezhcaron</string>
 			<string>lambdastroke</string>
@@ -365,27 +364,88 @@
 			<string>colonmod</string>
 			<string>commaabovecomb</string>
 			<string>lacute</string>
-			<string>Dsmall</string>
-			<string>Ismallstroke</string>
+			<string>ogonekcomb</string>
 			<string>jcaron</string>
 			<string>ymod</string>
-			<string>gmod</string>
 			<string>thetamod</string>
+			<string>Dsmall</string>
+			<string>Ismallstroke</string>
+			<string>Usmallstroke</string>
+			<string>gmod</string>
 		</array>
 		<key>name</key>
 		<string>GF_Phonetics_APA</string>
 	</dict>
 	<dict>
 		<key>list</key>
-		<array/>
+		<array>
+			<string>Kturned</string>
+			<string>Kturned.circled</string>
+			<string>bidentalpercussive</string>
+			<string>bilabialpercussive</string>
+			<string>lretroflexhookandbelt</string>
+			<string>lsdigraph</string>
+			<string>lzdigraph</string>
+			<string>rturnedmod</string>
+			<string>smod</string>
+			<string>fitalic-math</string>
+			<string>pitalic-math</string>
+			<string>fitalic-math.subs</string>
+			<string>pitalic-math.subs</string>
+			<string>fitalic-math.sups</string>
+			<string>pitalic-math.sups</string>
+			<string>Nmod</string>
+			<string>schwamod</string>
+			<string>unaspiratedmod</string>
+			<string>voicingmod</string>
+			<string>C.circled</string>
+			<string>F.circled</string>
+			<string>G.circled</string>
+			<string>L.circled</string>
+			<string>N.circled</string>
+			<string>P.circled</string>
+			<string>R.circled</string>
+			<string>S.circled</string>
+			<string>T.circled</string>
+			<string>V.circled</string>
+			<string>largeCircle</string>
+			<string>gbridgeabovecomb</string>
+			<string>equalbelowcomb</string>
+			<string>leftanglebelowcomb</string>
+			<string>nottildeabovecomb</string>
+			<string>homotheticabovecomb</string>
+			<string>almostequaltoabovecomb</string>
+			<string>arrowleftrightbelowcomb</string>
+			<string>arrowupbelowcomb</string>
+			<string>arrowheadleftbelowcomb</string>
+			<string>arrowheadrightbelowcomb</string>
+			<string>arrowdoublerightbelowcomb</string>
+			<string>parentabovecomb</string>
+			<string>parentbelowcomb</string>
+			<string>uni1AC1</string>
+			<string>uni1AC2</string>
+			<string>uni1AC3</string>
+			<string>uni1AC4</string>
+			<string>uniA7AF</string>
+			<string>u10790</string>
+			<string>u10799</string>
+			<string>u1079A</string>
+			<string>u1079C</string>
+			<string>u1079D</string>
+			<string>u1079F</string>
+			<string>u107A1</string>
+			<string>u107AA</string>
+			<string>u1DF00</string>
+			<string>u1DF01</string>
+			<string>u1DF02</string>
+			<string>u1DF03</string>
+			<string>u1DF04</string>
+			<string>u1DF05</string>
+			<string>u1DF06</string>
+			<string>u1DF07</string>
+		</array>
 		<key>name</key>
 		<string>GF_Phonetics_DisorderedSpeech</string>
-	</dict>
-	<dict>
-		<key>list</key>
-		<array/>
-		<key>name</key>
-		<string>GF_Phonetics_IPACaps</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -402,6 +462,9 @@
 			<string>tccurl</string>
 			<string>tesh</string>
 			<string>ts</string>
+			<string>raiseddownarrowmod</string>
+			<string>raiseduparrowmod</string>
+			<string>retroflexhookcomb</string>
 		</array>
 		<key>name</key>
 		<string>GF_Phonetics_IPAHistorical</string>
@@ -490,6 +553,21 @@
 			<string>ringcomb</string>
 			<string>tildecomb</string>
 			<string>verticallinemod</string>
+			<string>bidentalpercussive</string>
+			<string>bilabialpercussive</string>
+			<string>lsdigraph</string>
+			<string>lzdigraph</string>
+			<string>unaspiratedmod</string>
+			<string>voicingmod</string>
+			<string>gbridgeabovecomb</string>
+			<string>equalbelowcomb</string>
+			<string>leftanglebelowcomb</string>
+			<string>nottildeabovecomb</string>
+			<string>homotheticabovecomb</string>
+			<string>almostequaltoabovecomb</string>
+			<string>arrowleftrightbelowcomb</string>
+			<string>arrowupbelowcomb</string>
+			<string>arrowdoublerightbelowcomb</string>
 			<string>Bsmall</string>
 			<string>Gsmall</string>
 			<string>Gsmallhook</string>
@@ -502,8 +580,6 @@
 			<string>Ysmall</string>
 			<string>alphaturned-latin</string>
 			<string>aturned</string>
-			<string>bidentalpercussive</string>
-			<string>bilabialpercussive</string>
 			<string>bmiddletilde</string>
 			<string>ccurl</string>
 			<string>dmiddletilde</string>
@@ -522,8 +598,6 @@
 			<string>jdotlessstrokehook</string>
 			<string>lezh</string>
 			<string>lhookretroflex</string>
-			<string>lsdigraph</string>
-			<string>lzdigraph</string>
 			<string>mhook</string>
 			<string>mlonglegturned</string>
 			<string>mmiddletilde</string>
@@ -547,8 +621,6 @@
 			<string>zretroflexhook</string>
 			<string>jmod</string>
 			<string>lmod</string>
-			<string>raiseddownarrowmod</string>
-			<string>raiseduparrowmod</string>
 			<string>leftanglebracket_rightanglebracket-math</string>
 			<string>parenleftinferior</string>
 			<string>parenrightinferior</string>
@@ -559,9 +631,8 @@
 			<string>tonebarhighmod</string>
 			<string>tonebarlowmod</string>
 			<string>tonebarmidmod</string>
-			<string>unaspiratedmod</string>
-			<string>voicingmod</string>
 			<string>rhotichookmod</string>
+			<string>dottedCircle</string>
 			<string>lefttackbelowcomb</string>
 			<string>righttackbelowcomb</string>
 			<string>leftangleabovecomb</string>
@@ -578,17 +649,8 @@
 			<string>squarebelowcomb</string>
 			<string>seagullbelowcomb</string>
 			<string>xabovecomb</string>
-			<string>gbridgeabovecomb</string>
-			<string>equalbelowcomb</string>
 			<string>doubleverticallinebelowcomb</string>
-			<string>leftanglebelowcomb</string>
-			<string>nottildeabovecomb</string>
-			<string>homotheticabovecomb</string>
-			<string>almostequaltoabovecomb</string>
-			<string>arrowleftrightbelowcomb</string>
-			<string>arrowupbelowcomb</string>
 			<string>breveinverteddoublecomb</string>
-			<string>arrowdoublerightbelowcomb</string>
 			<string>acutegraveacutecomb</string>
 			<string>graveacutegravecomb</string>
 			<string>colontriangularhalfmod</string>
@@ -598,6 +660,24 @@
 		</array>
 		<key>name</key>
 		<string>GF_Phonetics_IPAStandard</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
+			<string>Asmall</string>
+			<string>Esmall</string>
+			<string>dcurl</string>
+			<string>eshsquatreversed</string>
+			<string>hturnedfishhook</string>
+			<string>hturnedfishhookandtail</string>
+			<string>lcurl</string>
+			<string>ncurl</string>
+			<string>rfishhookreversed</string>
+			<string>tcurl</string>
+			<string>Omegasmall</string>
+		</array>
+		<key>name</key>
+		<string>GF_Phonetics_SinoExt</string>
 	</dict>
 	<dict>
 		<key>list</key>

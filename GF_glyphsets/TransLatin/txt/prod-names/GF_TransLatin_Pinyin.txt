@@ -80,13 +80,13 @@ umacron
 uni0302
 uni030C
 uni0306
+uni1D3A
 Ebreve
 Ibreve
 Obreve
 ebreve
 ibreve
 obreve
-uni1D3A
 uni03000358
 uni03010358
 uni03020358

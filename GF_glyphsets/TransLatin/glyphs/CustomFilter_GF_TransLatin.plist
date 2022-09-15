@@ -251,13 +251,13 @@
 			<string>circumflexcomb</string>
 			<string>caroncomb</string>
 			<string>brevecomb</string>
+			<string>Nmod</string>
 			<string>Ebreve</string>
 			<string>Ibreve</string>
 			<string>Obreve</string>
 			<string>ebreve</string>
 			<string>ibreve</string>
 			<string>obreve</string>
-			<string>Nmod</string>
 			<string>gravecomb_dotaboverightcomb</string>
 			<string>acutecomb_dotaboverightcomb</string>
 			<string>circumflexcomb_dotaboverightcomb</string>

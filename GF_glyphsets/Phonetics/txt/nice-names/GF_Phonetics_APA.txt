@@ -1,7 +1,6 @@
 lambda
 phi
 Cstroke
-Usmallstroke
 cstroke
 ezhcaron
 lambdastroke
@@ -14,9 +13,11 @@ xdotaccent
 colonmod
 commaabovecomb
 lacute
-Dsmall
-Ismallstroke
+ogonekcomb
 jcaron
 ymod
-gmod
 thetamod
+Dsmall
+Ismallstroke
+Usmallstroke
+gmod

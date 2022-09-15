@@ -1,5 +1,5 @@
 {
-.appVersion = "3124";
+.appVersion = "3135";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Phonetics IPA Historical";
@@ -240,6 +240,36 @@ width = 600;
 }
 );
 unicode = 678;
+},
+{
+glyphname = raiseddownarrowmod;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 42780;
+},
+{
+glyphname = raiseduparrowmod;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 42779;
+},
+{
+glyphname = retroflexhookcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 802;
 }
 );
 metrics = (
