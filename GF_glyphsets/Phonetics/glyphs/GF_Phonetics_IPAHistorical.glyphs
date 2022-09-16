@@ -242,26 +242,6 @@ width = 600;
 unicode = 678;
 },
 {
-glyphname = raiseddownarrowmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 42780;
-},
-{
-glyphname = raiseduparrowmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 42779;
-},
-{
 glyphname = retroflexhookcomb;
 layers = (
 {

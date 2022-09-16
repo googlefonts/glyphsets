@@ -149,6 +149,8 @@ zmiddletilde
 zretroflexhook
 jmod
 lmod
+raiseddownarrowmod
+raiseduparrowmod
 leftanglebracket_rightanglebracket-math
 parenleftinferior
 parenrightinferior

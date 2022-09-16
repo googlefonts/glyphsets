@@ -26053,24 +26053,6 @@
       ]
     },
     {
-      "nice_name": "raiseddownarrowmod",
-      "production_name": "uniA71C",
-      "character": "\ua71c",
-      "unicode": 42780,
-      "glyphsets": [
-        "GF_Phonetics_IPAHistorical"
-      ]
-    },
-    {
-      "nice_name": "raiseduparrowmod",
-      "production_name": "uniA71B",
-      "character": "\ua71b",
-      "unicode": 42779,
-      "glyphsets": [
-        "GF_Phonetics_IPAHistorical"
-      ]
-    },
-    {
       "nice_name": "retroflexhookcomb",
       "production_name": "uni0322",
       "character": "\u0322",
@@ -26552,6 +26534,24 @@
       "production_name": "uni02E1",
       "character": "\u02e1",
       "unicode": 737,
+      "glyphsets": [
+        "GF_Phonetics_IPAStandard"
+      ]
+    },
+    {
+      "nice_name": "raiseddownarrowmod",
+      "production_name": "uniA71C",
+      "character": "\ua71c",
+      "unicode": 42780,
+      "glyphsets": [
+        "GF_Phonetics_IPAStandard"
+      ]
+    },
+    {
+      "nice_name": "raiseduparrowmod",
+      "production_name": "uniA71B",
+      "character": "\ua71b",
+      "unicode": 42779,
       "glyphsets": [
         "GF_Phonetics_IPAStandard"
       ]

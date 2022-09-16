@@ -1202,6 +1202,26 @@ width = 600;
 unicode = 967;
 },
 {
+glyphname = raiseddownarrowmod;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 42780;
+},
+{
+glyphname = raiseduparrowmod;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 42779;
+},
+{
 glyphname = "leftanglebracket_rightanglebracket-math";
 layers = (
 {
