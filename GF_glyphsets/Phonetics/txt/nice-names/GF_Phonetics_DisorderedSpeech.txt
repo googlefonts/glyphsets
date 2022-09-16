@@ -1,3 +1,4 @@
+asterisk
 exclamdown
 Kturned
 Kturned.circled
@@ -17,6 +18,8 @@ fitalic-math.sups
 pitalic-math.sups
 Nmod
 schwamod
+parenleftinferior
+parenrightinferior
 unaspiratedmod
 voicingmod
 C.circled

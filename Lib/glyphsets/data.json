@@ -979,7 +979,7 @@
         "GF_Arabic_Core",
         "GF_Latin_Core",
         "GF_Latin_Kernel",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25552,6 +25552,24 @@
       ]
     },
     {
+      "nice_name": "parenleftinferior",
+      "production_name": "uni208D",
+      "character": "\u208d",
+      "unicode": 8333,
+      "glyphsets": [
+        "GF_Phonetics_DisorderedSpeech"
+      ]
+    },
+    {
+      "nice_name": "parenrightinferior",
+      "production_name": "uni208E",
+      "character": "\u208e",
+      "unicode": 8334,
+      "glyphsets": [
+        "GF_Phonetics_DisorderedSpeech"
+      ]
+    },
+    {
       "nice_name": "unaspiratedmod",
       "production_name": "uni02ED",
       "character": "\u02ed",
@@ -26537,33 +26555,6 @@
       "production_name": "uniA71B",
       "character": "\ua71b",
       "unicode": 42779,
-      "glyphsets": [
-        "GF_Phonetics_IPAStandard"
-      ]
-    },
-    {
-      "nice_name": "leftanglebracket_rightanglebracket-math",
-      "production_name": "leftanglebracket_rightanglebracketmath",
-      "character": null,
-      "unicode": null,
-      "glyphsets": [
-        "GF_Phonetics_IPAStandard"
-      ]
-    },
-    {
-      "nice_name": "parenleftinferior",
-      "production_name": "uni208D",
-      "character": "\u208d",
-      "unicode": 8333,
-      "glyphsets": [
-        "GF_Phonetics_IPAStandard"
-      ]
-    },
-    {
-      "nice_name": "parenrightinferior",
-      "production_name": "uni208E",
-      "character": "\u208e",
-      "unicode": 8334,
       "glyphsets": [
         "GF_Phonetics_IPAStandard"
       ]

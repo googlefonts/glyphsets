@@ -379,6 +379,7 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>asterisk</string>
 			<string>exclamdown</string>
 			<string>Kturned</string>
 			<string>Kturned.circled</string>
@@ -398,6 +399,8 @@
 			<string>pitalic-math.sups</string>
 			<string>Nmod</string>
 			<string>schwamod</string>
+			<string>parenleftinferior</string>
+			<string>parenrightinferior</string>
 			<string>unaspiratedmod</string>
 			<string>voicingmod</string>
 			<string>C.circled</string>
@@ -474,7 +477,6 @@
 		<array>
 			<string>period</string>
 			<string>exclam</string>
-			<string>asterisk</string>
 			<string>bar</string>
 			<string>dieresiscomb</string>
 			<string>gravecomb</string>
@@ -608,9 +610,6 @@
 			<string>lmod</string>
 			<string>raiseddownarrowmod</string>
 			<string>raiseduparrowmod</string>
-			<string>leftanglebracket_rightanglebracket-math</string>
-			<string>parenleftinferior</string>
-			<string>parenrightinferior</string>
 			<string>gammamod-latin</string>
 			<string>lowringmod</string>
 			<string>tonebarextrahighmod</string>

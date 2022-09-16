@@ -1,6 +1,5 @@
 period
 exclam
-asterisk
 bar
 dieresiscomb
 gravecomb
@@ -134,9 +133,6 @@ jmod
 lmod
 raiseddownarrowmod
 raiseduparrowmod
-leftanglebracket_rightanglebracket-math
-parenleftinferior
-parenrightinferior
 gammamod-latin
 lowringmod
 tonebarextrahighmod
