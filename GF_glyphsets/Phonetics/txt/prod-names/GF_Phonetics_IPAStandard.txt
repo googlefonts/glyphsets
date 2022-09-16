@@ -149,6 +149,8 @@ uni1D76
 uni0290
 uni02B2
 uni02E1
+uniA71C
+uniA71B
 leftanglebracket_rightanglebracketmath
 uni208D
 uni208E

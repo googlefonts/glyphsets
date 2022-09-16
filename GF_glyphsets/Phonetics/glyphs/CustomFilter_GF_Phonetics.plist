@@ -462,8 +462,6 @@
 			<string>tccurl</string>
 			<string>tesh</string>
 			<string>ts</string>
-			<string>raiseddownarrowmod</string>
-			<string>raiseduparrowmod</string>
 			<string>retroflexhookcomb</string>
 		</array>
 		<key>name</key>
@@ -623,6 +621,8 @@
 			<string>zretroflexhook</string>
 			<string>jmod</string>
 			<string>lmod</string>
+			<string>raiseddownarrowmod</string>
+			<string>raiseduparrowmod</string>
 			<string>leftanglebracket_rightanglebracket-math</string>
 			<string>parenleftinferior</string>
 			<string>parenrightinferior</string>
