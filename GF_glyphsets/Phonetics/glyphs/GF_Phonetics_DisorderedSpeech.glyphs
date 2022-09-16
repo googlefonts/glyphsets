@@ -161,6 +161,17 @@ width = 600;
 unicode = 684;
 },
 {
+glyphname = fengdigraph;
+lastChange = "2022-09-16 08:30:01 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 681;
+},
+{
 glyphname = lretroflexhookandbelt;
 layers = (
 {
@@ -285,6 +296,28 @@ width = 600;
 }
 );
 unicode = 7498;
+},
+{
+glyphname = exclam;
+lastChange = "2022-09-16 08:43:27 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 33;
+},
+{
+glyphname = exclamdown;
+lastChange = "2022-09-16 08:43:27 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 161;
 },
 {
 glyphname = unaspiratedmod;

@@ -1,7 +1,9 @@
+exclamdown
 Kturned
 Kturned.circled
 bidentalpercussive
 bilabialpercussive
+fengdigraph
 lretroflexhookandbelt
 lsdigraph
 lzdigraph

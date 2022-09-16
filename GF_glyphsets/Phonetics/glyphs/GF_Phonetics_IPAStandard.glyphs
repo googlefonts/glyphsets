@@ -292,16 +292,6 @@ width = 600;
 unicode = 595;
 },
 {
-glyphname = bidentalpercussive;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 685;
-},
-{
 glyphname = bilabialclick;
 layers = (
 {
@@ -310,16 +300,6 @@ width = 600;
 }
 );
 unicode = 664;
-},
-{
-glyphname = bilabialpercussive;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 684;
 },
 {
 glyphname = bmiddletilde;
@@ -500,16 +480,6 @@ width = 600;
 }
 );
 unicode = 658;
-},
-{
-glyphname = fengdigraph;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 681;
 },
 {
 glyphname = fmiddletilde;
@@ -710,26 +680,6 @@ width = 600;
 }
 );
 unicode = 619;
-},
-{
-glyphname = lsdigraph;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 682;
-},
-{
-glyphname = lzdigraph;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 683;
 },
 {
 glyphname = mhook;
@@ -1251,16 +1201,6 @@ width = 600;
 unicode = 33;
 },
 {
-glyphname = exclamdown;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 161;
-},
-{
 glyphname = asterisk;
 layers = (
 {
@@ -1379,26 +1319,6 @@ width = 600;
 }
 );
 unicode = 743;
-},
-{
-glyphname = unaspiratedmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 749;
-},
-{
-glyphname = voicingmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 748;
 },
 {
 glyphname = rhotichookmod;
@@ -1771,26 +1691,6 @@ width = 600;
 unicode = 829;
 },
 {
-glyphname = gbridgeabovecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 838;
-},
-{
-glyphname = equalbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 839;
-},
-{
 glyphname = doubleverticallinebelowcomb;
 layers = (
 {
@@ -1799,66 +1699,6 @@ width = 600;
 }
 );
 unicode = 840;
-},
-{
-glyphname = leftanglebelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 841;
-},
-{
-glyphname = nottildeabovecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 842;
-},
-{
-glyphname = homotheticabovecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 843;
-},
-{
-glyphname = almostequaltoabovecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 844;
-},
-{
-glyphname = arrowleftrightbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 845;
-},
-{
-glyphname = arrowupbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 846;
 },
 {
 glyphname = doublebrevebelowcomb;
@@ -1879,16 +1719,6 @@ width = 600;
 }
 );
 unicode = 865;
-},
-{
-glyphname = arrowdoublerightbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 866;
 },
 {
 glyphname = acutegraveacutecomb;
