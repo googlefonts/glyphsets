@@ -10,12 +10,14 @@ macroncomb
 apostrophemod
 beta
 theta
+chi
 dblverticalbar
 undertie
 overlinecomb
 doublebrevebelowcomb
 Ismall
 alpha-latin
+beta-latin
 bhook
 bilabialclick
 chi-latin
