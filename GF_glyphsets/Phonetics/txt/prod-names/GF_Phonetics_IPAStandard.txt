@@ -10,12 +10,14 @@ uni0304
 uni02BC
 beta
 theta
+chi
 uni2016
 uni203F
 uni0305
 uni035C
 uni026A
 uni0251
+uniA7B5
 uni0253
 uni0298
 uniAB53

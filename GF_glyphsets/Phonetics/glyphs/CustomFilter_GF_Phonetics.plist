@@ -484,12 +484,14 @@
 			<string>apostrophemod</string>
 			<string>beta</string>
 			<string>theta</string>
+			<string>chi</string>
 			<string>dblverticalbar</string>
 			<string>undertie</string>
 			<string>overlinecomb</string>
 			<string>doublebrevebelowcomb</string>
 			<string>Ismall</string>
 			<string>alpha-latin</string>
+			<string>beta-latin</string>
 			<string>bhook</string>
 			<string>bilabialclick</string>
 			<string>chi-latin</string>
