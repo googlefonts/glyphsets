@@ -1,7 +1,9 @@
+exclamdown
 uniA7B0
 uniA7B0.circled
 uni02AD
 uni02AC
+uni02A9
 uniA78E
 uni02AA
 uni02AB

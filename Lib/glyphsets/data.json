@@ -22666,7 +22666,7 @@
       "unicode": 161,
       "glyphsets": [
         "GF_Latin_Core",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25412,8 +25412,7 @@
       "character": "\u02ad",
       "unicode": 685,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25422,8 +25421,16 @@
       "character": "\u02ac",
       "unicode": 684,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
+      ]
+    },
+    {
+      "nice_name": "fengdigraph",
+      "production_name": "uni02A9",
+      "character": "\u02a9",
+      "unicode": 681,
+      "glyphsets": [
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25441,8 +25448,7 @@
       "character": "\u02aa",
       "unicode": 682,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25451,8 +25457,7 @@
       "character": "\u02ab",
       "unicode": 683,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25552,8 +25557,7 @@
       "character": "\u02ed",
       "unicode": 749,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25562,8 +25566,7 @@
       "character": "\u02ec",
       "unicode": 748,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25671,8 +25674,7 @@
       "character": "\u0346",
       "unicode": 838,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25681,8 +25683,7 @@
       "character": "\u0347",
       "unicode": 839,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25691,8 +25692,7 @@
       "character": "\u0349",
       "unicode": 841,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25701,8 +25701,7 @@
       "character": "\u034a",
       "unicode": 842,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25711,8 +25710,7 @@
       "character": "\u034b",
       "unicode": 843,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25721,8 +25719,7 @@
       "character": "\u034c",
       "unicode": 844,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25731,8 +25728,7 @@
       "character": "\u034d",
       "unicode": 845,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25741,8 +25737,7 @@
       "character": "\u034e",
       "unicode": 846,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -25769,8 +25764,7 @@
       "character": "\u0362",
       "unicode": 866,
       "glyphsets": [
-        "GF_Phonetics_DisorderedSpeech",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_DisorderedSpeech"
       ]
     },
     {
@@ -26237,15 +26231,6 @@
       "production_name": "uni025A",
       "character": "\u025a",
       "unicode": 602,
-      "glyphsets": [
-        "GF_Phonetics_IPAStandard"
-      ]
-    },
-    {
-      "nice_name": "fengdigraph",
-      "production_name": "uni02A9",
-      "character": "\u02a9",
-      "unicode": 681,
       "glyphsets": [
         "GF_Phonetics_IPAStandard"
       ]
