@@ -272,6 +272,16 @@ width = 600;
 unicode = 230;
 },
 {
+glyphname = "beta-latin";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 42933;
+},
+{
 glyphname = bhook;
 layers = (
 {
@@ -1180,6 +1190,16 @@ width = 600;
 }
 );
 unicode = 952;
+},
+{
+glyphname = chi;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 967;
 },
 {
 glyphname = "leftanglebracket_rightanglebracket-math";

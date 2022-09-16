@@ -10609,7 +10609,8 @@
       "unicode": 967,
       "glyphsets": [
         "GF_Greek_Core",
-        "GF_Latin_Minorities"
+        "GF_Latin_Minorities",
+        "GF_Phonetics_IPAStandard"
       ]
     },
     {
@@ -18296,7 +18297,8 @@
       "character": "\ua7b5",
       "unicode": 42933,
       "glyphsets": [
-        "GF_Latin_African"
+        "GF_Latin_African",
+        "GF_Phonetics_IPAStandard"
       ]
     },
     {
