@@ -1172,15 +1172,6 @@ width = 600;
 unicode = 42779;
 },
 {
-glyphname = "leftanglebracket_rightanglebracket-math";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
 glyphname = period;
 layers = (
 {
@@ -1201,16 +1192,6 @@ width = 600;
 unicode = 33;
 },
 {
-glyphname = asterisk;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 42;
-},
-{
 glyphname = dblverticalbar;
 layers = (
 {
@@ -1229,26 +1210,6 @@ width = 600;
 }
 );
 unicode = 8255;
-},
-{
-glyphname = parenleftinferior;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8333;
-},
-{
-glyphname = parenrightinferior;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8334;
 },
 {
 glyphname = "gammamod-latin";

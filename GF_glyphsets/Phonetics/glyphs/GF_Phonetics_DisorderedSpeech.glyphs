@@ -320,6 +320,36 @@ width = 600;
 unicode = 161;
 },
 {
+glyphname = asterisk;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 42;
+},
+{
+glyphname = parenleftinferior;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 8333;
+},
+{
+glyphname = parenrightinferior;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 8334;
+},
+{
 glyphname = unaspiratedmod;
 layers = (
 {
