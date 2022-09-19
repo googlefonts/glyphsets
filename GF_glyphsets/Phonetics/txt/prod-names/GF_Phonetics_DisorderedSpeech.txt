@@ -1,7 +1,10 @@
+asterisk
+exclamdown
 uniA7B0
 uniA7B0.circled
 uni02AD
 uni02AC
+uni02A9
 uniA78E
 uni02AA
 uni02AB
@@ -15,6 +18,8 @@ u1D453.sups
 u1D45D.sups
 uni1D3A
 uni1D4A
+uni208D
+uni208E
 uni02ED
 uni02EC
 uni24B8

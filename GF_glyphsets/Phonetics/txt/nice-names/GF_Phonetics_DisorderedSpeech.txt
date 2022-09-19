@@ -1,7 +1,10 @@
+asterisk
+exclamdown
 Kturned
 Kturned.circled
 bidentalpercussive
 bilabialpercussive
+fengdigraph
 lretroflexhookandbelt
 lsdigraph
 lzdigraph
@@ -15,6 +18,8 @@ fitalic-math.sups
 pitalic-math.sups
 Nmod
 schwamod
+parenleftinferior
+parenrightinferior
 unaspiratedmod
 voicingmod
 C.circled
