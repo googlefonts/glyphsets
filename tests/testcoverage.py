@@ -49,7 +49,7 @@ def test_coverage():
         # Get Unicode name for script
         if script not in NAMES:
             continue
-        if NAMES[script] == "Hani":
+        if script == "Hani":
             # Too generic, pass
             continue
         namefile = NAMES[script].lower().replace(" ", "-").replace("_", "-")
