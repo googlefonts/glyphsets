@@ -49,6 +49,9 @@ def test_coverage():
         # Get Unicode name for script
         if script not in NAMES:
             continue
+        if NAMES[script] == "Hani":
+            # Too generic, pass
+            continue
         namefile = NAMES[script].lower().replace(" ", "-").replace("_", "-")
         cps_in_subset = codepoints_and_optionally_ext(namefile)
         if not cps_in_subset:
