@@ -3,6 +3,7 @@ gravecomb
 acutecomb
 uni0304
 uni02BC
+uni01CD
 uni01CF
 uni1E3E
 uni01F8
@@ -12,6 +13,7 @@ uni01D7
 uni01D9
 uni01DB
 uni01D5
+uni01CE
 uni01D0
 uni1E3F
 uni01F9
@@ -26,7 +28,6 @@ uni030D
 uni0358
 Aacute
 Abreve
-uni01CD
 Acircumflex
 Agrave
 Amacron
@@ -53,7 +54,6 @@ Ugrave
 Umacron
 aacute
 abreve
-uni01CE
 acircumflex
 agrave
 amacron
