@@ -1,9 +1,16 @@
-from glyphsets.codepoints import CodepointsInSubset
+from glyphsets.codepoints import (
+    CodepointsInSubset,
+    CodepointFileForSubset,
+    ReadNameList,
+    nam_dir,
+)
 from fontTools.unicodedata.Scripts import NAMES
 import pytest
 import unicodedata
 from collections import defaultdict
+import glob
 import warnings
+import os
 import sys
 
 try:
@@ -15,6 +22,15 @@ except Exception as e:
     )
 
 MAGIC_CODEPOINTS = set([0x2010, 0xA])
+
+
+def codepoints_and_optionally_ext(subset):
+    cps_in_subset = CodepointsInSubset(subset, unique_glyphs=False)
+    ext_file = os.path.join(nam_dir, "%s-ext_unique-glyphs.nam" % subset)
+    if os.path.isfile(ext_file):
+        cps_in_subset |= CodepointsInSubset(subset + "-ext")
+    cps_in_subset |= MAGIC_CODEPOINTS
+    return cps_in_subset
 
 
 def test_coverage():
@@ -34,8 +50,7 @@ def test_coverage():
         if script not in NAMES:
             continue
         namefile = NAMES[script].lower().replace(" ", "-").replace("_", "-")
-        cps_in_subset = CodepointsInSubset(namefile, unique_glyphs=False)
-        cps_in_subset |= MAGIC_CODEPOINTS
+        cps_in_subset = codepoints_and_optionally_ext(namefile)
         if not cps_in_subset:
             warnings.warn(f"No codepoints for {langname}")
             failed = True
