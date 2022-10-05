@@ -84,10 +84,10 @@ def test_coverage():
 @pytest.mark.parametrize("namfile", glob.glob("GF_glyphsets/*/nam/*.nam"))
 def test_gf_coverage(namfile):
     """Ensure everything in the GF glyphsets are enabled in subsets"""
-    if "Latin" in namfile or "Phonetics" in namfile:
-        subsets = ["latin"]
-    elif "Vietnamese" in namfile:
+    if "Vietnamese" in namfile:
         subsets = ["vietnamese"]
+    elif "Latin" in namfile or "Phonetics" in namfile:
+        subsets = ["latin"]
     elif "Arabic" in namfile:
         subsets = ["arabic"]
     elif "Cyrillic" in namfile:
