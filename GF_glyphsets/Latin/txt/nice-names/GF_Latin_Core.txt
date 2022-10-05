@@ -50,7 +50,6 @@ dotaccent
 A
 Aacute
 Abreve
-Acaron
 Acircumflex
 Adieresis
 Agrave
@@ -164,7 +163,6 @@ Zdotaccent
 a
 aacute
 abreve
-acaron
 acircumflex
 adieresis
 agrave

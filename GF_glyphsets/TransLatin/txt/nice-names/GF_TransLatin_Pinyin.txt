@@ -3,6 +3,7 @@ gravecomb
 acutecomb
 macroncomb
 apostrophemod
+Acaron
 Icaron
 Macute
 Ngrave
@@ -12,6 +13,7 @@ Udieresisacute
 Udieresiscaron
 Udieresisgrave
 Udieresismacron
+acaron
 icaron
 macute
 ngrave
@@ -26,7 +28,6 @@ verticallineabovecomb
 dotaboverightcomb
 Aacute
 Abreve
-Acaron
 Acircumflex
 Agrave
 Amacron
@@ -53,7 +54,6 @@ Ugrave
 Umacron
 aacute
 abreve
-acaron
 acircumflex
 agrave
 amacron
