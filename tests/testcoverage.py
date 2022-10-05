@@ -79,3 +79,43 @@ def test_coverage():
                 "0x%04X  %s %s" % (x, chr(x), unicodedata.name(chr(x))), file=sys.stderr
             )
     assert False, "Coverage test failed"
+
+
+@pytest.mark.parametrize("namfile", glob.glob("GF_glyphsets/*/nam/*.nam"))
+def test_gf_coverage(namfile):
+    """Ensure everything in the GF glyphsets are enabled in subsets"""
+    if "Arabic" in namfile:
+        subsets = ["arabic"]
+    elif "Cyrillic" in namfile:
+        subsets = ["cyrillic"]
+    elif "MusicalSymbols" in namfile:
+        subsets = ["music"]
+    elif "Coptic" in namfile:
+        subsets = ["coptic"]
+    elif "Greek_Archaic" in namfile:
+        subsets = ["greek", "symbols"]
+    elif "Greek" in namfile:
+        subsets = ["greek"]
+    elif "Latin" in namfile or "Phonetics" in namfile:
+        subsets = ["latin"]
+    else:
+        assert False, "Don't know what subset to apply for %s" % namfile
+    designed_cps = ReadNameList(namfile)["charset"]
+    subset_cps = set()
+    for subset in subsets:
+        subset_cps |= codepoints_and_optionally_ext(subset)
+    orphaned_cps = designed_cps - subset_cps
+    if not orphaned_cps:
+        return True
+    message = (
+        "\nThe following codepoints were included in the Google Fonts "
+        f"nam file {os.path.basename(namfile)} but were not present in "
+        f"the {'/'.join(subsets)} backend subsets:\n"
+    )
+    for x in orphaned_cps:
+        try:
+            name = unicodedata.name(chr(x))
+        except ValueError:
+            name = "UNKNOWN NAME"
+        message += "0x%04X  %s %s\n" % (x, chr(x), name)
+    assert False, message
