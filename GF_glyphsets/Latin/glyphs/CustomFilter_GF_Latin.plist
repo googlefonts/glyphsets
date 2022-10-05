@@ -6,6 +6,7 @@
 		<key>list</key>
 		<array>
 			<string>apostrophemod</string>
+			<string>Acaron</string>
 			<string>Acircumflexdotbelow</string>
 			<string>Adblgrave</string>
 			<string>Adieresismacron</string>
@@ -187,6 +188,7 @@
 			<string>Zmacronbelow</string>
 			<string>Zstroke</string>
 			<string>Ismall</string>
+			<string>acaron</string>
 			<string>acircumflexdotbelow</string>
 			<string>adblgrave</string>
 			<string>adieresismacron</string>
@@ -479,7 +481,6 @@
 			<string>A</string>
 			<string>Aacute</string>
 			<string>Abreve</string>
-			<string>Acaron</string>
 			<string>Acircumflex</string>
 			<string>Adieresis</string>
 			<string>Agrave</string>
@@ -593,7 +594,6 @@
 			<string>a</string>
 			<string>aacute</string>
 			<string>abreve</string>
-			<string>acaron</string>
 			<string>acircumflex</string>
 			<string>adieresis</string>
 			<string>agrave</string>
@@ -899,6 +899,7 @@
 			<string>lambda</string>
 			<string>chi</string>
 			<string>dotbelowcomb</string>
+			<string>Acaron</string>
 			<string>Astroke</string>
 			<string>Cstroke</string>
 			<string>Emacronacute</string>
@@ -944,6 +945,7 @@
 			<string>Zcircumflex</string>
 			<string>Zmacronbelow</string>
 			<string>Ismall</string>
+			<string>acaron</string>
 			<string>astroke</string>
 			<string>chi-latin</string>
 			<string>cstroke</string>

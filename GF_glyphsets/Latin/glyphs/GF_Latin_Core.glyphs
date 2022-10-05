@@ -1,5 +1,5 @@
 {
-.appVersion = "3132";
+.appVersion = "3139";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Latin Core";
@@ -154,17 +154,6 @@ width = 600;
 }
 );
 unicode = 258;
-},
-{
-glyphname = Acaron;
-lastChange = "2022-03-04 12:31:03 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 461;
 },
 {
 glyphname = Acircumflex;
@@ -1434,17 +1423,6 @@ width = 600;
 }
 );
 unicode = 259;
-},
-{
-glyphname = acaron;
-lastChange = "2022-03-04 12:31:03 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 462;
 },
 {
 glyphname = acircumflex;

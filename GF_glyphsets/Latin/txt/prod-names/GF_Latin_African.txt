@@ -1,4 +1,5 @@
 uni02BC
+uni01CD
 uni1EAC
 uni0200
 uni01DE
@@ -180,6 +181,7 @@ uni1E92
 Zmacronbelow
 uni01B5
 uni026A
+uni01CE
 uni1EAD
 uni0201
 uni01DF

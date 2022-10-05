@@ -2,6 +2,7 @@ apostrophemod
 lambda
 chi
 dotbelowcomb
+Acaron
 Astroke
 Cstroke
 Emacronacute
@@ -47,6 +48,7 @@ Gamma-latin
 Zcircumflex
 Zmacronbelow
 Ismall
+acaron
 astroke
 chi-latin
 cstroke

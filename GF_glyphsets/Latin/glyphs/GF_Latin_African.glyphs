@@ -1,5 +1,5 @@
 {
-.appVersion = "3124";
+.appVersion = "3139";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Latin African";
@@ -121,6 +121,18 @@ name = Regular;
 }
 );
 glyphs = (
+{
+color = 7;
+glyphname = Acaron;
+lastChange = "2022-10-05 08:58:13 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 461;
+},
 {
 color = 1;
 glyphname = Acircumflexdotbelow;
@@ -2292,6 +2304,18 @@ width = 600;
 }
 );
 unicode = 618;
+},
+{
+color = 7;
+glyphname = acaron;
+lastChange = "2022-10-05 08:58:13 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 462;
 },
 {
 color = 1;
