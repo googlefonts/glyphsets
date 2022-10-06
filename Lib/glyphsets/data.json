@@ -967,6 +967,7 @@
         "GF_Arabic_Core",
         "GF_Latin_Core",
         "GF_Latin_Kernel",
+        "GF_Phonetics_DisorderedSpeech",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -16464,6 +16465,17 @@
       ]
     },
     {
+      "nice_name": "Acaron",
+      "production_name": "uni01CD",
+      "character": "\u01cd",
+      "unicode": 461,
+      "glyphsets": [
+        "GF_Latin_African",
+        "GF_Latin_Minorities",
+        "GF_TransLatin_Pinyin"
+      ]
+    },
+    {
       "nice_name": "Acircumflexdotbelow",
       "production_name": "uni1EAC",
       "character": "\u1eac",
@@ -18168,6 +18180,17 @@
         "GF_Latin_African",
         "GF_Latin_Minorities",
         "GF_Phonetics_IPAStandard"
+      ]
+    },
+    {
+      "nice_name": "acaron",
+      "production_name": "uni01CE",
+      "character": "\u01ce",
+      "unicode": 462,
+      "glyphsets": [
+        "GF_Latin_African",
+        "GF_Latin_Minorities",
+        "GF_TransLatin_Pinyin"
       ]
     },
     {
@@ -20459,16 +20482,6 @@
       ]
     },
     {
-      "nice_name": "Acaron",
-      "production_name": "uni01CD",
-      "character": "\u01cd",
-      "unicode": 461,
-      "glyphsets": [
-        "GF_Latin_Core",
-        "GF_TransLatin_Pinyin"
-      ]
-    },
-    {
       "nice_name": "Acircumflex",
       "production_name": "Acircumflex",
       "character": "\u00c2",
@@ -21532,16 +21545,6 @@
       "production_name": "abreve",
       "character": "\u0103",
       "unicode": 259,
-      "glyphsets": [
-        "GF_Latin_Core",
-        "GF_TransLatin_Pinyin"
-      ]
-    },
-    {
-      "nice_name": "acaron",
-      "production_name": "uni01CE",
-      "character": "\u01ce",
-      "unicode": 462,
       "glyphsets": [
         "GF_Latin_Core",
         "GF_TransLatin_Pinyin"

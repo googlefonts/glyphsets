@@ -50,7 +50,6 @@ dotaccent
 A
 Aacute
 Abreve
-uni01CD
 Acircumflex
 Adieresis
 Agrave
@@ -164,7 +163,6 @@ Zdotaccent
 a
 aacute
 abreve
-uni01CE
 acircumflex
 adieresis
 agrave

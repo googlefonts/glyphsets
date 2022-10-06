@@ -1,5 +1,5 @@
 {
-.appVersion = "3135";
+.appVersion = "3139";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Latin Minorities";
@@ -34,6 +34,16 @@ name = Regular;
 }
 );
 glyphs = (
+{
+glyphname = Acaron;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 461;
+},
 {
 color = 3;
 glyphname = Astroke;
@@ -650,6 +660,16 @@ width = 600;
 }
 );
 unicode = 618;
+},
+{
+glyphname = acaron;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 462;
 },
 {
 color = 3;

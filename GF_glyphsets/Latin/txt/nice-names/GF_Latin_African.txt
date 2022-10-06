@@ -1,4 +1,5 @@
 apostrophemod
+Acaron
 Acircumflexdotbelow
 Adblgrave
 Adieresismacron
@@ -180,6 +181,7 @@ Zdotbelow
 Zmacronbelow
 Zstroke
 Ismall
+acaron
 acircumflexdotbelow
 adblgrave
 adieresismacron

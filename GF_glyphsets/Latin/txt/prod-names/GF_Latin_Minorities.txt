@@ -2,6 +2,7 @@ uni02BC
 lambda
 chi
 dotbelowcomb
+uni01CD
 uni023A
 uni023B
 uni1E16
@@ -47,6 +48,7 @@ Gammalatin
 uni1E90
 Zmacronbelow
 uni026A
+uni01CE
 uni2C65
 uniAB53
 uni023C
