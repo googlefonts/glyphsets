@@ -77,7 +77,6 @@ colonsign
 dong
 guarani
 lari
-lira
 liraTurkish
 manat
 naira

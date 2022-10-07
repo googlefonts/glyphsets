@@ -1,5 +1,5 @@
 {
-.appVersion = "3132";
+.appVersion = "3139";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Latin Plus";
@@ -838,17 +838,6 @@ width = 600;
 }
 );
 unicode = 8382;
-},
-{
-glyphname = lira;
-lastChange = "2022-04-27 12:14:42 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8356;
 },
 {
 glyphname = liraTurkish;
