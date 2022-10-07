@@ -77,7 +77,6 @@ colonmonetary
 dong
 uni20B2
 uni20BE
-lira
 uni20BA
 uni20BC
 uni20A6

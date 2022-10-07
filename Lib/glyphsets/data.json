@@ -24051,15 +24051,6 @@
       ]
     },
     {
-      "nice_name": "lira",
-      "production_name": "lira",
-      "character": "\u20a4",
-      "unicode": 8356,
-      "glyphsets": [
-        "GF_Latin_Plus"
-      ]
-    },
-    {
       "nice_name": "liraTurkish",
       "production_name": "uni20BA",
       "character": "\u20ba",
