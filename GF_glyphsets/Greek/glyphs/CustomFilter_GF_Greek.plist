@@ -54,6 +54,7 @@
 			<string>hungarumlautcomb</string>
 			<string>macroncomb</string>
 			<string>dotaccent</string>
+			<string>degree</string>
 			<string>A</string>
 			<string>Aacute</string>
 			<string>Abreve</string>
@@ -308,7 +309,6 @@
 			<string>copyright</string>
 			<string>registered</string>
 			<string>trademark</string>
-			<string>degree</string>
 			<string>cent</string>
 			<string>dollar</string>
 			<string>euro</string>

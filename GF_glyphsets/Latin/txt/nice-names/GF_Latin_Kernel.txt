@@ -39,6 +39,7 @@ equal
 greater
 less
 percent
+degree
 A
 B
 C
@@ -105,7 +106,6 @@ ampersand
 copyright
 registered
 trademark
-degree
 cent
 dollar
 euro

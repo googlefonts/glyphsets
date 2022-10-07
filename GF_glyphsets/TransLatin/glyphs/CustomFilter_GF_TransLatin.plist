@@ -46,6 +46,7 @@
 			<string>greater</string>
 			<string>less</string>
 			<string>percent</string>
+			<string>degree</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -112,7 +113,6 @@
 			<string>copyright</string>
 			<string>registered</string>
 			<string>trademark</string>
-			<string>degree</string>
 			<string>cent</string>
 			<string>dollar</string>
 			<string>euro</string>
