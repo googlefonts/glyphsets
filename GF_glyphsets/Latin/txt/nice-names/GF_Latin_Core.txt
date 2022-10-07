@@ -47,6 +47,7 @@ acutecomb
 hungarumlautcomb
 macroncomb
 dotaccent
+degree
 A
 Aacute
 Abreve
@@ -301,7 +302,6 @@ section
 copyright
 registered
 trademark
-degree
 cent
 dollar
 euro

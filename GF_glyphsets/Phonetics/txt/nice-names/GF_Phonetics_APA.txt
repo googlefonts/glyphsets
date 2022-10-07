@@ -12,11 +12,11 @@ wdotbelow
 xdotaccent
 colonmod
 commaabovecomb
-lacute
-ogonekcomb
 jcaron
 ymod
 thetamod
+lacute
+ogonekcomb
 Dsmall
 Ismallstroke
 Usmallstroke

@@ -66,6 +66,7 @@ uni1DC7
 uni1DC5
 uni1DC4
 uni1DC6
+uni02C8
 ae
 ccedilla
 eth
@@ -78,7 +79,6 @@ uni030C
 uni0306
 uni030A
 tildecomb
-uni02C8
 uni0299
 uni0262
 uni029B

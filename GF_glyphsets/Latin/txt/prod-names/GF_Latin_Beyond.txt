@@ -105,7 +105,6 @@ uni0313
 uni0331
 uni0332
 uni02C0
-degree
 Ccircumflex
 Gcircumflex
 Hcircumflex
@@ -127,6 +126,7 @@ uni0163
 uni1EF9
 uni02B8
 uni1DBF
+degree
 uni2144
 uni0315
 uni0335
