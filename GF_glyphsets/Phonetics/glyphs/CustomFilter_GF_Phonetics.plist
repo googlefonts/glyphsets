@@ -54,6 +54,7 @@
 			<string>hungarumlautcomb</string>
 			<string>macroncomb</string>
 			<string>dotaccent</string>
+			<string>degree</string>
 			<string>A</string>
 			<string>Aacute</string>
 			<string>Abreve</string>
@@ -308,7 +309,6 @@
 			<string>copyright</string>
 			<string>registered</string>
 			<string>trademark</string>
-			<string>degree</string>
 			<string>cent</string>
 			<string>dollar</string>
 			<string>euro</string>
@@ -361,11 +361,11 @@
 			<string>xdotaccent</string>
 			<string>colonmod</string>
 			<string>commaabovecomb</string>
-			<string>lacute</string>
-			<string>ogonekcomb</string>
 			<string>jcaron</string>
 			<string>ymod</string>
 			<string>thetamod</string>
+			<string>lacute</string>
+			<string>ogonekcomb</string>
 			<string>Dsmall</string>
 			<string>Ismallstroke</string>
 			<string>Usmallstroke</string>
@@ -542,6 +542,7 @@
 			<string>gravemacroncomb</string>
 			<string>macronacutecomb</string>
 			<string>macrongravecomb</string>
+			<string>verticallinemod</string>
 			<string>ae</string>
 			<string>ccedilla</string>
 			<string>eth</string>
@@ -554,7 +555,6 @@
 			<string>brevecomb</string>
 			<string>ringcomb</string>
 			<string>tildecomb</string>
-			<string>verticallinemod</string>
 			<string>Bsmall</string>
 			<string>Gsmall</string>
 			<string>Gsmallhook</string>

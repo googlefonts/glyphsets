@@ -3852,7 +3852,7 @@
       "glyphsets": [
         "GF_Cyrillic_Plus",
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard",
         "GF_TransLatin_Arabic",
         "GF_TransLatin_Pinyin"
@@ -10498,7 +10498,7 @@
       "unicode": 955,
       "glyphsets": [
         "GF_Greek_Core",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_APA"
       ]
     },
@@ -10610,7 +10610,7 @@
       "unicode": 967,
       "glyphsets": [
         "GF_Greek_Core",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -16430,7 +16430,7 @@
       "unicode": 803,
       "glyphsets": [
         "GF_Greek_Pro",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Latin_Vietnamese",
         "GF_TransLatin_Arabic"
       ]
@@ -16471,7 +16471,7 @@
       "unicode": 461,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Pinyin"
       ]
     },
@@ -16555,7 +16555,7 @@
       "unicode": 570,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -16655,7 +16655,7 @@
       "unicode": 571,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_APA"
       ]
     },
@@ -16796,7 +16796,7 @@
       "unicode": 7702,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -16806,7 +16806,7 @@
       "unicode": 7700,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -16816,7 +16816,7 @@
       "unicode": 400,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -16853,7 +16853,7 @@
       "unicode": 7868,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Latin_Vietnamese"
       ]
     },
@@ -16873,7 +16873,7 @@
       "unicode": 399,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -16883,7 +16883,7 @@
       "unicode": 439,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -16893,7 +16893,7 @@
       "unicode": 494,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -16939,7 +16939,7 @@
       "unicode": 486,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -16959,7 +16959,7 @@
       "unicode": 577,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -16969,7 +16969,7 @@
       "unicode": 7712,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -16980,7 +16980,7 @@
       "unicode": 484,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17036,7 +17036,7 @@
       "unicode": 7716,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -17074,7 +17074,7 @@
       "unicode": 463,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Pinyin"
       ]
     },
@@ -17103,7 +17103,7 @@
       "unicode": 7882,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Latin_Vietnamese"
       ]
     },
@@ -17132,7 +17132,7 @@
       "unicode": 407,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17142,7 +17142,7 @@
       "unicode": 296,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Latin_Vietnamese"
       ]
     },
@@ -17180,7 +17180,7 @@
       "unicode": 7728,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17190,7 +17190,7 @@
       "unicode": 488,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17200,7 +17200,7 @@
       "unicode": 7730,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17219,7 +17219,7 @@
       "unicode": 7732,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -17239,7 +17239,7 @@
       "unicode": 573,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17267,7 +17267,7 @@
       "unicode": 7734,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17304,7 +17304,7 @@
       "unicode": 11362,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17333,7 +17333,7 @@
       "unicode": 7746,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17370,7 +17370,7 @@
       "unicode": 7750,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17408,7 +17408,7 @@
       "unicode": 7752,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17427,7 +17427,7 @@
       "unicode": 465,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Pinyin"
       ]
     },
@@ -17512,7 +17512,7 @@
       "unicode": 7762,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17522,7 +17522,7 @@
       "unicode": 7760,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17541,7 +17541,7 @@
       "unicode": 490,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17551,7 +17551,7 @@
       "unicode": 492,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17561,7 +17561,7 @@
       "unicode": 390,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17733,7 +17733,7 @@
       "unicode": 42891,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17761,7 +17761,7 @@
       "unicode": 7778,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -17799,7 +17799,7 @@
       "unicode": 574,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17837,7 +17837,7 @@
       "unicode": 7790,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -17866,7 +17866,7 @@
       "unicode": 467,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Pinyin"
       ]
     },
@@ -17972,7 +17972,7 @@
       "unicode": 433,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17982,7 +17982,7 @@
       "unicode": 360,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Latin_Vietnamese"
       ]
     },
@@ -18011,7 +18011,7 @@
       "unicode": 404,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -18139,7 +18139,7 @@
       "unicode": 7824,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -18159,7 +18159,7 @@
       "unicode": 7828,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -18178,7 +18178,7 @@
       "unicode": 618,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -18189,7 +18189,7 @@
       "unicode": 462,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Pinyin"
       ]
     },
@@ -18284,7 +18284,7 @@
       "unicode": 11365,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -18378,7 +18378,7 @@
       "unicode": 43859,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -18399,7 +18399,7 @@
       "unicode": 572,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_APA"
       ]
     },
@@ -18543,7 +18543,7 @@
       "unicode": 7703,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -18553,7 +18553,7 @@
       "unicode": 7701,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -18563,7 +18563,7 @@
       "unicode": 603,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -18593,7 +18593,7 @@
       "unicode": 7869,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Latin_Vietnamese"
       ]
     },
@@ -18622,7 +18622,7 @@
       "unicode": 601,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -18633,7 +18633,7 @@
       "unicode": 658,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -18644,7 +18644,7 @@
       "unicode": 495,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_APA"
       ]
     },
@@ -18682,7 +18682,7 @@
       "unicode": 611,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -18693,7 +18693,7 @@
       "unicode": 487,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -18714,7 +18714,7 @@
       "unicode": 660,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -18725,7 +18725,7 @@
       "unicode": 661,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -18745,7 +18745,7 @@
       "unicode": 7713,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -18756,7 +18756,7 @@
       "unicode": 485,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -18812,7 +18812,7 @@
       "unicode": 7717,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -18852,7 +18852,7 @@
       "unicode": 464,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Pinyin"
       ]
     },
@@ -18881,7 +18881,7 @@
       "unicode": 7883,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Latin_Vietnamese"
       ]
     },
@@ -18901,7 +18901,7 @@
       "unicode": 617,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -18911,7 +18911,7 @@
       "unicode": 616,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -18922,7 +18922,7 @@
       "unicode": 297,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Latin_Vietnamese"
       ]
     },
@@ -18961,7 +18961,7 @@
       "unicode": 7729,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -18971,7 +18971,7 @@
       "unicode": 489,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -18981,7 +18981,7 @@
       "unicode": 7731,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19001,7 +19001,7 @@
       "unicode": 7733,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -19021,7 +19021,7 @@
       "unicode": 411,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_APA"
       ]
     },
@@ -19032,7 +19032,7 @@
       "unicode": 410,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_APA"
       ]
     },
@@ -19043,7 +19043,7 @@
       "unicode": 620,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -19063,7 +19063,7 @@
       "unicode": 7735,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19100,7 +19100,7 @@
       "unicode": 619,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -19130,7 +19130,7 @@
       "unicode": 7747,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19168,7 +19168,7 @@
       "unicode": 7751,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19207,7 +19207,7 @@
       "unicode": 7753,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19227,7 +19227,7 @@
       "unicode": 466,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Pinyin"
       ]
     },
@@ -19304,7 +19304,7 @@
       "unicode": 7763,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19314,7 +19314,7 @@
       "unicode": 7761,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19333,7 +19333,7 @@
       "unicode": 491,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19343,7 +19343,7 @@
       "unicode": 493,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19353,7 +19353,7 @@
       "unicode": 596,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -19548,7 +19548,7 @@
       "unicode": 42892,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19576,7 +19576,7 @@
       "unicode": 7779,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -19615,7 +19615,7 @@
       "unicode": 11366,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19654,7 +19654,7 @@
       "unicode": 7791,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -19685,7 +19685,7 @@
       "unicode": 468,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Pinyin"
       ]
     },
@@ -19791,7 +19791,7 @@
       "unicode": 650,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -19802,7 +19802,7 @@
       "unicode": 361,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Latin_Vietnamese"
       ]
     },
@@ -19953,7 +19953,7 @@
       "unicode": 7825,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19973,7 +19973,7 @@
       "unicode": 7829,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -20013,7 +20013,7 @@
       "unicode": 695,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -20024,7 +20024,7 @@
       "unicode": 450,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -20083,7 +20083,7 @@
       "unicode": 7611,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -20232,7 +20232,7 @@
       "unicode": 787,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_APA"
       ]
     },
@@ -20292,7 +20292,7 @@
       "unicode": 817,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
     },
@@ -20303,7 +20303,7 @@
       "unicode": 818,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -20401,7 +20401,7 @@
       "unicode": 704,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Minorities"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -20449,6 +20449,257 @@
       "unicode": 42937,
       "glyphsets": [
         "GF_Latin_African"
+      ]
+    },
+    {
+      "nice_name": "Ccircumflex",
+      "production_name": "Ccircumflex",
+      "character": "\u0108",
+      "unicode": 264,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Gcircumflex",
+      "production_name": "Gcircumflex",
+      "character": "\u011c",
+      "unicode": 284,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Hcircumflex",
+      "production_name": "Hcircumflex",
+      "character": "\u0124",
+      "unicode": 292,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Jcircumflex",
+      "production_name": "Jcircumflex",
+      "character": "\u0134",
+      "unicode": 308,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Scircumflex",
+      "production_name": "Scircumflex",
+      "character": "\u015c",
+      "unicode": 348,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Tbar",
+      "production_name": "Tbar",
+      "character": "\u0166",
+      "unicode": 358,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Tcedilla",
+      "production_name": "uni0162",
+      "character": "\u0162",
+      "unicode": 354,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Ytilde",
+      "production_name": "uni1EF8",
+      "character": "\u1ef8",
+      "unicode": 7928,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Latin_Vietnamese"
+      ]
+    },
+    {
+      "nice_name": "ccircumflex",
+      "production_name": "ccircumflex",
+      "character": "\u0109",
+      "unicode": 265,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "gcircumflex",
+      "production_name": "gcircumflex",
+      "character": "\u011d",
+      "unicode": 285,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "hcircumflex",
+      "production_name": "hcircumflex",
+      "character": "\u0125",
+      "unicode": 293,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "idotless_ogonek",
+      "production_name": "dotlessi_ogonek",
+      "character": null,
+      "unicode": null,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "jcaron",
+      "production_name": "uni01F0",
+      "character": "\u01f0",
+      "unicode": 496,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_APA"
+      ]
+    },
+    {
+      "nice_name": "jcircumflex",
+      "production_name": "jcircumflex",
+      "character": "\u0135",
+      "unicode": 309,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "kgreenlandic",
+      "production_name": "kgreenlandic",
+      "character": "\u0138",
+      "unicode": 312,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "scircumflex",
+      "production_name": "scircumflex",
+      "character": "\u015d",
+      "unicode": 349,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "tbar",
+      "production_name": "tbar",
+      "character": "\u0167",
+      "unicode": 359,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "tcedilla",
+      "production_name": "uni0163",
+      "character": "\u0163",
+      "unicode": 355,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "ytilde",
+      "production_name": "uni1EF9",
+      "character": "\u1ef9",
+      "unicode": 7929,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Latin_Vietnamese"
+      ]
+    },
+    {
+      "nice_name": "ymod",
+      "production_name": "uni02B8",
+      "character": "\u02b8",
+      "unicode": 696,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_APA"
+      ]
+    },
+    {
+      "nice_name": "thetamod",
+      "production_name": "uni1DBF",
+      "character": "\u1dbf",
+      "unicode": 7615,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_APA"
+      ]
+    },
+    {
+      "nice_name": "degree",
+      "production_name": "degree",
+      "character": "\u00b0",
+      "unicode": 176,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Latin_Core",
+        "GF_Latin_Kernel"
+      ]
+    },
+    {
+      "nice_name": "YturnedSansSerif",
+      "production_name": "uni2144",
+      "character": "\u2144",
+      "unicode": 8516,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "commaaboverightcomb",
+      "production_name": "uni0315",
+      "character": "\u0315",
+      "unicode": 789,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "strokeshortcomb",
+      "production_name": "uni0335",
+      "character": "\u0335",
+      "unicode": 821,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "primemod",
+      "production_name": "uni02B9",
+      "character": "\u02b9",
+      "unicode": 697,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "verticallinemod",
+      "production_name": "uni02C8",
+      "character": "\u02c8",
+      "unicode": 712,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_IPAStandard"
       ]
     },
     {
@@ -22864,17 +23115,6 @@
       ]
     },
     {
-      "nice_name": "degree",
-      "production_name": "degree",
-      "character": "\u00b0",
-      "unicode": 176,
-      "glyphsets": [
-        "GF_Latin_Core",
-        "GF_Latin_Kernel",
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
       "nice_name": "cent",
       "production_name": "cent",
       "character": "\u00a2",
@@ -23169,246 +23409,6 @@
       "unicode": 731,
       "glyphsets": [
         "GF_Latin_Core"
-      ]
-    },
-    {
-      "nice_name": "Ccircumflex",
-      "production_name": "Ccircumflex",
-      "character": "\u0108",
-      "unicode": 264,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "Gcircumflex",
-      "production_name": "Gcircumflex",
-      "character": "\u011c",
-      "unicode": 284,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "Hcircumflex",
-      "production_name": "Hcircumflex",
-      "character": "\u0124",
-      "unicode": 292,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "Jcircumflex",
-      "production_name": "Jcircumflex",
-      "character": "\u0134",
-      "unicode": 308,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "Scircumflex",
-      "production_name": "Scircumflex",
-      "character": "\u015c",
-      "unicode": 348,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "Tbar",
-      "production_name": "Tbar",
-      "character": "\u0166",
-      "unicode": 358,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "Tcedilla",
-      "production_name": "uni0162",
-      "character": "\u0162",
-      "unicode": 354,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "Ytilde",
-      "production_name": "uni1EF8",
-      "character": "\u1ef8",
-      "unicode": 7928,
-      "glyphsets": [
-        "GF_Latin_Minorities",
-        "GF_Latin_Vietnamese"
-      ]
-    },
-    {
-      "nice_name": "ccircumflex",
-      "production_name": "ccircumflex",
-      "character": "\u0109",
-      "unicode": 265,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "gcircumflex",
-      "production_name": "gcircumflex",
-      "character": "\u011d",
-      "unicode": 285,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "hcircumflex",
-      "production_name": "hcircumflex",
-      "character": "\u0125",
-      "unicode": 293,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "idotless_ogonek",
-      "production_name": "dotlessi_ogonek",
-      "character": null,
-      "unicode": null,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "jcaron",
-      "production_name": "uni01F0",
-      "character": "\u01f0",
-      "unicode": 496,
-      "glyphsets": [
-        "GF_Latin_Minorities",
-        "GF_Phonetics_APA"
-      ]
-    },
-    {
-      "nice_name": "jcircumflex",
-      "production_name": "jcircumflex",
-      "character": "\u0135",
-      "unicode": 309,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "kgreenlandic",
-      "production_name": "kgreenlandic",
-      "character": "\u0138",
-      "unicode": 312,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "scircumflex",
-      "production_name": "scircumflex",
-      "character": "\u015d",
-      "unicode": 349,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "tbar",
-      "production_name": "tbar",
-      "character": "\u0167",
-      "unicode": 359,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "tcedilla",
-      "production_name": "uni0163",
-      "character": "\u0163",
-      "unicode": 355,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "ytilde",
-      "production_name": "uni1EF9",
-      "character": "\u1ef9",
-      "unicode": 7929,
-      "glyphsets": [
-        "GF_Latin_Minorities",
-        "GF_Latin_Vietnamese"
-      ]
-    },
-    {
-      "nice_name": "ymod",
-      "production_name": "uni02B8",
-      "character": "\u02b8",
-      "unicode": 696,
-      "glyphsets": [
-        "GF_Latin_Minorities",
-        "GF_Phonetics_APA"
-      ]
-    },
-    {
-      "nice_name": "thetamod",
-      "production_name": "uni1DBF",
-      "character": "\u1dbf",
-      "unicode": 7615,
-      "glyphsets": [
-        "GF_Latin_Minorities",
-        "GF_Phonetics_APA"
-      ]
-    },
-    {
-      "nice_name": "YturnedSansSerif",
-      "production_name": "uni2144",
-      "character": "\u2144",
-      "unicode": 8516,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "commaaboverightcomb",
-      "production_name": "uni0315",
-      "character": "\u0315",
-      "unicode": 789,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "strokeshortcomb",
-      "production_name": "uni0335",
-      "character": "\u0335",
-      "unicode": 821,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "primemod",
-      "production_name": "uni02B9",
-      "character": "\u02b9",
-      "unicode": 697,
-      "glyphsets": [
-        "GF_Latin_Minorities"
-      ]
-    },
-    {
-      "nice_name": "verticallinemod",
-      "production_name": "uni02C8",
-      "character": "\u02c8",
-      "unicode": 712,
-      "glyphsets": [
-        "GF_Latin_Minorities",
-        "GF_Phonetics_IPAStandard"
       ]
     },
     {

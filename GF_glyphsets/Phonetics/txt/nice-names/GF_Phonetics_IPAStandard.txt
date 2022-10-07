@@ -66,6 +66,7 @@ acutemacroncomb
 gravemacroncomb
 macronacutecomb
 macrongravecomb
+verticallinemod
 ae
 ccedilla
 eth
@@ -78,7 +79,6 @@ caroncomb
 brevecomb
 ringcomb
 tildecomb
-verticallinemod
 Bsmall
 Gsmall
 Gsmallhook

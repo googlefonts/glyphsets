@@ -47,6 +47,7 @@ acutecomb
 uni030B
 uni0304
 dotaccent
+degree
 A
 Aacute
 Abreve
@@ -301,7 +302,6 @@ section
 copyright
 registered
 trademark
-degree
 cent
 dollar
 Euro

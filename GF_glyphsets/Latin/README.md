@@ -1,18 +1,14 @@
 Google Fonts Latin Character Sets
 ==================================
 
-These glyphset are new, and production-ready, but are expected to continue to evolve in summer 2022 until they settle down for a few years again. Upcoming changes include:
-- "Minority" set still doesn't support indigenous latin transcript for Northen American languages.
-- We should define a number of speaker that draws the line between Core and Minority 
-
 GF defines 6 level of language support for latin fonts:
 
 1. Kernel: support ASCII + necessary punctuation and symbols for English language.
-2. Core: support main western languages (incl. Kernel).
+2. Core: support latin alphabets for European and American languages >5M speakers (incl. Kernel).
 3. Vietnamese: additional support for Vietnamese language.
 4. Plus: additional set of symbols for basic math and economy.
 5. African: support for Latin African languages not supported by Latin Core.
-6. Minorities: support for indigenous latin based languages from European and American regions (that are not in Latin Core).
+6. Beyond: support for indigenous latin based languages from European and American regions (< 5M peakers), that are not supported in Latin Core.
 
 All latin font families commissioned by GF should support level 4 and therefore include Vietnamese and Plus sets.
 
@@ -54,8 +50,8 @@ GF Latin African
 Abron, Achuar-Shiwiar, Adamawa Fulfulde, Adangme, Aghem, Aguaruna, Aja (Benin), Anii, Arabela, Atayal, Awa-Cuaiquer, Baatonum, Bafia, Bagirmi Fulfulde, Balkan Romani, Bambara, Baoulé, Basa (Cameroon), Biali, Boko (Benin), Bora, Borgu Fulfulde, Bouna Kulango, Bushi, Cashinahua, Central Nahuatl, Central-Eastern Niger Fulfulde, Chachi, Chayahuita, Dagbani, Dendi (Benin), Dimli, Dinka, Ditammari, Duala, Dyula, Eastern Maninkakan, Embu, Ewe, Ewondo, Fanti, Fon, Foodo, Ga, Gen, Gonja, Guinea Kpelle, Gwichʼin, Hausa, Kabiyè, Kamba (Kenya), Kanuri, Kaqchikel, Kara-Kalpak, Kasem, Khoekhoe, Kikuyu, Kirmanjki, Koyra Chiini Songhay, Koyraboro Senni Songhai, Krio, Kwasio, Lakota, Lamnso', Langi, Lingala, Lobi, Lozi, Luba-Katanga, Lukpa, Maasina Fulfulde, Mam, Masai, Mbelime, Mende (Sierra Leone), Meta’, Metlatónoc Mixtec, Mezquital Otomi, Mi'kmaq, Mirandese, Miyobe, Moba, Mossi, Mundang, Murui Huitoto, Muslim Tat, Nateni, Navajo, Ngiemboon, Ngomba, Nigerian Fulfulde, North Azerbaijani, North Marquesan, Northeastern Dinka, Northern Kissi, Nuer, Nyamwezi, Nyemba, Nzima, Otuho, Prussian, Pulaar, Pular, Páez, Secoya, Serer, Sharanahua, Shilluk, Shuar, Siona, Skolt Sami, South Azerbaijani, South Marquesan, Southern Dagaare, Sukuma, Susu, Talysh, Tasawaq, Tem, Ticuna, Timne, Tojolabal, Totontepec Mixe, Tsafiki, Tsakhur, Tuvalu, Twi, Umbundu, Urarina, Venda, Vlax Romani, Waama, Waci Gbe, Wallisian, Walser, Waorani, Wasa, Western Niger Fulfulde, Xavánte, Xwela Gbe, Yagua, Yangben, Yanomamö, Yom, Zarma, Zuni
 
 
-GF Latin Minorities
--------------------
-317 languages supported, 37 more than Latin Core:
+GF Latin Beyond
+---------------
+380 languages supported, 98 more than Latin Core:
 
-Achuar-Shiwiar, Aguaruna, Apinayé, Atayal, Awetí, Cashinahua, Chachi, Dimli, Embu, Gagauz, Kaingang, Kamba (Kenya), Kaqchikel, Kikuyu, Kirmanjki, Lozi, Mirandese, Muslim Tat, North Azerbaijani, Northern Sami, Otuho, Paraguayan Guaraní, Pite Sami, Páez, Shuar, Skolt Sami, South Azerbaijani, Talysh, Toba, Tojolabal, Tsakhur, Umbundu, Ume Sami, Walser, Waorani, Xavánte, Zuni.
+Abron, Acholi, Achuar-Shiwiar, Adangme, Aguaruna, Ahtna, Akoose, Alekano, Aleut, Anaang, Anufo, Apinayé, Arabela, Asturian, Atayal, Awa-Cuaiquer, Awetí, Awing, Baatonum, Baoulé, Boko (Benin), Bora, Bouna Kulango, Buginese, Cashinahua, Chachi, Chayahuita, Dagbani, Dendi (Benin), Dimli, Dinka, Embu, Fanti, Ga, Gagauz, Gonja, Gwichʼin, Kaingang, Kamba (Kenya), Kaqchikel, Kikuyu, Kirmanjki, Krio, Kwak’wala, Lamnso', Lingala, Lozi, Luba-Katanga, Mandinka, Mandjak, Mankanya, Mende (Sierra Leone), Meta’, Metlatónoc Mixtec, Mezquital Otomi, Mi'kmaq, Mirandese, Murui Huitoto, Muslim Tat, Navajo, North Azerbaijani, Northeastern Dinka, Northern Kissi, Northern Sami, Nuer, Nuuchahnulth, Nyamwezi, Nyemba, Nzima, Otuho, Paraguayan Guaraní, Pite Sami, Páez, Secoya, Sharanahua, Shilluk, Shuar, Siona, Skolt Sami, South Azerbaijani, Southern Dagaare, Talysh, Ticuna, Toba, Tojolabal, Totontepec Mixe, Tsafiki, Tsakhur, Tuvalu, Twi, Umbundu, Ume Sami, Waama, Walser, Waorani, Wasa, Xavánte, Yagua, Yangben, Yanomamö, Zuni

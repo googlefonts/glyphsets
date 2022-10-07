@@ -105,7 +105,6 @@ commaabovecomb
 macronbelowcomb
 lowlinecomb
 glottalstopmod
-degree
 Ccircumflex
 Gcircumflex
 Hcircumflex
@@ -127,6 +126,7 @@ tcedilla
 ytilde
 ymod
 thetamod
+degree
 YturnedSansSerif
 commaaboverightcomb
 strokeshortcomb
