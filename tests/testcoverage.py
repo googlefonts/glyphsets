@@ -6,7 +6,6 @@ from glyphsets.codepoints import (
 )
 from fontTools.unicodedata.Scripts import NAMES
 import pytest
-import unicodedata
 from collections import defaultdict
 import glob
 import warnings
@@ -20,6 +19,20 @@ except Exception as e:
         "Coverage test requires gflanguages to be installed",
         allow_module_level=True,
     )
+
+try:
+    import youseedee
+    def get_name(cp):
+        return youseedee.ucd_data(cp).get("Name")
+except Exception as e:
+    import unicodedata
+    def get_name(cp):
+        try:
+            name = unicodedata.name(chr(x))
+        except ValueError:
+            name = "UNKNOWN NAME"
+        return name
+
 
 MAGIC_CODEPOINTS = set([0x2010, 0xA])
 
@@ -76,7 +89,7 @@ def test_coverage():
         )
         for x in missing_cps:
             print(
-                "0x%04X  %s %s" % (x, chr(x), unicodedata.name(chr(x))), file=sys.stderr
+                "0x%04X  %s %s" % (x, chr(x), get_name(x)), file=sys.stderr
             )
     assert False, "Coverage test failed"
 
@@ -115,9 +128,5 @@ def test_gf_coverage(namfile):
         f"the {'/'.join(subsets)} backend subsets:\n"
     )
     for x in orphaned_cps:
-        try:
-            name = unicodedata.name(chr(x))
-        except ValueError:
-            name = "UNKNOWN NAME"
-        message += "0x%04X  %s %s\n" % (x, chr(x), name)
+        message += "0x%04X  %s %s\n" % (x, chr(x), get_name(x))
     assert False, message
