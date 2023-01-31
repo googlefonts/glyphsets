@@ -21,6 +21,18 @@ except Exception as e:
         allow_module_level=True,
     )
 
+try:
+    from youseedee import ucd_data  # More up to date Unicode
+
+    def codepoint_name(cp):
+        return ucd_data(cp).get("Name", "UNKNOWN NAME")
+except Exception:
+    def codepoint_name(cp):
+        try:
+            return unicodedata.name(chr(cp))
+        except ValueError:
+            return "UNKNOWN NAME"
+
 MAGIC_CODEPOINTS = set([0x2010, 0xA])
 
 
@@ -76,7 +88,7 @@ def test_coverage():
         )
         for x in missing_cps:
             print(
-                "0x%04X  %s %s" % (x, chr(x), unicodedata.name(chr(x))), file=sys.stderr
+                "0x%04X  %s %s" % (x, chr(x), codepoint_name(x)), file=sys.stderr
             )
     assert False, "Coverage test failed"
 
@@ -115,9 +127,5 @@ def test_gf_coverage(namfile):
         f"the {'/'.join(subsets)} backend subsets:\n"
     )
     for x in orphaned_cps:
-        try:
-            name = unicodedata.name(chr(x))
-        except ValueError:
-            name = "UNKNOWN NAME"
-        message += "0x%04X  %s %s\n" % (x, chr(x), name)
+        message += "0x%04X  %s %s\n" % (x, chr(x), codepoint_name(x))
     assert False, message
