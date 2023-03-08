@@ -65,17 +65,24 @@ class _GFGlyphData:
                     res[glyphset]["missing"].append(g)
         return res
 
+    def glyphsets_fulfilled(self, ttFont):
+        res = self.glyphsets_in_font(ttFont)
+        return {
+            k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
+            for k, v in res.items()
+        }
+
     def missing_glyphsets_in_font(self, ttFont, threshold=0.8):
-        glyphsets_in_font = self.glyphsets_in_font(ttFont)
+        res = self.glyphsets_in_font(ttFont)
         fulfilled = {
             k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
-            for k, v in glyphsets_in_font.items()
+            for k, v in res.items()
         }
         missing = {}
         for k, v in fulfilled.items():
             if v == 1.0 or v < threshold:
                 continue
-            missing[k] = glyphsets_in_font[k]["missing"]
+            missing[k] = res[k]["missing"]
         return missing
 
     def glyphs_in_glyphsets(self, glyphsets):
