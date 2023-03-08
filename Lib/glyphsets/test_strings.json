@@ -1,0 +1,35 @@
+{
+    "GF_Latin_Kernel": {
+        "Letter Groups": [
+            "EFHIJLTU", 
+            "AVWXZ",
+            "KMNY",
+            "COQS",
+            "BPRDG",
+            "fijltr",
+            "kvwxyz",
+            "hmnu",
+            "ceogs",
+            "abdpq"
+        ],
+        "Spacing": [
+            "HHOHHOOHOO HIHOIO",
+            "uuonouonoo ninoioolonlniuo",
+            "010 080 030 020 050 060 070"
+        ],
+        "Kerning": [
+            "HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH",
+            "TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř",
+            "HHTan oTo yTy vAv oVo eYe Ly Ky Ac",
+            "nin non nvn ovo oxo ayn fl fi fj ft gj ko rento",
+            "ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl",
+            "H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-",
+            "n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}",
+            "080 076 474 973 94 7078",
+            "P4T47A .47,9.7-»4",
+            "42°21′29″N 71°03′49″W",
+            "d² m³ 15°C/26°F",
+            "0/0\\0"
+        ]
+    }
+}
