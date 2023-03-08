@@ -17,16 +17,22 @@ except ImportError:
     __version__ = "0.0.0+unknown"
 
 
-DATA_FP = os.path.join(os.path.dirname(__file__), "data.json")
+GlyphDATA_FP = os.path.join(os.path.dirname(__file__), "data.json")
+TestDATA_FP = os.path.join(os.path.dirname(__file__), "test_strings.json")
 log = logging.getLogger(__file__)
 
 
+class _TestDocData:
+    def __init__(self, data=json.load(open(TestDATA_FP))):
+        self._data = data
+
+
 class _GFGlyphData:
-    def __init__(self, data=json.load(open(DATA_FP))):
+    def __init__(self, data=json.load(open(GlyphDATA_FP))):
         self._data = data
         self._in_use = set(g["nice_name"] for g in self._data["glyphs"])
 
-    def save(self, fp=DATA_FP):
+    def save(self, fp=GlyphDATA_FP):
         with open(fp, "w") as db:
             json.dump(self._data, db, indent=2)
 
@@ -39,7 +45,7 @@ class _GFGlyphData:
     def __getitem__(self, k):
         return self._data[k]
 
-    def missing_glyphsets_in_font(self, ttFont, threshold=0.8):
+    def glyphsets_in_font(self, ttFont):
         glyphs_in_font = set(ttFont.getGlyphOrder())
         unicodes_in_font = set(ttFont.getBestCmap().keys())
         res = {}
@@ -57,16 +63,19 @@ class _GFGlyphData:
                     res[glyphset]["has"].append(g)
                 else:
                     res[glyphset]["missing"].append(g)
+        return res
 
+    def missing_glyphsets_in_font(self, ttFont, threshold=0.8):
+        glyphsets_in_font = self.glyphsets_in_font(ttFont)
         fulfilled = {
             k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
-            for k, v in res.items()
+            for k, v in glyphsets_in_font.items()
         }
         missing = {}
         for k, v in fulfilled.items():
             if v == 1.0 or v < threshold:
                 continue
-            missing[k] = res[k]["missing"]
+            missing[k] = glyphsets_in_font[k]["missing"]
         return missing
 
     def glyphs_in_glyphsets(self, glyphsets):
