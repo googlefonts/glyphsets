@@ -26,6 +26,18 @@ class _TestDocData:
     def __init__(self, data=json.load(open(TestDATA_FP))):
         self._data = data
 
+    def test_strings_in_font(self, ttFont, threshold=0.95):
+        res = {}
+        glyphsets_in_font = GFGlyphData.glyphsets_fulfilled(ttFont)
+        for glyphset, coverage in glyphsets_in_font.items():
+            if coverage < threshold:
+                continue
+            stringset = self._data.get(glyphset)
+            if not stringset:
+                continue
+            res[glyphset] = stringset
+        return res
+
 
 class _GFGlyphData:
     def __init__(self, data=json.load(open(GlyphDATA_FP))):
@@ -249,3 +261,4 @@ class _GFGlyphData:
 
 
 GFGlyphData = _GFGlyphData()
+GFTestData = _TestDocData()
