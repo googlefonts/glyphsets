@@ -20391,7 +20391,8 @@
       "character": "\u02bb",
       "unicode": 699,
       "glyphsets": [
-        "GF_Latin_African"
+        "GF_Latin_African",
+        "GF_Latin_Beyond"
       ]
     },
     {

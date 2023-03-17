@@ -535,6 +535,7 @@
 			<string>commaabovecomb</string>
 			<string>macronbelowcomb</string>
 			<string>lowlinecomb</string>
+			<string>commaturnedmod</string>
 			<string>glottalstopmod</string>
 			<string>Ccircumflex</string>
 			<string>Gcircumflex</string>
