@@ -42,7 +42,7 @@ setup(
     package_data={'glyphsets': [
                       "encodings/*.nam",
                       "encodings/GF Glyph Sets/*.nam",
-                      "data.json",
+                      "*.json",
                   ]
                  },
     entry_points={"console_scripts": ["glyphsets = glyphsets.__main__:main"]},
