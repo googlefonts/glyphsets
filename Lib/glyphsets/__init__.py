@@ -24,7 +24,7 @@ log = logging.getLogger(__file__)
 
 
 class _GFGlyphData:
-    def __init__(self, data=json.load(open(DATA_FP))):
+    def __init__(self, data=json.load(open(DATA_FP, encoding="utf8"))):
         self._data = copy(data)
         self._in_use = set(g["nice_name"] for g in self._data["glyphs"])
 
@@ -250,7 +250,7 @@ GFGlyphData = _GFGlyphData()
 class _TestDocData:
     def __init__(
         self,
-        data=json.load(open(TEST_STRINGS_DATA)),
+        data=json.load(open(TEST_STRINGS_DATA, encoding="utf8")),
         glyphsets=GFGlyphData,
     ):
         self._data = data
