@@ -249,10 +249,10 @@ GFGlyphData = _GFGlyphData()
 
 class _TestDocData:
     def __init__(
-            self,
-            data=json.load(open(TEST_STRINGS_DATA)),
-            glyphsets=GFGlyphData,
-        ):
+        self,
+        data=json.load(open(TEST_STRINGS_DATA)),
+        glyphsets=GFGlyphData,
+    ):
         self._data = data
         self._glyphsets = glyphsets
 

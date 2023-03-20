@@ -2,7 +2,6 @@ from glyphsets import _GFGlyphData, _TestDocData
 from fontTools.ttLib import TTFont
 import os
 import pytest
-from copy import deepcopy as copy
 
 DATA_FP = os.path.join(os.path.dirname(__file__), "data")
 
@@ -54,8 +53,7 @@ def test_string_data():
         },
         "GFLatinAfrican": {
             "Spacing": ["BBB"],
-        }
-
+        },
     }
     return _TestDocData(data, _GFGlyphData(glyphs_data))
 
