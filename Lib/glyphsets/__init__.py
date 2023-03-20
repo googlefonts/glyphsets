@@ -17,13 +17,13 @@ except ImportError:
     __version__ = "0.0.0+unknown"
 
 
-GlyphDATA_FP = os.path.join(os.path.dirname(__file__), "data.json")
-TestDATA_FP = os.path.join(os.path.dirname(__file__), "test_strings.json")
+DATA_FP = os.path.join(os.path.dirname(__file__), "data.json")
+TEST_STRINGS_DATA = os.path.join(os.path.dirname(__file__), "test_strings.json")
 log = logging.getLogger(__file__)
 
 
 class _TestDocData:
-    def __init__(self, data=json.load(open(TestDATA_FP))):
+    def __init__(self, data=json.load(open(TEST_STRINGS_DATA))):
         self._data = data
 
     def test_strings_in_font(self, ttFont, threshold=0.95):
@@ -32,19 +32,19 @@ class _TestDocData:
         for glyphset, coverage in glyphsets_in_font.items():
             if coverage < threshold:
                 continue
-            stringset = self._data.get(glyphset)
-            if not stringset:
+            test_strings = self._data.get(glyphset)
+            if not test_strings:
                 continue
-            res[glyphset] = stringset
+            res[glyphset] = test_strings
         return res
 
 
 class _GFGlyphData:
-    def __init__(self, data=json.load(open(GlyphDATA_FP))):
+    def __init__(self, data=json.load(open(DATA_FP))):
         self._data = data
         self._in_use = set(g["nice_name"] for g in self._data["glyphs"])
 
-    def save(self, fp=GlyphDATA_FP):
+    def save(self, fp=DATA_FP):
         with open(fp, "w") as db:
             json.dump(self._data, db, indent=2)
 
