@@ -1,55 +1,7 @@
 import pytest
-from fontTools.ttLib import TTFont
-from glyphsets import _GFGlyphData
 from glyphsLib import GSFont, GSGlyph
 from defcon import Font
-import os
-
-DATA_FP = os.path.join(os.path.dirname(__file__), "data")
-
-
-@pytest.fixture
-def db():
-    data = {
-        "glyphs": [
-            {
-                "nice_name": "A",
-                "production_name": "A",
-                "character": "A",
-                "unicode": 65,
-                "glyphsets": [
-                    "GFLatinIPA",
-                    "GFLatinAfrican",
-                    "GFLatinCore",
-                    "GFLatinKernel",
-                    "GFLatinMinorities",
-                    "GFLatinPlus",
-                    "GFLatinVietnamese",
-                ],
-            },
-            {
-                "nice_name": "brevecomb_acutecomb",
-                "production_name": "uni03060301",
-                "character": None,
-                "unicode": None,
-                "glyphsets": ["GFLatinVietnamese"],
-            },
-            {
-                "nice_name": "fdotaccent",
-                "production_name": "uni1E1F",
-                "character": "\u1e1f",
-                "unicode": 7711,
-                "glyphsets": ["GFLatinAfrican"],
-            },
-        ]
-    }
-    return _GFGlyphData(data)
-
-
-@pytest.fixture
-def ttFont():
-    fp = os.path.join(DATA_FP, "MavenPro[wght].ttf")
-    return TTFont(fp)
+from . import *
 
 
 def glyphs_src1():
@@ -85,8 +37,8 @@ def ufo_src1():
         (["foobar"], []),
     ],
 )
-def test_build_name_file(db, test_input, expected):
-    nam_data = db.build_nam_file(test_input)
+def test_build_name_file(glyph_data, test_input, expected):
+    nam_data = glyph_data.build_nam_file(test_input)
     assert nam_data == expected
 
 
@@ -101,8 +53,8 @@ def test_build_name_file(db, test_input, expected):
         (["foobar"], []),
     ],
 )
-def test_glyphsapp_filter_lists(db, test_input, expected):
-    filter_list = db.build_glyphsapp_filter_list(test_input)
+def test_glyphsapp_filter_lists(glyph_data, test_input, expected):
+    filter_list = glyph_data.build_glyphsapp_filter_list(test_input)
     assert filter_list == expected
 
 
@@ -130,8 +82,8 @@ def test_glyphsapp_filter_lists(db, test_input, expected):
         (ufo_src1(), ["GFLatinCore"], ["A"]),
     ],
 )
-def test_update_source_glyphset(db, src, test_input, expected):
-    db.update_source_glyphset(src, test_input)
+def test_update_source_glyphset(glyph_data, src, test_input, expected):
+    glyph_data.update_source_glyphset(src, test_input)
 
     if isinstance(src, GSFont):
         assert [g.name for g in src.glyphs] == expected
@@ -141,41 +93,41 @@ def test_update_source_glyphset(db, src, test_input, expected):
         assert set(g.name for g in src) == set(expected)
 
 
-def test_update_db(db):
-    glyphs = [g["nice_name"] for g in db._data["glyphs"]]
+def test_update_glyph_data(glyph_data):
+    glyphs = [g["nice_name"] for g in glyph_data._data["glyphs"]]
     assert glyphs == ["A", "brevecomb_acutecomb", "fdotaccent"]
 
     # Add a new glyphset to an already existing glyph
     src1 = GSFont()
     src1.filepath = "NewGlyphSet.glyphs"
     src1.glyphs.append(GSGlyph("A"))
-    db.update_db_from_sources([src1])
-    assert "NewGlyphSet" in db["glyphs"][0]["glyphsets"]
+    glyph_data.update_db_from_sources([src1])
+    assert "NewGlyphSet" in glyph_data["glyphs"][0]["glyphsets"]
 
     # Add duplicate glyphs
-    db_size = len(db["glyphs"])
+    glyph_data_size = len(glyph_data["glyphs"])
     src2 = GSFont()
     src2.filepath = "GFLatinCore.glyphs"
     src2.glyphs.append(GSGlyph("A"))
     src2.glyphs.append(GSGlyph("brevecomb_acutecomb"))
     src2.glyphs.append(GSGlyph("fdotaccent"))
-    db.update_db_from_sources([src2])
-    assert len(db["glyphs"]) == db_size
+    glyph_data.update_db_from_sources([src2])
+    assert len(glyph_data["glyphs"]) == glyph_data_size
 
     # Add new glyphs
     src3 = GSFont()
     src3.filepath = "Greek.glyphs"
     src3.glyphs.append(GSGlyph("Alpha"))
     src3.glyphs.append(GSGlyph("Beta"))
-    db.update_db_from_sources([src3])
-    assert len(db["glyphs"]) == db_size + 2
+    glyph_data.update_db_from_sources([src3])
+    assert len(glyph_data["glyphs"]) == glyph_data_size + 2
 
     # TODO ufo sources
 
 
-def test_glyphsets_missing_in_font(db, ttFont):
+def test_glyphsets_missing_in_font(glyph_data, ttFont):
     # TODO use fonttools fontbuilder and make a font from scratch
-    missing = db.missing_glyphsets_in_font(ttFont, threshold=0)
+    missing = glyph_data.missing_glyphsets_in_font(ttFont, threshold=0)
     assert missing == {
         "GFLatinAfrican": [
             {
