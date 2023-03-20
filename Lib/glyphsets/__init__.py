@@ -10,6 +10,7 @@ from defcon import Font
 import logging
 import unicodedata2 as uni
 from glyphsLib.glyphdata import get_glyph
+from copy import deepcopy as copy
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -22,26 +23,9 @@ TEST_STRINGS_DATA = os.path.join(os.path.dirname(__file__), "test_strings.json")
 log = logging.getLogger(__file__)
 
 
-class _TestDocData:
-    def __init__(self, data=json.load(open(TEST_STRINGS_DATA))):
-        self._data = data
-
-    def test_strings_in_font(self, ttFont, threshold=0.95):
-        res = {}
-        glyphsets_in_font = GFGlyphData.glyphsets_fulfilled(ttFont)
-        for glyphset, coverage in glyphsets_in_font.items():
-            if coverage < threshold:
-                continue
-            test_strings = self._data.get(glyphset)
-            if not test_strings:
-                continue
-            res[glyphset] = test_strings
-        return res
-
-
 class _GFGlyphData:
     def __init__(self, data=json.load(open(DATA_FP))):
-        self._data = data
+        self._data = copy(data)
         self._in_use = set(g["nice_name"] for g in self._data["glyphs"])
 
     def save(self, fp=DATA_FP):
@@ -261,4 +245,28 @@ class _GFGlyphData:
 
 
 GFGlyphData = _GFGlyphData()
+
+
+class _TestDocData:
+    def __init__(
+            self,
+            data=json.load(open(TEST_STRINGS_DATA)),
+            glyphsets=GFGlyphData,
+        ):
+        self._data = data
+        self._glyphsets = glyphsets
+
+    def test_strings_in_font(self, ttFont, threshold=0.95):
+        res = {}
+        glyphsets_in_font = self._glyphsets.glyphsets_fulfilled(ttFont)
+        for glyphset, coverage in glyphsets_in_font.items():
+            if coverage < threshold:
+                continue
+            test_strings = self._data.get(glyphset)
+            if not test_strings:
+                continue
+            res[glyphset] = test_strings
+        return res
+
+
 GFTestData = _TestDocData()
