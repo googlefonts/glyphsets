@@ -10,6 +10,7 @@ from defcon import Font
 import logging
 import unicodedata2 as uni
 from glyphsLib.glyphdata import get_glyph
+from copy import deepcopy as copy
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -18,12 +19,13 @@ except ImportError:
 
 
 DATA_FP = os.path.join(os.path.dirname(__file__), "data.json")
+TEST_STRINGS_DATA = os.path.join(os.path.dirname(__file__), "test_strings.json")
 log = logging.getLogger(__file__)
 
 
 class _GFGlyphData:
-    def __init__(self, data=json.load(open(DATA_FP))):
-        self._data = data
+    def __init__(self, data=json.load(open(DATA_FP, encoding="utf8"))):
+        self._data = copy(data)
         self._in_use = set(g["nice_name"] for g in self._data["glyphs"])
 
     def save(self, fp=DATA_FP):
@@ -39,7 +41,7 @@ class _GFGlyphData:
     def __getitem__(self, k):
         return self._data[k]
 
-    def missing_glyphsets_in_font(self, ttFont, threshold=0.8):
+    def glyphsets_in_font(self, ttFont):
         glyphs_in_font = set(ttFont.getGlyphOrder())
         unicodes_in_font = set(ttFont.getBestCmap().keys())
         res = {}
@@ -57,7 +59,17 @@ class _GFGlyphData:
                     res[glyphset]["has"].append(g)
                 else:
                     res[glyphset]["missing"].append(g)
+        return res
 
+    def glyphsets_fulfilled(self, ttFont):
+        res = self.glyphsets_in_font(ttFont)
+        return {
+            k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
+            for k, v in res.items()
+        }
+
+    def missing_glyphsets_in_font(self, ttFont, threshold=0.8):
+        res = self.glyphsets_in_font(ttFont)
         fulfilled = {
             k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
             for k, v in res.items()
@@ -233,3 +245,28 @@ class _GFGlyphData:
 
 
 GFGlyphData = _GFGlyphData()
+
+
+class _TestDocData:
+    def __init__(
+        self,
+        data=json.load(open(TEST_STRINGS_DATA, encoding="utf8")),
+        glyphsets=GFGlyphData,
+    ):
+        self._data = data
+        self._glyphsets = glyphsets
+
+    def test_strings_in_font(self, ttFont, threshold=0.95):
+        res = {}
+        glyphsets_in_font = self._glyphsets.glyphsets_fulfilled(ttFont)
+        for glyphset, coverage in glyphsets_in_font.items():
+            if coverage < threshold:
+                continue
+            test_strings = self._data.get(glyphset)
+            if not test_strings:
+                continue
+            res[glyphset] = test_strings
+        return res
+
+
+GFTestData = _TestDocData()

@@ -28,5 +28,4 @@ jobs:
           pip install pytest
       - name: Run Tests
         run: |
-          pytest ./tests/testglyphdata.py
-          pytest ./tests/testusage.py
+          pytest ./tests
