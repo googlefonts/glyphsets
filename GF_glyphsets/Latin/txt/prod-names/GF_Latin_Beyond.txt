@@ -104,6 +104,7 @@ uni1DBB
 uni0313
 uni0331
 uni0332
+uni02BB
 uni02C0
 Ccircumflex
 Gcircumflex

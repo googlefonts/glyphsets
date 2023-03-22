@@ -104,6 +104,7 @@ zmod
 commaabovecomb
 macronbelowcomb
 lowlinecomb
+commaturnedmod
 glottalstopmod
 Ccircumflex
 Gcircumflex

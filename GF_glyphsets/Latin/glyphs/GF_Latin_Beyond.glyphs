@@ -1,5 +1,5 @@
 {
-.appVersion = "3139";
+.appVersion = "3151";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Latin Minorities";
@@ -1557,6 +1557,17 @@ width = 600;
 }
 );
 unicode = 700;
+},
+{
+glyphname = commaturnedmod;
+lastChange = "2023-03-17 14:37:04 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 699;
 },
 {
 color = 3;
