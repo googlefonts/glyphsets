@@ -1,0 +1,31 @@
+language_codes:
+#  - bar_Latn  # Bavarian
+  - ca_Latn  # Catalan
+  - cs_Latn  # Czech
+  - da_Latn  # Danish
+  - de_Latn  # German
+  - en_Latn  # English
+  - es_Latn  # Spanish
+  - fi_Latn  # Finnish
+#  - fil_Latn  # Filipino
+  - fr_Latn  # French
+  - gn_Latn  # Guarani
+  - gsw_Latn  # Swiss German
+  - hr_Latn  # Croatian
+#  - ht_Latn  # Haitian Creole
+  - hu_Latn  # Hungarian
+#   - id_Latn  # Indonesian
+  - it_Latn  # Italian
+  - nb_Latn  # Norwegian Bokmål
+#  - nds_Latn  # Low German
+  - nl_Latn  # Dutch
+  - pl_Latn  # Polish
+  - pt_Latn  # Portuguese
+  - qu_Latn  # Quechua
+  - ro_Latn  # Romanian
+  - sk_Latn  # Slovak
+  - sq_Latn  # Albanian
+  - sr_Latn  # Serbian (Latin)
+  - sv_Latn  # Swedish
+  - tr_Latn  # Turkish
+#  - vi_Latn  # Vietnamese

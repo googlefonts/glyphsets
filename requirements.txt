@@ -2,3 +2,5 @@ setuptools
 FontTools[ufo]
 glyphsLib
 defcon
+pyyaml
+gflanguages
