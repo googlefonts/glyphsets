@@ -20,6 +20,7 @@ def assemble_characterset(nam_stub_path, nam_path, languages_yaml_path):
                 ord(c)
                 for c in list(
                     set(chars.base)
+                    | set(chars.base.upper())
                     | set(chars.index)
                     | set(chars.marks)
                     | set(chars.numerals)
