@@ -25,7 +25,7 @@ if __name__ == "__main__":
         input_character = chr(int(input_character, 16))
     unicode_string = f"{ord(input_character):#0{6}X}".replace("0X", "0x")
     print(
-        f"Character: {input_character}  ({unicode_string} {unicodedata.name(input_character)})"
+        f"Character: [{input_character}]  ({unicode_string} {unicodedata.name(input_character)})"
     )
 
     found_languages = []
