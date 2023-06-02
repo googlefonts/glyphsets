@@ -5,6 +5,7 @@ language_codes:
   - da_Latn  # Danish
   - de_Latn  # German
   - en_Latn  # English
+  - eo_Latn    # Esperanto
   - es_Latn  # Spanish
   - fi_Latn  # Finnish
   - fr_Latn  # French
