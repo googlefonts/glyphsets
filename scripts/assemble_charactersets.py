@@ -28,7 +28,7 @@ def assemble_characterset(nam_stub_path, nam_path, languages_yaml_path):
                     | set(chars.index)
                     | set(chars.marks)
                     | set(chars.numerals)
-                    # | set(chars.punctuation)
+                    | set(chars.punctuation)
                     # | set(chars.auxiliary)
                 )
                 if c not in (" ", "{", "}", "◌")
