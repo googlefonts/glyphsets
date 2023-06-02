@@ -24,12 +24,14 @@ def assemble_characterset(nam_stub_path, nam_path, languages_yaml_path):
                 ord(c)
                 for c in list(
                     set(chars.base)
-                    | set(chars.base.upper())
+                    | set(
+                        chars.base.upper()
+                    )  # This is important because many Latin languages don't contain a complete set of uppercase letters in "index"
                     | set(chars.index)
                     | set(chars.marks)
                     | set(chars.numerals)
                     | set(chars.punctuation)
-                    # | set(chars.auxiliary)
+                    # | set(chars.auxiliary) # Not to be part of charsets
                 )
                 if c not in (" ", "{", "}", "◌")
             }
