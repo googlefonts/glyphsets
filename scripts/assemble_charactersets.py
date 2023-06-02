@@ -1,3 +1,7 @@
+"""
+Assemble .nam files from .nam stub files and language definitions.
+"""
+
 import yaml
 import os
 import gflanguages
@@ -47,7 +51,9 @@ def assemble_characterset(nam_stub_path, nam_path, languages_yaml_path):
 
 
 if __name__ == "__main__":
-    for root, dir, files in os.walk(os.path.dirname(__file__)):
+    for root, dir, files in os.walk(
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "GF_Glyphsets"))
+    ):
         for file in files:
             if file.endswith(".stub.nam"):
                 # .nam stub file

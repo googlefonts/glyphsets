@@ -1,3 +1,8 @@
+"""
+Read all languages and regions from gflanguages and print out the languages that are supported
+in Europe or Americas and have more than 5 million speakers.
+"""
+
 import gflanguages
 
 regions = gflanguages.LoadRegions()
