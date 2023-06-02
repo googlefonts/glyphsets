@@ -2,6 +2,7 @@ language_codes:
 #  - bar_Latn  # Bavarian
   - ca_Latn  # Catalan
   - cs_Latn  # Czech
+  - cy_Latn    # Welsh
   - da_Latn  # Danish
   - de_Latn  # German
   - en_Latn  # English
