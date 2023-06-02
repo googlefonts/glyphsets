@@ -23,6 +23,7 @@ language_codes:
   - pt_Latn  # Portuguese
   - qu_Latn  # Quechua
   - ro_Latn  # Romanian
+  - se_Latn    # Northern Sami
   - sk_Latn  # Slovak
   - sq_Latn  # Albanian
   - sr_Latn  # Serbian (Latin)
