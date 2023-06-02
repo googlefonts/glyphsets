@@ -45,9 +45,11 @@ def assemble_characterset(nam_stub_path, nam_path, languages_yaml_path):
 
     # Output sorted character set to .nam file
     with open(nam_path, "w") as f:
-        for unicode in sorted(list(character_set)):
+        for i, unicode in enumerate(sorted(list(character_set))):
             unicode_string = f"{unicode:#0{6}X}".replace("0X", "0x")
-            f.write(f"{unicode_string} {unicodedata.name(chr(unicode))}\n")
+            f.write(f"{unicode_string} {unicodedata.name(chr(unicode))}")
+            if i < len(character_set) - 1:
+                f.write("\n")
 
 
 if __name__ == "__main__":
