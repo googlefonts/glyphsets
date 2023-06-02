@@ -1,32 +1,28 @@
 language_codes:
-#  - bar_Latn  # Bavarian
   - ca_Latn  # Catalan
   - cs_Latn  # Czech
-  - cy_Latn    # Welsh
+  - cy_Latn  # Welsh
   - da_Latn  # Danish
   - de_Latn  # German
   - en_Latn  # English
-  - eo_Latn    # Esperanto
   - es_Latn  # Spanish
   - fi_Latn  # Finnish
   - fr_Latn  # French
   - gn_Latn  # Guarani
-  - gsw_Latn  # Swiss German
-  - haw_Latn   # Hawaiian 
+  - haw_Latn # Hawaiian 
   - hr_Latn  # Croatian
   - hu_Latn  # Hungarian
   - is_Latn  # Icelandic
   - it_Latn  # Italian
-  - lt_Latn    # Lithuanian
-  - lv_Latn    # Latvian
-  - mt_Latn    # Maltese
+  - lt_Latn  # Lithuanian
+  - lv_Latn  # Latvian
+  - mt_Latn  # Maltese
   - nb_Latn  # Norwegian Bokmål
   - nl_Latn  # Dutch
   - pl_Latn  # Polish
   - pt_Latn  # Portuguese
   - qu_Latn  # Quechua
   - ro_Latn  # Romanian
-  - se_Latn    # Northern Sami
   - sk_Latn  # Slovak
   - sq_Latn  # Albanian
   - sr_Latn  # Serbian (Latin)
