@@ -1,5 +1,5 @@
 {
-.appVersion = "3139";
+.appVersion = "3203";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Latin Core";
@@ -324,17 +324,6 @@ width = 600;
 unicode = 68;
 },
 {
-glyphname = Eth;
-lastChange = "2022-03-04 12:31:03 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 208;
-},
-{
 glyphname = Dcaron;
 lastChange = "2022-03-04 12:31:03 +0000";
 layers = (
@@ -355,6 +344,17 @@ width = 600;
 }
 );
 unicode = 272;
+},
+{
+glyphname = Eth;
+lastChange = "2022-03-04 12:31:03 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 208;
 },
 {
 color = 10;
@@ -547,17 +547,6 @@ width = 600;
 }
 );
 unicode = 73;
-},
-{
-glyphname = IJ;
-lastChange = "2022-03-04 12:31:03 +0000";
-layers = (
-{
-layerId = m01;
-width = 1200;
-}
-);
-unicode = 306;
 },
 {
 glyphname = Iacute;
@@ -1593,17 +1582,6 @@ width = 600;
 unicode = 100;
 },
 {
-glyphname = eth;
-lastChange = "2022-03-04 12:31:03 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 240;
-},
-{
 glyphname = dcaron;
 lastChange = "2022-03-04 12:31:03 +0000";
 layers = (
@@ -1624,6 +1602,17 @@ width = 600;
 }
 );
 unicode = 273;
+},
+{
+glyphname = eth;
+lastChange = "2022-03-04 12:31:03 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 240;
 },
 {
 color = 10;
@@ -1881,17 +1870,6 @@ width = 600;
 }
 );
 unicode = 236;
-},
-{
-glyphname = ij;
-lastChange = "2022-03-04 12:31:03 +0000";
-layers = (
-{
-layerId = m01;
-width = 1200;
-}
-);
-unicode = 307;
 },
 {
 glyphname = imacron;
@@ -2824,17 +2802,6 @@ unicode = 57;
 },
 {
 color = 10;
-glyphname = .notdef;
-lastChange = "2022-03-04 12:31:22 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-color = 10;
 glyphname = space;
 lastChange = "2022-03-04 12:31:22 +0000";
 layers = (
@@ -2857,6 +2824,17 @@ width = 200;
 );
 metricWidth = space;
 unicode = 160;
+},
+{
+color = 10;
+glyphname = .notdef;
+lastChange = "2022-03-04 12:31:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
 },
 {
 color = 10;
