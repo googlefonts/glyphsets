@@ -6,7 +6,7 @@ GF defines 6 level of language support for latin fonts:
 1. Kernel: support ASCII + necessary punctuation and symbols for English language.
 2. Core: support latin alphabets for European and American languages >5M speakers (incl. Kernel).
 3. Vietnamese: additional support for Vietnamese language.
-4. Plus: additional set of symbols for basic math and economy.
+4. Plus: additional set of symbols for basic math and economy. **This includes the above 3 sets**.
 5. African: support for Latin African languages not supported by Latin Core.
 6. Beyond: support for indigenous latin based languages from European and American regions (< 5M peakers), that are not supported in Latin Core.
 
