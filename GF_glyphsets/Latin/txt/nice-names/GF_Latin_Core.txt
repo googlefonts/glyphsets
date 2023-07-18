@@ -86,7 +86,6 @@ Gdotaccent
 H
 Hbar
 I
-IJ
 Iacute
 Icircumflex
 Idieresis
@@ -205,7 +204,6 @@ icircumflex
 idieresis
 idotaccent
 igrave
-ij
 imacron
 iogonek
 j
