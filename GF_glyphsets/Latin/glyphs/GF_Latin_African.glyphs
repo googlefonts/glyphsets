@@ -1791,18 +1791,6 @@ unicode = 7784;
 },
 {
 color = 7;
-glyphname = Sobliquestroke;
-lastChange = "2022-03-04 15:36:06 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 42920;
-},
-{
-color = 7;
 glyphname = Tcircumflexbelow;
 lastChange = "2022-03-04 15:36:06 +0000";
 layers = (
@@ -3914,18 +3902,6 @@ width = 600;
 unicode = 7773;
 },
 {
-color = 1;
-glyphname = rfishhook;
-lastChange = "2022-03-04 15:36:06 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 638;
-},
-{
 color = 7;
 glyphname = rinvertedbreve;
 lastChange = "2022-03-04 15:36:06 +0000";
@@ -4044,18 +4020,6 @@ width = 600;
 }
 );
 unicode = 7785;
-},
-{
-color = 7;
-glyphname = sobliquestroke;
-lastChange = "2022-03-04 15:36:06 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 42921;
 },
 {
 color = 7;
