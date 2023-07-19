@@ -138,7 +138,6 @@ Scarondotaccent
 Sdotaccent
 Sdotbelow
 Sdotbelowdotaccent
-Sobliquestroke
 Tcircumflexbelow
 Tdiagonalstroke
 Tdotaccent
@@ -315,7 +314,6 @@ rdblgrave
 rdotaccent
 rdotbelow
 rdotbelowmacron
-rfishhook
 rinvertedbreve
 rmacronbelow
 rstroke
@@ -326,7 +324,6 @@ scarondotaccent
 sdotaccent
 sdotbelow
 sdotbelowdotaccent
-sobliquestroke
 tcircumflexbelow
 tdiagonalstroke
 tdotaccent
