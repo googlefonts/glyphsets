@@ -138,7 +138,6 @@ uni1E66
 uni1E60
 uni1E62
 uni1E68
-uniA7A8
 uni1E70
 uni023E
 uni1E6A
@@ -315,7 +314,6 @@ uni0211
 uni1E59
 uni1E5B
 uni1E5D
-uni027E
 uni0213
 rmacronbelow
 uni024D
@@ -326,7 +324,6 @@ uni1E67
 uni1E61
 uni1E63
 uni1E69
-uniA7A9
 uni1E71
 uni2C66
 uni1E6B
