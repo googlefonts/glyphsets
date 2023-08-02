@@ -26692,7 +26692,8 @@
       "character": "\u0324",
       "unicode": 804,
       "glyphsets": [
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_IPAStandard",
+        "GF_Latin_African"
       ]
     },
     {
