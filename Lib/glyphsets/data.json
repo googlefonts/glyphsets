@@ -17780,7 +17780,6 @@
       "character": "\ua7a8",
       "unicode": 42920,
       "glyphsets": [
-        "GF_Latin_African"
       ]
     },
     {
@@ -19491,7 +19490,6 @@
       "character": "\u027e",
       "unicode": 638,
       "glyphsets": [
-        "GF_Latin_African",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -19595,7 +19593,6 @@
       "character": "\ua7a9",
       "unicode": 42921,
       "glyphsets": [
-        "GF_Latin_African"
       ]
     },
     {

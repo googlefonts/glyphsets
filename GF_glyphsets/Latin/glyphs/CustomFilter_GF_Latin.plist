@@ -145,7 +145,6 @@
 			<string>Sdotaccent</string>
 			<string>Sdotbelow</string>
 			<string>Sdotbelowdotaccent</string>
-			<string>Sobliquestroke</string>
 			<string>Tcircumflexbelow</string>
 			<string>Tdiagonalstroke</string>
 			<string>Tdotaccent</string>
@@ -322,7 +321,6 @@
 			<string>rdotaccent</string>
 			<string>rdotbelow</string>
 			<string>rdotbelowmacron</string>
-			<string>rfishhook</string>
 			<string>rinvertedbreve</string>
 			<string>rmacronbelow</string>
 			<string>rstroke</string>
@@ -333,7 +331,6 @@
 			<string>sdotaccent</string>
 			<string>sdotbelow</string>
 			<string>sdotbelowdotaccent</string>
-			<string>sobliquestroke</string>
 			<string>tcircumflexbelow</string>
 			<string>tdiagonalstroke</string>
 			<string>tdotaccent</string>
