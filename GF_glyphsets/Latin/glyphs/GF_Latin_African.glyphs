@@ -4810,6 +4810,16 @@ width = 600;
 unicode = 787;
 },
 {
+glyphname = dieresisbelowcomb;
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 804;
+},
+{
 color = 7;
 glyphname = ringbelowcomb;
 lastChange = "2022-03-04 15:36:06 +0000";
