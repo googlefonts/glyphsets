@@ -349,6 +349,16 @@ width = 600;
 unicode = 463;
 },
 {
+glyphname = Idieresisacute;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7726;
+},
+{
 color = 3;
 glyphname = Idotbelow;
 layers = (
@@ -1213,6 +1223,16 @@ width = 600;
 unicode = 661;
 },
 {
+glyphname = glottalstopsmall;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 578;
+},
+{
 glyphname = gmacron;
 layers = (
 {
@@ -1293,6 +1313,16 @@ width = 600;
 }
 );
 unicode = 464;
+},
+{
+glyphname = idieresisacute;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7727;
 },
 {
 color = 3;
@@ -1921,17 +1951,6 @@ width = 600;
 }
 );
 unicode = 42892;
-},
-{
-color = 3;
-glyphname = clickalveolar;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 450;
 },
 {
 color = 3;
