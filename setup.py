@@ -58,8 +58,5 @@ setup(
     setup_requires=['setuptools_scm>=4,<6.1'],
     install_requires=[
         'setuptools',
-        'FontTools[ufo]',
-        'glyphsLib',
-        'defcon',
     ]
 )

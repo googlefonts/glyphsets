@@ -5,11 +5,7 @@ import plistlib
 import json
 import os
 from re import L
-from glyphsLib import GSFont, GSGlyph
-from defcon import Font
 import logging
-import unicodedata2 as uni
-from glyphsLib.glyphdata import get_glyph
 from copy import deepcopy as copy
 
 try:
@@ -96,6 +92,9 @@ class _GFGlyphData:
         """Update the database by using the glyphsets from source files.
 
         Please note that you may need to edit some data by hand"""
+        from glyphsLib import GSFont, GSGlyph
+        from defcon import Font
+
         for src in sources:
             if isinstance(src, GSFont):
                 glyphset = os.path.basename(src.filepath).split(".")[0]
@@ -111,6 +110,8 @@ class _GFGlyphData:
                 raise NotImplementedError(f"{src} not supported yet!")
 
     def add_glyph(self, glyphset, nice_name=None, unicodes=None):
+        from glyphsLib.glyphdata import get_glyph
+
         if nice_name in self._in_use:
             entry = next(
                 (g for g in self._data["glyphs"] if g["nice_name"] == nice_name), None
@@ -202,6 +203,8 @@ class _GFGlyphData:
 
     def build_nam_file(self, glyphsets, out=None):
         "Build GF nam files from glyphsets"
+        import unicodedata2 as uni
+
         glyphs = [g for g in self.glyphs_in_glyphsets(glyphsets) if g["unicode"]]
         res = []
         for glyph in glyphs:
@@ -217,6 +220,8 @@ class _GFGlyphData:
 
     def update_source_glyphset(self, src, glyphsets):
         """Add glyphs to a source file"""
+        from glyphsLib import GSFont, GSGlyph
+
         glyphs = self.glyphs_in_glyphsets(glyphsets)
         if isinstance(src, Font):
             glyphs_in_font = set(g.name for g in src)

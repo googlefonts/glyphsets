@@ -1,4 +1,1 @@
 setuptools
-FontTools[ufo]
-glyphsLib
-defcon
