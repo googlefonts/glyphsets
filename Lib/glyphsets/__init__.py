@@ -11,6 +11,7 @@ import logging
 import unicodedata2 as uni
 from glyphsLib.glyphdata import get_glyph
 from copy import deepcopy as copy
+from collections import defaultdict
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -96,19 +97,38 @@ class _GFGlyphData:
         """Update the database by using the glyphsets from source files.
 
         Please note that you may need to edit some data by hand"""
+        # Collect glyphs in sources
+        glyphsets = defaultdict(dict)
         for src in sources:
             if isinstance(src, GSFont):
                 glyphset = os.path.basename(src.filepath).split(".")[0]
                 for g in src.glyphs:
                     if not g.export:
                         continue
-                    self.add_glyph(glyphset, g.name, unicodes=g.unicode)
+                    glyphsets[glyphset].update({g.name: g.unicode})
             elif isinstance(src, Font):
                 glyphset = os.path.basename(src.path).split(".")[0]
                 for g in src:
-                    self.add_glyph(glyphset, g.name, unicodes=g.unicode)
+                    glyphsets[glyphset].update({g.name: g.unicode})
             else:
                 raise NotImplementedError(f"{src} not supported yet!")
+
+        # Add glyphs
+        for glyphset, glyphs in glyphsets.items():
+            for name, unicode in glyphs.items():
+                self.add_glyph(glyphset, name, unicodes=unicode)
+        # Remove glyphs if not in source
+        for glyphset, glyphs in glyphsets.items():
+            for name in self._in_use.difference(set(glyphs.keys())):
+                self.remove_glyph(glyphset, nice_name=name)
+
+    def remove_glyph(self, glyphset, nice_name=None):
+        if nice_name in self._in_use:
+            entry = next(
+                (g for g in self._data["glyphs"] if g["nice_name"] == nice_name), None
+            )
+            if glyphset in entry["glyphsets"]:
+                entry["glyphsets"].remove(glyphset)
 
     def add_glyph(self, glyphset, nice_name=None, unicodes=None):
         if nice_name in self._in_use:
