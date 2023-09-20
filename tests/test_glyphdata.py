@@ -122,6 +122,19 @@ def test_update_glyph_data(glyph_data):
     glyph_data.update_db_from_sources([src3])
     assert len(glyph_data["glyphs"]) == glyph_data_size + 2
 
+    # Remove glyphs
+    src4 = GSFont()
+    src4.filepath = "GFLatinAfrican.glyphs"
+    src4.glyphs.append(GSGlyph("A"))
+    nice_name = "fdotaccent"
+    entry = next((g for g in glyph_data["glyphs"] if g["nice_name"] == nice_name), None)
+    assert "GFLatinAfrican" in entry["glyphsets"]
+    glyph_data.update_db_from_sources([src4])
+    entry = next((g for g in glyph_data["glyphs"] if g["nice_name"] == nice_name), None)
+    assert "GFLatinAfrican" not in entry["glyphsets"]
+    entry = next((g for g in glyph_data["glyphs"] if g["nice_name"] == "A"), None)
+    assert "GFLatinAfrican" in entry["glyphsets"]
+
     # TODO ufo sources
 
 
