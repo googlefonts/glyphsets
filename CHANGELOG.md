@@ -1,5 +1,14 @@
 Below are the most important changes from each release.
 
+### v0.6.4 Latest (2023-Sep-21)
+#### Changes since last release
+
+- [Symbols] new codepoints added to support Playpen Sans by @vv-monsalve in #127
+- Add Aegean separator codepoints to Cypriot by @simoncozens in #128
+
+#### New Contributors
+@vv-monsalve made their first contribution in #127
+
 ### v0.6.3 Latest (2023-Sep-20)
 #### Changes since last release:
 - [glyphsets] deprecated IJ/ij in GF_glyphsets by @RosaWagner in #111
