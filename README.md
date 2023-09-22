@@ -1,3 +1,22 @@
+Attention: Repository under transition
+======================================
+
+The assembly of character sets is currently undergoing a transition from the previous approach of using the `glyphsets` command and `data.json` as a database to using the `gflanguages` package as the database and assembling (currently only) .nam files from that.
+
+This transition is currently complete for:
+* GF_Latin_Core
+
+**Caution:** If you run the existing `sh GF_glyphsets/update-gs.sh` command, it will delete all existing .nam files, including the .stub.nam files that are the basis for the new approach of assembling the character sets. As long as this transition is partial, make sure that you don't run `sh GF_glyphsets/update-gs.sh` and then commit `.nam` files for the above-mentioned character sets.
+
+How to assemble a .nam file in the new approach
+-----------------------------------------------
+
+* Have a `.stub.nam` file under `nam/` for your character set, even if the file is empty
+* Have a `.yaml` file under `languages/` with language codes for your character set
+* Run `python scripts/assemble_charactersets.py` to assemble the main `.nam` files from the stub and the language definitions
+
+.glyphs and .plist files are not yet supported in the new approach, but will be.
+
 Glyphsets
 =========
 
