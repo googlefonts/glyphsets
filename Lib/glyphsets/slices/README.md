@@ -6,6 +6,8 @@ and emoji we need finer grained divisions. These are described using "slicing st
 https://www.unicodeconference.org/presentations-42/S5T3-Sheeter.pdf describes how and why these strategies
 were developed.
 
+**Please do not modify the slicing strategies here, collaborate with the Google Fonts eng team for that**
+
 ## File format
 
 The files given here are text protos using the following proto definition:
