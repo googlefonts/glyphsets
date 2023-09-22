@@ -11,11 +11,11 @@ This transition is currently complete for:
 How to assemble a .nam file in the new approach
 -----------------------------------------------
 
-* Have a `.stub.nam` file under `nam/` for your character set, even if the file is empty
-* Have a `.yaml` file under `languages/` with language codes for your character set
+* Have a `.stub.nam` file under `GF_Glyphsets/nam/` for your character set, even if the file is empty
+* Have a `.yaml` file under `GF_Glyphsets/languages/` with language codes for your character set
 * Run `python scripts/assemble_charactersets.py` to assemble the main `.nam` files from the stub and the language definitions
 
-.glyphs and .plist files are not yet supported in the new approach, but will be.
+.glyphs and .plist and .txt files are currently not yet supported in the new approach, but will be.
 
 Glyphsets
 =========
