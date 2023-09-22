@@ -11,11 +11,11 @@ language_codes:
   - gn_Latn  # Guarani
   - hr_Latn  # Croatian
   - hu_Latn  # Hungarian
-  # - is_Latn  # Icelandic
+  - is_Latn  # Icelandic
   - it_Latn  # Italian
-  # - lt_Latn  # Lithuanian
-  # - lv_Latn  # Latvian
-  # - mt_Latn  # Maltese
+  - lt_Latn  # Lithuanian
+  - lv_Latn  # Latvian
+  - mt_Latn  # Maltese
   - nb_Latn  # Norwegian Bokmål
   - nl_Latn  # Dutch
   - pl_Latn  # Polish
