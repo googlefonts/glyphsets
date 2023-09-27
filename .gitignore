@@ -3,3 +3,4 @@
 _version*
 .DS_Store
 *.pyc
+build/
