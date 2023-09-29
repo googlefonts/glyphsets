@@ -1,5 +1,5 @@
 {
-    "GF_Latin_Kernel": {
+    "GF_Latin_Core": {
         "Letter Groups": [
             {
                 "string": "EFHIJLTU",
@@ -57,6 +57,7 @@
             }
         ],
         "Kerning": [
+<<<<<<< HEAD
             {
                 "string": "HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH",
                 "lang": "en"
@@ -105,6 +106,20 @@
                 "string": "0/0\\0",
                 "lang": "en"
             }
+=======
+            "HHAVAHH OXOWAFAPATAUAYALYTJĿL·LVÆ HH",
+            "TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř",
+            "HHTan oTo yTy vAv oVo eYe Ly Ky Ac gj",
+            "nin non nvn ovo oxo ayn fl fi fj ft gj ko rento",
+            "ďá ďu ŀl·l gj ľk włw yły ółr fħ ílïlîl",
+            "H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-",
+            "n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}",
+            "080 076 474 973 94 7078 54 24 679",
+            "P4T47A .47,9.7-»4",
+            "42°21′29″N 71°03′49″W",
+            "d² m³ 15°C/26°F",
+            "0/0\\0"
+>>>>>>> d444ea6 (Update test_strings.json)
         ]
     }
 }
