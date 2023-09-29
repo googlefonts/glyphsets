@@ -1,6 +1,7 @@
 {
     "GF_Latin_Core": {
         "Letter Groups": [
+<<<<<<< HEAD
             {
                 "string": "EFHIJLTU",
                 "lang": "en"
@@ -55,6 +56,23 @@
                 "string": "010 080 030 020 050 060 070",
                 "lang": "en"
             }
+=======
+            "EFHIJLTU AVWXZ KMNY",
+            "COQS BPRDG",
+            "",
+            "hmnu ceogs abdpq",
+            "kvwxyz fijltr",
+            "",
+            "0123456789",
+            ".,:;/\|?!-–—&@%([{}])°",
+            "+−×÷=≠><≥≤±≈~¬∞"
+        ],
+        "Spacing": [
+            "HHOHHOOHOO HIHOIO",
+            "uuonouonoo ninoioolonlniuo",
+            "010 080 030 020 050 060 070",
+            "3+4=7 5>2 2x²−(8×7)÷9≈1"
+>>>>>>> 80cf328 (Added symbols in test string)
         ],
         "Kerning": [
 <<<<<<< HEAD
