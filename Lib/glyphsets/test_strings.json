@@ -2,9 +2,9 @@
     "GF_Latin_Core": {
         "Letter Groups": [
             "EFHIJLTU AVWXZ KMNY",
-            "COQS BPRDG",
+            "COQS BPRDGÞẞ",
             "",
-            "hmnu ceogs abdpq",
+            "hmnu ceogðsß abdpqþ",
             "kvwxyz fijltr",
             "",
             "0123456789",
@@ -18,7 +18,7 @@
             "3+4=7 5>2 2x²−(8×7)÷9≈1"
         ],
         "Kerning": [
-            "HHAVAHH OXOWAFAPATAUAYALYTJĿL·LVÆ HH",
+            "HHAVAHH OXOWAFAPATAUAYAÞYLYTJĿL·LVÆ HH",
             "TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř",
             "HHTan oTo yTy vAv oVo eYe Ly Ky Ac gj",
             "nin non nvn ovo oxo ayn fl fi fj ft gj ko rento",
