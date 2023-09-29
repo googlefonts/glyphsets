@@ -1,21 +1,21 @@
 {
     "GF_Latin_Core": {
         "Letter Groups": [
-            "EFHIJLTU", 
-            "AVWXZ",
-            "KMNY",
-            "COQS",
-            "BPRDG",
-            "fijltr",
-            "kvwxyz",
-            "hmnu",
-            "ceogs",
-            "abdpq"
+            "EFHIJLTU AVWXZ KMNY",
+            "COQS BPRDG",
+            "",
+            "hmnu ceogs abdpq",
+            "kvwxyz fijltr",
+            "",
+            "0123456789",
+            ".,:;/\|?!-–—&@%([{}])°",
+            "+−×÷=≠><≥≤±≈~¬∞"
         ],
         "Spacing": [
             "HHOHHOOHOO HIHOIO",
             "uuonouonoo ninoioolonlniuo",
-            "010 080 030 020 050 060 070"
+            "010 080 030 020 050 060 070",
+            "3+4=7 5>2 2x²−(8×7)÷9≈1"
         ],
         "Kerning": [
             "HHAVAHH OXOWAFAPATAUAYALYTJĿL·LVÆ HH",
