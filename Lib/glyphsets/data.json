@@ -16495,56 +16495,12 @@
       ]
     },
     {
-      "nice_name": "Adieresismacron",
-      "production_name": "uni01DE",
-      "character": "\u01de",
-      "unicode": 478,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Adotaccent",
-      "production_name": "uni0226",
-      "character": "\u0226",
-      "unicode": 550,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Adotmacron",
-      "production_name": "uni01E0",
-      "character": "\u01e0",
-      "unicode": 480,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Ainvertedbreve",
-      "production_name": "uni0202",
-      "character": "\u0202",
-      "unicode": 514,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Alpha-latin",
       "production_name": "uni2C6D",
       "character": "\u2c6d",
       "unicode": 11373,
       "glyphsets": [
         "GF_Latin_African"
-      ]
-    },
-    {
-      "nice_name": "Aringbelow",
-      "production_name": "uni1E00",
-      "character": "\u1e00",
-      "unicode": 7680,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Astroke",
-      "production_name": "uni023A",
-      "character": "\u023a",
-      "unicode": 570,
-      "glyphsets": [
-        "GF_Latin_Beyond"
       ]
     },
     {
@@ -16555,13 +16511,6 @@
       "glyphsets": [
         "GF_Latin_African"
       ]
-    },
-    {
-      "nice_name": "Bdotaccent",
-      "production_name": "uni1E02",
-      "character": "\u1e02",
-      "unicode": 7682,
-      "glyphsets": []
     },
     {
       "nice_name": "Bdotbelow",
@@ -16591,13 +16540,6 @@
       ]
     },
     {
-      "nice_name": "Bmacronbelow",
-      "production_name": "Bmacronbelow",
-      "character": "\u1e06",
-      "unicode": 7686,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Bstroke",
       "production_name": "uni0243",
       "character": "\u0243",
@@ -16607,20 +16549,6 @@
       ]
     },
     {
-      "nice_name": "Ccedillaacute",
-      "production_name": "uni1E08",
-      "character": "\u1e08",
-      "unicode": 7688,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Chi-latin",
-      "production_name": "uniA7B3",
-      "character": "\ua7b3",
-      "unicode": 42931,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Chook",
       "production_name": "uni0187",
       "character": "\u0187",
@@ -16628,23 +16556,6 @@
       "glyphsets": [
         "GF_Latin_African"
       ]
-    },
-    {
-      "nice_name": "Cstroke",
-      "production_name": "uni023B",
-      "character": "\u023b",
-      "unicode": 571,
-      "glyphsets": [
-        "GF_Latin_Beyond",
-        "GF_Phonetics_APA"
-      ]
-    },
-    {
-      "nice_name": "Dcedilla",
-      "production_name": "uni1E10",
-      "character": "\u1e10",
-      "unicode": 7696,
-      "glyphsets": []
     },
     {
       "nice_name": "Dcircumflexbelow",
@@ -16712,20 +16623,6 @@
       ]
     },
     {
-      "nice_name": "Ecedillabreve",
-      "production_name": "uni1E1C",
-      "character": "\u1e1c",
-      "unicode": 7708,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Ecircumflexbelow",
-      "production_name": "uni1E18",
-      "character": "\u1e18",
-      "unicode": 7704,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Ecircumflexdotbelow",
       "production_name": "uni1EC6",
       "character": "\u1ec6",
@@ -16755,31 +16652,6 @@
       ]
     },
     {
-      "nice_name": "Einvertedbreve",
-      "production_name": "uni0206",
-      "character": "\u0206",
-      "unicode": 518,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Emacronacute",
-      "production_name": "uni1E16",
-      "character": "\u1e16",
-      "unicode": 7702,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
-      "nice_name": "Emacrongrave",
-      "production_name": "uni1E14",
-      "character": "\u1e14",
-      "unicode": 7700,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
       "nice_name": "Eopen",
       "production_name": "uni0190",
       "character": "\u0190",
@@ -16806,13 +16678,6 @@
       "glyphsets": [
         "GF_Latin_African"
       ]
-    },
-    {
-      "nice_name": "Estroke",
-      "production_name": "uni0246",
-      "character": "\u0246",
-      "unicode": 582,
-      "glyphsets": []
     },
     {
       "nice_name": "Etilde",
@@ -16855,15 +16720,6 @@
       ]
     },
     {
-      "nice_name": "Ezhcaron",
-      "production_name": "uni01EE",
-      "character": "\u01ee",
-      "unicode": 494,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
       "nice_name": "Ezhreversed",
       "production_name": "uni01B8",
       "character": "\u01b8",
@@ -16873,13 +16729,6 @@
       ]
     },
     {
-      "nice_name": "Fdotaccent",
-      "production_name": "uni1E1E",
-      "character": "\u1e1e",
-      "unicode": 7710,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Fhook",
       "production_name": "uni0191",
       "character": "\u0191",
@@ -16887,13 +16736,6 @@
       "glyphsets": [
         "GF_Latin_African"
       ]
-    },
-    {
-      "nice_name": "Gacute",
-      "production_name": "uni01F4",
-      "character": "\u01f4",
-      "unicode": 500,
-      "glyphsets": []
     },
     {
       "nice_name": "Gcaron",
@@ -16926,16 +16768,6 @@
       ]
     },
     {
-      "nice_name": "Gmacron",
-      "production_name": "uni1E20",
-      "character": "\u1e20",
-      "unicode": 7712,
-      "glyphsets": [
-        "GF_Latin_Beyond",
-        "GF_TransLatin_Arabic"
-      ]
-    },
-    {
       "nice_name": "Gstroke",
       "production_name": "uni01E4",
       "character": "\u01e4",
@@ -16944,36 +16776,6 @@
         "GF_Latin_African",
         "GF_Latin_Beyond"
       ]
-    },
-    {
-      "nice_name": "Hbrevebelow",
-      "production_name": "uni1E2A",
-      "character": "\u1e2a",
-      "unicode": 7722,
-      "glyphsets": [
-        "GF_TransLatin_Arabic"
-      ]
-    },
-    {
-      "nice_name": "Hcaron",
-      "production_name": "uni021E",
-      "character": "\u021e",
-      "unicode": 542,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Hcedilla",
-      "production_name": "uni1E28",
-      "character": "\u1e28",
-      "unicode": 7720,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Hdieresis",
-      "production_name": "uni1E26",
-      "character": "\u1e26",
-      "unicode": 7718,
-      "glyphsets": []
     },
     {
       "nice_name": "Hdotaccent",
@@ -16994,13 +16796,6 @@
         "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
-    },
-    {
-      "nice_name": "Heng",
-      "production_name": "uniA726",
-      "character": "\ua726",
-      "unicode": 42790,
-      "glyphsets": []
     },
     {
       "nice_name": "Hhook",
@@ -17041,13 +16836,6 @@
       ]
     },
     {
-      "nice_name": "Idieresisacute",
-      "production_name": "uni1E2E",
-      "character": "\u1e2e",
-      "unicode": 7726,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Idotbelow",
       "production_name": "uni1ECA",
       "character": "\u1eca",
@@ -17057,13 +16845,6 @@
         "GF_Latin_Beyond",
         "GF_Latin_Vietnamese"
       ]
-    },
-    {
-      "nice_name": "Iinvertedbreve",
-      "production_name": "uni020A",
-      "character": "\u020a",
-      "unicode": 522,
-      "glyphsets": []
     },
     {
       "nice_name": "Iota-latin",
@@ -17143,15 +16924,6 @@
       ]
     },
     {
-      "nice_name": "Kdotbelow",
-      "production_name": "uni1E32",
-      "character": "\u1e32",
-      "unicode": 7730,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
       "nice_name": "Khook",
       "production_name": "uni0198",
       "character": "\u0198",
@@ -17172,13 +16944,6 @@
       ]
     },
     {
-      "nice_name": "Kstroke",
-      "production_name": "uniA740",
-      "character": "\ua740",
-      "unicode": 42816,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Lbar",
       "production_name": "uni023D",
       "character": "\u023d",
@@ -17187,13 +16952,6 @@
         "GF_Latin_African",
         "GF_Latin_Beyond"
       ]
-    },
-    {
-      "nice_name": "Lbelt",
-      "production_name": "uniA7AD",
-      "character": "\ua7ad",
-      "unicode": 42925,
-      "glyphsets": []
     },
     {
       "nice_name": "Lcircumflexbelow",
@@ -17205,45 +16963,6 @@
       ]
     },
     {
-      "nice_name": "Ldotbelow",
-      "production_name": "uni1E36",
-      "character": "\u1e36",
-      "unicode": 7734,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
-      "nice_name": "Ldotbelowmacron",
-      "production_name": "uni1E38",
-      "character": "\u1e38",
-      "unicode": 7736,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Ldoublebar",
-      "production_name": "uni2C60",
-      "character": "\u2c60",
-      "unicode": 11360,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Lmacronbelow",
-      "production_name": "Lmacronbelow",
-      "character": "\u1e3a",
-      "unicode": 7738,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Lmiddletilde",
-      "production_name": "uni2C62",
-      "character": "\u2c62",
-      "unicode": 11362,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
       "nice_name": "Macute",
       "production_name": "uni1E3E",
       "character": "\u1e3e",
@@ -17251,22 +16970,6 @@
       "glyphsets": [
         "GF_Latin_African",
         "GF_TransLatin_Pinyin"
-      ]
-    },
-    {
-      "nice_name": "Mdotaccent",
-      "production_name": "uni1E40",
-      "character": "\u1e40",
-      "unicode": 7744,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Mdotbelow",
-      "production_name": "uni1E42",
-      "character": "\u1e42",
-      "unicode": 7746,
-      "glyphsets": [
-        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17326,13 +17029,6 @@
       ]
     },
     {
-      "nice_name": "Nlongrightleg",
-      "production_name": "uni0220",
-      "character": "\u0220",
-      "unicode": 544,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Nmacronbelow",
       "production_name": "Nmacronbelow",
       "character": "\u1e48",
@@ -17341,13 +17037,6 @@
         "GF_Latin_African",
         "GF_Latin_Beyond"
       ]
-    },
-    {
-      "nice_name": "OU",
-      "production_name": "uni0222",
-      "character": "\u0222",
-      "unicode": 546,
-      "glyphsets": []
     },
     {
       "nice_name": "Ocaron",
@@ -17389,27 +17078,6 @@
       ]
     },
     {
-      "nice_name": "Odieresismacron",
-      "production_name": "uni022A",
-      "character": "\u022a",
-      "unicode": 554,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Odotaccent",
-      "production_name": "uni022E",
-      "character": "\u022e",
-      "unicode": 558,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Odotaccentmacron",
-      "production_name": "uni0230",
-      "character": "\u0230",
-      "unicode": 560,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Odotbelow",
       "production_name": "uni1ECC",
       "character": "\u1ecc",
@@ -17420,55 +17088,12 @@
       ]
     },
     {
-      "nice_name": "Oinvertedbreve",
-      "production_name": "uni020E",
-      "character": "\u020e",
-      "unicode": 526,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Omacronacute",
-      "production_name": "uni1E52",
-      "character": "\u1e52",
-      "unicode": 7762,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
-      "nice_name": "Omacrongrave",
-      "production_name": "uni1E50",
-      "character": "\u1e50",
-      "unicode": 7760,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
       "nice_name": "Omega-latin",
       "production_name": "uniA7B6",
       "character": "\ua7b6",
       "unicode": 42934,
       "glyphsets": [
         "GF_Latin_African"
-      ]
-    },
-    {
-      "nice_name": "Oogonek",
-      "production_name": "uni01EA",
-      "character": "\u01ea",
-      "unicode": 490,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
-      "nice_name": "Oogonekmacron",
-      "production_name": "uni01EC",
-      "character": "\u01ec",
-      "unicode": 492,
-      "glyphsets": [
-        "GF_Latin_Beyond"
       ]
     },
     {
@@ -17509,27 +17134,6 @@
       ]
     },
     {
-      "nice_name": "Otildemacron",
-      "production_name": "uni022C",
-      "character": "\u022c",
-      "unicode": 556,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Pacute",
-      "production_name": "uni1E54",
-      "character": "\u1e54",
-      "unicode": 7764,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Pdotaccent",
-      "production_name": "uni1E56",
-      "character": "\u1e56",
-      "unicode": 7766,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Phook",
       "production_name": "uni01A4",
       "character": "\u01a4",
@@ -17546,55 +17150,6 @@
       "glyphsets": [
         "GF_Latin_African"
       ]
-    },
-    {
-      "nice_name": "Qhooktail",
-      "production_name": "uni024A",
-      "character": "\u024a",
-      "unicode": 586,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Rdblgrave",
-      "production_name": "uni0210",
-      "character": "\u0210",
-      "unicode": 528,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Rdotaccent",
-      "production_name": "uni1E58",
-      "character": "\u1e58",
-      "unicode": 7768,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Rdotbelow",
-      "production_name": "uni1E5A",
-      "character": "\u1e5a",
-      "unicode": 7770,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Rdotbelowmacron",
-      "production_name": "uni1E5C",
-      "character": "\u1e5c",
-      "unicode": 7772,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Rinvertedbreve",
-      "production_name": "uni0212",
-      "character": "\u0212",
-      "unicode": 530,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Rmacronbelow",
-      "production_name": "Rmacronbelow",
-      "character": "\u1e5e",
-      "unicode": 7774,
-      "glyphsets": []
     },
     {
       "nice_name": "Rstroke",
@@ -17615,37 +17170,6 @@
       ]
     },
     {
-      "nice_name": "Sacutedotaccent",
-      "production_name": "uni1E64",
-      "character": "\u1e64",
-      "unicode": 7780,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Saltillo",
-      "production_name": "uniA78B",
-      "character": "\ua78b",
-      "unicode": 42891,
-      "glyphsets": [
-        "GF_Latin_African",
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
-      "nice_name": "Scarondotaccent",
-      "production_name": "uni1E66",
-      "character": "\u1e66",
-      "unicode": 7782,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Sdotaccent",
-      "production_name": "uni1E60",
-      "character": "\u1e60",
-      "unicode": 7776,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Sdotbelow",
       "production_name": "uni1E62",
       "character": "\u1e62",
@@ -17657,20 +17181,6 @@
       ]
     },
     {
-      "nice_name": "Sdotbelowdotaccent",
-      "production_name": "uni1E68",
-      "character": "\u1e68",
-      "unicode": 7784,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Sobliquestroke",
-      "production_name": "uniA7A8",
-      "character": "\ua7a8",
-      "unicode": 42920,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Tcircumflexbelow",
       "production_name": "uni1E70",
       "character": "\u1e70",
@@ -17678,22 +17188,6 @@
       "glyphsets": [
         "GF_Latin_African"
       ]
-    },
-    {
-      "nice_name": "Tdiagonalstroke",
-      "production_name": "uni023E",
-      "character": "\u023e",
-      "unicode": 574,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
-      "nice_name": "Tdotaccent",
-      "production_name": "uni1E6A",
-      "character": "\u1e6a",
-      "unicode": 7786,
-      "glyphsets": []
     },
     {
       "nice_name": "Tdotbelow",
@@ -17755,28 +17249,12 @@
       ]
     },
     {
-      "nice_name": "Ucircumflexbelow",
-      "production_name": "uni1E76",
-      "character": "\u1e76",
-      "unicode": 7798,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Udblgrave",
       "production_name": "uni0214",
       "character": "\u0214",
       "unicode": 532,
       "glyphsets": [
         "GF_Latin_African"
-      ]
-    },
-    {
-      "nice_name": "Udieresisacute",
-      "production_name": "uni01D7",
-      "character": "\u01d7",
-      "unicode": 471,
-      "glyphsets": [
-        "GF_TransLatin_Pinyin"
       ]
     },
     {
@@ -17789,33 +17267,6 @@
       ]
     },
     {
-      "nice_name": "Udieresiscaron",
-      "production_name": "uni01D9",
-      "character": "\u01d9",
-      "unicode": 473,
-      "glyphsets": [
-        "GF_TransLatin_Pinyin"
-      ]
-    },
-    {
-      "nice_name": "Udieresisgrave",
-      "production_name": "uni01DB",
-      "character": "\u01db",
-      "unicode": 475,
-      "glyphsets": [
-        "GF_TransLatin_Pinyin"
-      ]
-    },
-    {
-      "nice_name": "Udieresismacron",
-      "production_name": "uni01D5",
-      "character": "\u01d5",
-      "unicode": 469,
-      "glyphsets": [
-        "GF_TransLatin_Pinyin"
-      ]
-    },
-    {
       "nice_name": "Udotbelow",
       "production_name": "uni1EE4",
       "character": "\u1ee4",
@@ -17824,20 +17275,6 @@
         "GF_Latin_African",
         "GF_Latin_Vietnamese"
       ]
-    },
-    {
-      "nice_name": "Uinvertedbreve",
-      "production_name": "uni0216",
-      "character": "\u0216",
-      "unicode": 534,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Umacrondieresis",
-      "production_name": "uni1E7A",
-      "character": "\u1e7a",
-      "unicode": 7802,
-      "glyphsets": []
     },
     {
       "nice_name": "Upsilon-latin",
@@ -17889,13 +17326,6 @@
       ]
     },
     {
-      "nice_name": "Vdotbelow",
-      "production_name": "uni1E7E",
-      "character": "\u1e7e",
-      "unicode": 7806,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Vhook",
       "production_name": "uni01B2",
       "character": "\u01b2",
@@ -17923,20 +17353,6 @@
       ]
     },
     {
-      "nice_name": "Wdotaccent",
-      "production_name": "uni1E86",
-      "character": "\u1e86",
-      "unicode": 7814,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Wdotbelow",
-      "production_name": "uni1E88",
-      "character": "\u1e88",
-      "unicode": 7816,
-      "glyphsets": []
-    },
-    {
       "nice_name": "Whook",
       "production_name": "uni2C72",
       "character": "\u2c72",
@@ -17944,27 +17360,6 @@
       "glyphsets": [
         "GF_Latin_African"
       ]
-    },
-    {
-      "nice_name": "Xdieresis",
-      "production_name": "uni1E8C",
-      "character": "\u1e8c",
-      "unicode": 7820,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Xdotaccent",
-      "production_name": "uni1E8A",
-      "character": "\u1e8a",
-      "unicode": 7818,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "Ydotaccent",
-      "production_name": "uni1E8E",
-      "character": "\u1e8e",
-      "unicode": 7822,
-      "glyphsets": []
     },
     {
       "nice_name": "Yhook",
@@ -17976,30 +17371,12 @@
       ]
     },
     {
-      "nice_name": "Ymacron",
-      "production_name": "uni0232",
-      "character": "\u0232",
-      "unicode": 562,
-      "glyphsets": [
-        "GF_TransLatin_Arabic"
-      ]
-    },
-    {
       "nice_name": "Ystroke",
       "production_name": "uni024E",
       "character": "\u024e",
       "unicode": 590,
       "glyphsets": [
         "GF_Latin_African"
-      ]
-    },
-    {
-      "nice_name": "Zcircumflex",
-      "production_name": "uni1E90",
-      "character": "\u1e90",
-      "unicode": 7824,
-      "glyphsets": [
-        "GF_Latin_Beyond"
       ]
     },
     {
@@ -18023,11 +17400,14 @@
       ]
     },
     {
-      "nice_name": "Zstroke",
-      "production_name": "uni01B5",
-      "character": "\u01b5",
-      "unicode": 437,
-      "glyphsets": []
+      "nice_name": "Saltillo",
+      "production_name": "uniA78B",
+      "character": "\ua78b",
+      "unicode": 42891,
+      "glyphsets": [
+        "GF_Latin_African",
+        "GF_Latin_Beyond"
+      ]
     },
     {
       "nice_name": "Ismall",
@@ -18071,20 +17451,6 @@
       ]
     },
     {
-      "nice_name": "adieresismacron",
-      "production_name": "uni01DF",
-      "character": "\u01df",
-      "unicode": 479,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "adotaccent",
-      "production_name": "uni0227",
-      "character": "\u0227",
-      "unicode": 551,
-      "glyphsets": []
-    },
-    {
       "nice_name": "adotbelow",
       "production_name": "uni1EA1",
       "character": "\u1ea1",
@@ -18093,20 +17459,6 @@
         "GF_Latin_African",
         "GF_Latin_Vietnamese"
       ]
-    },
-    {
-      "nice_name": "adotmacron",
-      "production_name": "uni01E1",
-      "character": "\u01e1",
-      "unicode": 481,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "ainvertedbreve",
-      "production_name": "uni0203",
-      "character": "\u0203",
-      "unicode": 515,
-      "glyphsets": []
     },
     {
       "nice_name": "alpha-latin",
@@ -18119,22 +17471,6 @@
       ]
     },
     {
-      "nice_name": "aringbelow",
-      "production_name": "uni1E01",
-      "character": "\u1e01",
-      "unicode": 7681,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "astroke",
-      "production_name": "uni2C65",
-      "character": "\u2c65",
-      "unicode": 11365,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
       "nice_name": "aemacron",
       "production_name": "uni01E3",
       "character": "\u01e3",
@@ -18142,13 +17478,6 @@
       "glyphsets": [
         "GF_Latin_African"
       ]
-    },
-    {
-      "nice_name": "bdotaccent",
-      "production_name": "uni1E03",
-      "character": "\u1e03",
-      "unicode": 7683,
-      "glyphsets": []
     },
     {
       "nice_name": "bdotbelow",
@@ -18190,36 +17519,12 @@
       ]
     },
     {
-      "nice_name": "bmacronbelow",
-      "production_name": "bmacronbelow",
-      "character": "\u1e07",
-      "unicode": 7687,
-      "glyphsets": []
-    },
-    {
       "nice_name": "bstroke",
       "production_name": "uni0180",
       "character": "\u0180",
       "unicode": 384,
       "glyphsets": [
         "GF_Latin_African"
-      ]
-    },
-    {
-      "nice_name": "ccedillaacute",
-      "production_name": "uni1E09",
-      "character": "\u1e09",
-      "unicode": 7689,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "chi-latin",
-      "production_name": "uniAB53",
-      "character": "\uab53",
-      "unicode": 43859,
-      "glyphsets": [
-        "GF_Latin_Beyond",
-        "GF_Phonetics_IPAStandard"
       ]
     },
     {
@@ -18231,23 +17536,6 @@
         "GF_Latin_African",
         "GF_Phonetics_IPAHistorical"
       ]
-    },
-    {
-      "nice_name": "cstroke",
-      "production_name": "uni023C",
-      "character": "\u023c",
-      "unicode": 572,
-      "glyphsets": [
-        "GF_Latin_Beyond",
-        "GF_Phonetics_APA"
-      ]
-    },
-    {
-      "nice_name": "dcedilla",
-      "production_name": "uni1E11",
-      "character": "\u1e11",
-      "unicode": 7697,
-      "glyphsets": []
     },
     {
       "nice_name": "dcircumflexbelow",
@@ -18317,20 +17605,6 @@
       ]
     },
     {
-      "nice_name": "ecedillabreve",
-      "production_name": "uni1E1D",
-      "character": "\u1e1d",
-      "unicode": 7709,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "ecircumflexbelow",
-      "production_name": "uni1E19",
-      "character": "\u1e19",
-      "unicode": 7705,
-      "glyphsets": []
-    },
-    {
       "nice_name": "ecircumflexdotbelow",
       "production_name": "uni1EC7",
       "character": "\u1ec7",
@@ -18361,31 +17635,6 @@
       ]
     },
     {
-      "nice_name": "einvertedbreve",
-      "production_name": "uni0207",
-      "character": "\u0207",
-      "unicode": 519,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "emacronacute",
-      "production_name": "uni1E17",
-      "character": "\u1e17",
-      "unicode": 7703,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
-      "nice_name": "emacrongrave",
-      "production_name": "uni1E15",
-      "character": "\u1e15",
-      "unicode": 7701,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
       "nice_name": "eopen",
       "production_name": "uni025B",
       "character": "\u025b",
@@ -18405,13 +17654,6 @@
         "GF_Latin_African",
         "GF_Phonetics_IPAStandard"
       ]
-    },
-    {
-      "nice_name": "estroke",
-      "production_name": "uni0247",
-      "character": "\u0247",
-      "unicode": 583,
-      "glyphsets": []
     },
     {
       "nice_name": "etilde",
@@ -18465,16 +17707,6 @@
       ]
     },
     {
-      "nice_name": "ezhcaron",
-      "production_name": "uni01EF",
-      "character": "\u01ef",
-      "unicode": 495,
-      "glyphsets": [
-        "GF_Latin_Beyond",
-        "GF_Phonetics_APA"
-      ]
-    },
-    {
       "nice_name": "ezhreversed",
       "production_name": "uni01B9",
       "character": "\u01b9",
@@ -18482,20 +17714,6 @@
       "glyphsets": [
         "GF_Latin_African"
       ]
-    },
-    {
-      "nice_name": "fdotaccent",
-      "production_name": "uni1E1F",
-      "character": "\u1e1f",
-      "unicode": 7711,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "gacute",
-      "production_name": "uni01F5",
-      "character": "\u01f5",
-      "unicode": 501,
-      "glyphsets": []
     },
     {
       "nice_name": "gamma-latin",
@@ -18530,43 +17748,13 @@
       ]
     },
     {
-      "nice_name": "glottalstop",
-      "production_name": "uni0294",
-      "character": "\u0294",
-      "unicode": 660,
-      "glyphsets": [
-        "GF_Latin_African",
-        "GF_Latin_Beyond",
-        "GF_Phonetics_IPAStandard"
-      ]
-    },
-    {
-      "nice_name": "glottalstopreversed",
-      "production_name": "uni0295",
-      "character": "\u0295",
-      "unicode": 661,
-      "glyphsets": [
-        "GF_Latin_Beyond",
-        "GF_Phonetics_IPAStandard"
-      ]
-    },
-    {
       "nice_name": "glottalstopsmall",
       "production_name": "uni0242",
       "character": "\u0242",
       "unicode": 578,
       "glyphsets": [
-        "GF_Latin_African"
-      ]
-    },
-    {
-      "nice_name": "gmacron",
-      "production_name": "uni1E21",
-      "character": "\u1e21",
-      "unicode": 7713,
-      "glyphsets": [
-        "GF_Latin_Beyond",
-        "GF_TransLatin_Arabic"
+        "GF_Latin_African",
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -18578,36 +17766,6 @@
         "GF_Latin_African",
         "GF_Latin_Beyond"
       ]
-    },
-    {
-      "nice_name": "hbrevebelow",
-      "production_name": "uni1E2B",
-      "character": "\u1e2b",
-      "unicode": 7723,
-      "glyphsets": [
-        "GF_TransLatin_Arabic"
-      ]
-    },
-    {
-      "nice_name": "hcaron",
-      "production_name": "uni021F",
-      "character": "\u021f",
-      "unicode": 543,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "hcedilla",
-      "production_name": "uni1E29",
-      "character": "\u1e29",
-      "unicode": 7721,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "hdieresis",
-      "production_name": "uni1E27",
-      "character": "\u1e27",
-      "unicode": 7719,
-      "glyphsets": []
     },
     {
       "nice_name": "hdotaccent",
@@ -18628,13 +17786,6 @@
         "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
-    },
-    {
-      "nice_name": "heng",
-      "production_name": "uniA727",
-      "character": "\ua727",
-      "unicode": 42791,
-      "glyphsets": []
     },
     {
       "nice_name": "hhook",
@@ -18677,13 +17828,6 @@
       ]
     },
     {
-      "nice_name": "idieresisacute",
-      "production_name": "uni1E2F",
-      "character": "\u1e2f",
-      "unicode": 7727,
-      "glyphsets": []
-    },
-    {
       "nice_name": "idotbelow",
       "production_name": "uni1ECB",
       "character": "\u1ecb",
@@ -18693,13 +17837,6 @@
         "GF_Latin_Beyond",
         "GF_Latin_Vietnamese"
       ]
-    },
-    {
-      "nice_name": "iinvertedbreve",
-      "production_name": "uni020B",
-      "character": "\u020b",
-      "unicode": 523,
-      "glyphsets": []
     },
     {
       "nice_name": "iota-latin",
@@ -18782,15 +17919,6 @@
       ]
     },
     {
-      "nice_name": "kdotbelow",
-      "production_name": "uni1E33",
-      "character": "\u1e33",
-      "unicode": 7731,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
       "nice_name": "khook",
       "production_name": "uni0199",
       "character": "\u0199",
@@ -18810,13 +17938,6 @@
         "GF_Latin_Beyond",
         "GF_TransLatin_Arabic"
       ]
-    },
-    {
-      "nice_name": "kstroke",
-      "production_name": "uniA741",
-      "character": "\ua741",
-      "unicode": 42817,
-      "glyphsets": []
     },
     {
       "nice_name": "lambdastroke",
@@ -18841,62 +17962,12 @@
       ]
     },
     {
-      "nice_name": "lbelt",
-      "production_name": "uni026C",
-      "character": "\u026c",
-      "unicode": 620,
-      "glyphsets": [
-        "GF_Latin_Beyond",
-        "GF_Phonetics_IPAStandard"
-      ]
-    },
-    {
       "nice_name": "lcircumflexbelow",
       "production_name": "uni1E3D",
       "character": "\u1e3d",
       "unicode": 7741,
       "glyphsets": [
         "GF_Latin_African"
-      ]
-    },
-    {
-      "nice_name": "ldotbelow",
-      "production_name": "uni1E37",
-      "character": "\u1e37",
-      "unicode": 7735,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
-      "nice_name": "ldotbelowmacron",
-      "production_name": "uni1E39",
-      "character": "\u1e39",
-      "unicode": 7737,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "ldoublebar",
-      "production_name": "uni2C61",
-      "character": "\u2c61",
-      "unicode": 11361,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "lmacronbelow",
-      "production_name": "lmacronbelow",
-      "character": "\u1e3b",
-      "unicode": 7739,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "lmiddletilde",
-      "production_name": "uni026B",
-      "character": "\u026b",
-      "unicode": 619,
-      "glyphsets": [
-        "GF_Latin_Beyond",
-        "GF_Phonetics_IPAStandard"
       ]
     },
     {
@@ -18907,22 +17978,6 @@
       "glyphsets": [
         "GF_Latin_African",
         "GF_TransLatin_Pinyin"
-      ]
-    },
-    {
-      "nice_name": "mdotaccent",
-      "production_name": "uni1E41",
-      "character": "\u1e41",
-      "unicode": 7745,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "mdotbelow",
-      "production_name": "uni1E43",
-      "character": "\u1e43",
-      "unicode": 7747,
-      "glyphsets": [
-        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19043,29 +18098,6 @@
       ]
     },
     {
-      "nice_name": "odieresismacron",
-      "production_name": "uni022B",
-      "character": "\u022b",
-      "unicode": 555,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "odotaccent",
-      "production_name": "uni022F",
-      "character": "\u022f",
-      "unicode": 559,
-      "glyphsets": [
-        "GF_Phonetics_APA"
-      ]
-    },
-    {
-      "nice_name": "odotaccentmacron",
-      "production_name": "uni0231",
-      "character": "\u0231",
-      "unicode": 561,
-      "glyphsets": []
-    },
-    {
       "nice_name": "odotbelow",
       "production_name": "uni1ECD",
       "character": "\u1ecd",
@@ -19076,55 +18108,12 @@
       ]
     },
     {
-      "nice_name": "oinvertedbreve",
-      "production_name": "uni020F",
-      "character": "\u020f",
-      "unicode": 527,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "omacronacute",
-      "production_name": "uni1E53",
-      "character": "\u1e53",
-      "unicode": 7763,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
-      "nice_name": "omacrongrave",
-      "production_name": "uni1E51",
-      "character": "\u1e51",
-      "unicode": 7761,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
       "nice_name": "omega-latin",
       "production_name": "uniA7B7",
       "character": "\ua7b7",
       "unicode": 42935,
       "glyphsets": [
         "GF_Latin_African"
-      ]
-    },
-    {
-      "nice_name": "oogonek",
-      "production_name": "uni01EB",
-      "character": "\u01eb",
-      "unicode": 491,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
-      "nice_name": "oogonekmacron",
-      "production_name": "uni01ED",
-      "character": "\u01ed",
-      "unicode": 493,
-      "glyphsets": [
-        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19166,34 +18155,6 @@
       ]
     },
     {
-      "nice_name": "otildemacron",
-      "production_name": "uni022D",
-      "character": "\u022d",
-      "unicode": 557,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "ou",
-      "production_name": "uni0223",
-      "character": "\u0223",
-      "unicode": 547,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "pacute",
-      "production_name": "uni1E55",
-      "character": "\u1e55",
-      "unicode": 7765,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "pdotaccent",
-      "production_name": "uni1E57",
-      "character": "\u1e57",
-      "unicode": 7767,
-      "glyphsets": []
-    },
-    {
       "nice_name": "phook",
       "production_name": "uni01A5",
       "character": "\u01a5",
@@ -19211,66 +18172,6 @@
       "glyphsets": [
         "GF_Latin_African"
       ]
-    },
-    {
-      "nice_name": "qhooktail",
-      "production_name": "uni024B",
-      "character": "\u024b",
-      "unicode": 587,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "rdblgrave",
-      "production_name": "uni0211",
-      "character": "\u0211",
-      "unicode": 529,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "rdotaccent",
-      "production_name": "uni1E59",
-      "character": "\u1e59",
-      "unicode": 7769,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "rdotbelow",
-      "production_name": "uni1E5B",
-      "character": "\u1e5b",
-      "unicode": 7771,
-      "glyphsets": [
-        "GF_Phonetics_APA"
-      ]
-    },
-    {
-      "nice_name": "rdotbelowmacron",
-      "production_name": "uni1E5D",
-      "character": "\u1e5d",
-      "unicode": 7773,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "rfishhook",
-      "production_name": "uni027E",
-      "character": "\u027e",
-      "unicode": 638,
-      "glyphsets": [
-        "GF_Phonetics_IPAStandard"
-      ]
-    },
-    {
-      "nice_name": "rinvertedbreve",
-      "production_name": "uni0213",
-      "character": "\u0213",
-      "unicode": 531,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "rmacronbelow",
-      "production_name": "rmacronbelow",
-      "character": "\u1e5f",
-      "unicode": 7775,
-      "glyphsets": []
     },
     {
       "nice_name": "rstroke",
@@ -19292,37 +18193,6 @@
       ]
     },
     {
-      "nice_name": "sacutedotaccent",
-      "production_name": "uni1E65",
-      "character": "\u1e65",
-      "unicode": 7781,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "saltillo",
-      "production_name": "uniA78C",
-      "character": "\ua78c",
-      "unicode": 42892,
-      "glyphsets": [
-        "GF_Latin_African",
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
-      "nice_name": "scarondotaccent",
-      "production_name": "uni1E67",
-      "character": "\u1e67",
-      "unicode": 7783,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "sdotaccent",
-      "production_name": "uni1E61",
-      "character": "\u1e61",
-      "unicode": 7777,
-      "glyphsets": []
-    },
-    {
       "nice_name": "sdotbelow",
       "production_name": "uni1E63",
       "character": "\u1e63",
@@ -19334,20 +18204,6 @@
       ]
     },
     {
-      "nice_name": "sdotbelowdotaccent",
-      "production_name": "uni1E69",
-      "character": "\u1e69",
-      "unicode": 7785,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "sobliquestroke",
-      "production_name": "uniA7A9",
-      "character": "\ua7a9",
-      "unicode": 42921,
-      "glyphsets": []
-    },
-    {
       "nice_name": "tcircumflexbelow",
       "production_name": "uni1E71",
       "character": "\u1e71",
@@ -19356,22 +18212,6 @@
         "GF_Latin_African",
         "GF_Phonetics_APA"
       ]
-    },
-    {
-      "nice_name": "tdiagonalstroke",
-      "production_name": "uni2C66",
-      "character": "\u2c66",
-      "unicode": 11366,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
-      "nice_name": "tdotaccent",
-      "production_name": "uni1E6B",
-      "character": "\u1e6b",
-      "unicode": 7787,
-      "glyphsets": []
     },
     {
       "nice_name": "tdotbelow",
@@ -19436,28 +18276,12 @@
       ]
     },
     {
-      "nice_name": "ucircumflexbelow",
-      "production_name": "uni1E77",
-      "character": "\u1e77",
-      "unicode": 7799,
-      "glyphsets": []
-    },
-    {
       "nice_name": "udblgrave",
       "production_name": "uni0215",
       "character": "\u0215",
       "unicode": 533,
       "glyphsets": [
         "GF_Latin_African"
-      ]
-    },
-    {
-      "nice_name": "udieresisacute",
-      "production_name": "uni01D8",
-      "character": "\u01d8",
-      "unicode": 472,
-      "glyphsets": [
-        "GF_TransLatin_Pinyin"
       ]
     },
     {
@@ -19470,33 +18294,6 @@
       ]
     },
     {
-      "nice_name": "udieresiscaron",
-      "production_name": "uni01DA",
-      "character": "\u01da",
-      "unicode": 474,
-      "glyphsets": [
-        "GF_TransLatin_Pinyin"
-      ]
-    },
-    {
-      "nice_name": "udieresisgrave",
-      "production_name": "uni01DC",
-      "character": "\u01dc",
-      "unicode": 476,
-      "glyphsets": [
-        "GF_TransLatin_Pinyin"
-      ]
-    },
-    {
-      "nice_name": "udieresismacron",
-      "production_name": "uni01D6",
-      "character": "\u01d6",
-      "unicode": 470,
-      "glyphsets": [
-        "GF_TransLatin_Pinyin"
-      ]
-    },
-    {
       "nice_name": "udotbelow",
       "production_name": "uni1EE5",
       "character": "\u1ee5",
@@ -19505,20 +18302,6 @@
         "GF_Latin_African",
         "GF_Latin_Vietnamese"
       ]
-    },
-    {
-      "nice_name": "uinvertedbreve",
-      "production_name": "uni0217",
-      "character": "\u0217",
-      "unicode": 535,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "umacrondieresis",
-      "production_name": "uni1E7B",
-      "character": "\u1e7b",
-      "unicode": 7803,
-      "glyphsets": []
     },
     {
       "nice_name": "upsilon-latin",
@@ -19561,13 +18344,6 @@
       ]
     },
     {
-      "nice_name": "vdotbelow",
-      "production_name": "uni1E7F",
-      "character": "\u1e7f",
-      "unicode": 7807,
-      "glyphsets": []
-    },
-    {
       "nice_name": "vhook",
       "production_name": "uni028B",
       "character": "\u028b",
@@ -19597,22 +18373,6 @@
       ]
     },
     {
-      "nice_name": "wdotaccent",
-      "production_name": "uni1E87",
-      "character": "\u1e87",
-      "unicode": 7815,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "wdotbelow",
-      "production_name": "uni1E89",
-      "character": "\u1e89",
-      "unicode": 7817,
-      "glyphsets": [
-        "GF_Phonetics_APA"
-      ]
-    },
-    {
       "nice_name": "whook",
       "production_name": "uni2C73",
       "character": "\u2c73",
@@ -19620,29 +18380,6 @@
       "glyphsets": [
         "GF_Latin_African"
       ]
-    },
-    {
-      "nice_name": "xdieresis",
-      "production_name": "uni1E8D",
-      "character": "\u1e8d",
-      "unicode": 7821,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "xdotaccent",
-      "production_name": "uni1E8B",
-      "character": "\u1e8b",
-      "unicode": 7819,
-      "glyphsets": [
-        "GF_Phonetics_APA"
-      ]
-    },
-    {
-      "nice_name": "ydotaccent",
-      "production_name": "uni1E8F",
-      "character": "\u1e8f",
-      "unicode": 7823,
-      "glyphsets": []
     },
     {
       "nice_name": "yhook",
@@ -19654,30 +18391,12 @@
       ]
     },
     {
-      "nice_name": "ymacron",
-      "production_name": "uni0233",
-      "character": "\u0233",
-      "unicode": 563,
-      "glyphsets": [
-        "GF_TransLatin_Arabic"
-      ]
-    },
-    {
       "nice_name": "ystroke",
       "production_name": "uni024F",
       "character": "\u024f",
       "unicode": 591,
       "glyphsets": [
         "GF_Latin_African"
-      ]
-    },
-    {
-      "nice_name": "zcircumflex",
-      "production_name": "uni1E91",
-      "character": "\u1e91",
-      "unicode": 7825,
-      "glyphsets": [
-        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19701,42 +18420,13 @@
       ]
     },
     {
-      "nice_name": "zstroke",
-      "production_name": "uni01B6",
-      "character": "\u01b6",
-      "unicode": 438,
-      "glyphsets": []
-    },
-    {
-      "nice_name": "hmod",
-      "production_name": "uni02B0",
-      "character": "\u02b0",
-      "unicode": 688,
+      "nice_name": "saltillo",
+      "production_name": "uniA78C",
+      "character": "\ua78c",
+      "unicode": 42892,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Phonetics_IPAStandard"
-      ]
-    },
-    {
-      "nice_name": "nmod",
-      "production_name": "uni207F",
-      "character": "\u207f",
-      "unicode": 8319,
-      "glyphsets": [
-        "GF_Latin_African",
-        "GF_Phonetics_IPAStandard",
-        "GF_TransLatin_Pinyin"
-      ]
-    },
-    {
-      "nice_name": "wmod",
-      "production_name": "uni02B7",
-      "character": "\u02b7",
-      "unicode": 695,
-      "glyphsets": [
-        "GF_Latin_African",
-        "GF_Latin_Beyond",
-        "GF_Phonetics_IPAStandard"
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -19746,7 +18436,6 @@
       "unicode": 450,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -19777,6 +18466,49 @@
       "unicode": 451,
       "glyphsets": [
         "GF_Latin_African",
+        "GF_Phonetics_IPAStandard"
+      ]
+    },
+    {
+      "nice_name": "glottalstop",
+      "production_name": "uni0294",
+      "character": "\u0294",
+      "unicode": 660,
+      "glyphsets": [
+        "GF_Latin_African",
+        "GF_Latin_Beyond",
+        "GF_Phonetics_IPAStandard"
+      ]
+    },
+    {
+      "nice_name": "hmod",
+      "production_name": "uni02B0",
+      "character": "\u02b0",
+      "unicode": 688,
+      "glyphsets": [
+        "GF_Latin_African",
+        "GF_Phonetics_IPAStandard"
+      ]
+    },
+    {
+      "nice_name": "nmod",
+      "production_name": "uni207F",
+      "character": "\u207f",
+      "unicode": 8319,
+      "glyphsets": [
+        "GF_Latin_African",
+        "GF_Phonetics_IPAStandard",
+        "GF_TransLatin_Pinyin"
+      ]
+    },
+    {
+      "nice_name": "wmod",
+      "production_name": "uni02B7",
+      "character": "\u02b7",
+      "unicode": 695,
+      "glyphsets": [
+        "GF_Latin_African",
+        "GF_Latin_Beyond",
         "GF_Phonetics_IPAStandard"
       ]
     },
@@ -19959,6 +18691,16 @@
       ]
     },
     {
+      "nice_name": "dieresisbelowcomb",
+      "production_name": "uni0324",
+      "character": "\u0324",
+      "unicode": 804,
+      "glyphsets": [
+        "GF_Latin_African",
+        "GF_Phonetics_IPAStandard"
+      ]
+    },
+    {
       "nice_name": "ringbelowcomb",
       "production_name": "uni0325",
       "character": "\u0325",
@@ -20118,15 +18860,6 @@
       ]
     },
     {
-      "nice_name": "glottalstopmod",
-      "production_name": "uni02C0",
-      "character": "\u02c0",
-      "unicode": 704,
-      "glyphsets": [
-        "GF_Latin_Beyond"
-      ]
-    },
-    {
       "nice_name": "ringhalfleft",
       "production_name": "uni02BF",
       "character": "\u02bf",
@@ -20174,10 +18907,137 @@
       ]
     },
     {
+      "nice_name": "Adieresismacron",
+      "production_name": "uni01DE",
+      "character": "\u01de",
+      "unicode": 478,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Adotaccent",
+      "production_name": "uni0226",
+      "character": "\u0226",
+      "unicode": 550,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Adotmacron",
+      "production_name": "uni01E0",
+      "character": "\u01e0",
+      "unicode": 480,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Ainvertedbreve",
+      "production_name": "uni0202",
+      "character": "\u0202",
+      "unicode": 514,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Astroke",
+      "production_name": "uni023A",
+      "character": "\u023a",
+      "unicode": 570,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Bdotaccent",
+      "production_name": "uni1E02",
+      "character": "\u1e02",
+      "unicode": 7682,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Bmacronbelow",
+      "production_name": "Bmacronbelow",
+      "character": "\u1e06",
+      "unicode": 7686,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
       "nice_name": "Ccircumflex",
       "production_name": "Ccircumflex",
       "character": "\u0108",
       "unicode": 264,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Chi-latin",
+      "production_name": "uniA7B3",
+      "character": "\ua7b3",
+      "unicode": 42931,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Cstroke",
+      "production_name": "uni023B",
+      "character": "\u023b",
+      "unicode": 571,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_APA"
+      ]
+    },
+    {
+      "nice_name": "Einvertedbreve",
+      "production_name": "uni0206",
+      "character": "\u0206",
+      "unicode": 518,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Emacronacute",
+      "production_name": "uni1E16",
+      "character": "\u1e16",
+      "unicode": 7702,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Emacrongrave",
+      "production_name": "uni1E14",
+      "character": "\u1e14",
+      "unicode": 7700,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Estroke",
+      "production_name": "uni0246",
+      "character": "\u0246",
+      "unicode": 582,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Ezhcaron",
+      "production_name": "uni01EE",
+      "character": "\u01ee",
+      "unicode": 494,
       "glyphsets": [
         "GF_Latin_Beyond"
       ]
@@ -20192,10 +19052,56 @@
       ]
     },
     {
+      "nice_name": "Gmacron",
+      "production_name": "uni1E20",
+      "character": "\u1e20",
+      "unicode": 7712,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_TransLatin_Arabic"
+      ]
+    },
+    {
+      "nice_name": "Hcaron",
+      "production_name": "uni021E",
+      "character": "\u021e",
+      "unicode": 542,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
       "nice_name": "Hcircumflex",
       "production_name": "Hcircumflex",
       "character": "\u0124",
       "unicode": 292,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Hdieresis",
+      "production_name": "uni1E26",
+      "character": "\u1e26",
+      "unicode": 7718,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Idieresisacute",
+      "production_name": "uni1E2E",
+      "character": "\u1e2e",
+      "unicode": 7726,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Iinvertedbreve",
+      "production_name": "uni020A",
+      "character": "\u020a",
+      "unicode": 522,
       "glyphsets": [
         "GF_Latin_Beyond"
       ]
@@ -20210,10 +19116,235 @@
       ]
     },
     {
+      "nice_name": "Kdotbelow",
+      "production_name": "uni1E32",
+      "character": "\u1e32",
+      "unicode": 7730,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Lbelt",
+      "production_name": "uniA7AD",
+      "character": "\ua7ad",
+      "unicode": 42925,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Ldotbelow",
+      "production_name": "uni1E36",
+      "character": "\u1e36",
+      "unicode": 7734,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Ldoublebar",
+      "production_name": "uni2C60",
+      "character": "\u2c60",
+      "unicode": 11360,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Lmiddletilde",
+      "production_name": "uni2C62",
+      "character": "\u2c62",
+      "unicode": 11362,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Mdotaccent",
+      "production_name": "uni1E40",
+      "character": "\u1e40",
+      "unicode": 7744,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Mdotbelow",
+      "production_name": "uni1E42",
+      "character": "\u1e42",
+      "unicode": 7746,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Nlongrightleg",
+      "production_name": "uni0220",
+      "character": "\u0220",
+      "unicode": 544,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "OU",
+      "production_name": "uni0222",
+      "character": "\u0222",
+      "unicode": 546,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Odieresismacron",
+      "production_name": "uni022A",
+      "character": "\u022a",
+      "unicode": 554,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Odotaccent",
+      "production_name": "uni022E",
+      "character": "\u022e",
+      "unicode": 558,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Odotaccentmacron",
+      "production_name": "uni0230",
+      "character": "\u0230",
+      "unicode": 560,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Oinvertedbreve",
+      "production_name": "uni020E",
+      "character": "\u020e",
+      "unicode": 526,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Omacronacute",
+      "production_name": "uni1E52",
+      "character": "\u1e52",
+      "unicode": 7762,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Omacrongrave",
+      "production_name": "uni1E50",
+      "character": "\u1e50",
+      "unicode": 7760,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Oogonek",
+      "production_name": "uni01EA",
+      "character": "\u01ea",
+      "unicode": 490,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Oogonekmacron",
+      "production_name": "uni01EC",
+      "character": "\u01ec",
+      "unicode": 492,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Otildemacron",
+      "production_name": "uni022C",
+      "character": "\u022c",
+      "unicode": 556,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Pacute",
+      "production_name": "uni1E54",
+      "character": "\u1e54",
+      "unicode": 7764,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Pdotaccent",
+      "production_name": "uni1E56",
+      "character": "\u1e56",
+      "unicode": 7766,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Qhooktail",
+      "production_name": "uni024A",
+      "character": "\u024a",
+      "unicode": 586,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Rdblgrave",
+      "production_name": "uni0210",
+      "character": "\u0210",
+      "unicode": 528,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Rinvertedbreve",
+      "production_name": "uni0212",
+      "character": "\u0212",
+      "unicode": 530,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Rmacronbelow",
+      "production_name": "Rmacronbelow",
+      "character": "\u1e5e",
+      "unicode": 7774,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
       "nice_name": "Scircumflex",
       "production_name": "Scircumflex",
       "character": "\u015c",
       "unicode": 348,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Sdotaccent",
+      "production_name": "uni1E60",
+      "character": "\u1e60",
+      "unicode": 7776,
       "glyphsets": [
         "GF_Latin_Beyond"
       ]
@@ -20237,6 +19368,61 @@
       ]
     },
     {
+      "nice_name": "Tdiagonalstroke",
+      "production_name": "uni023E",
+      "character": "\u023e",
+      "unicode": 574,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Udieresisgrave",
+      "production_name": "uni01DB",
+      "character": "\u01db",
+      "unicode": 475,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_TransLatin_Pinyin"
+      ]
+    },
+    {
+      "nice_name": "Uinvertedbreve",
+      "production_name": "uni0216",
+      "character": "\u0216",
+      "unicode": 534,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Umacrondieresis",
+      "production_name": "uni1E7A",
+      "character": "\u1e7a",
+      "unicode": 7802,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Xdieresis",
+      "production_name": "uni1E8C",
+      "character": "\u1e8c",
+      "unicode": 7820,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Xdotaccent",
+      "production_name": "uni1E8A",
+      "character": "\u1e8a",
+      "unicode": 7818,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
       "nice_name": "Ytilde",
       "production_name": "uni1EF8",
       "character": "\u1ef8",
@@ -20244,6 +19430,87 @@
       "glyphsets": [
         "GF_Latin_Beyond",
         "GF_Latin_Vietnamese"
+      ]
+    },
+    {
+      "nice_name": "Zcircumflex",
+      "production_name": "uni1E90",
+      "character": "\u1e90",
+      "unicode": 7824,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "Zstroke",
+      "production_name": "uni01B5",
+      "character": "\u01b5",
+      "unicode": 437,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "adieresismacron",
+      "production_name": "uni01DF",
+      "character": "\u01df",
+      "unicode": 479,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "adotaccent",
+      "production_name": "uni0227",
+      "character": "\u0227",
+      "unicode": 551,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "adotmacron",
+      "production_name": "uni01E1",
+      "character": "\u01e1",
+      "unicode": 481,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "ainvertedbreve",
+      "production_name": "uni0203",
+      "character": "\u0203",
+      "unicode": 515,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "astroke",
+      "production_name": "uni2C65",
+      "character": "\u2c65",
+      "unicode": 11365,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "bdotaccent",
+      "production_name": "uni1E03",
+      "character": "\u1e03",
+      "unicode": 7683,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "bmacronbelow",
+      "production_name": "bmacronbelow",
+      "character": "\u1e07",
+      "unicode": 7687,
+      "glyphsets": [
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -20256,10 +19523,105 @@
       ]
     },
     {
+      "nice_name": "chi-latin",
+      "production_name": "uniAB53",
+      "character": "\uab53",
+      "unicode": 43859,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_IPAStandard"
+      ]
+    },
+    {
+      "nice_name": "cstroke",
+      "production_name": "uni023C",
+      "character": "\u023c",
+      "unicode": 572,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_APA"
+      ]
+    },
+    {
+      "nice_name": "einvertedbreve",
+      "production_name": "uni0207",
+      "character": "\u0207",
+      "unicode": 519,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "emacronacute",
+      "production_name": "uni1E17",
+      "character": "\u1e17",
+      "unicode": 7703,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "emacrongrave",
+      "production_name": "uni1E15",
+      "character": "\u1e15",
+      "unicode": 7701,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "estroke",
+      "production_name": "uni0247",
+      "character": "\u0247",
+      "unicode": 583,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "ezhcaron",
+      "production_name": "uni01EF",
+      "character": "\u01ef",
+      "unicode": 495,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_APA"
+      ]
+    },
+    {
       "nice_name": "gcircumflex",
       "production_name": "gcircumflex",
       "character": "\u011d",
       "unicode": 285,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "glottalstopreversed",
+      "production_name": "uni0295",
+      "character": "\u0295",
+      "unicode": 661,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_IPAStandard"
+      ]
+    },
+    {
+      "nice_name": "gmacron",
+      "production_name": "uni1E21",
+      "character": "\u1e21",
+      "unicode": 7713,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_TransLatin_Arabic"
+      ]
+    },
+    {
+      "nice_name": "hcaron",
+      "production_name": "uni021F",
+      "character": "\u021f",
+      "unicode": 543,
       "glyphsets": [
         "GF_Latin_Beyond"
       ]
@@ -20274,10 +19636,37 @@
       ]
     },
     {
+      "nice_name": "hdieresis",
+      "production_name": "uni1E27",
+      "character": "\u1e27",
+      "unicode": 7719,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
       "nice_name": "idotless_ogonek",
       "production_name": "dotlessi_ogonek",
       "character": null,
       "unicode": null,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "idieresisacute",
+      "production_name": "uni1E2F",
+      "character": "\u1e2f",
+      "unicode": 7727,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "iinvertedbreve",
+      "production_name": "uni020B",
+      "character": "\u020b",
+      "unicode": 523,
       "glyphsets": [
         "GF_Latin_Beyond"
       ]
@@ -20302,6 +19691,15 @@
       ]
     },
     {
+      "nice_name": "kdotbelow",
+      "production_name": "uni1E33",
+      "character": "\u1e33",
+      "unicode": 7731,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
       "nice_name": "kgreenlandic",
       "production_name": "kgreenlandic",
       "character": "\u0138",
@@ -20311,10 +19709,220 @@
       ]
     },
     {
+      "nice_name": "lbelt",
+      "production_name": "uni026C",
+      "character": "\u026c",
+      "unicode": 620,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_IPAStandard"
+      ]
+    },
+    {
+      "nice_name": "ldotbelow",
+      "production_name": "uni1E37",
+      "character": "\u1e37",
+      "unicode": 7735,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "ldoublebar",
+      "production_name": "uni2C61",
+      "character": "\u2c61",
+      "unicode": 11361,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "lmiddletilde",
+      "production_name": "uni026B",
+      "character": "\u026b",
+      "unicode": 619,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_IPAStandard"
+      ]
+    },
+    {
+      "nice_name": "mdotaccent",
+      "production_name": "uni1E41",
+      "character": "\u1e41",
+      "unicode": 7745,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "mdotbelow",
+      "production_name": "uni1E43",
+      "character": "\u1e43",
+      "unicode": 7747,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "odieresismacron",
+      "production_name": "uni022B",
+      "character": "\u022b",
+      "unicode": 555,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "odotaccent",
+      "production_name": "uni022F",
+      "character": "\u022f",
+      "unicode": 559,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_APA"
+      ]
+    },
+    {
+      "nice_name": "odotaccentmacron",
+      "production_name": "uni0231",
+      "character": "\u0231",
+      "unicode": 561,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "oinvertedbreve",
+      "production_name": "uni020F",
+      "character": "\u020f",
+      "unicode": 527,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "omacronacute",
+      "production_name": "uni1E53",
+      "character": "\u1e53",
+      "unicode": 7763,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "omacrongrave",
+      "production_name": "uni1E51",
+      "character": "\u1e51",
+      "unicode": 7761,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "oogonek",
+      "production_name": "uni01EB",
+      "character": "\u01eb",
+      "unicode": 491,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "oogonekmacron",
+      "production_name": "uni01ED",
+      "character": "\u01ed",
+      "unicode": 493,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "otildemacron",
+      "production_name": "uni022D",
+      "character": "\u022d",
+      "unicode": 557,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "ou",
+      "production_name": "uni0223",
+      "character": "\u0223",
+      "unicode": 547,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "pacute",
+      "production_name": "uni1E55",
+      "character": "\u1e55",
+      "unicode": 7765,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "pdotaccent",
+      "production_name": "uni1E57",
+      "character": "\u1e57",
+      "unicode": 7767,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "qhooktail",
+      "production_name": "uni024B",
+      "character": "\u024b",
+      "unicode": 587,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "rdblgrave",
+      "production_name": "uni0211",
+      "character": "\u0211",
+      "unicode": 529,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "rinvertedbreve",
+      "production_name": "uni0213",
+      "character": "\u0213",
+      "unicode": 531,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "rmacronbelow",
+      "production_name": "rmacronbelow",
+      "character": "\u1e5f",
+      "unicode": 7775,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
       "nice_name": "scircumflex",
       "production_name": "scircumflex",
       "character": "\u015d",
       "unicode": 349,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "sdotaccent",
+      "production_name": "uni1E61",
+      "character": "\u1e61",
+      "unicode": 7777,
       "glyphsets": [
         "GF_Latin_Beyond"
       ]
@@ -20338,6 +19946,62 @@
       ]
     },
     {
+      "nice_name": "tdiagonalstroke",
+      "production_name": "uni2C66",
+      "character": "\u2c66",
+      "unicode": 11366,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "udieresisgrave",
+      "production_name": "uni01DC",
+      "character": "\u01dc",
+      "unicode": 476,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_TransLatin_Pinyin"
+      ]
+    },
+    {
+      "nice_name": "uinvertedbreve",
+      "production_name": "uni0217",
+      "character": "\u0217",
+      "unicode": 535,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "umacrondieresis",
+      "production_name": "uni1E7B",
+      "character": "\u1e7b",
+      "unicode": 7803,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "xdieresis",
+      "production_name": "uni1E8D",
+      "character": "\u1e8d",
+      "unicode": 7821,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "xdotaccent",
+      "production_name": "uni1E8B",
+      "character": "\u1e8b",
+      "unicode": 7819,
+      "glyphsets": [
+        "GF_Latin_Beyond",
+        "GF_Phonetics_APA"
+      ]
+    },
+    {
       "nice_name": "ytilde",
       "production_name": "uni1EF9",
       "character": "\u1ef9",
@@ -20345,6 +20009,24 @@
       "glyphsets": [
         "GF_Latin_Beyond",
         "GF_Latin_Vietnamese"
+      ]
+    },
+    {
+      "nice_name": "zcircumflex",
+      "production_name": "uni1E91",
+      "character": "\u1e91",
+      "unicode": 7825,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "zstroke",
+      "production_name": "uni01B6",
+      "character": "\u01b6",
+      "unicode": 438,
+      "glyphsets": [
+        "GF_Latin_Beyond"
       ]
     },
     {
@@ -20401,6 +20083,15 @@
       "production_name": "uni0335",
       "character": "\u0335",
       "unicode": 821,
+      "glyphsets": [
+        "GF_Latin_Beyond"
+      ]
+    },
+    {
+      "nice_name": "glottalstopmod",
+      "production_name": "uni02C0",
+      "character": "\u02c0",
+      "unicode": 704,
       "glyphsets": [
         "GF_Latin_Beyond"
       ]
@@ -20596,15 +20287,6 @@
       ]
     },
     {
-      "nice_name": "Eth",
-      "production_name": "Eth",
-      "character": "\u00d0",
-      "unicode": 208,
-      "glyphsets": [
-        "GF_Latin_Core"
-      ]
-    },
-    {
       "nice_name": "Dcaron",
       "production_name": "Dcaron",
       "character": "\u010e",
@@ -20618,6 +20300,15 @@
       "production_name": "Dcroat",
       "character": "\u0110",
       "unicode": 272,
+      "glyphsets": [
+        "GF_Latin_Core"
+      ]
+    },
+    {
+      "nice_name": "Eth",
+      "production_name": "Eth",
+      "character": "\u00d0",
+      "unicode": 208,
       "glyphsets": [
         "GF_Latin_Core"
       ]
@@ -21658,16 +21349,6 @@
       ]
     },
     {
-      "nice_name": "eth",
-      "production_name": "eth",
-      "character": "\u00f0",
-      "unicode": 240,
-      "glyphsets": [
-        "GF_Latin_Core",
-        "GF_Phonetics_IPAStandard"
-      ]
-    },
-    {
       "nice_name": "dcaron",
       "production_name": "dcaron",
       "character": "\u010f",
@@ -21683,6 +21364,16 @@
       "unicode": 273,
       "glyphsets": [
         "GF_Latin_Core"
+      ]
+    },
+    {
+      "nice_name": "eth",
+      "production_name": "eth",
+      "character": "\u00f0",
+      "unicode": 240,
+      "glyphsets": [
+        "GF_Latin_Core",
+        "GF_Phonetics_IPAStandard"
       ]
     },
     {
@@ -25078,6 +24769,24 @@
       ]
     },
     {
+      "nice_name": "rdotbelow",
+      "production_name": "uni1E5B",
+      "character": "\u1e5b",
+      "unicode": 7771,
+      "glyphsets": [
+        "GF_Phonetics_APA"
+      ]
+    },
+    {
+      "nice_name": "wdotbelow",
+      "production_name": "uni1E89",
+      "character": "\u1e89",
+      "unicode": 7817,
+      "glyphsets": [
+        "GF_Phonetics_APA"
+      ]
+    },
+    {
       "nice_name": "gmod",
       "production_name": "uni1D4D",
       "character": "\u1d4d",
@@ -26105,6 +25814,15 @@
       ]
     },
     {
+      "nice_name": "rfishhook",
+      "production_name": "uni027E",
+      "character": "\u027e",
+      "unicode": 638,
+      "glyphsets": [
+        "GF_Phonetics_IPAStandard"
+      ]
+    },
+    {
       "nice_name": "rfishhookmiddletilde",
       "production_name": "uni1D73",
       "character": "\u1d73",
@@ -26411,16 +26129,6 @@
       ]
     },
     {
-      "nice_name": "dieresisbelowcomb",
-      "production_name": "uni0324",
-      "character": "\u0324",
-      "unicode": 804,
-      "glyphsets": [
-        "GF_Phonetics_IPAStandard",
-        "GF_Latin_African"
-      ]
-    },
-    {
       "nice_name": "bridgebelowcomb",
       "production_name": "uni032A",
       "character": "\u032a",
@@ -26655,6 +26363,69 @@
       ]
     },
     {
+      "nice_name": "Dcedilla",
+      "production_name": "uni1E10",
+      "character": "\u1e10",
+      "unicode": 7696,
+      "glyphsets": [
+        "GF_TransLatin_Arabic"
+      ]
+    },
+    {
+      "nice_name": "Hbrevebelow",
+      "production_name": "uni1E2A",
+      "character": "\u1e2a",
+      "unicode": 7722,
+      "glyphsets": [
+        "GF_TransLatin_Arabic"
+      ]
+    },
+    {
+      "nice_name": "Hcedilla",
+      "production_name": "uni1E28",
+      "character": "\u1e28",
+      "unicode": 7720,
+      "glyphsets": [
+        "GF_TransLatin_Arabic"
+      ]
+    },
+    {
+      "nice_name": "Ymacron",
+      "production_name": "uni0232",
+      "character": "\u0232",
+      "unicode": 562,
+      "glyphsets": [
+        "GF_TransLatin_Arabic"
+      ]
+    },
+    {
+      "nice_name": "dcedilla",
+      "production_name": "uni1E11",
+      "character": "\u1e11",
+      "unicode": 7697,
+      "glyphsets": [
+        "GF_TransLatin_Arabic"
+      ]
+    },
+    {
+      "nice_name": "hbrevebelow",
+      "production_name": "uni1E2B",
+      "character": "\u1e2b",
+      "unicode": 7723,
+      "glyphsets": [
+        "GF_TransLatin_Arabic"
+      ]
+    },
+    {
+      "nice_name": "hcedilla",
+      "production_name": "uni1E29",
+      "character": "\u1e29",
+      "unicode": 7721,
+      "glyphsets": [
+        "GF_TransLatin_Arabic"
+      ]
+    },
+    {
       "nice_name": "hmacronbelow",
       "production_name": "hmacronbelow",
       "character": "\u1e96",
@@ -26668,6 +26439,15 @@
       "production_name": "uni1E97",
       "character": "\u1e97",
       "unicode": 7831,
+      "glyphsets": [
+        "GF_TransLatin_Arabic"
+      ]
+    },
+    {
+      "nice_name": "ymacron",
+      "production_name": "uni0233",
+      "character": "\u0233",
+      "unicode": 563,
       "glyphsets": [
         "GF_TransLatin_Arabic"
       ]
@@ -26718,6 +26498,33 @@
       ]
     },
     {
+      "nice_name": "Udieresisacute",
+      "production_name": "uni01D7",
+      "character": "\u01d7",
+      "unicode": 471,
+      "glyphsets": [
+        "GF_TransLatin_Pinyin"
+      ]
+    },
+    {
+      "nice_name": "Udieresiscaron",
+      "production_name": "uni01D9",
+      "character": "\u01d9",
+      "unicode": 473,
+      "glyphsets": [
+        "GF_TransLatin_Pinyin"
+      ]
+    },
+    {
+      "nice_name": "Udieresismacron",
+      "production_name": "uni01D5",
+      "character": "\u01d5",
+      "unicode": 469,
+      "glyphsets": [
+        "GF_TransLatin_Pinyin"
+      ]
+    },
+    {
       "nice_name": "ebreve",
       "production_name": "ebreve",
       "character": "\u0115",
@@ -26740,6 +26547,33 @@
       "production_name": "obreve",
       "character": "\u014f",
       "unicode": 335,
+      "glyphsets": [
+        "GF_TransLatin_Pinyin"
+      ]
+    },
+    {
+      "nice_name": "udieresisacute",
+      "production_name": "uni01D8",
+      "character": "\u01d8",
+      "unicode": 472,
+      "glyphsets": [
+        "GF_TransLatin_Pinyin"
+      ]
+    },
+    {
+      "nice_name": "udieresiscaron",
+      "production_name": "uni01DA",
+      "character": "\u01da",
+      "unicode": 474,
+      "glyphsets": [
+        "GF_TransLatin_Pinyin"
+      ]
+    },
+    {
+      "nice_name": "udieresismacron",
+      "production_name": "uni01D6",
+      "character": "\u01d6",
+      "unicode": 470,
       "glyphsets": [
         "GF_TransLatin_Pinyin"
       ]
