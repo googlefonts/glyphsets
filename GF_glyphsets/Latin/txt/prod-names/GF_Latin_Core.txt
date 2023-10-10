@@ -66,9 +66,9 @@ Ccaron
 Ccedilla
 Cdotaccent
 D
-Eth
 Dcaron
 Dcroat
+Eth
 E
 Eacute
 Ecaron
@@ -178,9 +178,9 @@ ccaron
 ccedilla
 cdotaccent
 d
-eth
 dcaron
 dcroat
+eth
 e
 eacute
 ecaron

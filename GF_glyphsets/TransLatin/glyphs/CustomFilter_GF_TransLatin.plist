@@ -134,32 +134,36 @@
 			<string>Ddotbelow</string>
 			<string>Dmacronbelow</string>
 			<string>Gcaron</string>
-			<string>Gmacron</string>
-			<string>Hbrevebelow</string>
 			<string>Hdotbelow</string>
 			<string>Kmacronbelow</string>
 			<string>Sdotbelow</string>
 			<string>Tdotbelow</string>
 			<string>Tmacronbelow</string>
-			<string>Ymacron</string>
 			<string>Zdotbelow</string>
 			<string>ddotbelow</string>
 			<string>dmacronbelow</string>
 			<string>gcaron</string>
-			<string>gmacron</string>
-			<string>hbrevebelow</string>
 			<string>hdotbelow</string>
 			<string>kmacronbelow</string>
 			<string>sdotbelow</string>
 			<string>tdotbelow</string>
 			<string>tmacronbelow</string>
-			<string>ymacron</string>
 			<string>zdotbelow</string>
 			<string>macronbelowcomb</string>
 			<string>ringhalfleft</string>
 			<string>ringhalfright</string>
+			<string>Gmacron</string>
+			<string>gmacron</string>
+			<string>Dcedilla</string>
+			<string>Hbrevebelow</string>
+			<string>Hcedilla</string>
+			<string>Ymacron</string>
+			<string>dcedilla</string>
+			<string>hbrevebelow</string>
+			<string>hcedilla</string>
 			<string>hmacronbelow</string>
 			<string>tdieresis</string>
+			<string>ymacron</string>
 			<string>brevebelowcomb</string>
 			<string>commareversedmod</string>
 		</array>
@@ -180,23 +184,17 @@
 			<string>Ngrave</string>
 			<string>Ocaron</string>
 			<string>Ucaron</string>
-			<string>Udieresisacute</string>
-			<string>Udieresiscaron</string>
-			<string>Udieresisgrave</string>
-			<string>Udieresismacron</string>
 			<string>acaron</string>
 			<string>icaron</string>
 			<string>macute</string>
 			<string>ngrave</string>
 			<string>ocaron</string>
 			<string>ucaron</string>
-			<string>udieresisacute</string>
-			<string>udieresiscaron</string>
-			<string>udieresisgrave</string>
-			<string>udieresismacron</string>
 			<string>nmod</string>
 			<string>verticallineabovecomb</string>
 			<string>dotaboverightcomb</string>
+			<string>Udieresisgrave</string>
+			<string>udieresisgrave</string>
 			<string>Aacute</string>
 			<string>Abreve</string>
 			<string>Acircumflex</string>
@@ -255,9 +253,15 @@
 			<string>Ebreve</string>
 			<string>Ibreve</string>
 			<string>Obreve</string>
+			<string>Udieresisacute</string>
+			<string>Udieresiscaron</string>
+			<string>Udieresismacron</string>
 			<string>ebreve</string>
 			<string>ibreve</string>
 			<string>obreve</string>
+			<string>udieresisacute</string>
+			<string>udieresiscaron</string>
+			<string>udieresismacron</string>
 			<string>gravecomb_dotaboverightcomb</string>
 			<string>acutecomb_dotaboverightcomb</string>
 			<string>circumflexcomb_dotaboverightcomb</string>

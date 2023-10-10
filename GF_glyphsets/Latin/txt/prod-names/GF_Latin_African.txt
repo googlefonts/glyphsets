@@ -73,7 +73,6 @@ uni01A4
 uni2C63
 uni024C
 uni2C64
-uniA78B
 uni1E62
 uni1E70
 uni1E6C
@@ -98,6 +97,7 @@ uni01B3
 uni024E
 uni1E92
 Zmacronbelow
+uniA78B
 uni026A
 uni01CE
 uni1EAD
@@ -132,7 +132,6 @@ uni01B9
 uni0263
 gcaron
 uni0260
-uni0294
 uni0242
 uni01E5
 uni1E23
@@ -178,7 +177,6 @@ uni01A5
 uni1D7D
 uni024D
 rtail
-uniA78C
 uni1E63
 uni1E71
 uni1E6D
@@ -202,13 +200,15 @@ uni01B4
 uni024F
 uni1E93
 zmacronbelow
-uni02B0
-uni207F
-uni02B7
+uniA78C
 uni01C2
 uni01C0
 uni01C1
 uni01C3
+uni0294
+uni02B0
+uni207F
+uni02B7
 uni1D58
 uni1D5B
 uni1DBB
@@ -228,6 +228,7 @@ uni030F
 uni0310
 uni0311
 uni0313
+uni0324
 uni0325
 uni0329
 uni032D
@@ -249,4 +250,3 @@ uni02BE
 uniA7AE
 uniA7B8
 uniA7B9
-uni0324

@@ -73,7 +73,6 @@ Phook
 Pstroke
 Rstroke
 Rtail
-Saltillo
 Sdotbelow
 Tcircumflexbelow
 Tdotbelow
@@ -98,6 +97,7 @@ Yhook
 Ystroke
 Zdotbelow
 Zmacronbelow
+Saltillo
 Ismall
 acaron
 acircumflexdotbelow
@@ -132,7 +132,6 @@ ezhreversed
 gamma-latin
 gcaron
 ghook
-glottalstop
 glottalstopsmall
 gstroke
 hdotaccent
@@ -178,7 +177,6 @@ phook
 pstroke
 rstroke
 rtail
-saltillo
 sdotbelow
 tcircumflexbelow
 tdotbelow
@@ -202,13 +200,15 @@ yhook
 ystroke
 zdotbelow
 zmacronbelow
-hmod
-nmod
-wmod
+saltillo
 clickalveolar
 clickdental
 clicklateral
 clickretroflex
+glottalstop
+hmod
+nmod
+wmod
 umod
 vmod
 zmod
@@ -228,6 +228,7 @@ dblgravecomb
 candraBinducomb
 breveinvertedcomb
 commaabovecomb
+dieresisbelowcomb
 ringbelowcomb
 verticallinebelowcomb
 circumflexbelowcomb
@@ -249,4 +250,3 @@ ringhalfright
 uniA7AE
 uniA7B8
 uniA7B9
-dieresisbelowcomb
