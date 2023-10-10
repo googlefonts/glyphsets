@@ -1,0 +1,371 @@
+{
+.appVersion = "3221";
+.formatVersion = 3;
+date = "2023-10-10 12:56:59 +0000";
+familyName = "New Font";
+fontMaster = (
+{
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = Bhook;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 385;
+},
+{
+glyphname = Dhook;
+lastChange = "2023-10-10 13:09:29 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 394;
+},
+{
+glyphname = Edotbelow;
+lastChange = "2023-10-10 13:10:09 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7864;
+},
+{
+glyphname = Idotbelow;
+lastChange = "2023-10-10 13:10:18 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7882;
+},
+{
+glyphname = Khook;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 408;
+},
+{
+glyphname = Macute;
+lastChange = "2023-10-10 13:09:51 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7742;
+},
+{
+glyphname = Ndotaccent;
+lastChange = "2023-10-10 13:09:59 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7748;
+},
+{
+glyphname = Ngrave;
+lastChange = "2023-10-10 13:09:43 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 504;
+},
+{
+glyphname = Odotbelow;
+lastChange = "2023-10-10 13:10:26 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7884;
+},
+{
+glyphname = Udotbelow;
+lastChange = "2023-10-10 13:10:34 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7908;
+},
+{
+glyphname = Yhook;
+lastChange = "2023-10-10 13:09:35 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 435;
+},
+{
+glyphname = bhook;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 595;
+},
+{
+glyphname = dhook;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 599;
+},
+{
+glyphname = ebreve;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 277;
+},
+{
+glyphname = edotbelow;
+lastChange = "2023-10-10 13:10:14 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7865;
+},
+{
+glyphname = ibreve;
+lastChange = "2023-10-10 13:09:19 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 301;
+},
+{
+glyphname = idotbelow;
+lastChange = "2023-10-10 13:10:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7883;
+},
+{
+glyphname = khook;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 409;
+},
+{
+glyphname = macute;
+lastChange = "2023-10-10 13:09:56 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7743;
+},
+{
+glyphname = ndotaccent;
+lastChange = "2023-10-10 13:10:02 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7749;
+},
+{
+glyphname = ngrave;
+lastChange = "2023-10-10 13:09:46 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 505;
+},
+{
+glyphname = obreve;
+lastChange = "2023-10-10 13:09:25 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 335;
+},
+{
+glyphname = odotbelow;
+lastChange = "2023-10-10 13:10:30 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7885;
+},
+{
+glyphname = sdotbelow;
+lastChange = "2023-10-10 13:10:05 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7779;
+},
+{
+glyphname = udotbelow;
+lastChange = "2023-10-10 13:10:39 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7909;
+},
+{
+glyphname = yhook;
+lastChange = "2023-10-10 13:09:39 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 436;
+},
+{
+glyphname = nonbreakinghyphen;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 8209;
+},
+{
+glyphname = minute;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 8242;
+},
+{
+glyphname = second;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 8243;
+},
+{
+glyphname = dagger;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 8224;
+},
+{
+glyphname = daggerdbl;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 8225;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
