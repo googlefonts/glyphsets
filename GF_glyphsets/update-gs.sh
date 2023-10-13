@@ -7,7 +7,7 @@ DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
 cd $DIR
 
 echo "clean-up"
-rm -rf ./*/nam ./*/txt ./*/glyphs/*.plist
+rm -rf ./*/nam/*.nam ./*/txt/*/*.txt ./*/glyphs/*.plist
 
 echo "Updating lists"
 
