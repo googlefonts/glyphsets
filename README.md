@@ -1,21 +1,25 @@
 Attention: Repository under transition
 ======================================
 
-The assembly of character sets is currently undergoing a transition from the previous approach of using the `glyphsets` command and `data.json` as a database to using the `gflanguages` package as the database and assembling (currently only) .nam files from that.
+The assembly of character sets is currently undergoing a transition from the previous approach of using the `glyphsets` command and `data.json` as a database to using the `gflanguages` package as the database and assembling .nam and other files from that.
 
 This transition is currently complete for:
 * GF_Latin_Core
 
-**Caution:** If you run the existing `sh GF_glyphsets/update-gs.sh` command, it will delete all existing .nam files, including the .stub.nam files that are the basis for the new approach of assembling the character sets. As long as this transition is partial, make sure that you don't run `sh GF_glyphsets/update-gs.sh` and then commit `.nam` files for the above-mentioned character sets.
+How to assemble glyphs and characters using the new appraoch
+------------------------------------------------------------
 
-How to assemble a .nam file in the new approach
------------------------------------------------
+* Have a `.yaml` file under `GF_Glyphsets/*/definitions/` with language codes for your character set
+* Optional: Have a `.stub.nam` file under `GF_Glyphsets/*/definitions/` for your character set, containing characters that you want to see included that can't be inferred from the `gflanguages` definitions
+* Optional: Have a `.stub.glyphs` file under `GF_Glyphsets/*/definitions/` for your character set, containing glyphs that you want to see included that aren't even encoded
+* Update all glyphsets using `cd GF_Glyphsets` and the running `sh update-gs.sh` from there (won't work from repo root), see below for details on what's happening
 
-* Have a `.stub.nam` file under `GF_Glyphsets/nam/` for your character set, even if the file is empty
-* Have a `.yaml` file under `GF_Glyphsets/languages/` with language codes for your character set
-* Run `python scripts/assemble_charactersets.py` to assemble the main `.nam` files from the stub and the language definitions
+What happens under the hood
+---------------------------
 
-.glyphs and .plist and .txt files are currently not yet supported in the new approach, but will be.
+* `update-gs.sh` runs as previously, except that it won't deleted the entire folder structure as previously, thus preserving the vital `definitions` folder.
+* It continues to build all file as under the old approach.
+* Afterwards, it calls the new script (`scripts/assemble_charactersets.py`) which will write over existing files (for supported glyphsets, see list at top).
 
 Glyphsets
 =========
