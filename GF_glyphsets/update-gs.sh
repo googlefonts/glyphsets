@@ -16,7 +16,6 @@ scripts=$(ls -d */ | cut -f1 -d'/')
 for script in $scripts
 do
     echo $script
-    mkdir $script/nam $script/txt $script/txt/prod-names $script/txt/nice-names
     sets=$(ls ./$script/glyphs/*.glyphs | xargs -n 1 basename | sed -e 's/\.glyphs$//')
     if [[ $sets == *GF_Latin_Core* ]]
     then
