@@ -18,8 +18,12 @@ regions = gflanguages.LoadRegions()
 languages = gflanguages.LoadLanguages()
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Find languages using a given character.")
-    parser.add_argument("character", metavar="CHAR", help="Unicode character")
+    parser = argparse.ArgumentParser(
+        description="Find languages using a given character."
+    )
+    parser.add_argument(
+        "character", metavar="CHAR", help="Unicode character or 0x0000 string"
+    )
     args = parser.parse_args()
 
     input_character = args.character
