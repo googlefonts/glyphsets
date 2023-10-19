@@ -555,10 +555,6 @@ glyphname = caroncomb;
 unicode = 780;
 },
 {
-glyphname = commaturnedabovecomb;
-unicode = 786;
-},
-{
 glyphname = commaaccentcomb;
 unicode = 806;
 },

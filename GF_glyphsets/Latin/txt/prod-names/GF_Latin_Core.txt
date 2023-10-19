@@ -295,7 +295,6 @@ uni0308
 uni030A
 uni030B
 uni030C
-uni0312
 uni0326
 uni0327
 uni0328

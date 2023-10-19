@@ -295,7 +295,6 @@ dieresiscomb
 ringcomb
 hungarumlautcomb
 caroncomb
-commaturnedabovecomb
 commaaccentcomb
 cedillacomb
 ogonekcomb
