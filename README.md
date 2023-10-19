@@ -9,12 +9,14 @@ This transition is currently complete for:
 How to assemble glyphs and characters using the new approach
 ------------------------------------------------------------
 
-* Have a `.yaml` file under `GF_Glyphsets/*/definitions/` with language codes for your character set
-* Optional: Have a `.stub.nam` file under `GF_Glyphsets/*/definitions/` for your character set, containing _encoded_ characters that you want to see included that can't be inferred from the `gflanguages` definitions
-* Optional: Have a `.stub.glyphs` file under `GF_Glyphsets/*/definitions/` for your character set, containing _unencoded_ glyphs that you want to see included
-* Update all glyphsets using `sh GF_glyphsets/update-gs.sh` as usual, see below for details
+* Have a `.yaml` file under `GF_Glyphsets/*/definitions/` with language codes for your character set. See `GF_Glyphsets/GF_Latin_Core/definitions/` for examples.
+* Optional: Have a `.stub.nam` file under `GF_Glyphsets/*/definitions/` for your character set, containing _encoded_ characters that you want to see included that can't be inferred from the `gflanguages` definitions.
+* Optional: Have a `.stub.glyphs` file under `GF_Glyphsets/*/definitions/` for your character set, containing _unencoded_ glyphs that you want to see included.
+* Update all glyphsets using `sh GF_glyphsets/update-gs.sh` as usual, see below for details.
 
-So, the final `.glyphs` files are the sum of `gflanguages` + `.stub.nam` + `.stub.glyphs`.
+The final `.glyphs` files are the sum of `gflanguages` + `.stub.nam` + `.stub.glyphs`.
+
+_Bonus points:_ Sadly, in the creation of the `.glyphs` files, it's not possible to exactly recreate the glyph sorting that Glyphs.app uses by default, so the `.glyphs` files look a bit different from what's expected. If you care, please open every freshly adjusted `.glyphs` file in Glyphs.app, select all glyphs, and run "Update Glyph Info" from the "Glyphs" menu on them to sort them and save the file. But the files will work as-is in any case.
 
 What happens under the hood
 ---------------------------
