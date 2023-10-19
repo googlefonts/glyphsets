@@ -47,8 +47,10 @@ def main(args):
     # Print languages if they are supported through the logic
     for language_code in sorted(languages.keys()):
         if (
-            language_code in options.include_languages
-            or set(languages[language_code].region).intersection(country_codes)
+            (
+                language_code in options.include_languages
+                or set(languages[language_code].region).intersection(country_codes)
+            )
             and languages[language_code].population >= options.population
             and languages[language_code].script == options.script
         ):
