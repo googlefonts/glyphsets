@@ -153,6 +153,42 @@ def assemble_characterset(languages_yaml_path):
 
 
 if __name__ == "__main__":
+    # Check for gflanguages version
+    installed = None
+    latest = None
+    for line in os.popen("pip index versions gflanguages").read().split("\n"):
+        if "INSTALLED" in line:
+            installed = line.split(" ")[-1].strip()
+        if "LATEST" in line:
+            latest = line.split(" ")[-1].strip()
+
+    if not installed or not latest:
+        print(
+            """
+*************************************************************
+*
+*   WARNING: gflanguages version could not be verified.
+*             
+*************************************************************
+"""
+        )
+
+    if installed != latest:
+        print(
+            f"""
+*************************************************************
+*
+*   WARNING:
+*   The installed gflanguages package version may be outdated.
+*   You have: {installed}
+*   Latest available: {latest}
+*
+*   Please update with: pip install -U gflanguages
+*             
+*************************************************************
+"""
+        )
+
     path = os.path.join(os.path.dirname(__file__), "..", "GF_Glyphsets")
     for root, _dir, files in os.walk(os.path.abspath(path)):
         for file in files:
