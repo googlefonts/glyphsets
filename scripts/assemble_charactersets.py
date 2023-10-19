@@ -2,25 +2,36 @@
 Assemble .nam files from .nam stub files and language definitions.
 """
 
-global GLYPHDATA
-
 import yaml
 import os
 import gflanguages
 import unicodedata
 import glyphsLib
 import functools
+import plistlib
 from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
 
-def assemble_characterset(languages_yaml_path):
 
+def assemble_characterset(languages_yaml_path):
     glyphset_name = os.path.basename(languages_yaml_path).replace(".yaml", "")
+    glyphset_category_name = "_".join(glyphset_name.split("_")[:2])
     nam_stub_path = languages_yaml_path.replace(".yaml", ".stub.nam")
-    nam_path = languages_yaml_path.replace(".yaml", ".nam").replace("definitions", "nam")
+    nam_path = languages_yaml_path.replace(".yaml", ".nam").replace(
+        "definitions", "nam"
+    )
     glyphs_stub_path = languages_yaml_path.replace(".yaml", ".stub.glyphs")
-    glyphs_path = languages_yaml_path.replace(".yaml", ".glyphs").replace("definitions", "glyphs")
-    txt_nicenames_path = languages_yaml_path.replace(".yaml", ".txt").replace("definitions", "txt/nice-names")
-    txt_prodnames_path = languages_yaml_path.replace(".yaml", ".txt").replace("definitions", "txt/prod-names")
+    glyphs_path = languages_yaml_path.replace(".yaml", ".glyphs").replace(
+        "definitions", "glyphs"
+    )
+    txt_nicenames_path = languages_yaml_path.replace(".yaml", ".txt").replace(
+        "definitions", "txt/nice-names"
+    )
+    txt_prodnames_path = languages_yaml_path.replace(".yaml", ".txt").replace(
+        "definitions", "txt/prod-names"
+    )
+    plist_path = os.path.join(
+        os.path.dirname(glyphs_path), f"CustomFilter_{glyphset_category_name}.plist"
+    )
 
     character_set = set()
 
@@ -32,14 +43,14 @@ def assemble_characterset(languages_yaml_path):
     languages = gflanguages.LoadLanguages()
     for language_code in language_definitions["language_codes"]:
         chars = languages[language_code].exemplar_chars
+        # chars.base.upper() is important because many Latin languages don't
+        # contain a complete set of uppercase letters in "index"
         character_set.update(
             {
                 ord(c)
                 for c in list(
                     set(chars.base)
-                    | set(
-                        chars.base.upper()
-                    )  # This is important because many Latin languages don't contain a complete set of uppercase letters in "index"
+                    | set(chars.base.upper())
                     | set(chars.index)
                     | set(chars.marks)
                     | set(chars.numerals)
@@ -63,7 +74,8 @@ def assemble_characterset(languages_yaml_path):
     get_glyph("A")
     # If I import GLYPHDATA at the top of the file, it doesn't get filled
     from glyphsLib.glyphdata import GLYPHDATA
-    assert type(GLYPHDATA) == glyphsLib.glyphdata.GlyphData
+
+    assert type(GLYPHDATA) is glyphsLib.glyphdata.GlyphData
 
     # Create glyphs file and add characters
     if os.path.exists(glyphs_stub_path):
@@ -71,7 +83,7 @@ def assemble_characterset(languages_yaml_path):
     else:
         font = glyphsLib.GSFont()
         font.familyName = glyphset_name
-    for i, unicode in enumerate(sorted(list(character_set))):
+    for _i, unicode in enumerate(sorted(list(character_set))):
         unicode = f"{unicode:#0{6}X}".replace("0X", "")
         glyph_info = _lookup_attributes_by_unicode(unicode, GLYPHDATA)
         glyph = glyphsLib.GSGlyph()
@@ -102,25 +114,32 @@ def assemble_characterset(languages_yaml_path):
             return 0
 
     # Output txt files
+    glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_unicodes))
+    glyph_names = [glyph.name for glyph in glyphs]
+    production_glyph_names = [get_glyph(glyph.name).production_name for glyph in glyphs]
     with open(txt_nicenames_path, "w") as f:
-        glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_unicodes))
-        f.write("\n".join([glyph.name for glyph in glyphs]))
+        f.write("\n".join(glyph_names))
     with open(txt_prodnames_path, "w") as f:
-        glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_unicodes))
-        f.write("\n".join([get_glyph(glyph.name).production_name for glyph in glyphs]))
+        f.write("\n".join(production_glyph_names))
+
+    # Adjust .plist
+    with open(plist_path, "rb") as f:
+        plist = plistlib.load(f)
+    for plist_glyphset in plist:
+        if plist_glyphset["name"] == glyphset_name:
+            plist_glyphset["list"] = glyph_names
+    with open(plist_path, "wb") as f:
+        plistlib.dump(plist, f)
 
 
 if __name__ == "__main__":
-    for root, dir, files in os.walk(
-        os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "GF_Glyphsets"))
-    ):
+    path = os.path.join(os.path.dirname(__file__), "..", "GF_Glyphsets")
+    for root, _dir, files in os.walk(os.path.abspath(path)):
         for file in files:
             if file.endswith(".yaml"):
-
                 # Find definition file
                 languages_yaml_path = os.path.abspath(
-                    os.path.join(
-                        root, "..", "definitions", file)
-                    )
+                    os.path.join(root, "..", "definitions", file)
+                )
 
                 assemble_characterset(languages_yaml_path)
