@@ -12,6 +12,29 @@ import plistlib
 from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
 
 
+def sort_unicodes(a, b):
+    if a.unicode and b.unicode:
+        return int(a.unicode, 16) - int(b.unicode, 16)
+    elif a.unicode:
+        return -1
+    elif b.unicode:
+        return 1
+    else:
+        return 0
+
+
+def sort_by_category(a, b):
+    info_a = get_glyph(a.name)
+    info_b = get_glyph(b.name)
+
+    value = sorted([info_a.category, info_b.category]).index(info_a.category)
+    if value == 0:
+        value = -1
+    value *= -1
+
+    return value
+
+
 def assemble_characterset(languages_yaml_path):
     glyphset_name = os.path.basename(languages_yaml_path).replace(".yaml", "")
     glyphset_category_name = "_".join(glyphset_name.split("_")[:2])
@@ -86,15 +109,29 @@ def assemble_characterset(languages_yaml_path):
     for _i, unicode in enumerate(sorted(list(character_set))):
         unicode = f"{unicode:#0{6}X}".replace("0X", "")
         glyph_info = _lookup_attributes_by_unicode(unicode, GLYPHDATA)
-        glyph = glyphsLib.GSGlyph()
-        glyph.name = glyph_info["name"]
+        glyph = glyphsLib.GSGlyph(glyph_info["name"])
+        # glyph.color = 1
         glyph.unicode = unicode
+        # glyph.lastChange = "2023-10-19 09:12:40 +0000"
         font.glyphs.append(glyph)
+        layer = glyphsLib.GSLayer()
+        layer.layerId = "m01"
+        layer.associatedMasterId = font.masters[0].id
+        layer.width = 600
+        glyph.layers.append(layer)
+
+    # Sort
+    font.glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_by_category))
+    glyph_names = [glyph.name for glyph in font.glyphs]
+    production_glyph_names = [
+        get_glyph(glyph.name).production_name for glyph in font.glyphs
+    ]
 
     # Save glyphs file
     font.axes = []
     for master in font.masters:
         master.axes = []
+    font.instances = []
     font.save(glyphs_path)
 
     # Output sorted character set to .nam file
@@ -105,20 +142,7 @@ def assemble_characterset(languages_yaml_path):
             if i < len(character_set) - 1:
                 f.write("\n")
 
-    def sort_unicodes(a, b):
-        if a.unicode and b.unicode:
-            return int(a.unicode, 16) - int(b.unicode, 16)
-        elif a.unicode:
-            return -1
-        elif b.unicode:
-            return 1
-        else:
-            return 0
-
     # Output txt files
-    glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_unicodes))
-    glyph_names = [glyph.name for glyph in glyphs]
-    production_glyph_names = [get_glyph(glyph.name).production_name for glyph in glyphs]
     with open(txt_nicenames_path, "w") as f:
         f.write("\n".join(glyph_names))
     with open(txt_prodnames_path, "w") as f:
