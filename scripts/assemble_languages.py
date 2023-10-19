@@ -36,9 +36,9 @@ def main(args):
 
     # Go through countries and add them to the set if their region_group is in options.regions or they are in options.regions
     for country_code in regions:
-        if set(regions[country_code].region_group).intersection(set(options.regions)) or (
-            country_code in options.regions
-        ):
+        if set(regions[country_code].region_group).intersection(
+            set(options.regions)
+        ) or (country_code in options.regions):
             country_codes.add(country_code)
 
     # Go through languages and add them to the set if their regions are in country_codes
