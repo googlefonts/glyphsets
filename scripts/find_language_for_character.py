@@ -8,7 +8,7 @@ python scripts/find_language_for_character.py <character>
 Please manually install tabulate if not present: pip install tabulate
 """
 
-import sys
+import argparse
 import gflanguages
 import sys
 import tabulate
@@ -17,10 +17,12 @@ import unicodedata
 regions = gflanguages.LoadRegions()
 languages = gflanguages.LoadLanguages()
 
-# print(regions)
-
 if __name__ == "__main__":
-    input_character = sys.argv[-1]
+    parser = argparse.ArgumentParser(description="Find languages using a given character.")
+    parser.add_argument("character", metavar="CHAR", help="Unicode character")
+    args = parser.parse_args()
+
+    input_character = args.character
     if input_character.startswith("0x"):
         input_character = chr(int(input_character, 16))
     unicode_string = f"{ord(input_character):#0{6}X}".replace("0X", "0x")
