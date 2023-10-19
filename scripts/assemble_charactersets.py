@@ -110,21 +110,15 @@ def assemble_characterset(languages_yaml_path):
         unicode = f"{unicode:#0{6}X}".replace("0X", "")
         glyph_info = _lookup_attributes_by_unicode(unicode, GLYPHDATA)
         glyph = glyphsLib.GSGlyph(glyph_info["name"])
-        # glyph.color = 1
         glyph.unicode = unicode
-        # glyph.lastChange = "2023-10-19 09:12:40 +0000"
         font.glyphs.append(glyph)
-        layer = glyphsLib.GSLayer()
-        layer.layerId = "m01"
-        layer.associatedMasterId = font.masters[0].id
-        layer.width = 600
-        glyph.layers.append(layer)
 
     # Sort
     font.glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_by_category))
-    glyph_names = [glyph.name for glyph in font.glyphs]
+    unicode_sorted_glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_unicodes))
+    glyph_names = [glyph.name for glyph in unicode_sorted_glyphs]
     production_glyph_names = [
-        get_glyph(glyph.name).production_name for glyph in font.glyphs
+        get_glyph(glyph.name).production_name for glyph in unicode_sorted_glyphs
     ]
 
     # Save glyphs file
