@@ -92,10 +92,6 @@ tag = case;
 );
 fontMaster = (
 {
-axesValues = (
-100,
-100
-);
 id = m01;
 metricValues = (
 {

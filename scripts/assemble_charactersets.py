@@ -93,6 +93,8 @@ def assemble_characterset(languages_yaml_path):
 
     # Save glyphs file
     font.axes = []
+    for master in font.masters:
+        master.axes = []
     font.save(glyphs_path)
 
     # Output sorted character set to .nam file
