@@ -14,11 +14,13 @@ How to assemble glyphs and characters using the new approach
 * Optional: Have a `.stub.glyphs` file under `GF_Glyphsets/*/definitions/` for your character set, containing _unencoded_ glyphs that you want to see included
 * Update all glyphsets using `sh GF_glyphsets/update-gs.sh` as usual, see below for details
 
+So, the final `.glyphs` files are the sum of `gflanguages` + `.stub.nam` + `.stub.glyphs`.
+
 What happens under the hood
 ---------------------------
 
-* `update-gs.sh` runs as previously, except that it won't deleted the entire folder structure as previously, thus preserving the vital `definitions` folder.
-* It continues to build all file as under the old approach.
+* `update-gs.sh` runs as previously, except that it won't deleted the entire folder structure as previously, thus preserving the vital new `definitions` folder.
+* It continues to build all files under the old approach.
 * Afterwards, it calls the new script (`scripts/assemble_charactersets.py`) which will write over existing nam/glyphs/txt files (for supported glyphsets, see list at top).
 
 Glyphsets
