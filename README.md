@@ -9,10 +9,10 @@ This transition is currently complete for:
 How to assemble glyphs and characters using the new approach
 ------------------------------------------------------------
 
-* Have a `.yaml` file under `GF_Glyphsets/*/definitions/` with language codes for your character set. See `GF_Glyphsets/GF_Latin_Core/definitions/` for examples.
-* Optional: Have a `.stub.nam` file under `GF_Glyphsets/*/definitions/` for your character set, containing _encoded_ characters that you want to see included that can't be inferred from the `gflanguages` definitions.
-* Optional: Have a `.stub.glyphs` file under `GF_Glyphsets/*/definitions/` for your character set, containing _unencoded_ glyphs that you want to see included.
-* Update all glyphsets using `sh GF_glyphsets/update-gs.sh` as usual, see below for details.
+1. Have a `.yaml` file under `GF_Glyphsets/*/definitions/` with language codes for your character set. See `GF_Glyphsets/GF_Latin_Core/definitions/` for examples.
+2. Optional: Have a `.stub.nam` file under `GF_Glyphsets/*/definitions/` for your character set, containing _encoded_ characters that you want to see included that can't be inferred from the `gflanguages` definitions.
+3. Optional: Have a `.stub.glyphs` file under `GF_Glyphsets/*/definitions/` for your character set, containing _unencoded_ glyphs that you want to see included.
+4. Update all glyphsets using `sh GF_glyphsets/update-gs.sh` as usual, see below for details.
 
 The final `.glyphs` files are the sum of `gflanguages` + `.stub.nam` + `.stub.glyphs`.
 
@@ -21,9 +21,9 @@ _Bonus points:_ Sadly, in the creation of the `.glyphs` files, it's not possible
 What happens under the hood
 ---------------------------
 
-* `update-gs.sh` runs as previously, except that it won't deleted the entire folder structure as previously, thus preserving the vital new `definitions` folder.
-* It continues to build all files under the old approach.
-* Afterwards, it calls the new script (`scripts/assemble_charactersets.py`) which will write over existing nam/glyphs/txt files (for supported glyphsets, see list at top).
+1. `update-gs.sh` runs as previously, except that it won't deleted the entire folder structure as previously, thus preserving the vital new `definitions` folder.
+2. It continues to build all files under the old approach.
+3. Afterwards, it calls the new script (`scripts/assemble_charactersets.py`) which will write over existing nam/glyphs/txt files (for supported glyphsets, see list at top).
 
 Glyphsets
 =========
