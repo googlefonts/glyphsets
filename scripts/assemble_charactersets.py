@@ -162,32 +162,47 @@ if __name__ == "__main__":
         if "LATEST" in line:
             latest = line.split(" ")[-1].strip()
 
-    if not installed or not latest:
-        print(
-            """
-*************************************************************
-*
-*   WARNING: gflanguages version could not be verified.
-*             
-*************************************************************
-"""
-        )
+    #     if not installed or not latest:
+    #         print(
+    #             """
+    # *************************************************************
+    # *
+    # *   WARNING: gflanguages version could not be verified.
+    # *
+    # *************************************************************
+    # """
+    #         )
 
-    if installed != latest:
-        print(
-            f"""
+    #     if installed != latest:
+    #         print(
+    #             f"""
+    # *************************************************************
+    # *
+    # *   WARNING:
+    # *   The installed gflanguages package version may be outdated.
+    # *   You have: {installed}
+    # *   Latest available: {latest}
+    # *
+    # *   Please update with: pip install -U gflanguages
+    # *
+    # *************************************************************
+    # """
+    #         )
+
+    print(
+        f"""
 *************************************************************
 *
 *   WARNING:
-*   The installed gflanguages package version may be outdated.
-*   You have: {installed}
-*   Latest available: {latest}
+*   Make sure you're using the correct version of gflanguages,
+*   otherwise the glyphsets will be incorrect.
 *
-*   Please update with: pip install -U gflanguages
-*             
+*   You have: {installed}
+*   Location: {gflanguages.__file__}
+*
 *************************************************************
 """
-        )
+    )
 
     path = os.path.join(os.path.dirname(__file__), "..", "GF_Glyphsets")
     for root, _dir, files in os.walk(os.path.abspath(path)):
