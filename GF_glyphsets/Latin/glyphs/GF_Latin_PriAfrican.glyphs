@@ -1,5 +1,5 @@
 {
-.appVersion = "3221";
+.appVersion = "3223";
 .formatVersion = 3;
 date = "2023-10-10 12:56:59 +0000";
 familyName = "New Font";
@@ -56,6 +56,16 @@ width = 600;
 unicode = 7864;
 },
 {
+glyphname = Eopen;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 400;
+},
+{
 glyphname = Idotbelow;
 lastChange = "2023-10-10 13:10:18 +0000";
 layers = (
@@ -110,6 +120,26 @@ width = 600;
 unicode = 504;
 },
 {
+glyphname = Nhookleft;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 413;
+},
+{
+glyphname = Eng;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 330;
+},
+{
 glyphname = Odotbelow;
 lastChange = "2023-10-10 13:10:26 +0000";
 layers = (
@@ -119,6 +149,16 @@ width = 600;
 }
 );
 unicode = 7884;
+},
+{
+glyphname = Oopen;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 390;
 },
 {
 glyphname = Udotbelow;
@@ -163,16 +203,6 @@ width = 600;
 unicode = 599;
 },
 {
-glyphname = ebreve;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 277;
-},
-{
 glyphname = edotbelow;
 lastChange = "2023-10-10 13:10:14 +0000";
 layers = (
@@ -184,15 +214,14 @@ width = 600;
 unicode = 7865;
 },
 {
-glyphname = ibreve;
-lastChange = "2023-10-10 13:09:19 +0000";
+glyphname = eopen;
 layers = (
 {
 layerId = m01;
 width = 600;
 }
 );
-unicode = 301;
+unicode = 603;
 },
 {
 glyphname = idotbelow;
@@ -249,15 +278,24 @@ width = 600;
 unicode = 505;
 },
 {
-glyphname = obreve;
-lastChange = "2023-10-10 13:09:25 +0000";
+glyphname = nhookleft;
 layers = (
 {
 layerId = m01;
 width = 600;
 }
 );
-unicode = 335;
+unicode = 626;
+},
+{
+glyphname = eng;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 331;
 },
 {
 glyphname = odotbelow;
@@ -269,6 +307,16 @@ width = 600;
 }
 );
 unicode = 7885;
+},
+{
+glyphname = oopen;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 596;
 },
 {
 glyphname = sdotbelow;
@@ -302,56 +350,6 @@ width = 600;
 }
 );
 unicode = 436;
-},
-{
-glyphname = nonbreakinghyphen;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8209;
-},
-{
-glyphname = minute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8242;
-},
-{
-glyphname = second;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8243;
-},
-{
-glyphname = dagger;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8224;
-},
-{
-glyphname = daggerdbl;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8225;
 }
 );
 metrics = (
