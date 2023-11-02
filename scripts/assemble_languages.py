@@ -14,12 +14,20 @@ def main(args):
         description="Generates a list of language ids based on given requirements."
     )
     arg_parser.add_argument(
-        "--regions", nargs="+", help="Region or region groups where languages are used."
+        "--regions",
+        nargs="+",
+        help="Region or region groups where languages are used.",
+        default=[],
     )
     arg_parser.add_argument(
         "--population", help="Minimum speakers’ population.", default=SPEAKERS
     )
-    arg_parser.add_argument("--script", help="Script of the languages.")
+    arg_parser.add_argument(
+        "--script",
+        nargs="+",
+        required=True,
+        help="Script of the languages.",
+    )
     arg_parser.add_argument(
         "--include-languages",
         nargs="+",
@@ -30,6 +38,8 @@ def main(args):
     options.population = int(options.population)
 
     regions = gflanguages.LoadRegions()
+    if not options.regions:
+        options.regions = [country_code for country_code in regions]
     languages = gflanguages.LoadLanguages()
 
     country_codes = set()
@@ -52,7 +62,7 @@ def main(args):
                 or set(languages[language_code].region).intersection(country_codes)
             )
             and languages[language_code].population >= options.population
-            and languages[language_code].script == options.script
+            and languages[language_code].script in options.script
         ):
             if not languages[language_code].exemplar_chars:
                 print(
