@@ -5,6 +5,7 @@ in Europe or Americas and have more than 5 million speakers.
 
 import argparse
 import gflanguages
+import logging
 
 SPEAKERS = 5000000
 
@@ -55,6 +56,7 @@ def main(args):
     language_codes = set()
 
     # Print languages if they are supported through the logic
+    print("language_codes:")
     for language_code in sorted(languages.keys()):
         if (
             (
@@ -65,8 +67,8 @@ def main(args):
             and languages[language_code].script in options.script
         ):
             if not languages[language_code].exemplar_chars:
-                print(
-                    f"WARNING, {languages[language_code].name} has no character defintions."
+                logging.warning(
+                    f"{languages[language_code].name} has no character definitions."
                 )
             language_codes.add(language_code)
             print(f"  - {language_code}  # {languages[language_code].name}")
