@@ -109,7 +109,10 @@ def assemble_characterset(languages_yaml_path):
     for _i, unicode in enumerate(sorted(list(character_set))):
         unicode = f"{unicode:#0{6}X}".replace("0X", "")
         glyph_info = _lookup_attributes_by_unicode(unicode, GLYPHDATA)
-        glyph = glyphsLib.GSGlyph(glyph_info["name"])
+        if "name" in glyph_info:
+            glyph = glyphsLib.GSGlyph(glyph_info["name"])
+        else:
+            glyph = glyphsLib.GSGlyph(f"uni{unicode}")
         glyph.unicode = unicode
         font.glyphs.append(glyph)
 
