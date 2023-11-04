@@ -9,6 +9,7 @@ import unicodedata
 import glyphsLib
 import functools
 import plistlib
+from pathlib import Path
 from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
 
 
@@ -34,6 +35,16 @@ def sort_by_category(a, b):
 
     return value
 
+
+def nam_to_chars(nam_file_path):
+    chars = set()
+    with open(nam_file_path, "r") as stream:
+        lines = stream.readlines()
+        for line in lines:
+            unicode = line.split(" ")[0]
+            if unicode.startswith("0x"):
+                chars.add(int(unicode[2:], 16))
+    return chars
 
 def assemble_characterset(languages_yaml_path):
     glyphset_name = os.path.basename(languages_yaml_path).replace(".yaml", "")
@@ -62,6 +73,13 @@ def assemble_characterset(languages_yaml_path):
     with open(languages_yaml_path, "r") as stream:
         language_definitions = yaml.safe_load(stream)
 
+    # Collect character sets which this extends (which to exclude from the output)
+    extends = set()
+    for name in language_definitions.get("extends", []):
+        name = name.replace(" ", "_")
+        nam_extends_path = str(Path(nam_path).parent / name) + ".nam"
+        extends.update(nam_to_chars(nam_extends_path))
+
     # Assemble character sets from gflanguages
     languages = gflanguages.LoadLanguages()
     for language_code in language_definitions["language_codes"]:
@@ -84,14 +102,13 @@ def assemble_characterset(languages_yaml_path):
             }
         )
 
+    # Exclude characters from characters sets this extends
+    if extends:
+        character_set = character_set.difference(extends)
+
     # Read .stub.nam file
     if os.path.exists(nam_stub_path):
-        with open(nam_stub_path, "r") as f:
-            nam_stub_lines = f.readlines()
-        for line in nam_stub_lines:
-            unicode = line.split(" ")[0]
-            if unicode.startswith("0x"):
-                character_set.add(int(unicode[2:], 16))
+        character_set.update(nam_to_chars(nam_stub_path))
 
     # Call get_glyph once so that GLYPHDATA gets filled in glyphsLib
     get_glyph("A")
