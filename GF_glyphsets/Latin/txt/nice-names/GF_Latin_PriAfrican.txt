@@ -16,10 +16,12 @@ oopen
 dhook
 eopen
 nhookleft
+dotbelowcomb
 Macute
 macute
 Ndotaccent
 ndotaccent
+Sdotbelow
 sdotbelow
 Edotbelow
 edotbelow

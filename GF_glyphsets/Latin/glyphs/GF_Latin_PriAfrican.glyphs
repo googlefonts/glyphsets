@@ -161,6 +161,16 @@ width = 600;
 unicode = 390;
 },
 {
+glyphname = Sdotbelow;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 7778;
+},
+{
 glyphname = Udotbelow;
 lastChange = "2023-10-10 13:10:34 +0000";
 layers = (
@@ -350,6 +360,16 @@ width = 600;
 }
 );
 unicode = 436;
+},
+{
+glyphname = dotbelowcomb;
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 803;
 }
 );
 metrics = (
