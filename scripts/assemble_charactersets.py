@@ -80,6 +80,9 @@ def assemble_characterset(languages_yaml_path):
         nam_extends_path = str(Path(nam_path).parent / name) + ".nam"
         extends.update(nam_to_chars(nam_extends_path))
 
+    # Ignore or use auxiliary characters, ignore by default
+    use_aux = language_definitions.get("use_auxiliary", False)
+
     # Assemble character sets from gflanguages
     languages = gflanguages.LoadLanguages()
     for language_code in language_definitions["language_codes"]:
@@ -96,7 +99,7 @@ def assemble_characterset(languages_yaml_path):
                     | set(chars.marks)
                     | set(chars.numerals)
                     | set(chars.punctuation)
-                    # | set(chars.auxiliary) # Not to be part of charsets
+                    | (set(chars.auxiliary) if use_aux else set())
                 )
                 if c not in (" ", "{", "}", "◌")
             }
