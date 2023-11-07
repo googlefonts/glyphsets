@@ -45,6 +45,7 @@ def sort_by_category(a, b):
 def assemble_characterset(root_folder, glyphset_name):
     script = glyphset_definitions[glyphset_name]["script"]
     language_codes = glyphset_definitions[glyphset_name]["language_codes"]
+    use_aux = glyphset_definitions.get("use_auxiliary", False)
 
     nam_stub_path = os.path.join(
         root_folder, script, "definitions", f"{glyphset_name}.stub.nam"
@@ -94,7 +95,7 @@ def assemble_characterset(root_folder, glyphset_name):
                     | set(chars.marks)
                     | set(chars.numerals)
                     | set(chars.punctuation)
-                    # | set(chars.auxiliary) # Not to be part of charsets
+                    | (set(chars.auxiliary) if use_aux else set())
                 )
                 if c not in (" ", "{", "}", "◌")
             }
