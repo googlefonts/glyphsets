@@ -35,6 +35,12 @@ def main(args):
         default=[],
         help="Languages that should be included even if they don’t match the other requirements.",
     )
+    arg_parser.add_argument(
+        "--exclude-languages",
+        nargs="+",
+        default=[],
+        help="Languages that should be excluded even if they match the other requirements.",
+    )
     options = arg_parser.parse_args(args)
     options.population = int(options.population)
 
@@ -62,7 +68,7 @@ def main(args):
             (
                 language_code in options.include_languages
                 or set(languages[language_code].region).intersection(country_codes)
-            )
+            ) and language_code not in options.exclude_languages
             and languages[language_code].population >= options.population
             and languages[language_code].script in options.script
         ):
