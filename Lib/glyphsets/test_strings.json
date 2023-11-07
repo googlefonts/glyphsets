@@ -1,44 +1,32 @@
 {
-    "GF_Latin_Kernel": {
+    "GF_Latin_Core": {
         "Letter Groups": [
             {
-                "string": "EFHIJLTU",
+                "string": "EFHIJLTU AVWXZ KMNY",
                 "lang": "en"
             },
             {
-                "string": "AVWXZ",
+                "string": "COQS BPRDGÞẞ",
                 "lang": "en"
             },
             {
-                "string": "KMNY",
+                "string": "hmnu ceogðsß abdpqþ",
                 "lang": "en"
             },
             {
-                "string": "COQS",
+                "string": "kvwxyz fijltr",
                 "lang": "en"
             },
             {
-                "string": "BPRDG",
+                "string": "0123456789",
                 "lang": "en"
             },
             {
-                "string": "fijltr",
+                "string": ".,:;/|?!-–—&@%([{}])°",
                 "lang": "en"
             },
             {
-                "string": "kvwxyz",
-                "lang": "en"
-            },
-            {
-                "string": "hmnu",
-                "lang": "en"
-            },
-            {
-                "string": "ceogs",
-                "lang": "en"
-            },
-            {
-                "string": "abdpq",
+                "string": "+−×÷=≠><≥≤±≈~¬∞",
                 "lang": "en"
             }
         ],
@@ -54,19 +42,27 @@
             {
                 "string": "010 080 030 020 050 060 070",
                 "lang": "en"
+            },
+            {
+                "string": "3+4=7 5>2 2x²−(8×7)÷9≈1",
+                "lang": "en"
+            },
+            {
+                "string": "L·L l·l",
+                "lang": "ca"
             }
         ],
         "Kerning": [
             {
-                "string": "HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH",
+                "string": "HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH",
                 "lang": "en"
             },
             {
-                "string": "TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř",
+                "string": "Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř",
                 "lang": "en"
             },
             {
-                "string": "HHTan oTo yTy vAv oVo eYe Ly Ky Ac",
+                "string": "HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj",
                 "lang": "en"
             },
             {
@@ -74,7 +70,7 @@
                 "lang": "en"
             },
             {
-                "string": "ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl",
+                "string": "ďá ďu gj ľk włw yły ółr fħ ílïlîl",
                 "lang": "en"
             },
             {
@@ -86,7 +82,11 @@
                 "lang": "en"
             },
             {
-                "string": "080 076 474 973 94 7078",
+                "string": "¿o,O? w@y «n•n» n*",
+                "lang": "en"
+            },
+            {
+                "string": "080 076 474 973 94 7078 54 24 272 679",
                 "lang": "en"
             },
             {
