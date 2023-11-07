@@ -16,10 +16,12 @@ uni0254
 uni0257
 uni025B
 uni0272
+dotbelowcomb
 uni1E3E
 uni1E3F
 uni1E44
 uni1E45
+uni1E62
 uni1E63
 uni1EB8
 uni1EB9

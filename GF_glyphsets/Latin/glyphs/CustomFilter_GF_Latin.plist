@@ -5,6 +5,46 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>dotbelowcomb</string>
+			<string>Bhook</string>
+			<string>Dhook</string>
+			<string>Edotbelow</string>
+			<string>Eopen</string>
+			<string>Idotbelow</string>
+			<string>Khook</string>
+			<string>Macute</string>
+			<string>Ndotaccent</string>
+			<string>Ngrave</string>
+			<string>Nhookleft</string>
+			<string>Odotbelow</string>
+			<string>Oopen</string>
+			<string>Sdotbelow</string>
+			<string>Udotbelow</string>
+			<string>Yhook</string>
+			<string>bhook</string>
+			<string>dhook</string>
+			<string>edotbelow</string>
+			<string>eopen</string>
+			<string>idotbelow</string>
+			<string>khook</string>
+			<string>macute</string>
+			<string>ndotaccent</string>
+			<string>ngrave</string>
+			<string>nhookleft</string>
+			<string>odotbelow</string>
+			<string>oopen</string>
+			<string>sdotbelow</string>
+			<string>udotbelow</string>
+			<string>yhook</string>
+			<string>Eng</string>
+			<string>eng</string>
+		</array>
+		<key>name</key>
+		<string>GF_Latin_PriAfrican</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
 			<string>apostrophemod</string>
 			<string>Acaron</string>
 			<string>Acircumflexdotbelow</string>
