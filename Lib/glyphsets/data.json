@@ -21065,15 +21065,6 @@
       ]
     },
     {
-      "nice_name": "IJ",
-      "production_name": "IJ",
-      "character": "\u0132",
-      "unicode": 306,
-      "glyphsets": [
-        "GF_Latin_Core"
-      ]
-    },
-    {
       "nice_name": "Iacute",
       "production_name": "Iacute",
       "character": "\u00cd",
@@ -22192,15 +22183,6 @@
       "glyphsets": [
         "GF_Latin_Core",
         "GF_TransLatin_Pinyin"
-      ]
-    },
-    {
-      "nice_name": "ij",
-      "production_name": "ij",
-      "character": "\u0133",
-      "unicode": 307,
-      "glyphsets": [
-        "GF_Latin_Core"
       ]
     },
     {
