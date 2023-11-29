@@ -35,13 +35,15 @@ setup(
             'Felipe Sanches, '
             'Lasse Fister, '
             'Marc Foley, '
+            'Yanone, '
             'Roderick Sheeter'),
     author_email='dave@lab6.com',
     package_dir={'': 'Lib'},
-    packages=['glyphsets'],
+    packages=['glyphsets', 'glyphsets.definitions'],
     package_data={'glyphsets': [
                       "encodings/*.nam",
                       "encodings/GF Glyph Sets/*.nam",
+                      "definitions/nam/*.nam",
                       "*.json",
                   ]
                  },

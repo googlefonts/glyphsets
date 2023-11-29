@@ -2,14 +2,21 @@
 Assemble .nam files from .nam stub files and language definitions.
 """
 
-import yaml
+import sys
 import os
+import shutil
 import gflanguages
 import unicodedata
 import glyphsLib
 import functools
 import plistlib
 from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
+
+# Insert local module path at beginning of sys.path
+# so that up-to-date version of glyphsets package is used
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "Lib"))
+from glyphsets.definitions import glyphset_definitions  # noqa: E402
+from glyphsets.definitions import unicodes_per_glyphset  # noqa: E402
 
 
 def sort_unicodes(a, b):
@@ -35,36 +42,44 @@ def sort_by_category(a, b):
     return value
 
 
-def assemble_characterset(languages_yaml_path):
-    glyphset_name = os.path.basename(languages_yaml_path).replace(".yaml", "")
-    glyphset_category_name = "_".join(glyphset_name.split("_")[:2])
-    nam_stub_path = languages_yaml_path.replace(".yaml", ".stub.nam")
-    nam_path = languages_yaml_path.replace(".yaml", ".nam").replace(
-        "definitions", "nam"
+def assemble_characterset(root_folder, glyphset_name):
+    script = glyphset_definitions[glyphset_name]["script"]
+    language_codes = glyphset_definitions[glyphset_name]["language_codes"]
+
+    nam_stub_path = os.path.join(
+        root_folder, script, "definitions", f"{glyphset_name}.stub.nam"
     )
-    glyphs_stub_path = languages_yaml_path.replace(".yaml", ".stub.glyphs")
-    glyphs_path = languages_yaml_path.replace(".yaml", ".glyphs").replace(
-        "definitions", "glyphs"
+    nam_path = os.path.join(root_folder, script, "nam", f"{glyphset_name}.nam")
+    nam_in_package_path = os.path.abspath(
+        os.path.join(
+            root_folder,
+            "..",
+            "Lib",
+            "glyphsets",
+            "definitions",
+            "nam",
+            f"{glyphset_name}.nam",
+        )
     )
-    txt_nicenames_path = languages_yaml_path.replace(".yaml", ".txt").replace(
-        "definitions", "txt/nice-names"
+    glyphs_stub_path = os.path.join(
+        root_folder, script, "definitions", f"{glyphset_name}.stub.glyphs"
     )
-    txt_prodnames_path = languages_yaml_path.replace(".yaml", ".txt").replace(
-        "definitions", "txt/prod-names"
+    glyphs_path = os.path.join(root_folder, script, "glyphs", f"{glyphset_name}.glyphs")
+    txt_nicenames_path = os.path.join(
+        root_folder, script, "txt", "nice-names", f"{glyphset_name}.txt"
+    )
+    txt_prodnames_path = os.path.join(
+        root_folder, script, "txt", "prod-names", f"{glyphset_name}.txt"
     )
     plist_path = os.path.join(
-        os.path.dirname(glyphs_path), f"CustomFilter_{glyphset_category_name}.plist"
+        root_folder, script, "glyphs", f"CustomFilter_GF_{script}.plist"
     )
 
     character_set = set()
 
-    # Read language definitions
-    with open(languages_yaml_path, "r") as stream:
-        language_definitions = yaml.safe_load(stream)
-
     # Assemble character sets from gflanguages
     languages = gflanguages.LoadLanguages()
-    for language_code in language_definitions["language_codes"]:
+    for language_code in language_codes:
         chars = languages[language_code].exemplar_chars
         # chars.base.upper() is important because many Latin languages don't
         # contain a complete set of uppercase letters in "index"
@@ -135,6 +150,7 @@ def assemble_characterset(languages_yaml_path):
             f.write(f"{unicode_string} {unicodedata.name(chr(unicode))}")
             if i < len(character_set) - 1:
                 f.write("\n")
+    shutil.copyfile(nam_path, nam_in_package_path)
 
     # Output txt files
     with open(txt_nicenames_path, "w") as f:
@@ -162,33 +178,6 @@ if __name__ == "__main__":
         if "LATEST" in line:
             latest = line.split(" ")[-1].strip()
 
-    #     if not installed or not latest:
-    #         print(
-    #             """
-    # *************************************************************
-    # *
-    # *   WARNING: gflanguages version could not be verified.
-    # *
-    # *************************************************************
-    # """
-    #         )
-
-    #     if installed != latest:
-    #         print(
-    #             f"""
-    # *************************************************************
-    # *
-    # *   WARNING:
-    # *   The installed gflanguages package version may be outdated.
-    # *   You have: {installed}
-    # *   Latest available: {latest}
-    # *
-    # *   Please update with: pip install -U gflanguages
-    # *
-    # *************************************************************
-    # """
-    #         )
-
     print(
         f"""
 *************************************************************
@@ -204,13 +193,12 @@ if __name__ == "__main__":
 """
     )
 
-    path = os.path.join(os.path.dirname(__file__), "..", "GF_Glyphsets")
-    for root, _dir, files in os.walk(os.path.abspath(path)):
-        for file in files:
-            if file.endswith(".yaml"):
-                # Find definition file
-                languages_yaml_path = os.path.abspath(
-                    os.path.join(root, "..", "definitions", file)
-                )
+    root_folder = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "GF_Glyphsets")
+    )
 
-                assemble_characterset(languages_yaml_path)
+    for glyphset_name in glyphset_definitions:
+        print(f"Assembling '{glyphset_name}'...")
+        assemble_characterset(root_folder, glyphset_name)
+        # Proof of work:
+        assert unicodes_per_glyphset(glyphset_name) != []

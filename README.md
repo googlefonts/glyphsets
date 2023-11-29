@@ -9,7 +9,7 @@ This transition is currently complete for:
 How to assemble glyphs and characters using the new approach
 ------------------------------------------------------------
 
-1. Have a `.yaml` file under `GF_Glyphsets/*/definitions/` with language codes for your character set. See `GF_Glyphsets/GF_Latin_Core/definitions/` for examples.
+1. Define the glyphset in the Python module in `Lib/glyphsets/definitions/__init__.py` with language codes for your character set.
 2. Optional: Have a `.stub.nam` file under `GF_Glyphsets/*/definitions/` for your character set, containing _encoded_ characters that you want to see included that can't be inferred from the `gflanguages` definitions.
 3. Optional: Have a `.stub.glyphs` file under `GF_Glyphsets/*/definitions/` for your character set, containing _unencoded_ glyphs that you want to see included.
 4. Update all glyphsets using `sh GF_glyphsets/update-gs.sh` as usual, see below for details.
