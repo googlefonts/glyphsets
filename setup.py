@@ -63,5 +63,6 @@ setup(
         'FontTools[ufo]',
         'glyphsLib',
         'defcon',
+        'unicodedata2',
     ]
 )
