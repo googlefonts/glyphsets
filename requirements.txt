@@ -1,5 +1,5 @@
 setuptools
-FontTools[ufo]
+fonttools
 glyphsLib
 defcon
 gflanguages
