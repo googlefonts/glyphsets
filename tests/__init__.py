@@ -1,10 +1,8 @@
-import sys
+from glyphsets import _GFGlyphData, _TestDocData
 from fontTools.ttLib import TTFont
 import os
 import pytest
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "Lib"))
-from glyphsets import _GFGlyphData, _TestDocData  # noqa: E402
 
 DATA_FP = os.path.join(os.path.dirname(__file__), "data")
 
