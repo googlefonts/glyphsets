@@ -25,6 +25,42 @@ What happens under the hood
 2. It continues to build all files under the old approach.
 3. Afterwards, it calls the new script (`scripts/assemble_charactersets.py`) which will write over existing nam/glyphs/txt files (for supported glyphsets, see list at top).
 
+Data flow visualization
+-----------------------
+
+Visualizes in a simplified way how the various data sources are combined into a final glyphset, then rendered out to various format.
+This process is repeated for every glyphset defined in `Lib/glyphsets/definitions/__init__.py`.
+
+Read this top to bottom.
+
+```
+┌──────────────────┐
+│ Language codes   │
+│ "en_Latn"        │
+│ "de_Latn"        │
+│ ...              │
+└──────────────────┘
+         │
+┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐
+│ gflanguages      │   │ .stub.nam        │   │ .stub.glyphs     │
+│ (Python package) │   │ (optional)       │   │ (optional)       │
+└──────────────────┘   └──────────────────┘   └──────────────────┘
+         │                      │                      │
+         └──────────────────────┼──────────────────────┘
+                                │
+                ╔═══════════════════════════════╗
+                ║ complete glyphset             ║ 
+                ╚═══════════════════════════════╝
+                                │
+         ┌──────────────────────┼──────────────────────┼──────────────────────┐
+         │                      │                      │                      │
+┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐
+│ .txt             │   │ .nam             │   │ .glyphs          │   │ .plist           │
+│ (nice & prod)    │   │                  │   │                  │   │                  │
+└──────────────────┘   └──────────────────┘   └──────────────────┘   └──────────────────┘
+```
+
+
 Glyphsets
 =========
 

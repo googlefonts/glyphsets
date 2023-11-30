@@ -145,6 +145,9 @@ def assemble_characterset(root_folder, glyphset_name):
 
     # Output sorted character set to .nam file
     with open(nam_path, "w") as f:
+        f.write(
+            "# This file is auto-generated; do not edit. See /README.md for instructions.\n"
+        )
         for i, unicode in enumerate(sorted(list(character_set))):
             unicode_string = f"{unicode:#0{6}X}".replace("0X", "0x")
             f.write(f"{unicode_string} {unicodedata.name(chr(unicode))}")
@@ -154,8 +157,14 @@ def assemble_characterset(root_folder, glyphset_name):
 
     # Output txt files
     with open(txt_nicenames_path, "w") as f:
+        f.write(
+            "# This file is auto-generated; do not edit. See /README.md for instructions.\n"
+        )
         f.write("\n".join(glyph_names))
     with open(txt_prodnames_path, "w") as f:
+        f.write(
+            "# This file is auto-generated; do not edit. See /README.md for instructions.\n"
+        )
         f.write("\n".join(production_glyph_names))
 
     # Adjust .plist
