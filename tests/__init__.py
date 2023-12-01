@@ -3,6 +3,7 @@ from fontTools.ttLib import TTFont
 import os
 import pytest
 
+
 DATA_FP = os.path.join(os.path.dirname(__file__), "data")
 
 glyphs_data = {

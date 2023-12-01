@@ -2,4 +2,5 @@ setuptools
 FontTools[ufo]
 glyphsLib
 defcon
+gflanguages
 unicodedata2
