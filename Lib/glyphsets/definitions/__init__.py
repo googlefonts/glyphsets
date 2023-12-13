@@ -18,7 +18,6 @@ glyphset_definitions = {
             "es_Latn",  # Spanish
             "fi_Latn",  # Finnish
             "fr_Latn",  # French
-            "gn_Latn",  # Guarani
             "hr_Latn",  # Croatian
             "hu_Latn",  # Hungarian
             "is_Latn",  # Icelandic
@@ -30,7 +29,6 @@ glyphset_definitions = {
             "nl_Latn",  # Dutch
             "pl_Latn",  # Polish
             "pt_Latn",  # Portuguese
-            "qu_Latn",  # Quechua
             "ro_Latn",  # Romanian
             "sk_Latn",  # Slovak
             "sq_Latn",  # Albanian
