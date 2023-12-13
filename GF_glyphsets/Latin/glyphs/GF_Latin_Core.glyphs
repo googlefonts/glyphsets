@@ -1,6 +1,16 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Latin Core";
 featurePrefixes = (
@@ -92,6 +102,10 @@ tag = case;
 );
 fontMaster = (
 {
+axesValues = (
+100,
+100
+);
 id = m01;
 metricValues = (
 {

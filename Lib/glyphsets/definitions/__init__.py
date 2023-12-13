@@ -5,6 +5,7 @@
 import os
 
 glyphset_definitions = {
+    "GF_Latin_Kernel": {"script": "Latin", "language_codes": []},
     "GF_Latin_Core": {
         "script": "Latin",
         "language_codes": [
@@ -37,7 +38,7 @@ glyphset_definitions = {
             "sv_Latn",  # Swedish
             "tr_Latn",  # Turkish
         ],
-    }
+    },
 }
 
 
