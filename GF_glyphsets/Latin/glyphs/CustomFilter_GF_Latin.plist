@@ -782,8 +782,6 @@
 			<string>gcommaaccent</string>
 			<string>Hbar</string>
 			<string>hbar</string>
-			<string>Itilde</string>
-			<string>itilde</string>
 			<string>Imacron</string>
 			<string>imacron</string>
 			<string>Iogonek</string>
@@ -822,8 +820,6 @@
 			<string>scaron</string>
 			<string>Tcaron</string>
 			<string>tcaron</string>
-			<string>Utilde</string>
-			<string>utilde</string>
 			<string>Umacron</string>
 			<string>umacron</string>
 			<string>Uring</string>
@@ -848,7 +844,6 @@
 			<string>Tcommaaccent</string>
 			<string>tcommaaccent</string>
 			<string>jdotless</string>
-			<string>apostrophemod</string>
 			<string>circumflex</string>
 			<string>caron</string>
 			<string>breve</string>
@@ -878,12 +873,8 @@
 			<string>Wdieresis</string>
 			<string>wdieresis</string>
 			<string>Germandbls</string>
-			<string>Etilde</string>
-			<string>etilde</string>
 			<string>Ygrave</string>
 			<string>ygrave</string>
-			<string>Ytilde</string>
-			<string>ytilde</string>
 			<string>endash</string>
 			<string>emdash</string>
 			<string>quoteleft</string>

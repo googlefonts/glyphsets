@@ -210,8 +210,6 @@ uni0122
 uni0123
 Hbar
 hbar
-Itilde
-itilde
 Imacron
 imacron
 Iogonek
@@ -250,8 +248,6 @@ Scaron
 scaron
 Tcaron
 tcaron
-Utilde
-utilde
 Umacron
 umacron
 Uring
@@ -276,7 +272,6 @@ uni0219
 uni021A
 uni021B
 uni0237
-uni02BC
 circumflex
 caron
 breve
@@ -306,12 +301,8 @@ wacute
 Wdieresis
 wdieresis
 uni1E9E
-uni1EBC
-uni1EBD
 Ygrave
 ygrave
-uni1EF8
-uni1EF9
 endash
 emdash
 quoteleft

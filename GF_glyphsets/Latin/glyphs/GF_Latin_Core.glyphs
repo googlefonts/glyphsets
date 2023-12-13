@@ -489,10 +489,6 @@ glyphname = cedilla;
 unicode = 184;
 },
 {
-glyphname = apostrophemod;
-unicode = 700;
-},
-{
 glyphname = circumflex;
 unicode = 710;
 },
@@ -1183,14 +1179,6 @@ glyphname = hbar;
 unicode = 295;
 },
 {
-glyphname = Itilde;
-unicode = 296;
-},
-{
-glyphname = itilde;
-unicode = 297;
-},
-{
 glyphname = Imacron;
 unicode = 298;
 },
@@ -1343,14 +1331,6 @@ glyphname = tcaron;
 unicode = 357;
 },
 {
-glyphname = Utilde;
-unicode = 360;
-},
-{
-glyphname = utilde;
-unicode = 361;
-},
-{
 glyphname = Umacron;
 unicode = 362;
 },
@@ -1475,28 +1455,12 @@ glyphname = Germandbls;
 unicode = 7838;
 },
 {
-glyphname = Etilde;
-unicode = 7868;
-},
-{
-glyphname = etilde;
-unicode = 7869;
-},
-{
 glyphname = Ygrave;
 unicode = 7922;
 },
 {
 glyphname = ygrave;
 unicode = 7923;
-},
-{
-glyphname = Ytilde;
-unicode = 7928;
-},
-{
-glyphname = ytilde;
-unicode = 7929;
 }
 );
 instances = (
