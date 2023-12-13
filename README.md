@@ -4,12 +4,13 @@ Attention: Repository under transition
 The assembly of character sets is currently undergoing a transition from the previous approach of using the `glyphsets` command and `data.json` as a database to using the `gflanguages` package as the database and assembling `.nam` and other files from that.
 
 This transition is currently complete for:
+* GF_Latin_Kernel
 * GF_Latin_Core
 
 How to assemble glyphs and characters using the new approach
 ------------------------------------------------------------
 
-1. Define the glyphset in the Python module in `Lib/glyphsets/definitions/__init__.py` with language codes for your character set.
+1. Define the glyphset in the Python module in `Lib/glyphsets/definitions/__init__.py` with language codes for your character set (you may leave language list empty, see `GF_Latin_Kernel`).
 2. Optional: Have a `.stub.nam` file under `GF_Glyphsets/*/definitions/` for your character set, containing _encoded_ characters that you want to see included that can't be inferred from the `gflanguages` definitions.
 3. Optional: Have a `.stub.glyphs` file under `GF_Glyphsets/*/definitions/` for your character set, containing _unencoded_ glyphs that you want to see included.
 4. Update all glyphsets using `sh GF_glyphsets/update-gs.sh` as usual, see below for details.
