@@ -65,6 +65,7 @@ def assemble_characterset(root_folder, glyphset_name):
         root_folder, script, "definitions", f"{glyphset_name}.stub.glyphs"
     )
     glyphs_path = os.path.join(root_folder, script, "glyphs", f"{glyphset_name}.glyphs")
+    glyphs_empty_path = os.path.join(root_folder, f"empty_font.glyphs")
     txt_nicenames_path = os.path.join(
         root_folder, script, "txt", "nice-names", f"{glyphset_name}.txt"
     )
@@ -119,7 +120,7 @@ def assemble_characterset(root_folder, glyphset_name):
     if os.path.exists(glyphs_stub_path):
         font = glyphsLib.load(glyphs_stub_path)
     else:
-        font = glyphsLib.GSFont()
+        font = glyphsLib.load(glyphs_empty_path)
         font.familyName = glyphset_name
     for _i, unicode in enumerate(sorted(list(character_set))):
         unicode = f"{unicode:#0{6}X}".replace("0X", "")
@@ -137,10 +138,6 @@ def assemble_characterset(root_folder, glyphset_name):
     ]
 
     # Save glyphs file
-    font.axes = []
-    for master in font.masters:
-        master.axes = []
-    font.instances = []
     font.save(glyphs_path)
 
     # Output sorted character set to .nam file
