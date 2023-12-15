@@ -37,6 +37,24 @@ glyphset_definitions = {
             "tr_Latn",  # Turkish
         ],
     },
+    "GF_Arabic_Core": {
+        "script": "Arabic",
+        "language_codes": [
+            "ar_Arab",  # Arabic
+            "fa_Arab",  # Persian
+            "ur_Arab",  # Urdu
+        ],
+    },
+    "GF_Arabic_Plus": {
+        "script": "Arabic",
+        "language_codes": [
+            "ckb_Arab",  # Kurdish
+            "ms_Arab",  # Malay
+            "ps_Arab",  # Pashto
+            "ps_Arab",  # Sindhi
+            "ug_Arab",  # Uyghur
+        ],
+    },
 }
 
 
