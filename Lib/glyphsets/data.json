@@ -16432,7 +16432,8 @@
         "GF_Greek_Pro",
         "GF_Latin_Beyond",
         "GF_Latin_Vietnamese",
-        "GF_TransLatin_Arabic"
+        "GF_TransLatin_Arabic",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -16600,7 +16601,8 @@
       "character": "\u0181",
       "unicode": 385,
       "glyphsets": [
-        "GF_Latin_African"
+        "GF_Latin_African",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -16702,7 +16704,8 @@
       "character": "\u018a",
       "unicode": 394,
       "glyphsets": [
-        "GF_Latin_African"
+        "GF_Latin_African",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -16777,7 +16780,8 @@
       "unicode": 7864,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Vietnamese"
+        "GF_Latin_Vietnamese",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -16816,7 +16820,8 @@
       "unicode": 400,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Beyond"
+        "GF_Latin_Beyond",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -17104,7 +17109,8 @@
       "glyphsets": [
         "GF_Latin_African",
         "GF_Latin_Beyond",
-        "GF_Latin_Vietnamese"
+        "GF_Latin_Vietnamese",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -17209,7 +17215,8 @@
       "character": "\u0198",
       "unicode": 408,
       "glyphsets": [
-        "GF_Latin_African"
+        "GF_Latin_African",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -17314,7 +17321,8 @@
       "unicode": 7742,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_TransLatin_Pinyin"
+        "GF_TransLatin_Pinyin",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -17360,7 +17368,8 @@
       "character": "\u1e44",
       "unicode": 7748,
       "glyphsets": [
-        "GF_Latin_African"
+        "GF_Latin_African",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -17380,7 +17389,8 @@
       "unicode": 504,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_TransLatin_Pinyin"
+        "GF_TransLatin_Pinyin",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -17389,7 +17399,8 @@
       "character": "\u019d",
       "unicode": 413,
       "glyphsets": [
-        "GF_Latin_African"
+        "GF_Latin_African",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -17493,7 +17504,8 @@
       "unicode": 7884,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Vietnamese"
+        "GF_Latin_Vietnamese",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -17561,7 +17573,8 @@
       "unicode": 390,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Beyond"
+        "GF_Latin_Beyond",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -17762,7 +17775,8 @@
       "glyphsets": [
         "GF_Latin_African",
         "GF_Latin_Beyond",
-        "GF_TransLatin_Arabic"
+        "GF_TransLatin_Arabic",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -17944,7 +17958,8 @@
       "unicode": 7908,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Vietnamese"
+        "GF_Latin_Vietnamese",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -18110,7 +18125,8 @@
       "character": "\u01b3",
       "unicode": 435,
       "glyphsets": [
-        "GF_Latin_African"
+        "GF_Latin_African",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -18331,7 +18347,8 @@
       "unicode": 595,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_IPAStandard",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -18447,7 +18464,8 @@
       "unicode": 599,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_IPAStandard",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -18524,7 +18542,8 @@
       "unicode": 7865,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Vietnamese"
+        "GF_Latin_Vietnamese",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -18564,7 +18583,8 @@
       "glyphsets": [
         "GF_Latin_African",
         "GF_Latin_Beyond",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_IPAStandard",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -18882,7 +18902,8 @@
       "glyphsets": [
         "GF_Latin_African",
         "GF_Latin_Beyond",
-        "GF_Latin_Vietnamese"
+        "GF_Latin_Vietnamese",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -18991,7 +19012,8 @@
       "unicode": 409,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Phonetics_IPAHistorical"
+        "GF_Phonetics_IPAHistorical",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -19111,7 +19133,8 @@
       "unicode": 7743,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_TransLatin_Pinyin"
+        "GF_TransLatin_Pinyin",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -19158,7 +19181,8 @@
       "character": "\u1e45",
       "unicode": 7749,
       "glyphsets": [
-        "GF_Latin_African"
+        "GF_Latin_African",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -19178,7 +19202,8 @@
       "unicode": 505,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_TransLatin_Pinyin"
+        "GF_TransLatin_Pinyin",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -19188,7 +19213,8 @@
       "unicode": 626,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_IPAStandard",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -19285,7 +19311,8 @@
       "unicode": 7885,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Vietnamese"
+        "GF_Latin_Vietnamese",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -19354,7 +19381,8 @@
       "glyphsets": [
         "GF_Latin_African",
         "GF_Latin_Beyond",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_IPAStandard",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -19577,7 +19605,8 @@
       "glyphsets": [
         "GF_Latin_African",
         "GF_Latin_Beyond",
-        "GF_TransLatin_Arabic"
+        "GF_TransLatin_Arabic",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -19763,7 +19792,8 @@
       "unicode": 7909,
       "glyphsets": [
         "GF_Latin_African",
-        "GF_Latin_Vietnamese"
+        "GF_Latin_Vietnamese",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -19924,7 +19954,8 @@
       "character": "\u01b4",
       "unicode": 436,
       "glyphsets": [
-        "GF_Latin_African"
+        "GF_Latin_African",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -21270,7 +21301,8 @@
       "character": "\u014a",
       "unicode": 330,
       "glyphsets": [
-        "GF_Latin_Core"
+        "GF_Latin_Core",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
@@ -22353,7 +22385,8 @@
       "unicode": 331,
       "glyphsets": [
         "GF_Latin_Core",
-        "GF_Phonetics_IPAStandard"
+        "GF_Phonetics_IPAStandard",
+        "GF_Latin_PriAfrican"
       ]
     },
     {
