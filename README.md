@@ -63,6 +63,7 @@ Read this top to bottom.
 └──────────────────┘   └──────────────────┘   └──────────────────┘   └──────────────────┘
 ```
 
+End of description about the transition. Continue with old README:
 
 Glyphsets
 =========
