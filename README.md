@@ -4,7 +4,10 @@ Attention: Repository under transition
 The assembly of character sets is currently undergoing a transition from the previous approach of using the `glyphsets` command and `data.json` as a database to using the `gflanguages` package as the database and assembling `.nam` and other files from that.
 
 This transition is currently complete for:
+* GF_Latin_Kernel
 * GF_Latin_Core
+* GF_Arabic_Core
+* GF_Arabic_Plus
 
 How to assemble glyphs and characters using the new approach
 ------------------------------------------------------------
