@@ -39,6 +39,7 @@ glyphset_definitions = {
     },
     "GF_Latin_African": {
         "script": "Latin",
+        "use_auxiliary": True,
         "language_codes": [
             "aa_Latn"  # Afar
             "abi_Latn"  # Abidji
