@@ -19,6 +19,8 @@ How to assemble glyphs and characters using the new approach
 
 The final `.glyphs` files are the sum of `gflanguages` + `.stub.nam` + `.stub.glyphs`.
 
+**Important note**: *glyphsets* uses the version of *gflanguages* that's currently installed on your system to query for characters per language. This enables you working on both packages locally at once. In any case, make sure that the *gflanguages* package is up-to-date on your system.
+
 _Bonus points:_ Sadly, in the creation of the `.glyphs` files, it's not possible to exactly recreate the glyph sorting that Glyphs.app uses by default, so the `.glyphs` files look a bit different from what's expected. If you care, please open every freshly adjusted `.glyphs` file in Glyphs.app, select all glyphs, and run "Update Glyph Info" from the "Glyphs" menu on them to sort them and save the file. But the files will work as-is in any case.
 
 What happens under the hood
