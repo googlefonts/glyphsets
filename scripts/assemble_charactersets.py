@@ -48,7 +48,8 @@ def assemble_characterset(root_folder, glyphset_name):
     language_codes = glyphset_definitions[glyphset_name].get("language_codes", [])
     regions = glyphset_definitions[glyphset_name].get("regions")
     use_aux = glyphset_definitions[glyphset_name].get("use_auxiliary", False)
-    historical = glyphset_definitions[glyphset_name].get("use_historical", False)
+    historical = glyphset_definitions[glyphset_name].get("historical", False)
+    population = glyphset_definitions[glyphset_name].get("population", False)
 
     nam_stub_path = os.path.join(
         root_folder, script, "definitions", f"{glyphset_name}.stub.nam"
@@ -87,6 +88,8 @@ def assemble_characterset(root_folder, glyphset_name):
     if regions:
         for language in languages.values():
             if not historical and language.historical:
+                continue
+            if population > language.population:
                 continue
             if (
                 set(language.region).intersection(set(regions))
