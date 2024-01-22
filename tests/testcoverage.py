@@ -1,8 +1,6 @@
-from glyphsets.codepoints import (
+from gfsubsets import (
     CodepointsInSubset,
-    CodepointFileForSubset,
-    ReadNameList,
-    nam_dir,
+    ListSubsets
 )
 from fontTools.unicodedata.Scripts import NAMES
 import pytest
@@ -38,8 +36,7 @@ MAGIC_CODEPOINTS = set([0x2010, 0xA])
 
 def codepoints_and_optionally_ext(subset):
     cps_in_subset = CodepointsInSubset(subset, unique_glyphs=False)
-    ext_file = os.path.join(nam_dir, "%s-ext_unique-glyphs.nam" % subset)
-    if os.path.isfile(ext_file):
+    if subset + "-ext" in ListSubsets():
         cps_in_subset |= CodepointsInSubset(subset + "-ext")
     cps_in_subset |= MAGIC_CODEPOINTS
     return cps_in_subset
@@ -93,6 +90,16 @@ def test_coverage():
     assert False, "Coverage test failed"
 
 
+def read_namfile(path):
+    codepoints = set()
+    with open(path, "r") as f:
+        for line in f:
+            cp = line.split(" ")[0]
+            if cp.startswith("0x"):
+                codepoints.add(int(cp[2:], 16))
+    return codepoints
+
+
 @pytest.mark.parametrize("namfile", glob.glob("GF_glyphsets/*/nam/*.nam"))
 def test_gf_coverage(namfile):
     """Ensure everything in the GF glyphsets are enabled in subsets"""
@@ -114,13 +121,13 @@ def test_gf_coverage(namfile):
         subsets = ["greek"]
     else:
         assert False, "Don't know what subset to apply for %s" % namfile
-    designed_cps = ReadNameList(namfile)["charset"]
+    designed_cps = read_namfile(namfile)
     subset_cps = set()
     for subset in subsets:
         subset_cps |= codepoints_and_optionally_ext(subset)
     orphaned_cps = designed_cps - subset_cps
     if not orphaned_cps:
-        return True
+        return
     message = (
         "\nThe following codepoints were included in the Google Fonts "
         f"nam file {os.path.basename(namfile)} but were not present in "
