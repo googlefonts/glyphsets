@@ -69,5 +69,6 @@ setup(
         "defcon",
         "unicodedata2",
         "gflanguages>=0.5.16",
+        "gfsubsets",  # For compatibility; remove when all code no longer uses glyphsets.encodings
     ],
 )
