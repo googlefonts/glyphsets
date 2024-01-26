@@ -57,7 +57,7 @@ setup(
         'Programming Language :: Python :: 3'
     ],
     python_requires=">=3.7",
-    setup_requires=['setuptools_scm>=4,<6.1'],
+    setup_requires=['setuptools_scm>=4,<8.1'],
     install_requires=[
         'setuptools',
         'FontTools[ufo]',
