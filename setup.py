@@ -64,5 +64,6 @@ setup(
         'glyphsLib',
         'defcon',
         'unicodedata2',
+        'gflanguages',
     ]
 )
