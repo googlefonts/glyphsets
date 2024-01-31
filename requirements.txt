@@ -4,3 +4,4 @@ glyphsLib
 defcon
 gflanguages>=0.5.15
 unicodedata2
+requests
