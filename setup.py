@@ -20,50 +20,53 @@ import os
 from setuptools import setup
 
 # Read the contents of the README file
-with open('README.md', encoding="utf-8") as f:
+with open("README.md", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
     name="glyphsets",
     use_scm_version={"write_to": "Lib/glyphsets/_version.py"},
-    url='https://github.com/googlefonts/glyphsets/',
-    description='A python API for evaluating coverage of glyph sets in font projects.',
+    url="https://github.com/googlefonts/glyphsets/",
+    description="A python API for evaluating coverage of glyph sets in font projects.",
     long_description=long_description,
-    long_description_content_type='text/markdown',  # This is important!
-    author=('Dave Crossland, '
-            'Eli Heuer, '
-            'Felipe Sanches, '
-            'Lasse Fister, '
-            'Marc Foley, '
-            'Yanone, '
-            'Roderick Sheeter'),
-    author_email='dave@lab6.com',
-    package_dir={'': 'Lib'},
-    packages=['glyphsets', 'glyphsets.definitions'],
-    package_data={'glyphsets': [
-                      "encodings/*.nam",
-                      "encodings/GF Glyph Sets/*.nam",
-                      "definitions/nam/*.nam",
-                      "*.json",
-                  ]
-                 },
+    long_description_content_type="text/markdown",  # This is important!
+    author=(
+        "Dave Crossland, "
+        "Eli Heuer, "
+        "Felipe Sanches, "
+        "Lasse Fister, "
+        "Marc Foley, "
+        "Yanone, "
+        "Roderick Sheeter"
+    ),
+    author_email="dave@lab6.com",
+    package_dir={"": "Lib"},
+    packages=["glyphsets", "glyphsets.definitions"],
+    package_data={
+        "glyphsets": [
+            "encodings/*.nam",
+            "encodings/GF Glyph Sets/*.nam",
+            "definitions/nam/*.nam",
+            "*.json",
+        ]
+    },
     entry_points={"console_scripts": ["glyphsets = glyphsets.__main__:main"]},
     zip_safe=False,
     classifiers=[
-        'Intended Audience :: Developers',
-        'Topic :: Text Processing :: Fonts',
-        'License :: OSI Approved :: Apache Software License',
-        'Operating System :: OS Independent',
-        'Programming Language :: Python :: 3'
+        "Intended Audience :: Developers",
+        "Topic :: Text Processing :: Fonts",
+        "License :: OSI Approved :: Apache Software License",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3",
     ],
     python_requires=">=3.7",
-    setup_requires=['setuptools_scm>=4,<8.1'],
+    setup_requires=["setuptools_scm>=4,<8.1"],
     install_requires=[
-        'setuptools',
-        'FontTools[ufo]',
-        'glyphsLib',
-        'defcon',
-        'unicodedata2',
-        'gflanguages>=0.5.15',
-    ]
+        "setuptools",
+        "FontTools[ufo]",
+        "glyphsLib",
+        "defcon",
+        "unicodedata2",
+        "gflanguages>=0.5.15",
+    ],
 )
