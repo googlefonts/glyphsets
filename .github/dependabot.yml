@@ -13,4 +13,4 @@ updates:
   groups:
     python-packages:
       patterns:
-        - "*"
+        - gflanguages
