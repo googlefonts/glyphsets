@@ -13,4 +13,5 @@ updates:
   groups:
     python-packages:
       patterns:
-        - gflanguages
+        - "*"
+  versioning-strategy: "increase"
