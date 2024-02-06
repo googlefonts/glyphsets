@@ -1,7 +1,3 @@
-from gfsubsets import (
-    CodepointsInSubset,
-    ListSubsets
-)
 from fontTools.unicodedata.Scripts import NAMES
 import pytest
 import unicodedata
@@ -13,9 +9,13 @@ import sys
 
 try:
     import gflanguages
+    from gfsubsets import (
+        CodepointsInSubset,
+        ListSubsets
+    )
 except Exception as e:
     pytest.skip(
-        "Coverage test requires gflanguages to be installed",
+        "Coverage test requires gflanguages and gfsubsets to be installed",
         allow_module_level=True,
     )
 
