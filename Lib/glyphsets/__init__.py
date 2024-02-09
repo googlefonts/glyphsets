@@ -396,7 +396,7 @@ def description_per_glyphset(glyphset_name):
     elif not regions and language_codes:
         md += (
             "* List of languages: `\n"
-            + ", \n".join(sorted(map(add_language, language_codes)))
+            + ",\n".join(sorted(map(add_language, language_codes)))
             + "\n`\n"
         )
     elif not regions and not language_codes:
@@ -409,7 +409,7 @@ def description_per_glyphset(glyphset_name):
         _languages_per_glyphset = languages_per_glyphset(glyphset_name)
         md += (
             f"\nThe following list of **{len(_languages_per_glyphset)}** languages is computed as a result of the dynamic conditions described above:\n\n`\n"
-            + ", \n".join(sorted(map(add_language, _languages_per_glyphset)))
+            + ",\n".join(sorted(map(add_language, _languages_per_glyphset)))
             + "\n`\n\n"
         )
 
