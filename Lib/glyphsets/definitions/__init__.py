@@ -127,7 +127,7 @@ def description_per_glyphset(glyphset_name):
         md += f"{glyphset_name} is **manually** defined as:\n\n"
     md += f"* Script: {script}\n"
     if regions:
-        md += f"* All languages of the countries {', '.join(regions)}\n"
+        md += f"* All languages of the countries `{', '.join(regions)}`\n"
     if population:
         md += f"* With a population of over {population} speakers\n"
     if historical:

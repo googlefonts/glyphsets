@@ -34,7 +34,7 @@ The resulting glyphset can be found here: [GF_Latin_Core.nam](/Lib/glyphsets/def
 GF_Latin_African is defined **in code** as:
 
 * Script: Latin
-* All languages of the countries AO, BF, BI, BJ, BW, CD, CF, CG, CI, CM, CV, DJ, DZ, EA, EG, EH, ER, ET, GA, GH, GM, GN, GQ, GW, IC, IO, KE, KM, LR, LS, LY, MA, MG, ML, MR, MU, MW, MZ, NA, NE, NG, RE, RW, SC, SD, SH, SL, SN, SO, SS, ST, SZ, TD, TF, TG, TN, TZ, UG, YT, ZA, ZM, ZW
+* All languages of the countries `AO, BF, BI, BJ, BW, CD, CF, CG, CI, CM, CV, DJ, DZ, EA, EG, EH, ER, ET, GA, GH, GM, GN, GQ, GW, IC, IO, KE, KM, LR, LS, LY, MA, MG, ML, MR, MU, MW, MZ, NA, NE, NG, RE, RW, SC, SD, SH, SL, SN, SO, SS, ST, SZ, TD, TF, TG, TN, TZ, UG, YT, ZA, ZM, ZW`
 * With a population of over 1 speakers
 * Including auxiliary characters
 
