@@ -25,7 +25,7 @@ GF_Latin_Kernel is **statically** defined as:
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
-> Please add language code definions.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
 The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/Lib/glyphsets/definitions/nam/GF_Latin_Kernel.nam)
 
