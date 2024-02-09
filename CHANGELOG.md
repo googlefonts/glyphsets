@@ -1,6 +1,24 @@
 Below are the most important changes from each release.
 
-### v0.6.4 Latest (2023-Sep-21)
+### v0.6.12 (2024-Feb-9)
+#### Changes since last release
+
+- Made human-readable description available in /GLYPHSETS.md
+
+### v0.6.11 (2023-Dec-15)
+#### Changes since last release
+
+- Transitioned GF_Arabic_Plus to new approach
+
+### v0.6.5..10 (?)
+#### Changes since last release
+
+- Introduced new assembly approach of defining glyphsets as language code rather than codepoints, with codepoints being assembled from gflanguages
+
+#### New Contributors
+@yanone becomes repository maintainer
+
+### v0.6.4 (2023-Sep-21)
 #### Changes since last release
 
 - [Symbols] new codepoints added to support Playpen Sans by @vv-monsalve in #127
@@ -9,7 +27,7 @@ Below are the most important changes from each release.
 #### New Contributors
 @vv-monsalve made their first contribution in #127
 
-### v0.6.3 Latest (2023-Sep-20)
+### v0.6.3 (2023-Sep-20)
 #### Changes since last release:
 - [glyphsets] deprecated IJ/ij in GF_glyphsets by @RosaWagner in #111
 - Update README.md by @davelab6 in #116
