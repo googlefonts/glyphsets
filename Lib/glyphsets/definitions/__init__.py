@@ -120,11 +120,11 @@ def description_per_glyphset(glyphset_name):
 
     md = ""
 
-    md += f"## {glyphset_name}\n\n"
+    md += f"## {glyphset_name.replace('_', ' ')}\n\n"
     if regions:
-        md += f"{glyphset_name} is defined in code as:\n\n"
+        md += f"{glyphset_name} is defined **in code** as:\n\n"
     else:
-        md += f"{glyphset_name} is defined as:\n\n"
+        md += f"{glyphset_name} is **manually** defined as:\n\n"
     md += f"* Script: {script}\n"
     if regions:
         md += f"* All languages of the countries {', '.join(regions)}\n"
@@ -136,9 +136,9 @@ def description_per_glyphset(glyphset_name):
         md += "* Including auxiliary characters\n"
 
     if regions and language_codes:
-        md += f"* Additionally, the following languages are defined manually: {language_codes}\n"
+        md += f"* Additionally, the following languages are defined **manually**: {language_codes}\n"
     elif not regions and language_codes:
-        md += f"* Manually defined languages: {', '.join(language_codes)}\n"
+        md += f"* List of languages: {', '.join(language_codes)}\n"
     elif not regions and not language_codes:
         md += "\n🛑 Since this glyphset has no defined languages, it can't be checked via Fontbakery's shape_languages check. Please add language code definions here.\n"
 

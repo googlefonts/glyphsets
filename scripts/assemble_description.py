@@ -28,6 +28,15 @@ if __name__ == "__main__":
 
     md = []
 
+    # TOC
+    md.append("###Table of Conents:\n\n")
+
+    for glyphset_name in glyphset_definitions:
+        md.append(f"* [{glyphset_name.replace('_', ' ')}](#{glyphset_name.lower()})")
+
+    md.append("\n")
+
+    # Content
     for glyphset_name in glyphset_definitions:
         md.append(description_per_glyphset(glyphset_name))
 

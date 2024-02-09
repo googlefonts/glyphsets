@@ -1,6 +1,16 @@
-## GF_Latin_Kernel
+###Table of Conents:
 
-GF_Latin_Kernel is defined as:
+
+* [GF Latin Kernel](#gf_latin_kernel)
+* [GF Latin Core](#gf_latin_core)
+* [GF Latin African](#gf_latin_african)
+* [GF Arabic Core](#gf_arabic_core)
+* [GF Arabic Plus](#gf_arabic_plus)
+
+
+## GF Latin Kernel
+
+GF_Latin_Kernel is **manually** defined as:
 
 * Script: Latin
 
@@ -9,19 +19,19 @@ GF_Latin_Kernel is defined as:
 The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/Lib/glyphsets/definitions/nam/GF_Latin_Kernel.nam)
 
 
-## GF_Latin_Core
+## GF Latin Core
 
-GF_Latin_Core is defined as:
+GF_Latin_Core is **manually** defined as:
 
 * Script: Latin
-* Manually defined languages: ca_Latn, cs_Latn, cy_Latn, da_Latn, de_Latn, en_Latn, es_Latn, fi_Latn, fr_Latn, hr_Latn, hu_Latn, is_Latn, it_Latn, lt_Latn, lv_Latn, mt_Latn, nb_Latn, nl_Latn, pl_Latn, pt_Latn, ro_Latn, sk_Latn, sq_Latn, sr_Latn, sv_Latn, tr_Latn
+* List of languages: ca_Latn, cs_Latn, cy_Latn, da_Latn, de_Latn, en_Latn, es_Latn, fi_Latn, fr_Latn, hr_Latn, hu_Latn, is_Latn, it_Latn, lt_Latn, lv_Latn, mt_Latn, nb_Latn, nl_Latn, pl_Latn, pt_Latn, ro_Latn, sk_Latn, sq_Latn, sr_Latn, sv_Latn, tr_Latn
 
 The resulting glyphset can be found here: [GF_Latin_Core.nam](/Lib/glyphsets/definitions/nam/GF_Latin_Core.nam)
 
 
-## GF_Latin_African
+## GF Latin African
 
-GF_Latin_African is defined in code as:
+GF_Latin_African is defined **in code** as:
 
 * Script: Latin
 * All languages of the countries AO, BF, BI, BJ, BW, CD, CF, CG, CI, CM, CV, DJ, DZ, EA, EG, EH, ER, ET, GA, GH, GM, GN, GQ, GW, IC, IO, KE, KM, LR, LS, LY, MA, MG, ML, MR, MU, MW, MZ, NA, NE, NG, RE, RW, SC, SD, SH, SL, SN, SO, SS, ST, SZ, TD, TF, TG, TN, TZ, UG, YT, ZA, ZM, ZW
@@ -36,22 +46,22 @@ mua_Latn, vid_Latn, bqv_Latn, lia_Latn, ijs_Latn, kln_Latn, ruf_Latn, ng_Latn, g
 The resulting glyphset can be found here: [GF_Latin_African.nam](/Lib/glyphsets/definitions/nam/GF_Latin_African.nam)
 
 
-## GF_Arabic_Core
+## GF Arabic Core
 
-GF_Arabic_Core is defined as:
+GF_Arabic_Core is **manually** defined as:
 
 * Script: Arabic
-* Manually defined languages: ar_Arab, fa_Arab, ur_Arab
+* List of languages: ar_Arab, fa_Arab, ur_Arab
 
 The resulting glyphset can be found here: [GF_Arabic_Core.nam](/Lib/glyphsets/definitions/nam/GF_Arabic_Core.nam)
 
 
-## GF_Arabic_Plus
+## GF Arabic Plus
 
-GF_Arabic_Plus is defined as:
+GF_Arabic_Plus is **manually** defined as:
 
 * Script: Arabic
-* Manually defined languages: ckb_Arab, ms_Arab, ps_Arab, ps_Arab, ug_Arab
+* List of languages: ckb_Arab, ms_Arab, ps_Arab, ps_Arab, ug_Arab
 
 The resulting glyphset can be found here: [GF_Arabic_Plus.nam](/Lib/glyphsets/definitions/nam/GF_Arabic_Plus.nam)
 
