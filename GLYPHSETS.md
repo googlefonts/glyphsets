@@ -18,7 +18,8 @@ GF_Latin_Kernel is **manually** defined as:
 
 * Script: Latin
 
-:warning: Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check. Please add language code definions here.
+:> [!WARNING]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check. Please add language code definions here.
 
 The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/Lib/glyphsets/definitions/nam/GF_Latin_Kernel.nam)
 
