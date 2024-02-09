@@ -356,9 +356,9 @@ def description_per_glyphset(glyphset_name):
 
     md += f"## {glyphset_name.replace('_', ' ')}\n\n"
     if regions:
-        md += f"{glyphset_name} is defined **in code** as:\n\n"
+        md += f"{glyphset_name} is **dynamically** defined as:\n\n"
     else:
-        md += f"{glyphset_name} is **manually** defined as:\n\n"
+        md += f"{glyphset_name} is **statically** defined as:\n\n"
     md += f"* Script: {script}\n"
     if regions:
         md += f"* All languages of the countries `{', '.join(sorted(map(add_country, regions)))}`\n"
@@ -370,7 +370,7 @@ def description_per_glyphset(glyphset_name):
         md += "* Including auxiliary characters\n"
 
     if regions and language_codes:
-        md += f"* Additionally, the following languages are defined **manually**: `{', '.join(sorted(map(add_language, language_codes)))}`\n"
+        md += f"* Additionally, the following languages are defined **statically**: `{', '.join(sorted(map(add_language, language_codes)))}`\n"
     elif not regions and language_codes:
         md += f"* List of languages: `{', '.join(sorted(map(add_language, language_codes)))}`\n"
     elif not regions and not language_codes:
@@ -380,7 +380,7 @@ def description_per_glyphset(glyphset_name):
     md += "\n"
 
     if regions:
-        md += f"\nThe following list of languages is computed as a result of the conditions described above:\n\n`{', '.join(sorted(map(add_language, languages_per_glyphset(glyphset_name))))}`\n\n"
+        md += f"\nThe following list of languages is computed as a result of the dynamic conditions described above:\n\n`{', '.join(sorted(map(add_language, languages_per_glyphset(glyphset_name))))}`\n\n"
 
     md += f"The resulting glyphset can be found here: [{glyphset_name}.nam](/Lib/glyphsets/definitions/nam/{glyphset_name}.nam)\n\n"
     return md, warning
