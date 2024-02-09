@@ -1,7 +1,7 @@
 # Table of Conents:
 
 
-* [GF Latin Kernel :warning:](#gf-latin-kernel)
+* [GF Latin Kernel :caution:](#gf-latin-kernel)
 * [GF Latin Core](#gf-latin-core)
 * [GF Latin African](#gf-latin-african)
 * [GF Arabic Core](#gf-arabic-core)
@@ -19,8 +19,9 @@ GF_Latin_Kernel is **statically** defined as:
 * Script: Latin
 * Codepoints defined in [GF_Latin_Kernel.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Kernel.stub.nam)
 
-> [!WARNING]  
-> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check. Please add language code definions here.
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions.
 
 The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/Lib/glyphsets/definitions/nam/GF_Latin_Kernel.nam)
 
