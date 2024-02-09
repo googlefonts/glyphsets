@@ -394,7 +394,8 @@ def description_per_glyphset(glyphset_name):
     md += "\n"
 
     if regions:
-        md += f"\nThe following list of languages is computed as a result of the dynamic conditions described above:\n\n`{', '.join(sorted(map(add_language, languages_per_glyphset(glyphset_name))))}`\n\n"
+        _languages_per_glyphset = languages_per_glyphset(glyphset_name)
+        md += f"\nThe following list of **{len(_languages_per_glyphset)}** languages is computed as a result of the dynamic conditions described above:\n\n`{', '.join(sorted(map(add_language, _languages_per_glyphset)))}`\n\n"
 
     md += f"The resulting glyphset can be found here: [{glyphset_name}.nam](/GF_glyphsets/{script}/nam/{glyphset_name}.nam) (only encoded glyphs), [{glyphset_name}.glyphs](/GF_glyphsets/{script}/glyphs/{glyphset_name}.glyphs) (all glyphs), as well as part of [CustomFilter_GF_{script}.plist](/GF_glyphsets/{script}/glyphs/CustomFilter_GF_{script}.plist)\n\n"
     return md, warning
