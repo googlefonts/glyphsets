@@ -1,9 +1,9 @@
 """
 GF Glyph Database
 """
+
 import plistlib
 import json
-import os
 from re import L
 from glyphsLib import GSFont, GSGlyph
 from defcon import Font
@@ -11,6 +11,14 @@ import logging
 import unicodedata2 as uni
 from glyphsLib.glyphdata import get_glyph
 from copy import deepcopy as copy
+
+# Added by Yanone
+import os
+import gflanguages
+from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
+from glyphsets.definitions import glyphset_definitions
+
+# end
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -270,3 +278,91 @@ class _TestDocData:
 
 
 GFTestData = _TestDocData()
+
+
+## Added by Yanone:
+
+
+def unicodes_per_glyphset(glyphset_name):
+    character_set = set()
+    # Read .nam file
+    nam_path = os.path.join(
+        os.path.dirname(__file__), "definitions", "nam", f"{glyphset_name}.nam"
+    )
+    if os.path.exists(nam_path):
+        with open(nam_path, "r") as f:
+            nam_stub_lines = f.readlines()
+        for line in nam_stub_lines:
+            unicode = line.split(" ")[0]
+            if unicode.startswith("0x"):
+                character_set.add(int(unicode[2:], 16))
+    return list(sorted(character_set))
+
+
+def languages_per_glyphset(glyphset_name):
+
+    script = glyphset_definitions[glyphset_name]["script"]
+    language_codes = glyphset_definitions[glyphset_name].get("language_codes", [])
+    regions = glyphset_definitions[glyphset_name].get("regions")
+    use_aux = glyphset_definitions[glyphset_name].get("use_auxiliary", False)
+    historical = glyphset_definitions[glyphset_name].get("historical", False)
+    population = glyphset_definitions[glyphset_name].get("population", False)
+
+    # Assemble character sets from gflanguages
+    languages = gflanguages.LoadLanguages()
+    if regions:
+        for language in languages.values():
+            if not historical and language.historical:
+                continue
+            if population > language.population:
+                continue
+            if (
+                set(language.region).intersection(set(regions))
+                and SCRIPT_NAMES[language.script] == script
+            ):
+                language_codes.append(language.id)
+
+    return language_codes
+
+
+def description_per_glyphset(glyphset_name):
+    script = glyphset_definitions[glyphset_name]["script"]
+    language_codes = glyphset_definitions[glyphset_name].get("language_codes", [])
+    regions = glyphset_definitions[glyphset_name].get("regions")
+    use_aux = glyphset_definitions[glyphset_name].get("use_auxiliary", False)
+    historical = glyphset_definitions[glyphset_name].get("historical", False)
+    population = glyphset_definitions[glyphset_name].get("population", False)
+
+    warning = False
+    md = ""
+
+    md += f"## {glyphset_name.replace('_', ' ')}\n\n"
+    if regions:
+        md += f"{glyphset_name} is defined **in code** as:\n\n"
+    else:
+        md += f"{glyphset_name} is **manually** defined as:\n\n"
+    md += f"* Script: {script}\n"
+    if regions:
+        md += f"* All languages of the countries `{', '.join(regions)}`\n"
+    if population:
+        md += f"* With a population of over {population} speakers\n"
+    if historical:
+        md += "* Including historical languages\n"
+    if use_aux:
+        md += "* Including auxiliary characters\n"
+
+    if regions and language_codes:
+        md += f"* Additionally, the following languages are defined **manually**: `{', '.join(language_codes)}`\n"
+    elif not regions and language_codes:
+        md += f"* List of languages: `{', '.join(language_codes)}`\n"
+    elif not regions and not language_codes:
+        md += "\n:warning: Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check. Please add language code definions here.\n"
+        warning = True
+
+    md += "\n"
+
+    if regions:
+        md += f"\nThe following list of languages is computed as a result of the conditions described above:\n\n`{', '.join(languages_per_glyphset(glyphset_name))}`\n\n"
+
+    md += f"The resulting glyphset can be found here: [{glyphset_name}.nam](/Lib/glyphsets/definitions/nam/{glyphset_name}.nam)\n\n"
+    return md, warning

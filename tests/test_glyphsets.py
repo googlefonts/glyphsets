@@ -1,4 +1,4 @@
-from glyphsets.definitions import unicodes_per_glyphset, languages_per_glyphset
+from glyphsets import unicodes_per_glyphset, languages_per_glyphset
 
 
 def test_definitions():

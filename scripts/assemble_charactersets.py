@@ -16,7 +16,7 @@ from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
 # Insert local module path at beginning of sys.path
 # so that up-to-date version of glyphsets package is used
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "Lib"))
-from glyphsets.definitions import (
+from glyphsets import (
     glyphset_definitions,
     unicodes_per_glyphset,
     languages_per_glyphset,

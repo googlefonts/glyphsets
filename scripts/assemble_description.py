@@ -8,7 +8,7 @@ import os
 # Insert local module path at beginning of sys.path
 # so that up-to-date version of glyphsets package is used
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "Lib"))
-from glyphsets.definitions import (
+from glyphsets import (
     glyphset_definitions,
     description_per_glyphset,
 )  # noqa: E402
@@ -39,6 +39,9 @@ if __name__ == "__main__":
         md.append(
             f"* [{glyphset_name.replace('_', ' ')}{warning_md}](#{glyphset_name.lower().replace('_', '-')})"
         )
+
+    md.append("\n")
+    md.append("Definitions reside [here](/Lib/glyphsets/definitions/__init__.py).")
 
     md.append("\n")
 

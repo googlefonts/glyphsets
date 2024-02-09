@@ -8,6 +8,9 @@
 * [GF Arabic Plus](#gf-arabic-plus)
 
 
+Definitions reside [here](/Lib/glyphsets/definitions/__init__.py).
+
+
 ## GF Latin Kernel
 
 GF_Latin_Kernel is **manually** defined as:
