@@ -40,8 +40,9 @@ if __name__ == "__main__":
             f"* [{glyphset_name.replace('_', ' ')}{warning_md}](#{glyphset_name.lower().replace('_', '-')})"
         )
 
-    md.append("\n")
-    md.append("Definitions reside [here](/Lib/glyphsets/definitions/__init__.py).")
+    md.append(
+        "\n> [!NOTE]  \n> Definitions reside [here](/Lib/glyphsets/definitions/__init__.py).\n"
+    )
 
     md.append("\n")
 

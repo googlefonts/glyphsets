@@ -7,8 +7,9 @@
 * [GF Arabic Core](#gf-arabic-core)
 * [GF Arabic Plus](#gf-arabic-plus)
 
+> [!NOTE]  
+> Definitions reside [here](/Lib/glyphsets/definitions/__init__.py).
 
-Definitions reside [here](/Lib/glyphsets/definitions/__init__.py).
 
 
 ## GF Latin Kernel

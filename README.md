@@ -3,7 +3,8 @@ Attention: Repository under transition
 
 The assembly of character sets is currently undergoing a transition from the previous approach of using the `glyphsets` command and `data.json` as a database to using the `gflanguages` package as the database and assembling `.nam` and other files from that.
 
-⚠️ Please see [GLYPHSETS.md](GLYPHSETS.md) for an up-to-date description of the state of the new language definitions.
+> [!NOTE]  
+> Please see [GLYPHSETS.md](GLYPHSETS.md) for an up-to-date description of the state of the new language definitions.
 
 How to assemble glyphs and characters using the new approach
 ------------------------------------------------------------
