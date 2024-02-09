@@ -37,6 +37,16 @@ glyphset_definitions = {
             "tr_Latn",  # Turkish
         ],
     },
+    "GF_Latin_African": {
+        "script": "Latin",
+        "use_auxiliary": True,
+        "historical": False,
+        "population": 1,
+        "regions": "AO BF BI BJ BW CD CF CG CI CM CV DJ DZ EA EG EH ER ET GA "
+                   "GH GM GN GQ GW IC IO KE KM LR LS LY MA MG ML MR MU MW MZ "
+                   "NA NE NG RE RW SC SD SH SL SN SO SS ST SZ TD TF TG TN TZ "
+                   "UG YT ZA ZM ZW ".split(),
+    },
     "GF_Arabic_Core": {
         "script": "Arabic",
         "language_codes": [
