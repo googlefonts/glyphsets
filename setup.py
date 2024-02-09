@@ -44,8 +44,6 @@ setup(
     packages=["glyphsets", "glyphsets.definitions"],
     package_data={
         "glyphsets": [
-            "encodings/*.nam",
-            "encodings/GF Glyph Sets/*.nam",
             "definitions/nam/*.nam",
             "*.json",
         ]
