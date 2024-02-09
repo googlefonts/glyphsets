@@ -32,7 +32,9 @@ if __name__ == "__main__":
     md.append("# Table of Conents:\n\n")
 
     for glyphset_name in glyphset_definitions:
-        md.append(f"* [{glyphset_name.replace('_', ' ')}](#{glyphset_name.lower()})")
+        md.append(
+            f"* [{glyphset_name.replace('_', ' ')}](#{glyphset_name.lower().replace('_', '-')})"
+        )
 
     md.append("\n")
 

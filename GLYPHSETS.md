@@ -1,11 +1,11 @@
 # Table of Conents:
 
 
-* [GF Latin Kernel](#gf_latin_kernel)
-* [GF Latin Core](#gf_latin_core)
-* [GF Latin African](#gf_latin_african)
-* [GF Arabic Core](#gf_arabic_core)
-* [GF Arabic Plus](#gf_arabic_plus)
+* [GF Latin Kernel](#gf-latin-kernel)
+* [GF Latin Core](#gf-latin-core)
+* [GF Latin African](#gf-latin-african)
+* [GF Arabic Core](#gf-arabic-core)
+* [GF Arabic Plus](#gf-arabic-plus)
 
 
 ## GF Latin Kernel
