@@ -1,11 +1,11 @@
 # Table of Conents:
 
 
-* [GF Latin Kernel 🛑](#gf-latin-kernel)
-* [GF Latin Core ✅](#gf-latin-core)
-* [GF Latin African ✅](#gf-latin-african)
 * [GF Arabic Core ✅](#gf-arabic-core)
 * [GF Arabic Plus ✅](#gf-arabic-plus)
+* [GF Latin African ✅](#gf-latin-african)
+* [GF Latin Core ✅](#gf-latin-core)
+* [GF Latin Kernel 🛑](#gf-latin-kernel)
 
 > [!NOTE]  
 > This document is a human-readable representation of the glyphset defintions defined in code [here](/Lib/glyphsets/definitions/__init__.py) and gets updated automatically as part of the `sh build.sh` command.
@@ -20,57 +20,35 @@
 
 
 
-## GF Latin Kernel
+## GF Arabic Core
 
-GF_Latin_Kernel is **statically** defined as:
+GF_Arabic_Core is **statically** defined as:
 
-* Script: Latin
-* Codepoints defined in [GF_Latin_Kernel.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Kernel.stub.nam)
-
-> [!CAUTION]  
-> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
-> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
-
-The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/GF_glyphsets/Latin/nam/GF_Latin_Kernel.nam) (only encoded glyphs), [GF_Latin_Kernel.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Kernel.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
-
-
-## GF Latin Core
-
-GF_Latin_Core is **statically** defined as:
-
-* Script: Latin
-* Codepoints defined in [GF_Latin_Core.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Core.stub.nam)
-* Unencoded glyphs defined in [GF_Latin_Core.stub.glyphs](/GF_glyphsets/Latin/definitions/GF_Latin_Core.stub.glyphs)
+* Script: Arabic
+* Codepoints defined in [GF_Arabic_Core.stub.nam](/GF_glyphsets/Arabic/definitions/GF_Arabic_Core.stub.nam)
 * List of languages: `
-Albanian (sq_Latn),
-Catalan (ca_Latn),
-Croatian (hr_Latn),
-Czech (cs_Latn),
-Danish (da_Latn),
-Dutch (nl_Latn),
-English (en_Latn),
-Finnish (fi_Latn),
-French (fr_Latn),
-German (de_Latn),
-Hungarian (hu_Latn),
-Icelandic (is_Latn),
-Italian (it_Latn),
-Latvian (lv_Latn),
-Lithuanian (lt_Latn),
-Maltese (mt_Latn),
-Norwegian Bokmål (nb_Latn),
-Polish (pl_Latn),
-Portuguese (pt_Latn),
-Romanian (ro_Latn),
-Serbian (Latin) (sr_Latn),
-Slovak (sk_Latn),
-Spanish (es_Latn),
-Swedish (sv_Latn),
-Turkish (tr_Latn),
-Welsh (cy_Latn)
+Arabic (ar_Arab),
+Persian (fa_Arab),
+Urdu (ur_Arab)
 `
 
-The resulting glyphset can be found here: [GF_Latin_Core.nam](/GF_glyphsets/Latin/nam/GF_Latin_Core.nam) (only encoded glyphs), [GF_Latin_Core.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+The resulting glyphset can be found here: [GF_Arabic_Core.nam](/GF_glyphsets/Arabic/nam/GF_Arabic_Core.nam) (only encoded glyphs), [GF_Arabic_Core.glyphs](/GF_glyphsets/Arabic/glyphs/GF_Arabic_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Arabic.plist](/GF_glyphsets/Arabic/glyphs/CustomFilter_GF_Arabic.plist)
+
+
+## GF Arabic Plus
+
+GF_Arabic_Plus is **statically** defined as:
+
+* Script: Arabic
+* List of languages: `
+Central Kurdish (ckb_Arab),
+Malay (Arabic) (ms_Arab),
+Pashto (ps_Arab),
+Sindhi (sd_Arab),
+Uyghur (ug_Arab)
+`
+
+The resulting glyphset can be found here: [GF_Arabic_Plus.nam](/GF_glyphsets/Arabic/nam/GF_Arabic_Plus.nam) (only encoded glyphs), [GF_Arabic_Plus.glyphs](/GF_glyphsets/Arabic/glyphs/GF_Arabic_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Arabic.plist](/GF_glyphsets/Arabic/glyphs/CustomFilter_GF_Arabic.plist)
 
 
 ## GF Latin African
@@ -757,33 +735,55 @@ ut-Ma’in (gel_Latn)
 The resulting glyphset can be found here: [GF_Latin_African.nam](/GF_glyphsets/Latin/nam/GF_Latin_African.nam) (only encoded glyphs), [GF_Latin_African.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_African.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
-## GF Arabic Core
+## GF Latin Core
 
-GF_Arabic_Core is **statically** defined as:
+GF_Latin_Core is **statically** defined as:
 
-* Script: Arabic
-* Codepoints defined in [GF_Arabic_Core.stub.nam](/GF_glyphsets/Arabic/definitions/GF_Arabic_Core.stub.nam)
+* Script: Latin
+* Codepoints defined in [GF_Latin_Core.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Core.stub.nam)
+* Unencoded glyphs defined in [GF_Latin_Core.stub.glyphs](/GF_glyphsets/Latin/definitions/GF_Latin_Core.stub.glyphs)
 * List of languages: `
-Arabic (ar_Arab),
-Persian (fa_Arab),
-Urdu (ur_Arab)
+Albanian (sq_Latn),
+Catalan (ca_Latn),
+Croatian (hr_Latn),
+Czech (cs_Latn),
+Danish (da_Latn),
+Dutch (nl_Latn),
+English (en_Latn),
+Finnish (fi_Latn),
+French (fr_Latn),
+German (de_Latn),
+Hungarian (hu_Latn),
+Icelandic (is_Latn),
+Italian (it_Latn),
+Latvian (lv_Latn),
+Lithuanian (lt_Latn),
+Maltese (mt_Latn),
+Norwegian Bokmål (nb_Latn),
+Polish (pl_Latn),
+Portuguese (pt_Latn),
+Romanian (ro_Latn),
+Serbian (Latin) (sr_Latn),
+Slovak (sk_Latn),
+Spanish (es_Latn),
+Swedish (sv_Latn),
+Turkish (tr_Latn),
+Welsh (cy_Latn)
 `
 
-The resulting glyphset can be found here: [GF_Arabic_Core.nam](/GF_glyphsets/Arabic/nam/GF_Arabic_Core.nam) (only encoded glyphs), [GF_Arabic_Core.glyphs](/GF_glyphsets/Arabic/glyphs/GF_Arabic_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Arabic.plist](/GF_glyphsets/Arabic/glyphs/CustomFilter_GF_Arabic.plist)
+The resulting glyphset can be found here: [GF_Latin_Core.nam](/GF_glyphsets/Latin/nam/GF_Latin_Core.nam) (only encoded glyphs), [GF_Latin_Core.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
-## GF Arabic Plus
+## GF Latin Kernel
 
-GF_Arabic_Plus is **statically** defined as:
+GF_Latin_Kernel is **statically** defined as:
 
-* Script: Arabic
-* List of languages: `
-Central Kurdish (ckb_Arab),
-Malay (Arabic) (ms_Arab),
-Pashto (ps_Arab),
-Sindhi (sd_Arab),
-Uyghur (ug_Arab)
-`
+* Script: Latin
+* Codepoints defined in [GF_Latin_Kernel.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Kernel.stub.nam)
 
-The resulting glyphset can be found here: [GF_Arabic_Plus.nam](/GF_glyphsets/Arabic/nam/GF_Arabic_Plus.nam) (only encoded glyphs), [GF_Arabic_Plus.glyphs](/GF_glyphsets/Arabic/glyphs/GF_Arabic_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Arabic.plist](/GF_glyphsets/Arabic/glyphs/CustomFilter_GF_Arabic.plist)
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/GF_glyphsets/Latin/nam/GF_Latin_Kernel.nam) (only encoded glyphs), [GF_Latin_Kernel.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Kernel.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 

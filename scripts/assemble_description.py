@@ -9,7 +9,7 @@ import os
 # so that up-to-date version of glyphsets package is used
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "Lib"))
 from glyphsets import (
-    glyphset_definitions,
+    defined_glyphsets,
     description_per_glyphset,
 )  # noqa: E402
 
@@ -31,7 +31,7 @@ if __name__ == "__main__":
     # TOC
     md.append("# Table of Conents:\n\n")
 
-    for glyphset_name in glyphset_definitions:
+    for glyphset_name in defined_glyphsets():
         _new_md, warning = description_per_glyphset(glyphset_name)
         warning_md = " ✅"
         if warning:
@@ -53,7 +53,7 @@ if __name__ == "__main__":
     md.append("\n")
 
     # Content
-    for glyphset_name in glyphset_definitions:
+    for glyphset_name in defined_glyphsets():
         new_md, _warning = description_per_glyphset(glyphset_name)
         md.append(new_md)
 

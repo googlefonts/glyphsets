@@ -286,7 +286,7 @@ languages = gflanguages.LoadLanguages()
 
 
 def defined_glyphsets():
-    return glyphset_definitions.keys()
+    return sorted(glyphset_definitions.keys())
 
 
 def unicodes_per_glyphset(glyphset_name):
