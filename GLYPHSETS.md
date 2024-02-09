@@ -1,11 +1,11 @@
 # Table of Conents:
 
 
-* [GF Latin Kernel :caution:](#gf-latin-kernel)
-* [GF Latin Core](#gf-latin-core)
-* [GF Latin African](#gf-latin-african)
-* [GF Arabic Core](#gf-arabic-core)
-* [GF Arabic Plus](#gf-arabic-plus)
+* [GF Latin Kernel 🛑](#gf-latin-kernel)
+* [GF Latin Core ✅](#gf-latin-core)
+* [GF Latin African ✅](#gf-latin-african)
+* [GF Arabic Core ✅](#gf-arabic-core)
+* [GF Arabic Plus ✅](#gf-arabic-plus)
 
 > [!NOTE]  
 > This document is a human-readable representation of the glyphset defintions defined in code [here](/Lib/glyphsets/definitions/__init__.py) and gets updated automatically as part of the `sh build.sh` command.

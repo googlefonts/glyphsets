@@ -33,9 +33,9 @@ if __name__ == "__main__":
 
     for glyphset_name in glyphset_definitions:
         _new_md, warning = description_per_glyphset(glyphset_name)
-        warning_md = ""
+        warning_md = " ✅"
         if warning:
-            warning_md = " :caution:"
+            warning_md = " 🛑"
         md.append(
             f"* [{glyphset_name.replace('_', ' ')}{warning_md}](#{glyphset_name.lower().replace('_', '-')})"
         )
