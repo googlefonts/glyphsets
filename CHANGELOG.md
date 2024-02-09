@@ -4,6 +4,7 @@ Below are the most important changes from each release.
 #### Changes since last release
 
 - Made human-readable description available in /GLYPHSETS.md
+- Changed API, consequently updated Fontbakery's usage of the API
 
 ### v0.6.11 (2023-Dec-15)
 #### Changes since last release
