@@ -377,7 +377,7 @@ def description_per_glyphset(glyphset_name):
     if regions:
         md += (
             "* All languages of the countries `\n"
-            + ", \n".join(sorted(map(add_country, regions)))
+            + ",\n".join(sorted(map(add_country, regions)))
             + "\n`\n"
         )
     if population:
@@ -388,9 +388,17 @@ def description_per_glyphset(glyphset_name):
         md += "* Including auxiliary characters\n"
 
     if regions and language_codes:
-        md += f"* Additionally, the following languages are defined **statically**: `{', '.join(sorted(map(add_language, language_codes)))}`\n"
+        md += (
+            "* Additionally, the following languages are defined **statically**: `\n"
+            + ",\n".join(sorted(map(add_language, language_codes)))
+            + "\n`\n"
+        )
     elif not regions and language_codes:
-        md += f"* List of languages: `{', '.join(sorted(map(add_language, language_codes)))}`\n"
+        md += (
+            "* List of languages: `\n"
+            + ", \n".join(sorted(map(add_language, language_codes)))
+            + "\n`\n"
+        )
     elif not regions and not language_codes:
         md += "\n> [!CAUTION]  \n> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.\n> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).\n"
         warning = True
@@ -399,7 +407,11 @@ def description_per_glyphset(glyphset_name):
 
     if regions:
         _languages_per_glyphset = languages_per_glyphset(glyphset_name)
-        md += f"\nThe following list of **{len(_languages_per_glyphset)}** languages is computed as a result of the dynamic conditions described above:\n\n`{', '.join(sorted(map(add_language, _languages_per_glyphset)))}`\n\n"
+        md += (
+            f"\nThe following list of **{len(_languages_per_glyphset)}** languages is computed as a result of the dynamic conditions described above:\n\n`\n"
+            + ", \n".join(sorted(map(add_language, _languages_per_glyphset)))
+            + "\n`\n\n"
+        )
 
     md += f"The resulting glyphset can be found here: [{glyphset_name}.nam](/GF_glyphsets/{script}/nam/{glyphset_name}.nam) (only encoded glyphs), [{glyphset_name}.glyphs](/GF_glyphsets/{script}/glyphs/{glyphset_name}.glyphs) (all glyphs), as well as part of [CustomFilter_GF_{script}.plist](/GF_glyphsets/{script}/glyphs/CustomFilter_GF_{script}.plist)\n\n"
     return md, warning
