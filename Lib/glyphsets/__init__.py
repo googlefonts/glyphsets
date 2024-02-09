@@ -375,7 +375,11 @@ def description_per_glyphset(glyphset_name):
     if os.path.exists(glyphs_stub_path):
         md += f"* Unencoded glyphs defined in [{os.path.basename(glyphs_stub_path)}](/GF_glyphsets/{script}/definitions/{os.path.basename(glyphs_stub_path)})\n"
     if regions:
-        md += f"* All languages of the countries `{', '.join(sorted(map(add_country, regions)))}`\n"
+        md += (
+            "* All languages of the countries `\n"
+            + ", \n".join(sorted(map(add_country, regions)))
+            + "\n`\n"
+        )
     if population:
         md += f"* With a population of over {population} speakers\n"
     if historical:
