@@ -131,21 +131,23 @@ def description_per_glyphset(glyphset_name):
     if population:
         md += f"* With a population of over {population} speakers\n"
     if historical:
-        md += f"* Including historical languages\n"
+        md += "* Including historical languages\n"
     if use_aux:
-        md += f"* Including auxiliary characters\n"
+        md += "* Including auxiliary characters\n"
 
     if regions and language_codes:
         md += f"* Additionally, the following languages are defined manually: {language_codes}\n"
     elif not regions and language_codes:
         md += f"* Manually defined languages: {', '.join(language_codes)}\n"
     elif not regions and not language_codes:
-        md += f"\n🛑 Since this glyphset has no defined languages, it can't be checked via Fontbakery's shape_languages check. Please add language code definions here.\n"
+        md += "\n🛑 Since this glyphset has no defined languages, it can't be checked via Fontbakery's shape_languages check. Please add language code definions here.\n"
+
+    md += "\n"
 
     if regions:
-        md += f"\nThe following list of languages is computed as a result of the conditions described above:\n{', '.join(languages_per_glyphset(glyphset_name))}"
+        md += f"\nThe following list of languages is computed as a result of the conditions described above:\n\n{', '.join(languages_per_glyphset(glyphset_name))}\n\n"
 
-    md += "\n\n"
+    md += f"The resulting glyphset can be found here: [{glyphset_name}.nam](/Lib/glyphsets/definitions/nam/{glyphset_name}.nam)\n\n"
     return md
 
 
