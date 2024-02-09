@@ -15,6 +15,10 @@
 > The symbols ✅ and 🛑 above denote whether or not this glyphset is available as part of Fontbakery's `shape_languages` check.
 
 
+> [!NOTE]  
+> There are other glyphsets covered under the old approach that are still available in [/GF_glyphsets](/GF_glyphsets) but are not part of this document and not available to Fontbakery's `shape_languages` check.
+
+
 
 ## GF Latin Kernel
 
