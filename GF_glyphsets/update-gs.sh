@@ -33,9 +33,3 @@ do
         glyphsets filter-list $set -o $script/txt/prod-names/$set.txt --prod-names
     done
 done
-
-# Language definition overhaul:
-# After all the files were created using the old approach,
-# now use the new approach to replace files for those glyphsets
-# that are supported under the new approach
-python ../scripts/assemble_charactersets.py
