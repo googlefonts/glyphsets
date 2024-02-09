@@ -1,6 +1,6 @@
 Below are the most important changes from each release.
 
-### v0.6.12 (2024-Feb-9)
+### v0.6.13 (2024-Feb-9)
 #### Changes since last release
 
 - Made human-readable description available in /GLYPHSETS.md
