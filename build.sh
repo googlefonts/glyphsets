@@ -1,0 +1,2 @@
+python scripts/assemble_charactersets.py
+python scripts/assemble_description.py

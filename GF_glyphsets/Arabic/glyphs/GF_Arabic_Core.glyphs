@@ -1,598 +1,659 @@
 {
-.appVersion = "895";
-customParameters = (
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
 {
-name = Axes;
-value = (
-);
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
 }
 );
+date = "2023-12-13 14:28:10 +0000";
 familyName = GF_Arabic_Core;
 fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
 );
 glyphs = (
 {
 glyphname = percent;
-unicode = 0025;
+unicode = 37;
 },
 {
 glyphname = plus;
-unicode = 002B;
+unicode = 43;
 },
 {
 glyphname = less;
-unicode = 003C;
+unicode = 60;
 },
 {
 glyphname = equal;
-unicode = 003D;
+unicode = 61;
 },
 {
 glyphname = greater;
-unicode = 003E;
+unicode = 62;
 },
 {
 glyphname = bar;
-unicode = 007C;
+unicode = 124;
 },
 {
 glyphname = multiply;
-unicode = 00D7;
+unicode = 215;
 },
 {
 glyphname = divide;
-unicode = 00F7;
+unicode = 247;
 },
 {
 glyphname = "perthousand-ar";
-unicode = 0609;
+unicode = 1545;
 },
 {
 glyphname = "mark-ar";
-unicode = 061C;
+unicode = 1564;
 },
 {
 glyphname = "percent-ar";
-unicode = 066A;
+unicode = 1642;
 },
 {
 glyphname = minus;
-unicode = 2212;
+unicode = 8722;
 },
 {
 glyphname = space;
-unicode = 0020;
+unicode = 32;
 },
 {
 glyphname = nbspace;
-unicode = 00A0;
+unicode = 160;
 },
 {
 glyphname = lefttorightmark;
-unicode = 200E;
+unicode = 8206;
 },
 {
 glyphname = exclam;
-unicode = 0021;
+unicode = 33;
 },
 {
 glyphname = quotedbl;
-unicode = 0022;
+unicode = 34;
 },
 {
 glyphname = numbersign;
-unicode = 0023;
+unicode = 35;
 },
 {
 glyphname = quotesingle;
-unicode = 0027;
+unicode = 39;
 },
 {
 glyphname = parenleft;
-unicode = 0028;
+unicode = 40;
 },
 {
 glyphname = parenright;
-unicode = 0029;
+unicode = 41;
 },
 {
 glyphname = asterisk;
-unicode = 002A;
+unicode = 42;
 },
 {
 glyphname = comma;
-unicode = 002C;
+unicode = 44;
 },
 {
 glyphname = hyphen;
-unicode = 002D;
+unicode = 45;
 },
 {
 glyphname = period;
-unicode = 002E;
+unicode = 46;
 },
 {
 glyphname = slash;
-unicode = 002F;
+unicode = 47;
 },
 {
 glyphname = colon;
-unicode = 003A;
+unicode = 58;
 },
 {
 glyphname = bracketleft;
-unicode = 005B;
+unicode = 91;
 },
 {
 glyphname = backslash;
-unicode = 005C;
+unicode = 92;
 },
 {
 glyphname = bracketright;
-unicode = 005D;
+unicode = 93;
 },
 {
 glyphname = braceleft;
-unicode = 007B;
+unicode = 123;
 },
 {
 glyphname = braceright;
-unicode = 007D;
+unicode = 125;
 },
 {
 glyphname = guillemetleft;
-unicode = 00AB;
+unicode = 171;
 },
 {
 glyphname = guillemetright;
-unicode = 00BB;
+unicode = 187;
 },
 {
 glyphname = "comma-ar";
-unicode = 060C;
+unicode = 1548;
 },
 {
 glyphname = "dateseparator-ar";
-unicode = 060D;
+unicode = 1549;
 },
 {
 glyphname = "semicolon-ar";
-unicode = 061B;
+unicode = 1563;
 },
 {
 glyphname = "question-ar";
-unicode = 061F;
+unicode = 1567;
 },
 {
 glyphname = "asterisk-ar";
-unicode = 066D;
+unicode = 1645;
 },
 {
 glyphname = "fullstop-ar";
-unicode = 06D4;
+unicode = 1748;
 },
 {
 glyphname = endash;
-unicode = 2013;
+unicode = 8211;
 },
 {
 glyphname = emdash;
-unicode = 2014;
+unicode = 8212;
 },
 {
 glyphname = quoteleft;
-unicode = 2018;
+unicode = 8216;
 },
 {
 glyphname = quoteright;
-unicode = 2019;
+unicode = 8217;
 },
 {
 glyphname = quotedblleft;
-unicode = 201C;
+unicode = 8220;
 },
 {
 glyphname = quotedblright;
-unicode = 201D;
+unicode = 8221;
 },
 {
 glyphname = ellipsis;
-unicode = 2026;
+unicode = 8230;
 },
 {
 glyphname = guilsinglleft;
-unicode = 2039;
+unicode = 8249;
 },
 {
 glyphname = guilsinglright;
-unicode = 203A;
+unicode = 8250;
 },
 {
 glyphname = "parenleft-ar";
-unicode = FD3E;
+unicode = 64830;
 },
 {
 glyphname = "parenright-ar";
-unicode = FD3F;
+unicode = 64831;
 },
 {
 glyphname = zero;
-unicode = 0030;
+unicode = 48;
 },
 {
 glyphname = one;
-unicode = 0031;
+unicode = 49;
 },
 {
 glyphname = two;
-unicode = 0032;
+unicode = 50;
 },
 {
 glyphname = three;
-unicode = 0033;
+unicode = 51;
 },
 {
 glyphname = four;
-unicode = 0034;
+unicode = 52;
 },
 {
 glyphname = five;
-unicode = 0035;
+unicode = 53;
 },
 {
 glyphname = six;
-unicode = 0036;
+unicode = 54;
 },
 {
 glyphname = seven;
-unicode = 0037;
+unicode = 55;
 },
 {
 glyphname = eight;
-unicode = 0038;
+unicode = 56;
 },
 {
 glyphname = nine;
-unicode = 0039;
+unicode = 57;
 },
 {
 glyphname = "zero-ar";
-unicode = 0660;
+unicode = 1632;
 },
 {
 glyphname = "one-ar";
-unicode = 0661;
+unicode = 1633;
 },
 {
 glyphname = "two-ar";
-unicode = 0662;
+unicode = 1634;
 },
 {
 glyphname = "three-ar";
-unicode = 0663;
+unicode = 1635;
 },
 {
 glyphname = "four-ar";
-unicode = 0664;
+unicode = 1636;
 },
 {
 glyphname = "five-ar";
-unicode = 0665;
+unicode = 1637;
 },
 {
 glyphname = "six-ar";
-unicode = 0666;
+unicode = 1638;
 },
 {
 glyphname = "seven-ar";
-unicode = 0667;
+unicode = 1639;
 },
 {
 glyphname = "eight-ar";
-unicode = 0668;
+unicode = 1640;
 },
 {
 glyphname = "nine-ar";
-unicode = 0669;
+unicode = 1641;
 },
 {
 glyphname = "decimalseparator-ar";
-unicode = 066B;
+unicode = 1643;
 },
 {
 glyphname = "thousandseparator-ar";
-unicode = 066C;
+unicode = 1644;
 },
 {
 glyphname = "zero-persian";
-unicode = 06F0;
+unicode = 1776;
 },
 {
 glyphname = "one-persian";
-unicode = 06F1;
+unicode = 1777;
 },
 {
 glyphname = "two-persian";
-unicode = 06F2;
+unicode = 1778;
 },
 {
 glyphname = "three-persian";
-unicode = 06F3;
+unicode = 1779;
 },
 {
 glyphname = "four-persian";
-unicode = 06F4;
+unicode = 1780;
 },
 {
 glyphname = "five-persian";
-unicode = 06F5;
+unicode = 1781;
 },
 {
 glyphname = "six-persian";
-unicode = 06F6;
+unicode = 1782;
 },
 {
 glyphname = "seven-persian";
-unicode = 06F7;
+unicode = 1783;
 },
 {
 glyphname = "eight-persian";
-unicode = 06F8;
+unicode = 1784;
 },
 {
 glyphname = "nine-persian";
-unicode = 06F9;
+unicode = 1785;
 },
 {
 glyphname = "fathatan-ar";
-unicode = 064B;
+unicode = 1611;
 },
 {
 glyphname = "dammatan-ar";
-unicode = 064C;
+unicode = 1612;
 },
 {
 glyphname = "kasratan-ar";
-unicode = 064D;
+unicode = 1613;
 },
 {
 glyphname = "fatha-ar";
-unicode = 064E;
+unicode = 1614;
 },
 {
 glyphname = "damma-ar";
-unicode = 064F;
+unicode = 1615;
 },
 {
 glyphname = "kasra-ar";
-unicode = 0650;
+unicode = 1616;
 },
 {
 glyphname = "shadda-ar";
-unicode = 0651;
+unicode = 1617;
 },
 {
 glyphname = "sukun-ar";
-unicode = 0652;
+unicode = 1618;
 },
 {
 glyphname = "madda-ar";
-unicode = 0653;
+unicode = 1619;
 },
 {
 glyphname = "hamzaabove-ar";
-unicode = 0654;
+unicode = 1620;
 },
 {
 glyphname = "hamzabelow-ar";
-unicode = 0655;
+unicode = 1621;
 },
 {
 glyphname = "alefabove-ar";
-unicode = 0670;
+unicode = 1648;
 },
 {
 glyphname = "hamza-ar";
-unicode = 0621;
+unicode = 1569;
 },
 {
 glyphname = "alefMadda-ar";
-unicode = 0622;
+unicode = 1570;
 },
 {
 glyphname = "alefHamzaabove-ar";
-unicode = 0623;
+unicode = 1571;
 },
 {
 glyphname = "wawHamzaabove-ar";
-unicode = 0624;
+unicode = 1572;
 },
 {
 glyphname = "alefHamzabelow-ar";
-unicode = 0625;
+unicode = 1573;
 },
 {
 glyphname = "yehHamzaabove-ar";
-unicode = 0626;
+unicode = 1574;
 },
 {
 glyphname = "alef-ar";
-unicode = 0627;
+unicode = 1575;
 },
 {
 glyphname = "beh-ar";
-unicode = 0628;
+unicode = 1576;
 },
 {
 glyphname = "tehMarbuta-ar";
-unicode = 0629;
+unicode = 1577;
 },
 {
 glyphname = "teh-ar";
-unicode = 062A;
+unicode = 1578;
 },
 {
 glyphname = "theh-ar";
-unicode = 062B;
+unicode = 1579;
 },
 {
 glyphname = "jeem-ar";
-unicode = 062C;
+unicode = 1580;
 },
 {
 glyphname = "hah-ar";
-unicode = 062D;
+unicode = 1581;
 },
 {
 glyphname = "khah-ar";
-unicode = 062E;
+unicode = 1582;
 },
 {
 glyphname = "dal-ar";
-unicode = 062F;
+unicode = 1583;
 },
 {
 glyphname = "thal-ar";
-unicode = 0630;
+unicode = 1584;
 },
 {
 glyphname = "reh-ar";
-unicode = 0631;
+unicode = 1585;
 },
 {
 glyphname = "zain-ar";
-unicode = 0632;
+unicode = 1586;
 },
 {
 glyphname = "seen-ar";
-unicode = 0633;
+unicode = 1587;
 },
 {
 glyphname = "sheen-ar";
-unicode = 0634;
+unicode = 1588;
 },
 {
 glyphname = "sad-ar";
-unicode = 0635;
+unicode = 1589;
 },
 {
 glyphname = "dad-ar";
-unicode = 0636;
+unicode = 1590;
 },
 {
 glyphname = "tah-ar";
-unicode = 0637;
+unicode = 1591;
 },
 {
 glyphname = "zah-ar";
-unicode = 0638;
+unicode = 1592;
 },
 {
 glyphname = "ain-ar";
-unicode = 0639;
+unicode = 1593;
 },
 {
 glyphname = "ghain-ar";
-unicode = 063A;
+unicode = 1594;
 },
 {
 glyphname = "kashida-ar";
-unicode = 0640;
+unicode = 1600;
 },
 {
 glyphname = "feh-ar";
-unicode = 0641;
+unicode = 1601;
 },
 {
 glyphname = "qaf-ar";
-unicode = 0642;
+unicode = 1602;
 },
 {
 glyphname = "kaf-ar";
-unicode = 0643;
+unicode = 1603;
 },
 {
 glyphname = "lam-ar";
-unicode = 0644;
+unicode = 1604;
 },
 {
 glyphname = "meem-ar";
-unicode = 0645;
+unicode = 1605;
 },
 {
 glyphname = "noon-ar";
-unicode = 0646;
+unicode = 1606;
 },
 {
 glyphname = "heh-ar";
-unicode = 0647;
+unicode = 1607;
 },
 {
 glyphname = "waw-ar";
-unicode = 0648;
+unicode = 1608;
 },
 {
 glyphname = "alefMaksura-ar";
-unicode = 0649;
+unicode = 1609;
 },
 {
 glyphname = "yeh-ar";
-unicode = 064A;
+unicode = 1610;
 },
 {
 glyphname = "tteh-ar";
-unicode = 0679;
+unicode = 1657;
 },
 {
 glyphname = "peh-ar";
-unicode = 067E;
+unicode = 1662;
 },
 {
 glyphname = "tcheh-ar";
-unicode = 0686;
+unicode = 1670;
 },
 {
 glyphname = "ddal-ar";
-unicode = 0688;
+unicode = 1672;
 },
 {
 glyphname = "rreh-ar";
-unicode = 0691;
+unicode = 1681;
 },
 {
 glyphname = "jeh-ar";
-unicode = 0698;
+unicode = 1688;
 },
 {
 glyphname = "keheh-ar";
-unicode = 06A9;
+unicode = 1705;
 },
 {
 glyphname = "gaf-ar";
-unicode = 06AF;
+unicode = 1711;
 },
 {
 glyphname = "hehDoachashmee-ar";
-unicode = 06BE;
+unicode = 1726;
 },
 {
 glyphname = "hehgoal-ar";
-unicode = 06C1;
+unicode = 1729;
 },
 {
 glyphname = "yeh-farsi";
-unicode = 06CC;
+unicode = 1740;
 },
 {
 glyphname = "yehbarree-ar";
-unicode = 06D2;
+unicode = 1746;
 },
 {
 glyphname = "kehehThreedotsabove-ar";
-unicode = 0763;
+unicode = 1891;
 }
 );
 instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
 );
 unitsPerEm = 1000;
 versionMajor = 1;

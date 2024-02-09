@@ -16,8 +16,11 @@ from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
 # Insert local module path at beginning of sys.path
 # so that up-to-date version of glyphsets package is used
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "Lib"))
-from glyphsets.definitions import glyphset_definitions  # noqa: E402
-from glyphsets.definitions import unicodes_per_glyphset  # noqa: E402
+from glyphsets.definitions import (
+    glyphset_definitions,
+    unicodes_per_glyphset,
+    languages_per_glyphset,
+)  # noqa: E402
 
 
 def sort_unicodes(a, b):
@@ -44,12 +47,9 @@ def sort_by_category(a, b):
 
 
 def assemble_characterset(root_folder, glyphset_name):
-    script = glyphset_definitions[glyphset_name]["script"]
-    language_codes = glyphset_definitions[glyphset_name].get("language_codes", [])
-    regions = glyphset_definitions[glyphset_name].get("regions")
+    language_codes = languages_per_glyphset(glyphset_name)
     use_aux = glyphset_definitions[glyphset_name].get("use_auxiliary", False)
-    historical = glyphset_definitions[glyphset_name].get("historical", False)
-    population = glyphset_definitions[glyphset_name].get("population", False)
+    script = glyphset_definitions[glyphset_name]["script"]
 
     nam_stub_path = os.path.join(
         root_folder, script, "definitions", f"{glyphset_name}.stub.nam"
@@ -85,17 +85,6 @@ def assemble_characterset(root_folder, glyphset_name):
 
     # Assemble character sets from gflanguages
     languages = gflanguages.LoadLanguages()
-    if regions:
-        for language in languages.values():
-            if not historical and language.historical:
-                continue
-            if population > language.population:
-                continue
-            if (
-                set(language.region).intersection(set(regions))
-                and SCRIPT_NAMES[language.script] == script
-            ):
-                language_codes.append(language.id)
     for language_code in language_codes:
         chars = languages[language_code].exemplar_chars
         # chars.base.upper() is important because many Latin languages don't
