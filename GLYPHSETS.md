@@ -8,7 +8,7 @@
 * [GF Arabic Plus](#gf-arabic-plus)
 
 > [!NOTE]  
-> Definitions reside [here](/Lib/glyphsets/definitions/__init__.py).
+> This document is a human-readable representation of the glyphset defintions defined in code [here](/Lib/glyphsets/definitions/__init__.py) and gets updated automatically as part of the `sh build.sh` command.
 
 
 
