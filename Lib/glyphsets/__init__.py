@@ -351,6 +351,16 @@ def description_per_glyphset(glyphset_name):
     historical = glyphset_definitions[glyphset_name].get("historical", False)
     population = glyphset_definitions[glyphset_name].get("population", False)
 
+    root_folder = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "..", "GF_Glyphsets")
+    )
+    nam_stub_path = os.path.join(
+        root_folder, script, "definitions", f"{glyphset_name}.stub.nam"
+    )
+    glyphs_stub_path = os.path.join(
+        root_folder, script, "definitions", f"{glyphset_name}.stub.glyphs"
+    )
+
     warning = False
     md = ""
 
@@ -360,6 +370,10 @@ def description_per_glyphset(glyphset_name):
     else:
         md += f"{glyphset_name} is **statically** defined as:\n\n"
     md += f"* Script: {script}\n"
+    if os.path.exists(nam_stub_path):
+        md += f"* Codepoints defined in [{os.path.basename(nam_stub_path)}](/GF_glyphsets/{script}/definitions/{os.path.basename(nam_stub_path)})\n"
+    if os.path.exists(glyphs_stub_path):
+        md += f"* Unencoded glyphs defined in [{os.path.basename(glyphs_stub_path)}](/GF_glyphsets/{script}/definitions/{os.path.basename(glyphs_stub_path)})\n"
     if regions:
         md += f"* All languages of the countries `{', '.join(sorted(map(add_country, regions)))}`\n"
     if population:

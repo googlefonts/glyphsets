@@ -17,6 +17,7 @@
 GF_Latin_Kernel is **statically** defined as:
 
 * Script: Latin
+* Codepoints defined in [GF_Latin_Kernel.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Kernel.stub.nam)
 
 > [!WARNING]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check. Please add language code definions here.
@@ -29,6 +30,8 @@ The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/Lib/glyphsets/d
 GF_Latin_Core is **statically** defined as:
 
 * Script: Latin
+* Codepoints defined in [GF_Latin_Core.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Core.stub.nam)
+* Unencoded glyphs defined in [GF_Latin_Core.stub.glyphs](/GF_glyphsets/Latin/definitions/GF_Latin_Core.stub.glyphs)
 * List of languages: `Albanian (sq_Latn), Catalan (ca_Latn), Croatian (hr_Latn), Czech (cs_Latn), Danish (da_Latn), Dutch (nl_Latn), English (en_Latn), Finnish (fi_Latn), French (fr_Latn), German (de_Latn), Hungarian (hu_Latn), Icelandic (is_Latn), Italian (it_Latn), Latvian (lv_Latn), Lithuanian (lt_Latn), Maltese (mt_Latn), Norwegian Bokmål (nb_Latn), Polish (pl_Latn), Portuguese (pt_Latn), Romanian (ro_Latn), Serbian (Latin) (sr_Latn), Slovak (sk_Latn), Spanish (es_Latn), Swedish (sv_Latn), Turkish (tr_Latn), Welsh (cy_Latn)`
 
 The resulting glyphset can be found here: [GF_Latin_Core.nam](/Lib/glyphsets/definitions/nam/GF_Latin_Core.nam)
@@ -56,6 +59,7 @@ The resulting glyphset can be found here: [GF_Latin_African.nam](/Lib/glyphsets/
 GF_Arabic_Core is **statically** defined as:
 
 * Script: Arabic
+* Codepoints defined in [GF_Arabic_Core.stub.nam](/GF_glyphsets/Arabic/definitions/GF_Arabic_Core.stub.nam)
 * List of languages: `Arabic (ar_Arab), Persian (fa_Arab), Urdu (ur_Arab)`
 
 The resulting glyphset can be found here: [GF_Arabic_Core.nam](/Lib/glyphsets/definitions/nam/GF_Arabic_Core.nam)
