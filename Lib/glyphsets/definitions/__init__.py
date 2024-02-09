@@ -59,7 +59,7 @@ glyphset_definitions = {
             "ckb_Arab",  # Kurdish
             "ms_Arab",  # Malay
             "ps_Arab",  # Pashto
-            "ps_Arab",  # Sindhi
+            "sd_Arab",  # Sindhi
             "ug_Arab",  # Uyghur
         ],
     },

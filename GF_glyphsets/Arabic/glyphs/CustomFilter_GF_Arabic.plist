@@ -581,23 +581,41 @@
 			<string>decimalseparator-ar</string>
 			<string>thousandseparator-ar</string>
 			<string>alefabove-ar</string>
+			<string>tteheh-ar</string>
+			<string>beeh-ar</string>
 			<string>tehRing-ar</string>
+			<string>tehThreedotsdown-ar</string>
 			<string>peh-ar</string>
+			<string>teheh-ar</string>
+			<string>beheh-ar</string>
 			<string>hahHamzaabove-ar</string>
+			<string>nyeh-ar</string>
+			<string>dyeh-ar</string>
 			<string>hahThreedotsabove-ar</string>
 			<string>tcheh-ar</string>
+			<string>tcheheh-ar</string>
 			<string>dalRing-ar</string>
+			<string>dalDotbelow-ar</string>
+			<string>dahal-ar</string>
+			<string>ddahal-ar</string>
+			<string>dalThreedotsdown-ar</string>
 			<string>rehRing-ar</string>
 			<string>rehVbelow-ar</string>
 			<string>rehDotbelowdotabove-ar</string>
 			<string>jeh-ar</string>
+			<string>rehFourdots-ar</string>
 			<string>seenDotbelowDotabove-ar</string>
 			<string>veh-ar</string>
+			<string>peheh-ar</string>
 			<string>keheh-ar</string>
+			<string>kafswash-ar</string>
 			<string>kafRing-ar</string>
 			<string>ng-ar</string>
 			<string>gaf-ar</string>
+			<string>ngoeh-ar</string>
+			<string>gueh-ar</string>
 			<string>lamVabove-ar</string>
+			<string>rnoon-ar</string>
 			<string>noonRing-ar</string>
 			<string>hehDoachashmee-ar</string>
 			<string>oe-ar</string>
@@ -625,7 +643,9 @@
 			<string>lefttorightmark</string>
 			<string>righttoleftmark</string>
 			<string>quoteleft</string>
+			<string>reversedsemicolon</string>
 			<string>minus</string>
+			<string>commareversed</string>
 		</array>
 		<key>name</key>
 		<string>GF_Arabic_Plus</string>

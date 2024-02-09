@@ -145,6 +145,14 @@ glyphname = quoteleft;
 unicode = 8216;
 },
 {
+glyphname = reversedsemicolon;
+unicode = 8271;
+},
+{
+glyphname = commareversed;
+unicode = 11841;
+},
+{
 glyphname = zero;
 unicode = 48;
 },
@@ -453,16 +461,44 @@ glyphname = "yeh-ar";
 unicode = 1610;
 },
 {
+glyphname = "tteheh-ar";
+unicode = 1658;
+},
+{
+glyphname = "beeh-ar";
+unicode = 1659;
+},
+{
 glyphname = "tehRing-ar";
 unicode = 1660;
+},
+{
+glyphname = "tehThreedotsdown-ar";
+unicode = 1661;
 },
 {
 glyphname = "peh-ar";
 unicode = 1662;
 },
 {
+glyphname = "teheh-ar";
+unicode = 1663;
+},
+{
+glyphname = "beheh-ar";
+unicode = 1664;
+},
+{
 glyphname = "hahHamzaabove-ar";
 unicode = 1665;
+},
+{
+glyphname = "nyeh-ar";
+unicode = 1667;
+},
+{
+glyphname = "dyeh-ar";
+unicode = 1668;
 },
 {
 glyphname = "hahThreedotsabove-ar";
@@ -473,8 +509,28 @@ glyphname = "tcheh-ar";
 unicode = 1670;
 },
 {
+glyphname = "tcheheh-ar";
+unicode = 1671;
+},
+{
 glyphname = "dalRing-ar";
 unicode = 1673;
+},
+{
+glyphname = "dalDotbelow-ar";
+unicode = 1674;
+},
+{
+glyphname = "dahal-ar";
+unicode = 1676;
+},
+{
+glyphname = "ddahal-ar";
+unicode = 1677;
+},
+{
+glyphname = "dalThreedotsdown-ar";
+unicode = 1679;
 },
 {
 glyphname = "rehRing-ar";
@@ -493,6 +549,10 @@ glyphname = "jeh-ar";
 unicode = 1688;
 },
 {
+glyphname = "rehFourdots-ar";
+unicode = 1689;
+},
+{
 glyphname = "seenDotbelowDotabove-ar";
 unicode = 1690;
 },
@@ -501,8 +561,16 @@ glyphname = "veh-ar";
 unicode = 1700;
 },
 {
+glyphname = "peheh-ar";
+unicode = 1702;
+},
+{
 glyphname = "keheh-ar";
 unicode = 1705;
+},
+{
+glyphname = "kafswash-ar";
+unicode = 1706;
 },
 {
 glyphname = "kafRing-ar";
@@ -517,8 +585,20 @@ glyphname = "gaf-ar";
 unicode = 1711;
 },
 {
+glyphname = "ngoeh-ar";
+unicode = 1713;
+},
+{
+glyphname = "gueh-ar";
+unicode = 1715;
+},
+{
 glyphname = "lamVabove-ar";
 unicode = 1717;
+},
+{
+glyphname = "rnoon-ar";
+unicode = 1723;
 },
 {
 glyphname = "noonRing-ar";

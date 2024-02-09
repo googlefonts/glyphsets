@@ -66,7 +66,7 @@ The resulting glyphset can be found here: [GF_Arabic_Core.nam](/Lib/glyphsets/de
 GF_Arabic_Plus is **manually** defined as:
 
 * Script: Arabic
-* List of languages: `Central Kurdish (ckb_Arab), Malay (Arabic) (ms_Arab), Pashto (ps_Arab), Pashto (ps_Arab), Uyghur (ug_Arab)`
+* List of languages: `Central Kurdish (ckb_Arab), Malay (Arabic) (ms_Arab), Pashto (ps_Arab), Sindhi (sd_Arab), Uyghur (ug_Arab)`
 
 The resulting glyphset can be found here: [GF_Arabic_Plus.nam](/Lib/glyphsets/definitions/nam/GF_Arabic_Plus.nam)
 
