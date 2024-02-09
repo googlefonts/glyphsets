@@ -11,6 +11,7 @@ import glyphsLib
 import functools
 import plistlib
 from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
+from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
 
 # Insert local module path at beginning of sys.path
 # so that up-to-date version of glyphsets package is used
@@ -44,7 +45,11 @@ def sort_by_category(a, b):
 
 def assemble_characterset(root_folder, glyphset_name):
     script = glyphset_definitions[glyphset_name]["script"]
-    language_codes = glyphset_definitions[glyphset_name]["language_codes"]
+    language_codes = glyphset_definitions[glyphset_name].get("language_codes", [])
+    regions = glyphset_definitions[glyphset_name].get("regions")
+    use_aux = glyphset_definitions[glyphset_name].get("use_auxiliary", False)
+    historical = glyphset_definitions[glyphset_name].get("historical", False)
+    population = glyphset_definitions[glyphset_name].get("population", False)
 
     nam_stub_path = os.path.join(
         root_folder, script, "definitions", f"{glyphset_name}.stub.nam"
@@ -80,6 +85,17 @@ def assemble_characterset(root_folder, glyphset_name):
 
     # Assemble character sets from gflanguages
     languages = gflanguages.LoadLanguages()
+    if regions:
+        for language in languages.values():
+            if not historical and language.historical:
+                continue
+            if population > language.population:
+                continue
+            if (
+                set(language.region).intersection(set(regions))
+                and SCRIPT_NAMES[language.script] == script
+            ):
+                language_codes.append(language.id)
     for language_code in language_codes:
         chars = languages[language_code].exemplar_chars
         # chars.base.upper() is important because many Latin languages don't
@@ -94,7 +110,7 @@ def assemble_characterset(root_folder, glyphset_name):
                     | set(chars.marks)
                     | set(chars.numerals)
                     | set(chars.punctuation)
-                    # | set(chars.auxiliary) # Not to be part of charsets
+                    | (set(chars.auxiliary) if use_aux else set())
                 )
                 if c not in (" ", "{", "}", "◌")
             }
@@ -125,7 +141,10 @@ def assemble_characterset(root_folder, glyphset_name):
     for _i, unicode in enumerate(sorted(list(character_set))):
         unicode = f"{unicode:#0{6}X}".replace("0X", "")
         glyph_info = _lookup_attributes_by_unicode(unicode, GLYPHDATA)
-        glyph = glyphsLib.GSGlyph(glyph_info["name"])
+        if "name" in glyph_info:
+            glyph = glyphsLib.GSGlyph(glyph_info["name"])
+        else:
+            glyph = glyphsLib.GSGlyph(f"uni{unicode}")
         glyph.unicode = unicode
         font.glyphs.append(glyph)
 
@@ -147,7 +166,11 @@ def assemble_characterset(root_folder, glyphset_name):
         )
         for i, unicode in enumerate(sorted(list(character_set))):
             unicode_string = f"{unicode:#0{6}X}".replace("0X", "0x")
-            f.write(f"{unicode_string} {unicodedata.name(chr(unicode))}")
+            try:
+                unicode_name = unicodedata.name(chr(unicode))
+            except ValueError:
+                unicode_name = ""
+            f.write(f"{unicode_string} {unicode_name}")
             if i < len(character_set) - 1:
                 f.write("\n")
     shutil.copyfile(nam_path, nam_in_package_path)
@@ -183,7 +206,6 @@ if __name__ == "__main__":
             installed = line.split(" ")[-1].strip()
         if "LATEST" in line:
             latest = line.split(" ")[-1].strip()
-
     print(
         f"""
 *************************************************************

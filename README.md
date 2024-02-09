@@ -6,6 +6,7 @@ The assembly of character sets is currently undergoing a transition from the pre
 This transition is currently complete for:
 * GF_Latin_Kernel
 * GF_Latin_Core
+* GF_Latin_African
 * GF_Arabic_Core
 * GF_Arabic_Plus
 
