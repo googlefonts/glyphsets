@@ -140,7 +140,7 @@ def description_per_glyphset(glyphset_name):
     elif not regions and language_codes:
         md += f"* List of languages: {', '.join(language_codes)}\n"
     elif not regions and not language_codes:
-        md += "\n🛑 Since this glyphset has no defined languages, it can't be checked via Fontbakery's shape_languages check. Please add language code definions here.\n"
+        md += "\n🛑 Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check. Please add language code definions here.\n"
 
     md += "\n"
 
