@@ -118,6 +118,7 @@ def description_per_glyphset(glyphset_name):
     historical = glyphset_definitions[glyphset_name].get("historical", False)
     population = glyphset_definitions[glyphset_name].get("population", False)
 
+    warning = False
     md = ""
 
     md += f"## {glyphset_name.replace('_', ' ')}\n\n"
@@ -140,7 +141,8 @@ def description_per_glyphset(glyphset_name):
     elif not regions and language_codes:
         md += f"* List of languages: `{', '.join(language_codes)}`\n"
     elif not regions and not language_codes:
-        md += "\n🛑 Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check. Please add language code definions here.\n"
+        md += "\n:warning: Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check. Please add language code definions here.\n"
+        warning = True
 
     md += "\n"
 
@@ -148,7 +150,7 @@ def description_per_glyphset(glyphset_name):
         md += f"\nThe following list of languages is computed as a result of the conditions described above:\n\n`{', '.join(languages_per_glyphset(glyphset_name))}`\n\n"
 
     md += f"The resulting glyphset can be found here: [{glyphset_name}.nam](/Lib/glyphsets/definitions/nam/{glyphset_name}.nam)\n\n"
-    return md
+    return md, warning
 
 
 if __name__ == "__main__":

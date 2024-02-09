@@ -32,15 +32,20 @@ if __name__ == "__main__":
     md.append("# Table of Conents:\n\n")
 
     for glyphset_name in glyphset_definitions:
+        _new_md, warning = description_per_glyphset(glyphset_name)
+        warning_md = ""
+        if warning:
+            warning_md = " :warning:"
         md.append(
-            f"* [{glyphset_name.replace('_', ' ')}](#{glyphset_name.lower().replace('_', '-')})"
+            f"* [{glyphset_name.replace('_', ' ')}{warning_md}](#{glyphset_name.lower().replace('_', '-')})"
         )
 
     md.append("\n")
 
     # Content
     for glyphset_name in glyphset_definitions:
-        md.append(description_per_glyphset(glyphset_name))
+        new_md, _warning = description_per_glyphset(glyphset_name)
+        md.append(new_md)
 
     with open(os.path.join(repo_root_folder, "GLYPHSETS.md"), "w") as f:
         f.write("\n".join(md))
