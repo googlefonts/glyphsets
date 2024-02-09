@@ -11,6 +11,10 @@
 > This document is a human-readable representation of the glyphset defintions defined in code [here](/Lib/glyphsets/definitions/__init__.py) and gets updated automatically as part of the `sh build.sh` command.
 
 
+> [!NOTE]  
+> The symbols ✅ and 🛑 above denote whether or not this glyphset is available as part of Fontbakery's `shape_languages` check.
+
+
 
 ## GF Latin Kernel
 
