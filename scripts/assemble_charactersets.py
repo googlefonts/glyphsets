@@ -219,8 +219,8 @@ if __name__ == "__main__":
         os.path.join(os.path.dirname(__file__), "..", "GF_Glyphsets")
     )
 
-    # for glyphset_name in glyphset_definitions:
-    #     print(f"Assembling '{glyphset_name}'...")
-    #     assemble_characterset(root_folder, glyphset_name)
-    #     # Proof of work:
-    #     assert unicodes_per_glyphset(glyphset_name) != []
+    for glyphset_name in glyphset_definitions:
+        print(f"Assembling '{glyphset_name}'...")
+        assemble_characterset(root_folder, glyphset_name)
+        # Proof of work:
+        # assert unicodes_per_glyphset(glyphset_name) != []
