@@ -1,15 +1,15 @@
 # Table of Contents:
 
 
-| Arabic | Cyrillic | Greek | Latin | Phonetics |
-| --- | --- | --- | --- | --- |
-| [✅ Core](#gf-arabic-core) | [🛑 Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) | [🛑 APA](#gf-phonetics-apa) |
-| [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) | [🛑 DisorderedSpeech](#gf-phonetics-disorderedspeech) |
-|  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |
-|  | [🛑 Pro](#gf-cyrillic-pro) | [🛑 Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |
-|  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) | [🛑 SinoExt](#gf-phonetics-sinoext) |
-|  |  | [🛑 Plus](#gf-greek-plus) | [🛑 PriAfrican](#gf-latin-priafrican) |  |
-|  |  | [🛑 Pro](#gf-greek-pro) | [🛑 Vietnamese](#gf-latin-vietnamese) |  |
+| Arabic | Cyrillic | Greek | Latin | Phonetics | TransLatin |
+| --- | --- | --- | --- | --- | --- |
+| [✅ Core](#gf-arabic-core) | [🛑 Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) | [🛑 APA](#gf-phonetics-apa) | [🛑 Arabic](#gf-translatin-arabic) |
+| [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) | [🛑 DisorderedSpeech](#gf-phonetics-disorderedspeech) | [🛑 Pinyin](#gf-translatin-pinyin) |
+|  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |  |
+|  | [🛑 Pro](#gf-cyrillic-pro) | [🛑 Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
+|  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) | [🛑 SinoExt](#gf-phonetics-sinoext) |  |
+|  |  | [🛑 Plus](#gf-greek-plus) | [🛑 PriAfrican](#gf-latin-priafrican) |  |  |
+|  |  | [🛑 Pro](#gf-greek-pro) | [🛑 Vietnamese](#gf-latin-vietnamese) |  |  |
 
 > [!NOTE]  
 > This document is a human-readable representation of the glyphset defintions defined in code [here](/Lib/glyphsets/definitions/__init__.py) and gets updated automatically as part of the `sh build.sh` command.
@@ -1072,4 +1072,33 @@ GF_Phonetics_SinoExt is **statically** defined as:
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
 The resulting glyphset can be found here: [GF_Phonetics_SinoExt.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_SinoExt.nam) (only encoded glyphs), [GF_Phonetics_SinoExt.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_SinoExt.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
+
+
+## GF TransLatin Arabic
+
+GF_TransLatin_Arabic is **statically** defined as:
+
+* Script: TransLatin
+* Codepoints defined in [GF_TransLatin_Arabic.stub.nam](/GF_glyphsets/TransLatin/definitions/GF_TransLatin_Arabic.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_TransLatin_Arabic.nam](/GF_glyphsets/TransLatin/nam/GF_TransLatin_Arabic.nam) (only encoded glyphs), [GF_TransLatin_Arabic.glyphs](/GF_glyphsets/TransLatin/glyphs/GF_TransLatin_Arabic.glyphs) (all glyphs), as well as part of [CustomFilter_GF_TransLatin.plist](/GF_glyphsets/TransLatin/glyphs/CustomFilter_GF_TransLatin.plist)
+
+
+## GF TransLatin Pinyin
+
+GF_TransLatin_Pinyin is **statically** defined as:
+
+* Script: TransLatin
+* Codepoints defined in [GF_TransLatin_Pinyin.stub.nam](/GF_glyphsets/TransLatin/definitions/GF_TransLatin_Pinyin.stub.nam)
+* Unencoded glyphs defined in [GF_TransLatin_Pinyin.stub.glyphs](/GF_glyphsets/TransLatin/definitions/GF_TransLatin_Pinyin.stub.glyphs)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_TransLatin_Pinyin.nam](/GF_glyphsets/TransLatin/nam/GF_TransLatin_Pinyin.nam) (only encoded glyphs), [GF_TransLatin_Pinyin.glyphs](/GF_glyphsets/TransLatin/glyphs/GF_TransLatin_Pinyin.glyphs) (all glyphs), as well as part of [CustomFilter_GF_TransLatin.plist](/GF_glyphsets/TransLatin/glyphs/CustomFilter_GF_TransLatin.plist)
 

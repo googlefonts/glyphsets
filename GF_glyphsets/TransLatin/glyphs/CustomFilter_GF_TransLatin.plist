@@ -129,39 +129,39 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>apostrophemod</string>
-			<string>dotbelowcomb</string>
-			<string>Ddotbelow</string>
-			<string>Dmacronbelow</string>
 			<string>Gcaron</string>
-			<string>Gmacron</string>
-			<string>Hbrevebelow</string>
-			<string>Hdotbelow</string>
-			<string>Kmacronbelow</string>
-			<string>Sdotbelow</string>
-			<string>Tdotbelow</string>
-			<string>Tmacronbelow</string>
-			<string>Ymacron</string>
-			<string>Zdotbelow</string>
-			<string>ddotbelow</string>
-			<string>dmacronbelow</string>
 			<string>gcaron</string>
-			<string>gmacron</string>
-			<string>hbrevebelow</string>
-			<string>hdotbelow</string>
-			<string>kmacronbelow</string>
-			<string>sdotbelow</string>
-			<string>tdotbelow</string>
-			<string>tmacronbelow</string>
+			<string>Ymacron</string>
 			<string>ymacron</string>
-			<string>zdotbelow</string>
-			<string>macronbelowcomb</string>
-			<string>ringhalfleft</string>
-			<string>ringhalfright</string>
-			<string>hmacronbelow</string>
-			<string>tdieresis</string>
-			<string>brevebelowcomb</string>
+			<string>apostrophemod</string>
 			<string>commareversedmod</string>
+			<string>ringhalfright</string>
+			<string>ringhalfleft</string>
+			<string>dotbelowcomb</string>
+			<string>brevebelowcomb</string>
+			<string>macronbelowcomb</string>
+			<string>Ddotbelow</string>
+			<string>ddotbelow</string>
+			<string>Dlinebelow</string>
+			<string>dlinebelow</string>
+			<string>Gmacron</string>
+			<string>gmacron</string>
+			<string>Hdotbelow</string>
+			<string>hdotbelow</string>
+			<string>Hbrevebelow</string>
+			<string>hbrevebelow</string>
+			<string>Klinebelow</string>
+			<string>klinebelow</string>
+			<string>Sdotbelow</string>
+			<string>sdotbelow</string>
+			<string>Tdotbelow</string>
+			<string>tdotbelow</string>
+			<string>Tlinebelow</string>
+			<string>tlinebelow</string>
+			<string>Zdotbelow</string>
+			<string>zdotbelow</string>
+			<string>hlinebelow</string>
+			<string>tdieresis</string>
 		</array>
 		<key>name</key>
 		<string>GF_TransLatin_Arabic</string>
@@ -169,95 +169,95 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>dieresiscomb</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>macroncomb</string>
-			<string>apostrophemod</string>
-			<string>Acaron</string>
-			<string>Icaron</string>
-			<string>Macute</string>
-			<string>Ngrave</string>
-			<string>Ocaron</string>
-			<string>Ucaron</string>
-			<string>Udieresisacute</string>
-			<string>Udieresiscaron</string>
-			<string>Udieresisgrave</string>
-			<string>Udieresismacron</string>
-			<string>acaron</string>
-			<string>icaron</string>
-			<string>macute</string>
-			<string>ngrave</string>
-			<string>ocaron</string>
-			<string>ucaron</string>
-			<string>udieresisacute</string>
-			<string>udieresiscaron</string>
-			<string>udieresisgrave</string>
-			<string>udieresismacron</string>
-			<string>nmod</string>
-			<string>verticallineabovecomb</string>
-			<string>dotaboverightcomb</string>
-			<string>Aacute</string>
-			<string>Abreve</string>
-			<string>Acircumflex</string>
 			<string>Agrave</string>
-			<string>Amacron</string>
-			<string>Eacute</string>
-			<string>Ecaron</string>
-			<string>Ecircumflex</string>
+			<string>Aacute</string>
+			<string>Acircumflex</string>
 			<string>Egrave</string>
-			<string>Emacron</string>
+			<string>Eacute</string>
+			<string>Ecircumflex</string>
+			<string>Igrave</string>
 			<string>Iacute</string>
 			<string>Icircumflex</string>
 			<string>Idieresis</string>
-			<string>Igrave</string>
-			<string>Imacron</string>
-			<string>Nacute</string>
+			<string>Ograve</string>
 			<string>Oacute</string>
 			<string>Ocircumflex</string>
-			<string>Ograve</string>
-			<string>Omacron</string>
+			<string>Ugrave</string>
 			<string>Uacute</string>
-			<string>Ubreve</string>
 			<string>Ucircumflex</string>
 			<string>Udieresis</string>
-			<string>Ugrave</string>
-			<string>Umacron</string>
-			<string>aacute</string>
-			<string>abreve</string>
-			<string>acircumflex</string>
 			<string>agrave</string>
-			<string>amacron</string>
-			<string>eacute</string>
-			<string>ecaron</string>
-			<string>ecircumflex</string>
+			<string>aacute</string>
+			<string>acircumflex</string>
 			<string>egrave</string>
-			<string>emacron</string>
+			<string>eacute</string>
+			<string>ecircumflex</string>
+			<string>igrave</string>
 			<string>iacute</string>
 			<string>icircumflex</string>
-			<string>igrave</string>
-			<string>imacron</string>
 			<string>ntilde</string>
+			<string>ograve</string>
 			<string>oacute</string>
 			<string>ocircumflex</string>
-			<string>ograve</string>
-			<string>omacron</string>
+			<string>ugrave</string>
 			<string>uacute</string>
-			<string>ubreve</string>
 			<string>ucircumflex</string>
 			<string>udieresis</string>
-			<string>ugrave</string>
-			<string>umacron</string>
-			<string>circumflexcomb</string>
-			<string>caroncomb</string>
-			<string>brevecomb</string>
-			<string>Nmod</string>
+			<string>Amacron</string>
+			<string>amacron</string>
+			<string>Abreve</string>
+			<string>abreve</string>
+			<string>Emacron</string>
+			<string>emacron</string>
 			<string>Ebreve</string>
-			<string>Ibreve</string>
-			<string>Obreve</string>
 			<string>ebreve</string>
+			<string>Ecaron</string>
+			<string>ecaron</string>
+			<string>Imacron</string>
+			<string>imacron</string>
+			<string>Ibreve</string>
 			<string>ibreve</string>
+			<string>Nacute</string>
+			<string>Omacron</string>
+			<string>omacron</string>
+			<string>Obreve</string>
 			<string>obreve</string>
+			<string>Umacron</string>
+			<string>umacron</string>
+			<string>Ubreve</string>
+			<string>ubreve</string>
+			<string>Acaron</string>
+			<string>acaron</string>
+			<string>Icaron</string>
+			<string>icaron</string>
+			<string>Ocaron</string>
+			<string>ocaron</string>
+			<string>Ucaron</string>
+			<string>ucaron</string>
+			<string>Udieresismacron</string>
+			<string>udieresismacron</string>
+			<string>Udieresisacute</string>
+			<string>udieresisacute</string>
+			<string>Udieresiscaron</string>
+			<string>udieresiscaron</string>
+			<string>Udieresisgrave</string>
+			<string>udieresisgrave</string>
+			<string>Ngrave</string>
+			<string>ngrave</string>
+			<string>apostrophemod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>circumflexcomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>caroncomb</string>
+			<string>verticallineabovecomb</string>
+			<string>dotaboverightcomb</string>
+			<string>Nmod</string>
+			<string>Macute</string>
+			<string>macute</string>
+			<string>nmod</string>
 			<string>gravecomb_dotaboverightcomb</string>
 			<string>acutecomb_dotaboverightcomb</string>
 			<string>circumflexcomb_dotaboverightcomb</string>

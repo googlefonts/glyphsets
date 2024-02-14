@@ -83,4 +83,6 @@ glyphset_definitions = {
     "GF_Phonetics_IPAHistorical": {"script": "Phonetics"},
     "GF_Phonetics_IPAStandard": {"script": "Phonetics"},
     "GF_Phonetics_SinoExt": {"script": "Phonetics"},
+    "GF_TransLatin_Arabic": {"script": "TransLatin"},
+    "GF_TransLatin_Pinyin": {"script": "TransLatin"},
 }
