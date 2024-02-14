@@ -38,6 +38,11 @@ def sort_by_category(a, b):
     info_a = get_glyph(a.name)
     info_b = get_glyph(b.name)
 
+    if info_a.category is None:
+        return -1
+    elif info_b.category is None:
+        return 1
+
     value = sorted([info_a.category, info_b.category]).index(info_a.category)
     if value == 0:
         value = -1
