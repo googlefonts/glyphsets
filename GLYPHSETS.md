@@ -6,7 +6,7 @@
 | [✅ Core](#gf-arabic-core) | [🛑 Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) | [🛑 APA](#gf-phonetics-apa) | [🛑 Arabic](#gf-translatin-arabic) |
 | [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) | [🛑 DisorderedSpeech](#gf-phonetics-disorderedspeech) | [🛑 Pinyin](#gf-translatin-pinyin) |
 |  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |  |
-|  | [🛑 Pro](#gf-cyrillic-pro) | [🛑 Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
+|  | [🛑 Pro](#gf-cyrillic-pro) | [✅ Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
 |  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) | [🛑 SinoExt](#gf-phonetics-sinoext) |  |
 |  |  | [🛑 Plus](#gf-greek-plus) | [🛑 PriAfrican](#gf-latin-priafrican) |  |  |
 |  |  | [🛑 Pro](#gf-greek-pro) | [🛑 Vietnamese](#gf-latin-vietnamese) |  |  |
@@ -157,10 +157,9 @@ GF_Greek_Core is **statically** defined as:
 
 * Script: Greek
 * Codepoints defined in [GF_Greek_Core.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Core.stub.nam)
-
-> [!CAUTION]  
-> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
-> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+* List of languages: `
+Greek (el_Grek)
+`
 
 The resulting glyphset can be found here: [GF_Greek_Core.nam](/GF_glyphsets/Greek/nam/GF_Greek_Core.nam) (only encoded glyphs), [GF_Greek_Core.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
