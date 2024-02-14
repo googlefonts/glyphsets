@@ -1,97 +1,24 @@
 {
-.appVersion = "3124";
+.appVersion = "3151";
 .formatVersion = 3;
-date = "2021-10-28 12:22:31 +0000";
-familyName = "GF Cyrillic Historical";
-featurePrefixes = (
+axes = (
 {
-automatic = 1;
-code = "languagesystem DFLT dflt;
-
-languagesystem latn dflt;
-languagesystem latn AZE;
-languagesystem latn CRT;
-languagesystem latn KAZ;
-languagesystem latn TAT;
-languagesystem latn TRK;
-languagesystem latn ROM;
-languagesystem latn MOL;
-languagesystem latn CAT;
-";
-name = Languagesystems;
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
 }
 );
-features = (
-{
-automatic = 1;
-code = "feature locl;
-feature ordn;
-feature case;
-";
-tag = aalt;
-},
-{
-automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-} ccmp_Other_1;
-";
-tag = ccmp;
-},
-{
-automatic = 1;
-code = "lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
-	sub i by idotaccent;
-} locl_latn_0;
-
-lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	language MOL;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-} locl_latn_1;
-
-lookup locl_latn_2 {
-	script latn;
-	language CAT;
-	sub l periodcentered' l by periodcentered.loclCAT;
-	sub L periodcentered' L by periodcentered.loclCAT.case;
-} locl_latn_2;
-";
-tag = locl;
-},
-{
-automatic = 1;
-code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
-";
-tag = ordn;
-},
-{
-automatic = 1;
-code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
-";
-tag = case;
-}
-);
+date = "2023-12-13 14:28:10 +0000";
+familyName = GF_Cyrillic_Historical;
 fontMaster = (
 {
+axesValues = (
+100,
+100
+);
 id = m01;
 metricValues = (
 {
@@ -122,366 +49,154 @@ name = Regular;
 );
 glyphs = (
 {
-glyphname = "OmegaBroad-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 42572;
-},
-{
-glyphname = "Omega-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1120;
-},
-{
-glyphname = "Eiotified-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1124;
-},
-{
-glyphname = "Yuslittle-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1126;
-},
-{
-glyphname = "Yuslittleiotified-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1128;
-},
-{
-glyphname = "Yusbigiotified-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1132;
-},
-{
-glyphname = "Ksi-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1134;
-},
-{
-glyphname = "Psi-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1136;
-},
-{
-glyphname = "Izhitsadblgrave-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1142;
-},
-{
-glyphname = "Uk-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1144;
-},
-{
-glyphname = "Koppa-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1152;
-},
-{
-glyphname = "omega-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1121;
-},
-{
-glyphname = "eiotified-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1125;
-},
-{
-glyphname = "yuslittle-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1127;
-},
-{
-glyphname = "yuslittleiotified-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1129;
-},
-{
-glyphname = "yusbigiotified-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1133;
-},
-{
-glyphname = "ksi-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1135;
-},
-{
-glyphname = "psi-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1137;
-},
-{
-glyphname = "izhitsadblgrave-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1143;
-},
-{
-glyphname = "uk-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1145;
-},
-{
-glyphname = "koppa-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1153;
-},
-{
-glyphname = "omegaBroad-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 42573;
-},
-{
 glyphname = "thousand-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 1154;
 },
 {
-glyphname = "hundredthousandssigncomb-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1160;
-},
-{
-glyphname = "millionssigncomb-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1161;
-},
-{
 glyphname = "titlocomb-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 1155;
 },
 {
 glyphname = "palatalizationcomb-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 1156;
 },
 {
 glyphname = "dasiapneumatacomb-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 1157;
 },
 {
 glyphname = "psilipneumatacomb-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 1158;
 },
 {
 glyphname = "pokrytiecomb-cy";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 1159;
 },
 {
-glyphname = uni047A;
-layers = (
+glyphname = "hundredthousandssigncomb-cy";
+unicode = 1160;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = "millionssigncomb-cy";
+unicode = 1161;
+},
+{
+glyphname = "Omega-cy";
+unicode = 1120;
+},
+{
+glyphname = "omega-cy";
+unicode = 1121;
+},
+{
+glyphname = "Eiotified-cy";
+unicode = 1124;
+},
+{
+glyphname = "eiotified-cy";
+unicode = 1125;
+},
+{
+glyphname = "Yuslittle-cy";
+unicode = 1126;
+},
+{
+glyphname = "yuslittle-cy";
+unicode = 1127;
+},
+{
+glyphname = "Yuslittleiotified-cy";
+unicode = 1128;
+},
+{
+glyphname = "yuslittleiotified-cy";
+unicode = 1129;
+},
+{
+glyphname = "Yusbigiotified-cy";
+unicode = 1132;
+},
+{
+glyphname = "yusbigiotified-cy";
+unicode = 1133;
+},
+{
+glyphname = "Ksi-cy";
+unicode = 1134;
+},
+{
+glyphname = "ksi-cy";
+unicode = 1135;
+},
+{
+glyphname = "Psi-cy";
+unicode = 1136;
+},
+{
+glyphname = "psi-cy";
+unicode = 1137;
+},
+{
+glyphname = "Izhitsadblgrave-cy";
+unicode = 1142;
+},
+{
+glyphname = "izhitsadblgrave-cy";
+unicode = 1143;
+},
+{
+glyphname = "Uk-cy";
+unicode = 1144;
+},
+{
+glyphname = "uk-cy";
+unicode = 1145;
+},
+{
+glyphname = uni047A;
 unicode = 1146;
 },
 {
 glyphname = uni047B;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 1147;
 },
 {
 glyphname = uni047C;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 1148;
 },
 {
 glyphname = uni047D;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 1149;
 },
 {
 glyphname = uni047E;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 1150;
 },
 {
 glyphname = uni047F;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 1151;
+},
+{
+glyphname = "Koppa-cy";
+unicode = 1152;
+},
+{
+glyphname = "koppa-cy";
+unicode = 1153;
+},
+{
+glyphname = "OmegaBroad-cy";
+unicode = 42572;
+},
+{
+glyphname = "omegaBroad-cy";
+unicode = 42573;
 }
 );
+instances = (
+);
+kerningLTR = {
+};
 metrics = (
 {
 type = ascender;
@@ -501,6 +216,8 @@ type = descender;
 {
 type = "italic angle";
 }
+);
+stems = (
 );
 unitsPerEm = 1000;
 versionMajor = 1;

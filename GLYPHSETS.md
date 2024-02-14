@@ -1,11 +1,12 @@
 # Table of Contents:
 
 
-| Arabic | Latin |
-| --- | --- |
-| [Core ✅](#gf-arabic-core) | [African ✅](#gf-latin-african) |
-| [Plus ✅](#gf-arabic-plus) | [Core ✅](#gf-latin-core) |
-|  | [Kernel 🛑](#gf-latin-kernel) |
+| Arabic | Cyrillic | Latin |
+| --- | --- | --- |
+| [✅ Core](#gf-arabic-core) | [🛑 Core](#gf-cyrillic-core) | [✅ African](#gf-latin-african) |
+| [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [✅ Core](#gf-latin-core) |
+|  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Kernel](#gf-latin-kernel) |
+|  | [🛑 Pro](#gf-cyrillic-pro) |  |
 
 > [!NOTE]  
 > This document is a human-readable representation of the glyphset defintions defined in code [here](/Lib/glyphsets/definitions/__init__.py) and gets updated automatically as part of the `sh build.sh` command.
@@ -49,6 +50,63 @@ Uyghur (ug_Arab)
 `
 
 The resulting glyphset can be found here: [GF_Arabic_Plus.nam](/GF_glyphsets/Arabic/nam/GF_Arabic_Plus.nam) (only encoded glyphs), [GF_Arabic_Plus.glyphs](/GF_glyphsets/Arabic/glyphs/GF_Arabic_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Arabic.plist](/GF_glyphsets/Arabic/glyphs/CustomFilter_GF_Arabic.plist)
+
+
+## GF Cyrillic Core
+
+GF_Cyrillic_Core is **statically** defined as:
+
+* Script: Cyrillic
+* Codepoints defined in [GF_Cyrillic_Core.stub.nam](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Core.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Cyrillic_Core.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Core.nam) (only encoded glyphs), [GF_Cyrillic_Core.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
+
+
+## GF Cyrillic Historical
+
+GF_Cyrillic_Historical is **statically** defined as:
+
+* Script: Cyrillic
+* Codepoints defined in [GF_Cyrillic_Historical.stub.nam](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Historical.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Cyrillic_Historical.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Historical.nam) (only encoded glyphs), [GF_Cyrillic_Historical.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Historical.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
+
+
+## GF Cyrillic Plus
+
+GF_Cyrillic_Plus is **statically** defined as:
+
+* Script: Cyrillic
+* Codepoints defined in [GF_Cyrillic_Plus.stub.nam](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Plus.stub.nam)
+* Unencoded glyphs defined in [GF_Cyrillic_Plus.stub.glyphs](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Plus.stub.glyphs)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Cyrillic_Plus.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Plus.nam) (only encoded glyphs), [GF_Cyrillic_Plus.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
+
+
+## GF Cyrillic Pro
+
+GF_Cyrillic_Pro is **statically** defined as:
+
+* Script: Cyrillic
+* Codepoints defined in [GF_Cyrillic_Pro.stub.nam](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Pro.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Cyrillic_Pro.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Pro.nam) (only encoded glyphs), [GF_Cyrillic_Pro.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Pro.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
 
 
 ## GF Latin African

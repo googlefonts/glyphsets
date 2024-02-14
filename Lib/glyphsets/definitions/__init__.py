@@ -21,6 +21,10 @@ glyphset_definitions = {
             "ug_Arab",  # Uyghur
         ],
     },
+    "GF_Cyrillic_Core": {"script": "Cyrillic"},
+    "GF_Cyrillic_Historical": {"script": "Cyrillic"},
+    "GF_Cyrillic_Plus": {"script": "Cyrillic"},
+    "GF_Cyrillic_Pro": {"script": "Cyrillic"},
     "GF_Latin_African": {
         "script": "Latin",
         "use_auxiliary": True,
