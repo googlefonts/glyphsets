@@ -1,4 +1,4 @@
-# Table of Conents:
+# Table of Contents:
 
 
 * [GF Arabic Core ✅](#gf-arabic-core)

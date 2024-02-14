@@ -29,7 +29,7 @@ if __name__ == "__main__":
     md = []
 
     # TOC
-    md.append("# Table of Conents:\n\n")
+    md.append("# Table of Contents:\n\n")
 
     for glyphset_name in defined_glyphsets():
         _new_md, warning = description_per_glyphset(glyphset_name)
