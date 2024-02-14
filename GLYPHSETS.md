@@ -3,7 +3,7 @@
 
 | Arabic | Cyrillic | Greek | Latin | Phonetics | TransLatin |
 | --- | --- | --- | --- | --- | --- |
-| [✅ Core](#gf-arabic-core) | [🛑 Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) | [🛑 APA](#gf-phonetics-apa) | [🛑 Arabic](#gf-translatin-arabic) |
+| [✅ Core](#gf-arabic-core) | [✅ Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) | [🛑 APA](#gf-phonetics-apa) | [🛑 Arabic](#gf-translatin-arabic) |
 | [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) | [🛑 DisorderedSpeech](#gf-phonetics-disorderedspeech) | [🛑 Pinyin](#gf-translatin-pinyin) |
 |  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |  |
 |  | [🛑 Pro](#gf-cyrillic-pro) | [✅ Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
@@ -57,10 +57,10 @@ GF_Cyrillic_Core is **statically** defined as:
 
 * Script: Cyrillic
 * Codepoints defined in [GF_Cyrillic_Core.stub.nam](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Core.stub.nam)
-
-> [!CAUTION]  
-> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
-> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+* List of languages: `
+Russian (ru_Cyrl),
+Ukrainian (uk_Cyrl)
+`
 
 The resulting glyphset can be found here: [GF_Cyrillic_Core.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Core.nam) (only encoded glyphs), [GF_Cyrillic_Core.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
 

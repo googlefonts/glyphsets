@@ -345,6 +345,43 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
+			<string>percent</string>
+			<string>ampersand</string>
+			<string>quotesingle</string>
+			<string>parenleft</string>
+			<string>parenright</string>
+			<string>asterisk</string>
+			<string>plus</string>
+			<string>comma</string>
+			<string>hyphen</string>
+			<string>period</string>
+			<string>slash</string>
+			<string>zero</string>
+			<string>one</string>
+			<string>two</string>
+			<string>three</string>
+			<string>four</string>
+			<string>five</string>
+			<string>six</string>
+			<string>seven</string>
+			<string>eight</string>
+			<string>nine</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>at</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>guillemetleft</string>
+			<string>guillemetright</string>
+			<string>apostrophemod</string>
+			<string>acutecomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
 			<string>Iegrave-cy</string>
 			<string>Io-cy</string>
 			<string>Dje-cy</string>
@@ -443,6 +480,14 @@
 			<string>dzhe-cy</string>
 			<string>Gheupturn-cy</string>
 			<string>gheupturn-cy</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotesinglbase</string>
+			<string>quotedblleft</string>
+			<string>quotedblbase</string>
+			<string>ellipsis</string>
 			<string>numero</string>
 		</array>
 		<key>name</key>
