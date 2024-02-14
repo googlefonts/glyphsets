@@ -173,7 +173,6 @@ The resulting glyphset can be found here: [GF_Greek_Core.nam](/GF_glyphsets/Gree
 GF_Greek_Expert is **statically** defined as:
 
 * Script: Greek
-* Codepoints defined in [GF_Greek_Expert.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Expert.stub.nam)
 * Unencoded glyphs defined in [GF_Greek_Expert.stub.glyphs](/GF_glyphsets/Greek/definitions/GF_Greek_Expert.stub.glyphs)
 
 > [!CAUTION]  
