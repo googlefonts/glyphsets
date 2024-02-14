@@ -59,15 +59,6 @@ if __name__ == "__main__":
                 row.append("")
         md.append("| " + " | ".join(row) + " |")
 
-    # for glyphset_name in defined_glyphsets():
-    #     _new_md, warning = description_per_glyphset(glyphset_name)
-    #     warning_md = " ✅"
-    #     if warning:
-    #         warning_md = " 🛑"
-    #     md.append(
-    #         f"* [{glyphset_name.replace('_', ' ')}{warning_md}](#{glyphset_name.lower().replace('_', '-')})"
-    #     )
-
     md.append(
         "\n> [!NOTE]  \n> This document is a human-readable representation of the glyphset defintions defined in code [here](/Lib/glyphsets/definitions/__init__.py) and gets updated automatically as part of the `sh build.sh` command.\n"
     )
