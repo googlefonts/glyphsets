@@ -95,6 +95,7 @@ tenge
 gestroke-cy.loclBSH
 yu-cy.loclBGR
 Gestroke-cy.loclBSH
+brevecomb-cy
 De-cy.loclBGR
 Ii-cy.loclBGR
 Iishort-cy.loclBGR

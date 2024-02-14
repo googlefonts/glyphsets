@@ -1,5 +1,5 @@
 {
-.appVersion = "3239";
+.appVersion = "3151";
 .formatVersion = 3;
 axes = (
 {
@@ -94,6 +94,16 @@ unicode = 8372;
 {
 glyphname = tenge;
 unicode = 8376;
+},
+{
+glyphname = "brevecomb-cy";
+lastChange = "2024-02-14 09:54:10 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
 },
 {
 glyphname = apostrophemod;

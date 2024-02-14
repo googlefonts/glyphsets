@@ -1,5 +1,5 @@
 {
-.appVersion = "3239";
+.appVersion = "3151";
 .formatVersion = 3;
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Cyrillic Plus Locl Roman";
@@ -349,6 +349,16 @@ width = 600;
 },
 {
 glyphname = "be-cy.loclSRB";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "brevecomb-cy";
+lastChange = "2024-02-14 09:54:10 +0000";
 layers = (
 {
 layerId = m01;
