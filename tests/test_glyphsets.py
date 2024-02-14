@@ -13,5 +13,6 @@ def test_definitions():
         assert len(languages_per_glyphset(code)) == len(
             set(languages_per_glyphset(code))
         )
+    assert len(glyphset_definitions.keys()) == len(set(glyphset_definitions.keys()))
 
     assert "GF_Latin_Core" in defined_glyphsets()
