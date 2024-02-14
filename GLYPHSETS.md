@@ -1,15 +1,15 @@
 # Table of Contents:
 
 
-| Arabic | Cyrillic | Greek | Latin |
-| --- | --- | --- | --- |
-| [✅ Core](#gf-arabic-core) | [🛑 Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) |
-| [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) |
-|  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) |
-|  | [🛑 Pro](#gf-cyrillic-pro) | [🛑 Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) |
-|  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) |
-|  |  | [🛑 Plus](#gf-greek-plus) | [🛑 PriAfrican](#gf-latin-priafrican) |
-|  |  | [🛑 Pro](#gf-greek-pro) | [🛑 Vietnamese](#gf-latin-vietnamese) |
+| Arabic | Cyrillic | Greek | Latin | Phonetics |
+| --- | --- | --- | --- | --- |
+| [✅ Core](#gf-arabic-core) | [🛑 Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) | [🛑 APA](#gf-phonetics-apa) |
+| [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) | [🛑 DisorderedSpeech](#gf-phonetics-disorderedspeech) |
+|  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |
+|  | [🛑 Pro](#gf-cyrillic-pro) | [🛑 Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |
+|  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) | [🛑 SinoExt](#gf-phonetics-sinoext) |
+|  |  | [🛑 Plus](#gf-greek-plus) | [🛑 PriAfrican](#gf-latin-priafrican) |  |
+|  |  | [🛑 Pro](#gf-greek-pro) | [🛑 Vietnamese](#gf-latin-vietnamese) |  |
 
 > [!NOTE]  
 > This document is a human-readable representation of the glyphset defintions defined in code [here](/Lib/glyphsets/definitions/__init__.py) and gets updated automatically as part of the `sh build.sh` command.
@@ -1001,4 +1001,75 @@ GF_Latin_Vietnamese is **statically** defined as:
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
 The resulting glyphset can be found here: [GF_Latin_Vietnamese.nam](/GF_glyphsets/Latin/nam/GF_Latin_Vietnamese.nam) (only encoded glyphs), [GF_Latin_Vietnamese.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Vietnamese.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+
+
+## GF Phonetics APA
+
+GF_Phonetics_APA is **statically** defined as:
+
+* Script: Phonetics
+* Codepoints defined in [GF_Phonetics_APA.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_APA.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Phonetics_APA.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_APA.nam) (only encoded glyphs), [GF_Phonetics_APA.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_APA.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
+
+
+## GF Phonetics DisorderedSpeech
+
+GF_Phonetics_DisorderedSpeech is **statically** defined as:
+
+* Script: Phonetics
+* Codepoints defined in [GF_Phonetics_DisorderedSpeech.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_DisorderedSpeech.stub.nam)
+* Unencoded glyphs defined in [GF_Phonetics_DisorderedSpeech.stub.glyphs](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_DisorderedSpeech.stub.glyphs)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Phonetics_DisorderedSpeech.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_DisorderedSpeech.nam) (only encoded glyphs), [GF_Phonetics_DisorderedSpeech.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_DisorderedSpeech.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
+
+
+## GF Phonetics IPAHistorical
+
+GF_Phonetics_IPAHistorical is **statically** defined as:
+
+* Script: Phonetics
+* Codepoints defined in [GF_Phonetics_IPAHistorical.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_IPAHistorical.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Phonetics_IPAHistorical.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_IPAHistorical.nam) (only encoded glyphs), [GF_Phonetics_IPAHistorical.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_IPAHistorical.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
+
+
+## GF Phonetics IPAStandard
+
+GF_Phonetics_IPAStandard is **statically** defined as:
+
+* Script: Phonetics
+* Codepoints defined in [GF_Phonetics_IPAStandard.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_IPAStandard.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Phonetics_IPAStandard.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_IPAStandard.nam) (only encoded glyphs), [GF_Phonetics_IPAStandard.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_IPAStandard.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
+
+
+## GF Phonetics SinoExt
+
+GF_Phonetics_SinoExt is **statically** defined as:
+
+* Script: Phonetics
+* Codepoints defined in [GF_Phonetics_SinoExt.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_SinoExt.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Phonetics_SinoExt.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_SinoExt.nam) (only encoded glyphs), [GF_Phonetics_SinoExt.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_SinoExt.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
 

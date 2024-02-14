@@ -78,4 +78,9 @@ glyphset_definitions = {
     "GF_Latin_Plus": {"script": "Latin"},
     "GF_Latin_PriAfrican": {"script": "Latin"},
     "GF_Latin_Vietnamese": {"script": "Latin"},
+    "GF_Phonetics_APA": {"script": "Phonetics"},
+    "GF_Phonetics_DisorderedSpeech": {"script": "Phonetics"},
+    "GF_Phonetics_IPAHistorical": {"script": "Phonetics"},
+    "GF_Phonetics_IPAStandard": {"script": "Phonetics"},
+    "GF_Phonetics_SinoExt": {"script": "Phonetics"},
 }

@@ -1,97 +1,24 @@
 {
-.appVersion = "3135";
+.appVersion = "3151";
 .formatVersion = 3;
-date = "2021-10-28 12:22:31 +0000";
-familyName = "GF Phonetics Sino Ext";
-featurePrefixes = (
+axes = (
 {
-automatic = 1;
-code = "languagesystem DFLT dflt;
-
-languagesystem latn dflt;
-languagesystem latn AZE;
-languagesystem latn CRT;
-languagesystem latn KAZ;
-languagesystem latn TAT;
-languagesystem latn TRK;
-languagesystem latn ROM;
-languagesystem latn MOL;
-languagesystem latn CAT;
-";
-name = Languagesystems;
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
 }
 );
-features = (
-{
-automatic = 1;
-code = "feature locl;
-feature ordn;
-feature case;
-";
-tag = aalt;
-},
-{
-automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-} ccmp_Other_1;
-";
-tag = ccmp;
-},
-{
-automatic = 1;
-code = "lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
-	sub i by idotaccent;
-} locl_latn_0;
-
-lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	language MOL;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-} locl_latn_1;
-
-lookup locl_latn_2 {
-	script latn;
-	language CAT;
-	sub l periodcentered' l by periodcentered.loclCAT;
-	sub L periodcentered' L by periodcentered.loclCAT.case;
-} locl_latn_2;
-";
-tag = locl;
-},
-{
-automatic = 1;
-code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
-";
-tag = ordn;
-},
-{
-automatic = 1;
-code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
-";
-tag = case;
-}
-);
+date = "2023-12-13 14:28:10 +0000";
+familyName = GF_Phonetics_SinoExt;
 fontMaster = (
 {
+axesValues = (
+100,
+100
+);
 id = m01;
 metricValues = (
 {
@@ -122,116 +49,54 @@ name = Regular;
 );
 glyphs = (
 {
-glyphname = Asmall;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7424;
-},
-{
-glyphname = Esmall;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7431;
-},
-{
 glyphname = dcurl;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 545;
 },
 {
-glyphname = eshsquatreversed;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 645;
-},
-{
-glyphname = hturnedfishhook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 686;
-},
-{
-glyphname = hturnedfishhookandtail;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 687;
-},
-{
 glyphname = lcurl;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 564;
 },
 {
 glyphname = ncurl;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 565;
 },
 {
-glyphname = rfishhookreversed;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 639;
-},
-{
 glyphname = tcurl;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 566;
 },
 {
-glyphname = Omegasmall;
-layers = (
+glyphname = rfishhookreversed;
+unicode = 639;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = eshsquatreversed;
+unicode = 645;
+},
+{
+glyphname = hturnedfishhook;
+unicode = 686;
+},
+{
+glyphname = hturnedfishhookandtail;
+unicode = 687;
+},
+{
+glyphname = Asmall;
+unicode = 7424;
+},
+{
+glyphname = Esmall;
+unicode = 7431;
+},
+{
+glyphname = Omegasmall;
 unicode = 43877;
 }
 );
+instances = (
+);
+kerningLTR = {
+};
 metrics = (
 {
 type = ascender;
@@ -251,6 +116,8 @@ type = descender;
 {
 type = "italic angle";
 }
+);
+stems = (
 );
 unitsPerEm = 1000;
 versionMajor = 1;

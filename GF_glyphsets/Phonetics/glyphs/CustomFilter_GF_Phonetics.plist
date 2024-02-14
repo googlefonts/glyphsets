@@ -345,29 +345,29 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>lambda</string>
-			<string>phi</string>
+			<string>lacute</string>
+			<string>lbar</string>
+			<string>lambdastroke</string>
+			<string>ezhcaron</string>
+			<string>jcaron</string>
+			<string>odotaccent</string>
 			<string>Cstroke</string>
 			<string>cstroke</string>
-			<string>ezhcaron</string>
-			<string>lambdastroke</string>
-			<string>lbar</string>
-			<string>odotaccent</string>
+			<string>ymod</string>
+			<string>commaabovecomb</string>
+			<string>ogonekcomb</string>
+			<string>lambda</string>
+			<string>phi</string>
+			<string>Dsmall</string>
+			<string>gmod</string>
+			<string>idotlessstroke</string>
+			<string>ustroke</string>
+			<string>thetamod</string>
 			<string>rdotbelow</string>
 			<string>tcircumflexbelow</string>
 			<string>wdotbelow</string>
 			<string>xdotaccent</string>
 			<string>colonmod</string>
-			<string>commaabovecomb</string>
-			<string>jcaron</string>
-			<string>ymod</string>
-			<string>thetamod</string>
-			<string>lacute</string>
-			<string>ogonekcomb</string>
-			<string>Dsmall</string>
-			<string>Ismallstroke</string>
-			<string>Usmallstroke</string>
-			<string>gmod</string>
 		</array>
 		<key>name</key>
 		<string>GF_Phonetics_APA</string>
@@ -378,39 +378,15 @@
 			<string>exclam</string>
 			<string>asterisk</string>
 			<string>exclamdown</string>
-			<string>Kturned</string>
-			<string>Kturned.circled</string>
-			<string>bidentalpercussive</string>
-			<string>bilabialpercussive</string>
 			<string>fengdigraph</string>
-			<string>lretroflexhookandbelt</string>
 			<string>lsdigraph</string>
 			<string>lzdigraph</string>
+			<string>bilabialpercussive</string>
+			<string>bidentalpercussive</string>
 			<string>rturnedmod</string>
 			<string>smod</string>
-			<string>fitalic-math</string>
-			<string>pitalic-math</string>
-			<string>fitalic-math.subs</string>
-			<string>pitalic-math.subs</string>
-			<string>fitalic-math.sups</string>
-			<string>pitalic-math.sups</string>
-			<string>Nmod</string>
-			<string>schwamod</string>
-			<string>parenleftinferior</string>
-			<string>parenrightinferior</string>
-			<string>unaspiratedmod</string>
 			<string>voicingmod</string>
-			<string>C.circled</string>
-			<string>F.circled</string>
-			<string>G.circled</string>
-			<string>L.circled</string>
-			<string>N.circled</string>
-			<string>P.circled</string>
-			<string>R.circled</string>
-			<string>S.circled</string>
-			<string>T.circled</string>
-			<string>V.circled</string>
-			<string>largeCircle</string>
+			<string>unaspiratedmod</string>
 			<string>gbridgeabovecomb</string>
 			<string>equalbelowcomb</string>
 			<string>leftanglebelowcomb</string>
@@ -428,23 +404,47 @@
 			<string>uni1AC2</string>
 			<string>uni1AC3</string>
 			<string>uni1AC4</string>
+			<string>Nmod</string>
+			<string>schwamod</string>
+			<string>parenleftinferior</string>
+			<string>parenrightinferior</string>
+			<string>C.circled</string>
+			<string>F.circled</string>
+			<string>G.circled</string>
+			<string>L.circled</string>
+			<string>N.circled</string>
+			<string>P.circled</string>
+			<string>R.circled</string>
+			<string>S.circled</string>
+			<string>T.circled</string>
+			<string>V.circled</string>
+			<string>largeCircle</string>
+			<string>lretroflexhookandbelt</string>
 			<string>uniA7AF</string>
-			<string>u10790</string>
-			<string>u10799</string>
-			<string>u1079A</string>
-			<string>u1079C</string>
-			<string>u1079D</string>
-			<string>u1079F</string>
-			<string>u107A1</string>
-			<string>u107AA</string>
-			<string>u1DF00</string>
-			<string>u1DF01</string>
-			<string>u1DF02</string>
-			<string>u1DF03</string>
-			<string>u1DF04</string>
-			<string>u1DF05</string>
-			<string>u1DF06</string>
-			<string>u1DF07</string>
+			<string>Kturned</string>
+			<string>uni10790</string>
+			<string>uni10799</string>
+			<string>uni1079A</string>
+			<string>uni1079C</string>
+			<string>uni1079D</string>
+			<string>uni1079F</string>
+			<string>uni107A1</string>
+			<string>uni107AA</string>
+			<string>fitalic-math</string>
+			<string>pitalic-math</string>
+			<string>uni1DF00</string>
+			<string>uni1DF01</string>
+			<string>uni1DF02</string>
+			<string>uni1DF03</string>
+			<string>uni1DF04</string>
+			<string>uni1DF05</string>
+			<string>uni1DF06</string>
+			<string>uni1DF07</string>
+			<string>Kturned.circled</string>
+			<string>fitalic-math.subs</string>
+			<string>pitalic-math.subs</string>
+			<string>fitalic-math.sups</string>
+			<string>pitalic-math.sups</string>
 		</array>
 		<key>name</key>
 		<string>GF_Phonetics_DisorderedSpeech</string>
@@ -456,14 +456,14 @@
 			<string>khook</string>
 			<string>phook</string>
 			<string>thook</string>
-			<string>dezh</string>
-			<string>dzaltone</string>
-			<string>dzcurl</string>
 			<string>kturned</string>
 			<string>qhook</string>
-			<string>tccurl</string>
-			<string>tesh</string>
+			<string>dzaltone</string>
+			<string>dezh</string>
+			<string>dzcurl</string>
 			<string>ts</string>
+			<string>tesh</string>
+			<string>tccurl</string>
 			<string>retroflexhookcomb</string>
 		</array>
 		<key>name</key>
@@ -472,150 +472,121 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>period</string>
 			<string>exclam</string>
+			<string>period</string>
 			<string>bar</string>
-			<string>dieresiscomb</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>hungarumlautcomb</string>
-			<string>macroncomb</string>
-			<string>apostrophemod</string>
-			<string>beta</string>
-			<string>theta</string>
-			<string>chi</string>
-			<string>dblverticalbar</string>
-			<string>undertie</string>
-			<string>overlinecomb</string>
-			<string>doublebrevebelowcomb</string>
-			<string>Ismall</string>
-			<string>alpha-latin</string>
-			<string>beta-latin</string>
-			<string>bhook</string>
-			<string>bilabialclick</string>
-			<string>chi-latin</string>
-			<string>dhook</string>
-			<string>dtail</string>
+			<string>ae</string>
+			<string>ccedilla</string>
+			<string>eth</string>
+			<string>oslash</string>
+			<string>hbar</string>
+			<string>eng</string>
+			<string>oe</string>
+			<string>clickdental</string>
+			<string>clicklateral</string>
+			<string>clickalveolar</string>
+			<string>clickretroflex</string>
 			<string>edblgrave</string>
-			<string>eopen</string>
-			<string>esh</string>
-			<string>schwa</string>
-			<string>ezh</string>
-			<string>gamma-latin</string>
-			<string>ghook</string>
-			<string>glottalstop</string>
-			<string>glottalstopreversed</string>
-			<string>hhook</string>
-			<string>hturned</string>
-			<string>istroke</string>
-			<string>jcrossedtail</string>
-			<string>lbelt</string>
-			<string>lmiddletilde</string>
-			<string>mturned</string>
-			<string>nhookleft</string>
-			<string>obarred</string>
+			<string>aturned</string>
+			<string>alpha-latin</string>
+			<string>alphaturned-latin</string>
+			<string>bhook</string>
 			<string>oopen</string>
+			<string>ccurl</string>
+			<string>dtail</string>
+			<string>dhook</string>
+			<string>ereversed</string>
+			<string>schwa</string>
+			<string>schwahook</string>
+			<string>eopen</string>
+			<string>eopenreversed</string>
+			<string>eopenreversedhook</string>
+			<string>eopenreversedclosed</string>
+			<string>jdotlessstroke</string>
+			<string>ghook</string>
+			<string>gsingle</string>
+			<string>Gsmall</string>
+			<string>gamma-latin</string>
+			<string>ramshorn</string>
+			<string>hturned</string>
+			<string>hhook</string>
+			<string>henghook</string>
+			<string>istroke</string>
+			<string>Ismall</string>
+			<string>lmiddletilde</string>
+			<string>lbelt</string>
+			<string>lhookretroflex</string>
+			<string>lezh</string>
+			<string>mturned</string>
+			<string>mlonglegturned</string>
+			<string>mhook</string>
+			<string>nhookleft</string>
+			<string>nhookretroflex</string>
+			<string>Nsmall</string>
+			<string>obarred</string>
+			<string>OEsmall</string>
+			<string>phi-latin</string>
+			<string>rturned</string>
+			<string>rlonglegturned</string>
+			<string>rhookturned</string>
+			<string>rhook</string>
 			<string>rfishhook</string>
-			<string>rtail</string>
+			<string>Rsmall</string>
+			<string>Rsmallinverted</string>
+			<string>shook</string>
+			<string>esh</string>
+			<string>jdotlessstrokehook</string>
 			<string>tretroflexhook</string>
 			<string>ubar</string>
 			<string>upsilon-latin</string>
 			<string>vhook</string>
 			<string>vturned</string>
-			<string>hmod</string>
-			<string>nmod</string>
-			<string>wmod</string>
-			<string>clickalveolar</string>
-			<string>clickdental</string>
-			<string>clicklateral</string>
-			<string>clickretroflex</string>
-			<string>dblgravecomb</string>
-			<string>ringbelowcomb</string>
-			<string>verticallinebelowcomb</string>
-			<string>breveinvertedbelowcomb</string>
-			<string>tildebelowcomb</string>
-			<string>lowlinecomb</string>
-			<string>tildeoverlaycomb</string>
-			<string>acutemacroncomb</string>
-			<string>gravemacroncomb</string>
-			<string>macronacutecomb</string>
-			<string>macrongravecomb</string>
-			<string>verticallinemod</string>
-			<string>ae</string>
-			<string>ccedilla</string>
-			<string>eth</string>
-			<string>hbar</string>
-			<string>eng</string>
-			<string>oslash</string>
-			<string>oe</string>
-			<string>circumflexcomb</string>
-			<string>caroncomb</string>
-			<string>brevecomb</string>
-			<string>ringcomb</string>
-			<string>tildecomb</string>
-			<string>Bsmall</string>
-			<string>Gsmall</string>
-			<string>Gsmallhook</string>
-			<string>Hsmall</string>
-			<string>Lsmall</string>
-			<string>Nsmall</string>
-			<string>OEsmall</string>
-			<string>Rsmall</string>
-			<string>Rsmallinverted</string>
-			<string>Ysmall</string>
-			<string>alphaturned-latin</string>
-			<string>aturned</string>
-			<string>bmiddletilde</string>
-			<string>ccurl</string>
-			<string>dmiddletilde</string>
-			<string>eopenreversed</string>
-			<string>eopenreversedclosed</string>
-			<string>eopenreversedhook</string>
-			<string>ereversed</string>
-			<string>schwahook</string>
-			<string>fmiddletilde</string>
-			<string>glottalstopstroke</string>
-			<string>glottalstopstrokereversed</string>
-			<string>gsingle</string>
-			<string>henghook</string>
-			<string>jdotlessstroke</string>
-			<string>jdotlessstrokehook</string>
-			<string>lezh</string>
-			<string>lhookretroflex</string>
-			<string>mhook</string>
-			<string>mlonglegturned</string>
-			<string>mmiddletilde</string>
-			<string>nhookretroflex</string>
-			<string>nmiddletilde</string>
-			<string>phi-latin</string>
-			<string>pmiddletilde</string>
-			<string>ramshorn</string>
-			<string>rfishhookmiddletilde</string>
-			<string>rhookturned</string>
-			<string>rlonglegturned</string>
-			<string>rmiddletilde</string>
-			<string>rturned</string>
-			<string>shook</string>
-			<string>smiddletilde</string>
-			<string>tmiddletilde</string>
 			<string>wturned</string>
 			<string>yturned</string>
-			<string>zcurl</string>
-			<string>zmiddletilde</string>
+			<string>Ysmall</string>
 			<string>zretroflexhook</string>
+			<string>zcurl</string>
+			<string>ezh</string>
+			<string>glottalstop</string>
+			<string>glottalstopreversed</string>
+			<string>bilabialclick</string>
+			<string>Bsmall</string>
+			<string>Gsmallhook</string>
+			<string>Hsmall</string>
+			<string>jcrossedtail</string>
+			<string>Lsmall</string>
+			<string>glottalstopstroke</string>
+			<string>glottalstopstrokereversed</string>
+			<string>hmod</string>
 			<string>jmod</string>
-			<string>lmod</string>
-			<string>raiseddownarrowmod</string>
-			<string>raiseduparrowmod</string>
-			<string>gammamod-latin</string>
-			<string>lowringmod</string>
-			<string>tonebarextrahighmod</string>
-			<string>tonebarextralowmod</string>
-			<string>tonebarhighmod</string>
-			<string>tonebarlowmod</string>
-			<string>tonebarmidmod</string>
+			<string>wmod</string>
+			<string>apostrophemod</string>
+			<string>glottalstopreversedmod</string>
+			<string>verticallinemod</string>
+			<string>verticallinelowmod</string>
+			<string>colontriangularmod</string>
+			<string>colontriangularhalfmod</string>
 			<string>rhotichookmod</string>
-			<string>dottedCircle</string>
+			<string>gammamod-latin</string>
+			<string>lmod</string>
+			<string>tonebarextrahighmod</string>
+			<string>tonebarhighmod</string>
+			<string>tonebarmidmod</string>
+			<string>tonebarlowmod</string>
+			<string>tonebarextralowmod</string>
+			<string>lowringmod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>circumflexcomb</string>
+			<string>tildecomb</string>
+			<string>macroncomb</string>
+			<string>overlinecomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>ringcomb</string>
+			<string>hungarumlautcomb</string>
+			<string>caroncomb</string>
+			<string>dblgravecomb</string>
 			<string>lefttackbelowcomb</string>
 			<string>righttackbelowcomb</string>
 			<string>leftangleabovecomb</string>
@@ -625,21 +596,50 @@
 			<string>plusbelowcomb</string>
 			<string>minusbelowcomb</string>
 			<string>dieresisbelowcomb</string>
+			<string>ringbelowcomb</string>
+			<string>verticallinebelowcomb</string>
 			<string>bridgebelowcomb</string>
 			<string>caronbelowcomb</string>
+			<string>breveinvertedbelowcomb</string>
+			<string>tildebelowcomb</string>
+			<string>lowlinecomb</string>
+			<string>tildeoverlaycomb</string>
 			<string>ringhalfrightbelowcomb</string>
 			<string>bridgeinvertedbelowcomb</string>
 			<string>squarebelowcomb</string>
 			<string>seagullbelowcomb</string>
 			<string>xabovecomb</string>
 			<string>doubleverticallinebelowcomb</string>
+			<string>doublebrevebelowcomb</string>
 			<string>breveinverteddoublecomb</string>
-			<string>acutegraveacutecomb</string>
+			<string>beta</string>
+			<string>theta</string>
+			<string>chi</string>
+			<string>bmiddletilde</string>
+			<string>dmiddletilde</string>
+			<string>fmiddletilde</string>
+			<string>mmiddletilde</string>
+			<string>nmiddletilde</string>
+			<string>pmiddletilde</string>
+			<string>rmiddletilde</string>
+			<string>rfishhookmiddletilde</string>
+			<string>smiddletilde</string>
+			<string>tmiddletilde</string>
+			<string>zmiddletilde</string>
+			<string>macronacutecomb</string>
+			<string>gravemacroncomb</string>
+			<string>macrongravecomb</string>
+			<string>acutemacroncomb</string>
 			<string>graveacutegravecomb</string>
-			<string>colontriangularhalfmod</string>
-			<string>colontriangularmod</string>
-			<string>glottalstopreversedmod</string>
-			<string>verticallinelowmod</string>
+			<string>acutegraveacutecomb</string>
+			<string>dblverticalbar</string>
+			<string>undertie</string>
+			<string>nmod</string>
+			<string>dottedCircle</string>
+			<string>raiseduparrowmod</string>
+			<string>raiseddownarrowmod</string>
+			<string>beta-latin</string>
+			<string>chi-latin</string>
 		</array>
 		<key>name</key>
 		<string>GF_Phonetics_IPAStandard</string>
@@ -647,16 +647,16 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>Asmall</string>
-			<string>Esmall</string>
 			<string>dcurl</string>
+			<string>lcurl</string>
+			<string>ncurl</string>
+			<string>tcurl</string>
+			<string>rfishhookreversed</string>
 			<string>eshsquatreversed</string>
 			<string>hturnedfishhook</string>
 			<string>hturnedfishhookandtail</string>
-			<string>lcurl</string>
-			<string>ncurl</string>
-			<string>rfishhookreversed</string>
-			<string>tcurl</string>
+			<string>Asmall</string>
+			<string>Esmall</string>
 			<string>Omegasmall</string>
 		</array>
 		<key>name</key>

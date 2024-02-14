@@ -1,97 +1,24 @@
 {
-.appVersion = "3135";
+.appVersion = "3151";
 .formatVersion = 3;
-date = "2021-10-28 12:22:31 +0000";
-familyName = "GF Phonetics IPA Standard";
-featurePrefixes = (
+axes = (
 {
-automatic = 1;
-code = "languagesystem DFLT dflt;
-
-languagesystem latn dflt;
-languagesystem latn AZE;
-languagesystem latn CRT;
-languagesystem latn KAZ;
-languagesystem latn TAT;
-languagesystem latn TRK;
-languagesystem latn ROM;
-languagesystem latn MOL;
-languagesystem latn CAT;
-";
-name = Languagesystems;
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
 }
 );
-features = (
-{
-automatic = 1;
-code = "feature locl;
-feature ordn;
-feature case;
-";
-tag = aalt;
-},
-{
-automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-} ccmp_Other_1;
-";
-tag = ccmp;
-},
-{
-automatic = 1;
-code = "lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
-	sub i by idotaccent;
-} locl_latn_0;
-
-lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	language MOL;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-} locl_latn_1;
-
-lookup locl_latn_2 {
-	script latn;
-	language CAT;
-	sub l periodcentered' l by periodcentered.loclCAT;
-	sub L periodcentered' L by periodcentered.loclCAT.case;
-} locl_latn_2;
-";
-tag = locl;
-},
-{
-automatic = 1;
-code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
-";
-tag = ordn;
-},
-{
-automatic = 1;
-code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
-";
-tag = case;
-}
-);
+date = "2023-12-13 14:28:10 +0000";
+familyName = GF_Phonetics_IPAStandard;
 fontMaster = (
 {
+axesValues = (
+100,
+100
+);
 id = m01;
 metricValues = (
 {
@@ -122,1686 +49,682 @@ name = Regular;
 );
 glyphs = (
 {
-glyphname = Bsmall;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 665;
-},
-{
-glyphname = Gsmall;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 610;
-},
-{
-glyphname = Gsmallhook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 667;
-},
-{
-glyphname = Hsmall;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 668;
-},
-{
-glyphname = Ismall;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 618;
-},
-{
-glyphname = Lsmall;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 671;
-},
-{
-glyphname = Nsmall;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 628;
-},
-{
-glyphname = OEsmall;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 630;
-},
-{
-glyphname = Rsmall;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 640;
-},
-{
-glyphname = Rsmallinverted;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 641;
-},
-{
-glyphname = Ysmall;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 655;
-},
-{
-glyphname = "alpha-latin";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 593;
-},
-{
-glyphname = "alphaturned-latin";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 594;
-},
-{
-glyphname = aturned;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 592;
-},
-{
-glyphname = ae;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 230;
-},
-{
-glyphname = "beta-latin";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 42933;
-},
-{
-glyphname = bhook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 595;
-},
-{
-glyphname = bilabialclick;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 664;
-},
-{
-glyphname = bmiddletilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7532;
-},
-{
-glyphname = ccedilla;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 231;
-},
-{
-glyphname = ccurl;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 597;
-},
-{
-glyphname = "chi-latin";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 43859;
-},
-{
-glyphname = eth;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 240;
-},
-{
-glyphname = dhook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 599;
-},
-{
-glyphname = dmiddletilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7533;
-},
-{
-glyphname = dtail;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 598;
-},
-{
-glyphname = edblgrave;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 517;
-},
-{
-glyphname = eopen;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 603;
-},
-{
-glyphname = eopenreversed;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 604;
-},
-{
-glyphname = eopenreversedclosed;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 606;
-},
-{
-glyphname = eopenreversedhook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 605;
-},
-{
-glyphname = ereversed;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 600;
-},
-{
-glyphname = esh;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 643;
-},
-{
-glyphname = schwa;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 601;
-},
-{
-glyphname = schwahook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 602;
-},
-{
-glyphname = ezh;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 658;
-},
-{
-glyphname = fmiddletilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7534;
-},
-{
-glyphname = "gamma-latin";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 611;
-},
-{
-glyphname = ghook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 608;
-},
-{
-glyphname = glottalstop;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 660;
-},
-{
-glyphname = glottalstopreversed;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 661;
-},
-{
-glyphname = glottalstopstroke;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 673;
-},
-{
-glyphname = glottalstopstrokereversed;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 674;
-},
-{
-glyphname = gsingle;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 609;
-},
-{
-glyphname = hbar;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 295;
-},
-{
-glyphname = henghook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 615;
-},
-{
-glyphname = hhook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 614;
-},
-{
-glyphname = hturned;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 613;
-},
-{
-glyphname = istroke;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 616;
-},
-{
-glyphname = jcrossedtail;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 669;
-},
-{
-glyphname = jdotlessstroke;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 607;
-},
-{
-glyphname = jdotlessstrokehook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 644;
-},
-{
-glyphname = lbelt;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 620;
-},
-{
-glyphname = lezh;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 622;
-},
-{
-glyphname = lhookretroflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 621;
-},
-{
-glyphname = lmiddletilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 619;
-},
-{
-glyphname = mhook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 625;
-},
-{
-glyphname = mlonglegturned;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 624;
-},
-{
-glyphname = mmiddletilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7535;
-},
-{
-glyphname = mturned;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 623;
-},
-{
-glyphname = nhookleft;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 626;
-},
-{
-glyphname = nhookretroflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 627;
-},
-{
-glyphname = nmiddletilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7536;
-},
-{
-glyphname = eng;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 331;
-},
-{
-glyphname = obarred;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 629;
-},
-{
-glyphname = oopen;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 596;
-},
-{
-glyphname = oslash;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 248;
-},
-{
-glyphname = oe;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 339;
-},
-{
-glyphname = "phi-latin";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 632;
-},
-{
-glyphname = pmiddletilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7537;
-},
-{
-glyphname = ramshorn;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 612;
-},
-{
-glyphname = rfishhook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 638;
-},
-{
-glyphname = rfishhookmiddletilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7539;
-},
-{
-glyphname = rhookturned;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 635;
-},
-{
-glyphname = rlonglegturned;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 634;
+glyphname = bar;
+unicode = 124;
 },
 {
-glyphname = rmiddletilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7538;
-},
-{
-glyphname = rtail;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 637;
-},
-{
-glyphname = rturned;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 633;
-},
-{
-glyphname = shook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 642;
-},
-{
-glyphname = smiddletilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7540;
-},
-{
-glyphname = tmiddletilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7541;
-},
-{
-glyphname = tretroflexhook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 648;
-},
-{
-glyphname = ubar;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 649;
-},
-{
-glyphname = "upsilon-latin";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 650;
-},
-{
-glyphname = vhook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 651;
-},
-{
-glyphname = vturned;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 652;
-},
-{
-glyphname = wturned;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 653;
-},
-{
-glyphname = yturned;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 654;
+glyphname = rhotichookmod;
+unicode = 734;
 },
 {
-glyphname = zcurl;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 657;
-},
-{
-glyphname = zmiddletilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7542;
-},
-{
-glyphname = zretroflexhook;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 656;
-},
-{
-glyphname = hmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 688;
-},
-{
-glyphname = jmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 690;
-},
-{
-glyphname = lmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 737;
-},
-{
-glyphname = nmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8319;
+glyphname = "gammamod-latin";
+unicode = 736;
 },
 {
-glyphname = wmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 695;
-},
-{
-glyphname = clickalveolar;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 450;
-},
-{
-glyphname = clickdental;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 448;
-},
-{
-glyphname = clicklateral;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 449;
-},
-{
-glyphname = clickretroflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 451;
+glyphname = tonebarextrahighmod;
+unicode = 741;
 },
-{
-glyphname = beta;
-layers = (
 {
-layerId = m01;
-width = 600;
-}
-);
-unicode = 946;
+glyphname = tonebarhighmod;
+unicode = 742;
 },
 {
-glyphname = theta;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 952;
+glyphname = tonebarmidmod;
+unicode = 743;
 },
-{
-glyphname = chi;
-layers = (
 {
-layerId = m01;
-width = 600;
-}
-);
-unicode = 967;
+glyphname = tonebarlowmod;
+unicode = 744;
 },
 {
-glyphname = raiseddownarrowmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 42780;
+glyphname = tonebarextralowmod;
+unicode = 745;
 },
 {
-glyphname = raiseduparrowmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 42779;
+glyphname = lowringmod;
+unicode = 755;
 },
-{
-glyphname = period;
-layers = (
 {
-layerId = m01;
-width = 600;
-}
-);
-unicode = 46;
+glyphname = dottedCircle;
+unicode = 9676;
 },
 {
 glyphname = exclam;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 33;
 },
 {
-glyphname = dblverticalbar;
-layers = (
+glyphname = period;
+unicode = 46;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = dblverticalbar;
 unicode = 8214;
 },
 {
 glyphname = undertie;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8255;
 },
 {
-glyphname = "gammamod-latin";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 736;
+glyphname = apostrophemod;
+unicode = 700;
 },
 {
-glyphname = lowringmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 755;
+glyphname = glottalstopreversedmod;
+unicode = 705;
 },
 {
-glyphname = tonebarextrahighmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 741;
+glyphname = verticallinemod;
+unicode = 712;
 },
 {
-glyphname = tonebarextralowmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 745;
+glyphname = verticallinelowmod;
+unicode = 716;
 },
 {
-glyphname = tonebarhighmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 742;
+glyphname = colontriangularmod;
+unicode = 720;
 },
 {
-glyphname = tonebarlowmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 744;
-},
-{
-glyphname = tonebarmidmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 743;
-},
-{
-glyphname = rhotichookmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 734;
-},
-{
-glyphname = bar;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 124;
-},
-{
-glyphname = dottedCircle;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9676;
-},
-{
-glyphname = dieresiscomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 776;
+glyphname = colontriangularhalfmod;
+unicode = 721;
 },
 {
 glyphname = gravecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 768;
 },
 {
 glyphname = acutecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 769;
 },
 {
-glyphname = hungarumlautcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 779;
-},
-{
 glyphname = circumflexcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 770;
 },
 {
-glyphname = caroncomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 780;
-},
-{
-glyphname = brevecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 774;
-},
-{
-glyphname = ringcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 778;
-},
-{
 glyphname = tildecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 771;
 },
 {
 glyphname = macroncomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 772;
 },
 {
 glyphname = overlinecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 773;
 },
 {
-glyphname = dblgravecomb;
-layers = (
+glyphname = brevecomb;
+unicode = 774;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = dieresiscomb;
+unicode = 776;
+},
+{
+glyphname = ringcomb;
+unicode = 778;
+},
+{
+glyphname = hungarumlautcomb;
+unicode = 779;
+},
+{
+glyphname = caroncomb;
+unicode = 780;
+},
+{
+glyphname = dblgravecomb;
 unicode = 783;
 },
 {
 glyphname = lefttackbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 792;
 },
 {
 glyphname = righttackbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 793;
 },
 {
 glyphname = leftangleabovecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 794;
 },
 {
 glyphname = ringhalfleftbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 796;
 },
 {
 glyphname = uptackbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 797;
 },
 {
 glyphname = downtackbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 798;
 },
 {
 glyphname = plusbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 799;
 },
 {
 glyphname = minusbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 800;
 },
 {
 glyphname = dieresisbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 804;
 },
 {
 glyphname = ringbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 805;
 },
 {
 glyphname = verticallinebelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 809;
 },
 {
 glyphname = bridgebelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 810;
 },
 {
 glyphname = caronbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 812;
 },
 {
 glyphname = breveinvertedbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 815;
 },
 {
 glyphname = tildebelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 816;
 },
 {
 glyphname = lowlinecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 818;
 },
 {
 glyphname = tildeoverlaycomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 820;
 },
 {
 glyphname = ringhalfrightbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 825;
 },
 {
 glyphname = bridgeinvertedbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 826;
 },
 {
 glyphname = squarebelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 827;
 },
 {
 glyphname = seagullbelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 828;
 },
 {
 glyphname = xabovecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 829;
 },
 {
 glyphname = doubleverticallinebelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 840;
 },
 {
 glyphname = doublebrevebelowcomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 860;
 },
 {
 glyphname = breveinverteddoublecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 865;
 },
 {
-glyphname = acutegraveacutecomb;
-layers = (
+glyphname = macronacutecomb;
+unicode = 7620;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7625;
+glyphname = gravemacroncomb;
+unicode = 7621;
+},
+{
+glyphname = macrongravecomb;
+unicode = 7622;
 },
 {
 glyphname = acutemacroncomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 7623;
 },
 {
 glyphname = graveacutegravecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 7624;
 },
 {
-glyphname = gravemacroncomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7621;
+glyphname = acutegraveacutecomb;
+unicode = 7625;
 },
 {
-glyphname = macronacutecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7620;
+glyphname = ae;
+unicode = 230;
 },
 {
-glyphname = macrongravecomb;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 7622;
+glyphname = ccedilla;
+unicode = 231;
 },
 {
-glyphname = apostrophemod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 700;
+glyphname = eth;
+unicode = 240;
 },
 {
-glyphname = colontriangularhalfmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 721;
+glyphname = oslash;
+unicode = 248;
 },
 {
-glyphname = colontriangularmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 720;
+glyphname = hbar;
+unicode = 295;
 },
 {
-glyphname = glottalstopreversedmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 705;
+glyphname = eng;
+unicode = 331;
 },
 {
-glyphname = verticallinelowmod;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 716;
+glyphname = oe;
+unicode = 339;
 },
 {
-glyphname = verticallinemod;
-layers = (
+glyphname = clickdental;
+unicode = 448;
+},
 {
-layerId = m01;
-width = 600;
+glyphname = clicklateral;
+unicode = 449;
+},
+{
+glyphname = clickalveolar;
+unicode = 450;
+},
+{
+glyphname = clickretroflex;
+unicode = 451;
+},
+{
+glyphname = edblgrave;
+unicode = 517;
+},
+{
+glyphname = aturned;
+unicode = 592;
+},
+{
+glyphname = "alpha-latin";
+unicode = 593;
+},
+{
+glyphname = "alphaturned-latin";
+unicode = 594;
+},
+{
+glyphname = bhook;
+unicode = 595;
+},
+{
+glyphname = oopen;
+unicode = 596;
+},
+{
+glyphname = ccurl;
+unicode = 597;
+},
+{
+glyphname = dtail;
+unicode = 598;
+},
+{
+glyphname = dhook;
+unicode = 599;
+},
+{
+glyphname = ereversed;
+unicode = 600;
+},
+{
+glyphname = schwa;
+unicode = 601;
+},
+{
+glyphname = schwahook;
+unicode = 602;
+},
+{
+glyphname = eopen;
+unicode = 603;
+},
+{
+glyphname = eopenreversed;
+unicode = 604;
+},
+{
+glyphname = eopenreversedhook;
+unicode = 605;
+},
+{
+glyphname = eopenreversedclosed;
+unicode = 606;
+},
+{
+glyphname = jdotlessstroke;
+unicode = 607;
+},
+{
+glyphname = ghook;
+unicode = 608;
+},
+{
+glyphname = gsingle;
+unicode = 609;
+},
+{
+glyphname = Gsmall;
+unicode = 610;
+},
+{
+glyphname = "gamma-latin";
+unicode = 611;
+},
+{
+glyphname = ramshorn;
+unicode = 612;
+},
+{
+glyphname = hturned;
+unicode = 613;
+},
+{
+glyphname = hhook;
+unicode = 614;
+},
+{
+glyphname = henghook;
+unicode = 615;
+},
+{
+glyphname = istroke;
+unicode = 616;
+},
+{
+glyphname = Ismall;
+unicode = 618;
+},
+{
+glyphname = lmiddletilde;
+unicode = 619;
+},
+{
+glyphname = lbelt;
+unicode = 620;
+},
+{
+glyphname = lhookretroflex;
+unicode = 621;
+},
+{
+glyphname = lezh;
+unicode = 622;
+},
+{
+glyphname = mturned;
+unicode = 623;
+},
+{
+glyphname = mlonglegturned;
+unicode = 624;
+},
+{
+glyphname = mhook;
+unicode = 625;
+},
+{
+glyphname = nhookleft;
+unicode = 626;
+},
+{
+glyphname = nhookretroflex;
+unicode = 627;
+},
+{
+glyphname = Nsmall;
+unicode = 628;
+},
+{
+glyphname = obarred;
+unicode = 629;
+},
+{
+glyphname = OEsmall;
+unicode = 630;
+},
+{
+glyphname = "phi-latin";
+unicode = 632;
+},
+{
+glyphname = rturned;
+unicode = 633;
+},
+{
+glyphname = rlonglegturned;
+unicode = 634;
+},
+{
+glyphname = rhookturned;
+unicode = 635;
+},
+{
+glyphname = rhook;
+unicode = 637;
+},
+{
+glyphname = rfishhook;
+unicode = 638;
+},
+{
+glyphname = Rsmall;
+unicode = 640;
+},
+{
+glyphname = Rsmallinverted;
+unicode = 641;
+},
+{
+glyphname = shook;
+unicode = 642;
+},
+{
+glyphname = esh;
+unicode = 643;
+},
+{
+glyphname = jdotlessstrokehook;
+unicode = 644;
+},
+{
+glyphname = tretroflexhook;
+unicode = 648;
+},
+{
+glyphname = ubar;
+unicode = 649;
+},
+{
+glyphname = "upsilon-latin";
+unicode = 650;
+},
+{
+glyphname = vhook;
+unicode = 651;
+},
+{
+glyphname = vturned;
+unicode = 652;
+},
+{
+glyphname = wturned;
+unicode = 653;
+},
+{
+glyphname = yturned;
+unicode = 654;
+},
+{
+glyphname = Ysmall;
+unicode = 655;
+},
+{
+glyphname = zretroflexhook;
+unicode = 656;
+},
+{
+glyphname = zcurl;
+unicode = 657;
+},
+{
+glyphname = ezh;
+unicode = 658;
+},
+{
+glyphname = glottalstop;
+unicode = 660;
+},
+{
+glyphname = glottalstopreversed;
+unicode = 661;
+},
+{
+glyphname = bilabialclick;
+unicode = 664;
+},
+{
+glyphname = Bsmall;
+unicode = 665;
+},
+{
+glyphname = Gsmallhook;
+unicode = 667;
+},
+{
+glyphname = Hsmall;
+unicode = 668;
+},
+{
+glyphname = jcrossedtail;
+unicode = 669;
+},
+{
+glyphname = Lsmall;
+unicode = 671;
+},
+{
+glyphname = glottalstopstroke;
+unicode = 673;
+},
+{
+glyphname = glottalstopstrokereversed;
+unicode = 674;
+},
+{
+glyphname = hmod;
+unicode = 688;
+},
+{
+glyphname = jmod;
+unicode = 690;
+},
+{
+glyphname = wmod;
+unicode = 695;
+},
+{
+glyphname = lmod;
+unicode = 737;
+},
+{
+glyphname = beta;
+unicode = 946;
+},
+{
+glyphname = theta;
+unicode = 952;
+},
+{
+glyphname = chi;
+unicode = 967;
+},
+{
+glyphname = bmiddletilde;
+unicode = 7532;
+},
+{
+glyphname = dmiddletilde;
+unicode = 7533;
+},
+{
+glyphname = fmiddletilde;
+unicode = 7534;
+},
+{
+glyphname = mmiddletilde;
+unicode = 7535;
+},
+{
+glyphname = nmiddletilde;
+unicode = 7536;
+},
+{
+glyphname = pmiddletilde;
+unicode = 7537;
+},
+{
+glyphname = rmiddletilde;
+unicode = 7538;
+},
+{
+glyphname = rfishhookmiddletilde;
+unicode = 7539;
+},
+{
+glyphname = smiddletilde;
+unicode = 7540;
+},
+{
+glyphname = tmiddletilde;
+unicode = 7541;
+},
+{
+glyphname = zmiddletilde;
+unicode = 7542;
+},
+{
+glyphname = nmod;
+unicode = 8319;
+},
+{
+glyphname = raiseduparrowmod;
+unicode = 42779;
+},
+{
+glyphname = raiseddownarrowmod;
+unicode = 42780;
+},
+{
+glyphname = "beta-latin";
+unicode = 42933;
+},
+{
+glyphname = "chi-latin";
+unicode = 43859;
 }
 );
-unicode = 712;
-}
+instances = (
 );
+kerningLTR = {
+};
 metrics = (
 {
 type = ascender;
@@ -1821,6 +744,8 @@ type = descender;
 {
 type = "italic angle";
 }
+);
+stems = (
 );
 unitsPerEm = 1000;
 versionMajor = 1;
