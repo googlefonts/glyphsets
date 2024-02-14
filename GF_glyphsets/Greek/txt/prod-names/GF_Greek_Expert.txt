@@ -1,3 +1,10 @@
+# This file is auto-generated; do not edit. See /README.md for instructions.
+uni0374.sc
+uni0375.sc
+anoteleia.sc
+uni037E.sc
+tonos.sc
+dieresistonos.sc
 gamma_gamma
 lambda_lambda
 alpha.sc
@@ -274,9 +281,3 @@ phi.sups
 chi.sups
 psi.sups
 omega.sups
-anoteleia.sc
-uni037E.sc
-uni0374.sc
-uni0375.sc
-tonos.sc
-dieresistonos.sc

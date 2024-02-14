@@ -1,16 +1,6 @@
 {
 .appVersion = "3239";
 .formatVersion = 3;
-axes = (
-{
-name = Weight;
-tag = wght;
-},
-{
-name = Width;
-tag = wdth;
-}
-);
 date = "2021-10-28 12:22:31 +0000";
 familyName = "GF Greek Expert";
 featurePrefixes = (
@@ -102,10 +92,6 @@ tag = case;
 );
 fontMaster = (
 {
-axesValues = (
-100,
-100
-);
 id = m01;
 metricValues = (
 {
@@ -128,67 +114,12 @@ over = -16;
 pos = -200;
 },
 {
-over = 0;
 }
 );
 name = Regular;
 }
 );
 glyphs = (
-{
-glyphname = "numeral-greek.sc";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "lowernumeral-greek.sc";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = anoteleia.sc;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = questiongreek.sc;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = tonos.sc;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = dieresistonos.sc;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
 {
 glyphname = gamma_gamma;
 layers = (
@@ -2672,12 +2603,62 @@ layerId = m01;
 width = 600;
 }
 );
+},
+{
+glyphname = anoteleia.sc;
+layers = (
+{
+layerId = m01;
+width = 600;
 }
 );
-instances = (
+},
+{
+glyphname = questiongreek.sc;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
 );
-kerningLTR = {
-};
+},
+{
+glyphname = "numeral-greek.sc";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "lowernumeral-greek.sc";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = tonos.sc;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = dieresistonos.sc;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+}
+);
 metrics = (
 {
 type = ascender;
@@ -2697,8 +2678,6 @@ type = descender;
 {
 type = "italic angle";
 }
-);
-stems = (
 );
 unitsPerEm = 1000;
 versionMajor = 1;

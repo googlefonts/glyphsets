@@ -1,12 +1,15 @@
 # Table of Contents:
 
 
-| Arabic | Cyrillic | Latin |
-| --- | --- | --- |
-| [✅ Core](#gf-arabic-core) | [🛑 Core](#gf-cyrillic-core) | [✅ African](#gf-latin-african) |
-| [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [✅ Core](#gf-latin-core) |
-|  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Kernel](#gf-latin-kernel) |
-|  | [🛑 Pro](#gf-cyrillic-pro) |  |
+| Arabic | Cyrillic | Greek | Latin |
+| --- | --- | --- | --- |
+| [✅ Core](#gf-arabic-core) | [🛑 Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) |
+| [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [✅ Core](#gf-latin-core) |
+|  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [🛑 Kernel](#gf-latin-kernel) |
+|  | [🛑 Pro](#gf-cyrillic-pro) | [🛑 Core](#gf-greek-core) |  |
+|  |  | [🛑 Expert](#gf-greek-expert) |  |
+|  |  | [🛑 Plus](#gf-greek-plus) |  |
+|  |  | [🛑 Pro](#gf-greek-pro) |  |
 
 > [!NOTE]  
 > This document is a human-readable representation of the glyphset defintions defined in code [here](/Lib/glyphsets/definitions/__init__.py) and gets updated automatically as part of the `sh build.sh` command.
@@ -107,6 +110,105 @@ GF_Cyrillic_Pro is **statically** defined as:
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
 The resulting glyphset can be found here: [GF_Cyrillic_Pro.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Pro.nam) (only encoded glyphs), [GF_Cyrillic_Pro.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Pro.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
+
+
+## GF Greek AncientMusicalSymbols
+
+GF_Greek_AncientMusicalSymbols is **statically** defined as:
+
+* Script: Greek
+* Codepoints defined in [GF_Greek_AncientMusicalSymbols.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_AncientMusicalSymbols.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Greek_AncientMusicalSymbols.nam](/GF_glyphsets/Greek/nam/GF_Greek_AncientMusicalSymbols.nam) (only encoded glyphs), [GF_Greek_AncientMusicalSymbols.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_AncientMusicalSymbols.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+
+
+## GF Greek Archaic
+
+GF_Greek_Archaic is **statically** defined as:
+
+* Script: Greek
+* Codepoints defined in [GF_Greek_Archaic.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Archaic.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Greek_Archaic.nam](/GF_glyphsets/Greek/nam/GF_Greek_Archaic.nam) (only encoded glyphs), [GF_Greek_Archaic.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Archaic.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+
+
+## GF Greek Coptic
+
+GF_Greek_Coptic is **statically** defined as:
+
+* Script: Greek
+* Codepoints defined in [GF_Greek_Coptic.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Coptic.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Greek_Coptic.nam](/GF_glyphsets/Greek/nam/GF_Greek_Coptic.nam) (only encoded glyphs), [GF_Greek_Coptic.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Coptic.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+
+
+## GF Greek Core
+
+GF_Greek_Core is **statically** defined as:
+
+* Script: Greek
+* Codepoints defined in [GF_Greek_Core.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Core.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Greek_Core.nam](/GF_glyphsets/Greek/nam/GF_Greek_Core.nam) (only encoded glyphs), [GF_Greek_Core.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+
+
+## GF Greek Expert
+
+GF_Greek_Expert is **statically** defined as:
+
+* Script: Greek
+* Codepoints defined in [GF_Greek_Expert.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Expert.stub.nam)
+* Unencoded glyphs defined in [GF_Greek_Expert.stub.glyphs](/GF_glyphsets/Greek/definitions/GF_Greek_Expert.stub.glyphs)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Greek_Expert.nam](/GF_glyphsets/Greek/nam/GF_Greek_Expert.nam) (only encoded glyphs), [GF_Greek_Expert.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Expert.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+
+
+## GF Greek Plus
+
+GF_Greek_Plus is **statically** defined as:
+
+* Script: Greek
+* Codepoints defined in [GF_Greek_Plus.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Plus.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Greek_Plus.nam](/GF_glyphsets/Greek/nam/GF_Greek_Plus.nam) (only encoded glyphs), [GF_Greek_Plus.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+
+
+## GF Greek Pro
+
+GF_Greek_Pro is **statically** defined as:
+
+* Script: Greek
+* Codepoints defined in [GF_Greek_Pro.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Pro.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Greek_Pro.nam](/GF_glyphsets/Greek/nam/GF_Greek_Pro.nam) (only encoded glyphs), [GF_Greek_Pro.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Pro.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
 ## GF Latin African

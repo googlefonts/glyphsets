@@ -25,6 +25,13 @@ glyphset_definitions = {
     "GF_Cyrillic_Historical": {"script": "Cyrillic"},
     "GF_Cyrillic_Plus": {"script": "Cyrillic"},
     "GF_Cyrillic_Pro": {"script": "Cyrillic"},
+    "GF_Greek_AncientMusicalSymbols": {"script": "Greek"},
+    "GF_Greek_Archaic": {"script": "Greek"},
+    "GF_Greek_Coptic": {"script": "Greek"},
+    "GF_Greek_Core": {"script": "Greek"},
+    "GF_Greek_Expert": {"script": "Greek"},
+    "GF_Greek_Plus": {"script": "Greek"},
+    "GF_Greek_Pro": {"script": "Greek"},
     "GF_Latin_African": {
         "script": "Latin",
         "use_auxiliary": True,
