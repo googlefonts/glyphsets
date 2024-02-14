@@ -943,6 +943,18 @@
 			<string>onehalf-coptic</string>
 			<string>fullstop-coptic</string>
 			<string>morphologicaldivider-coptic</string>
+			<string>oldwau-nubian-coptic</string>
+			<string>oldversedivider-nubian-coptic</string>
+			<string>oldshima-nubian-coptic</string>
+			<string>oldnyi-nubian-coptic</string>
+			<string>oldngi-nubian-coptic</string>
+			<string>oldindirectquestion-nubian-coptic</string>
+			<string>oldfullstop-nubian-coptic</string>
+			<string>olddirectquestion-nubian-coptic</string>
+			<string>oldWau-nubian-coptic</string>
+			<string>oldShima-nubian-coptic</string>
+			<string>oldNyi-nubian-coptic</string>
+			<string>oldNgi-nubian-coptic</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_Coptic</string>
@@ -1561,6 +1573,33 @@
 			<string>Omegaprosgegrammeni</string>
 			<string>oxia</string>
 			<string>dasia</string>
+			<string>Alphaprosgegrammeni.ss01</string>
+			<string>Alphapsiliprosgegrammeni.ss01</string>
+			<string>Alphadasiaprosgegrammeni.ss01</string>
+			<string>Alphapsilivariaprosgegrammeni.ss01</string>
+			<string>Alphadasiavariaprosgegrammeni.ss01</string>
+			<string>Alphapsilioxiaprosgegrammeni.ss01</string>
+			<string>Alphadasiaoxiaprosgegrammeni.ss01</string>
+			<string>Alphapsiliperispomeniprosgegrammeni.ss01</string>
+			<string>Alphadasiaperispomeniprosgegrammeni.ss01</string>
+			<string>Etaprosgegrammeni.ss01</string>
+			<string>Etapsiliprosgegrammeni.ss01</string>
+			<string>Etadasiaprosgegrammeni.ss01</string>
+			<string>Etapsilivariaprosgegrammeni.ss01</string>
+			<string>Etadasiavariaprosgegrammeni.ss01</string>
+			<string>Etapsilioxiaprosgegrammeni.ss01</string>
+			<string>Etadasiaoxiaprosgegrammeni.ss01</string>
+			<string>Etapsiliperispomeniprosgegrammeni.ss01</string>
+			<string>Etadasiaperispomeniprosgegrammeni.ss01</string>
+			<string>Omegaprosgegrammeni.ss01</string>
+			<string>Omegapsiliprosgegrammeni.ss01</string>
+			<string>Omegadasiaprosgegrammeni.ss01</string>
+			<string>Omegapsilivariaprosgegrammeni.ss01</string>
+			<string>Omegadasiavariaprosgegrammeni.ss01</string>
+			<string>Omegapsilioxiaprosgegrammeni.ss01</string>
+			<string>Omegadasiaoxiaprosgegrammeni.ss01</string>
+			<string>Omegapsiliperispomeniprosgegrammeni.ss01</string>
+			<string>Omegadasiaperispomeniprosgegrammeni.ss01</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_Plus</string>

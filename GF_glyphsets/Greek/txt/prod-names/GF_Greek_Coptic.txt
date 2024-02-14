@@ -124,3 +124,15 @@ uni2CF3
 uni2CFD
 uni2CFE
 uni2CFF
+oldwaunubiancoptic
+oldversedividernubiancoptic
+oldshimanubiancoptic
+oldnyinubiancoptic
+oldnginubiancoptic
+oldindirectquestionnubiancoptic
+oldfullstopnubiancoptic
+olddirectquestionnubiancoptic
+oldWaunubiancoptic
+oldShimanubiancoptic
+oldNyinubiancoptic
+oldNginubiancoptic

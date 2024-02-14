@@ -142,6 +142,7 @@ GF_Greek_Coptic is **statically** defined as:
 
 * Script: Greek
 * Codepoints defined in [GF_Greek_Coptic.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Coptic.stub.nam)
+* Unencoded glyphs defined in [GF_Greek_Coptic.stub.glyphs](/GF_glyphsets/Greek/definitions/GF_Greek_Coptic.stub.glyphs)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -184,6 +185,7 @@ GF_Greek_Plus is **statically** defined as:
 
 * Script: Greek
 * Codepoints defined in [GF_Greek_Plus.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Plus.stub.nam)
+* Unencoded glyphs defined in [GF_Greek_Plus.stub.glyphs](/GF_glyphsets/Greek/definitions/GF_Greek_Plus.stub.glyphs)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
