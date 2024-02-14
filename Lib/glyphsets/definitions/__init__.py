@@ -3,7 +3,34 @@
 # in /GF_Glyphsets of this repo in order to find the other definition files.
 
 glyphset_definitions = {
-    "GF_Latin_Kernel": {"script": "Latin"},
+    "GF_Arabic_Core": {
+        "script": "Arabic",
+        "language_codes": [
+            "ar_Arab",  # Arabic
+            "fa_Arab",  # Persian
+            "ur_Arab",  # Urdu
+        ],
+    },
+    "GF_Arabic_Plus": {
+        "script": "Arabic",
+        "language_codes": [
+            "ckb_Arab",  # Kurdish
+            "ms_Arab",  # Malay
+            "ps_Arab",  # Pashto
+            "sd_Arab",  # Sindhi
+            "ug_Arab",  # Uyghur
+        ],
+    },
+    "GF_Latin_African": {
+        "script": "Latin",
+        "use_auxiliary": True,
+        "historical": False,
+        "population": 1,
+        "regions": "AO BF BI BJ BW CD CF CG CI CM CV DJ DZ EA EG EH ER ET GA "
+        "GH GM GN GQ GW IC IO KE KM LR LS LY MA MG ML MR MU MW MZ "
+        "NA NE NG RE RW SC SD SH SL SN SO SS ST SZ TD TF TG TN TZ "
+        "UG YT ZA ZM ZW ".split(),
+    },
     "GF_Latin_Core": {
         "script": "Latin",
         "language_codes": [
@@ -35,32 +62,5 @@ glyphset_definitions = {
             "tr_Latn",  # Turkish
         ],
     },
-    "GF_Latin_African": {
-        "script": "Latin",
-        "use_auxiliary": True,
-        "historical": False,
-        "population": 1,
-        "regions": "AO BF BI BJ BW CD CF CG CI CM CV DJ DZ EA EG EH ER ET GA "
-        "GH GM GN GQ GW IC IO KE KM LR LS LY MA MG ML MR MU MW MZ "
-        "NA NE NG RE RW SC SD SH SL SN SO SS ST SZ TD TF TG TN TZ "
-        "UG YT ZA ZM ZW ".split(),
-    },
-    "GF_Arabic_Core": {
-        "script": "Arabic",
-        "language_codes": [
-            "ar_Arab",  # Arabic
-            "fa_Arab",  # Persian
-            "ur_Arab",  # Urdu
-        ],
-    },
-    "GF_Arabic_Plus": {
-        "script": "Arabic",
-        "language_codes": [
-            "ckb_Arab",  # Kurdish
-            "ms_Arab",  # Malay
-            "ps_Arab",  # Pashto
-            "sd_Arab",  # Sindhi
-            "ug_Arab",  # Uyghur
-        ],
-    },
+    "GF_Latin_Kernel": {"script": "Latin"},
 }
