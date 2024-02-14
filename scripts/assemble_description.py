@@ -49,11 +49,11 @@ if __name__ == "__main__":
                 glyphset_name = script_dict[script][i]
                 abbr = glyphset_name.split("_")[-1]
                 _new_md, warning = description_per_glyphset(glyphset_name)
-                warning_md = " ✅"
+                warning_md = "✅"
                 if warning:
-                    warning_md = " 🛑"
+                    warning_md = "🛑"
                 row.append(
-                    f"[{abbr}{warning_md}](#{glyphset_name.lower().replace('_', '-')})"
+                    f"[{warning_md} {abbr}](#{glyphset_name.lower().replace('_', '-')})"
                 )
             else:
                 row.append("")
