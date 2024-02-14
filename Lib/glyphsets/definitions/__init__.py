@@ -74,4 +74,8 @@ glyphset_definitions = {
         ],
     },
     "GF_Latin_Kernel": {"script": "Latin"},
+    "GF_Latin_Beyond": {"script": "Latin"},
+    "GF_Latin_Plus": {"script": "Latin"},
+    "GF_Latin_PriAfrican": {"script": "Latin"},
+    "GF_Latin_Vietnamese": {"script": "Latin"},
 }

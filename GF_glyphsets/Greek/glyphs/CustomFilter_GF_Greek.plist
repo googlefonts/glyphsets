@@ -1323,129 +1323,11 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>Alphapsili</string>
-			<string>Alphadasia</string>
-			<string>Alphapsilivaria</string>
-			<string>Alphadasiavaria</string>
-			<string>Alphapsilioxia</string>
-			<string>Alphadasiaoxia</string>
-			<string>Alphapsiliperispomeni</string>
-			<string>Alphadasiaperispomeni</string>
-			<string>Alphavaria</string>
-			<string>Alphaoxia</string>
-			<string>Alphavrachy</string>
-			<string>Alphamacron</string>
-			<string>Alphaprosgegrammeni</string>
-			<string>Alphapsiliprosgegrammeni</string>
-			<string>Alphadasiaprosgegrammeni</string>
-			<string>Alphapsilivariaprosgegrammeni</string>
-			<string>Alphadasiavariaprosgegrammeni</string>
-			<string>Alphapsilioxiaprosgegrammeni</string>
-			<string>Alphadasiaoxiaprosgegrammeni</string>
-			<string>Alphapsiliperispomeniprosgegrammeni</string>
-			<string>Alphadasiaperispomeniprosgegrammeni</string>
-			<string>Epsilonpsili</string>
-			<string>Epsilondasia</string>
-			<string>Epsilonpsilivaria</string>
-			<string>Epsilondasiavaria</string>
-			<string>Epsilonpsilioxia</string>
-			<string>Epsilondasiaoxia</string>
-			<string>Epsilonvaria</string>
-			<string>Epsilonoxia</string>
-			<string>Etapsili</string>
-			<string>Etadasia</string>
-			<string>Etapsilivaria</string>
-			<string>Etadasiavaria</string>
-			<string>Etapsilioxia</string>
-			<string>Etadasiaoxia</string>
-			<string>Etapsiliperispomeni</string>
-			<string>Etadasiaperispomeni</string>
-			<string>Etavaria</string>
-			<string>Etaoxia</string>
-			<string>Etaprosgegrammeni</string>
-			<string>Etapsiliprosgegrammeni</string>
-			<string>Etadasiaprosgegrammeni</string>
-			<string>Etapsilivariaprosgegrammeni</string>
-			<string>Etadasiavariaprosgegrammeni</string>
-			<string>Etapsilioxiaprosgegrammeni</string>
-			<string>Etadasiaoxiaprosgegrammeni</string>
-			<string>Etapsiliperispomeniprosgegrammeni</string>
-			<string>Etadasiaperispomeniprosgegrammeni</string>
-			<string>Iotapsili</string>
-			<string>Iotadasia</string>
-			<string>Iotapsilivaria</string>
-			<string>Iotadasiavaria</string>
-			<string>Iotapsilioxia</string>
-			<string>Iotadasiaoxia</string>
-			<string>Iotapsiliperispomeni</string>
-			<string>Iotadasiaperispomeni</string>
-			<string>Iotavaria</string>
-			<string>Iotaoxia</string>
-			<string>Iotavrachy</string>
-			<string>Iotamacron</string>
-			<string>Omicronpsili</string>
-			<string>Omicrondasia</string>
-			<string>Omicronpsilivaria</string>
-			<string>Omicrondasiavaria</string>
-			<string>Omicronpsilioxia</string>
-			<string>Omicrondasiaoxia</string>
-			<string>Omicronvaria</string>
-			<string>Omicronoxia</string>
-			<string>Rhodasia</string>
-			<string>Upsilondasia</string>
-			<string>Upsilondasiavaria</string>
-			<string>Upsilondasiaoxia</string>
-			<string>Upsilondasiaperispomeni</string>
-			<string>Upsilonvaria</string>
-			<string>Upsilonoxia</string>
-			<string>Upsilonvrachy</string>
-			<string>Upsilonmacron</string>
-			<string>Omegapsili</string>
-			<string>Omegadasia</string>
-			<string>Omegapsilivaria</string>
-			<string>Omegadasiavaria</string>
-			<string>Omegapsilioxia</string>
-			<string>Omegadasiaoxia</string>
-			<string>Omegapsiliperispomeni</string>
-			<string>Omegadasiaperispomeni</string>
-			<string>Omegavaria</string>
-			<string>Omegaoxia</string>
-			<string>Omegaprosgegrammeni</string>
-			<string>Omegapsiliprosgegrammeni</string>
-			<string>Omegadasiaprosgegrammeni</string>
-			<string>Omegapsilivariaprosgegrammeni</string>
-			<string>Omegadasiavariaprosgegrammeni</string>
-			<string>Omegapsilioxiaprosgegrammeni</string>
-			<string>Omegadasiaoxiaprosgegrammeni</string>
-			<string>Omegapsiliperispomeniprosgegrammeni</string>
-			<string>Omegadasiaperispomeniprosgegrammeni</string>
-			<string>Alphaprosgegrammeni.ss01</string>
-			<string>Alphapsiliprosgegrammeni.ss01</string>
-			<string>Alphadasiaprosgegrammeni.ss01</string>
-			<string>Alphapsilivariaprosgegrammeni.ss01</string>
-			<string>Alphadasiavariaprosgegrammeni.ss01</string>
-			<string>Alphapsilioxiaprosgegrammeni.ss01</string>
-			<string>Alphadasiaoxiaprosgegrammeni.ss01</string>
-			<string>Alphapsiliperispomeniprosgegrammeni.ss01</string>
-			<string>Alphadasiaperispomeniprosgegrammeni.ss01</string>
-			<string>Etaprosgegrammeni.ss01</string>
-			<string>Etapsiliprosgegrammeni.ss01</string>
-			<string>Etadasiaprosgegrammeni.ss01</string>
-			<string>Etapsilivariaprosgegrammeni.ss01</string>
-			<string>Etadasiavariaprosgegrammeni.ss01</string>
-			<string>Etapsilioxiaprosgegrammeni.ss01</string>
-			<string>Etadasiaoxiaprosgegrammeni.ss01</string>
-			<string>Etapsiliperispomeniprosgegrammeni.ss01</string>
-			<string>Etadasiaperispomeniprosgegrammeni.ss01</string>
-			<string>Omegaprosgegrammeni.ss01</string>
-			<string>Omegapsiliprosgegrammeni.ss01</string>
-			<string>Omegadasiaprosgegrammeni.ss01</string>
-			<string>Omegapsilivariaprosgegrammeni.ss01</string>
-			<string>Omegadasiavariaprosgegrammeni.ss01</string>
-			<string>Omegapsilioxiaprosgegrammeni.ss01</string>
-			<string>Omegadasiaoxiaprosgegrammeni.ss01</string>
-			<string>Omegapsiliperispomeniprosgegrammeni.ss01</string>
-			<string>Omegadasiaperispomeniprosgegrammeni.ss01</string>
+			<string>perispomenicomb</string>
+			<string>koroniscomb</string>
+			<string>dialytikatonoscomb</string>
+			<string>ypogegrammenicomb</string>
+			<string>ypogegrammeni</string>
 			<string>alphapsili</string>
 			<string>alphadasia</string>
 			<string>alphapsilivaria</string>
@@ -1454,31 +1336,26 @@
 			<string>alphadasiaoxia</string>
 			<string>alphapsiliperispomeni</string>
 			<string>alphadasiaperispomeni</string>
-			<string>alphavaria</string>
-			<string>alphaoxia</string>
-			<string>alphaperispomeni</string>
-			<string>alphavrachy</string>
-			<string>alphamacron</string>
-			<string>alphaypogegrammeni</string>
-			<string>alphavariaypogegrammeni</string>
-			<string>alphaoxiaypogegrammeni</string>
-			<string>alphapsiliypogegrammeni</string>
-			<string>alphadasiaypogegrammeni</string>
-			<string>alphapsilivariaypogegrammeni</string>
-			<string>alphadasiavariaypogegrammeni</string>
-			<string>alphapsilioxiaypogegrammeni</string>
-			<string>alphadasiaoxiaypogegrammeni</string>
-			<string>alphapsiliperispomeniypogegrammeni</string>
-			<string>alphadasiaperispomeniypogegrammeni</string>
-			<string>alphaperispomeniypogegrammeni</string>
+			<string>Alphapsili</string>
+			<string>Alphadasia</string>
+			<string>Alphapsilivaria</string>
+			<string>Alphadasiavaria</string>
+			<string>Alphapsilioxia</string>
+			<string>Alphadasiaoxia</string>
+			<string>Alphapsiliperispomeni</string>
+			<string>Alphadasiaperispomeni</string>
 			<string>epsilonpsili</string>
 			<string>epsilondasia</string>
 			<string>epsilonpsilivaria</string>
 			<string>epsilondasiavaria</string>
 			<string>epsilonpsilioxia</string>
 			<string>epsilondasiaoxia</string>
-			<string>epsilonvaria</string>
-			<string>epsilonoxia</string>
+			<string>Epsilonpsili</string>
+			<string>Epsilondasia</string>
+			<string>Epsilonpsilivaria</string>
+			<string>Epsilondasiavaria</string>
+			<string>Epsilonpsilioxia</string>
+			<string>Epsilondasiaoxia</string>
 			<string>etapsili</string>
 			<string>etadasia</string>
 			<string>etapsilivaria</string>
@@ -1487,21 +1364,14 @@
 			<string>etadasiaoxia</string>
 			<string>etapsiliperispomeni</string>
 			<string>etadasiaperispomeni</string>
-			<string>etavaria</string>
-			<string>etaoxia</string>
-			<string>etaperispomeni</string>
-			<string>etaypogegrammeni</string>
-			<string>etavariaypogegrammeni</string>
-			<string>etaoxiaypogegrammeni</string>
-			<string>etapsiliypogegrammeni</string>
-			<string>etadasiaypogegrammeni</string>
-			<string>etapsilivariaypogegrammeni</string>
-			<string>etadasiavariaypogegrammeni</string>
-			<string>etapsilioxiaypogegrammeni</string>
-			<string>etadasiaoxiaypogegrammeni</string>
-			<string>etapsiliperispomeniypogegrammeni</string>
-			<string>etadasiaperispomeniypogegrammeni</string>
-			<string>etaperispomeniypogegrammeni</string>
+			<string>Etapsili</string>
+			<string>Etadasia</string>
+			<string>Etapsilivaria</string>
+			<string>Etadasiavaria</string>
+			<string>Etapsilioxia</string>
+			<string>Etadasiaoxia</string>
+			<string>Etapsiliperispomeni</string>
+			<string>Etadasiaperispomeni</string>
 			<string>iotapsili</string>
 			<string>iotadasia</string>
 			<string>iotapsilivaria</string>
@@ -1510,24 +1380,26 @@
 			<string>iotadasiaoxia</string>
 			<string>iotapsiliperispomeni</string>
 			<string>iotadasiaperispomeni</string>
-			<string>iotavaria</string>
-			<string>iotaoxia</string>
-			<string>iotaperispomeni</string>
-			<string>iotavrachy</string>
-			<string>iotamacron</string>
-			<string>iotadialytikavaria</string>
-			<string>iotadialytikaoxia</string>
-			<string>iotadialytikaperispomeni</string>
+			<string>Iotapsili</string>
+			<string>Iotadasia</string>
+			<string>Iotapsilivaria</string>
+			<string>Iotadasiavaria</string>
+			<string>Iotapsilioxia</string>
+			<string>Iotadasiaoxia</string>
+			<string>Iotapsiliperispomeni</string>
+			<string>Iotadasiaperispomeni</string>
 			<string>omicronpsili</string>
 			<string>omicrondasia</string>
 			<string>omicronpsilivaria</string>
 			<string>omicrondasiavaria</string>
 			<string>omicronpsilioxia</string>
 			<string>omicrondasiaoxia</string>
-			<string>omicronvaria</string>
-			<string>omicronoxia</string>
-			<string>rhopsili</string>
-			<string>rhodasia</string>
+			<string>Omicronpsili</string>
+			<string>Omicrondasia</string>
+			<string>Omicronpsilivaria</string>
+			<string>Omicrondasiavaria</string>
+			<string>Omicronpsilioxia</string>
+			<string>Omicrondasiaoxia</string>
 			<string>upsilonpsili</string>
 			<string>upsilondasia</string>
 			<string>upsilonpsilivaria</string>
@@ -1536,14 +1408,10 @@
 			<string>upsilondasiaoxia</string>
 			<string>upsilonpsiliperispomeni</string>
 			<string>upsilondasiaperispomeni</string>
-			<string>upsilonvaria</string>
-			<string>upsilonoxia</string>
-			<string>upsilonperispomeni</string>
-			<string>upsilonvrachy</string>
-			<string>upsilonmacron</string>
-			<string>upsilondialytikavaria</string>
-			<string>upsilondialytikaoxia</string>
-			<string>upsilondialytikaperispomeni</string>
+			<string>Upsilondasia</string>
+			<string>Upsilondasiavaria</string>
+			<string>Upsilondasiaoxia</string>
+			<string>Upsilondasiaperispomeni</string>
 			<string>omegapsili</string>
 			<string>omegadasia</string>
 			<string>omegapsilivaria</string>
@@ -1552,12 +1420,60 @@
 			<string>omegadasiaoxia</string>
 			<string>omegapsiliperispomeni</string>
 			<string>omegadasiaperispomeni</string>
+			<string>Omegapsili</string>
+			<string>Omegadasia</string>
+			<string>Omegapsilivaria</string>
+			<string>Omegadasiavaria</string>
+			<string>Omegapsilioxia</string>
+			<string>Omegadasiaoxia</string>
+			<string>Omegapsiliperispomeni</string>
+			<string>Omegadasiaperispomeni</string>
+			<string>alphavaria</string>
+			<string>alphaoxia</string>
+			<string>epsilonvaria</string>
+			<string>epsilonoxia</string>
+			<string>etavaria</string>
+			<string>etaoxia</string>
+			<string>iotavaria</string>
+			<string>iotaoxia</string>
+			<string>omicronvaria</string>
+			<string>omicronoxia</string>
+			<string>upsilonvaria</string>
+			<string>upsilonoxia</string>
 			<string>omegavaria</string>
 			<string>omegaoxia</string>
-			<string>omegaperispomeni</string>
-			<string>omegaypogegrammeni</string>
-			<string>omegavariaypogegrammeni</string>
-			<string>omegaoxiaypogegrammeni</string>
+			<string>alphapsiliypogegrammeni</string>
+			<string>alphadasiaypogegrammeni</string>
+			<string>alphapsilivariaypogegrammeni</string>
+			<string>alphadasiavariaypogegrammeni</string>
+			<string>alphapsilioxiaypogegrammeni</string>
+			<string>alphadasiaoxiaypogegrammeni</string>
+			<string>alphapsiliperispomeniypogegrammeni</string>
+			<string>alphadasiaperispomeniypogegrammeni</string>
+			<string>Alphapsiliprosgegrammeni</string>
+			<string>Alphadasiaprosgegrammeni</string>
+			<string>Alphapsilivariaprosgegrammeni</string>
+			<string>Alphadasiavariaprosgegrammeni</string>
+			<string>Alphapsilioxiaprosgegrammeni</string>
+			<string>Alphadasiaoxiaprosgegrammeni</string>
+			<string>Alphapsiliperispomeniprosgegrammeni</string>
+			<string>Alphadasiaperispomeniprosgegrammeni</string>
+			<string>etapsiliypogegrammeni</string>
+			<string>etadasiaypogegrammeni</string>
+			<string>etapsilivariaypogegrammeni</string>
+			<string>etadasiavariaypogegrammeni</string>
+			<string>etapsilioxiaypogegrammeni</string>
+			<string>etadasiaoxiaypogegrammeni</string>
+			<string>etapsiliperispomeniypogegrammeni</string>
+			<string>etadasiaperispomeniypogegrammeni</string>
+			<string>Etapsiliprosgegrammeni</string>
+			<string>Etadasiaprosgegrammeni</string>
+			<string>Etapsilivariaprosgegrammeni</string>
+			<string>Etadasiavariaprosgegrammeni</string>
+			<string>Etapsilioxiaprosgegrammeni</string>
+			<string>Etadasiaoxiaprosgegrammeni</string>
+			<string>Etapsiliperispomeniprosgegrammeni</string>
+			<string>Etadasiaperispomeniprosgegrammeni</string>
 			<string>omegapsiliypogegrammeni</string>
 			<string>omegadasiaypogegrammeni</string>
 			<string>omegapsilivariaypogegrammeni</string>
@@ -1566,28 +1482,85 @@
 			<string>omegadasiaoxiaypogegrammeni</string>
 			<string>omegapsiliperispomeniypogegrammeni</string>
 			<string>omegadasiaperispomeniypogegrammeni</string>
-			<string>omegaperispomeniypogegrammeni</string>
-			<string>prosgegrammeni</string>
-			<string>ypogegrammeni</string>
-			<string>perispomenicomb</string>
-			<string>koroniscomb</string>
-			<string>dialytikatonoscomb</string>
-			<string>ypogegrammenicomb</string>
-			<string>psili</string>
+			<string>Omegapsiliprosgegrammeni</string>
+			<string>Omegadasiaprosgegrammeni</string>
+			<string>Omegapsilivariaprosgegrammeni</string>
+			<string>Omegadasiavariaprosgegrammeni</string>
+			<string>Omegapsilioxiaprosgegrammeni</string>
+			<string>Omegadasiaoxiaprosgegrammeni</string>
+			<string>Omegapsiliperispomeniprosgegrammeni</string>
+			<string>Omegadasiaperispomeniprosgegrammeni</string>
+			<string>alphavrachy</string>
+			<string>alphamacron</string>
+			<string>alphavariaypogegrammeni</string>
+			<string>alphaypogegrammeni</string>
+			<string>alphaoxiaypogegrammeni</string>
+			<string>alphaperispomeni</string>
+			<string>alphaperispomeniypogegrammeni</string>
+			<string>Alphavrachy</string>
+			<string>Alphamacron</string>
+			<string>Alphavaria</string>
+			<string>Alphaoxia</string>
+			<string>Alphaprosgegrammeni</string>
 			<string>koronis</string>
-			<string>dasia</string>
+			<string>prosgegrammeni</string>
+			<string>psili</string>
+			<string>perispomeni</string>
+			<string>dialytikaperispomeni</string>
+			<string>etavariaypogegrammeni</string>
+			<string>etaypogegrammeni</string>
+			<string>etaoxiaypogegrammeni</string>
+			<string>etaperispomeni</string>
+			<string>etaperispomeniypogegrammeni</string>
+			<string>Epsilonvaria</string>
+			<string>Epsilonoxia</string>
+			<string>Etavaria</string>
+			<string>Etaoxia</string>
+			<string>Etaprosgegrammeni</string>
 			<string>psilivaria</string>
-			<string>dasiavaria</string>
 			<string>psilioxia</string>
-			<string>dasiaoxia</string>
 			<string>psiliperispomeni</string>
+			<string>iotavrachy</string>
+			<string>iotamacron</string>
+			<string>iotadialytikavaria</string>
+			<string>iotadialytikaoxia</string>
+			<string>iotaperispomeni</string>
+			<string>iotadialytikaperispomeni</string>
+			<string>Iotavrachy</string>
+			<string>Iotamacron</string>
+			<string>Iotavaria</string>
+			<string>Iotaoxia</string>
+			<string>dasiavaria</string>
+			<string>dasiaoxia</string>
 			<string>dasiaperispomeni</string>
+			<string>upsilonvrachy</string>
+			<string>upsilonmacron</string>
+			<string>upsilondialytikavaria</string>
+			<string>upsilondialytikaoxia</string>
+			<string>rhopsili</string>
+			<string>rhodasia</string>
+			<string>upsilonperispomeni</string>
+			<string>upsilondialytikaperispomeni</string>
+			<string>Upsilonvrachy</string>
+			<string>Upsilonmacron</string>
+			<string>Upsilonvaria</string>
+			<string>Upsilonoxia</string>
+			<string>Rhodasia</string>
 			<string>dialytikavaria</string>
 			<string>dialytikaoxia</string>
-			<string>dialytikaperispomeni</string>
 			<string>varia</string>
+			<string>omegavariaypogegrammeni</string>
+			<string>omegaypogegrammeni</string>
+			<string>omegaoxiaypogegrammeni</string>
+			<string>omegaperispomeni</string>
+			<string>omegaperispomeniypogegrammeni</string>
+			<string>Omicronvaria</string>
+			<string>Omicronoxia</string>
+			<string>Omegavaria</string>
+			<string>Omegaoxia</string>
+			<string>Omegaprosgegrammeni</string>
 			<string>oxia</string>
-			<string>perispomeni</string>
+			<string>dasia</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_Plus</string>
@@ -1595,88 +1568,88 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>Stigma</string>
-			<string>Digamma</string>
-			<string>Koppa</string>
-			<string>Sampi</string>
-			<string>stigma</string>
-			<string>digamma</string>
-			<string>koppa</string>
-			<string>sampi</string>
-			<string>M-fraktur</string>
-			<string>P-fraktur</string>
-			<string>S-fraktur</string>
-			<string>p-fraktur</string>
-			<string>litalic-math</string>
-			<string>asterism</string>
-			<string>dblverticalbar</string>
-			<string>dottedcross</string>
-			<string>dottedobelos</string>
-			<string>dottedrightpointingangle</string>
-			<string>dottedtranspositionmarker</string>
-			<string>downancora</string>
-			<string>editorialcoronis</string>
-			<string>fivedotpunctuation</string>
-			<string>forkedparagraphos</string>
-			<string>fourdotmark</string>
-			<string>fourdotpunctuation</string>
-			<string>hypodiastole</string>
-			<string>leftdottedsubstitutionbracket</string>
-			<string>leftraisedomissionbracket</string>
-			<string>leftsubstitutionbracket</string>
-			<string>lefttranspositionbracket</string>
-			<string>paragraphos</string>
-			<string>raiseddottedinterpolationmarker</string>
-			<string>raisedinterpolationmarker</string>
-			<string>raisedsquare</string>
-			<string>referencemark</string>
-			<string>reversedforkedparagraphos</string>
-			<string>rightangledottedsubstitutionmarker</string>
-			<string>rightanglesubstitutionmarker</string>
-			<string>rightdottedsubstitutionbracket</string>
-			<string>rightraisedomissionbracket</string>
-			<string>rightsubstitutionbracket</string>
-			<string>righttranspositionbracket</string>
-			<string>threedotpunctuation</string>
-			<string>tricolon</string>
-			<string>twodotpunctuation</string>
-			<string>undertie</string>
-			<string>upancora</string>
-			<string>verticalfourdots</string>
-			<string>doubleobliquehyphen</string>
-			<string>anglebracketleft</string>
-			<string>anglebracketright</string>
-			<string>cornerbracketleft</string>
-			<string>cornerbracketright</string>
-			<string>dblanglebracketleft</string>
-			<string>dblanglebracketright</string>
-			<string>whitesquarebracketleft</string>
-			<string>whitesquarebracketright</string>
-			<string>metricalbreve</string>
-			<string>metricallongovershort</string>
-			<string>metricallongovertwoshorts</string>
-			<string>metricalpentaseme</string>
-			<string>metricalshortoverlong</string>
-			<string>metricaltetraseme</string>
-			<string>metricaltriseme</string>
-			<string>metricaltwoshortsjoined</string>
-			<string>metricaltwoshortsoverlong</string>
-			<string>alephsymbol</string>
-			<string>betsymbol</string>
-			<string>doubleSolidusOperator</string>
-			<string>ellipsisvertical</string>
-			<string>equalinferior</string>
-			<string>equalsuperior</string>
-			<string>minusinferior</string>
-			<string>minussuperior</string>
-			<string>plusinferior</string>
-			<string>plussuperior</string>
-			<string>multiply.circled</string>
+			<string>dotaccent</string>
 			<string>overlinecomb</string>
 			<string>dotbelowcomb</string>
 			<string>asteriskbelowcomb</string>
 			<string>doublebrevebelowcomb</string>
-			<string>dotaccent</string>
+			<string>Stigma</string>
+			<string>stigma</string>
+			<string>Digamma</string>
+			<string>digamma</string>
+			<string>Koppa</string>
+			<string>koppa</string>
+			<string>Sampi</string>
+			<string>sampi</string>
+			<string>dblverticalbar</string>
+			<string>referencemark</string>
+			<string>undertie</string>
+			<string>asterism</string>
+			<string>threedotpunctuation</string>
+			<string>fourdotpunctuation</string>
+			<string>fivedotpunctuation</string>
+			<string>twodotpunctuation</string>
+			<string>fourdotmark</string>
+			<string>dottedcross</string>
+			<string>tricolon</string>
+			<string>verticalfourdots</string>
+			<string>plussuperior</string>
+			<string>minussuperior</string>
+			<string>equalsuperior</string>
+			<string>plusinferior</string>
+			<string>minusinferior</string>
+			<string>equalinferior</string>
+			<string>alephsymbol</string>
+			<string>betsymbol</string>
+			<string>multiply.circled</string>
+			<string>ellipsisvertical</string>
+			<string>metricalbreve</string>
+			<string>metricallongovershort</string>
+			<string>metricalshortoverlong</string>
+			<string>metricallongovertwoshorts</string>
+			<string>metricaltwoshortsoverlong</string>
+			<string>metricaltwoshortsjoined</string>
+			<string>metricaltriseme</string>
+			<string>metricaltetraseme</string>
+			<string>metricalpentaseme</string>
+			<string>doubleSolidusOperator</string>
+			<string>rightanglesubstitutionmarker</string>
+			<string>rightangledottedsubstitutionmarker</string>
+			<string>leftsubstitutionbracket</string>
+			<string>rightsubstitutionbracket</string>
+			<string>leftdottedsubstitutionbracket</string>
+			<string>rightdottedsubstitutionbracket</string>
+			<string>raisedinterpolationmarker</string>
+			<string>raiseddottedinterpolationmarker</string>
+			<string>dottedtranspositionmarker</string>
+			<string>lefttranspositionbracket</string>
+			<string>righttranspositionbracket</string>
+			<string>raisedsquare</string>
+			<string>leftraisedomissionbracket</string>
+			<string>rightraisedomissionbracket</string>
+			<string>editorialcoronis</string>
+			<string>paragraphos</string>
+			<string>forkedparagraphos</string>
+			<string>reversedforkedparagraphos</string>
+			<string>hypodiastole</string>
+			<string>dottedobelos</string>
+			<string>downancora</string>
+			<string>upancora</string>
+			<string>dottedrightpointingangle</string>
+			<string>doubleobliquehyphen</string>
+			<string>anglebracketleft</string>
+			<string>anglebracketright</string>
+			<string>dblanglebracketleft</string>
+			<string>dblanglebracketright</string>
+			<string>cornerbracketleft</string>
+			<string>cornerbracketright</string>
+			<string>whitesquarebracketleft</string>
+			<string>whitesquarebracketright</string>
+			<string>litalic-math</string>
+			<string>M-fraktur</string>
+			<string>P-fraktur</string>
+			<string>S-fraktur</string>
+			<string>p-fraktur</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_Pro</string>

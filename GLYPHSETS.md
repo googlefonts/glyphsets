@@ -4,12 +4,12 @@
 | Arabic | Cyrillic | Greek | Latin |
 | --- | --- | --- | --- |
 | [✅ Core](#gf-arabic-core) | [🛑 Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) |
-| [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [✅ Core](#gf-latin-core) |
-|  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [🛑 Kernel](#gf-latin-kernel) |
-|  | [🛑 Pro](#gf-cyrillic-pro) | [🛑 Core](#gf-greek-core) |  |
-|  |  | [🛑 Expert](#gf-greek-expert) |  |
-|  |  | [🛑 Plus](#gf-greek-plus) |  |
-|  |  | [🛑 Pro](#gf-greek-pro) |  |
+| [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) |
+|  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) |
+|  | [🛑 Pro](#gf-cyrillic-pro) | [🛑 Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) |
+|  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) |
+|  |  | [🛑 Plus](#gf-greek-plus) | [🛑 PriAfrican](#gf-latin-priafrican) |
+|  |  | [🛑 Pro](#gf-greek-pro) | [🛑 Vietnamese](#gf-latin-vietnamese) |
 
 > [!NOTE]  
 > This document is a human-readable representation of the glyphset defintions defined in code [here](/Lib/glyphsets/definitions/__init__.py) and gets updated automatically as part of the `sh build.sh` command.
@@ -894,6 +894,20 @@ ut-Ma’in (gel_Latn)
 The resulting glyphset can be found here: [GF_Latin_African.nam](/GF_glyphsets/Latin/nam/GF_Latin_African.nam) (only encoded glyphs), [GF_Latin_African.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_African.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
+## GF Latin Beyond
+
+GF_Latin_Beyond is **statically** defined as:
+
+* Script: Latin
+* Codepoints defined in [GF_Latin_Beyond.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Beyond.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Latin_Beyond.nam](/GF_glyphsets/Latin/nam/GF_Latin_Beyond.nam) (only encoded glyphs), [GF_Latin_Beyond.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Beyond.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+
+
 ## GF Latin Core
 
 GF_Latin_Core is **statically** defined as:
@@ -945,4 +959,46 @@ GF_Latin_Kernel is **statically** defined as:
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
 The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/GF_glyphsets/Latin/nam/GF_Latin_Kernel.nam) (only encoded glyphs), [GF_Latin_Kernel.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Kernel.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+
+
+## GF Latin Plus
+
+GF_Latin_Plus is **statically** defined as:
+
+* Script: Latin
+* Codepoints defined in [GF_Latin_Plus.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Plus.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Latin_Plus.nam](/GF_glyphsets/Latin/nam/GF_Latin_Plus.nam) (only encoded glyphs), [GF_Latin_Plus.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+
+
+## GF Latin PriAfrican
+
+GF_Latin_PriAfrican is **statically** defined as:
+
+* Script: Latin
+* Codepoints defined in [GF_Latin_PriAfrican.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_PriAfrican.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Latin_PriAfrican.nam](/GF_glyphsets/Latin/nam/GF_Latin_PriAfrican.nam) (only encoded glyphs), [GF_Latin_PriAfrican.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_PriAfrican.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+
+
+## GF Latin Vietnamese
+
+GF_Latin_Vietnamese is **statically** defined as:
+
+* Script: Latin
+* Codepoints defined in [GF_Latin_Vietnamese.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Vietnamese.stub.nam)
+
+> [!CAUTION]  
+> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
+> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
+
+The resulting glyphset can be found here: [GF_Latin_Vietnamese.nam](/GF_glyphsets/Latin/nam/GF_Latin_Vietnamese.nam) (only encoded glyphs), [GF_Latin_Vietnamese.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Vietnamese.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
