@@ -10,9 +10,11 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "Lib"))
 from glyphsets import (
     defined_glyphsets,
+    defined_scripts,
+    glyphsets_per_script,
     description_per_glyphset,
 )  # noqa: E402
-
+from glyphsets.definitions import glyphset_definitions  # noqa: E402
 
 if __name__ == "__main__":
     root_folder = os.path.abspath(
@@ -31,14 +33,40 @@ if __name__ == "__main__":
     # TOC
     md.append("# Table of Contents:\n\n")
 
-    for glyphset_name in defined_glyphsets():
-        _new_md, warning = description_per_glyphset(glyphset_name)
-        warning_md = " ✅"
-        if warning:
-            warning_md = " 🛑"
-        md.append(
-            f"* [{glyphset_name.replace('_', ' ')}{warning_md}](#{glyphset_name.lower().replace('_', '-')})"
-        )
+    # Get scripts
+    scripts = defined_scripts()
+    script_dict = {}
+    max_glyphsets = 0
+    md.append("| " + " | ".join(scripts) + " |")
+    md.append("| " + " | ".join(["---"] * len(scripts)) + " |")
+    for script in scripts:
+        max_glyphsets = max(max_glyphsets, len(glyphsets_per_script(script)))
+        script_dict[script] = glyphsets_per_script(script)
+    for i in range(max_glyphsets):
+        row = []
+        for script in scripts:
+            if i < len(script_dict[script]):
+                glyphset_name = script_dict[script][i]
+                abbr = glyphset_name.split("_")[-1]
+                _new_md, warning = description_per_glyphset(glyphset_name)
+                warning_md = " ✅"
+                if warning:
+                    warning_md = " 🛑"
+                row.append(
+                    f"[{abbr}{warning_md}](#{glyphset_name.lower().replace('_', '-')})"
+                )
+            else:
+                row.append("")
+        md.append("| " + " | ".join(row) + " |")
+
+    # for glyphset_name in defined_glyphsets():
+    #     _new_md, warning = description_per_glyphset(glyphset_name)
+    #     warning_md = " ✅"
+    #     if warning:
+    #         warning_md = " 🛑"
+    #     md.append(
+    #         f"* [{glyphset_name.replace('_', ' ')}{warning_md}](#{glyphset_name.lower().replace('_', '-')})"
+    #     )
 
     md.append(
         "\n> [!NOTE]  \n> This document is a human-readable representation of the glyphset defintions defined in code [here](/Lib/glyphsets/definitions/__init__.py) and gets updated automatically as part of the `sh build.sh` command.\n"

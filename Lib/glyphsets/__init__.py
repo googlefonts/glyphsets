@@ -289,6 +289,21 @@ def defined_glyphsets():
     return sorted(glyphset_definitions.keys())
 
 
+def defined_scripts():
+    scripts = set()
+    for glyphset_name in defined_glyphsets():
+        scripts.update([glyphset_definitions[glyphset_name]["script"]])
+    return sorted(list(scripts))
+
+
+def glyphsets_per_script(script):
+    glyphsets = []
+    for glyphset_name in defined_glyphsets():
+        if glyphset_definitions[glyphset_name]["script"] == script:
+            glyphsets.append(glyphset_name)
+    return glyphsets
+
+
 def unicodes_per_glyphset(glyphset_name):
     character_set = set()
     # Read .nam file
