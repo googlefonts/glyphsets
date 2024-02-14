@@ -56,9 +56,12 @@ The resulting glyphset can be found here: [GF_Arabic_Plus.nam](/GF_glyphsets/Ara
 GF_Cyrillic_Core is **statically** defined as:
 
 * Script: Cyrillic
-* Codepoints defined in [GF_Cyrillic_Core.stub.nam](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Core.stub.nam)
 * List of languages: `
+Belarusian (be_Cyrl),
+Bosnian (Cyrillic) (bs_Cyrl),
+Bulgarian (bg_Cyrl),
 Russian (ru_Cyrl),
+Serbian (sr_Cyrl),
 Ukrainian (uk_Cyrl)
 `
 

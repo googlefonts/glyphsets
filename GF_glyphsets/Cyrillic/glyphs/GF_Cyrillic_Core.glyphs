@@ -221,6 +221,10 @@ glyphname = apostrophemod;
 unicode = 700;
 },
 {
+glyphname = gravecomb;
+unicode = 768;
+},
+{
 glyphname = acutecomb;
 unicode = 769;
 },
@@ -233,10 +237,6 @@ glyphname = dieresiscomb;
 unicode = 776;
 },
 {
-glyphname = "Iegrave-cy";
-unicode = 1024;
-},
-{
 glyphname = "Io-cy";
 unicode = 1025;
 },
@@ -245,16 +245,8 @@ glyphname = "Dje-cy";
 unicode = 1026;
 },
 {
-glyphname = "Gje-cy";
-unicode = 1027;
-},
-{
 glyphname = "E-cy";
 unicode = 1028;
-},
-{
-glyphname = "Dze-cy";
-unicode = 1029;
 },
 {
 glyphname = "I-cy";
@@ -279,14 +271,6 @@ unicode = 1034;
 {
 glyphname = "Tshe-cy";
 unicode = 1035;
-},
-{
-glyphname = "Kje-cy";
-unicode = 1036;
-},
-{
-glyphname = "Iigrave-cy";
-unicode = 1037;
 },
 {
 glyphname = "Ushort-cy";
@@ -553,10 +537,6 @@ glyphname = "ia-cy";
 unicode = 1103;
 },
 {
-glyphname = "iegrave-cy";
-unicode = 1104;
-},
-{
 glyphname = "io-cy";
 unicode = 1105;
 },
@@ -565,16 +545,8 @@ glyphname = "dje-cy";
 unicode = 1106;
 },
 {
-glyphname = "gje-cy";
-unicode = 1107;
-},
-{
 glyphname = "e-cy";
 unicode = 1108;
-},
-{
-glyphname = "dze-cy";
-unicode = 1109;
 },
 {
 glyphname = "i-cy";
@@ -599,14 +571,6 @@ unicode = 1114;
 {
 glyphname = "tshe-cy";
 unicode = 1115;
-},
-{
-glyphname = "kje-cy";
-unicode = 1116;
-},
-{
-glyphname = "iigrave-cy";
-unicode = 1117;
 },
 {
 glyphname = "ushort-cy";

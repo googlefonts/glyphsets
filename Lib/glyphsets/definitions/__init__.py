@@ -23,7 +23,14 @@ glyphset_definitions = {
     },
     "GF_Cyrillic_Core": {
         "script": "Cyrillic",
-        "language_codes": ["ru_Cyrl", "uk_Cyrl"],
+        "language_codes": [
+            "ru_Cyrl",
+            "uk_Cyrl",
+            "sr_Cyrl",
+            "be_Cyrl",
+            "bg_Cyrl",
+            "bs_Cyrl",
+        ],
     },
     "GF_Cyrillic_Historical": {"script": "Cyrillic"},
     "GF_Cyrillic_Plus": {"script": "Cyrillic"},

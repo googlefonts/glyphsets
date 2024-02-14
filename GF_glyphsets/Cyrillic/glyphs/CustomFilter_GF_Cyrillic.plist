@@ -379,23 +379,19 @@
 			<string>guillemetleft</string>
 			<string>guillemetright</string>
 			<string>apostrophemod</string>
+			<string>gravecomb</string>
 			<string>acutecomb</string>
 			<string>brevecomb</string>
 			<string>dieresiscomb</string>
-			<string>Iegrave-cy</string>
 			<string>Io-cy</string>
 			<string>Dje-cy</string>
-			<string>Gje-cy</string>
 			<string>E-cy</string>
-			<string>Dze-cy</string>
 			<string>I-cy</string>
 			<string>Yi-cy</string>
 			<string>Je-cy</string>
 			<string>Lje-cy</string>
 			<string>Nje-cy</string>
 			<string>Tshe-cy</string>
-			<string>Kje-cy</string>
-			<string>Iigrave-cy</string>
 			<string>Ushort-cy</string>
 			<string>Dzhe-cy</string>
 			<string>A-cy</string>
@@ -462,20 +458,15 @@
 			<string>ereversed-cy</string>
 			<string>iu-cy</string>
 			<string>ia-cy</string>
-			<string>iegrave-cy</string>
 			<string>io-cy</string>
 			<string>dje-cy</string>
-			<string>gje-cy</string>
 			<string>e-cy</string>
-			<string>dze-cy</string>
 			<string>i-cy</string>
 			<string>yi-cy</string>
 			<string>je-cy</string>
 			<string>lje-cy</string>
 			<string>nje-cy</string>
 			<string>tshe-cy</string>
-			<string>kje-cy</string>
-			<string>iigrave-cy</string>
 			<string>ushort-cy</string>
 			<string>dzhe-cy</string>
 			<string>Gheupturn-cy</string>
