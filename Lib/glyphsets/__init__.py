@@ -392,9 +392,9 @@ def description_per_glyphset(glyphset_name):
             + "\n\n"
         )
     if regions:
-        md += f"{glyphset_name} is **dynamically** defined as:\n\n"
+        md += f"`{glyphset_name}` is **dynamically** defined as:\n\n"
     else:
-        md += f"{glyphset_name} is **statically** defined as:\n\n"
+        md += f"`{glyphset_name}` is **statically** defined as:\n\n"
     md += f"* Script: {script}\n"
     if os.path.exists(nam_stub_path):
         md += f"* Codepoints defined in [{os.path.basename(nam_stub_path)}](/GF_glyphsets/{script}/definitions/{os.path.basename(nam_stub_path)})\n"

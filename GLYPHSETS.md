@@ -25,7 +25,7 @@
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Basic character set covering the 3 most widely used languages
 
-GF_Arabic_Core is **statically** defined as:
+`GF_Arabic_Core` is **statically** defined as:
 
 * Script: Arabic
 * Codepoints defined in [GF_Arabic_Core.stub.nam](/GF_glyphsets/Arabic/definitions/GF_Arabic_Core.stub.nam)
@@ -43,7 +43,7 @@ The resulting glyphset can be found here: [GF_Arabic_Core.nam](/GF_glyphsets/Ara
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Covering additional less widely used languages (but not characters needed for historical or specialized texts)
 
-GF_Arabic_Plus is **statically** defined as:
+`GF_Arabic_Plus` is **statically** defined as:
 
 * Script: Arabic
 * List of languages: `
@@ -59,7 +59,7 @@ The resulting glyphset can be found here: [GF_Arabic_Plus.nam](/GF_glyphsets/Ara
 
 ## GF Cyrillic Core
 
-GF_Cyrillic_Core is **statically** defined as:
+`GF_Cyrillic_Core` is **statically** defined as:
 
 * Script: Cyrillic
 * List of languages: `
@@ -79,7 +79,7 @@ The resulting glyphset can be found here: [GF_Cyrillic_Core.nam](/GF_glyphsets/C
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Provides support for Pre-Petrine Old Church Slavonic Texts
 
-GF_Cyrillic_Historical is **statically** defined as:
+`GF_Cyrillic_Historical` is **statically** defined as:
 
 * Script: Cyrillic
 * Codepoints defined in [GF_Cyrillic_Historical.stub.nam](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Historical.stub.nam)
@@ -100,7 +100,7 @@ _Description partially salvaged from old README, so language lists manually defi
 > 
 > The ruble sign (₽ U+20BD) is not included, since it is already present in the Latin Plus set.
 
-GF_Cyrillic_Plus is **statically** defined as:
+`GF_Cyrillic_Plus` is **statically** defined as:
 
 * Script: Cyrillic
 * Codepoints defined in [GF_Cyrillic_Plus.stub.nam](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Plus.stub.nam)
@@ -118,7 +118,7 @@ The resulting glyphset can be found here: [GF_Cyrillic_Plus.nam](/GF_glyphsets/C
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > For Headline typefaces (?), with language support more Non-Slavic languages. Additional characters in this set provide support for the following 18 languages: Abkhaz, Chukchi, Enets, Eskimo, Even, Evenki, Itelmen, Khanty, Kildin Sami, Koryak, Mansi, Nganasan, Nenets, Oroch, Orok, Sakha/Yakut, Tati, Yukaghir, Yupik Ulch
 
-GF_Cyrillic_Pro is **statically** defined as:
+`GF_Cyrillic_Pro` is **statically** defined as:
 
 * Script: Cyrillic
 * Codepoints defined in [GF_Cyrillic_Pro.stub.nam](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Pro.stub.nam)
@@ -139,7 +139,7 @@ _Description partially salvaged from old README, so language lists manually defi
 > * Greek Instrumental Notation Symbols
 > * Byzantine Musical Symbols
 
-GF_Greek_AncientMusicalSymbols is **statically** defined as:
+`GF_Greek_AncientMusicalSymbols` is **statically** defined as:
 
 * Script: Greek
 * Codepoints defined in [GF_Greek_AncientMusicalSymbols.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_AncientMusicalSymbols.stub.nam)
@@ -168,7 +168,7 @@ _Description partially salvaged from old README, so language lists manually defi
 > * Geometric shape `□`
 > * Astrological symbols `★☉☊☋☌☍☽☾☿♀♁♂♃♄♅♆♇♈♉♊♋♌♍♎♏♐♑♒♓`
 
-GF_Greek_Archaic is **statically** defined as:
+`GF_Greek_Archaic` is **statically** defined as:
 
 * Script: Greek
 * Codepoints defined in [GF_Greek_Archaic.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Archaic.stub.nam)
@@ -201,7 +201,7 @@ _Description partially salvaged from old README, so language lists manually defi
 > * Coptic Fraction ` ⳽ ` 
 > * Punctuation ` ⳾ ⳿ ` 
 
-GF_Greek_Coptic is **statically** defined as:
+`GF_Greek_Coptic` is **statically** defined as:
 
 * Script: Greek
 * Codepoints defined in [GF_Greek_Coptic.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Coptic.stub.nam)
@@ -226,7 +226,7 @@ _Description partially salvaged from old README, so language lists manually defi
 > * Accents `  ́ ΅ `
 > * Kai symbol ` ϗ Ϗ `
 
-GF_Greek_Core is **statically** defined as:
+`GF_Greek_Core` is **statically** defined as:
 
 * Script: Greek
 * Codepoints defined in [GF_Greek_Core.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Core.stub.nam)
@@ -249,7 +249,7 @@ _Description partially salvaged from old README, so language lists manually defi
 > * Superior Letters .sups `ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρςστυφχψω`
 > * Ligatures `λλ γγ`
 
-GF_Greek_Expert is **statically** defined as:
+`GF_Greek_Expert` is **statically** defined as:
 
 * Script: Greek
 * Unencoded glyphs defined in [GF_Greek_Expert.stub.glyphs](/GF_glyphsets/Greek/definitions/GF_Greek_Expert.stub.glyphs)
@@ -276,7 +276,7 @@ _Description partially salvaged from old README, so language lists manually defi
 > * Combining Marks `  ̓ ΅  ͂ ͅ `
 > * Iota Adscript as ss01 `ᾈᾉᾊᾋᾌᾍᾎᾏᾘᾙᾚᾛᾜᾝᾞᾟᾨᾩᾪᾫᾬᾭᾮᾯᾼῌῼ`
 
-GF_Greek_Plus is **statically** defined as:
+`GF_Greek_Plus` is **statically** defined as:
 
 * Script: Greek
 * Codepoints defined in [GF_Greek_Plus.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Plus.stub.nam)
@@ -337,7 +337,7 @@ _Description partially salvaged from old README, so language lists manually defi
 > * `overlinecomb.init`, cropped on the left
 > * `overlinecomb.fina`, cropped on the right
 
-GF_Greek_Pro is **statically** defined as:
+`GF_Greek_Pro` is **statically** defined as:
 
 * Script: Greek
 * Codepoints defined in [GF_Greek_Pro.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Pro.stub.nam)
@@ -351,7 +351,7 @@ The resulting glyphset can be found here: [GF_Greek_Pro.nam](/GF_glyphsets/Greek
 
 ## GF Latin African
 
-GF_Latin_African is **dynamically** defined as:
+`GF_Latin_African` is **dynamically** defined as:
 
 * Script: Latin
 * All languages of the countries `
@@ -1040,7 +1040,7 @@ _Description partially salvaged from old README, so language lists manually defi
 > 
 > **This below is taken from the old README and is not accurate, as it lists languages that accidentally happen to be covered under this glyphset but are not actually intended to be covered here. This set needs more consideration:** Abron, Acholi, Achuar-Shiwiar, Adangme, Aguaruna, Ahtna, Akoose, Alekano, Aleut, Anaang, Anufo, Apinayé, Arabela, Asturian, Atayal, Awa-Cuaiquer, Awetí, Awing, Baatonum, Baoulé, Boko (Benin), Bora, Bouna Kulango, Buginese, Cashinahua, Chachi, Chayahuita, Dagbani, Dendi (Benin), Dimli, Dinka, Embu, Fanti, Ga, Gagauz, Gonja, Gwichʼin, Kaingang, Kamba (Kenya), Kaqchikel, Kikuyu, Kirmanjki, Krio, Kwak’wala, Lamnso', Lingala, Lozi, Luba-Katanga, Mandinka, Mandjak, Mankanya, Mende (Sierra Leone), Meta’, Metlatónoc Mixtec, Mezquital Otomi, Mi'kmaq, Mirandese, Murui Huitoto, Muslim Tat, Navajo, North Azerbaijani, Northeastern Dinka, Northern Kissi, Northern Sami, Nuer, Nuuchahnulth, Nyamwezi, Nyemba, Nzima, Otuho, Paraguayan Guaraní, Pite Sami, Páez, Secoya, Sharanahua, Shilluk, Shuar, Siona, Skolt Sami, South Azerbaijani, Southern Dagaare, Talysh, Ticuna, Toba, Tojolabal, Totontepec Mixe, Tsafiki, Tsakhur, Tuvalu, Twi, Umbundu, Ume Sami, Waama, Walser, Waorani, Wasa, Xavánte, Yagua, Yangben, Yanomamö, Zuni
 
-GF_Latin_Beyond is **statically** defined as:
+`GF_Latin_Beyond` is **statically** defined as:
 
 * Script: Latin
 * Codepoints defined in [GF_Latin_Beyond.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Beyond.stub.nam)
@@ -1059,7 +1059,7 @@ _Description partially salvaged from old README, so language lists manually defi
 > 
 > **This below is taken from the old README and is not accurate, as it lists languages that accidentally happen to be covered under this glyphset but are not actually intended to be covered here. This set needs more consideration:** Acheron, Achinese, Afrikaans, Anuta, Aragonese, Arbëreshë Albanian, Arvanitika Albanian, Ashéninka Perené, Balinese, Bari, Basque, Bosnian, Breton, Caquinte, Caribbean Hindustani, Cashibo-Cacataibo, Catalan, Central Aymara, Central Kurdish, Chamorro, Chavacano, Chiltepec Chinantec, Chuukese, Cimbrian, Cofán, Cook Islands Māori, Cornish, Corsican, Creek, Crimean Tatar, Croatian, Czech, Danish, Dehu, Dutch, Eastern Abnaki, English, Ese Ejja, Faroese, Filipino, Finnish, French, Friulian, Galician, Ganda, Garifuna, Ga’anda, German, Gheg Albanian, Gooniyandi, Guadeloupean Creole French, Haitian, Hawaiian, Ho-Chunk, Hopi, Hungarian, Hän, Icelandic, Iloko, Inari Sami, Irish, Istro Romanian, Italian, Javanese, Jola-Fonyi, Kabuverdianu, Kaonde, Karelian, Kashubian, Khasi, Konzo, Kven Finnish, Kölsch, Ladin, Latgalian, Ligurian, Lithuanian, Lombard, Low German, Lower Sorbian, Lule Sami, Luxembourgish, Macedo-Romanian, Makhuwa, Malagasy, Maltese, Manx, Maori, Mapudungun, Marshallese, Matsés, Meriam Mir, Meru, Mohawk, Montagnais, Montenegrin, Munsee, Mískito, Neapolitan, Niuean, Nomatsiguenga, Northern Kurdish, Norwegian, Nyanja, Occitan, Ojitlán Chinantec, Oroqen, Palauan, Papantla Totonac, Papiamento, Pedi, Picard, Pichis Ashéninka, Piemontese, Pijin, Pipil, Polish, Portuguese, Potawatomi, Purepecha, Quechua, Romanian, Romansh, Samoan, Sango, Sangu (Tanzania), Saramaccan, Sardinian, Scottish Gaelic, Seri, Sicilian, Silesian, Slovak, Slovenian, Southern Aymara, Southern Sami, Southern Sotho, Spanish, Sranan Tongo, Standard Estonian, Standard Latvian, Sundanese, Swedish, Swiss German, Tagalog, Tahitian, Teso, Tetum, Tetun Dili, Tiv, Tokelau, Tonga (Tonga Islands), Tonga (Zambia), Tosk Albanian, Tswana, Turkish, Turkmen, Uab Meto, Upper Sorbian, Venetian, Veps, Võro, Walloon, Waray (Philippines), Wayuu, Welsh, Western Abnaki, Western Frisian, Wolof, Yanesha', Yao, Yapese, Yucateco, Zapotec, Záparo.
 
-GF_Latin_Core is **statically** defined as:
+`GF_Latin_Core` is **statically** defined as:
 
 * Script: Latin
 * Codepoints defined in [GF_Latin_Core.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Core.stub.nam)
@@ -1106,7 +1106,7 @@ _Description partially salvaged from old README, so language lists manually defi
 > **This below is taken from the old README and is not accurate, as it lists languages that accidentally happen to be covered under this glyphset but are not actually intended to be covered here. This set needs more consideration:** Afar, Eastern Arrernte, Amahuaca, Amis, Amarakaeri, Asu (Tanzania), Batak Toba, Bemba (Zambia), Bena (Tanzania), Bikol, Bislama, Batak Dairi, Batak Mandailing, Batak Simalungun, Batak Karo, Candoshi-Shapra, Cebuano, Chiga, Chokwe, Asháninka, Seselwa Creole French, Tedim Chin, Taita, Andaandi, Dongolawi, Nobiin, Fijian, Borana-Arsi-Guji Oromo, West Central Oromo, Gilbertese, Gusii, Eastern Oromo, Northern Qiandong Miao, Hiligaynon, Southern Qiandong Miao, Hani, Huastec, Indonesian, Jamaican Creole English, Japanese, Kalaallisut, Makonde, Kekchí, Kinyarwanda, Kalenjin, Kimbundu, Kongo, Shambala, Kituba (DRC), Kuanyama, Ladino, Latin, Luba-Lulua, Luo (Kenya and Tanzania), Mauritian Creole, Makhuwa-Meetto, Minangkabau, Murrinh-Patha, Ixcatlán Mazatec, Naga Pidgin, South Ndebele, North Ndebele, Ndonga, Ao Naga, Nyankole, Orma, Pampanga, Pintupi-Luritja, Paluan, Pohnpeian, Upper Guinea Crioulo, K'iche', Rotokas, Rundi, Rwa, Samburu, Sena, Shipibo-Conibo, Shawnee, Shona, Soninke, Somali, Swati, Maore Comorian, Congo Swahili, Swahili, Tok Pisin, Tsonga, Tumbuka, Tzeltal, Tzotzil, Northern Uzbek, Warlpiri, Wik-Mungkan, Mwani, Wiradjuri, Wangaaybuwan-Ngiyambaa, Xhosa, Kenzi, Mattokki, Soga, Yindjibarndi, Makwe, Ngazidja Comorian, Malaysian, Standard Malay, Zulu.
 > 
 
-GF_Latin_Kernel is **statically** defined as:
+`GF_Latin_Kernel` is **statically** defined as:
 
 * Script: Latin
 * Codepoints defined in [GF_Latin_Kernel.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Kernel.stub.nam)
@@ -1123,7 +1123,7 @@ The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/GF_glyphsets/La
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Additional set of symbols for basic math and economy. This includes the 3 sets Kernel/Core/Vietnamese. This set add to GF Core some support for all in use currencies and basic math symboles and punctuation. It adds necessary glyphs for fraction feature support. All fonts commissionned by Google should have a glyphset support up to this level: Core-Vietnamese-Plus.
 
-GF_Latin_Plus is **statically** defined as:
+`GF_Latin_Plus` is **statically** defined as:
 
 * Script: Latin
 * Codepoints defined in [GF_Latin_Plus.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Plus.stub.nam)
@@ -1137,7 +1137,7 @@ The resulting glyphset can be found here: [GF_Latin_Plus.nam](/GF_glyphsets/Lati
 
 ## GF Latin PriAfrican
 
-GF_Latin_PriAfrican is **statically** defined as:
+`GF_Latin_PriAfrican` is **statically** defined as:
 
 * Script: Latin
 * Codepoints defined in [GF_Latin_PriAfrican.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_PriAfrican.stub.nam)
@@ -1154,7 +1154,7 @@ The resulting glyphset can be found here: [GF_Latin_PriAfrican.nam](/GF_glyphset
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Achuar-Shiwiar, Aguaruna, Apinayé, Bini, Cashinahua, Chachi, Embu, Kaingang, Kamba (Kenya), Kikuyu, Mirandese, Páez, Shuar, Toba, Umbundu, Vietnamese, Walser, Waorani, Xavánte
 
-GF_Latin_Vietnamese is **statically** defined as:
+`GF_Latin_Vietnamese` is **statically** defined as:
 
 * Script: Latin
 * Codepoints defined in [GF_Latin_Vietnamese.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Vietnamese.stub.nam)
@@ -1171,7 +1171,7 @@ The resulting glyphset can be found here: [GF_Latin_Vietnamese.nam](/GF_glyphset
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
-GF_Phonetics_APA is **statically** defined as:
+`GF_Phonetics_APA` is **statically** defined as:
 
 * Script: Phonetics
 * Codepoints defined in [GF_Phonetics_APA.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_APA.stub.nam)
@@ -1188,7 +1188,7 @@ The resulting glyphset can be found here: [GF_Phonetics_APA.nam](/GF_glyphsets/P
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
-GF_Phonetics_DisorderedSpeech is **statically** defined as:
+`GF_Phonetics_DisorderedSpeech` is **statically** defined as:
 
 * Script: Phonetics
 * Codepoints defined in [GF_Phonetics_DisorderedSpeech.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_DisorderedSpeech.stub.nam)
@@ -1206,7 +1206,7 @@ The resulting glyphset can be found here: [GF_Phonetics_DisorderedSpeech.nam](/G
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
-GF_Phonetics_IPAHistorical is **statically** defined as:
+`GF_Phonetics_IPAHistorical` is **statically** defined as:
 
 * Script: Phonetics
 * Codepoints defined in [GF_Phonetics_IPAHistorical.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_IPAHistorical.stub.nam)
@@ -1223,7 +1223,7 @@ The resulting glyphset can be found here: [GF_Phonetics_IPAHistorical.nam](/GF_g
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
-GF_Phonetics_IPAStandard is **statically** defined as:
+`GF_Phonetics_IPAStandard` is **statically** defined as:
 
 * Script: Phonetics
 * Codepoints defined in [GF_Phonetics_IPAStandard.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_IPAStandard.stub.nam)
@@ -1240,7 +1240,7 @@ The resulting glyphset can be found here: [GF_Phonetics_IPAStandard.nam](/GF_gly
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
-GF_Phonetics_SinoExt is **statically** defined as:
+`GF_Phonetics_SinoExt` is **statically** defined as:
 
 * Script: Phonetics
 * Codepoints defined in [GF_Phonetics_SinoExt.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_SinoExt.stub.nam)
@@ -1257,7 +1257,7 @@ The resulting glyphset can be found here: [GF_Phonetics_SinoExt.nam](/GF_glyphse
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
-GF_TransLatin_Arabic is **statically** defined as:
+`GF_TransLatin_Arabic` is **statically** defined as:
 
 * Script: TransLatin
 * Codepoints defined in [GF_TransLatin_Arabic.stub.nam](/GF_glyphsets/TransLatin/definitions/GF_TransLatin_Arabic.stub.nam)
@@ -1274,7 +1274,7 @@ The resulting glyphset can be found here: [GF_TransLatin_Arabic.nam](/GF_glyphse
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
-GF_TransLatin_Pinyin is **statically** defined as:
+`GF_TransLatin_Pinyin` is **statically** defined as:
 
 * Script: TransLatin
 * Codepoints defined in [GF_TransLatin_Pinyin.stub.nam](/GF_glyphsets/TransLatin/definitions/GF_TransLatin_Pinyin.stub.nam)
