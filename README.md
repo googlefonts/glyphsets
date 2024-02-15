@@ -56,3 +56,25 @@ Read this top to bottom.
 │ (nice & prod)    │   │                  │   │                  │   │                  │
 └──────────────────┘   └──────────────────┘   └──────────────────┘   └──────────────────┘
 ```
+
+
+Acknowledgements
+----------------
+
+GF Greek Glyph Sets defined by Irene Vlachou @irenevl and Thomas Linard @thlinard. Documented by Alexei Vanyashin @alexeiva January 2017.
+
+GF Glyph Sets defined by Alexei Vanyashin (@alexeiva) and Kalapi Gajjar (@kalapi) from 2016-06-27 to 2016-10-11, with input from
+Dave Crossland,
+Denis Jacquerye,
+Frank Grießhammer,
+Georg Seifert,
+Gunnar Vilhjálmsson,
+Jacques Le Bailly,
+Michael Everson,
+Nhung Nguyen (Vietnamese lists),
+Pablo Impallari (Impallari Encoding),
+Rainer Erich Scheichelbauer (@mekkablue),
+Thomas Jockin,
+Thomas Phinney
+(Adobe Cyrillic lists), and
+Underware (Latin Plus Encoding)

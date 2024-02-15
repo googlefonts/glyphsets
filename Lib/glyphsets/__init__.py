@@ -320,6 +320,10 @@ def unicodes_per_glyphset(glyphset_name):
     return list(sorted(character_set))
 
 
+def glyphs_per_glyphset(glyphset_name):
+    pass
+
+
 def languages_per_glyphset(glyphset_name):
 
     script = glyphset_definitions[glyphset_name]["script"]
@@ -365,6 +369,7 @@ def description_per_glyphset(glyphset_name):
     use_aux = glyphset_definitions[glyphset_name].get("use_auxiliary", False)
     historical = glyphset_definitions[glyphset_name].get("historical", False)
     population = glyphset_definitions[glyphset_name].get("population", False)
+    description = glyphset_definitions[glyphset_name].get("description", None)
 
     root_folder = os.path.abspath(
         os.path.join(os.path.dirname(__file__), "..", "..", "GF_Glyphsets")
@@ -380,6 +385,12 @@ def description_per_glyphset(glyphset_name):
     md = ""
 
     md += f"## {glyphset_name.replace('_', ' ')}\n\n"
+    if description:
+        md += (
+            "_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_\n> "
+            + "\n> ".join(description.split("\n"))
+            + "\n\n"
+        )
     if regions:
         md += f"{glyphset_name} is **dynamically** defined as:\n\n"
     else:

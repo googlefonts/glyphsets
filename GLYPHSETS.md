@@ -22,6 +22,9 @@
 
 ## GF Arabic Core
 
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> Basic character set covering the 3 most widely used languages
+
 GF_Arabic_Core is **statically** defined as:
 
 * Script: Arabic
@@ -36,6 +39,9 @@ The resulting glyphset can be found here: [GF_Arabic_Core.nam](/GF_glyphsets/Ara
 
 
 ## GF Arabic Plus
+
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> Covering additional less widely used languages (but not characters needed for historical or specialized texts)
 
 GF_Arabic_Plus is **statically** defined as:
 
@@ -70,6 +76,9 @@ The resulting glyphset can be found here: [GF_Cyrillic_Core.nam](/GF_glyphsets/C
 
 ## GF Cyrillic Historical
 
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> Provides support for Pre-Petrine Old Church Slavonic Texts
+
 GF_Cyrillic_Historical is **statically** defined as:
 
 * Script: Cyrillic
@@ -83,6 +92,13 @@ The resulting glyphset can be found here: [GF_Cyrillic_Historical.nam](/GF_glyph
 
 
 ## GF Cyrillic Plus
+
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> Includes added language coverage for Slavic, Non-Slavic, and Uralic languages. Supports the following 90 Cyrillic languages: Abaza, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyrillic), Bagvalal Balkar, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Botlikh, Budukh, Bulgarian, Buryat, Chamalal, Chechen, Chuvash, Crimean Tatar (Cyrillic), Croatian (Cyrillic), Dargwa/Dargin, Dungan, Erzya, Gagauz (Cyrillic), Godoberi, Hinukh, Hunzib, Ingush, Juhuri/çuhuri (Cyrillic), Kabardian, Kalmyk, Karachay, Karaim (Cyrillic), Karakalpak (Cyrillic), Karata, Kazakh, Ket (Cyrillic), Khakas (Cyrillic), Khinalugh, Komi, Krymchak, Kryts, Kubachi, Kumyk, Kurdish (Cyrillic), Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Lingua Franca Nova (Cyrillic), Macedonian, Mari (Hill and Meadow), Moksha, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin (Cyrillic), Nanai, Nogai, Ossetian, Russian, Rusyn, Rutul, Serbian (Cyrillic), Shor, Slovio, Tabassaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Tindi, Tofa, Tsakhur (Cyrillic), Tsez, Turkmen, Tuvan/Tuvinian, Udi, Udmurt, Ukrainian, Urum, Uyghur (Cyrillic), Uzbek (Cyrillic), Votik (Cyrillic), Wakhi (Cyrillic), West Polesian, Yaghnobi (Cyrillic), Yukaghir (Northern and Southern)
+> 
+> Includes currencies: ₮, ₴, ₸.
+> 
+> The ruble sign (₽ U+20BD) is not included, since it is already present in the Latin Plus set.
 
 GF_Cyrillic_Plus is **statically** defined as:
 
@@ -99,6 +115,9 @@ The resulting glyphset can be found here: [GF_Cyrillic_Plus.nam](/GF_glyphsets/C
 
 ## GF Cyrillic Pro
 
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> For Headline typefaces (?), with language support more Non-Slavic languages. Additional characters in this set provide support for the following 18 languages: Abkhaz, Chukchi, Enets, Eskimo, Even, Evenki, Itelmen, Khanty, Kildin Sami, Koryak, Mansi, Nganasan, Nenets, Oroch, Orok, Sakha/Yakut, Tati, Yukaghir, Yupik Ulch
+
 GF_Cyrillic_Pro is **statically** defined as:
 
 * Script: Cyrillic
@@ -112,6 +131,13 @@ The resulting glyphset can be found here: [GF_Cyrillic_Pro.nam](/GF_glyphsets/Cy
 
 
 ## GF Greek AncientMusicalSymbols
+
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> **Scholarly Use:** Greek and Byzantine Musical Symbols
+> 
+> * Greek Vocal Notation Symbols
+> * Greek Instrumental Notation Symbols
+> * Byzantine Musical Symbols
 
 GF_Greek_AncientMusicalSymbols is **statically** defined as:
 
@@ -127,6 +153,21 @@ The resulting glyphset can be found here: [GF_Greek_AncientMusicalSymbols.nam](/
 
 ## GF Greek Archaic
 
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> **Scholarly Use:** Variable Letterforms for Ancient Texts, Papyri
+> 
+> * Archaic UC `ϘϚϜϞϠϺ`
+> * Archaic LC `ϙϛϝϟϡϻ`
+> * Variant Letterforms `κρςΣ`, `Θϐϑϒϓϔϕϖε϶`
+> * Additional Letter `ϳ`
+> * Additional Archaic Letters for Bactrian `Ϸϸ`
+> * Symbols `ϼ ☧`
+> * Editorial Symbols `ϽϾϿ`
+> * Ancient Greek Mathematical Character `⟀ ⟁`
+> * Ancient Greek Acrophonic Numerals `𐅀𐅁𐅂𐅃𐅆𐅇𐅈𐅉𐅊𐅋𐅌𐅍𐅎𐅏𐅐𐅑𐅒𐅓𐅔𐅕𐅖𐅗𐅘𐅙𐅚𐅛𐅜𐅝𐅞𐅟𐅠𐅡𐅢𐅣𐅤𐅥𐅦𐅧𐅨𐅩𐅪𐅫𐅬𐅭𐅮𐅯𐅰𐅱𐅲𐅳𐅴`
+> * Geometric shape `□`
+> * Astrological symbols `★☉☊☋☌☍☽☾☿♀♁♂♃♄♅♆♇♈♉♊♋♌♍♎♏♐♑♒♓`
+
 GF_Greek_Archaic is **statically** defined as:
 
 * Script: Greek
@@ -140,6 +181,25 @@ The resulting glyphset can be found here: [GF_Greek_Archaic.nam](/GF_glyphsets/G
 
 
 ## GF Greek Coptic
+
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> **Scholarly Use:** Liturgical language for Coptic Church
+> 
+> Coptic `U+03E2` – `U+03EF`, Coptic Unicode block `U+2C80` – `U+2CFF`
+> 
+> * Coptic Letters `ϢϣϤϥϦϧϨϩϪϫϬϭϮϯ`
+> * Bohairic Coptic UC ` ⲀⲂⲄⲆⲈⲊⲌⲎⲐⲒⲔⲖⲘⲚⲜⲞⲠⲢⲤⲦⲨⲪⲬⲮⲰ`
+> * Bohairic Coptic LC ` ⲁⲃⲅⲇⲉⲋⲍⲏⲑⲓⲕⲗⲙⲛⲝⲟⲡⲣⲥⲧⲩⲫⲭⲯⲱ `
+> * Old Coptic and Dialect Letters UC` ⲲⲴⲶⲸⲺⲼⲾⳀⳂⳄⳆⳈⳊⳌⳎⳐⳒⳔⳖⳘⳚ`
+> * Old Coptic and Dialect Letters LC ` ⲳⲵⲷⲹⲻⲽⲿⳁⳃⳅⳇⳉⳋⳍⳏⳑⳓⳕⳗⳙⳛ `
+> * Old Nubian Letters ` ⳜⳞⳠⳢⳝⳟⳡⳣ `
+> * Symbols ` ⳤ⳥⳦⳧⳨⳩⳪ `
+> * Cryptogrammic Letters ` ⳫⳬⳭⳮ⳯⳰⳱ `
+> * Combining Marks ` ⳯⳰⳱ ` 
+> * Bohairic Coptic Letters ` Ⳳⳳ `
+> * Old Nubian Punctuation ` ⳹⳺⳻⳼ `
+> * Coptic Fraction ` ⳽ ` 
+> * Punctuation ` ⳾ ⳿ ` 
 
 GF_Greek_Coptic is **statically** defined as:
 
@@ -156,6 +216,16 @@ The resulting glyphset can be found here: [GF_Greek_Coptic.nam](/GF_glyphsets/Gr
 
 ## GF Greek Core
 
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> **General Use:** Basic Monotonic set for everyday Modern Greek
+> 
+> * Basic Greek UC ` ΆΈΉΊΌΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΪΫ `
+> * Basic Greek LC ` άέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ `
+> * Punctuation ` · ; `
+> * Greek numeral signs or keraia ` ʹ ͵ `
+> * Accents `  ́ ΅ `
+> * Kai symbol ` ϗ Ϗ `
+
 GF_Greek_Core is **statically** defined as:
 
 * Script: Greek
@@ -168,6 +238,16 @@ The resulting glyphset can be found here: [GF_Greek_Core.nam](/GF_glyphsets/Gree
 
 
 ## GF Greek Expert
+
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> **General Use:** Small Caps for Core and Plus sets, Superscript Letters
+> 
+> * Core .sc `άέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ`
+> * Plus .sc `ἀἁἂἃἄἅἆἇἐἑἒἓἔἕἠἡἢἣἤἥἦἧἰἱἲἳἴἵἶἷὀὁὂὃὄὅὐὑὒὓὔὕὖὗὠὡὢὣὤὥὦὧὰάὲέὴήὶίὸόὺύὼώᾀᾁᾂᾃᾄᾅᾆᾇᾐᾑᾒᾓᾔᾕᾖᾗᾠᾡᾢᾣᾤᾥᾦᾧᾰᾱᾲᾳᾴᾶᾷιῂῃῄῆῇῐῑῒΐῖῗῠῡῢΰῤῥῦῧῲῳῴῶῷ Ϗ`
+> * Archaic Numerals .sc `ϛ ϟ ϡ ϝ`
+> * Iota Adscript as ss01 .sc `ᾈᾉᾊᾋᾌᾍᾎᾏᾘᾙᾚᾛᾜᾝᾞᾟᾨᾩᾪᾫᾬᾭᾮᾯᾼῌῼ`
+> * Superior Letters .sups `ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρςστυφχψω`
+> * Ligatures `λλ γγ`
 
 GF_Greek_Expert is **statically** defined as:
 
@@ -183,6 +263,19 @@ The resulting glyphset can be found here: [GF_Greek_Expert.nam](/GF_glyphsets/Gr
 
 ## GF Greek Plus
 
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> **General Use:** Basic Polytonic set for Scholarly Greek
+> 
+> * Polytonic UC `ἈἉἊἋἌἍἎἏἘἙἚἛἜἝἨἩἪἫἬἭἮἯἸἹἺἻἼἽἾἿὈὉὊὋὌὍὙὛὝὟὨὩὪὫὬὭὮὯᾈᾉᾊᾋᾌᾍᾎᾏᾘᾙᾚᾛᾜᾝᾞᾟᾨᾩᾪᾫᾬᾭᾮᾯᾸᾹᾺΆᾼῈΈῊΉῌῘῙῚΊῨῩῪΎῬῸΌῺΏῼ `
+> * Polytonic LC ` ἀἁἂἃἄἅἆἇἐἑἒἓἔἕἠἡἢἣἤἥἦἧἰἱἲἳἴἵἶἷὀὁὂὃὄὅὐὑὒὓὔὕὖὗὠὡὢὣὤὥὦὧὰάὲέὴήὶίὸόὺύὼώᾀᾁᾂᾃᾄᾅᾆᾇᾐᾑᾒᾓᾔᾕᾖᾗᾠᾡᾢᾣᾤᾥᾦᾧᾰᾱᾲᾳᾴᾶᾷιῂῃῄῆῇῐῑῒΐῖῗῠῡῢΰῤῥῦῧῲῳῴῶῷ `
+> * Accents ```   ́ ` ῀ `  ```
+> * Breathings ` ῾ ᾿ `
+> * Combinations ` ῁ ῍ ῎ ῏ ῝ ῞ ῟  ̈́ `
+> * Diactritics `  ͅ ι `
+> * Punctuation ` ᾽ `
+> * Combining Marks `  ̓ ΅  ͂ ͅ `
+> * Iota Adscript as ss01 `ᾈᾉᾊᾋᾌᾍᾎᾏᾘᾙᾚᾛᾜᾝᾞᾟᾨᾩᾪᾫᾬᾭᾮᾯᾼῌῼ`
+
 GF_Greek_Plus is **statically** defined as:
 
 * Script: Greek
@@ -197,6 +290,52 @@ The resulting glyphset can be found here: [GF_Greek_Plus.nam](/GF_glyphsets/Gree
 
 
 ## GF Greek Pro
+
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> **Scholarly Use:** Extended Polytonic Greek, for scholarly edition of ancient texts (Ancient and Roman Greece studies, Byzantine studies, Greek Biblical studies)
+> 
+> **[Learn how to draw good Polytonic Greek at irenevl.github.io/Polytonic-tutorial](https://irenevl.github.io/Polytonic-tutorial/)**
+> 
+> **N.B.** List of characters from GF Latin Plus and Pro sets that are prerequisites to this set.
+> 
+> № | char | nice name (Glyphs App) | uni name | set
+> ---|---|---|---|---
+> 1|²|twosuperior|uni00B2|GF Latin Plus
+> 2|³|threesuperior|uni00B3|GF Latin Plus
+> 3|¹|onesuperior|uni00B9|GF Latin Plus
+> 4|⁰|zerosuperior|uni0270|GF Latin Pro
+> 5|†|dagger|uni2020|GF Latin Plus
+> 6|‡|daggerdbl|uni2021|GF Latin Plus
+> 7|⁴|foursuperior|uni2074|GF Latin Plus
+> 8|⁵|fivesuperior|uni2075|GF Latin Pro
+> 9|⁶|sixsuperior|uni2076|GF Latin Pro
+> 10|⁷|sevensuperior|uni2077|GF Latin Pro
+> 11|⁸|eightsuperior|uni2078|GF Latin Pro
+> 12|⁹|ninesuperior|uni2079|GF Latin Pro
+> 13|₀|zeroinferior|uni2080|GF Latin Pro
+> 14|₁|oneinferior|uni2081|GF Latin Pro
+> 15|₂|twoinferior|uni2082|GF Latin Pro
+> 16|₃|threeinferior|uni2083|GF Latin Pro
+> 17|₄|fourinferior|uni2084|GF Latin Pro
+> 18|₅|fiveinferior|uni2085|GF Latin Pro
+> 19|₆|sixinferior|uni2086|GF Latin Pro
+> 20|₇|seveninferior|uni2087|GF Latin Pro
+> 21|₈|eightinferior|uni2088|GF Latin Pro
+> 22|₉|nineinferior|uni2089|GF Latin Pro
+> 
+> 
+> * Archaic Letters and Numerals `Ϛ Ϟ Ϡ Ϝ ϛ ϟ ϡ ϝ`
+> * Ancient Greek Textual symbols `⸎ ⸏ ⸐ ⸑ ⸒ ⸓ ⸔ ⸕ ⸖ ⸗`
+> * Archaic Punctuation `※ ⁂ ‿ ͜ ˙ ⁖ ⁘ ⁙ ⁚ ⁛ ⁜ ⁝ ⁞ ⊗ ⋮`
+> * Greek Metrical Symbols `⏑ ⏒ ⏓ ⏔ ⏕ ⏖ ⏗ ⏘ ⏙`
+> * Critical Sigla `̅ ̣ ͙ ‖ ⁺ ⁻ ⁼ ₊ ₋ ₌ ⫽ ⸀ ⸁ ⸂ ⸃ ⸄ ⸅ ⸆ ⸇ ⸈ ⸉ ⸊ ⸋ ⸌ ⸍ 〈 〉《 》「 」〚 〛`
+> * Biblical Apparatus `ℵ ℶ 𝑙 𝔖 𝔐 𝔓 𝔭`
+> 
+> 
+> **N.B.** For certain design cases it is best practice to include inital and final variants of ` ̅` overlinecomb (uni0305):
+> 
+> * `overlinecomb.init`, cropped on the left
+> * `overlinecomb.fina`, cropped on the right
 
 GF_Greek_Pro is **statically** defined as:
 
@@ -896,6 +1035,11 @@ The resulting glyphset can be found here: [GF_Latin_African.nam](/GF_glyphsets/L
 
 ## GF Latin Beyond
 
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> Support for indigenous Latin-based languages from European and American regions (< 5M speakers), that are not supported in Latin Core.
+> 
+> **This below is taken from the old README and is not accurate, as it lists languages that accidentally happen to be covered under this glyphset but are not actually intended to be covered here. This set needs more consideration:** Abron, Acholi, Achuar-Shiwiar, Adangme, Aguaruna, Ahtna, Akoose, Alekano, Aleut, Anaang, Anufo, Apinayé, Arabela, Asturian, Atayal, Awa-Cuaiquer, Awetí, Awing, Baatonum, Baoulé, Boko (Benin), Bora, Bouna Kulango, Buginese, Cashinahua, Chachi, Chayahuita, Dagbani, Dendi (Benin), Dimli, Dinka, Embu, Fanti, Ga, Gagauz, Gonja, Gwichʼin, Kaingang, Kamba (Kenya), Kaqchikel, Kikuyu, Kirmanjki, Krio, Kwak’wala, Lamnso', Lingala, Lozi, Luba-Katanga, Mandinka, Mandjak, Mankanya, Mende (Sierra Leone), Meta’, Metlatónoc Mixtec, Mezquital Otomi, Mi'kmaq, Mirandese, Murui Huitoto, Muslim Tat, Navajo, North Azerbaijani, Northeastern Dinka, Northern Kissi, Northern Sami, Nuer, Nuuchahnulth, Nyamwezi, Nyemba, Nzima, Otuho, Paraguayan Guaraní, Pite Sami, Páez, Secoya, Sharanahua, Shilluk, Shuar, Siona, Skolt Sami, South Azerbaijani, Southern Dagaare, Talysh, Ticuna, Toba, Tojolabal, Totontepec Mixe, Tsafiki, Tsakhur, Tuvalu, Twi, Umbundu, Ume Sami, Waama, Walser, Waorani, Wasa, Xavánte, Yagua, Yangben, Yanomamö, Zuni
+
 GF_Latin_Beyond is **statically** defined as:
 
 * Script: Latin
@@ -909,6 +1053,11 @@ The resulting glyphset can be found here: [GF_Latin_Beyond.nam](/GF_glyphsets/La
 
 
 ## GF Latin Core
+
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> Languages of Europe and the Americas with >5M speakers, with manually curated exceptions. This set is the minimal set required for all families meant to be onboarded into Google Fonts.
+> 
+> **This below is taken from the old README and is not accurate, as it lists languages that accidentally happen to be covered under this glyphset but are not actually intended to be covered here. This set needs more consideration:** Acheron, Achinese, Afrikaans, Anuta, Aragonese, Arbëreshë Albanian, Arvanitika Albanian, Ashéninka Perené, Balinese, Bari, Basque, Bosnian, Breton, Caquinte, Caribbean Hindustani, Cashibo-Cacataibo, Catalan, Central Aymara, Central Kurdish, Chamorro, Chavacano, Chiltepec Chinantec, Chuukese, Cimbrian, Cofán, Cook Islands Māori, Cornish, Corsican, Creek, Crimean Tatar, Croatian, Czech, Danish, Dehu, Dutch, Eastern Abnaki, English, Ese Ejja, Faroese, Filipino, Finnish, French, Friulian, Galician, Ganda, Garifuna, Ga’anda, German, Gheg Albanian, Gooniyandi, Guadeloupean Creole French, Haitian, Hawaiian, Ho-Chunk, Hopi, Hungarian, Hän, Icelandic, Iloko, Inari Sami, Irish, Istro Romanian, Italian, Javanese, Jola-Fonyi, Kabuverdianu, Kaonde, Karelian, Kashubian, Khasi, Konzo, Kven Finnish, Kölsch, Ladin, Latgalian, Ligurian, Lithuanian, Lombard, Low German, Lower Sorbian, Lule Sami, Luxembourgish, Macedo-Romanian, Makhuwa, Malagasy, Maltese, Manx, Maori, Mapudungun, Marshallese, Matsés, Meriam Mir, Meru, Mohawk, Montagnais, Montenegrin, Munsee, Mískito, Neapolitan, Niuean, Nomatsiguenga, Northern Kurdish, Norwegian, Nyanja, Occitan, Ojitlán Chinantec, Oroqen, Palauan, Papantla Totonac, Papiamento, Pedi, Picard, Pichis Ashéninka, Piemontese, Pijin, Pipil, Polish, Portuguese, Potawatomi, Purepecha, Quechua, Romanian, Romansh, Samoan, Sango, Sangu (Tanzania), Saramaccan, Sardinian, Scottish Gaelic, Seri, Sicilian, Silesian, Slovak, Slovenian, Southern Aymara, Southern Sami, Southern Sotho, Spanish, Sranan Tongo, Standard Estonian, Standard Latvian, Sundanese, Swedish, Swiss German, Tagalog, Tahitian, Teso, Tetum, Tetun Dili, Tiv, Tokelau, Tonga (Tonga Islands), Tonga (Zambia), Tosk Albanian, Tswana, Turkish, Turkmen, Uab Meto, Upper Sorbian, Venetian, Veps, Võro, Walloon, Waray (Philippines), Wayuu, Welsh, Western Abnaki, Western Frisian, Wolof, Yanesha', Yao, Yapese, Yucateco, Zapotec, Záparo.
 
 GF_Latin_Core is **statically** defined as:
 
@@ -949,6 +1098,14 @@ The resulting glyphset can be found here: [GF_Latin_Core.nam](/GF_glyphsets/Lati
 
 ## GF Latin Kernel
 
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> Support ASCII + necessary punctuation and symbols for English language. This set is the minimal set required for non-latin script families that are not meant to be used in latin language based context. 
+> 
+> English support is still mandatory for technical reasons: application support on one hand, and GF platform display on the other hand (to avoid .notdef glyphs appearing everywhere on the website). GF encourages designers to also support GF Latin Core glyphset, in addition to any script, so native speakers living abroad can also enjoy and use the font wherever they are in the world.
+> 
+> **This below is taken from the old README and is not accurate, as it lists languages that accidentally happen to be covered under this glyphset but are not actually intended to be covered here. This set needs more consideration:** Afar, Eastern Arrernte, Amahuaca, Amis, Amarakaeri, Asu (Tanzania), Batak Toba, Bemba (Zambia), Bena (Tanzania), Bikol, Bislama, Batak Dairi, Batak Mandailing, Batak Simalungun, Batak Karo, Candoshi-Shapra, Cebuano, Chiga, Chokwe, Asháninka, Seselwa Creole French, Tedim Chin, Taita, Andaandi, Dongolawi, Nobiin, Fijian, Borana-Arsi-Guji Oromo, West Central Oromo, Gilbertese, Gusii, Eastern Oromo, Northern Qiandong Miao, Hiligaynon, Southern Qiandong Miao, Hani, Huastec, Indonesian, Jamaican Creole English, Japanese, Kalaallisut, Makonde, Kekchí, Kinyarwanda, Kalenjin, Kimbundu, Kongo, Shambala, Kituba (DRC), Kuanyama, Ladino, Latin, Luba-Lulua, Luo (Kenya and Tanzania), Mauritian Creole, Makhuwa-Meetto, Minangkabau, Murrinh-Patha, Ixcatlán Mazatec, Naga Pidgin, South Ndebele, North Ndebele, Ndonga, Ao Naga, Nyankole, Orma, Pampanga, Pintupi-Luritja, Paluan, Pohnpeian, Upper Guinea Crioulo, K'iche', Rotokas, Rundi, Rwa, Samburu, Sena, Shipibo-Conibo, Shawnee, Shona, Soninke, Somali, Swati, Maore Comorian, Congo Swahili, Swahili, Tok Pisin, Tsonga, Tumbuka, Tzeltal, Tzotzil, Northern Uzbek, Warlpiri, Wik-Mungkan, Mwani, Wiradjuri, Wangaaybuwan-Ngiyambaa, Xhosa, Kenzi, Mattokki, Soga, Yindjibarndi, Makwe, Ngazidja Comorian, Malaysian, Standard Malay, Zulu.
+> 
+
 GF_Latin_Kernel is **statically** defined as:
 
 * Script: Latin
@@ -962,6 +1119,9 @@ The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/GF_glyphsets/La
 
 
 ## GF Latin Plus
+
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> Additional set of symbols for basic math and economy. This includes the 3 sets Kernel/Core/Vietnamese. This set add to GF Core some support for all in use currencies and basic math symboles and punctuation. It adds necessary glyphs for fraction feature support. All fonts commissionned by Google should have a glyphset support up to this level: Core-Vietnamese-Plus.
 
 GF_Latin_Plus is **statically** defined as:
 
@@ -990,6 +1150,9 @@ The resulting glyphset can be found here: [GF_Latin_PriAfrican.nam](/GF_glyphset
 
 
 ## GF Latin Vietnamese
+
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> Achuar-Shiwiar, Aguaruna, Apinayé, Bini, Cashinahua, Chachi, Embu, Kaingang, Kamba (Kenya), Kikuyu, Mirandese, Páez, Shuar, Toba, Umbundu, Vietnamese, Walser, Waorani, Xavánte
 
 GF_Latin_Vietnamese is **statically** defined as:
 
