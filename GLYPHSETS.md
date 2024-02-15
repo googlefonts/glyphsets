@@ -1168,6 +1168,9 @@ The resulting glyphset can be found here: [GF_Latin_Vietnamese.nam](/GF_glyphset
 
 ## GF Phonetics APA
 
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
+
 GF_Phonetics_APA is **statically** defined as:
 
 * Script: Phonetics
@@ -1181,6 +1184,9 @@ The resulting glyphset can be found here: [GF_Phonetics_APA.nam](/GF_glyphsets/P
 
 
 ## GF Phonetics DisorderedSpeech
+
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
 GF_Phonetics_DisorderedSpeech is **statically** defined as:
 
@@ -1197,6 +1203,9 @@ The resulting glyphset can be found here: [GF_Phonetics_DisorderedSpeech.nam](/G
 
 ## GF Phonetics IPAHistorical
 
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
+
 GF_Phonetics_IPAHistorical is **statically** defined as:
 
 * Script: Phonetics
@@ -1210,6 +1219,9 @@ The resulting glyphset can be found here: [GF_Phonetics_IPAHistorical.nam](/GF_g
 
 
 ## GF Phonetics IPAStandard
+
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
 GF_Phonetics_IPAStandard is **statically** defined as:
 
@@ -1225,6 +1237,9 @@ The resulting glyphset can be found here: [GF_Phonetics_IPAStandard.nam](/GF_gly
 
 ## GF Phonetics SinoExt
 
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
+
 GF_Phonetics_SinoExt is **statically** defined as:
 
 * Script: Phonetics
@@ -1239,6 +1254,9 @@ The resulting glyphset can be found here: [GF_Phonetics_SinoExt.nam](/GF_glyphse
 
 ## GF TransLatin Arabic
 
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
+
 GF_TransLatin_Arabic is **statically** defined as:
 
 * Script: TransLatin
@@ -1252,6 +1270,9 @@ The resulting glyphset can be found here: [GF_TransLatin_Arabic.nam](/GF_glyphse
 
 
 ## GF TransLatin Pinyin
+
+_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
+> These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
 GF_TransLatin_Pinyin is **statically** defined as:
 

@@ -246,11 +246,32 @@ English support is still mandatory for technical reasons: application support on
         "script": "Latin",
         "description": "Achuar-Shiwiar, Aguaruna, Apinayé, Bini, Cashinahua, Chachi, Embu, Kaingang, Kamba (Kenya), Kikuyu, Mirandese, Páez, Shuar, Toba, Umbundu, Vietnamese, Walser, Waorani, Xavánte",
     },
-    "GF_Phonetics_APA": {"script": "Phonetics"},
-    "GF_Phonetics_DisorderedSpeech": {"script": "Phonetics"},
-    "GF_Phonetics_IPAHistorical": {"script": "Phonetics"},
-    "GF_Phonetics_IPAStandard": {"script": "Phonetics"},
-    "GF_Phonetics_SinoExt": {"script": "Phonetics"},
-    "GF_TransLatin_Arabic": {"script": "TransLatin"},
-    "GF_TransLatin_Pinyin": {"script": "TransLatin"},
+    "GF_Phonetics_APA": {
+        "script": "Phonetics",
+        "description": "These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!",
+    },
+    "GF_Phonetics_DisorderedSpeech": {
+        "script": "Phonetics",
+        "description": "These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!",
+    },
+    "GF_Phonetics_IPAHistorical": {
+        "script": "Phonetics",
+        "description": "These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!",
+    },
+    "GF_Phonetics_IPAStandard": {
+        "script": "Phonetics",
+        "description": "These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!",
+    },
+    "GF_Phonetics_SinoExt": {
+        "script": "Phonetics",
+        "description": "These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!",
+    },
+    "GF_TransLatin_Arabic": {
+        "script": "TransLatin",
+        "description": "These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!",
+    },
+    "GF_TransLatin_Pinyin": {
+        "script": "TransLatin",
+        "description": "These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!",
+    },
 }
