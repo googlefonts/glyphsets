@@ -36,7 +36,7 @@ Persian (fa_Arab),
 Urdu (ur_Arab)
 `
 
-The resulting glyphset can be found here: [GF_Arabic_Core.nam](/GF_glyphsets/Arabic/nam/GF_Arabic_Core.nam) (only encoded glyphs), [GF_Arabic_Core.glyphs](/GF_glyphsets/Arabic/glyphs/GF_Arabic_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Arabic.plist](/GF_glyphsets/Arabic/glyphs/CustomFilter_GF_Arabic.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Arabic/nam/GF_Arabic_Core.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Arabic/glyphs/GF_Arabic_Core.glyphs)/[.txt (nice names)](/GF_glyphsets/Arabic/txt/nice-names/GF_Arabic_Core.txt)/[.txt (production names)](/GF_glyphsets/Arabic/txt/prod-names/GF_Arabic_Core.txt) (all glyphs), as well as part of [CustomFilter_GF_Arabic.plist](/GF_glyphsets/Arabic/glyphs/CustomFilter_GF_Arabic.plist)
 
 
 # GF Arabic Plus
@@ -56,7 +56,7 @@ Sindhi (sd_Arab),
 Uyghur (ug_Arab)
 `
 
-The resulting glyphset can be found here: [GF_Arabic_Plus.nam](/GF_glyphsets/Arabic/nam/GF_Arabic_Plus.nam) (only encoded glyphs), [GF_Arabic_Plus.glyphs](/GF_glyphsets/Arabic/glyphs/GF_Arabic_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Arabic.plist](/GF_glyphsets/Arabic/glyphs/CustomFilter_GF_Arabic.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Arabic/nam/GF_Arabic_Plus.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Arabic/glyphs/GF_Arabic_Plus.glyphs)/[.txt (nice names)](/GF_glyphsets/Arabic/txt/nice-names/GF_Arabic_Plus.txt)/[.txt (production names)](/GF_glyphsets/Arabic/txt/prod-names/GF_Arabic_Plus.txt) (all glyphs), as well as part of [CustomFilter_GF_Arabic.plist](/GF_glyphsets/Arabic/glyphs/CustomFilter_GF_Arabic.plist)
 
 
 # GF Cyrillic Core
@@ -73,7 +73,7 @@ Serbian (sr_Cyrl),
 Ukrainian (uk_Cyrl)
 `
 
-The resulting glyphset can be found here: [GF_Cyrillic_Core.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Core.nam) (only encoded glyphs), [GF_Cyrillic_Core.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Core.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Core.glyphs)/[.txt (nice names)](/GF_glyphsets/Cyrillic/txt/nice-names/GF_Cyrillic_Core.txt)/[.txt (production names)](/GF_glyphsets/Cyrillic/txt/prod-names/GF_Cyrillic_Core.txt) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
 
 
 # GF Cyrillic Historical
@@ -91,7 +91,7 @@ The resulting glyphset can be found here: [GF_Cyrillic_Core.nam](/GF_glyphsets/C
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Cyrillic_Historical.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Historical.nam) (only encoded glyphs), [GF_Cyrillic_Historical.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Historical.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Historical.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Historical.glyphs)/[.txt (nice names)](/GF_glyphsets/Cyrillic/txt/nice-names/GF_Cyrillic_Historical.txt)/[.txt (production names)](/GF_glyphsets/Cyrillic/txt/prod-names/GF_Cyrillic_Historical.txt) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
 
 
 # GF Cyrillic Plus
@@ -114,7 +114,7 @@ The resulting glyphset can be found here: [GF_Cyrillic_Historical.nam](/GF_glyph
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Cyrillic_Plus.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Plus.nam) (only encoded glyphs), [GF_Cyrillic_Plus.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Plus.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Plus.glyphs)/[.txt (nice names)](/GF_glyphsets/Cyrillic/txt/nice-names/GF_Cyrillic_Plus.txt)/[.txt (production names)](/GF_glyphsets/Cyrillic/txt/prod-names/GF_Cyrillic_Plus.txt) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
 
 
 # GF Cyrillic Pro
@@ -132,7 +132,7 @@ The resulting glyphset can be found here: [GF_Cyrillic_Plus.nam](/GF_glyphsets/C
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Cyrillic_Pro.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Pro.nam) (only encoded glyphs), [GF_Cyrillic_Pro.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Pro.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Pro.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Pro.glyphs)/[.txt (nice names)](/GF_glyphsets/Cyrillic/txt/nice-names/GF_Cyrillic_Pro.txt)/[.txt (production names)](/GF_glyphsets/Cyrillic/txt/prod-names/GF_Cyrillic_Pro.txt) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
 
 
 # GF Greek AncientMusicalSymbols
@@ -154,7 +154,7 @@ The resulting glyphset can be found here: [GF_Cyrillic_Pro.nam](/GF_glyphsets/Cy
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Greek_AncientMusicalSymbols.nam](/GF_glyphsets/Greek/nam/GF_Greek_AncientMusicalSymbols.nam) (only encoded glyphs), [GF_Greek_AncientMusicalSymbols.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_AncientMusicalSymbols.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Greek_AncientMusicalSymbols.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_AncientMusicalSymbols.glyphs)/[.txt (nice names)](/GF_glyphsets/Greek/txt/nice-names/GF_Greek_AncientMusicalSymbols.txt)/[.txt (production names)](/GF_glyphsets/Greek/txt/prod-names/GF_Greek_AncientMusicalSymbols.txt) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
 # GF Greek Archaic
@@ -184,7 +184,7 @@ The resulting glyphset can be found here: [GF_Greek_AncientMusicalSymbols.nam](/
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Greek_Archaic.nam](/GF_glyphsets/Greek/nam/GF_Greek_Archaic.nam) (only encoded glyphs), [GF_Greek_Archaic.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Archaic.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Greek_Archaic.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Archaic.glyphs)/[.txt (nice names)](/GF_glyphsets/Greek/txt/nice-names/GF_Greek_Archaic.txt)/[.txt (production names)](/GF_glyphsets/Greek/txt/prod-names/GF_Greek_Archaic.txt) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
 # GF Greek Coptic
@@ -219,7 +219,7 @@ The resulting glyphset can be found here: [GF_Greek_Archaic.nam](/GF_glyphsets/G
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Greek_Coptic.nam](/GF_glyphsets/Greek/nam/GF_Greek_Coptic.nam) (only encoded glyphs), [GF_Greek_Coptic.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Coptic.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Greek_Coptic.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Coptic.glyphs)/[.txt (nice names)](/GF_glyphsets/Greek/txt/nice-names/GF_Greek_Coptic.txt)/[.txt (production names)](/GF_glyphsets/Greek/txt/prod-names/GF_Greek_Coptic.txt) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
 # GF Greek Core
@@ -243,7 +243,7 @@ The resulting glyphset can be found here: [GF_Greek_Coptic.nam](/GF_glyphsets/Gr
 Greek (el_Grek)
 `
 
-The resulting glyphset can be found here: [GF_Greek_Core.nam](/GF_glyphsets/Greek/nam/GF_Greek_Core.nam) (only encoded glyphs), [GF_Greek_Core.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Greek_Core.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Core.glyphs)/[.txt (nice names)](/GF_glyphsets/Greek/txt/nice-names/GF_Greek_Core.txt)/[.txt (production names)](/GF_glyphsets/Greek/txt/prod-names/GF_Greek_Core.txt) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
 # GF Greek Expert
@@ -268,7 +268,7 @@ The resulting glyphset can be found here: [GF_Greek_Core.nam](/GF_glyphsets/Gree
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Greek_Expert.nam](/GF_glyphsets/Greek/nam/GF_Greek_Expert.nam) (only encoded glyphs), [GF_Greek_Expert.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Expert.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Greek_Expert.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Expert.glyphs)/[.txt (nice names)](/GF_glyphsets/Greek/txt/nice-names/GF_Greek_Expert.txt)/[.txt (production names)](/GF_glyphsets/Greek/txt/prod-names/GF_Greek_Expert.txt) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
 # GF Greek Plus
@@ -297,7 +297,7 @@ The resulting glyphset can be found here: [GF_Greek_Expert.nam](/GF_glyphsets/Gr
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Greek_Plus.nam](/GF_glyphsets/Greek/nam/GF_Greek_Plus.nam) (only encoded glyphs), [GF_Greek_Plus.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Greek_Plus.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Plus.glyphs)/[.txt (nice names)](/GF_glyphsets/Greek/txt/nice-names/GF_Greek_Plus.txt)/[.txt (production names)](/GF_glyphsets/Greek/txt/prod-names/GF_Greek_Plus.txt) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
 # GF Greek Pro
@@ -358,7 +358,7 @@ The resulting glyphset can be found here: [GF_Greek_Plus.nam](/GF_glyphsets/Gree
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Greek_Pro.nam](/GF_glyphsets/Greek/nam/GF_Greek_Pro.nam) (only encoded glyphs), [GF_Greek_Pro.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Pro.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Greek_Pro.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Pro.glyphs)/[.txt (nice names)](/GF_glyphsets/Greek/txt/nice-names/GF_Greek_Pro.txt)/[.txt (production names)](/GF_glyphsets/Greek/txt/prod-names/GF_Greek_Pro.txt) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
 # GF Latin African
@@ -1042,7 +1042,7 @@ ut-Hun (uth_Latn),
 ut-Ma’in (gel_Latn)
 `
 
-The resulting glyphset can be found here: [GF_Latin_African.nam](/GF_glyphsets/Latin/nam/GF_Latin_African.nam) (only encoded glyphs), [GF_Latin_African.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_African.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Latin_African.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_African.glyphs)/[.txt (nice names)](/GF_glyphsets/Latin/txt/nice-names/GF_Latin_African.txt)/[.txt (production names)](/GF_glyphsets/Latin/txt/prod-names/GF_Latin_African.txt) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
 # GF Latin Beyond
@@ -1062,7 +1062,7 @@ The resulting glyphset can be found here: [GF_Latin_African.nam](/GF_glyphsets/L
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Latin_Beyond.nam](/GF_glyphsets/Latin/nam/GF_Latin_Beyond.nam) (only encoded glyphs), [GF_Latin_Beyond.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Beyond.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Latin_Beyond.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Beyond.glyphs)/[.txt (nice names)](/GF_glyphsets/Latin/txt/nice-names/GF_Latin_Beyond.txt)/[.txt (production names)](/GF_glyphsets/Latin/txt/prod-names/GF_Latin_Beyond.txt) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
 # GF Latin Core
@@ -1107,7 +1107,7 @@ Turkish (tr_Latn),
 Welsh (cy_Latn)
 `
 
-The resulting glyphset can be found here: [GF_Latin_Core.nam](/GF_glyphsets/Latin/nam/GF_Latin_Core.nam) (only encoded glyphs), [GF_Latin_Core.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Latin_Core.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Core.glyphs)/[.txt (nice names)](/GF_glyphsets/Latin/txt/nice-names/GF_Latin_Core.txt)/[.txt (production names)](/GF_glyphsets/Latin/txt/prod-names/GF_Latin_Core.txt) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
 # GF Latin Kernel
@@ -1130,7 +1130,7 @@ The resulting glyphset can be found here: [GF_Latin_Core.nam](/GF_glyphsets/Lati
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/GF_glyphsets/Latin/nam/GF_Latin_Kernel.nam) (only encoded glyphs), [GF_Latin_Kernel.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Kernel.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Latin_Kernel.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Kernel.glyphs)/[.txt (nice names)](/GF_glyphsets/Latin/txt/nice-names/GF_Latin_Kernel.txt)/[.txt (production names)](/GF_glyphsets/Latin/txt/prod-names/GF_Latin_Kernel.txt) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
 # GF Latin Plus
@@ -1148,7 +1148,7 @@ The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/GF_glyphsets/La
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Latin_Plus.nam](/GF_glyphsets/Latin/nam/GF_Latin_Plus.nam) (only encoded glyphs), [GF_Latin_Plus.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Latin_Plus.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Plus.glyphs)/[.txt (nice names)](/GF_glyphsets/Latin/txt/nice-names/GF_Latin_Plus.txt)/[.txt (production names)](/GF_glyphsets/Latin/txt/prod-names/GF_Latin_Plus.txt) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
 # GF Latin PriAfrican
@@ -1162,7 +1162,7 @@ The resulting glyphset can be found here: [GF_Latin_Plus.nam](/GF_glyphsets/Lati
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Latin_PriAfrican.nam](/GF_glyphsets/Latin/nam/GF_Latin_PriAfrican.nam) (only encoded glyphs), [GF_Latin_PriAfrican.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_PriAfrican.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Latin_PriAfrican.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_PriAfrican.glyphs)/[.txt (nice names)](/GF_glyphsets/Latin/txt/nice-names/GF_Latin_PriAfrican.txt)/[.txt (production names)](/GF_glyphsets/Latin/txt/prod-names/GF_Latin_PriAfrican.txt) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
 # GF Latin Vietnamese
@@ -1180,7 +1180,7 @@ The resulting glyphset can be found here: [GF_Latin_PriAfrican.nam](/GF_glyphset
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Latin_Vietnamese.nam](/GF_glyphsets/Latin/nam/GF_Latin_Vietnamese.nam) (only encoded glyphs), [GF_Latin_Vietnamese.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Vietnamese.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Latin_Vietnamese.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Vietnamese.glyphs)/[.txt (nice names)](/GF_glyphsets/Latin/txt/nice-names/GF_Latin_Vietnamese.txt)/[.txt (production names)](/GF_glyphsets/Latin/txt/prod-names/GF_Latin_Vietnamese.txt) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
 # GF Phonetics APA
@@ -1198,7 +1198,7 @@ The resulting glyphset can be found here: [GF_Latin_Vietnamese.nam](/GF_glyphset
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Phonetics_APA.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_APA.nam) (only encoded glyphs), [GF_Phonetics_APA.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_APA.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_APA.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_APA.glyphs)/[.txt (nice names)](/GF_glyphsets/Phonetics/txt/nice-names/GF_Phonetics_APA.txt)/[.txt (production names)](/GF_glyphsets/Phonetics/txt/prod-names/GF_Phonetics_APA.txt) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
 
 
 # GF Phonetics DisorderedSpeech
@@ -1217,7 +1217,7 @@ The resulting glyphset can be found here: [GF_Phonetics_APA.nam](/GF_glyphsets/P
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Phonetics_DisorderedSpeech.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_DisorderedSpeech.nam) (only encoded glyphs), [GF_Phonetics_DisorderedSpeech.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_DisorderedSpeech.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_DisorderedSpeech.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_DisorderedSpeech.glyphs)/[.txt (nice names)](/GF_glyphsets/Phonetics/txt/nice-names/GF_Phonetics_DisorderedSpeech.txt)/[.txt (production names)](/GF_glyphsets/Phonetics/txt/prod-names/GF_Phonetics_DisorderedSpeech.txt) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
 
 
 # GF Phonetics IPAHistorical
@@ -1235,7 +1235,7 @@ The resulting glyphset can be found here: [GF_Phonetics_DisorderedSpeech.nam](/G
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Phonetics_IPAHistorical.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_IPAHistorical.nam) (only encoded glyphs), [GF_Phonetics_IPAHistorical.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_IPAHistorical.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_IPAHistorical.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_IPAHistorical.glyphs)/[.txt (nice names)](/GF_glyphsets/Phonetics/txt/nice-names/GF_Phonetics_IPAHistorical.txt)/[.txt (production names)](/GF_glyphsets/Phonetics/txt/prod-names/GF_Phonetics_IPAHistorical.txt) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
 
 
 # GF Phonetics IPAStandard
@@ -1253,7 +1253,7 @@ The resulting glyphset can be found here: [GF_Phonetics_IPAHistorical.nam](/GF_g
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Phonetics_IPAStandard.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_IPAStandard.nam) (only encoded glyphs), [GF_Phonetics_IPAStandard.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_IPAStandard.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_IPAStandard.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_IPAStandard.glyphs)/[.txt (nice names)](/GF_glyphsets/Phonetics/txt/nice-names/GF_Phonetics_IPAStandard.txt)/[.txt (production names)](/GF_glyphsets/Phonetics/txt/prod-names/GF_Phonetics_IPAStandard.txt) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
 
 
 # GF Phonetics SinoExt
@@ -1271,7 +1271,7 @@ The resulting glyphset can be found here: [GF_Phonetics_IPAStandard.nam](/GF_gly
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_Phonetics_SinoExt.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_SinoExt.nam) (only encoded glyphs), [GF_Phonetics_SinoExt.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_SinoExt.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_SinoExt.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_SinoExt.glyphs)/[.txt (nice names)](/GF_glyphsets/Phonetics/txt/nice-names/GF_Phonetics_SinoExt.txt)/[.txt (production names)](/GF_glyphsets/Phonetics/txt/prod-names/GF_Phonetics_SinoExt.txt) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
 
 
 # GF TransLatin Arabic
@@ -1289,7 +1289,7 @@ The resulting glyphset can be found here: [GF_Phonetics_SinoExt.nam](/GF_glyphse
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_TransLatin_Arabic.nam](/GF_glyphsets/TransLatin/nam/GF_TransLatin_Arabic.nam) (only encoded glyphs), [GF_TransLatin_Arabic.glyphs](/GF_glyphsets/TransLatin/glyphs/GF_TransLatin_Arabic.glyphs) (all glyphs), as well as part of [CustomFilter_GF_TransLatin.plist](/GF_glyphsets/TransLatin/glyphs/CustomFilter_GF_TransLatin.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/TransLatin/nam/GF_TransLatin_Arabic.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/TransLatin/glyphs/GF_TransLatin_Arabic.glyphs)/[.txt (nice names)](/GF_glyphsets/TransLatin/txt/nice-names/GF_TransLatin_Arabic.txt)/[.txt (production names)](/GF_glyphsets/TransLatin/txt/prod-names/GF_TransLatin_Arabic.txt) (all glyphs), as well as part of [CustomFilter_GF_TransLatin.plist](/GF_glyphsets/TransLatin/glyphs/CustomFilter_GF_TransLatin.plist)
 
 
 # GF TransLatin Pinyin
@@ -1308,5 +1308,5 @@ The resulting glyphset can be found here: [GF_TransLatin_Arabic.nam](/GF_glyphse
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).
 
-The resulting glyphset can be found here: [GF_TransLatin_Pinyin.nam](/GF_glyphsets/TransLatin/nam/GF_TransLatin_Pinyin.nam) (only encoded glyphs), [GF_TransLatin_Pinyin.glyphs](/GF_glyphsets/TransLatin/glyphs/GF_TransLatin_Pinyin.glyphs) (all glyphs), as well as part of [CustomFilter_GF_TransLatin.plist](/GF_glyphsets/TransLatin/glyphs/CustomFilter_GF_TransLatin.plist)
+The resulting glyphset can be found here: [.nam](/GF_glyphsets/TransLatin/nam/GF_TransLatin_Pinyin.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/TransLatin/glyphs/GF_TransLatin_Pinyin.glyphs)/[.txt (nice names)](/GF_glyphsets/TransLatin/txt/nice-names/GF_TransLatin_Pinyin.txt)/[.txt (production names)](/GF_glyphsets/TransLatin/txt/prod-names/GF_TransLatin_Pinyin.txt) (all glyphs), as well as part of [CustomFilter_GF_TransLatin.plist](/GF_glyphsets/TransLatin/glyphs/CustomFilter_GF_TransLatin.plist)
 
