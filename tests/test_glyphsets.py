@@ -1,5 +1,14 @@
-from glyphsets import unicodes_per_glyphset, languages_per_glyphset, defined_glyphsets
+import os
+from glyphsets import (
+    unicodes_per_glyphset,
+    languages_per_glyphset,
+    defined_glyphsets,
+    get_glyphsets_fulfilled,
+)
 from glyphsets.definitions import glyphset_definitions
+
+DATA_FP = os.path.join(os.path.dirname(__file__), "data")
+FONT_PATH = os.path.join(DATA_FP, "MavenPro[wght].ttf")
 
 
 def test_definitions():
@@ -16,3 +25,10 @@ def test_definitions():
     assert len(glyphset_definitions.keys()) == len(set(glyphset_definitions.keys()))
 
     assert "GF_Latin_Core" in defined_glyphsets()
+
+
+def test_coverage():
+    from fontTools.ttLib import TTFont
+
+    ttFont = TTFont(FONT_PATH)
+    assert get_glyphsets_fulfilled(ttFont)["GF_Latin_Core"]["percentage"] > 0.99

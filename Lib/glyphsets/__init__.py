@@ -460,7 +460,10 @@ def get_glyphsets_fulfilled(ttFont):
                 res[glyphset]["has"].append(unicode)
             else:
                 res[glyphset]["missing"].append(unicode)
-        res[glyphset]["percentage"] = len(res[glyphset]["has"]) / len(
-            unicodes_in_glyphset
-        )
+        if unicodes_in_glyphset:
+            res[glyphset]["percentage"] = len(res[glyphset]["has"]) / len(
+                unicodes_in_glyphset
+            )
+        else:
+            res[glyphset]["percentage"] = 0
     return res
