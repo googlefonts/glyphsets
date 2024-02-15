@@ -387,7 +387,7 @@ def description_per_glyphset(glyphset_name):
     md += f"# {glyphset_name.replace('_', ' ')}\n\n"
     if description:
         md += (
-            "> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_\n> \n> "
+            "> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_\n> \n> "
             + "\n> ".join(description.split("\n"))
             + "\n\n"
         )

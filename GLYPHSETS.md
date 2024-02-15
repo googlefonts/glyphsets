@@ -22,7 +22,7 @@
 
 # GF Arabic Core
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > Basic character set covering the 3 most widely used languages
 
@@ -41,7 +41,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Arabic/nam/GF_Ara
 
 # GF Arabic Plus
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > Covering additional less widely used languages (but not characters needed for historical or specialized texts)
 
@@ -78,7 +78,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Cyrillic/nam/GF_C
 
 # GF Cyrillic Historical
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > Provides support for Pre-Petrine Old Church Slavonic Texts
 
@@ -96,7 +96,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Cyrillic/nam/GF_C
 
 # GF Cyrillic Plus
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > Includes added language coverage for Slavic, Non-Slavic, and Uralic languages. Supports the following 90 Cyrillic languages: Abaza, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyrillic), Bagvalal Balkar, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Botlikh, Budukh, Bulgarian, Buryat, Chamalal, Chechen, Chuvash, Crimean Tatar (Cyrillic), Croatian (Cyrillic), Dargwa/Dargin, Dungan, Erzya, Gagauz (Cyrillic), Godoberi, Hinukh, Hunzib, Ingush, Juhuri/çuhuri (Cyrillic), Kabardian, Kalmyk, Karachay, Karaim (Cyrillic), Karakalpak (Cyrillic), Karata, Kazakh, Ket (Cyrillic), Khakas (Cyrillic), Khinalugh, Komi, Krymchak, Kryts, Kubachi, Kumyk, Kurdish (Cyrillic), Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Lingua Franca Nova (Cyrillic), Macedonian, Mari (Hill and Meadow), Moksha, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin (Cyrillic), Nanai, Nogai, Ossetian, Russian, Rusyn, Rutul, Serbian (Cyrillic), Shor, Slovio, Tabassaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Tindi, Tofa, Tsakhur (Cyrillic), Tsez, Turkmen, Tuvan/Tuvinian, Udi, Udmurt, Ukrainian, Urum, Uyghur (Cyrillic), Uzbek (Cyrillic), Votik (Cyrillic), Wakhi (Cyrillic), West Polesian, Yaghnobi (Cyrillic), Yukaghir (Northern and Southern)
 > 
@@ -119,7 +119,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Cyrillic/nam/GF_C
 
 # GF Cyrillic Pro
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > For Headline typefaces (?), with language support more Non-Slavic languages. Additional characters in this set provide support for the following 18 languages: Abkhaz, Chukchi, Enets, Eskimo, Even, Evenki, Itelmen, Khanty, Kildin Sami, Koryak, Mansi, Nganasan, Nenets, Oroch, Orok, Sakha/Yakut, Tati, Yukaghir, Yupik Ulch
 
@@ -137,7 +137,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Cyrillic/nam/GF_C
 
 # GF Greek AncientMusicalSymbols
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > **Scholarly Use:** Greek and Byzantine Musical Symbols
 > 
@@ -159,7 +159,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 
 # GF Greek Archaic
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > **Scholarly Use:** Variable Letterforms for Ancient Texts, Papyri
 > 
@@ -189,7 +189,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 
 # GF Greek Coptic
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > **Scholarly Use:** Liturgical language for Coptic Church
 > 
@@ -224,7 +224,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 
 # GF Greek Core
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > **General Use:** Basic Monotonic set for everyday Modern Greek
 > 
@@ -248,7 +248,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 
 # GF Greek Expert
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > **General Use:** Small Caps for Core and Plus sets, Superscript Letters
 > 
@@ -273,7 +273,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 
 # GF Greek Plus
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > **General Use:** Basic Polytonic set for Scholarly Greek
 > 
@@ -302,7 +302,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 
 # GF Greek Pro
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > **Scholarly Use:** Extended Polytonic Greek, for scholarly edition of ancient texts (Ancient and Roman Greece studies, Byzantine studies, Greek Biblical studies)
 > 
@@ -1047,7 +1047,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 
 # GF Latin Beyond
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > Support for indigenous Latin-based languages from European and American regions (< 5M speakers), that are not supported in Latin Core.
 > 
@@ -1067,7 +1067,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 
 # GF Latin Core
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > Languages of Europe and the Americas with >5M speakers, with manually curated exceptions. This set is the minimal set required for all families meant to be onboarded into Google Fonts.
 > 
@@ -1112,7 +1112,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 
 # GF Latin Kernel
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > Support ASCII + necessary punctuation and symbols for English language. This set is the minimal set required for non-latin script families that are not meant to be used in latin language based context. 
 > 
@@ -1135,7 +1135,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 
 # GF Latin Plus
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > Additional set of symbols for basic math and economy. This includes the 3 sets Kernel/Core/Vietnamese. This set add to GF Core some support for all in use currencies and basic math symboles and punctuation. It adds necessary glyphs for fraction feature support. All fonts commissionned by Google should have a glyphset support up to this level: Core-Vietnamese-Plus.
 
@@ -1167,7 +1167,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 
 # GF Latin Vietnamese
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > Achuar-Shiwiar, Aguaruna, Apinayé, Bini, Cashinahua, Chachi, Embu, Kaingang, Kamba (Kenya), Kikuyu, Mirandese, Páez, Shuar, Toba, Umbundu, Vietnamese, Walser, Waorani, Xavánte
 
@@ -1185,7 +1185,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 
 # GF Phonetics APA
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
@@ -1203,7 +1203,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_
 
 # GF Phonetics DisorderedSpeech
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
@@ -1222,7 +1222,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_
 
 # GF Phonetics IPAHistorical
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
@@ -1240,7 +1240,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_
 
 # GF Phonetics IPAStandard
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
@@ -1258,7 +1258,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_
 
 # GF Phonetics SinoExt
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
@@ -1276,7 +1276,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_
 
 # GF TransLatin Arabic
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
@@ -1294,7 +1294,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/TransLatin/nam/GF
 
 # GF TransLatin Pinyin
 
-> _Description partially salvaged from old README, so languages manually listed here may be outdated or irrelevant and need to be replaced by language code lists:_
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
 
