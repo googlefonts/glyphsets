@@ -20,7 +20,7 @@
 
 
 
-## GF Arabic Core
+# GF Arabic Core
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Basic character set covering the 3 most widely used languages
@@ -38,7 +38,7 @@ Urdu (ur_Arab)
 The resulting glyphset can be found here: [GF_Arabic_Core.nam](/GF_glyphsets/Arabic/nam/GF_Arabic_Core.nam) (only encoded glyphs), [GF_Arabic_Core.glyphs](/GF_glyphsets/Arabic/glyphs/GF_Arabic_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Arabic.plist](/GF_glyphsets/Arabic/glyphs/CustomFilter_GF_Arabic.plist)
 
 
-## GF Arabic Plus
+# GF Arabic Plus
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Covering additional less widely used languages (but not characters needed for historical or specialized texts)
@@ -57,7 +57,7 @@ Uyghur (ug_Arab)
 The resulting glyphset can be found here: [GF_Arabic_Plus.nam](/GF_glyphsets/Arabic/nam/GF_Arabic_Plus.nam) (only encoded glyphs), [GF_Arabic_Plus.glyphs](/GF_glyphsets/Arabic/glyphs/GF_Arabic_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Arabic.plist](/GF_glyphsets/Arabic/glyphs/CustomFilter_GF_Arabic.plist)
 
 
-## GF Cyrillic Core
+# GF Cyrillic Core
 
 `GF_Cyrillic_Core` is **statically** defined as:
 
@@ -74,7 +74,7 @@ Ukrainian (uk_Cyrl)
 The resulting glyphset can be found here: [GF_Cyrillic_Core.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Core.nam) (only encoded glyphs), [GF_Cyrillic_Core.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
 
 
-## GF Cyrillic Historical
+# GF Cyrillic Historical
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Provides support for Pre-Petrine Old Church Slavonic Texts
@@ -91,7 +91,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Cyrillic_Historical.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Historical.nam) (only encoded glyphs), [GF_Cyrillic_Historical.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Historical.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
 
 
-## GF Cyrillic Plus
+# GF Cyrillic Plus
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Includes added language coverage for Slavic, Non-Slavic, and Uralic languages. Supports the following 90 Cyrillic languages: Abaza, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyrillic), Bagvalal Balkar, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Botlikh, Budukh, Bulgarian, Buryat, Chamalal, Chechen, Chuvash, Crimean Tatar (Cyrillic), Croatian (Cyrillic), Dargwa/Dargin, Dungan, Erzya, Gagauz (Cyrillic), Godoberi, Hinukh, Hunzib, Ingush, Juhuri/çuhuri (Cyrillic), Kabardian, Kalmyk, Karachay, Karaim (Cyrillic), Karakalpak (Cyrillic), Karata, Kazakh, Ket (Cyrillic), Khakas (Cyrillic), Khinalugh, Komi, Krymchak, Kryts, Kubachi, Kumyk, Kurdish (Cyrillic), Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Lingua Franca Nova (Cyrillic), Macedonian, Mari (Hill and Meadow), Moksha, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin (Cyrillic), Nanai, Nogai, Ossetian, Russian, Rusyn, Rutul, Serbian (Cyrillic), Shor, Slovio, Tabassaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Tindi, Tofa, Tsakhur (Cyrillic), Tsez, Turkmen, Tuvan/Tuvinian, Udi, Udmurt, Ukrainian, Urum, Uyghur (Cyrillic), Uzbek (Cyrillic), Votik (Cyrillic), Wakhi (Cyrillic), West Polesian, Yaghnobi (Cyrillic), Yukaghir (Northern and Southern)
@@ -113,7 +113,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Cyrillic_Plus.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Plus.nam) (only encoded glyphs), [GF_Cyrillic_Plus.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
 
 
-## GF Cyrillic Pro
+# GF Cyrillic Pro
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > For Headline typefaces (?), with language support more Non-Slavic languages. Additional characters in this set provide support for the following 18 languages: Abkhaz, Chukchi, Enets, Eskimo, Even, Evenki, Itelmen, Khanty, Kildin Sami, Koryak, Mansi, Nganasan, Nenets, Oroch, Orok, Sakha/Yakut, Tati, Yukaghir, Yupik Ulch
@@ -130,7 +130,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Cyrillic_Pro.nam](/GF_glyphsets/Cyrillic/nam/GF_Cyrillic_Pro.nam) (only encoded glyphs), [GF_Cyrillic_Pro.glyphs](/GF_glyphsets/Cyrillic/glyphs/GF_Cyrillic_Pro.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Cyrillic.plist](/GF_glyphsets/Cyrillic/glyphs/CustomFilter_GF_Cyrillic.plist)
 
 
-## GF Greek AncientMusicalSymbols
+# GF Greek AncientMusicalSymbols
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > **Scholarly Use:** Greek and Byzantine Musical Symbols
@@ -151,7 +151,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Greek_AncientMusicalSymbols.nam](/GF_glyphsets/Greek/nam/GF_Greek_AncientMusicalSymbols.nam) (only encoded glyphs), [GF_Greek_AncientMusicalSymbols.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_AncientMusicalSymbols.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
-## GF Greek Archaic
+# GF Greek Archaic
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > **Scholarly Use:** Variable Letterforms for Ancient Texts, Papyri
@@ -180,7 +180,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Greek_Archaic.nam](/GF_glyphsets/Greek/nam/GF_Greek_Archaic.nam) (only encoded glyphs), [GF_Greek_Archaic.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Archaic.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
-## GF Greek Coptic
+# GF Greek Coptic
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > **Scholarly Use:** Liturgical language for Coptic Church
@@ -214,7 +214,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Greek_Coptic.nam](/GF_glyphsets/Greek/nam/GF_Greek_Coptic.nam) (only encoded glyphs), [GF_Greek_Coptic.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Coptic.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
-## GF Greek Core
+# GF Greek Core
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > **General Use:** Basic Monotonic set for everyday Modern Greek
@@ -237,7 +237,7 @@ Greek (el_Grek)
 The resulting glyphset can be found here: [GF_Greek_Core.nam](/GF_glyphsets/Greek/nam/GF_Greek_Core.nam) (only encoded glyphs), [GF_Greek_Core.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
-## GF Greek Expert
+# GF Greek Expert
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > **General Use:** Small Caps for Core and Plus sets, Superscript Letters
@@ -261,7 +261,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Greek_Expert.nam](/GF_glyphsets/Greek/nam/GF_Greek_Expert.nam) (only encoded glyphs), [GF_Greek_Expert.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Expert.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
-## GF Greek Plus
+# GF Greek Plus
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > **General Use:** Basic Polytonic set for Scholarly Greek
@@ -289,7 +289,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Greek_Plus.nam](/GF_glyphsets/Greek/nam/GF_Greek_Plus.nam) (only encoded glyphs), [GF_Greek_Plus.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
-## GF Greek Pro
+# GF Greek Pro
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > **Scholarly Use:** Extended Polytonic Greek, for scholarly edition of ancient texts (Ancient and Roman Greece studies, Byzantine studies, Greek Biblical studies)
@@ -349,7 +349,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Greek_Pro.nam](/GF_glyphsets/Greek/nam/GF_Greek_Pro.nam) (only encoded glyphs), [GF_Greek_Pro.glyphs](/GF_glyphsets/Greek/glyphs/GF_Greek_Pro.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Greek.plist](/GF_glyphsets/Greek/glyphs/CustomFilter_GF_Greek.plist)
 
 
-## GF Latin African
+# GF Latin African
 
 `GF_Latin_African` is **dynamically** defined as:
 
@@ -1033,7 +1033,7 @@ ut-Ma’in (gel_Latn)
 The resulting glyphset can be found here: [GF_Latin_African.nam](/GF_glyphsets/Latin/nam/GF_Latin_African.nam) (only encoded glyphs), [GF_Latin_African.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_African.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
-## GF Latin Beyond
+# GF Latin Beyond
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Support for indigenous Latin-based languages from European and American regions (< 5M speakers), that are not supported in Latin Core.
@@ -1052,7 +1052,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Latin_Beyond.nam](/GF_glyphsets/Latin/nam/GF_Latin_Beyond.nam) (only encoded glyphs), [GF_Latin_Beyond.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Beyond.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
-## GF Latin Core
+# GF Latin Core
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Languages of Europe and the Americas with >5M speakers, with manually curated exceptions. This set is the minimal set required for all families meant to be onboarded into Google Fonts.
@@ -1096,7 +1096,7 @@ Welsh (cy_Latn)
 The resulting glyphset can be found here: [GF_Latin_Core.nam](/GF_glyphsets/Latin/nam/GF_Latin_Core.nam) (only encoded glyphs), [GF_Latin_Core.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Core.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
-## GF Latin Kernel
+# GF Latin Kernel
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Support ASCII + necessary punctuation and symbols for English language. This set is the minimal set required for non-latin script families that are not meant to be used in latin language based context. 
@@ -1118,7 +1118,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Latin_Kernel.nam](/GF_glyphsets/Latin/nam/GF_Latin_Kernel.nam) (only encoded glyphs), [GF_Latin_Kernel.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Kernel.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
-## GF Latin Plus
+# GF Latin Plus
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Additional set of symbols for basic math and economy. This includes the 3 sets Kernel/Core/Vietnamese. This set add to GF Core some support for all in use currencies and basic math symboles and punctuation. It adds necessary glyphs for fraction feature support. All fonts commissionned by Google should have a glyphset support up to this level: Core-Vietnamese-Plus.
@@ -1135,7 +1135,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Latin_Plus.nam](/GF_glyphsets/Latin/nam/GF_Latin_Plus.nam) (only encoded glyphs), [GF_Latin_Plus.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Plus.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
-## GF Latin PriAfrican
+# GF Latin PriAfrican
 
 `GF_Latin_PriAfrican` is **statically** defined as:
 
@@ -1149,7 +1149,7 @@ The resulting glyphset can be found here: [GF_Latin_Plus.nam](/GF_glyphsets/Lati
 The resulting glyphset can be found here: [GF_Latin_PriAfrican.nam](/GF_glyphsets/Latin/nam/GF_Latin_PriAfrican.nam) (only encoded glyphs), [GF_Latin_PriAfrican.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_PriAfrican.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
-## GF Latin Vietnamese
+# GF Latin Vietnamese
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > Achuar-Shiwiar, Aguaruna, Apinayé, Bini, Cashinahua, Chachi, Embu, Kaingang, Kamba (Kenya), Kikuyu, Mirandese, Páez, Shuar, Toba, Umbundu, Vietnamese, Walser, Waorani, Xavánte
@@ -1166,7 +1166,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Latin_Vietnamese.nam](/GF_glyphsets/Latin/nam/GF_Latin_Vietnamese.nam) (only encoded glyphs), [GF_Latin_Vietnamese.glyphs](/GF_glyphsets/Latin/glyphs/GF_Latin_Vietnamese.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Latin.plist](/GF_glyphsets/Latin/glyphs/CustomFilter_GF_Latin.plist)
 
 
-## GF Phonetics APA
+# GF Phonetics APA
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
@@ -1183,7 +1183,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Phonetics_APA.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_APA.nam) (only encoded glyphs), [GF_Phonetics_APA.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_APA.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
 
 
-## GF Phonetics DisorderedSpeech
+# GF Phonetics DisorderedSpeech
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
@@ -1201,7 +1201,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Phonetics_DisorderedSpeech.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_DisorderedSpeech.nam) (only encoded glyphs), [GF_Phonetics_DisorderedSpeech.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_DisorderedSpeech.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
 
 
-## GF Phonetics IPAHistorical
+# GF Phonetics IPAHistorical
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
@@ -1218,7 +1218,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Phonetics_IPAHistorical.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_IPAHistorical.nam) (only encoded glyphs), [GF_Phonetics_IPAHistorical.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_IPAHistorical.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
 
 
-## GF Phonetics IPAStandard
+# GF Phonetics IPAStandard
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
@@ -1235,7 +1235,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Phonetics_IPAStandard.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_IPAStandard.nam) (only encoded glyphs), [GF_Phonetics_IPAStandard.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_IPAStandard.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
 
 
-## GF Phonetics SinoExt
+# GF Phonetics SinoExt
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
@@ -1252,7 +1252,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_Phonetics_SinoExt.nam](/GF_glyphsets/Phonetics/nam/GF_Phonetics_SinoExt.nam) (only encoded glyphs), [GF_Phonetics_SinoExt.glyphs](/GF_glyphsets/Phonetics/glyphs/GF_Phonetics_SinoExt.glyphs) (all glyphs), as well as part of [CustomFilter_GF_Phonetics.plist](/GF_glyphsets/Phonetics/glyphs/CustomFilter_GF_Phonetics.plist)
 
 
-## GF TransLatin Arabic
+# GF TransLatin Arabic
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!
@@ -1269,7 +1269,7 @@ _Description partially salvaged from old README, so language lists manually defi
 The resulting glyphset can be found here: [GF_TransLatin_Arabic.nam](/GF_glyphsets/TransLatin/nam/GF_TransLatin_Arabic.nam) (only encoded glyphs), [GF_TransLatin_Arabic.glyphs](/GF_glyphsets/TransLatin/glyphs/GF_TransLatin_Arabic.glyphs) (all glyphs), as well as part of [CustomFilter_GF_TransLatin.plist](/GF_glyphsets/TransLatin/glyphs/CustomFilter_GF_TransLatin.plist)
 
 
-## GF TransLatin Pinyin
+# GF TransLatin Pinyin
 
 _Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_
 > These glyphs sets are still a work in progress. Any research, resource and contribution are welcome!!

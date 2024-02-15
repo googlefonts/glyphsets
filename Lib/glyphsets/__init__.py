@@ -384,7 +384,7 @@ def description_per_glyphset(glyphset_name):
     warning = False
     md = ""
 
-    md += f"## {glyphset_name.replace('_', ' ')}\n\n"
+    md += f"# {glyphset_name.replace('_', ' ')}\n\n"
     if description:
         md += (
             "_Description partially salvaged from old README, so language lists manually defined in the description may be outdated or irrelevant:_\n> "
