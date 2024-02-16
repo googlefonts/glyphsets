@@ -151,9 +151,11 @@ def assemble_characterset(root_folder, glyphset_name):
     ]
 
     # Save glyphs file
+    os.makedirs(os.path.dirname(glyphs_path), exist_ok=True)
     font.save(glyphs_path)
 
     # Output sorted character set to .nam file
+    os.makedirs(os.path.dirname(nam_path), exist_ok=True)
     with open(nam_path, "w") as f:
         f.write(
             "# This file is auto-generated; do not edit. See /README.md for instructions.\n"
@@ -170,11 +172,13 @@ def assemble_characterset(root_folder, glyphset_name):
     shutil.copyfile(nam_path, nam_in_package_path)
 
     # Output txt files
+    os.makedirs(os.path.dirname(txt_nicenames_path), exist_ok=True)
     with open(txt_nicenames_path, "w") as f:
         f.write(
             "# This file is auto-generated; do not edit. See /README.md for instructions.\n"
         )
         f.write("\n".join(glyph_names))
+    os.makedirs(os.path.dirname(txt_prodnames_path), exist_ok=True)
     with open(txt_prodnames_path, "w") as f:
         f.write(
             "# This file is auto-generated; do not edit. See /README.md for instructions.\n"
@@ -182,11 +186,19 @@ def assemble_characterset(root_folder, glyphset_name):
         f.write("\n".join(production_glyph_names))
 
     # Adjust .plist
-    with open(plist_path, "rb") as f:
-        plist = plistlib.load(f)
+    os.makedirs(os.path.dirname(plist_path), exist_ok=True)
+    if os.path.exists(plist_path):
+        with open(plist_path, "rb") as f:
+            plist = plistlib.load(f)
+    else:
+        plist = []
+    found_list = False
     for plist_glyphset in plist:
-        if plist_glyphset["name"] == glyphset_name:
+        if "name" in plist_glyphset and plist_glyphset["name"] == glyphset_name:
             plist_glyphset["list"] = glyph_names
+            found_list = True
+    if not found_list:
+        plist.append({"name": glyphset_name, "list": glyph_names})
     with open(plist_path, "wb") as f:
         plistlib.dump(plist, f)
 
