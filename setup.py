@@ -66,7 +66,7 @@ setup(
         "glyphsLib",
         "defcon",
         "unicodedata2",
-        "gflanguages>=0.5.17",
+        "gflanguages>=0.5.16",
     ],
     extras_require={
         "dev": [  # For the tests to run
