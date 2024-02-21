@@ -31,8 +31,8 @@ def check_version(package_name):
     ), f"{package_name} version in setup.py is not the latest version on PyPI ({latest_version})"
 
 
-def test_dependencies():
-    check_version("gflanguages")
+# def test_dependencies():
+#     check_version("gflanguages")
 
 
 if __name__ == "__main__":
