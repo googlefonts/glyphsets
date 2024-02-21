@@ -7,7 +7,7 @@ version: 2
 updates:
 - package-ecosystem: "pip"
   directory: "/"
-  versioning-strategy: "increase"
+  versioning-strategy: "auto"
   schedule:
     interval: "daily"
     time: "13:00"
