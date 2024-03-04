@@ -58,6 +58,28 @@ Read this top to bottom.
 ```
 
 
+Glyphsets tool
+--------------
+
+You can create your own glyphset filter using the `glyphsets` tool and our database.
+
+You can install the tool with pip:
+
+```
+pip install glyphsets
+```
+
+Create a filter list for Glyph.app:
+
+```
+glyphsets filter-list GF_Latin_Core GF_Latin_Plus GF_Cyrillic_Core GF_Cyrillic_Plus -o CustomFilter_ProjectName.plist
+```
+Add this `.plist` file next to your Glyphs file and you would be able to see it under your filters.
+
+> [!NOTE]  
+> Previously existing commands of the `glyphsets` tool are currently deactivated after the transition to the new database. These are: `update-srcs`, `nam-file`, `missing-in-font`. Please report if you need to use these.
+
+
 Acknowledgements
 ----------------
 
