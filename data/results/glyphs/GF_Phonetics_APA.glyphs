@@ -1,0 +1,173 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = GF_Phonetics_APA;
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = colonmod;
+unicode = 42889;
+},
+{
+glyphname = commaabovecomb;
+unicode = 787;
+},
+{
+glyphname = ogonekcomb;
+unicode = 808;
+},
+{
+glyphname = lacute;
+unicode = 314;
+},
+{
+glyphname = lbar;
+unicode = 410;
+},
+{
+glyphname = lambdastroke;
+unicode = 411;
+},
+{
+glyphname = ezhcaron;
+unicode = 495;
+},
+{
+glyphname = jcaron;
+unicode = 496;
+},
+{
+glyphname = odotaccent;
+unicode = 559;
+},
+{
+glyphname = Cstroke;
+unicode = 571;
+},
+{
+glyphname = cstroke;
+unicode = 572;
+},
+{
+glyphname = ymod;
+unicode = 696;
+},
+{
+glyphname = lambda;
+unicode = 955;
+},
+{
+glyphname = phi;
+unicode = 966;
+},
+{
+glyphname = Dsmall;
+unicode = 7429;
+},
+{
+glyphname = gmod;
+unicode = 7501;
+},
+{
+glyphname = idotlessstroke;
+unicode = 7547;
+},
+{
+glyphname = ustroke;
+unicode = 7550;
+},
+{
+glyphname = thetamod;
+unicode = 7615;
+},
+{
+glyphname = rdotbelow;
+unicode = 7771;
+},
+{
+glyphname = tcircumflexbelow;
+unicode = 7793;
+},
+{
+glyphname = wdotbelow;
+unicode = 7817;
+},
+{
+glyphname = xdotaccent;
+unicode = 7819;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

@@ -1,0 +1,545 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = GF_Latin_Kernel;
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = dollar;
+unicode = 36;
+},
+{
+glyphname = percent;
+unicode = 37;
+},
+{
+glyphname = ampersand;
+unicode = 38;
+},
+{
+glyphname = plus;
+unicode = 43;
+},
+{
+glyphname = less;
+unicode = 60;
+},
+{
+glyphname = equal;
+unicode = 61;
+},
+{
+glyphname = greater;
+unicode = 62;
+},
+{
+glyphname = at;
+unicode = 64;
+},
+{
+glyphname = asciicircum;
+unicode = 94;
+},
+{
+glyphname = bar;
+unicode = 124;
+},
+{
+glyphname = asciitilde;
+unicode = 126;
+},
+{
+glyphname = cent;
+unicode = 162;
+},
+{
+glyphname = sterling;
+unicode = 163;
+},
+{
+glyphname = yen;
+unicode = 165;
+},
+{
+glyphname = copyright;
+unicode = 169;
+},
+{
+glyphname = registered;
+unicode = 174;
+},
+{
+glyphname = degree;
+unicode = 176;
+},
+{
+glyphname = multiply;
+unicode = 215;
+},
+{
+glyphname = divide;
+unicode = 247;
+},
+{
+glyphname = euro;
+unicode = 8364;
+},
+{
+glyphname = trademark;
+unicode = 8482;
+},
+{
+glyphname = minus;
+unicode = 8722;
+},
+{
+glyphname = space;
+unicode = 32;
+},
+{
+glyphname = nbspace;
+unicode = 160;
+},
+{
+glyphname = exclam;
+unicode = 33;
+},
+{
+glyphname = quotedbl;
+unicode = 34;
+},
+{
+glyphname = numbersign;
+unicode = 35;
+},
+{
+glyphname = quotesingle;
+unicode = 39;
+},
+{
+glyphname = parenleft;
+unicode = 40;
+},
+{
+glyphname = parenright;
+unicode = 41;
+},
+{
+glyphname = asterisk;
+unicode = 42;
+},
+{
+glyphname = comma;
+unicode = 44;
+},
+{
+glyphname = hyphen;
+unicode = 45;
+},
+{
+glyphname = period;
+unicode = 46;
+},
+{
+glyphname = slash;
+unicode = 47;
+},
+{
+glyphname = colon;
+unicode = 58;
+},
+{
+glyphname = semicolon;
+unicode = 59;
+},
+{
+glyphname = question;
+unicode = 63;
+},
+{
+glyphname = bracketleft;
+unicode = 91;
+},
+{
+glyphname = backslash;
+unicode = 92;
+},
+{
+glyphname = bracketright;
+unicode = 93;
+},
+{
+glyphname = underscore;
+unicode = 95;
+},
+{
+glyphname = braceleft;
+unicode = 123;
+},
+{
+glyphname = braceright;
+unicode = 125;
+},
+{
+glyphname = periodcentered;
+unicode = 183;
+},
+{
+glyphname = endash;
+unicode = 8211;
+},
+{
+glyphname = emdash;
+unicode = 8212;
+},
+{
+glyphname = quoteleft;
+unicode = 8216;
+},
+{
+glyphname = quoteright;
+unicode = 8217;
+},
+{
+glyphname = quotedblleft;
+unicode = 8220;
+},
+{
+glyphname = quotedblright;
+unicode = 8221;
+},
+{
+glyphname = bullet;
+unicode = 8226;
+},
+{
+glyphname = ellipsis;
+unicode = 8230;
+},
+{
+glyphname = zero;
+unicode = 48;
+},
+{
+glyphname = one;
+unicode = 49;
+},
+{
+glyphname = two;
+unicode = 50;
+},
+{
+glyphname = three;
+unicode = 51;
+},
+{
+glyphname = four;
+unicode = 52;
+},
+{
+glyphname = five;
+unicode = 53;
+},
+{
+glyphname = six;
+unicode = 54;
+},
+{
+glyphname = seven;
+unicode = 55;
+},
+{
+glyphname = eight;
+unicode = 56;
+},
+{
+glyphname = nine;
+unicode = 57;
+},
+{
+glyphname = grave;
+unicode = 96;
+},
+{
+glyphname = A;
+unicode = 65;
+},
+{
+glyphname = B;
+unicode = 66;
+},
+{
+glyphname = C;
+unicode = 67;
+},
+{
+glyphname = D;
+unicode = 68;
+},
+{
+glyphname = E;
+unicode = 69;
+},
+{
+glyphname = F;
+unicode = 70;
+},
+{
+glyphname = G;
+unicode = 71;
+},
+{
+glyphname = H;
+unicode = 72;
+},
+{
+glyphname = I;
+unicode = 73;
+},
+{
+glyphname = J;
+unicode = 74;
+},
+{
+glyphname = K;
+unicode = 75;
+},
+{
+glyphname = L;
+unicode = 76;
+},
+{
+glyphname = M;
+unicode = 77;
+},
+{
+glyphname = N;
+unicode = 78;
+},
+{
+glyphname = O;
+unicode = 79;
+},
+{
+glyphname = P;
+unicode = 80;
+},
+{
+glyphname = Q;
+unicode = 81;
+},
+{
+glyphname = R;
+unicode = 82;
+},
+{
+glyphname = S;
+unicode = 83;
+},
+{
+glyphname = T;
+unicode = 84;
+},
+{
+glyphname = U;
+unicode = 85;
+},
+{
+glyphname = V;
+unicode = 86;
+},
+{
+glyphname = W;
+unicode = 87;
+},
+{
+glyphname = X;
+unicode = 88;
+},
+{
+glyphname = Y;
+unicode = 89;
+},
+{
+glyphname = Z;
+unicode = 90;
+},
+{
+glyphname = a;
+unicode = 97;
+},
+{
+glyphname = b;
+unicode = 98;
+},
+{
+glyphname = c;
+unicode = 99;
+},
+{
+glyphname = d;
+unicode = 100;
+},
+{
+glyphname = e;
+unicode = 101;
+},
+{
+glyphname = f;
+unicode = 102;
+},
+{
+glyphname = g;
+unicode = 103;
+},
+{
+glyphname = h;
+unicode = 104;
+},
+{
+glyphname = i;
+unicode = 105;
+},
+{
+glyphname = j;
+unicode = 106;
+},
+{
+glyphname = k;
+unicode = 107;
+},
+{
+glyphname = l;
+unicode = 108;
+},
+{
+glyphname = m;
+unicode = 109;
+},
+{
+glyphname = n;
+unicode = 110;
+},
+{
+glyphname = o;
+unicode = 111;
+},
+{
+glyphname = p;
+unicode = 112;
+},
+{
+glyphname = q;
+unicode = 113;
+},
+{
+glyphname = r;
+unicode = 114;
+},
+{
+glyphname = s;
+unicode = 115;
+},
+{
+glyphname = t;
+unicode = 116;
+},
+{
+glyphname = u;
+unicode = 117;
+},
+{
+glyphname = v;
+unicode = 118;
+},
+{
+glyphname = w;
+unicode = 119;
+},
+{
+glyphname = x;
+unicode = 120;
+},
+{
+glyphname = y;
+unicode = 121;
+},
+{
+glyphname = z;
+unicode = 122;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

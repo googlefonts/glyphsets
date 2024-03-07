@@ -1,0 +1,473 @@
+{
+.appVersion = "3239";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2021-10-28 12:22:31 +0000";
+familyName = "GF Phonetics Disordered Speech";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature ordn;
+feature case;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_2;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+tag = case;
+}
+);
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = 0;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = uni1DF07;
+unicode = 122631;
+},
+{
+glyphname = uni1DF06;
+unicode = 122630;
+},
+{
+glyphname = uni1DF05;
+unicode = 122629;
+},
+{
+glyphname = uni1DF04;
+unicode = 122628;
+},
+{
+glyphname = uni1DF03;
+unicode = 122627;
+},
+{
+glyphname = uni1DF02;
+unicode = 122626;
+},
+{
+glyphname = uni1DF01;
+unicode = 122625;
+},
+{
+glyphname = uni1DF00;
+unicode = 122624;
+},
+{
+glyphname = uni107AA;
+unicode = 67498;
+},
+{
+glyphname = uni107A1;
+unicode = 67489;
+},
+{
+glyphname = uni1079F;
+unicode = 67487;
+},
+{
+glyphname = uni1079D;
+unicode = 67485;
+},
+{
+glyphname = uni1079C;
+unicode = 67484;
+},
+{
+glyphname = uni1079A;
+unicode = 67482;
+},
+{
+glyphname = uni10799;
+unicode = 67481;
+},
+{
+glyphname = uni10790;
+unicode = 67472;
+},
+{
+glyphname = voicingmod;
+unicode = 748;
+},
+{
+glyphname = unaspiratedmod;
+unicode = 749;
+},
+{
+glyphname = C.circled;
+unicode = 9400;
+},
+{
+glyphname = F.circled;
+unicode = 9403;
+},
+{
+glyphname = G.circled;
+unicode = 9404;
+},
+{
+glyphname = L.circled;
+unicode = 9409;
+},
+{
+glyphname = N.circled;
+unicode = 9411;
+},
+{
+glyphname = P.circled;
+unicode = 9413;
+},
+{
+glyphname = R.circled;
+unicode = 9415;
+},
+{
+glyphname = S.circled;
+unicode = 9416;
+},
+{
+glyphname = T.circled;
+unicode = 9417;
+},
+{
+glyphname = V.circled;
+unicode = 9419;
+},
+{
+glyphname = largeCircle;
+unicode = 9711;
+},
+{
+glyphname = exclam;
+unicode = 33;
+},
+{
+glyphname = asterisk;
+unicode = 42;
+},
+{
+glyphname = exclamdown;
+unicode = 161;
+},
+{
+glyphname = parenleftinferior;
+unicode = 8333;
+},
+{
+glyphname = parenrightinferior;
+unicode = 8334;
+},
+{
+glyphname = gbridgeabovecomb;
+unicode = 838;
+},
+{
+glyphname = equalbelowcomb;
+unicode = 839;
+},
+{
+glyphname = leftanglebelowcomb;
+unicode = 841;
+},
+{
+glyphname = nottildeabovecomb;
+unicode = 842;
+},
+{
+glyphname = homotheticabovecomb;
+unicode = 843;
+},
+{
+glyphname = almostequaltoabovecomb;
+unicode = 844;
+},
+{
+glyphname = arrowleftrightbelowcomb;
+unicode = 845;
+},
+{
+glyphname = arrowupbelowcomb;
+unicode = 846;
+},
+{
+glyphname = arrowheadleftbelowcomb;
+unicode = 852;
+},
+{
+glyphname = arrowheadrightbelowcomb;
+unicode = 853;
+},
+{
+glyphname = arrowdoublerightbelowcomb;
+unicode = 866;
+},
+{
+glyphname = parentabovecomb;
+unicode = 6843;
+},
+{
+glyphname = parentbelowcomb;
+unicode = 6845;
+},
+{
+glyphname = uni1AC1;
+unicode = 6849;
+},
+{
+glyphname = uni1AC2;
+unicode = 6850;
+},
+{
+glyphname = uni1AC3;
+unicode = 6851;
+},
+{
+glyphname = uni1AC4;
+unicode = 6852;
+},
+{
+glyphname = Kturned.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "fitalic-math.subs";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "pitalic-math.subs";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "fitalic-math.sups";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "pitalic-math.sups";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = fengdigraph;
+unicode = 681;
+},
+{
+glyphname = lsdigraph;
+unicode = 682;
+},
+{
+glyphname = lzdigraph;
+unicode = 683;
+},
+{
+glyphname = bilabialpercussive;
+unicode = 684;
+},
+{
+glyphname = bidentalpercussive;
+unicode = 685;
+},
+{
+glyphname = rturnedmod;
+unicode = 692;
+},
+{
+glyphname = smod;
+unicode = 738;
+},
+{
+glyphname = Nmod;
+unicode = 7482;
+},
+{
+glyphname = schwamod;
+unicode = 7498;
+},
+{
+glyphname = lretroflexhookandbelt;
+unicode = 42894;
+},
+{
+glyphname = uniA7AF;
+unicode = 42927;
+},
+{
+glyphname = Kturned;
+unicode = 42928;
+},
+{
+glyphname = "fitalic-math";
+unicode = 119891;
+},
+{
+glyphname = "pitalic-math";
+unicode = 119901;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

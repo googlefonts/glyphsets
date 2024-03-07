@@ -1,0 +1,1363 @@
+{
+.appVersion = "3239";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2021-10-28 12:22:31 +0000";
+familyName = "GF Greek Plus";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature ordn;
+feature case;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_2;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+tag = case;
+}
+);
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = 0;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = perispomenicomb;
+unicode = 834;
+},
+{
+glyphname = koroniscomb;
+unicode = 835;
+},
+{
+glyphname = dialytikatonoscomb;
+unicode = 836;
+},
+{
+glyphname = ypogegrammenicomb;
+unicode = 837;
+},
+{
+glyphname = koronis;
+unicode = 8125;
+},
+{
+glyphname = psili;
+unicode = 8127;
+},
+{
+glyphname = perispomeni;
+unicode = 8128;
+},
+{
+glyphname = dialytikaperispomeni;
+unicode = 8129;
+},
+{
+glyphname = psilivaria;
+unicode = 8141;
+},
+{
+glyphname = psilioxia;
+unicode = 8142;
+},
+{
+glyphname = psiliperispomeni;
+unicode = 8143;
+},
+{
+glyphname = dasiavaria;
+unicode = 8157;
+},
+{
+glyphname = dasiaoxia;
+unicode = 8158;
+},
+{
+glyphname = dasiaperispomeni;
+unicode = 8159;
+},
+{
+glyphname = dialytikavaria;
+unicode = 8173;
+},
+{
+glyphname = dialytikaoxia;
+unicode = 8174;
+},
+{
+glyphname = varia;
+unicode = 8175;
+},
+{
+glyphname = oxia;
+unicode = 8189;
+},
+{
+glyphname = dasia;
+unicode = 8190;
+},
+{
+glyphname = Alphaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Alphapsiliprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Alphadasiaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Alphapsilivariaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Alphadasiavariaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Alphapsilioxiaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Alphadasiaoxiaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Alphapsiliperispomeniprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Alphadasiaperispomeniprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Etaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Etapsiliprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Etadasiaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Etapsilivariaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Etadasiavariaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Etapsilioxiaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Etadasiaoxiaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Etapsiliperispomeniprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Etadasiaperispomeniprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Omegaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Omegapsiliprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Omegadasiaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Omegapsilivariaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Omegadasiavariaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Omegapsilioxiaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Omegadasiaoxiaprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Omegapsiliperispomeniprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = Omegadasiaperispomeniprosgegrammeni.ss01;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = ypogegrammeni;
+unicode = 890;
+},
+{
+glyphname = alphapsili;
+unicode = 7936;
+},
+{
+glyphname = alphadasia;
+unicode = 7937;
+},
+{
+glyphname = alphapsilivaria;
+unicode = 7938;
+},
+{
+glyphname = alphadasiavaria;
+unicode = 7939;
+},
+{
+glyphname = alphapsilioxia;
+unicode = 7940;
+},
+{
+glyphname = alphadasiaoxia;
+unicode = 7941;
+},
+{
+glyphname = alphapsiliperispomeni;
+unicode = 7942;
+},
+{
+glyphname = alphadasiaperispomeni;
+unicode = 7943;
+},
+{
+glyphname = Alphapsili;
+unicode = 7944;
+},
+{
+glyphname = Alphadasia;
+unicode = 7945;
+},
+{
+glyphname = Alphapsilivaria;
+unicode = 7946;
+},
+{
+glyphname = Alphadasiavaria;
+unicode = 7947;
+},
+{
+glyphname = Alphapsilioxia;
+unicode = 7948;
+},
+{
+glyphname = Alphadasiaoxia;
+unicode = 7949;
+},
+{
+glyphname = Alphapsiliperispomeni;
+unicode = 7950;
+},
+{
+glyphname = Alphadasiaperispomeni;
+unicode = 7951;
+},
+{
+glyphname = epsilonpsili;
+unicode = 7952;
+},
+{
+glyphname = epsilondasia;
+unicode = 7953;
+},
+{
+glyphname = epsilonpsilivaria;
+unicode = 7954;
+},
+{
+glyphname = epsilondasiavaria;
+unicode = 7955;
+},
+{
+glyphname = epsilonpsilioxia;
+unicode = 7956;
+},
+{
+glyphname = epsilondasiaoxia;
+unicode = 7957;
+},
+{
+glyphname = Epsilonpsili;
+unicode = 7960;
+},
+{
+glyphname = Epsilondasia;
+unicode = 7961;
+},
+{
+glyphname = Epsilonpsilivaria;
+unicode = 7962;
+},
+{
+glyphname = Epsilondasiavaria;
+unicode = 7963;
+},
+{
+glyphname = Epsilonpsilioxia;
+unicode = 7964;
+},
+{
+glyphname = Epsilondasiaoxia;
+unicode = 7965;
+},
+{
+glyphname = etapsili;
+unicode = 7968;
+},
+{
+glyphname = etadasia;
+unicode = 7969;
+},
+{
+glyphname = etapsilivaria;
+unicode = 7970;
+},
+{
+glyphname = etadasiavaria;
+unicode = 7971;
+},
+{
+glyphname = etapsilioxia;
+unicode = 7972;
+},
+{
+glyphname = etadasiaoxia;
+unicode = 7973;
+},
+{
+glyphname = etapsiliperispomeni;
+unicode = 7974;
+},
+{
+glyphname = etadasiaperispomeni;
+unicode = 7975;
+},
+{
+glyphname = Etapsili;
+unicode = 7976;
+},
+{
+glyphname = Etadasia;
+unicode = 7977;
+},
+{
+glyphname = Etapsilivaria;
+unicode = 7978;
+},
+{
+glyphname = Etadasiavaria;
+unicode = 7979;
+},
+{
+glyphname = Etapsilioxia;
+unicode = 7980;
+},
+{
+glyphname = Etadasiaoxia;
+unicode = 7981;
+},
+{
+glyphname = Etapsiliperispomeni;
+unicode = 7982;
+},
+{
+glyphname = Etadasiaperispomeni;
+unicode = 7983;
+},
+{
+glyphname = iotapsili;
+unicode = 7984;
+},
+{
+glyphname = iotadasia;
+unicode = 7985;
+},
+{
+glyphname = iotapsilivaria;
+unicode = 7986;
+},
+{
+glyphname = iotadasiavaria;
+unicode = 7987;
+},
+{
+glyphname = iotapsilioxia;
+unicode = 7988;
+},
+{
+glyphname = iotadasiaoxia;
+unicode = 7989;
+},
+{
+glyphname = iotapsiliperispomeni;
+unicode = 7990;
+},
+{
+glyphname = iotadasiaperispomeni;
+unicode = 7991;
+},
+{
+glyphname = Iotapsili;
+unicode = 7992;
+},
+{
+glyphname = Iotadasia;
+unicode = 7993;
+},
+{
+glyphname = Iotapsilivaria;
+unicode = 7994;
+},
+{
+glyphname = Iotadasiavaria;
+unicode = 7995;
+},
+{
+glyphname = Iotapsilioxia;
+unicode = 7996;
+},
+{
+glyphname = Iotadasiaoxia;
+unicode = 7997;
+},
+{
+glyphname = Iotapsiliperispomeni;
+unicode = 7998;
+},
+{
+glyphname = Iotadasiaperispomeni;
+unicode = 7999;
+},
+{
+glyphname = omicronpsili;
+unicode = 8000;
+},
+{
+glyphname = omicrondasia;
+unicode = 8001;
+},
+{
+glyphname = omicronpsilivaria;
+unicode = 8002;
+},
+{
+glyphname = omicrondasiavaria;
+unicode = 8003;
+},
+{
+glyphname = omicronpsilioxia;
+unicode = 8004;
+},
+{
+glyphname = omicrondasiaoxia;
+unicode = 8005;
+},
+{
+glyphname = Omicronpsili;
+unicode = 8008;
+},
+{
+glyphname = Omicrondasia;
+unicode = 8009;
+},
+{
+glyphname = Omicronpsilivaria;
+unicode = 8010;
+},
+{
+glyphname = Omicrondasiavaria;
+unicode = 8011;
+},
+{
+glyphname = Omicronpsilioxia;
+unicode = 8012;
+},
+{
+glyphname = Omicrondasiaoxia;
+unicode = 8013;
+},
+{
+glyphname = upsilonpsili;
+unicode = 8016;
+},
+{
+glyphname = upsilondasia;
+unicode = 8017;
+},
+{
+glyphname = upsilonpsilivaria;
+unicode = 8018;
+},
+{
+glyphname = upsilondasiavaria;
+unicode = 8019;
+},
+{
+glyphname = upsilonpsilioxia;
+unicode = 8020;
+},
+{
+glyphname = upsilondasiaoxia;
+unicode = 8021;
+},
+{
+glyphname = upsilonpsiliperispomeni;
+unicode = 8022;
+},
+{
+glyphname = upsilondasiaperispomeni;
+unicode = 8023;
+},
+{
+glyphname = Upsilondasia;
+unicode = 8025;
+},
+{
+glyphname = Upsilondasiavaria;
+unicode = 8027;
+},
+{
+glyphname = Upsilondasiaoxia;
+unicode = 8029;
+},
+{
+glyphname = Upsilondasiaperispomeni;
+unicode = 8031;
+},
+{
+glyphname = omegapsili;
+unicode = 8032;
+},
+{
+glyphname = omegadasia;
+unicode = 8033;
+},
+{
+glyphname = omegapsilivaria;
+unicode = 8034;
+},
+{
+glyphname = omegadasiavaria;
+unicode = 8035;
+},
+{
+glyphname = omegapsilioxia;
+unicode = 8036;
+},
+{
+glyphname = omegadasiaoxia;
+unicode = 8037;
+},
+{
+glyphname = omegapsiliperispomeni;
+unicode = 8038;
+},
+{
+glyphname = omegadasiaperispomeni;
+unicode = 8039;
+},
+{
+glyphname = Omegapsili;
+unicode = 8040;
+},
+{
+glyphname = Omegadasia;
+unicode = 8041;
+},
+{
+glyphname = Omegapsilivaria;
+unicode = 8042;
+},
+{
+glyphname = Omegadasiavaria;
+unicode = 8043;
+},
+{
+glyphname = Omegapsilioxia;
+unicode = 8044;
+},
+{
+glyphname = Omegadasiaoxia;
+unicode = 8045;
+},
+{
+glyphname = Omegapsiliperispomeni;
+unicode = 8046;
+},
+{
+glyphname = Omegadasiaperispomeni;
+unicode = 8047;
+},
+{
+glyphname = alphavaria;
+unicode = 8048;
+},
+{
+glyphname = alphaoxia;
+unicode = 8049;
+},
+{
+glyphname = epsilonvaria;
+unicode = 8050;
+},
+{
+glyphname = epsilonoxia;
+unicode = 8051;
+},
+{
+glyphname = etavaria;
+unicode = 8052;
+},
+{
+glyphname = etaoxia;
+unicode = 8053;
+},
+{
+glyphname = iotavaria;
+unicode = 8054;
+},
+{
+glyphname = iotaoxia;
+unicode = 8055;
+},
+{
+glyphname = omicronvaria;
+unicode = 8056;
+},
+{
+glyphname = omicronoxia;
+unicode = 8057;
+},
+{
+glyphname = upsilonvaria;
+unicode = 8058;
+},
+{
+glyphname = upsilonoxia;
+unicode = 8059;
+},
+{
+glyphname = omegavaria;
+unicode = 8060;
+},
+{
+glyphname = omegaoxia;
+unicode = 8061;
+},
+{
+glyphname = alphapsiliypogegrammeni;
+unicode = 8064;
+},
+{
+glyphname = alphadasiaypogegrammeni;
+unicode = 8065;
+},
+{
+glyphname = alphapsilivariaypogegrammeni;
+unicode = 8066;
+},
+{
+glyphname = alphadasiavariaypogegrammeni;
+unicode = 8067;
+},
+{
+glyphname = alphapsilioxiaypogegrammeni;
+unicode = 8068;
+},
+{
+glyphname = alphadasiaoxiaypogegrammeni;
+unicode = 8069;
+},
+{
+glyphname = alphapsiliperispomeniypogegrammeni;
+unicode = 8070;
+},
+{
+glyphname = alphadasiaperispomeniypogegrammeni;
+unicode = 8071;
+},
+{
+glyphname = Alphapsiliprosgegrammeni;
+unicode = 8072;
+},
+{
+glyphname = Alphadasiaprosgegrammeni;
+unicode = 8073;
+},
+{
+glyphname = Alphapsilivariaprosgegrammeni;
+unicode = 8074;
+},
+{
+glyphname = Alphadasiavariaprosgegrammeni;
+unicode = 8075;
+},
+{
+glyphname = Alphapsilioxiaprosgegrammeni;
+unicode = 8076;
+},
+{
+glyphname = Alphadasiaoxiaprosgegrammeni;
+unicode = 8077;
+},
+{
+glyphname = Alphapsiliperispomeniprosgegrammeni;
+unicode = 8078;
+},
+{
+glyphname = Alphadasiaperispomeniprosgegrammeni;
+unicode = 8079;
+},
+{
+glyphname = etapsiliypogegrammeni;
+unicode = 8080;
+},
+{
+glyphname = etadasiaypogegrammeni;
+unicode = 8081;
+},
+{
+glyphname = etapsilivariaypogegrammeni;
+unicode = 8082;
+},
+{
+glyphname = etadasiavariaypogegrammeni;
+unicode = 8083;
+},
+{
+glyphname = etapsilioxiaypogegrammeni;
+unicode = 8084;
+},
+{
+glyphname = etadasiaoxiaypogegrammeni;
+unicode = 8085;
+},
+{
+glyphname = etapsiliperispomeniypogegrammeni;
+unicode = 8086;
+},
+{
+glyphname = etadasiaperispomeniypogegrammeni;
+unicode = 8087;
+},
+{
+glyphname = Etapsiliprosgegrammeni;
+unicode = 8088;
+},
+{
+glyphname = Etadasiaprosgegrammeni;
+unicode = 8089;
+},
+{
+glyphname = Etapsilivariaprosgegrammeni;
+unicode = 8090;
+},
+{
+glyphname = Etadasiavariaprosgegrammeni;
+unicode = 8091;
+},
+{
+glyphname = Etapsilioxiaprosgegrammeni;
+unicode = 8092;
+},
+{
+glyphname = Etadasiaoxiaprosgegrammeni;
+unicode = 8093;
+},
+{
+glyphname = Etapsiliperispomeniprosgegrammeni;
+unicode = 8094;
+},
+{
+glyphname = Etadasiaperispomeniprosgegrammeni;
+unicode = 8095;
+},
+{
+glyphname = omegapsiliypogegrammeni;
+unicode = 8096;
+},
+{
+glyphname = omegadasiaypogegrammeni;
+unicode = 8097;
+},
+{
+glyphname = omegapsilivariaypogegrammeni;
+unicode = 8098;
+},
+{
+glyphname = omegadasiavariaypogegrammeni;
+unicode = 8099;
+},
+{
+glyphname = omegapsilioxiaypogegrammeni;
+unicode = 8100;
+},
+{
+glyphname = omegadasiaoxiaypogegrammeni;
+unicode = 8101;
+},
+{
+glyphname = omegapsiliperispomeniypogegrammeni;
+unicode = 8102;
+},
+{
+glyphname = omegadasiaperispomeniypogegrammeni;
+unicode = 8103;
+},
+{
+glyphname = Omegapsiliprosgegrammeni;
+unicode = 8104;
+},
+{
+glyphname = Omegadasiaprosgegrammeni;
+unicode = 8105;
+},
+{
+glyphname = Omegapsilivariaprosgegrammeni;
+unicode = 8106;
+},
+{
+glyphname = Omegadasiavariaprosgegrammeni;
+unicode = 8107;
+},
+{
+glyphname = Omegapsilioxiaprosgegrammeni;
+unicode = 8108;
+},
+{
+glyphname = Omegadasiaoxiaprosgegrammeni;
+unicode = 8109;
+},
+{
+glyphname = Omegapsiliperispomeniprosgegrammeni;
+unicode = 8110;
+},
+{
+glyphname = Omegadasiaperispomeniprosgegrammeni;
+unicode = 8111;
+},
+{
+glyphname = alphavrachy;
+unicode = 8112;
+},
+{
+glyphname = alphamacron;
+unicode = 8113;
+},
+{
+glyphname = alphavariaypogegrammeni;
+unicode = 8114;
+},
+{
+glyphname = alphaypogegrammeni;
+unicode = 8115;
+},
+{
+glyphname = alphaoxiaypogegrammeni;
+unicode = 8116;
+},
+{
+glyphname = alphaperispomeni;
+unicode = 8118;
+},
+{
+glyphname = alphaperispomeniypogegrammeni;
+unicode = 8119;
+},
+{
+glyphname = Alphavrachy;
+unicode = 8120;
+},
+{
+glyphname = Alphamacron;
+unicode = 8121;
+},
+{
+glyphname = Alphavaria;
+unicode = 8122;
+},
+{
+glyphname = Alphaoxia;
+unicode = 8123;
+},
+{
+glyphname = Alphaprosgegrammeni;
+unicode = 8124;
+},
+{
+glyphname = prosgegrammeni;
+unicode = 8126;
+},
+{
+glyphname = etavariaypogegrammeni;
+unicode = 8130;
+},
+{
+glyphname = etaypogegrammeni;
+unicode = 8131;
+},
+{
+glyphname = etaoxiaypogegrammeni;
+unicode = 8132;
+},
+{
+glyphname = etaperispomeni;
+unicode = 8134;
+},
+{
+glyphname = etaperispomeniypogegrammeni;
+unicode = 8135;
+},
+{
+glyphname = Epsilonvaria;
+unicode = 8136;
+},
+{
+glyphname = Epsilonoxia;
+unicode = 8137;
+},
+{
+glyphname = Etavaria;
+unicode = 8138;
+},
+{
+glyphname = Etaoxia;
+unicode = 8139;
+},
+{
+glyphname = Etaprosgegrammeni;
+unicode = 8140;
+},
+{
+glyphname = iotavrachy;
+unicode = 8144;
+},
+{
+glyphname = iotamacron;
+unicode = 8145;
+},
+{
+glyphname = iotadialytikavaria;
+unicode = 8146;
+},
+{
+glyphname = iotadialytikaoxia;
+unicode = 8147;
+},
+{
+glyphname = iotaperispomeni;
+unicode = 8150;
+},
+{
+glyphname = iotadialytikaperispomeni;
+unicode = 8151;
+},
+{
+glyphname = Iotavrachy;
+unicode = 8152;
+},
+{
+glyphname = Iotamacron;
+unicode = 8153;
+},
+{
+glyphname = Iotavaria;
+unicode = 8154;
+},
+{
+glyphname = Iotaoxia;
+unicode = 8155;
+},
+{
+glyphname = upsilonvrachy;
+unicode = 8160;
+},
+{
+glyphname = upsilonmacron;
+unicode = 8161;
+},
+{
+glyphname = upsilondialytikavaria;
+unicode = 8162;
+},
+{
+glyphname = upsilondialytikaoxia;
+unicode = 8163;
+},
+{
+glyphname = rhopsili;
+unicode = 8164;
+},
+{
+glyphname = rhodasia;
+unicode = 8165;
+},
+{
+glyphname = upsilonperispomeni;
+unicode = 8166;
+},
+{
+glyphname = upsilondialytikaperispomeni;
+unicode = 8167;
+},
+{
+glyphname = Upsilonvrachy;
+unicode = 8168;
+},
+{
+glyphname = Upsilonmacron;
+unicode = 8169;
+},
+{
+glyphname = Upsilonvaria;
+unicode = 8170;
+},
+{
+glyphname = Upsilonoxia;
+unicode = 8171;
+},
+{
+glyphname = Rhodasia;
+unicode = 8172;
+},
+{
+glyphname = omegavariaypogegrammeni;
+unicode = 8178;
+},
+{
+glyphname = omegaypogegrammeni;
+unicode = 8179;
+},
+{
+glyphname = omegaoxiaypogegrammeni;
+unicode = 8180;
+},
+{
+glyphname = omegaperispomeni;
+unicode = 8182;
+},
+{
+glyphname = omegaperispomeniypogegrammeni;
+unicode = 8183;
+},
+{
+glyphname = Omicronvaria;
+unicode = 8184;
+},
+{
+glyphname = Omicronoxia;
+unicode = 8185;
+},
+{
+glyphname = Omegavaria;
+unicode = 8186;
+},
+{
+glyphname = Omegaoxia;
+unicode = 8187;
+},
+{
+glyphname = Omegaprosgegrammeni;
+unicode = 8188;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

@@ -1,0 +1,225 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = GF_Cyrillic_Historical;
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = "thousand-cy";
+unicode = 1154;
+},
+{
+glyphname = "titlocomb-cy";
+unicode = 1155;
+},
+{
+glyphname = "palatalizationcomb-cy";
+unicode = 1156;
+},
+{
+glyphname = "dasiapneumatacomb-cy";
+unicode = 1157;
+},
+{
+glyphname = "psilipneumatacomb-cy";
+unicode = 1158;
+},
+{
+glyphname = "pokrytiecomb-cy";
+unicode = 1159;
+},
+{
+glyphname = "hundredthousandssigncomb-cy";
+unicode = 1160;
+},
+{
+glyphname = "millionssigncomb-cy";
+unicode = 1161;
+},
+{
+glyphname = "Omega-cy";
+unicode = 1120;
+},
+{
+glyphname = "omega-cy";
+unicode = 1121;
+},
+{
+glyphname = "Eiotified-cy";
+unicode = 1124;
+},
+{
+glyphname = "eiotified-cy";
+unicode = 1125;
+},
+{
+glyphname = "Yuslittle-cy";
+unicode = 1126;
+},
+{
+glyphname = "yuslittle-cy";
+unicode = 1127;
+},
+{
+glyphname = "Yuslittleiotified-cy";
+unicode = 1128;
+},
+{
+glyphname = "yuslittleiotified-cy";
+unicode = 1129;
+},
+{
+glyphname = "Yusbigiotified-cy";
+unicode = 1132;
+},
+{
+glyphname = "yusbigiotified-cy";
+unicode = 1133;
+},
+{
+glyphname = "Ksi-cy";
+unicode = 1134;
+},
+{
+glyphname = "ksi-cy";
+unicode = 1135;
+},
+{
+glyphname = "Psi-cy";
+unicode = 1136;
+},
+{
+glyphname = "psi-cy";
+unicode = 1137;
+},
+{
+glyphname = "Izhitsadblgrave-cy";
+unicode = 1142;
+},
+{
+glyphname = "izhitsadblgrave-cy";
+unicode = 1143;
+},
+{
+glyphname = "Uk-cy";
+unicode = 1144;
+},
+{
+glyphname = "uk-cy";
+unicode = 1145;
+},
+{
+glyphname = uni047A;
+unicode = 1146;
+},
+{
+glyphname = uni047B;
+unicode = 1147;
+},
+{
+glyphname = uni047C;
+unicode = 1148;
+},
+{
+glyphname = uni047D;
+unicode = 1149;
+},
+{
+glyphname = uni047E;
+unicode = 1150;
+},
+{
+glyphname = uni047F;
+unicode = 1151;
+},
+{
+glyphname = "Koppa-cy";
+unicode = 1152;
+},
+{
+glyphname = "koppa-cy";
+unicode = 1153;
+},
+{
+glyphname = "OmegaBroad-cy";
+unicode = 42572;
+},
+{
+glyphname = "omegaBroad-cy";
+unicode = 42573;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

@@ -1,0 +1,409 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = GF_Greek_Pro;
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = plussuperior;
+unicode = 8314;
+},
+{
+glyphname = minussuperior;
+unicode = 8315;
+},
+{
+glyphname = equalsuperior;
+unicode = 8316;
+},
+{
+glyphname = plusinferior;
+unicode = 8330;
+},
+{
+glyphname = minusinferior;
+unicode = 8331;
+},
+{
+glyphname = equalinferior;
+unicode = 8332;
+},
+{
+glyphname = alephsymbol;
+unicode = 8501;
+},
+{
+glyphname = betsymbol;
+unicode = 8502;
+},
+{
+glyphname = multiply.circled;
+unicode = 8855;
+},
+{
+glyphname = ellipsisvertical;
+unicode = 8942;
+},
+{
+glyphname = metricalbreve;
+unicode = 9169;
+},
+{
+glyphname = metricallongovershort;
+unicode = 9170;
+},
+{
+glyphname = metricalshortoverlong;
+unicode = 9171;
+},
+{
+glyphname = metricallongovertwoshorts;
+unicode = 9172;
+},
+{
+glyphname = metricaltwoshortsoverlong;
+unicode = 9173;
+},
+{
+glyphname = metricaltwoshortsjoined;
+unicode = 9174;
+},
+{
+glyphname = metricaltriseme;
+unicode = 9175;
+},
+{
+glyphname = metricaltetraseme;
+unicode = 9176;
+},
+{
+glyphname = metricalpentaseme;
+unicode = 9177;
+},
+{
+glyphname = doubleSolidusOperator;
+unicode = 11005;
+},
+{
+glyphname = dblverticalbar;
+unicode = 8214;
+},
+{
+glyphname = referencemark;
+unicode = 8251;
+},
+{
+glyphname = undertie;
+unicode = 8255;
+},
+{
+glyphname = asterism;
+unicode = 8258;
+},
+{
+glyphname = threedotpunctuation;
+unicode = 8278;
+},
+{
+glyphname = fourdotpunctuation;
+unicode = 8280;
+},
+{
+glyphname = fivedotpunctuation;
+unicode = 8281;
+},
+{
+glyphname = twodotpunctuation;
+unicode = 8282;
+},
+{
+glyphname = fourdotmark;
+unicode = 8283;
+},
+{
+glyphname = dottedcross;
+unicode = 8284;
+},
+{
+glyphname = tricolon;
+unicode = 8285;
+},
+{
+glyphname = verticalfourdots;
+unicode = 8286;
+},
+{
+glyphname = rightanglesubstitutionmarker;
+unicode = 11776;
+},
+{
+glyphname = rightangledottedsubstitutionmarker;
+unicode = 11777;
+},
+{
+glyphname = leftsubstitutionbracket;
+unicode = 11778;
+},
+{
+glyphname = rightsubstitutionbracket;
+unicode = 11779;
+},
+{
+glyphname = leftdottedsubstitutionbracket;
+unicode = 11780;
+},
+{
+glyphname = rightdottedsubstitutionbracket;
+unicode = 11781;
+},
+{
+glyphname = raisedinterpolationmarker;
+unicode = 11782;
+},
+{
+glyphname = raiseddottedinterpolationmarker;
+unicode = 11783;
+},
+{
+glyphname = dottedtranspositionmarker;
+unicode = 11784;
+},
+{
+glyphname = lefttranspositionbracket;
+unicode = 11785;
+},
+{
+glyphname = righttranspositionbracket;
+unicode = 11786;
+},
+{
+glyphname = raisedsquare;
+unicode = 11787;
+},
+{
+glyphname = leftraisedomissionbracket;
+unicode = 11788;
+},
+{
+glyphname = rightraisedomissionbracket;
+unicode = 11789;
+},
+{
+glyphname = editorialcoronis;
+unicode = 11790;
+},
+{
+glyphname = paragraphos;
+unicode = 11791;
+},
+{
+glyphname = forkedparagraphos;
+unicode = 11792;
+},
+{
+glyphname = reversedforkedparagraphos;
+unicode = 11793;
+},
+{
+glyphname = hypodiastole;
+unicode = 11794;
+},
+{
+glyphname = dottedobelos;
+unicode = 11795;
+},
+{
+glyphname = downancora;
+unicode = 11796;
+},
+{
+glyphname = upancora;
+unicode = 11797;
+},
+{
+glyphname = dottedrightpointingangle;
+unicode = 11798;
+},
+{
+glyphname = doubleobliquehyphen;
+unicode = 11799;
+},
+{
+glyphname = anglebracketleft;
+unicode = 12296;
+},
+{
+glyphname = anglebracketright;
+unicode = 12297;
+},
+{
+glyphname = dblanglebracketleft;
+unicode = 12298;
+},
+{
+glyphname = dblanglebracketright;
+unicode = 12299;
+},
+{
+glyphname = cornerbracketleft;
+unicode = 12300;
+},
+{
+glyphname = cornerbracketright;
+unicode = 12301;
+},
+{
+glyphname = whitesquarebracketleft;
+unicode = 12314;
+},
+{
+glyphname = whitesquarebracketright;
+unicode = 12315;
+},
+{
+glyphname = dotaccent;
+unicode = 729;
+},
+{
+glyphname = overlinecomb;
+unicode = 773;
+},
+{
+glyphname = dotbelowcomb;
+unicode = 803;
+},
+{
+glyphname = asteriskbelowcomb;
+unicode = 857;
+},
+{
+glyphname = doublebrevebelowcomb;
+unicode = 860;
+},
+{
+glyphname = Stigma;
+unicode = 986;
+},
+{
+glyphname = stigma;
+unicode = 987;
+},
+{
+glyphname = Digamma;
+unicode = 988;
+},
+{
+glyphname = digamma;
+unicode = 989;
+},
+{
+glyphname = Koppa;
+unicode = 990;
+},
+{
+glyphname = koppa;
+unicode = 991;
+},
+{
+glyphname = Sampi;
+unicode = 992;
+},
+{
+glyphname = sampi;
+unicode = 993;
+},
+{
+glyphname = "litalic-math";
+unicode = 119897;
+},
+{
+glyphname = "M-fraktur";
+unicode = 120080;
+},
+{
+glyphname = "P-fraktur";
+unicode = 120083;
+},
+{
+glyphname = "S-fraktur";
+unicode = 120086;
+},
+{
+glyphname = "p-fraktur";
+unicode = 120109;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

@@ -1,0 +1,477 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = GF_Latin_Vietnamese;
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = hookabovecomb;
+unicode = 777;
+},
+{
+glyphname = horncomb;
+unicode = 795;
+},
+{
+glyphname = dotbelowcomb;
+unicode = 803;
+},
+{
+glyphname = Itilde;
+unicode = 296;
+},
+{
+glyphname = itilde;
+unicode = 297;
+},
+{
+glyphname = Utilde;
+unicode = 360;
+},
+{
+glyphname = utilde;
+unicode = 361;
+},
+{
+glyphname = Ohorn;
+unicode = 416;
+},
+{
+glyphname = ohorn;
+unicode = 417;
+},
+{
+glyphname = Uhorn;
+unicode = 431;
+},
+{
+glyphname = uhorn;
+unicode = 432;
+},
+{
+glyphname = Adotbelow;
+unicode = 7840;
+},
+{
+glyphname = adotbelow;
+unicode = 7841;
+},
+{
+glyphname = Ahookabove;
+unicode = 7842;
+},
+{
+glyphname = ahookabove;
+unicode = 7843;
+},
+{
+glyphname = Acircumflexacute;
+unicode = 7844;
+},
+{
+glyphname = acircumflexacute;
+unicode = 7845;
+},
+{
+glyphname = Acircumflexgrave;
+unicode = 7846;
+},
+{
+glyphname = acircumflexgrave;
+unicode = 7847;
+},
+{
+glyphname = Acircumflexhookabove;
+unicode = 7848;
+},
+{
+glyphname = acircumflexhookabove;
+unicode = 7849;
+},
+{
+glyphname = Acircumflextilde;
+unicode = 7850;
+},
+{
+glyphname = acircumflextilde;
+unicode = 7851;
+},
+{
+glyphname = Acircumflexdotbelow;
+unicode = 7852;
+},
+{
+glyphname = acircumflexdotbelow;
+unicode = 7853;
+},
+{
+glyphname = Abreveacute;
+unicode = 7854;
+},
+{
+glyphname = abreveacute;
+unicode = 7855;
+},
+{
+glyphname = Abrevegrave;
+unicode = 7856;
+},
+{
+glyphname = abrevegrave;
+unicode = 7857;
+},
+{
+glyphname = Abrevehookabove;
+unicode = 7858;
+},
+{
+glyphname = abrevehookabove;
+unicode = 7859;
+},
+{
+glyphname = Abrevetilde;
+unicode = 7860;
+},
+{
+glyphname = abrevetilde;
+unicode = 7861;
+},
+{
+glyphname = Abrevedotbelow;
+unicode = 7862;
+},
+{
+glyphname = abrevedotbelow;
+unicode = 7863;
+},
+{
+glyphname = Edotbelow;
+unicode = 7864;
+},
+{
+glyphname = edotbelow;
+unicode = 7865;
+},
+{
+glyphname = Ehookabove;
+unicode = 7866;
+},
+{
+glyphname = ehookabove;
+unicode = 7867;
+},
+{
+glyphname = Etilde;
+unicode = 7868;
+},
+{
+glyphname = etilde;
+unicode = 7869;
+},
+{
+glyphname = Ecircumflexacute;
+unicode = 7870;
+},
+{
+glyphname = ecircumflexacute;
+unicode = 7871;
+},
+{
+glyphname = Ecircumflexgrave;
+unicode = 7872;
+},
+{
+glyphname = ecircumflexgrave;
+unicode = 7873;
+},
+{
+glyphname = Ecircumflexhookabove;
+unicode = 7874;
+},
+{
+glyphname = ecircumflexhookabove;
+unicode = 7875;
+},
+{
+glyphname = Ecircumflextilde;
+unicode = 7876;
+},
+{
+glyphname = ecircumflextilde;
+unicode = 7877;
+},
+{
+glyphname = Ecircumflexdotbelow;
+unicode = 7878;
+},
+{
+glyphname = ecircumflexdotbelow;
+unicode = 7879;
+},
+{
+glyphname = Ihookabove;
+unicode = 7880;
+},
+{
+glyphname = ihookabove;
+unicode = 7881;
+},
+{
+glyphname = Idotbelow;
+unicode = 7882;
+},
+{
+glyphname = idotbelow;
+unicode = 7883;
+},
+{
+glyphname = Odotbelow;
+unicode = 7884;
+},
+{
+glyphname = odotbelow;
+unicode = 7885;
+},
+{
+glyphname = Ohookabove;
+unicode = 7886;
+},
+{
+glyphname = ohookabove;
+unicode = 7887;
+},
+{
+glyphname = Ocircumflexacute;
+unicode = 7888;
+},
+{
+glyphname = ocircumflexacute;
+unicode = 7889;
+},
+{
+glyphname = Ocircumflexgrave;
+unicode = 7890;
+},
+{
+glyphname = ocircumflexgrave;
+unicode = 7891;
+},
+{
+glyphname = Ocircumflexhookabove;
+unicode = 7892;
+},
+{
+glyphname = ocircumflexhookabove;
+unicode = 7893;
+},
+{
+glyphname = Ocircumflextilde;
+unicode = 7894;
+},
+{
+glyphname = ocircumflextilde;
+unicode = 7895;
+},
+{
+glyphname = Ocircumflexdotbelow;
+unicode = 7896;
+},
+{
+glyphname = ocircumflexdotbelow;
+unicode = 7897;
+},
+{
+glyphname = Ohornacute;
+unicode = 7898;
+},
+{
+glyphname = ohornacute;
+unicode = 7899;
+},
+{
+glyphname = Ohorngrave;
+unicode = 7900;
+},
+{
+glyphname = ohorngrave;
+unicode = 7901;
+},
+{
+glyphname = Ohornhookabove;
+unicode = 7902;
+},
+{
+glyphname = ohornhookabove;
+unicode = 7903;
+},
+{
+glyphname = Ohorntilde;
+unicode = 7904;
+},
+{
+glyphname = ohorntilde;
+unicode = 7905;
+},
+{
+glyphname = Ohorndotbelow;
+unicode = 7906;
+},
+{
+glyphname = ohorndotbelow;
+unicode = 7907;
+},
+{
+glyphname = Udotbelow;
+unicode = 7908;
+},
+{
+glyphname = udotbelow;
+unicode = 7909;
+},
+{
+glyphname = Uhookabove;
+unicode = 7910;
+},
+{
+glyphname = uhookabove;
+unicode = 7911;
+},
+{
+glyphname = Uhornacute;
+unicode = 7912;
+},
+{
+glyphname = uhornacute;
+unicode = 7913;
+},
+{
+glyphname = Uhorngrave;
+unicode = 7914;
+},
+{
+glyphname = uhorngrave;
+unicode = 7915;
+},
+{
+glyphname = Uhornhookabove;
+unicode = 7916;
+},
+{
+glyphname = uhornhookabove;
+unicode = 7917;
+},
+{
+glyphname = Uhorntilde;
+unicode = 7918;
+},
+{
+glyphname = uhorntilde;
+unicode = 7919;
+},
+{
+glyphname = Uhorndotbelow;
+unicode = 7920;
+},
+{
+glyphname = uhorndotbelow;
+unicode = 7921;
+},
+{
+glyphname = Ydotbelow;
+unicode = 7924;
+},
+{
+glyphname = ydotbelow;
+unicode = 7925;
+},
+{
+glyphname = Yhookabove;
+unicode = 7926;
+},
+{
+glyphname = yhookabove;
+unicode = 7927;
+},
+{
+glyphname = Ytilde;
+unicode = 7928;
+},
+{
+glyphname = ytilde;
+unicode = 7929;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

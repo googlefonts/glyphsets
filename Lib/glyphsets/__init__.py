@@ -271,7 +271,7 @@ except ImportError:
 ## NEW SYSTEM:
 
 root_folder = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "..", "GF_Glyphsets")
+    os.path.join(os.path.dirname(__file__), "..", "..", "data")
 )
 
 
@@ -379,7 +379,7 @@ def glyphs_in_glyphset(glyphset_name, production_names=False):
     with open(
         os.path.join(
             root_folder,
-            script,
+            "results",
             "txt",
             "prod-names" if production_names else "nice-names",
             f"{glyphset_name}.txt",
@@ -443,10 +443,10 @@ def description_per_glyphset(glyphset_name):
     description = glyphset_definition.get("description", None)
 
     nam_stub_path = os.path.join(
-        root_folder, script, "definitions", f"{glyphset_name}.stub.nam"
+        root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.nam"
     )
     glyphs_stub_path = os.path.join(
-        root_folder, script, "definitions", f"{glyphset_name}.stub.glyphs"
+        root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.glyphs"
     )
 
     warning = False

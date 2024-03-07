@@ -1,0 +1,133 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = GF_Phonetics_IPAHistorical;
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = retroflexhookcomb;
+unicode = 802;
+},
+{
+glyphname = chook;
+unicode = 392;
+},
+{
+glyphname = khook;
+unicode = 409;
+},
+{
+glyphname = phook;
+unicode = 421;
+},
+{
+glyphname = thook;
+unicode = 429;
+},
+{
+glyphname = kturned;
+unicode = 670;
+},
+{
+glyphname = qhook;
+unicode = 672;
+},
+{
+glyphname = dzaltone;
+unicode = 675;
+},
+{
+glyphname = dezh;
+unicode = 676;
+},
+{
+glyphname = dzcurl;
+unicode = 677;
+},
+{
+glyphname = ts;
+unicode = 678;
+},
+{
+glyphname = tesh;
+unicode = 679;
+},
+{
+glyphname = tccurl;
+unicode = 680;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

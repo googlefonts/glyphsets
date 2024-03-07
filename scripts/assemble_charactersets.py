@@ -61,9 +61,9 @@ def assemble_characterset(root_folder, glyphset_name):
     use_aux = glyphset_definition.get("use_auxiliary", False)
 
     nam_stub_path = os.path.join(
-        root_folder, script, "definitions", f"{glyphset_name}.stub.nam"
+        root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.nam"
     )
-    nam_path = os.path.join(root_folder, script, "nam", f"{glyphset_name}.nam")
+    nam_path = os.path.join(root_folder, "results", "nam", f"{glyphset_name}.nam")
     nam_in_package_path = os.path.abspath(
         os.path.join(
             root_folder,
@@ -76,18 +76,20 @@ def assemble_characterset(root_folder, glyphset_name):
         )
     )
     glyphs_stub_path = os.path.join(
-        root_folder, script, "definitions", f"{glyphset_name}.stub.glyphs"
+        root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.glyphs"
     )
-    glyphs_path = os.path.join(root_folder, script, "glyphs", f"{glyphset_name}.glyphs")
+    glyphs_path = os.path.join(
+        root_folder, "results", "glyphs", f"{glyphset_name}.glyphs"
+    )
     glyphs_empty_path = os.path.join(root_folder, f"empty_font.glyphs")
     txt_nicenames_path = os.path.join(
-        root_folder, script, "txt", "nice-names", f"{glyphset_name}.txt"
+        root_folder, "results", "txt", "nice-names", f"{glyphset_name}.txt"
     )
     txt_prodnames_path = os.path.join(
-        root_folder, script, "txt", "prod-names", f"{glyphset_name}.txt"
+        root_folder, "results", "txt", "prod-names", f"{glyphset_name}.txt"
     )
     plist_path = os.path.join(
-        root_folder, script, "glyphs", f"CustomFilter_GF_{script}.plist"
+        root_folder, "results", "plist", f"CustomFilter_GF_{script}.plist"
     )
 
     character_set = set()
@@ -232,9 +234,7 @@ if __name__ == "__main__":
 """
     )
 
-    root_folder = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "..", "GF_Glyphsets")
-    )
+    root_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))
 
     for glyphset_name in defined_glyphsets():
         print(f"Assembling '{glyphset_name}'...")

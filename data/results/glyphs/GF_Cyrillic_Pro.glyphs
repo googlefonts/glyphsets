@@ -1,0 +1,305 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = GF_Cyrillic_Pro;
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = "Iishorttail-cy";
+unicode = 1162;
+},
+{
+glyphname = "iishorttail-cy";
+unicode = 1163;
+},
+{
+glyphname = "Semisoftsign-cy";
+unicode = 1164;
+},
+{
+glyphname = "semisoftsign-cy";
+unicode = 1165;
+},
+{
+glyphname = "Ertick-cy";
+unicode = 1166;
+},
+{
+glyphname = "ertick-cy";
+unicode = 1167;
+},
+{
+glyphname = "Ghemiddlehook-cy";
+unicode = 1172;
+},
+{
+glyphname = "ghemiddlehook-cy";
+unicode = 1173;
+},
+{
+glyphname = "Kastroke-cy";
+unicode = 1182;
+},
+{
+glyphname = "kastroke-cy";
+unicode = 1183;
+},
+{
+glyphname = "Haabkhasian-cy";
+unicode = 1192;
+},
+{
+glyphname = "haabkhasian-cy";
+unicode = 1193;
+},
+{
+glyphname = "Tedescender-cy";
+unicode = 1196;
+},
+{
+glyphname = "tedescender-cy";
+unicode = 1197;
+},
+{
+glyphname = "Tetse-cy";
+unicode = 1204;
+},
+{
+glyphname = "tetse-cy";
+unicode = 1205;
+},
+{
+glyphname = "Cheabkhasian-cy";
+unicode = 1212;
+},
+{
+glyphname = "cheabkhasian-cy";
+unicode = 1213;
+},
+{
+glyphname = "Chedescenderabkhasian-cy";
+unicode = 1214;
+},
+{
+glyphname = "chedescenderabkhasian-cy";
+unicode = 1215;
+},
+{
+glyphname = "Kahook-cy";
+unicode = 1219;
+},
+{
+glyphname = "kahook-cy";
+unicode = 1220;
+},
+{
+glyphname = "Eltail-cy";
+unicode = 1221;
+},
+{
+glyphname = "eltail-cy";
+unicode = 1222;
+},
+{
+glyphname = "Enhook-cy";
+unicode = 1223;
+},
+{
+glyphname = "enhook-cy";
+unicode = 1224;
+},
+{
+glyphname = "Entail-cy";
+unicode = 1225;
+},
+{
+glyphname = "entail-cy";
+unicode = 1226;
+},
+{
+glyphname = "Emtail-cy";
+unicode = 1229;
+},
+{
+glyphname = "emtail-cy";
+unicode = 1230;
+},
+{
+glyphname = "Schwadieresis-cy";
+unicode = 1242;
+},
+{
+glyphname = "schwadieresis-cy";
+unicode = 1243;
+},
+{
+glyphname = "Dzeabkhasian-cy";
+unicode = 1248;
+},
+{
+glyphname = "dzeabkhasian-cy";
+unicode = 1249;
+},
+{
+glyphname = "Obarreddieresis-cy";
+unicode = 1258;
+},
+{
+glyphname = "obarreddieresis-cy";
+unicode = 1259;
+},
+{
+glyphname = "Edieresis-cy";
+unicode = 1260;
+},
+{
+glyphname = "edieresis-cy";
+unicode = 1261;
+},
+{
+glyphname = "Gestrokehook-cy";
+unicode = 1274;
+},
+{
+glyphname = "gestrokehook-cy";
+unicode = 1275;
+},
+{
+glyphname = "Hahook-cy";
+unicode = 1276;
+},
+{
+glyphname = "hahook-cy";
+unicode = 1277;
+},
+{
+glyphname = "Hastroke-cy";
+unicode = 1278;
+},
+{
+glyphname = "hastroke-cy";
+unicode = 1279;
+},
+{
+glyphname = "Reversedze-cy";
+unicode = 1296;
+},
+{
+glyphname = "reversedze-cy";
+unicode = 1297;
+},
+{
+glyphname = "Elhook-cy";
+unicode = 1298;
+},
+{
+glyphname = "elhook-cy";
+unicode = 1299;
+},
+{
+glyphname = "Pedescender-cy";
+unicode = 1316;
+},
+{
+glyphname = "pedescender-cy";
+unicode = 1317;
+},
+{
+glyphname = "Shhadescender-cy";
+unicode = 1318;
+},
+{
+glyphname = "shhadescender-cy";
+unicode = 1319;
+},
+{
+glyphname = "EnLeftHook-cy";
+unicode = 1320;
+},
+{
+glyphname = "enlefthook-cy";
+unicode = 1321;
+},
+{
+glyphname = "Eldescender-cy";
+unicode = 1326;
+},
+{
+glyphname = "eldescender-cy";
+unicode = 1327;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

@@ -1,0 +1,12 @@
+# This file is auto-generated; do not edit. See /README.md for instructions.
+dcurl
+lcurl
+ncurl
+tcurl
+rfishhookreversed
+eshsquatreversed
+hturnedfishhook
+hturnedfishhookandtail
+Asmall
+Esmall
+Omegasmall

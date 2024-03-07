@@ -1,0 +1,677 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = GF_Arabic_Plus;
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = percent;
+unicode = 37;
+},
+{
+glyphname = plus;
+unicode = 43;
+},
+{
+glyphname = "perthousand-ar";
+unicode = 1545;
+},
+{
+glyphname = "percent-ar";
+unicode = 1642;
+},
+{
+glyphname = "sindhipostpositionmen-ar";
+unicode = 1790;
+},
+{
+glyphname = minus;
+unicode = 8722;
+},
+{
+glyphname = lefttorightmark;
+unicode = 8206;
+},
+{
+glyphname = righttoleftmark;
+unicode = 8207;
+},
+{
+glyphname = exclam;
+unicode = 33;
+},
+{
+glyphname = quotesingle;
+unicode = 39;
+},
+{
+glyphname = parenleft;
+unicode = 40;
+},
+{
+glyphname = parenright;
+unicode = 41;
+},
+{
+glyphname = comma;
+unicode = 44;
+},
+{
+glyphname = hyphen;
+unicode = 45;
+},
+{
+glyphname = period;
+unicode = 46;
+},
+{
+glyphname = slash;
+unicode = 47;
+},
+{
+glyphname = colon;
+unicode = 58;
+},
+{
+glyphname = semicolon;
+unicode = 59;
+},
+{
+glyphname = bracketleft;
+unicode = 91;
+},
+{
+glyphname = bracketright;
+unicode = 93;
+},
+{
+glyphname = "comma-ar";
+unicode = 1548;
+},
+{
+glyphname = "fullstop-ar";
+unicode = 1748;
+},
+{
+glyphname = "sindhiampersand-ar";
+unicode = 1789;
+},
+{
+glyphname = quoteleft;
+unicode = 8216;
+},
+{
+glyphname = reversedsemicolon;
+unicode = 8271;
+},
+{
+glyphname = commareversed;
+unicode = 11841;
+},
+{
+glyphname = zero;
+unicode = 48;
+},
+{
+glyphname = one;
+unicode = 49;
+},
+{
+glyphname = two;
+unicode = 50;
+},
+{
+glyphname = three;
+unicode = 51;
+},
+{
+glyphname = four;
+unicode = 52;
+},
+{
+glyphname = five;
+unicode = 53;
+},
+{
+glyphname = six;
+unicode = 54;
+},
+{
+glyphname = seven;
+unicode = 55;
+},
+{
+glyphname = eight;
+unicode = 56;
+},
+{
+glyphname = nine;
+unicode = 57;
+},
+{
+glyphname = "zero-ar";
+unicode = 1632;
+},
+{
+glyphname = "one-ar";
+unicode = 1633;
+},
+{
+glyphname = "two-ar";
+unicode = 1634;
+},
+{
+glyphname = "three-ar";
+unicode = 1635;
+},
+{
+glyphname = "four-ar";
+unicode = 1636;
+},
+{
+glyphname = "five-ar";
+unicode = 1637;
+},
+{
+glyphname = "six-ar";
+unicode = 1638;
+},
+{
+glyphname = "seven-ar";
+unicode = 1639;
+},
+{
+glyphname = "eight-ar";
+unicode = 1640;
+},
+{
+glyphname = "nine-ar";
+unicode = 1641;
+},
+{
+glyphname = "decimalseparator-ar";
+unicode = 1643;
+},
+{
+glyphname = "thousandseparator-ar";
+unicode = 1644;
+},
+{
+glyphname = "zero-persian";
+unicode = 1776;
+},
+{
+glyphname = "one-persian";
+unicode = 1777;
+},
+{
+glyphname = "two-persian";
+unicode = 1778;
+},
+{
+glyphname = "three-persian";
+unicode = 1779;
+},
+{
+glyphname = "four-persian";
+unicode = 1780;
+},
+{
+glyphname = "five-persian";
+unicode = 1781;
+},
+{
+glyphname = "six-persian";
+unicode = 1782;
+},
+{
+glyphname = "seven-persian";
+unicode = 1783;
+},
+{
+glyphname = "eight-persian";
+unicode = 1784;
+},
+{
+glyphname = "nine-persian";
+unicode = 1785;
+},
+{
+glyphname = "fathatan-ar";
+unicode = 1611;
+},
+{
+glyphname = "dammatan-ar";
+unicode = 1612;
+},
+{
+glyphname = "kasratan-ar";
+unicode = 1613;
+},
+{
+glyphname = "fatha-ar";
+unicode = 1614;
+},
+{
+glyphname = "damma-ar";
+unicode = 1615;
+},
+{
+glyphname = "kasra-ar";
+unicode = 1616;
+},
+{
+glyphname = "shadda-ar";
+unicode = 1617;
+},
+{
+glyphname = "sukun-ar";
+unicode = 1618;
+},
+{
+glyphname = "hamzaabove-ar";
+unicode = 1620;
+},
+{
+glyphname = "alefabove-ar";
+unicode = 1648;
+},
+{
+glyphname = "hamza-ar";
+unicode = 1569;
+},
+{
+glyphname = "alefMadda-ar";
+unicode = 1570;
+},
+{
+glyphname = "alefHamzaabove-ar";
+unicode = 1571;
+},
+{
+glyphname = "wawHamzaabove-ar";
+unicode = 1572;
+},
+{
+glyphname = "yehHamzaabove-ar";
+unicode = 1574;
+},
+{
+glyphname = "alef-ar";
+unicode = 1575;
+},
+{
+glyphname = "beh-ar";
+unicode = 1576;
+},
+{
+glyphname = "tehMarbuta-ar";
+unicode = 1577;
+},
+{
+glyphname = "teh-ar";
+unicode = 1578;
+},
+{
+glyphname = "theh-ar";
+unicode = 1579;
+},
+{
+glyphname = "jeem-ar";
+unicode = 1580;
+},
+{
+glyphname = "hah-ar";
+unicode = 1581;
+},
+{
+glyphname = "khah-ar";
+unicode = 1582;
+},
+{
+glyphname = "dal-ar";
+unicode = 1583;
+},
+{
+glyphname = "thal-ar";
+unicode = 1584;
+},
+{
+glyphname = "reh-ar";
+unicode = 1585;
+},
+{
+glyphname = "zain-ar";
+unicode = 1586;
+},
+{
+glyphname = "seen-ar";
+unicode = 1587;
+},
+{
+glyphname = "sheen-ar";
+unicode = 1588;
+},
+{
+glyphname = "sad-ar";
+unicode = 1589;
+},
+{
+glyphname = "dad-ar";
+unicode = 1590;
+},
+{
+glyphname = "tah-ar";
+unicode = 1591;
+},
+{
+glyphname = "zah-ar";
+unicode = 1592;
+},
+{
+glyphname = "ain-ar";
+unicode = 1593;
+},
+{
+glyphname = "ghain-ar";
+unicode = 1594;
+},
+{
+glyphname = "feh-ar";
+unicode = 1601;
+},
+{
+glyphname = "qaf-ar";
+unicode = 1602;
+},
+{
+glyphname = "kaf-ar";
+unicode = 1603;
+},
+{
+glyphname = "lam-ar";
+unicode = 1604;
+},
+{
+glyphname = "meem-ar";
+unicode = 1605;
+},
+{
+glyphname = "noon-ar";
+unicode = 1606;
+},
+{
+glyphname = "heh-ar";
+unicode = 1607;
+},
+{
+glyphname = "waw-ar";
+unicode = 1608;
+},
+{
+glyphname = "alefMaksura-ar";
+unicode = 1609;
+},
+{
+glyphname = "yeh-ar";
+unicode = 1610;
+},
+{
+glyphname = "tteheh-ar";
+unicode = 1658;
+},
+{
+glyphname = "beeh-ar";
+unicode = 1659;
+},
+{
+glyphname = "tehRing-ar";
+unicode = 1660;
+},
+{
+glyphname = "tehThreedotsdown-ar";
+unicode = 1661;
+},
+{
+glyphname = "peh-ar";
+unicode = 1662;
+},
+{
+glyphname = "teheh-ar";
+unicode = 1663;
+},
+{
+glyphname = "beheh-ar";
+unicode = 1664;
+},
+{
+glyphname = "hahHamzaabove-ar";
+unicode = 1665;
+},
+{
+glyphname = "nyeh-ar";
+unicode = 1667;
+},
+{
+glyphname = "dyeh-ar";
+unicode = 1668;
+},
+{
+glyphname = "hahThreedotsabove-ar";
+unicode = 1669;
+},
+{
+glyphname = "tcheh-ar";
+unicode = 1670;
+},
+{
+glyphname = "tcheheh-ar";
+unicode = 1671;
+},
+{
+glyphname = "dalRing-ar";
+unicode = 1673;
+},
+{
+glyphname = "dalDotbelow-ar";
+unicode = 1674;
+},
+{
+glyphname = "dahal-ar";
+unicode = 1676;
+},
+{
+glyphname = "ddahal-ar";
+unicode = 1677;
+},
+{
+glyphname = "dalThreedotsdown-ar";
+unicode = 1679;
+},
+{
+glyphname = "rehRing-ar";
+unicode = 1683;
+},
+{
+glyphname = "rehVbelow-ar";
+unicode = 1685;
+},
+{
+glyphname = "rehDotbelowdotabove-ar";
+unicode = 1686;
+},
+{
+glyphname = "jeh-ar";
+unicode = 1688;
+},
+{
+glyphname = "rehFourdots-ar";
+unicode = 1689;
+},
+{
+glyphname = "seenDotbelowDotabove-ar";
+unicode = 1690;
+},
+{
+glyphname = "veh-ar";
+unicode = 1700;
+},
+{
+glyphname = "peheh-ar";
+unicode = 1702;
+},
+{
+glyphname = "keheh-ar";
+unicode = 1705;
+},
+{
+glyphname = "kafswash-ar";
+unicode = 1706;
+},
+{
+glyphname = "kafRing-ar";
+unicode = 1707;
+},
+{
+glyphname = "ng-ar";
+unicode = 1709;
+},
+{
+glyphname = "gaf-ar";
+unicode = 1711;
+},
+{
+glyphname = "ngoeh-ar";
+unicode = 1713;
+},
+{
+glyphname = "gueh-ar";
+unicode = 1715;
+},
+{
+glyphname = "lamVabove-ar";
+unicode = 1717;
+},
+{
+glyphname = "rnoon-ar";
+unicode = 1723;
+},
+{
+glyphname = "noonRing-ar";
+unicode = 1724;
+},
+{
+glyphname = "hehDoachashmee-ar";
+unicode = 1726;
+},
+{
+glyphname = "oe-ar";
+unicode = 1734;
+},
+{
+glyphname = "u-ar";
+unicode = 1735;
+},
+{
+glyphname = "yu-ar";
+unicode = 1736;
+},
+{
+glyphname = "ve-ar";
+unicode = 1739;
+},
+{
+glyphname = "yeh-farsi";
+unicode = 1740;
+},
+{
+glyphname = "yehTail-ar";
+unicode = 1741;
+},
+{
+glyphname = "yehVabove-ar";
+unicode = 1742;
+},
+{
+glyphname = "e-ar";
+unicode = 1744;
+},
+{
+glyphname = "ae-ar";
+unicode = 1749;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

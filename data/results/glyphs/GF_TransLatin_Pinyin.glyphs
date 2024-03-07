@@ -1,0 +1,590 @@
+{
+.appVersion = "3239";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2021-10-28 12:22:31 +0000";
+familyName = "GF TransLatin Pinyin";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature ordn;
+feature case;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_2;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+tag = case;
+}
+);
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = 0;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+color = 3;
+glyphname = gravecomb_dotaboverightcomb;
+lastChange = "2022-04-29 09:38:36 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = acutecomb_dotaboverightcomb;
+lastChange = "2022-04-29 09:38:36 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = circumflexcomb_dotaboverightcomb;
+lastChange = "2022-04-29 09:38:36 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = brevecomb_dotaboverightcomb;
+lastChange = "2022-04-29 09:39:46 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = macroncomb_dotaboverightcomb;
+lastChange = "2022-04-29 09:38:54 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = verticallineabovecomb_dotaboverightcomb;
+lastChange = "2022-04-29 09:39:27 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = apostrophemod;
+unicode = 700;
+},
+{
+glyphname = gravecomb;
+unicode = 768;
+},
+{
+glyphname = acutecomb;
+unicode = 769;
+},
+{
+glyphname = circumflexcomb;
+unicode = 770;
+},
+{
+glyphname = macroncomb;
+unicode = 772;
+},
+{
+glyphname = brevecomb;
+unicode = 774;
+},
+{
+glyphname = dieresiscomb;
+unicode = 776;
+},
+{
+glyphname = caroncomb;
+unicode = 780;
+},
+{
+glyphname = verticallineabovecomb;
+unicode = 781;
+},
+{
+glyphname = dotaboverightcomb;
+unicode = 856;
+},
+{
+glyphname = Agrave;
+unicode = 192;
+},
+{
+glyphname = Aacute;
+unicode = 193;
+},
+{
+glyphname = Acircumflex;
+unicode = 194;
+},
+{
+glyphname = Egrave;
+unicode = 200;
+},
+{
+glyphname = Eacute;
+unicode = 201;
+},
+{
+glyphname = Ecircumflex;
+unicode = 202;
+},
+{
+glyphname = Igrave;
+unicode = 204;
+},
+{
+glyphname = Iacute;
+unicode = 205;
+},
+{
+glyphname = Icircumflex;
+unicode = 206;
+},
+{
+glyphname = Idieresis;
+unicode = 207;
+},
+{
+glyphname = Ograve;
+unicode = 210;
+},
+{
+glyphname = Oacute;
+unicode = 211;
+},
+{
+glyphname = Ocircumflex;
+unicode = 212;
+},
+{
+glyphname = Ugrave;
+unicode = 217;
+},
+{
+glyphname = Uacute;
+unicode = 218;
+},
+{
+glyphname = Ucircumflex;
+unicode = 219;
+},
+{
+glyphname = Udieresis;
+unicode = 220;
+},
+{
+glyphname = agrave;
+unicode = 224;
+},
+{
+glyphname = aacute;
+unicode = 225;
+},
+{
+glyphname = acircumflex;
+unicode = 226;
+},
+{
+glyphname = egrave;
+unicode = 232;
+},
+{
+glyphname = eacute;
+unicode = 233;
+},
+{
+glyphname = ecircumflex;
+unicode = 234;
+},
+{
+glyphname = igrave;
+unicode = 236;
+},
+{
+glyphname = iacute;
+unicode = 237;
+},
+{
+glyphname = icircumflex;
+unicode = 238;
+},
+{
+glyphname = ntilde;
+unicode = 241;
+},
+{
+glyphname = ograve;
+unicode = 242;
+},
+{
+glyphname = oacute;
+unicode = 243;
+},
+{
+glyphname = ocircumflex;
+unicode = 244;
+},
+{
+glyphname = ugrave;
+unicode = 249;
+},
+{
+glyphname = uacute;
+unicode = 250;
+},
+{
+glyphname = ucircumflex;
+unicode = 251;
+},
+{
+glyphname = udieresis;
+unicode = 252;
+},
+{
+glyphname = Amacron;
+unicode = 256;
+},
+{
+glyphname = amacron;
+unicode = 257;
+},
+{
+glyphname = Abreve;
+unicode = 258;
+},
+{
+glyphname = abreve;
+unicode = 259;
+},
+{
+glyphname = Emacron;
+unicode = 274;
+},
+{
+glyphname = emacron;
+unicode = 275;
+},
+{
+glyphname = Ebreve;
+unicode = 276;
+},
+{
+glyphname = ebreve;
+unicode = 277;
+},
+{
+glyphname = Ecaron;
+unicode = 282;
+},
+{
+glyphname = ecaron;
+unicode = 283;
+},
+{
+glyphname = Imacron;
+unicode = 298;
+},
+{
+glyphname = imacron;
+unicode = 299;
+},
+{
+glyphname = Ibreve;
+unicode = 300;
+},
+{
+glyphname = ibreve;
+unicode = 301;
+},
+{
+glyphname = Nacute;
+unicode = 323;
+},
+{
+glyphname = Omacron;
+unicode = 332;
+},
+{
+glyphname = omacron;
+unicode = 333;
+},
+{
+glyphname = Obreve;
+unicode = 334;
+},
+{
+glyphname = obreve;
+unicode = 335;
+},
+{
+glyphname = Umacron;
+unicode = 362;
+},
+{
+glyphname = umacron;
+unicode = 363;
+},
+{
+glyphname = Ubreve;
+unicode = 364;
+},
+{
+glyphname = ubreve;
+unicode = 365;
+},
+{
+glyphname = Acaron;
+unicode = 461;
+},
+{
+glyphname = acaron;
+unicode = 462;
+},
+{
+glyphname = Icaron;
+unicode = 463;
+},
+{
+glyphname = icaron;
+unicode = 464;
+},
+{
+glyphname = Ocaron;
+unicode = 465;
+},
+{
+glyphname = ocaron;
+unicode = 466;
+},
+{
+glyphname = Ucaron;
+unicode = 467;
+},
+{
+glyphname = ucaron;
+unicode = 468;
+},
+{
+glyphname = Udieresismacron;
+unicode = 469;
+},
+{
+glyphname = udieresismacron;
+unicode = 470;
+},
+{
+glyphname = Udieresisacute;
+unicode = 471;
+},
+{
+glyphname = udieresisacute;
+unicode = 472;
+},
+{
+glyphname = Udieresiscaron;
+unicode = 473;
+},
+{
+glyphname = udieresiscaron;
+unicode = 474;
+},
+{
+glyphname = Udieresisgrave;
+unicode = 475;
+},
+{
+glyphname = udieresisgrave;
+unicode = 476;
+},
+{
+glyphname = Ngrave;
+unicode = 504;
+},
+{
+glyphname = ngrave;
+unicode = 505;
+},
+{
+glyphname = Nmod;
+unicode = 7482;
+},
+{
+glyphname = Macute;
+unicode = 7742;
+},
+{
+glyphname = macute;
+unicode = 7743;
+},
+{
+glyphname = nmod;
+unicode = 8319;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
