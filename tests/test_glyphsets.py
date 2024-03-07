@@ -4,8 +4,8 @@ from glyphsets import (
     languages_per_glyphset,
     defined_glyphsets,
     get_glyphsets_fulfilled,
+    defined_glyphsets,
 )
-from glyphsets.definitions import glyphset_definitions
 
 DATA_FP = os.path.join(os.path.dirname(__file__), "data")
 FONT_PATH = os.path.join(DATA_FP, "MavenPro[wght].ttf")
@@ -18,11 +18,11 @@ def test_definitions():
     assert len(languages_per_glyphset("GF_Latin_African")) == 603
 
     # accidental double definitions
-    for code in glyphset_definitions:
+    for code in defined_glyphsets():
         assert len(languages_per_glyphset(code)) == len(
             set(languages_per_glyphset(code))
         )
-    assert len(glyphset_definitions.keys()) == len(set(glyphset_definitions.keys()))
+    assert len(defined_glyphsets()) == len(set(defined_glyphsets()))
 
     assert "GF_Latin_Core" in defined_glyphsets()
 
