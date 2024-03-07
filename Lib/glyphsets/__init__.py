@@ -275,6 +275,17 @@ root_folder = os.path.abspath(
 )
 
 
+def read_nam_file(path):
+    character_set = set()
+    with open(path, "r") as f:
+        nam_lines = f.readlines()
+    for line in nam_lines:
+        unicode = line.split(" ")[0]
+        if unicode.startswith("0x"):
+            character_set.add(int(unicode[2:], 16))
+    return list(sorted(character_set))
+
+
 def build_glyphsapp_filter_list(glyphsets, out, use_production_names=False):
     """Build filter lists"""
     glyphsets = sorted(glyphsets)
@@ -356,12 +367,7 @@ def unicodes_per_glyphset(glyphset_name):
         f"{glyphset_name}.nam",
     )
     if os.path.exists(nam_path):
-        with open(nam_path, "r") as f:
-            nam_stub_lines = f.readlines()
-        for line in nam_stub_lines:
-            unicode = line.split(" ")[0]
-            if unicode.startswith("0x"):
-                character_set.add(int(unicode[2:], 16))
+        character_set.update(set(read_nam_file(nam_path)))
     return list(sorted(character_set))
 
 

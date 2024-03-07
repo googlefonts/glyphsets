@@ -22,6 +22,7 @@ from glyphsets import (
     get_glyphset_definition,
     unicodes_per_glyphset,
     languages_per_glyphset,
+    read_nam_file,
 )  # noqa: E402
 
 
@@ -118,12 +119,7 @@ def assemble_characterset(root_folder, glyphset_name):
 
     # Read .stub.nam file
     if os.path.exists(nam_stub_path):
-        with open(nam_stub_path, "r") as f:
-            nam_stub_lines = f.readlines()
-        for line in nam_stub_lines:
-            unicode = line.split(" ")[0]
-            if unicode.startswith("0x"):
-                character_set.add(int(unicode[2:], 16))
+        character_set.update(set(read_nam_file(nam_stub_path)))
 
     # Call get_glyph once so that GLYPHDATA gets filled in glyphsLib
     get_glyph("A")
