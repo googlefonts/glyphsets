@@ -471,9 +471,9 @@ def description_per_glyphset(glyphset_name):
         md += f"`{glyphset_name}` is **statically** defined as:\n\n"
     md += f"* Script: {script}\n"
     if os.path.exists(nam_stub_path):
-        md += f"* Codepoints defined in [{os.path.basename(nam_stub_path)}](/GF_glyphsets/{script}/definitions/{os.path.basename(nam_stub_path)})\n"
+        md += f"* Codepoints defined in [{os.path.basename(nam_stub_path)}](/data/definitions/per_glyphset/{os.path.basename(nam_stub_path)})\n"
     if os.path.exists(glyphs_stub_path):
-        md += f"* Unencoded glyphs defined in [{os.path.basename(glyphs_stub_path)}](/GF_glyphsets/{script}/definitions/{os.path.basename(glyphs_stub_path)})\n"
+        md += f"* Unencoded glyphs defined in [{os.path.basename(glyphs_stub_path)}](/data/definitions/per_glyphset/{os.path.basename(glyphs_stub_path)})\n"
     if regions:
         md += (
             "* All languages of the countries `\n"

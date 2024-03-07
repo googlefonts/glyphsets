@@ -29,7 +29,7 @@
 `GF_Arabic_Core` is **statically** defined as:
 
 * Script: Arabic
-* Codepoints defined in [GF_Arabic_Core.stub.nam](/GF_glyphsets/Arabic/definitions/GF_Arabic_Core.stub.nam)
+* Codepoints defined in [GF_Arabic_Core.stub.nam](/data/definitions/per_glyphset/GF_Arabic_Core.stub.nam)
 * List of languages: `
 Arabic (ar_Arab),
 Persian (fa_Arab),
@@ -85,7 +85,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Cyrillic/nam/GF_C
 `GF_Cyrillic_Historical` is **statically** defined as:
 
 * Script: Cyrillic
-* Codepoints defined in [GF_Cyrillic_Historical.stub.nam](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Historical.stub.nam)
+* Codepoints defined in [GF_Cyrillic_Historical.stub.nam](/data/definitions/per_glyphset/GF_Cyrillic_Historical.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -107,8 +107,8 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Cyrillic/nam/GF_C
 `GF_Cyrillic_Plus` is **statically** defined as:
 
 * Script: Cyrillic
-* Codepoints defined in [GF_Cyrillic_Plus.stub.nam](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Plus.stub.nam)
-* Unencoded glyphs defined in [GF_Cyrillic_Plus.stub.glyphs](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Plus.stub.glyphs)
+* Codepoints defined in [GF_Cyrillic_Plus.stub.nam](/data/definitions/per_glyphset/GF_Cyrillic_Plus.stub.nam)
+* Unencoded glyphs defined in [GF_Cyrillic_Plus.stub.glyphs](/data/definitions/per_glyphset/GF_Cyrillic_Plus.stub.glyphs)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -126,7 +126,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Cyrillic/nam/GF_C
 `GF_Cyrillic_Pro` is **statically** defined as:
 
 * Script: Cyrillic
-* Codepoints defined in [GF_Cyrillic_Pro.stub.nam](/GF_glyphsets/Cyrillic/definitions/GF_Cyrillic_Pro.stub.nam)
+* Codepoints defined in [GF_Cyrillic_Pro.stub.nam](/data/definitions/per_glyphset/GF_Cyrillic_Pro.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -148,7 +148,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Cyrillic/nam/GF_C
 `GF_Greek_AncientMusicalSymbols` is **statically** defined as:
 
 * Script: Greek
-* Codepoints defined in [GF_Greek_AncientMusicalSymbols.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_AncientMusicalSymbols.stub.nam)
+* Codepoints defined in [GF_Greek_AncientMusicalSymbols.stub.nam](/data/definitions/per_glyphset/GF_Greek_AncientMusicalSymbols.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -178,7 +178,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 `GF_Greek_Archaic` is **statically** defined as:
 
 * Script: Greek
-* Codepoints defined in [GF_Greek_Archaic.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Archaic.stub.nam)
+* Codepoints defined in [GF_Greek_Archaic.stub.nam](/data/definitions/per_glyphset/GF_Greek_Archaic.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -212,8 +212,8 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 `GF_Greek_Coptic` is **statically** defined as:
 
 * Script: Greek
-* Codepoints defined in [GF_Greek_Coptic.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Coptic.stub.nam)
-* Unencoded glyphs defined in [GF_Greek_Coptic.stub.glyphs](/GF_glyphsets/Greek/definitions/GF_Greek_Coptic.stub.glyphs)
+* Codepoints defined in [GF_Greek_Coptic.stub.nam](/data/definitions/per_glyphset/GF_Greek_Coptic.stub.nam)
+* Unencoded glyphs defined in [GF_Greek_Coptic.stub.glyphs](/data/definitions/per_glyphset/GF_Greek_Coptic.stub.glyphs)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -238,7 +238,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 `GF_Greek_Core` is **statically** defined as:
 
 * Script: Greek
-* Codepoints defined in [GF_Greek_Core.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Core.stub.nam)
+* Codepoints defined in [GF_Greek_Core.stub.nam](/data/definitions/per_glyphset/GF_Greek_Core.stub.nam)
 * List of languages: `
 Greek (el_Grek)
 `
@@ -262,7 +262,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 `GF_Greek_Expert` is **statically** defined as:
 
 * Script: Greek
-* Unencoded glyphs defined in [GF_Greek_Expert.stub.glyphs](/GF_glyphsets/Greek/definitions/GF_Greek_Expert.stub.glyphs)
+* Unencoded glyphs defined in [GF_Greek_Expert.stub.glyphs](/data/definitions/per_glyphset/GF_Greek_Expert.stub.glyphs)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -290,8 +290,8 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 `GF_Greek_Plus` is **statically** defined as:
 
 * Script: Greek
-* Codepoints defined in [GF_Greek_Plus.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Plus.stub.nam)
-* Unencoded glyphs defined in [GF_Greek_Plus.stub.glyphs](/GF_glyphsets/Greek/definitions/GF_Greek_Plus.stub.glyphs)
+* Codepoints defined in [GF_Greek_Plus.stub.nam](/data/definitions/per_glyphset/GF_Greek_Plus.stub.nam)
+* Unencoded glyphs defined in [GF_Greek_Plus.stub.glyphs](/data/definitions/per_glyphset/GF_Greek_Plus.stub.glyphs)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -352,7 +352,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 `GF_Greek_Pro` is **statically** defined as:
 
 * Script: Greek
-* Codepoints defined in [GF_Greek_Pro.stub.nam](/GF_glyphsets/Greek/definitions/GF_Greek_Pro.stub.nam)
+* Codepoints defined in [GF_Greek_Pro.stub.nam](/data/definitions/per_glyphset/GF_Greek_Pro.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -1056,7 +1056,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 `GF_Latin_Beyond` is **statically** defined as:
 
 * Script: Latin
-* Codepoints defined in [GF_Latin_Beyond.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Beyond.stub.nam)
+* Codepoints defined in [GF_Latin_Beyond.stub.nam](/data/definitions/per_glyphset/GF_Latin_Beyond.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -1074,8 +1074,8 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 `GF_Latin_Core` is **statically** defined as:
 
 * Script: Latin
-* Codepoints defined in [GF_Latin_Core.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Core.stub.nam)
-* Unencoded glyphs defined in [GF_Latin_Core.stub.glyphs](/GF_glyphsets/Latin/definitions/GF_Latin_Core.stub.glyphs)
+* Codepoints defined in [GF_Latin_Core.stub.nam](/data/definitions/per_glyphset/GF_Latin_Core.stub.nam)
+* Unencoded glyphs defined in [GF_Latin_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Latin_Core.stub.glyphs)
 * List of languages: `
 Albanian (sq_Latn),
 Catalan (ca_Latn),
@@ -1122,7 +1122,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 `GF_Latin_Kernel` is **statically** defined as:
 
 * Script: Latin
-* Codepoints defined in [GF_Latin_Kernel.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Kernel.stub.nam)
+* Codepoints defined in [GF_Latin_Kernel.stub.nam](/data/definitions/per_glyphset/GF_Latin_Kernel.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -1140,7 +1140,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 `GF_Latin_Plus` is **statically** defined as:
 
 * Script: Latin
-* Codepoints defined in [GF_Latin_Plus.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Plus.stub.nam)
+* Codepoints defined in [GF_Latin_Plus.stub.nam](/data/definitions/per_glyphset/GF_Latin_Plus.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -1154,7 +1154,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 `GF_Latin_PriAfrican` is **statically** defined as:
 
 * Script: Latin
-* Codepoints defined in [GF_Latin_PriAfrican.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_PriAfrican.stub.nam)
+* Codepoints defined in [GF_Latin_PriAfrican.stub.nam](/data/definitions/per_glyphset/GF_Latin_PriAfrican.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -1172,7 +1172,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 `GF_Latin_Vietnamese` is **statically** defined as:
 
 * Script: Latin
-* Codepoints defined in [GF_Latin_Vietnamese.stub.nam](/GF_glyphsets/Latin/definitions/GF_Latin_Vietnamese.stub.nam)
+* Codepoints defined in [GF_Latin_Vietnamese.stub.nam](/data/definitions/per_glyphset/GF_Latin_Vietnamese.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -1190,7 +1190,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 `GF_Phonetics_APA` is **statically** defined as:
 
 * Script: Phonetics
-* Codepoints defined in [GF_Phonetics_APA.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_APA.stub.nam)
+* Codepoints defined in [GF_Phonetics_APA.stub.nam](/data/definitions/per_glyphset/GF_Phonetics_APA.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -1208,8 +1208,8 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_
 `GF_Phonetics_DisorderedSpeech` is **statically** defined as:
 
 * Script: Phonetics
-* Codepoints defined in [GF_Phonetics_DisorderedSpeech.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_DisorderedSpeech.stub.nam)
-* Unencoded glyphs defined in [GF_Phonetics_DisorderedSpeech.stub.glyphs](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_DisorderedSpeech.stub.glyphs)
+* Codepoints defined in [GF_Phonetics_DisorderedSpeech.stub.nam](/data/definitions/per_glyphset/GF_Phonetics_DisorderedSpeech.stub.nam)
+* Unencoded glyphs defined in [GF_Phonetics_DisorderedSpeech.stub.glyphs](/data/definitions/per_glyphset/GF_Phonetics_DisorderedSpeech.stub.glyphs)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -1227,7 +1227,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_
 `GF_Phonetics_IPAHistorical` is **statically** defined as:
 
 * Script: Phonetics
-* Codepoints defined in [GF_Phonetics_IPAHistorical.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_IPAHistorical.stub.nam)
+* Codepoints defined in [GF_Phonetics_IPAHistorical.stub.nam](/data/definitions/per_glyphset/GF_Phonetics_IPAHistorical.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -1245,7 +1245,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_
 `GF_Phonetics_IPAStandard` is **statically** defined as:
 
 * Script: Phonetics
-* Codepoints defined in [GF_Phonetics_IPAStandard.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_IPAStandard.stub.nam)
+* Codepoints defined in [GF_Phonetics_IPAStandard.stub.nam](/data/definitions/per_glyphset/GF_Phonetics_IPAStandard.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -1263,7 +1263,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_
 `GF_Phonetics_SinoExt` is **statically** defined as:
 
 * Script: Phonetics
-* Codepoints defined in [GF_Phonetics_SinoExt.stub.nam](/GF_glyphsets/Phonetics/definitions/GF_Phonetics_SinoExt.stub.nam)
+* Codepoints defined in [GF_Phonetics_SinoExt.stub.nam](/data/definitions/per_glyphset/GF_Phonetics_SinoExt.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -1281,7 +1281,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Phonetics/nam/GF_
 `GF_TransLatin_Arabic` is **statically** defined as:
 
 * Script: TransLatin
-* Codepoints defined in [GF_TransLatin_Arabic.stub.nam](/GF_glyphsets/TransLatin/definitions/GF_TransLatin_Arabic.stub.nam)
+* Codepoints defined in [GF_TransLatin_Arabic.stub.nam](/data/definitions/per_glyphset/GF_TransLatin_Arabic.stub.nam)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
@@ -1299,8 +1299,8 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/TransLatin/nam/GF
 `GF_TransLatin_Pinyin` is **statically** defined as:
 
 * Script: TransLatin
-* Codepoints defined in [GF_TransLatin_Pinyin.stub.nam](/GF_glyphsets/TransLatin/definitions/GF_TransLatin_Pinyin.stub.nam)
-* Unencoded glyphs defined in [GF_TransLatin_Pinyin.stub.glyphs](/GF_glyphsets/TransLatin/definitions/GF_TransLatin_Pinyin.stub.glyphs)
+* Codepoints defined in [GF_TransLatin_Pinyin.stub.nam](/data/definitions/per_glyphset/GF_TransLatin_Pinyin.stub.nam)
+* Unencoded glyphs defined in [GF_TransLatin_Pinyin.stub.glyphs](/data/definitions/per_glyphset/GF_TransLatin_Pinyin.stub.glyphs)
 
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
