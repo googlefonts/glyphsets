@@ -14,7 +14,6 @@ from glyphsets import (
     glyphsets_per_script,
     description_per_glyphset,
 )  # noqa: E402
-from glyphsets.definitions import glyphset_definitions  # noqa: E402
 
 if __name__ == "__main__":
     root_folder = os.path.abspath(

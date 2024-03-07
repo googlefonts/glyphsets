@@ -44,8 +44,8 @@ setup(
     packages=["glyphsets", "glyphsets.definitions"],
     package_data={
         "glyphsets": [
+            "definitions/*.yaml",
             "definitions/nam/*.nam",
-            "*.json",
         ]
     },
     entry_points={"console_scripts": ["glyphsets = glyphsets.__main__:main"]},
@@ -67,6 +67,7 @@ setup(
         "defcon",
         "unicodedata2",
         "gflanguages>=0.5.16",
+        "pyyaml",
     ],
     extras_require={
         "dev": [  # For the tests to run

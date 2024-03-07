@@ -17,7 +17,9 @@ from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
 # so that up-to-date version of glyphsets package is used
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "Lib"))
 from glyphsets import (
-    glyphset_definitions,
+    get_script,
+    defined_glyphsets,
+    get_glyphset_definition,
     unicodes_per_glyphset,
     languages_per_glyphset,
 )  # noqa: E402
@@ -52,9 +54,11 @@ def sort_by_category(a, b):
 
 
 def assemble_characterset(root_folder, glyphset_name):
+
+    script = get_script(glyphset_name)
+    glyphset_definition = get_glyphset_definition(glyphset_name)
     language_codes = languages_per_glyphset(glyphset_name)
-    use_aux = glyphset_definitions[glyphset_name].get("use_auxiliary", False)
-    script = glyphset_definitions[glyphset_name]["script"]
+    use_aux = glyphset_definition.get("use_auxiliary", False)
 
     nam_stub_path = os.path.join(
         root_folder, script, "definitions", f"{glyphset_name}.stub.nam"
@@ -231,7 +235,7 @@ if __name__ == "__main__":
         os.path.join(os.path.dirname(__file__), "..", "GF_Glyphsets")
     )
 
-    for glyphset_name in glyphset_definitions:
+    for glyphset_name in defined_glyphsets():
         print(f"Assembling '{glyphset_name}'...")
         assemble_characterset(root_folder, glyphset_name)
         # Proof of work:

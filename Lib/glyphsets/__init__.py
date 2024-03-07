@@ -2,11 +2,11 @@
 GF Glyph Database
 """
 
+import yaml
 import plistlib
 import os
 import gflanguages
 from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
-from glyphsets.definitions import glyphset_definitions
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -310,22 +310,40 @@ languages = gflanguages.LoadLanguages()
 
 
 def defined_glyphsets():
-    return sorted(glyphset_definitions.keys())
+    definitions_path = os.path.join(os.path.dirname(__file__), "definitions")
+    yaml_files = [
+        os.path.splitext(f)[0]
+        for f in os.listdir(definitions_path)
+        if os.path.isfile(os.path.join(definitions_path, f))
+    ]
+    return sorted(yaml_files)
+
+
+def get_script(glyphset_name):
+    return glyphset_name.split("_")[1]
 
 
 def defined_scripts():
     scripts = set()
     for glyphset_name in defined_glyphsets():
-        scripts.update([glyphset_definitions[glyphset_name]["script"]])
+        scripts.update([get_script(glyphset_name)])
     return sorted(list(scripts))
 
 
 def glyphsets_per_script(script):
     glyphsets = []
     for glyphset_name in defined_glyphsets():
-        if glyphset_definitions[glyphset_name]["script"] == script:
+        if get_script(glyphset_name) == script:
             glyphsets.append(glyphset_name)
     return glyphsets
+
+
+def get_glyphset_definition(glyphset_name):
+    yaml_path = os.path.join(
+        os.path.dirname(__file__), "definitions", f"{glyphset_name}.yaml"
+    )
+    with open(yaml_path, "r") as f:
+        return yaml.load(f, Loader=yaml.FullLoader)
 
 
 def unicodes_per_glyphset(glyphset_name):
@@ -374,12 +392,13 @@ def glyphs_in_glyphset(glyphset_name, production_names=False):
 
 def languages_per_glyphset(glyphset_name):
 
-    script = glyphset_definitions[glyphset_name]["script"]
-    language_codes = glyphset_definitions[glyphset_name].get("language_codes", [])
-    regions = glyphset_definitions[glyphset_name].get("regions")
-    use_aux = glyphset_definitions[glyphset_name].get("use_auxiliary", False)
-    historical = glyphset_definitions[glyphset_name].get("historical", False)
-    population = glyphset_definitions[glyphset_name].get("population", False)
+    script = get_script(glyphset_name)
+    glyphset_definition = get_glyphset_definition(glyphset_name)
+    language_codes = glyphset_definition.get("language_codes", [])
+    regions = glyphset_definition.get("regions")
+    use_aux = glyphset_definition.get("use_auxiliary", False)
+    historical = glyphset_definition.get("historical", False)
+    population = glyphset_definition.get("population", False)
 
     # Assemble character sets from gflanguages
     languages = gflanguages.LoadLanguages()
@@ -411,13 +430,14 @@ def add_language(code):
 
 
 def description_per_glyphset(glyphset_name):
-    script = glyphset_definitions[glyphset_name]["script"]
-    language_codes = glyphset_definitions[glyphset_name].get("language_codes", [])
-    regions = glyphset_definitions[glyphset_name].get("regions")
-    use_aux = glyphset_definitions[glyphset_name].get("use_auxiliary", False)
-    historical = glyphset_definitions[glyphset_name].get("historical", False)
-    population = glyphset_definitions[glyphset_name].get("population", False)
-    description = glyphset_definitions[glyphset_name].get("description", None)
+    script = get_script(glyphset_name)
+    glyphset_definition = get_glyphset_definition(glyphset_name)
+    language_codes = glyphset_definition.get("language_codes", [])
+    regions = glyphset_definition.get("regions")
+    use_aux = glyphset_definition.get("use_auxiliary", False)
+    historical = glyphset_definition.get("historical", False)
+    population = glyphset_definition.get("population", False)
+    description = glyphset_definition.get("description", None)
 
     nam_stub_path = os.path.join(
         root_folder, script, "definitions", f"{glyphset_name}.stub.nam"
@@ -512,3 +532,7 @@ def get_glyphsets_fulfilled(ttFont):
         else:
             res[glyphset]["percentage"] = 0
     return res
+
+
+if __name__ == "__main__":
+    print(defined_scripts())

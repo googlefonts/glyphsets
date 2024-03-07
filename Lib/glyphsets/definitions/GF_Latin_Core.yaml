@@ -1,0 +1,30 @@
+description: "Languages of Europe and the Americas with >5M speakers, with manually
+  curated exceptions. This set is the minimal set required for all families meant
+  to be onboarded into Google Fonts."
+language_codes:
+- ca_Latn
+- cs_Latn
+- cy_Latn
+- da_Latn
+- de_Latn
+- en_Latn
+- es_Latn
+- fi_Latn
+- fr_Latn
+- hr_Latn
+- hu_Latn
+- is_Latn
+- it_Latn
+- lt_Latn
+- lv_Latn
+- mt_Latn
+- nb_Latn
+- nl_Latn
+- pl_Latn
+- pt_Latn
+- ro_Latn
+- sk_Latn
+- sq_Latn
+- sr_Latn
+- sv_Latn
+- tr_Latn

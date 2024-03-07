@@ -163,16 +163,16 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 > 
 > **Scholarly Use:** Variable Letterforms for Ancient Texts, Papyri
 > 
-> * Archaic UC `ϘϚϜϞϠϺ`
+>  * Archaic UC `ϘϚϜϞϠϺ`
 > * Archaic LC `ϙϛϝϟϡϻ`
 > * Variant Letterforms `κρςΣ`, `Θϐϑϒϓϔϕϖε϶`
-> * Additional Letter `ϳ`
+>  * Additional Letter `ϳ`
 > * Additional Archaic Letters for Bactrian `Ϸϸ`
 > * Symbols `ϼ ☧`
 > * Editorial Symbols `ϽϾϿ`
 > * Ancient Greek Mathematical Character `⟀ ⟁`
-> * Ancient Greek Acrophonic Numerals `𐅀𐅁𐅂𐅃𐅆𐅇𐅈𐅉𐅊𐅋𐅌𐅍𐅎𐅏𐅐𐅑𐅒𐅓𐅔𐅕𐅖𐅗𐅘𐅙𐅚𐅛𐅜𐅝𐅞𐅟𐅠𐅡𐅢𐅣𐅤𐅥𐅦𐅧𐅨𐅩𐅪𐅫𐅬𐅭𐅮𐅯𐅰𐅱𐅲𐅳𐅴`
-> * Geometric shape `□`
+>  * Ancient Greek Acrophonic Numerals `𐅀𐅁𐅂𐅃𐅆𐅇𐅈𐅉𐅊𐅋𐅌𐅍𐅎𐅏𐅐𐅑𐅒𐅓𐅔𐅕𐅖𐅗𐅘𐅙𐅚𐅛𐅜𐅝𐅞𐅟𐅠𐅡𐅢𐅣𐅤𐅥𐅦𐅧𐅨𐅩𐅪𐅫𐅬𐅭𐅮𐅯𐅰𐅱𐅲𐅳𐅴`
+>  * Geometric shape `□`
 > * Astrological symbols `★☉☊☋☌☍☽☾☿♀♁♂♃♄♅♆♇♈♉♊♋♌♍♎♏♐♑♒♓`
 
 `GF_Greek_Archaic` is **statically** defined as:
@@ -196,12 +196,12 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 > Coptic `U+03E2` – `U+03EF`, Coptic Unicode block `U+2C80` – `U+2CFF`
 > 
 > * Coptic Letters `ϢϣϤϥϦϧϨϩϪϫϬϭϮϯ`
-> * Bohairic Coptic UC ` ⲀⲂⲄⲆⲈⲊⲌⲎⲐⲒⲔⲖⲘⲚⲜⲞⲠⲢⲤⲦⲨⲪⲬⲮⲰ`
+>  * Bohairic Coptic UC ` ⲀⲂⲄⲆⲈⲊⲌⲎⲐⲒⲔⲖⲘⲚⲜⲞⲠⲢⲤⲦⲨⲪⲬⲮⲰ`
 > * Bohairic Coptic LC ` ⲁⲃⲅⲇⲉⲋⲍⲏⲑⲓⲕⲗⲙⲛⲝⲟⲡⲣⲥⲧⲩⲫⲭⲯⲱ `
 > * Old Coptic and Dialect Letters UC` ⲲⲴⲶⲸⲺⲼⲾⳀⳂⳄⳆⳈⳊⳌⳎⳐⳒⳔⳖⳘⳚ`
 > * Old Coptic and Dialect Letters LC ` ⲳⲵⲷⲹⲻⲽⲿⳁⳃⳅⳇⳉⳋⳍⳏⳑⳓⳕⳗⳙⳛ `
 > * Old Nubian Letters ` ⳜⳞⳠⳢⳝⳟⳡⳣ `
-> * Symbols ` ⳤ⳥⳦⳧⳨⳩⳪ `
+>  * Symbols ` ⳤ⳥⳦⳧⳨⳩⳪ `
 > * Cryptogrammic Letters ` ⳫⳬⳭⳮ⳯⳰⳱ `
 > * Combining Marks ` ⳯⳰⳱ ` 
 > * Bohairic Coptic Letters ` Ⳳⳳ `
@@ -251,12 +251,12 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 > _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > **General Use:** Small Caps for Core and Plus sets, Superscript Letters
-> 
+>  
 > * Core .sc `άέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ`
 > * Plus .sc `ἀἁἂἃἄἅἆἇἐἑἒἓἔἕἠἡἢἣἤἥἦἧἰἱἲἳἴἵἶἷὀὁὂὃὄὅὐὑὒὓὔὕὖὗὠὡὢὣὤὥὦὧὰάὲέὴήὶίὸόὺύὼώᾀᾁᾂᾃᾄᾅᾆᾇᾐᾑᾒᾓᾔᾕᾖᾗᾠᾡᾢᾣᾤᾥᾦᾧᾰᾱᾲᾳᾴᾶᾷιῂῃῄῆῇῐῑῒΐῖῗῠῡῢΰῤῥῦῧῲῳῴῶῷ Ϗ`
 > * Archaic Numerals .sc `ϛ ϟ ϡ ϝ`
 > * Iota Adscript as ss01 .sc `ᾈᾉᾊᾋᾌᾍᾎᾏᾘᾙᾚᾛᾜᾝᾞᾟᾨᾩᾪᾫᾬᾭᾮᾯᾼῌῼ`
-> * Superior Letters .sups `ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρςστυφχψω`
+>  * Superior Letters .sups `ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρςστυφχψω`
 > * Ligatures `λλ γγ`
 
 `GF_Greek_Expert` is **statically** defined as:
@@ -307,25 +307,25 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Greek/nam/GF_Gree
 > **Scholarly Use:** Extended Polytonic Greek, for scholarly edition of ancient texts (Ancient and Roman Greece studies, Byzantine studies, Greek Biblical studies)
 > 
 > **[Learn how to draw good Polytonic Greek at irenevl.github.io/Polytonic-tutorial](https://irenevl.github.io/Polytonic-tutorial/)**
-> 
+>  
 > **N.B.** List of characters from GF Latin Plus and Pro sets that are prerequisites to this set.
 > 
 > № | char | nice name (Glyphs App) | uni name | set
 > ---|---|---|---|---
-> 1|²|twosuperior|uni00B2|GF Latin Plus
+>  1|²|twosuperior|uni00B2|GF Latin Plus
 > 2|³|threesuperior|uni00B3|GF Latin Plus
-> 3|¹|onesuperior|uni00B9|GF Latin Plus
+>  3|¹|onesuperior|uni00B9|GF Latin Plus
 > 4|⁰|zerosuperior|uni0270|GF Latin Pro
 > 5|†|dagger|uni2020|GF Latin Plus
 > 6|‡|daggerdbl|uni2021|GF Latin Plus
 > 7|⁴|foursuperior|uni2074|GF Latin Plus
 > 8|⁵|fivesuperior|uni2075|GF Latin Pro
 > 9|⁶|sixsuperior|uni2076|GF Latin Pro
-> 10|⁷|sevensuperior|uni2077|GF Latin Pro
+>  10|⁷|sevensuperior|uni2077|GF Latin Pro
 > 11|⁸|eightsuperior|uni2078|GF Latin Pro
-> 12|⁹|ninesuperior|uni2079|GF Latin Pro
+>  12|⁹|ninesuperior|uni2079|GF Latin Pro
 > 13|₀|zeroinferior|uni2080|GF Latin Pro
-> 14|₁|oneinferior|uni2081|GF Latin Pro
+>  14|₁|oneinferior|uni2081|GF Latin Pro
 > 15|₂|twoinferior|uni2082|GF Latin Pro
 > 16|₃|threeinferior|uni2083|GF Latin Pro
 > 17|₄|fourinferior|uni2084|GF Latin Pro
@@ -1070,8 +1070,6 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 > _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
 > Languages of Europe and the Americas with >5M speakers, with manually curated exceptions. This set is the minimal set required for all families meant to be onboarded into Google Fonts.
-> 
-> **This below is taken from the old README and is not accurate, as it lists languages that accidentally happen to be covered under this glyphset but are not actually intended to be covered here. This set needs more consideration:** Acheron, Achinese, Afrikaans, Anuta, Aragonese, Arbëreshë Albanian, Arvanitika Albanian, Ashéninka Perené, Balinese, Bari, Basque, Bosnian, Breton, Caquinte, Caribbean Hindustani, Cashibo-Cacataibo, Catalan, Central Aymara, Central Kurdish, Chamorro, Chavacano, Chiltepec Chinantec, Chuukese, Cimbrian, Cofán, Cook Islands Māori, Cornish, Corsican, Creek, Crimean Tatar, Croatian, Czech, Danish, Dehu, Dutch, Eastern Abnaki, English, Ese Ejja, Faroese, Filipino, Finnish, French, Friulian, Galician, Ganda, Garifuna, Ga’anda, German, Gheg Albanian, Gooniyandi, Guadeloupean Creole French, Haitian, Hawaiian, Ho-Chunk, Hopi, Hungarian, Hän, Icelandic, Iloko, Inari Sami, Irish, Istro Romanian, Italian, Javanese, Jola-Fonyi, Kabuverdianu, Kaonde, Karelian, Kashubian, Khasi, Konzo, Kven Finnish, Kölsch, Ladin, Latgalian, Ligurian, Lithuanian, Lombard, Low German, Lower Sorbian, Lule Sami, Luxembourgish, Macedo-Romanian, Makhuwa, Malagasy, Maltese, Manx, Maori, Mapudungun, Marshallese, Matsés, Meriam Mir, Meru, Mohawk, Montagnais, Montenegrin, Munsee, Mískito, Neapolitan, Niuean, Nomatsiguenga, Northern Kurdish, Norwegian, Nyanja, Occitan, Ojitlán Chinantec, Oroqen, Palauan, Papantla Totonac, Papiamento, Pedi, Picard, Pichis Ashéninka, Piemontese, Pijin, Pipil, Polish, Portuguese, Potawatomi, Purepecha, Quechua, Romanian, Romansh, Samoan, Sango, Sangu (Tanzania), Saramaccan, Sardinian, Scottish Gaelic, Seri, Sicilian, Silesian, Slovak, Slovenian, Southern Aymara, Southern Sami, Southern Sotho, Spanish, Sranan Tongo, Standard Estonian, Standard Latvian, Sundanese, Swedish, Swiss German, Tagalog, Tahitian, Teso, Tetum, Tetun Dili, Tiv, Tokelau, Tonga (Tonga Islands), Tonga (Zambia), Tosk Albanian, Tswana, Turkish, Turkmen, Uab Meto, Upper Sorbian, Venetian, Veps, Võro, Walloon, Waray (Philippines), Wayuu, Welsh, Western Abnaki, Western Frisian, Wolof, Yanesha', Yao, Yapese, Yucateco, Zapotec, Záparo.
 
 `GF_Latin_Core` is **statically** defined as:
 
