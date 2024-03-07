@@ -70,7 +70,7 @@ def assemble_characterset(root_folder, glyphset_name):
             "..",
             "Lib",
             "glyphsets",
-            "definitions",
+            "results",
             "nam",
             f"{glyphset_name}.nam",
         )
@@ -160,6 +160,7 @@ def assemble_characterset(root_folder, glyphset_name):
 
     # Output sorted character set to .nam file
     os.makedirs(os.path.dirname(nam_path), exist_ok=True)
+    os.makedirs(os.path.dirname(nam_in_package_path), exist_ok=True)
     with open(nam_path, "w") as f:
         f.write(
             "# This file is auto-generated; do not edit. See /README.md for instructions.\n"

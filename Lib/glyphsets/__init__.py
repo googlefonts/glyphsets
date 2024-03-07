@@ -350,7 +350,10 @@ def unicodes_per_glyphset(glyphset_name):
     character_set = set()
     # Read .nam file
     nam_path = os.path.join(
-        os.path.dirname(__file__), "definitions", "nam", f"{glyphset_name}.nam"
+        os.path.dirname(__file__),
+        "results",
+        "nam",
+        f"{glyphset_name}.nam",
     )
     if os.path.exists(nam_path):
         with open(nam_path, "r") as f:
