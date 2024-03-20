@@ -1,0 +1,149 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = "Neue Schrift";
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = less;
+unicode = 60;
+},
+{
+glyphname = equal;
+unicode = 61;
+},
+{
+glyphname = greater;
+unicode = 62;
+},
+{
+glyphname = bar;
+unicode = 124;
+},
+{
+glyphname = multiply;
+unicode = 215;
+},
+{
+glyphname = divide;
+unicode = 247;
+},
+{
+glyphname = space;
+unicode = 32;
+},
+{
+glyphname = nbspace;
+unicode = 160;
+},
+{
+glyphname = numbersign;
+unicode = 35;
+},
+{
+glyphname = braceleft;
+unicode = 123;
+},
+{
+glyphname = braceright;
+unicode = 125;
+},
+{
+glyphname = quoteleft;
+unicode = 8216;
+},
+{
+glyphname = quoteright;
+unicode = 8217;
+},
+{
+glyphname = quotedblleft;
+unicode = 8220;
+},
+{
+glyphname = quotedblright;
+unicode = 8221;
+},
+{
+glyphname = ellipsis;
+unicode = 8230;
+},
+{
+glyphname = "kehehThreedotsabove-ar";
+unicode = 1891;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

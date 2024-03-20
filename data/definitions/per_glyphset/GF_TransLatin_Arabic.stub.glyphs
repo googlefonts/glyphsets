@@ -1,0 +1,213 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = "Neue Schrift";
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = apostrophemod;
+unicode = 700;
+},
+{
+glyphname = commareversedmod;
+unicode = 701;
+},
+{
+glyphname = ringhalfright;
+unicode = 702;
+},
+{
+glyphname = ringhalfleft;
+unicode = 703;
+},
+{
+glyphname = dotbelowcomb;
+unicode = 803;
+},
+{
+glyphname = brevebelowcomb;
+unicode = 814;
+},
+{
+glyphname = macronbelowcomb;
+unicode = 817;
+},
+{
+glyphname = Gcaron;
+unicode = 486;
+},
+{
+glyphname = gcaron;
+unicode = 487;
+},
+{
+glyphname = Ymacron;
+unicode = 562;
+},
+{
+glyphname = ymacron;
+unicode = 563;
+},
+{
+glyphname = Ddotbelow;
+unicode = 7692;
+},
+{
+glyphname = ddotbelow;
+unicode = 7693;
+},
+{
+glyphname = Dlinebelow;
+unicode = 7694;
+},
+{
+glyphname = dlinebelow;
+unicode = 7695;
+},
+{
+glyphname = Gmacron;
+unicode = 7712;
+},
+{
+glyphname = gmacron;
+unicode = 7713;
+},
+{
+glyphname = Hdotbelow;
+unicode = 7716;
+},
+{
+glyphname = hdotbelow;
+unicode = 7717;
+},
+{
+glyphname = Hbrevebelow;
+unicode = 7722;
+},
+{
+glyphname = hbrevebelow;
+unicode = 7723;
+},
+{
+glyphname = Klinebelow;
+unicode = 7732;
+},
+{
+glyphname = klinebelow;
+unicode = 7733;
+},
+{
+glyphname = Sdotbelow;
+unicode = 7778;
+},
+{
+glyphname = sdotbelow;
+unicode = 7779;
+},
+{
+glyphname = Tdotbelow;
+unicode = 7788;
+},
+{
+glyphname = tdotbelow;
+unicode = 7789;
+},
+{
+glyphname = Tlinebelow;
+unicode = 7790;
+},
+{
+glyphname = tlinebelow;
+unicode = 7791;
+},
+{
+glyphname = Zdotbelow;
+unicode = 7826;
+},
+{
+glyphname = zdotbelow;
+unicode = 7827;
+},
+{
+glyphname = hlinebelow;
+unicode = 7830;
+},
+{
+glyphname = tdieresis;
+unicode = 7831;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

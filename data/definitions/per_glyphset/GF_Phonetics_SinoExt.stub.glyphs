@@ -1,0 +1,125 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = "Neue Schrift";
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = dcurl;
+unicode = 545;
+},
+{
+glyphname = lcurl;
+unicode = 564;
+},
+{
+glyphname = ncurl;
+unicode = 565;
+},
+{
+glyphname = tcurl;
+unicode = 566;
+},
+{
+glyphname = rfishhookreversed;
+unicode = 639;
+},
+{
+glyphname = eshsquatreversed;
+unicode = 645;
+},
+{
+glyphname = hturnedfishhook;
+unicode = 686;
+},
+{
+glyphname = hturnedfishhookandtail;
+unicode = 687;
+},
+{
+glyphname = Asmall;
+unicode = 7424;
+},
+{
+glyphname = Esmall;
+unicode = 7431;
+},
+{
+glyphname = Omegasmall;
+unicode = 43877;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

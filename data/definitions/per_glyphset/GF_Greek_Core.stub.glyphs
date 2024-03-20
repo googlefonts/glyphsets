@@ -12,7 +12,7 @@ tag = wdth;
 }
 );
 date = "2023-12-13 14:28:10 +0000";
-familyName = GF_Greek_Core;
+familyName = "Neue Schrift";
 fontMaster = (
 {
 axesValues = (
@@ -57,22 +57,6 @@ glyphname = "lowernumeral-greek";
 unicode = 885;
 },
 {
-glyphname = percent;
-unicode = 37;
-},
-{
-glyphname = ampersand;
-unicode = 38;
-},
-{
-glyphname = plus;
-unicode = 43;
-},
-{
-glyphname = at;
-unicode = 64;
-},
-{
 glyphname = questiongreek;
 unicode = 894;
 },
@@ -81,136 +65,12 @@ glyphname = anoteleia;
 unicode = 903;
 },
 {
-glyphname = exclam;
-unicode = 33;
-},
-{
-glyphname = quotedbl;
-unicode = 34;
-},
-{
-glyphname = parenleft;
-unicode = 40;
-},
-{
-glyphname = parenright;
-unicode = 41;
-},
-{
-glyphname = asterisk;
-unicode = 42;
-},
-{
-glyphname = comma;
-unicode = 44;
-},
-{
-glyphname = hyphen;
-unicode = 45;
-},
-{
-glyphname = period;
-unicode = 46;
-},
-{
-glyphname = slash;
-unicode = 47;
-},
-{
-glyphname = colon;
-unicode = 58;
-},
-{
-glyphname = semicolon;
-unicode = 59;
-},
-{
-glyphname = bracketleft;
-unicode = 91;
-},
-{
-glyphname = backslash;
-unicode = 92;
-},
-{
-glyphname = bracketright;
-unicode = 93;
-},
-{
-glyphname = guillemetleft;
-unicode = 171;
-},
-{
-glyphname = guillemetright;
-unicode = 187;
-},
-{
-glyphname = endash;
-unicode = 8211;
-},
-{
-glyphname = emdash;
-unicode = 8212;
-},
-{
-glyphname = ellipsis;
-unicode = 8230;
-},
-{
-glyphname = zero;
-unicode = 48;
-},
-{
-glyphname = one;
-unicode = 49;
-},
-{
-glyphname = two;
-unicode = 50;
-},
-{
-glyphname = three;
-unicode = 51;
-},
-{
-glyphname = four;
-unicode = 52;
-},
-{
-glyphname = five;
-unicode = 53;
-},
-{
-glyphname = six;
-unicode = 54;
-},
-{
-glyphname = seven;
-unicode = 55;
-},
-{
-glyphname = eight;
-unicode = 56;
-},
-{
-glyphname = nine;
-unicode = 57;
-},
-{
 glyphname = tonos;
 unicode = 900;
 },
 {
 glyphname = dieresistonos;
 unicode = 901;
-},
-{
-glyphname = acutecomb;
-unicode = 769;
-},
-{
-glyphname = dieresiscomb;
-unicode = 776;
 },
 {
 glyphname = Alphatonos;

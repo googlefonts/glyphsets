@@ -12,7 +12,7 @@ tag = wdth;
 }
 );
 date = "2021-10-28 12:22:31 +0000";
-familyName = "GF Greek Coptic";
+familyName = GF_Greek_Coptic;
 featurePrefixes = (
 {
 automatic = 1;
@@ -136,88 +136,7 @@ name = Regular;
 );
 glyphs = (
 {
-glyphname = "oldwau-nubian-coptic";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "oldversedivider-nubian-coptic";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "oldshima-nubian-coptic";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "oldnyi-nubian-coptic";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "oldngi-nubian-coptic";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "oldindirectquestion-nubian-coptic";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "oldfullstop-nubian-coptic";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "olddirectquestion-nubian-coptic";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "oldWau-nubian-coptic";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "oldShima-nubian-coptic";
+glyphname = "oldNgi-nubian-coptic";
 layers = (
 {
 layerId = m01;
@@ -235,7 +154,88 @@ width = 600;
 );
 },
 {
-glyphname = "oldNgi-nubian-coptic";
+glyphname = "oldShima-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldWau-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "olddirectquestion-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldfullstop-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldindirectquestion-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldngi-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldnyi-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldshima-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldversedivider-nubian-coptic";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "oldwau-nubian-coptic";
 layers = (
 {
 layerId = m01;

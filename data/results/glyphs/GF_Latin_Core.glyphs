@@ -12,7 +12,7 @@ tag = wdth;
 }
 );
 date = "2021-10-28 12:22:31 +0000";
-familyName = "GF Latin Core";
+familyName = GF_Latin_Core;
 featurePrefixes = (
 {
 automatic = 1;
@@ -587,6 +587,18 @@ width = 600;
 );
 },
 {
+glyphname = ordfeminine;
+unicode = 170;
+},
+{
+glyphname = ordmasculine;
+unicode = 186;
+},
+{
+glyphname = jdotless;
+unicode = 567;
+},
+{
 glyphname = A;
 unicode = 65;
 },
@@ -793,14 +805,6 @@ unicode = 121;
 {
 glyphname = z;
 unicode = 122;
-},
-{
-glyphname = ordfeminine;
-unicode = 170;
-},
-{
-glyphname = ordmasculine;
-unicode = 186;
 },
 {
 glyphname = Agrave;
@@ -1421,10 +1425,6 @@ unicode = 538;
 {
 glyphname = tcommaaccent;
 unicode = 539;
-},
-{
-glyphname = jdotless;
-unicode = 567;
 },
 {
 glyphname = Wgrave;

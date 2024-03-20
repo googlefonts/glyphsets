@@ -1,0 +1,617 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = "Neue Schrift";
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = degree;
+unicode = 176;
+},
+{
+glyphname = YturnedSansSerif;
+unicode = 8516;
+},
+{
+glyphname = primemod;
+unicode = 697;
+},
+{
+glyphname = commaturnedmod;
+unicode = 699;
+},
+{
+glyphname = apostrophemod;
+unicode = 700;
+},
+{
+glyphname = glottalstopmod;
+unicode = 704;
+},
+{
+glyphname = verticallinemod;
+unicode = 712;
+},
+{
+glyphname = commaabovecomb;
+unicode = 787;
+},
+{
+glyphname = commaaboverightcomb;
+unicode = 789;
+},
+{
+glyphname = dotbelowcomb;
+unicode = 803;
+},
+{
+glyphname = macronbelowcomb;
+unicode = 817;
+},
+{
+glyphname = lowlinecomb;
+unicode = 818;
+},
+{
+glyphname = strokeshortcomb;
+unicode = 821;
+},
+{
+glyphname = Ccircumflex;
+unicode = 264;
+},
+{
+glyphname = ccircumflex;
+unicode = 265;
+},
+{
+glyphname = Gcircumflex;
+unicode = 284;
+},
+{
+glyphname = gcircumflex;
+unicode = 285;
+},
+{
+glyphname = Hcircumflex;
+unicode = 292;
+},
+{
+glyphname = hcircumflex;
+unicode = 293;
+},
+{
+glyphname = Itilde;
+unicode = 296;
+},
+{
+glyphname = itilde;
+unicode = 297;
+},
+{
+glyphname = Jcircumflex;
+unicode = 308;
+},
+{
+glyphname = jcircumflex;
+unicode = 309;
+},
+{
+glyphname = kgreenlandic;
+unicode = 312;
+},
+{
+glyphname = Scircumflex;
+unicode = 348;
+},
+{
+glyphname = scircumflex;
+unicode = 349;
+},
+{
+glyphname = Tcedilla;
+unicode = 354;
+},
+{
+glyphname = tcedilla;
+unicode = 355;
+},
+{
+glyphname = Tbar;
+unicode = 358;
+},
+{
+glyphname = tbar;
+unicode = 359;
+},
+{
+glyphname = Utilde;
+unicode = 360;
+},
+{
+glyphname = utilde;
+unicode = 361;
+},
+{
+glyphname = Oopen;
+unicode = 390;
+},
+{
+glyphname = Schwa;
+unicode = 399;
+},
+{
+glyphname = Eopen;
+unicode = 400;
+},
+{
+glyphname = Gammaafrican;
+unicode = 404;
+},
+{
+glyphname = Istroke;
+unicode = 407;
+},
+{
+glyphname = lbar;
+unicode = 410;
+},
+{
+glyphname = lambdastroke;
+unicode = 411;
+},
+{
+glyphname = Upsilonafrican;
+unicode = 433;
+},
+{
+glyphname = Ezh;
+unicode = 439;
+},
+{
+glyphname = clickalveolar;
+unicode = 450;
+},
+{
+glyphname = Acaron;
+unicode = 461;
+},
+{
+glyphname = acaron;
+unicode = 462;
+},
+{
+glyphname = Icaron;
+unicode = 463;
+},
+{
+glyphname = icaron;
+unicode = 464;
+},
+{
+glyphname = Ocaron;
+unicode = 465;
+},
+{
+glyphname = ocaron;
+unicode = 466;
+},
+{
+glyphname = Ucaron;
+unicode = 467;
+},
+{
+glyphname = ucaron;
+unicode = 468;
+},
+{
+glyphname = Gstroke;
+unicode = 484;
+},
+{
+glyphname = gstroke;
+unicode = 485;
+},
+{
+glyphname = Gcaron;
+unicode = 486;
+},
+{
+glyphname = gcaron;
+unicode = 487;
+},
+{
+glyphname = Kcaron;
+unicode = 488;
+},
+{
+glyphname = kcaron;
+unicode = 489;
+},
+{
+glyphname = Oogonek;
+unicode = 490;
+},
+{
+glyphname = oogonek;
+unicode = 491;
+},
+{
+glyphname = Oogonekmacron;
+unicode = 492;
+},
+{
+glyphname = oogonekmacron;
+unicode = 493;
+},
+{
+glyphname = Ezhcaron;
+unicode = 494;
+},
+{
+glyphname = ezhcaron;
+unicode = 495;
+},
+{
+glyphname = jcaron;
+unicode = 496;
+},
+{
+glyphname = Astroke;
+unicode = 570;
+},
+{
+glyphname = Cstroke;
+unicode = 571;
+},
+{
+glyphname = cstroke;
+unicode = 572;
+},
+{
+glyphname = Lbar;
+unicode = 573;
+},
+{
+glyphname = Tdiagonalstroke;
+unicode = 574;
+},
+{
+glyphname = Glottalstop;
+unicode = 577;
+},
+{
+glyphname = oopen;
+unicode = 596;
+},
+{
+glyphname = schwa;
+unicode = 601;
+},
+{
+glyphname = eopen;
+unicode = 603;
+},
+{
+glyphname = "gamma-latin";
+unicode = 611;
+},
+{
+glyphname = istroke;
+unicode = 616;
+},
+{
+glyphname = "iota-latin";
+unicode = 617;
+},
+{
+glyphname = Ismall;
+unicode = 618;
+},
+{
+glyphname = lmiddletilde;
+unicode = 619;
+},
+{
+glyphname = lbelt;
+unicode = 620;
+},
+{
+glyphname = "upsilon-latin";
+unicode = 650;
+},
+{
+glyphname = ezh;
+unicode = 658;
+},
+{
+glyphname = glottalstop;
+unicode = 660;
+},
+{
+glyphname = glottalstopreversed;
+unicode = 661;
+},
+{
+glyphname = wmod;
+unicode = 695;
+},
+{
+glyphname = ymod;
+unicode = 696;
+},
+{
+glyphname = lambda;
+unicode = 955;
+},
+{
+glyphname = chi;
+unicode = 967;
+},
+{
+glyphname = zmod;
+unicode = 7611;
+},
+{
+glyphname = thetamod;
+unicode = 7615;
+},
+{
+glyphname = Emacrongrave;
+unicode = 7700;
+},
+{
+glyphname = emacrongrave;
+unicode = 7701;
+},
+{
+glyphname = Emacronacute;
+unicode = 7702;
+},
+{
+glyphname = emacronacute;
+unicode = 7703;
+},
+{
+glyphname = Gmacron;
+unicode = 7712;
+},
+{
+glyphname = gmacron;
+unicode = 7713;
+},
+{
+glyphname = Hdotbelow;
+unicode = 7716;
+},
+{
+glyphname = hdotbelow;
+unicode = 7717;
+},
+{
+glyphname = Kacute;
+unicode = 7728;
+},
+{
+glyphname = kacute;
+unicode = 7729;
+},
+{
+glyphname = Kdotbelow;
+unicode = 7730;
+},
+{
+glyphname = kdotbelow;
+unicode = 7731;
+},
+{
+glyphname = Klinebelow;
+unicode = 7732;
+},
+{
+glyphname = klinebelow;
+unicode = 7733;
+},
+{
+glyphname = Ldotbelow;
+unicode = 7734;
+},
+{
+glyphname = ldotbelow;
+unicode = 7735;
+},
+{
+glyphname = Mdotbelow;
+unicode = 7746;
+},
+{
+glyphname = mdotbelow;
+unicode = 7747;
+},
+{
+glyphname = Ndotbelow;
+unicode = 7750;
+},
+{
+glyphname = ndotbelow;
+unicode = 7751;
+},
+{
+glyphname = Nlinebelow;
+unicode = 7752;
+},
+{
+glyphname = nlinebelow;
+unicode = 7753;
+},
+{
+glyphname = Omacrongrave;
+unicode = 7760;
+},
+{
+glyphname = omacrongrave;
+unicode = 7761;
+},
+{
+glyphname = Omacronacute;
+unicode = 7762;
+},
+{
+glyphname = omacronacute;
+unicode = 7763;
+},
+{
+glyphname = Sdotbelow;
+unicode = 7778;
+},
+{
+glyphname = sdotbelow;
+unicode = 7779;
+},
+{
+glyphname = Tlinebelow;
+unicode = 7790;
+},
+{
+glyphname = tlinebelow;
+unicode = 7791;
+},
+{
+glyphname = Zcircumflex;
+unicode = 7824;
+},
+{
+glyphname = zcircumflex;
+unicode = 7825;
+},
+{
+glyphname = Zlinebelow;
+unicode = 7828;
+},
+{
+glyphname = zlinebelow;
+unicode = 7829;
+},
+{
+glyphname = Etilde;
+unicode = 7868;
+},
+{
+glyphname = etilde;
+unicode = 7869;
+},
+{
+glyphname = Idotbelow;
+unicode = 7882;
+},
+{
+glyphname = idotbelow;
+unicode = 7883;
+},
+{
+glyphname = Ytilde;
+unicode = 7928;
+},
+{
+glyphname = ytilde;
+unicode = 7929;
+},
+{
+glyphname = Lmiddletilde;
+unicode = 11362;
+},
+{
+glyphname = astroke;
+unicode = 11365;
+},
+{
+glyphname = tdiagonalstroke;
+unicode = 11366;
+},
+{
+glyphname = Saltillo;
+unicode = 42891;
+},
+{
+glyphname = saltillo;
+unicode = 42892;
+},
+{
+glyphname = "chi-latin";
+unicode = 43859;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

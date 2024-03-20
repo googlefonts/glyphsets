@@ -92,9 +92,9 @@ we-cy
 tugrik
 hryvnia
 tenge
-gestroke-cy.loclBSH
-yu-cy.loclBGR
 Gestroke-cy.loclBSH
+yu-cy.loclBGR
+gestroke-cy.loclBSH
 brevecomb-cy
 De-cy.loclBGR
 Ii-cy.loclBGR

@@ -1,0 +1,653 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = "Neue Schrift";
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = epsilonLunateReversedSymbol;
+unicode = 1014;
+},
+{
+glyphname = whiteSquare;
+unicode = 9633;
+},
+{
+glyphname = blackstar;
+unicode = 9733;
+},
+{
+glyphname = sunSymbol;
+unicode = 9737;
+},
+{
+glyphname = ascendingNode;
+unicode = 9738;
+},
+{
+glyphname = descendingNode;
+unicode = 9739;
+},
+{
+glyphname = conjunction;
+unicode = 9740;
+},
+{
+glyphname = opposition;
+unicode = 9741;
+},
+{
+glyphname = constantineCross;
+unicode = 9767;
+},
+{
+glyphname = jerusalemCross;
+unicode = 9769;
+},
+{
+glyphname = firstQuarterMoon;
+unicode = 9789;
+},
+{
+glyphname = lastQuarterMoon;
+unicode = 9790;
+},
+{
+glyphname = mercury;
+unicode = 9791;
+},
+{
+glyphname = venus;
+unicode = 9792;
+},
+{
+glyphname = earth;
+unicode = 9793;
+},
+{
+glyphname = mars;
+unicode = 9794;
+},
+{
+glyphname = jupiter;
+unicode = 9795;
+},
+{
+glyphname = saturn;
+unicode = 9796;
+},
+{
+glyphname = uranus;
+unicode = 9797;
+},
+{
+glyphname = neptune;
+unicode = 9798;
+},
+{
+glyphname = pluto;
+unicode = 9799;
+},
+{
+glyphname = aries;
+unicode = 9800;
+},
+{
+glyphname = taurus;
+unicode = 9801;
+},
+{
+glyphname = gemini;
+unicode = 9802;
+},
+{
+glyphname = cancer;
+unicode = 9803;
+},
+{
+glyphname = leo;
+unicode = 9804;
+},
+{
+glyphname = virgo;
+unicode = 9805;
+},
+{
+glyphname = libra;
+unicode = 9806;
+},
+{
+glyphname = scorpius;
+unicode = 9807;
+},
+{
+glyphname = sagittarius;
+unicode = 9808;
+},
+{
+glyphname = capricorn;
+unicode = 9809;
+},
+{
+glyphname = aquarius;
+unicode = 9810;
+},
+{
+glyphname = pisces;
+unicode = 9811;
+},
+{
+glyphname = threeDimensionalAngle;
+unicode = 10176;
+},
+{
+glyphname = whitetrianglecontainingwhitetriangle;
+unicode = 10177;
+},
+{
+glyphname = "year-greek";
+unicode = 65913;
+},
+{
+glyphname = "talent-greek";
+unicode = 65914;
+},
+{
+glyphname = "drachma-greek";
+unicode = 65915;
+},
+{
+glyphname = "obol-greek";
+unicode = 65916;
+},
+{
+glyphname = "twoObols-greek";
+unicode = 65917;
+},
+{
+glyphname = "threeObols-greek";
+unicode = 65918;
+},
+{
+glyphname = "fourObols-greek";
+unicode = 65919;
+},
+{
+glyphname = "fiveObols-greek";
+unicode = 65920;
+},
+{
+glyphname = "metretes-greek";
+unicode = 65921;
+},
+{
+glyphname = "kyathosBase-greek";
+unicode = 65922;
+},
+{
+glyphname = "litra-greek";
+unicode = 65923;
+},
+{
+glyphname = "ounkia-greek";
+unicode = 65924;
+},
+{
+glyphname = "xestes-greek";
+unicode = 65925;
+},
+{
+glyphname = "artabe-greek";
+unicode = 65926;
+},
+{
+glyphname = "aroura-greek";
+unicode = 65927;
+},
+{
+glyphname = "gramma-greek";
+unicode = 65928;
+},
+{
+glyphname = "tryblionBase-greek";
+unicode = 65929;
+},
+{
+glyphname = "onequarter-atticGreek";
+unicode = 65856;
+},
+{
+glyphname = "onehalf-atticGreek";
+unicode = 65857;
+},
+{
+glyphname = "onedrachma-atticGreek";
+unicode = 65858;
+},
+{
+glyphname = "five-atticGreek";
+unicode = 65859;
+},
+{
+glyphname = "fifty-atticGreek";
+unicode = 65860;
+},
+{
+glyphname = "fivehundred-atticGreek";
+unicode = 65861;
+},
+{
+glyphname = "fivethousand-atticGreek";
+unicode = 65862;
+},
+{
+glyphname = "fiftythousand-atticGreek";
+unicode = 65863;
+},
+{
+glyphname = "fivetalents-atticGreek";
+unicode = 65864;
+},
+{
+glyphname = "tentalents-atticGreek";
+unicode = 65865;
+},
+{
+glyphname = "fiftytalents-atticGreek";
+unicode = 65866;
+},
+{
+glyphname = "onehundredtalents-atticGreek";
+unicode = 65867;
+},
+{
+glyphname = "fivehundredtalents-atticGreek";
+unicode = 65868;
+},
+{
+glyphname = "onethousandtalents-atticGreek";
+unicode = 65869;
+},
+{
+glyphname = "fivethousandtalents-atticGreek";
+unicode = 65870;
+},
+{
+glyphname = "fivestaters-atticGreek";
+unicode = 65871;
+},
+{
+glyphname = "tenstaters-atticGreek";
+unicode = 65872;
+},
+{
+glyphname = "fiftystaters-atticGreek";
+unicode = 65873;
+},
+{
+glyphname = "onehundredstaters-atticGreek";
+unicode = 65874;
+},
+{
+glyphname = "fivehundredstaters-atticGreek";
+unicode = 65875;
+},
+{
+glyphname = "onethousandstaters-atticGreek";
+unicode = 65876;
+},
+{
+glyphname = "tenthousandstaters-atticGreek";
+unicode = 65877;
+},
+{
+glyphname = "fiftythousandstaters-atticGreek";
+unicode = 65878;
+},
+{
+glyphname = "tenmnas-atticGreek";
+unicode = 65879;
+},
+{
+glyphname = "heraeumoneplethron-ancientGreek";
+unicode = 65880;
+},
+{
+glyphname = "thespianone-ancientGreek";
+unicode = 65881;
+},
+{
+glyphname = "hermionianone-ancientGreek";
+unicode = 65882;
+},
+{
+glyphname = "epidaureantwo-ancientGreek";
+unicode = 65883;
+},
+{
+glyphname = "thespiantwo-ancientGreek";
+unicode = 65884;
+},
+{
+glyphname = "cyrenaictwodrachmas-ancientGreek";
+unicode = 65885;
+},
+{
+glyphname = "epidaureantwodrachmas-ancientGreek";
+unicode = 65886;
+},
+{
+glyphname = "troezenianfive-ancientGreek";
+unicode = 65887;
+},
+{
+glyphname = "troezenianten-ancientGreek";
+unicode = 65888;
+},
+{
+glyphname = "troezeniantenalternateform-ancientGreek";
+unicode = 65889;
+},
+{
+glyphname = "hermionianten-ancientGreek";
+unicode = 65890;
+},
+{
+glyphname = "messenianten-ancientGreek";
+unicode = 65891;
+},
+{
+glyphname = "thespianten-ancientGreek";
+unicode = 65892;
+},
+{
+glyphname = "thespianthirty-ancientGreek";
+unicode = 65893;
+},
+{
+glyphname = "troezenianfifty-ancientGreek";
+unicode = 65894;
+},
+{
+glyphname = "troezenianfiftyalternateform-ancientGreek";
+unicode = 65895;
+},
+{
+glyphname = "hermionianfifty-ancientGreek";
+unicode = 65896;
+},
+{
+glyphname = "thespianfifty-ancientGreek";
+unicode = 65897;
+},
+{
+glyphname = "thespianonehundred-ancientGreek";
+unicode = 65898;
+},
+{
+glyphname = "thespianthreehundred-ancientGreek";
+unicode = 65899;
+},
+{
+glyphname = "epidaureanfivehundred-ancientGreek";
+unicode = 65900;
+},
+{
+glyphname = "troezenianfivehundred-ancientGreek";
+unicode = 65901;
+},
+{
+glyphname = "thespianfivehundred-ancientGreek";
+unicode = 65902;
+},
+{
+glyphname = "carystianfivehundred-ancientGreek";
+unicode = 65903;
+},
+{
+glyphname = "naxianfivehundred-ancientGreek";
+unicode = 65904;
+},
+{
+glyphname = "thespianonethousand-ancientGreek";
+unicode = 65905;
+},
+{
+glyphname = "thespianfivethousand-ancientGreek";
+unicode = 65906;
+},
+{
+glyphname = "delphicfivemnas-ancientGreek";
+unicode = 65907;
+},
+{
+glyphname = "stratianfiftymnas-ancientGreek";
+unicode = 65908;
+},
+{
+glyphname = "onehalf-greek";
+unicode = 65909;
+},
+{
+glyphname = "onehalfAlternate-greek";
+unicode = 65910;
+},
+{
+glyphname = "twothirds-greek";
+unicode = 65911;
+},
+{
+glyphname = "threequarters-greek";
+unicode = 65912;
+},
+{
+glyphname = "zero-greek";
+unicode = 65930;
+},
+{
+glyphname = Heta;
+unicode = 880;
+},
+{
+glyphname = heta;
+unicode = 881;
+},
+{
+glyphname = Archaicsampi;
+unicode = 882;
+},
+{
+glyphname = archaicsampi;
+unicode = 883;
+},
+{
+glyphname = Pamphyliandigamma;
+unicode = 886;
+},
+{
+glyphname = pamphyliandigamma;
+unicode = 887;
+},
+{
+glyphname = sigmaLunateReversedSymbol;
+unicode = 891;
+},
+{
+glyphname = sigmaLunateDottedSymbol;
+unicode = 892;
+},
+{
+glyphname = sigmaLunateDottedReversedSymbol;
+unicode = 893;
+},
+{
+glyphname = betaSymbol;
+unicode = 976;
+},
+{
+glyphname = thetaSymbol;
+unicode = 977;
+},
+{
+glyphname = UpsilonhookSymbol;
+unicode = 978;
+},
+{
+glyphname = UpsilonacutehookSymbol;
+unicode = 979;
+},
+{
+glyphname = UpsilondieresishookSymbol;
+unicode = 980;
+},
+{
+glyphname = phiSymbol;
+unicode = 981;
+},
+{
+glyphname = piSymbol;
+unicode = 982;
+},
+{
+glyphname = KoppaArchaic;
+unicode = 984;
+},
+{
+glyphname = koppaArchaic;
+unicode = 985;
+},
+{
+glyphname = kappaSymbol;
+unicode = 1008;
+},
+{
+glyphname = rhoSymbol;
+unicode = 1009;
+},
+{
+glyphname = sigmaLunateSymbol;
+unicode = 1010;
+},
+{
+glyphname = yot;
+unicode = 1011;
+},
+{
+glyphname = ThetaSymbol;
+unicode = 1012;
+},
+{
+glyphname = epsilonLunateSymbol;
+unicode = 1013;
+},
+{
+glyphname = Sho;
+unicode = 1015;
+},
+{
+glyphname = sho;
+unicode = 1016;
+},
+{
+glyphname = SigmaLunateSymbol;
+unicode = 1017;
+},
+{
+glyphname = San;
+unicode = 1018;
+},
+{
+glyphname = san;
+unicode = 1019;
+},
+{
+glyphname = rhoStrokeSymbol;
+unicode = 1020;
+},
+{
+glyphname = SigmaLunateReversedSymbol;
+unicode = 1021;
+},
+{
+glyphname = SigmaLunateDottedSymbol;
+unicode = 1022;
+},
+{
+glyphname = SigmaLunateDottedReversedSymbol;
+unicode = 1023;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

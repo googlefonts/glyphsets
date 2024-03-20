@@ -448,9 +448,6 @@ def description_per_glyphset(glyphset_name):
     population = glyphset_definition.get("population", False)
     description = glyphset_definition.get("description", None)
 
-    nam_stub_path = os.path.join(
-        root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.nam"
-    )
     glyphs_stub_path = os.path.join(
         root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.glyphs"
     )
@@ -470,10 +467,8 @@ def description_per_glyphset(glyphset_name):
     else:
         md += f"`{glyphset_name}` is **statically** defined as:\n\n"
     md += f"* Script: {script}\n"
-    if os.path.exists(nam_stub_path):
-        md += f"* Codepoints defined in [{os.path.basename(nam_stub_path)}](/data/definitions/per_glyphset/{os.path.basename(nam_stub_path)})\n"
     if os.path.exists(glyphs_stub_path):
-        md += f"* Unencoded glyphs defined in [{os.path.basename(glyphs_stub_path)}](/data/definitions/per_glyphset/{os.path.basename(glyphs_stub_path)})\n"
+        md += f"* Characters and glyphs defined in [{os.path.basename(glyphs_stub_path)}](/data/definitions/per_glyphset/{os.path.basename(glyphs_stub_path)})\n"
     if regions:
         md += (
             "* All languages of the countries `\n"

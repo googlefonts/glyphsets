@@ -12,7 +12,7 @@ tag = wdth;
 }
 );
 date = "2021-10-28 12:22:31 +0000";
-familyName = "GF Greek Expert";
+familyName = GF_Greek_Expert;
 featurePrefixes = (
 {
 automatic = 1;

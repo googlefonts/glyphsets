@@ -12,7 +12,7 @@ tag = wdth;
 }
 );
 date = "2021-10-28 12:22:31 +0000";
-familyName = "GF TransLatin Pinyin";
+familyName = GF_TransLatin_Pinyin;
 featurePrefixes = (
 {
 automatic = 1;

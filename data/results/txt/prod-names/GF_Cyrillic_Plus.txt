@@ -92,9 +92,9 @@ uni051D
 uni20AE
 uni20B4
 uni20B8
-gestrokecy.loclBSH
-yucy.loclBGR
 Gestrokecy.loclBSH
+yucy.loclBGR
+gestrokecy.loclBSH
 brevecombcy
 uni0414.loclBGR
 uni0418.loclBGR

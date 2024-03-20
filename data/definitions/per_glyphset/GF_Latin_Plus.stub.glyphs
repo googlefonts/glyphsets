@@ -1,0 +1,517 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = "Neue Schrift";
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = brokenbar;
+unicode = 166;
+},
+{
+glyphname = logicalnot;
+unicode = 172;
+},
+{
+glyphname = plusminus;
+unicode = 177;
+},
+{
+glyphname = micro;
+unicode = 181;
+},
+{
+glyphname = baht;
+unicode = 3647;
+},
+{
+glyphname = dagger;
+unicode = 8224;
+},
+{
+glyphname = daggerdbl;
+unicode = 8225;
+},
+{
+glyphname = perthousand;
+unicode = 8240;
+},
+{
+glyphname = minute;
+unicode = 8242;
+},
+{
+glyphname = second;
+unicode = 8243;
+},
+{
+glyphname = colonsign;
+unicode = 8353;
+},
+{
+glyphname = naira;
+unicode = 8358;
+},
+{
+glyphname = rupee;
+unicode = 8360;
+},
+{
+glyphname = won;
+unicode = 8361;
+},
+{
+glyphname = sheqel;
+unicode = 8362;
+},
+{
+glyphname = dong;
+unicode = 8363;
+},
+{
+glyphname = kip;
+unicode = 8365;
+},
+{
+glyphname = tugrik;
+unicode = 8366;
+},
+{
+glyphname = peso;
+unicode = 8369;
+},
+{
+glyphname = guarani;
+unicode = 8370;
+},
+{
+glyphname = hryvnia;
+unicode = 8372;
+},
+{
+glyphname = cedi;
+unicode = 8373;
+},
+{
+glyphname = tenge;
+unicode = 8376;
+},
+{
+glyphname = rupeeIndian;
+unicode = 8377;
+},
+{
+glyphname = liraTurkish;
+unicode = 8378;
+},
+{
+glyphname = manat;
+unicode = 8380;
+},
+{
+glyphname = ruble;
+unicode = 8381;
+},
+{
+glyphname = lari;
+unicode = 8382;
+},
+{
+glyphname = bitcoin;
+unicode = 8383;
+},
+{
+glyphname = literSign;
+unicode = 8467;
+},
+{
+glyphname = numero;
+unicode = 8470;
+},
+{
+glyphname = Ohm;
+unicode = 8486;
+},
+{
+glyphname = estimated;
+unicode = 8494;
+},
+{
+glyphname = leftArrow;
+unicode = 8592;
+},
+{
+glyphname = upArrow;
+unicode = 8593;
+},
+{
+glyphname = rightArrow;
+unicode = 8594;
+},
+{
+glyphname = downArrow;
+unicode = 8595;
+},
+{
+glyphname = leftRightArrow;
+unicode = 8596;
+},
+{
+glyphname = upDownArrow;
+unicode = 8597;
+},
+{
+glyphname = northWestArrow;
+unicode = 8598;
+},
+{
+glyphname = northEastArrow;
+unicode = 8599;
+},
+{
+glyphname = southEastArrow;
+unicode = 8600;
+},
+{
+glyphname = southWestArrow;
+unicode = 8601;
+},
+{
+glyphname = partialdiff;
+unicode = 8706;
+},
+{
+glyphname = emptyset;
+unicode = 8709;
+},
+{
+glyphname = increment;
+unicode = 8710;
+},
+{
+glyphname = product;
+unicode = 8719;
+},
+{
+glyphname = summation;
+unicode = 8721;
+},
+{
+glyphname = radical;
+unicode = 8730;
+},
+{
+glyphname = "infinity";
+unicode = 8734;
+},
+{
+glyphname = integral;
+unicode = 8747;
+},
+{
+glyphname = approxequal;
+unicode = 8776;
+},
+{
+glyphname = notequal;
+unicode = 8800;
+},
+{
+glyphname = lessequal;
+unicode = 8804;
+},
+{
+glyphname = greaterequal;
+unicode = 8805;
+},
+{
+glyphname = blackSquare;
+unicode = 9632;
+},
+{
+glyphname = whiteSquare;
+unicode = 9633;
+},
+{
+glyphname = blackSmallSquare;
+unicode = 9642;
+},
+{
+glyphname = whiteSmallSquare;
+unicode = 9643;
+},
+{
+glyphname = upBlackTriangle;
+unicode = 9650;
+},
+{
+glyphname = upWhiteTriangle;
+unicode = 9651;
+},
+{
+glyphname = upBlackSmallTriangle;
+unicode = 9652;
+},
+{
+glyphname = upWhiteSmallTriangle;
+unicode = 9653;
+},
+{
+glyphname = rightBlackTriangle;
+unicode = 9654;
+},
+{
+glyphname = rightWhiteTriangle;
+unicode = 9655;
+},
+{
+glyphname = rightBlackSmallTriangle;
+unicode = 9656;
+},
+{
+glyphname = rightWhiteSmallTriangle;
+unicode = 9657;
+},
+{
+glyphname = downBlackTriangle;
+unicode = 9660;
+},
+{
+glyphname = downWhiteTriangle;
+unicode = 9661;
+},
+{
+glyphname = downBlackSmallTriangle;
+unicode = 9662;
+},
+{
+glyphname = downWhiteSmallTriangle;
+unicode = 9663;
+},
+{
+glyphname = leftBlackTriangle;
+unicode = 9664;
+},
+{
+glyphname = leftWhiteTriangle;
+unicode = 9665;
+},
+{
+glyphname = leftBlackSmallTriangle;
+unicode = 9666;
+},
+{
+glyphname = leftWhiteSmallTriangle;
+unicode = 9667;
+},
+{
+glyphname = blackDiamond;
+unicode = 9670;
+},
+{
+glyphname = whiteDiamond;
+unicode = 9671;
+},
+{
+glyphname = lozenge;
+unicode = 9674;
+},
+{
+glyphname = whiteCircle;
+unicode = 9675;
+},
+{
+glyphname = blackCircle;
+unicode = 9679;
+},
+{
+glyphname = whiteBullet;
+unicode = 9702;
+},
+{
+glyphname = dblverticalbar;
+unicode = 8214;
+},
+{
+glyphname = "leftanglebracket-math";
+unicode = 10216;
+},
+{
+glyphname = "rightanglebracket-math";
+unicode = 10217;
+},
+{
+glyphname = twosuperior;
+unicode = 178;
+},
+{
+glyphname = threesuperior;
+unicode = 179;
+},
+{
+glyphname = onesuperior;
+unicode = 185;
+},
+{
+glyphname = onequarter;
+unicode = 188;
+},
+{
+glyphname = onehalf;
+unicode = 189;
+},
+{
+glyphname = threequarters;
+unicode = 190;
+},
+{
+glyphname = fraction;
+unicode = 8260;
+},
+{
+glyphname = foursuperior;
+unicode = 8308;
+},
+{
+glyphname = fivesuperior;
+unicode = 8309;
+},
+{
+glyphname = sixsuperior;
+unicode = 8310;
+},
+{
+glyphname = sevensuperior;
+unicode = 8311;
+},
+{
+glyphname = eightsuperior;
+unicode = 8312;
+},
+{
+glyphname = ninesuperior;
+unicode = 8313;
+},
+{
+glyphname = oneinferior;
+unicode = 8321;
+},
+{
+glyphname = twoinferior;
+unicode = 8322;
+},
+{
+glyphname = threeinferior;
+unicode = 8323;
+},
+{
+glyphname = fourinferior;
+unicode = 8324;
+},
+{
+glyphname = fiveinferior;
+unicode = 8325;
+},
+{
+glyphname = sixinferior;
+unicode = 8326;
+},
+{
+glyphname = seveninferior;
+unicode = 8327;
+},
+{
+glyphname = eightinferior;
+unicode = 8328;
+},
+{
+glyphname = nineinferior;
+unicode = 8329;
+},
+{
+glyphname = onethird;
+unicode = 8531;
+},
+{
+glyphname = twothirds;
+unicode = 8532;
+},
+{
+glyphname = pi;
+unicode = 960;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

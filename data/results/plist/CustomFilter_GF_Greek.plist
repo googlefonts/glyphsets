@@ -603,18 +603,18 @@
 			<string>onehalf-coptic</string>
 			<string>fullstop-coptic</string>
 			<string>morphologicaldivider-coptic</string>
-			<string>oldwau-nubian-coptic</string>
-			<string>oldversedivider-nubian-coptic</string>
-			<string>oldshima-nubian-coptic</string>
-			<string>oldnyi-nubian-coptic</string>
-			<string>oldngi-nubian-coptic</string>
-			<string>oldindirectquestion-nubian-coptic</string>
-			<string>oldfullstop-nubian-coptic</string>
-			<string>olddirectquestion-nubian-coptic</string>
-			<string>oldWau-nubian-coptic</string>
-			<string>oldShima-nubian-coptic</string>
-			<string>oldNyi-nubian-coptic</string>
 			<string>oldNgi-nubian-coptic</string>
+			<string>oldNyi-nubian-coptic</string>
+			<string>oldShima-nubian-coptic</string>
+			<string>oldWau-nubian-coptic</string>
+			<string>olddirectquestion-nubian-coptic</string>
+			<string>oldfullstop-nubian-coptic</string>
+			<string>oldindirectquestion-nubian-coptic</string>
+			<string>oldngi-nubian-coptic</string>
+			<string>oldnyi-nubian-coptic</string>
+			<string>oldshima-nubian-coptic</string>
+			<string>oldversedivider-nubian-coptic</string>
+			<string>oldwau-nubian-coptic</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_Coptic</string>

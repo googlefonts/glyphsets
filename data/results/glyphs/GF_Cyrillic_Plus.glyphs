@@ -12,7 +12,7 @@ tag = wdth;
 }
 );
 date = "2021-10-28 12:22:31 +0000";
-familyName = "GF Cyrillic Plus Locl Roman";
+familyName = GF_Cyrillic_Plus;
 featurePrefixes = (
 {
 automatic = 1;
@@ -57,7 +57,7 @@ name = Regular;
 );
 glyphs = (
 {
-glyphname = "gestroke-cy.loclBSH";
+glyphname = "Gestroke-cy.loclBSH";
 layers = (
 {
 layerId = m01;
@@ -75,7 +75,7 @@ width = 600;
 );
 },
 {
-glyphname = "Gestroke-cy.loclBSH";
+glyphname = "gestroke-cy.loclBSH";
 layers = (
 {
 layerId = m01;

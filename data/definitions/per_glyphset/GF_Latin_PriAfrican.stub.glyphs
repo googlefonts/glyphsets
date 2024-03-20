@@ -1,0 +1,213 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2023-12-13 14:28:10 +0000";
+familyName = "Neue Schrift";
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+},
+{
+over = -16;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = dotbelowcomb;
+unicode = 803;
+},
+{
+glyphname = Eng;
+unicode = 330;
+},
+{
+glyphname = eng;
+unicode = 331;
+},
+{
+glyphname = Bhook;
+unicode = 385;
+},
+{
+glyphname = Oopen;
+unicode = 390;
+},
+{
+glyphname = Dhook;
+unicode = 394;
+},
+{
+glyphname = Eopen;
+unicode = 400;
+},
+{
+glyphname = Khook;
+unicode = 408;
+},
+{
+glyphname = khook;
+unicode = 409;
+},
+{
+glyphname = Nhookleft;
+unicode = 413;
+},
+{
+glyphname = Yhook;
+unicode = 435;
+},
+{
+glyphname = yhook;
+unicode = 436;
+},
+{
+glyphname = Ngrave;
+unicode = 504;
+},
+{
+glyphname = ngrave;
+unicode = 505;
+},
+{
+glyphname = bhook;
+unicode = 595;
+},
+{
+glyphname = oopen;
+unicode = 596;
+},
+{
+glyphname = dhook;
+unicode = 599;
+},
+{
+glyphname = eopen;
+unicode = 603;
+},
+{
+glyphname = nhookleft;
+unicode = 626;
+},
+{
+glyphname = Macute;
+unicode = 7742;
+},
+{
+glyphname = macute;
+unicode = 7743;
+},
+{
+glyphname = Ndotaccent;
+unicode = 7748;
+},
+{
+glyphname = ndotaccent;
+unicode = 7749;
+},
+{
+glyphname = Sdotbelow;
+unicode = 7778;
+},
+{
+glyphname = sdotbelow;
+unicode = 7779;
+},
+{
+glyphname = Edotbelow;
+unicode = 7864;
+},
+{
+glyphname = edotbelow;
+unicode = 7865;
+},
+{
+glyphname = Idotbelow;
+unicode = 7882;
+},
+{
+glyphname = idotbelow;
+unicode = 7883;
+},
+{
+glyphname = Odotbelow;
+unicode = 7884;
+},
+{
+glyphname = odotbelow;
+unicode = 7885;
+},
+{
+glyphname = Udotbelow;
+unicode = 7908;
+},
+{
+glyphname = udotbelow;
+unicode = 7909;
+}
+);
+instances = (
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
