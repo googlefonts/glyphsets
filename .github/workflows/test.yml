@@ -34,5 +34,4 @@ jobs:
           git clone https://github.com/fonttools/fontbakery.git
           cd fontbakery
           pip install .[all]
-#          pip freeze # for checking which packages are installed
           pytest
