@@ -31,7 +31,7 @@ jobs:
           pytest ./tests
       - name: Run Fontbakery tests
         run: |
-          git clone git@github.com:fonttools/fontbakery.git
+          git clone https://github.com/fonttools/fontbakery.git
           cd fontbakery
           pip install .
           pip freeze | grep glyphsets
