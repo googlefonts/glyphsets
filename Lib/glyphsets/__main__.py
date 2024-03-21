@@ -1,18 +1,5 @@
 import argparse
-from glyphsets import GFGlyphData, build_glyphsapp_filter_list
-from glyphsLib import GSFont
-from defcon import Font
-from fontTools.ttLib import TTFont
-
-
-def load_source(fp):
-    if fp.endswith(".glyphs"):
-        src = GSFont(fp)
-    elif fp.endswith(".ufo"):
-        src = Font(fp)
-    else:
-        raise NotImplementedError()
-    return src
+from glyphsets import build_glyphsapp_filter_list
 
 
 def main():
