@@ -45,7 +45,7 @@ setup(
     package_data={
         "glyphsets": [
             "definitions/*.yaml",
-            "definitions/nam/*.nam",
+            "results/nam/*.nam",
         ]
     },
     entry_points={"console_scripts": ["glyphsets = glyphsets.__main__:main"]},

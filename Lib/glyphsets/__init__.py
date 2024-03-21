@@ -325,7 +325,7 @@ def defined_glyphsets():
     yaml_files = [
         os.path.splitext(f)[0]
         for f in os.listdir(definitions_path)
-        if os.path.isfile(os.path.join(definitions_path, f))
+        if os.path.isfile(os.path.join(definitions_path, f)) and f.endswith(".yaml")
     ]
     return sorted(yaml_files)
 
@@ -358,7 +358,6 @@ def get_glyphset_definition(glyphset_name):
 
 
 def unicodes_per_glyphset(glyphset_name):
-    character_set = set()
     # Read .nam file
     nam_path = os.path.join(
         os.path.dirname(__file__),
@@ -367,8 +366,7 @@ def unicodes_per_glyphset(glyphset_name):
         f"{glyphset_name}.nam",
     )
     if os.path.exists(nam_path):
-        character_set.update(set(read_nam_file(nam_path)))
-    return list(sorted(character_set))
+        return read_nam_file(nam_path)
 
 
 def glyphs_in_glyphsets(glyphset_names, production_names=False):

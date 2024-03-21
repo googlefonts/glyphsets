@@ -2,7 +2,6 @@ import os
 from glyphsets import (
     unicodes_per_glyphset,
     languages_per_glyphset,
-    defined_glyphsets,
     get_glyphsets_fulfilled,
     defined_glyphsets,
 )
