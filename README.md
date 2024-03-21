@@ -1,36 +1,72 @@
-Attention: Repository under transition
-======================================
+Google Fonts Glyphset Definitions
+=================================
 
-The assembly of character sets is currently undergoing a transition from the previous approach of using the `glyphsets` command and `data.json` as a database to using the `gflanguages` package as the database and assembling `.nam` and other files from that.
-
-> [!NOTE]  
-> Please see [GLYPHSETS.md](GLYPHSETS.md) for an up-to-date description of the state of the new language definitions.
-
-How to assemble glyphs and characters using the new approach
-------------------------------------------------------------
-
-1. Define the glyphset in the Python module in `Lib/glyphsets/definitions/__init__.py` with language codes for your character set.
-2. Optional: Have a `.stub.nam` file under `GF_Glyphsets/*/definitions/` for your character set, containing _encoded_ characters that you want to see included that can't be inferred from the `gflanguages` definitions.
-3. Optional: Have a `.stub.glyphs` file under `GF_Glyphsets/*/definitions/` for your character set, containing _unencoded_ glyphs that you want to see included.
-4. Update all glyphsets using `sh build.sh`, see below for details.
-
-The final `.glyphs` files are the sum of `gflanguages` + `.stub.nam` + `.stub.glyphs`. See chart below.
+This repository contains curated glyphsets that Google Fonts hands out to designers of commissioned fonts.
 
 > [!NOTE]  
-> *glyphsets* uses the version of *gflanguages* that's currently installed on your system to query for characters per language. This enables you working on both packages locally at once. In any case, make sure that the *gflanguages* package is up-to-date on your system.
+> **If you are a user** and you want to merely get your hands on ready-made glyphsets, pick your files straight out of the [`/data/results`](/data/results) folder, such as `.glyphs` files with empty placeholder glyphs, or `.plist` files that are so-called _Custom Filters_ that will show up in the Glyphs.app sidebar when placed alongside your source files. Alternatively, you can cook your own Custom Filters with the `glyphsets` tool, see the _Glyphsets Tool_ section at the bottom of this document.
 
 > [!NOTE]  
-> _Bonus points:_ Sadly, in the creation of the `.glyphs` files, it's not possible to exactly recreate the glyph sorting that Glyphs.app uses by default, so the `.glyphs` files look a bit different from what's expected. If you care, please open every freshly adjusted `.glyphs` file in Glyphs.app, select all glyphs, and run "Update Glyph Info" from the "Glyphs" menu on them to sort them and save the file. But the files will work as-is in any case.
+> The rest of this README is addressing people who are **editing** glyphset and language definitions.
+
+The repository recently (end of 2023/start of 2024) underwent a bigger overhaul in how the glyphsets are assembled. 
+The current approach has become part of a bigger network of tools that is also comprised of [gflanguages](https://github.com/googlefonts/lang/) and [shaperglot](https://github.com/googlefonts/shaperglot), as well as [fontbakery’s](https://github.com/fonttools/fontbakery) `shape_languages` check.
+
+In the ideal scenario, glyphsets are defined merely by lists of language codes (such as `tu_Latn`).
+During the build process (`sh build.sh`), the `gflanguages` database will be queried for all characters defined for those languages, then combined into a single glyphset.
+_Optionally_, encoded characters as well as unencoded glyphs may be defined in glyphset-specific or language-specific files here in `gfglyphsets`, whose contents will also be added to the final glyphsets.
+
+Later during font QA (as part of font onboarding work, just FYI), Fontbakery's `shape_languages` check first determines which glyphsets a font supports, then uses the languages defined for each glyphset to invoke `shaperglot`, which checks whether each language _shapes_ correctly or not.
+This presents quite a leap forward in font QA where `shaperglot` invokes the `harfbuzz` shaping engine to prove the entire OpenType-stack to be funtioning at once, including mark attachment and character sequences.
+`shaperglot` contains its own sets of script- or language-specific definitions, such as a check to see whether the `ı` and `i` shape into distinct letters in small-caps for Turkish.
+
+> [!NOTE]  
+> See [GLYPHSETS.md](GLYPHSETS.md) for an up-to-date description of the state of the new glyphset definitions. Many glyphsets have not been transitioned to the new approach and still exist as manually curated lists of characters and unencoded glyphs.
+
+How to assemble glyphsets
+=========================
+
+Prerequisites
+-------------
+
+In order for the build command to correctly assemble glyphsets using language defintions, make sure that your work environment sports the latest version of [gflanguages](https://github.com/googlefonts/lang/). If unsure, update it with `pip install -U gflanguages`.
+
+Oftentimes you may want to adjust language definitions in `gflanguages` _at the same time_ as you’re adjusting other parts of the glyphsets. In this case you may clone the `gflanguages` repository to your computer and install it using `pip install -e .` from within its root folder. This will expose your `gflanguages` clone to your entire system (or virtual environment) and changes in `gflanguages` will automatically be reflected in other tools that use it, such as `gfglyphsets`, without the need of re-installing it after every code or data change. Thus, running `sh build.sh` will automatically use your latest language definitions, even before you have PR’d your language definition changes back to the repository.
+
+Where are glyphsets defined?
+------------------
+
+Glyphsets are defined in `.yaml` files directly inside the Python package folder [`/Lib/glyphsets/definitions`](/Lib/glyphsets/definitions), because they contain data that needs to be exposed to third-party tools such as `fontbakery`.
+
+Additional files in the `data/definitions` sub-folders will become part of the glyphsets as soon as they are found to exist under a certain filename. If a file that you need doesn't exist there, create it in its place.
+
+Where are characters and glyphs defined?
+------------------
+
+In order to determine where _characters_ (encoded with a Unicode) or _glyphs_ (unencoded) are defined, follow this logic:
+1. Is it a **language-specific encoded character**? Then it goes into the `gflanguages` database (which is a separate package) for example [here](https://github.com/googlefonts/lang/blob/main/Lib/gflanguages/data/languages/nl_Latn.textproto). `gflanguages` holds only encoded characters, not unencoded glyphs.
+1. Is it a **language-specific unencoded glyph**? Then it goes into `/data/definitions/per_language`
+1. Is it a more general **glyphset-specific character or glyph**? Then it goes into `/data/definitions/per_glyphset`
+
+(Re-) Building glyphsets
+-----------------------
+
+Once your language and glyphset definitions are set up and edited, run `sh build.sh` from the command line. This command sources characters from `gflanguages` as well as characters and glyphs from the various files in the `/data/definitions` folder, and combines them into one comprehensive list per glyphset, which are then rendered out into various different data formats into the `/data/results` folder.
+
+Additionally, the [GLYPHSETS.md](GLYPHSETS.md) document is updated, which contains a human-readable overview of the state of each glyphset.
+
 
 Data flow visualization
 -----------------------
 
-Visualizes in a simplified way how the various data sources are combined into a final glyphset, then rendered out to various format.
-This process is repeated for every glyphset defined in `Lib/glyphsets/definitions/__init__.py`.
+Here’s a visual overview of the data definitions that go into each glyphset, and the files that are created as results.
 
 Read this top to bottom.
 
 ```
+
+DEFINITIONS:
+
 ┌──────────────────┐
 │ Language codes   │
 │ "en_Latn"        │
@@ -38,16 +74,20 @@ Read this top to bottom.
 │ ...              │
 └──────────────────┘
          │
-┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐
-│ gflanguages      │   │ .stub.nam        │   │ .stub.glyphs     │
-│ (Python package) │   │ (optional)       │   │ (optional)       │
-└──────────────────┘   └──────────────────┘   └──────────────────┘
-         │                      │                      │
-         ╰──────────────────────┼──────────────────────╯
+┌──────────────────┐                          ┌──────────────────┐
+│ gflanguages      │                          │ .stub.glyphs     │
+│ (Python package) │                          │ (optional)       │
+└──────────────────┘                          └──────────────────┘
+         │                                             │
+         ╰──────────────────────┬──────────────────────╯
+                                │
+BUILD PROCESS:                  │
                                 │
                 ╔═══════════════════════════════╗
                 ║ complete glyphset             ║ 
                 ╚═══════════════════════════════╝
+                                │
+RESULTS:                        │
                                 │
          ╭──────────────────────┼──────────────────────┬──────────────────────╮
          │                      │                      │                      │
@@ -58,30 +98,30 @@ Read this top to bottom.
 ```
 
 
-Glyphsets tool
---------------
+Glyphsets Tool
+==============
 
-You can create your own glyphset filter using the `glyphsets` tool and our database.
+You can create your own Glyphs.app _Custom Filters_ using the `glyphsets` tool.
 
-You can install the tool with pip:
+Install or update the tool with pip, if you haven’t already:
 
 ```
-pip install glyphsets
+pip install -U glyphsets
 ```
 
 Create a filter list for Glyph.app:
 
 ```
-glyphsets filter-list GF_Latin_Core GF_Latin_Plus GF_Cyrillic_Core GF_Cyrillic_Plus -o CustomFilter_ProjectName.plist
+glyphsets filter-list -o myfilter.plist GF_Latin_Core GF_Latin_Plus
 ```
-Add this `.plist` file next to your Glyphs file and you would be able to see it under your filters.
+Add this `.plist` file next to your Glyphs file and (after restart) you would be able to see it in the filters sidebar.
 
 > [!NOTE]  
 > Previously existing commands of the `glyphsets` tool are currently deactivated after the transition to the new database. These are: `update-srcs`, `nam-file`, `missing-in-font`. Please report if you need to use these.
 
 
 Acknowledgements
-----------------
+================
 
 GF Greek Glyph Sets defined by Irene Vlachou @irenevl and Thomas Linard @thlinard. Documented by Alexei Vanyashin @alexeiva January 2017.
 
