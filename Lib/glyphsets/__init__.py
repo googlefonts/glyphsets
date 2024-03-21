@@ -514,7 +514,7 @@ def description_per_glyphset(glyphset_name):
             + "\n`\n\n"
         )
 
-    md += f"The resulting glyphset can be found here: [.nam](/GF_glyphsets/{script}/nam/{glyphset_name}.nam) (only encoded glyphs), [.glyphs](/GF_glyphsets/{script}/glyphs/{glyphset_name}.glyphs)/[.txt (nice names)](/GF_glyphsets/{script}/txt/nice-names/{glyphset_name}.txt)/[.txt (production names)](/GF_glyphsets/{script}/txt/prod-names/{glyphset_name}.txt) (all glyphs), as well as part of [CustomFilter_GF_{script}.plist](/GF_glyphsets/{script}/glyphs/CustomFilter_GF_{script}.plist)\n\n"
+    md += f"The resulting glyphset can be found here: [.nam](/data/results/nam/{glyphset_name}.nam) (only encoded characters), [.glyphs](/data/results/glyphs/{glyphset_name}.glyphs)/[.txt (nice names)](/data/results/txt/nice-names/{glyphset_name}.txt)/[.txt (production names)](/data/results/txt/prod-names/{glyphset_name}.txt) (all glyphs), as well as part of [CustomFilter_GF_{script}.plist](/data/results/plist/CustomFilter_GF_{script}.plist)\n\n"
     return md, warning
 
 
