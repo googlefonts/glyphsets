@@ -11,7 +11,7 @@ jobs:
     runs-on: ${{ matrix.platform }}
     strategy:
       matrix:
-        python-version: [3.8, 3.9]
+        python-version: [3.8, 3.9, 3.10, 3.11]
         platform: [ubuntu-latest, windows-latest]
     steps:
       - uses: actions/checkout@v2
@@ -34,5 +34,5 @@ jobs:
           git clone https://github.com/fonttools/fontbakery.git
           cd fontbakery
           pip install .[all]
-          pip freeze
+#          pip freeze # for checking which packages are installed
           pytest
