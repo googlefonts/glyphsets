@@ -33,6 +33,6 @@ jobs:
         run: |
           git clone https://github.com/fonttools/fontbakery.git
           cd fontbakery
-          pip install .
+          pip install .[all]
           pip freeze | grep glyphsets
           pytest
