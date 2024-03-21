@@ -142,16 +142,37 @@ def assemble_characterset(root_folder, glyphset_name):
 
     font.familyName = glyphset_name
 
+    # Add language-specific glyphs
+    for language_code in language_codes:
+        per_language_glyphs_stub_path = os.path.join(
+            root_folder, "definitions", "per_language", f"{language_code}.stub.glyphs"
+        )
+        if os.path.exists(per_language_glyphs_stub_path):
+            per_language_font = glyphsLib.load(per_language_glyphs_stub_path)
+
+            for glyph in per_language_font.glyphs:
+
+                # Add encoded characters to character_set
+                if glyph.unicodes:
+                    for unicode in glyph.unicodes:
+                        character_set.update({int(unicode, 16)})
+
+                # Add unencoded glyphs to .glyphs file
+                else:
+                    new_glyph = glyphsLib.GSGlyph(glyph.name)
+                    font.glyphs.append(new_glyph)
+
+    # Add encoded characters to .glyphs file
     for _i, unicode in enumerate(sorted(list(character_set))):
         if not _font_has_unicode(font, unicode):
             unicode = f"{unicode:#0{6}X}".replace("0X", "")
             glyph_info = _lookup_attributes_by_unicode(unicode, GLYPHDATA)
             if "name" in glyph_info:
-                glyph = glyphsLib.GSGlyph(glyph_info["name"])
+                new_glyph = glyphsLib.GSGlyph(glyph_info["name"])
             else:
-                glyph = glyphsLib.GSGlyph(f"uni{unicode}")
-            glyph.unicode = unicode
-            font.glyphs.append(glyph)
+                new_glyph = glyphsLib.GSGlyph(f"uni{unicode}")
+            new_glyph.unicode = unicode
+            font.glyphs.append(new_glyph)
 
     # Sort
     font.glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_by_category))
