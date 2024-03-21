@@ -36,17 +36,23 @@ Oftentimes you may want to adjust language definitions in `gflanguages` _at the 
 Where are glyphsets defined?
 ------------------
 
-Glyphsets are defined in `.yaml` files directly inside the Python package folder [`/Lib/glyphsets/definitions`](/Lib/glyphsets/definitions), because they contain data that needs to be exposed to third-party tools such as `fontbakery`.
+Inside this repository, data is defined in two different places.
+One place is inside the `glyphsets` Python package (`/Lib/glyphsets/definitions`). This data that needs to be exposed to third-party tools such as `fontbakery`.
+The other place is in `/data/definitions`. This data is only used for authoring glyphsets and need not be distributed as part of the Python package.
 
-Additional files in the `data/definitions` sub-folders will become part of the glyphsets as soon as they are found to exist under a certain filename. If a file that you need doesn't exist there, create it in its place.
+1. **Inside Python package:** Glyphsets are defined in `.yaml` files inside the Python package folder at [`/Lib/glyphsets/definitions`](/Lib/glyphsets/definitions).
+
+2. **Outside of Python package:** Additional files in the `/data/definitions` sub-folders will become part of the glyphsets as soon as they are found to exist under a certain filename. If a file that you need doesn't exist there, create it in its place.
 
 Where are characters and glyphs defined?
 ------------------
 
 In order to determine where _characters_ (encoded with a Unicode) or _glyphs_ (unencoded) are defined, follow this logic:
-1. Is it a **language-specific encoded character**? Then it goes into the `gflanguages` database (which is a separate package) for example [here](https://github.com/googlefonts/lang/blob/main/Lib/gflanguages/data/languages/nl_Latn.textproto). `gflanguages` holds only encoded characters, not unencoded glyphs.
+1. Is it a **language-specific encoded character**? Then it goes into the `gflanguages` database (which is a separate package) for example [here](https://github.com/googlefonts/lang/blob/main/Lib/gflanguages/data/languages/nl_Latn.textproto). `gflanguages` holds only encoded characters, not unencoded glyphs. Prepare a separate PR for `gflanguages` if you are changing those definitions as well.
 1. Is it a **language-specific unencoded glyph**? Then it goes into `/data/definitions/per_language`
 1. Is it a more general **glyphset-specific character or glyph**? Then it goes into `/data/definitions/per_glyphset`
+
+If you find that you need additional separate definitions _per script_, contact @yanone to implement it.
 
 (Re-) Building glyphsets
 -----------------------
