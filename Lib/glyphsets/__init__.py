@@ -353,7 +353,7 @@ def get_glyphset_definition(glyphset_name):
     yaml_path = os.path.join(
         os.path.dirname(__file__), "definitions", f"{glyphset_name}.yaml"
     )
-    with open(yaml_path, "r") as f:
+    with open(yaml_path, "r", encoding="utf8") as f:
         return yaml.load(f, Loader=yaml.FullLoader)
 
 
