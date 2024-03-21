@@ -469,6 +469,12 @@ def description_per_glyphset(glyphset_name):
     md += f"* Script: {script}\n"
     if os.path.exists(glyphs_stub_path):
         md += f"* Characters and glyphs defined in [{os.path.basename(glyphs_stub_path)}](/data/definitions/per_glyphset/{os.path.basename(glyphs_stub_path)})\n"
+    for language_code in language_codes:
+        lang_stub_path = os.path.join(
+            root_folder, "definitions", "per_language", f"{language_code}.stub.glyphs"
+        )
+        if os.path.exists(lang_stub_path):
+            md += f"* Characters and glyphs defined in [{os.path.basename(lang_stub_path)}](/data/definitions/per_language/{os.path.basename(lang_stub_path)})\n"
     if regions:
         md += (
             "* All languages of the countries `\n"

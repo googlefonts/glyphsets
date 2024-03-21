@@ -1072,6 +1072,7 @@ The resulting glyphset can be found here: [.nam](/GF_glyphsets/Latin/nam/GF_Lati
 
 * Script: Latin
 * Characters and glyphs defined in [GF_Latin_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Latin_Core.stub.glyphs)
+* Characters and glyphs defined in [ca_Latn.stub.glyphs](/data/definitions/per_language/ca_Latn.stub.glyphs)
 * List of languages: `
 Albanian (sq_Latn),
 Catalan (ca_Latn),
