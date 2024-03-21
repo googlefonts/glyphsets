@@ -59,10 +59,10 @@ if __name__ == "__main__":
         md.append("| " + " | ".join(row) + " |")
 
     md.append(
-        "\n> [!NOTE]  \n> This document is a human-readable representation of the glyphset defintions defined in code [here](/Lib/glyphsets/definitions/__init__.py) and gets updated automatically as part of the `sh build.sh` command.\n"
+        "\n> [!NOTE]  \n> This document is a human-readable representation of the glyphset defintions defined in `.yaml` files [here](/Lib/glyphsets/definitions/) and gets updated automatically as part of the `sh build.sh` command.\n"
     )
     md.append(
-        "\n> [!NOTE]  \n> The symbols ✅ and 🛑 above denote whether or not this glyphset is available as part of Fontbakery's `shape_languages` check.\n"
+        "\n> [!NOTE]  \n> The symbols ✅ and 🛑 above denote whether or not this glyphset is available as part of Fontbakery's `shape_languages` check; in other words, whether or not language codes are defined for it.\n"
     )
 
     md.append("\n")
