@@ -5,8 +5,7 @@ This repository contains curated glyphsets that Google Fonts hands out to design
 
 > [!NOTE]  
 > **If you are a user** and you want to merely get your hands on ready-made glyphsets, pick your files straight out of the [`/data/results`](/data/results) folder, such as `.glyphs` files with empty placeholder glyphs, or `.plist` files that are so-called _Custom Filters_ that will show up in the Glyphs.app sidebar when placed alongside your source files. Alternatively, you can cook your own Custom Filters with the `glyphsets` tool, see the _Glyphsets Tool_ section at the bottom of this document.
-
-> [!NOTE]  
+>
 > The rest of this README is addressing people who are **editing** glyphset and language definitions.
 
 The repository recently (end of 2023/start of 2024) underwent a bigger overhaul in how the glyphsets are assembled. 
