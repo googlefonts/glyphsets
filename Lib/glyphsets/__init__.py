@@ -499,7 +499,7 @@ def description_per_glyphset(glyphset_name):
             + "\n`\n"
         )
     elif not regions and not language_codes:
-        md += "\n> [!CAUTION]  \n> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.\n> Please add language code definions [here](/Lib/glyphsets/definitions/__init__.py).\n"
+        md += f"\n> [!CAUTION]  \n> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.\n> Please add language code definions [here](/Lib/glyphsets/definitions/{glyphset_name}.yaml).\n"
         warning = True
 
     md += "\n"
