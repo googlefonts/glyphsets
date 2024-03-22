@@ -461,9 +461,9 @@ def description_per_glyphset(glyphset_name):
             + "\n\n"
         )
     if regions:
-        md += f"`{glyphset_name}` is **dynamically** defined as:\n\n"
+        md += f"`{glyphset_name}` is **dynamically** defined [here](/Lib/glyphsets/definitions/{glyphset_name}.yaml) as:\n\n"
     else:
-        md += f"`{glyphset_name}` is **statically** defined as:\n\n"
+        md += f"`{glyphset_name}` is **statically** defined [here](/Lib/glyphsets/definitions/{glyphset_name}.yaml) as:\n\n"
     md += f"* Script: {script}\n"
     if os.path.exists(glyphs_stub_path):
         md += f"* Characters and glyphs defined in [{os.path.basename(glyphs_stub_path)}](/data/definitions/per_glyphset/{os.path.basename(glyphs_stub_path)})\n"
