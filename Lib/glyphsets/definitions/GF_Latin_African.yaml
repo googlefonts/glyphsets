@@ -64,3 +64,9 @@ regions:
 - ZA
 - ZM
 - ZW
+excluded:
+- de_Latn
+- en_Latn
+- fr_Latn
+- pt_Latn
+- es_Latn
