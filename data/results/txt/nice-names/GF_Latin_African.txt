@@ -54,7 +54,6 @@ X
 Y
 Z
 bracketleft
-backslash
 bracketright
 a
 b
@@ -82,12 +81,10 @@ w
 x
 y
 z
-exclamdown
 ordfeminine
 guillemetleft
 ordmasculine
 guillemetright
-questiondown
 Agrave
 Aacute
 Acircumflex
@@ -116,7 +113,6 @@ Uacute
 Ucircumflex
 Udieresis
 Yacute
-germandbls
 agrave
 aacute
 acircumflex
@@ -152,8 +148,6 @@ Abreve
 abreve
 Aogonek
 aogonek
-Cacute
-cacute
 Ccircumflex
 ccircumflex
 Ccaron
@@ -162,16 +156,12 @@ Dcroat
 dcroat
 Emacron
 emacron
-Ebreve
-ebreve
 Edotaccent
 edotaccent
 Eogonek
 eogonek
 Ecaron
 ecaron
-Gbreve
-gbreve
 Hcircumflex
 hcircumflex
 Hbar
@@ -180,12 +170,8 @@ Itilde
 itilde
 Imacron
 imacron
-Ibreve
-ibreve
 Iogonek
 iogonek
-Idotaccent
-idotless
 Lacute
 lacute
 Nacute
@@ -196,8 +182,6 @@ Eng
 eng
 Omacron
 omacron
-Obreve
-obreve
 Ohungarumlaut
 ohungarumlaut
 OE
@@ -224,8 +208,6 @@ Utilde
 utilde
 Umacron
 umacron
-Ubreve
-ubreve
 Uhungarumlaut
 uhungarumlaut
 Uogonek
@@ -239,7 +221,6 @@ Zdotaccent
 zdotaccent
 Zcaron
 zcaron
-longs
 Bhook
 Btopbar
 btopbar
@@ -482,7 +463,6 @@ xdotaccent
 Zdotbelow
 zdotbelow
 hlinebelow
-Germandbls
 Adotbelow
 adotbelow
 Acircumflexdotbelow
@@ -509,15 +489,12 @@ endash
 emdash
 quoteleft
 quoteright
-quotesinglbase
 quotedblleft
 quotedblright
-quotedblbase
 ellipsis
 guilsinglleft
 guilsinglright
 imod
-minus
 A.circled
 a.circled
 Pstroke

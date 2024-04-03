@@ -406,11 +406,15 @@ def languages_per_glyphset(glyphset_name):
     use_aux = glyphset_definition.get("use_auxiliary", False)
     historical = glyphset_definition.get("historical", False)
     population = glyphset_definition.get("population", False)
+    exclude_language_codes = glyphset_definition.get("exclude_language_codes", set())
 
     # Assemble character sets from gflanguages
     languages = gflanguages.LoadLanguages()
     if regions:
         for language in languages.values():
+            if language.id in exclude_language_codes:
+                print(f"{language.id} excluded")
+                continue
             if not historical and language.historical:
                 continue
             if population > language.population:
