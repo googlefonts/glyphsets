@@ -3,6 +3,18 @@ Below are the most important changes from each release.
 ### v0.6.16 (2024-?)
 #### Changes since last release
 
+
+
+### v0.6.17 (2024-Apr-3)
+#### Changes since last release
+
+Reinstated deleted GFTestData for compatibility with diffenator2
+
+### v0.6.16 (2024-Apr-3)
+#### Changes since last release
+
+Actually nothing changed. Release was triggered prematurely.
+
 ### v0.6.15 (2024-Apr-3)
 #### Changes since last release
 
