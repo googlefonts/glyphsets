@@ -64,7 +64,7 @@ regions:
 - ZA
 - ZM
 - ZW
-excluded:
+exclude_language_codes:
 - de_Latn
 - en_Latn
 - fr_Latn
