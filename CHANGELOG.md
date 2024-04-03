@@ -1,6 +1,6 @@
 Below are the most important changes from each release.
 
-### v0.6.16 (2024-?)
+### v0.6.18 (2024-?)
 #### Changes since last release
 
 
