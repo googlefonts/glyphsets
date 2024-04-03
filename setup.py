@@ -44,6 +44,7 @@ setup(
     packages=["glyphsets", "glyphsets.definitions"],
     package_data={
         "glyphsets": [
+            "*.json",
             "definitions/*.yaml",
             "results/nam/*.nam",
         ]

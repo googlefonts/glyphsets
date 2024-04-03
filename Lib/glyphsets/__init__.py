@@ -7,6 +7,9 @@ import plistlib
 import os
 import gflanguages
 from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
+import copy
+import json
+import logging
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -14,79 +17,81 @@ except ImportError:
     __version__ = "0.0.0+unknown"
 
 
-# DATA_FP = os.path.join(os.path.dirname(__file__), "data.json")
-# TEST_STRINGS_DATA = os.path.join(os.path.dirname(__file__), "test_strings.json")
-# log = logging.getLogger(__file__)
+DATA_FP = os.path.join(os.path.dirname(__file__), "data.json")
+TEST_STRINGS_DATA = os.path.join(os.path.dirname(__file__), "test_strings.json")
+log = logging.getLogger(__file__)
+data = json.load(open(DATA_FP, encoding="utf8"))
 
 
-# class _GFGlyphData:
-#     def __init__(self, data=json.load(open(DATA_FP, encoding="utf8"))):
-#         self._data = copy(data)
-#         self._in_use = set(g["nice_name"] for g in self._data["glyphs"])
+class _GFGlyphData:
+    def __init__(self, data=data):
+        self._data = copy.copy(data)
+        self._in_use = set(g["nice_name"] for g in self._data["glyphs"])
 
-#     def save(self, fp=DATA_FP):
-#         with open(fp, "w") as db:
-#             json.dump(self._data, db, indent=2)
+    def save(self, fp=DATA_FP):
+        with open(fp, "w") as db:
+            json.dump(self._data, db, indent=2)
 
-#     @classmethod
-#     def from_json(cls, fp):
-#         with open(fp) as db:
-#             data = json.load(db)
-#             return cls(data)
+    @classmethod
+    def from_json(cls, fp):
+        with open(fp) as db:
+            data = json.load(db)
+            return cls(data)
 
-#     def __getitem__(self, k):
-#         return self._data[k]
+    def __getitem__(self, k):
+        return self._data[k]
 
-#     def glyphsets_in_font(self, ttFont):
-#         glyphs_in_font = set(ttFont.getGlyphOrder())
-#         unicodes_in_font = set(ttFont.getBestCmap().keys())
-#         res = {}
-#         for g in self["glyphs"]:
-#             for glyphset in g["glyphsets"]:
-#                 if glyphset not in res:
-#                     res[glyphset] = {"has": [], "missing": []}
-#                 if any(
-#                     [
-#                         g["nice_name"] in glyphs_in_font,
-#                         g["production_name"] in glyphs_in_font,
-#                         g["unicode"] in unicodes_in_font,
-#                     ]
-#                 ):
-#                     res[glyphset]["has"].append(g)
-#                 else:
-#                     res[glyphset]["missing"].append(g)
-#         return res
+    def glyphsets_in_font(self, ttFont):
+        glyphs_in_font = set(ttFont.getGlyphOrder())
+        unicodes_in_font = set(ttFont.getBestCmap().keys())
+        res = {}
+        for g in self["glyphs"]:
+            for glyphset in g["glyphsets"]:
+                if glyphset not in res:
+                    res[glyphset] = {"has": [], "missing": []}
+                if any(
+                    [
+                        g["nice_name"] in glyphs_in_font,
+                        g["production_name"] in glyphs_in_font,
+                        g["unicode"] in unicodes_in_font,
+                    ]
+                ):
+                    res[glyphset]["has"].append(g)
+                else:
+                    res[glyphset]["missing"].append(g)
+        return res
 
-#     def glyphsets_fulfilled(self, ttFont):
-#         res = self.glyphsets_in_font(ttFont)
-#         return {
-#             k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
-#             for k, v in res.items()
-#         }
+    def glyphsets_fulfilled(self, ttFont):
+        res = self.glyphsets_in_font(ttFont)
+        return {
+            k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
+            for k, v in res.items()
+        }
 
-#     def missing_glyphsets_in_font(self, ttFont, threshold=0.8):
-#         res = self.glyphsets_in_font(ttFont)
-#         fulfilled = {
-#             k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
-#             for k, v in res.items()
-#         }
-#         missing = {}
-#         for k, v in fulfilled.items():
-#             if v == 1.0 or v < threshold:
-#                 continue
-#             missing[k] = res[k]["missing"]
-#         return missing
+    def missing_glyphsets_in_font(self, ttFont, threshold=0.8):
+        res = self.glyphsets_in_font(ttFont)
+        fulfilled = {
+            k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
+            for k, v in res.items()
+        }
+        missing = {}
+        for k, v in fulfilled.items():
+            if v == 1.0 or v < threshold:
+                continue
+            missing[k] = res[k]["missing"]
+        return missing
 
-#     def glyphs_in_glyphsets(self, glyphsets):
-#         res = []
-#         seen = set()
-#         for g in self["glyphs"]:
-#             for glyphset in g["glyphsets"]:
-#                 if glyphset not in glyphsets or g["nice_name"] in seen:
-#                     continue
-#                 res.append(g)
-#                 seen.add(g["nice_name"])
-#         return res
+    def glyphs_in_glyphsets(self, glyphsets):
+        res = []
+        seen = set()
+        for g in self["glyphs"]:
+            for glyphset in g["glyphsets"]:
+                if glyphset not in glyphsets or g["nice_name"] in seen:
+                    continue
+                res.append(g)
+                seen.add(g["nice_name"])
+        return res
+
 
 # def update_db_from_sources(self, sources):
 #     """Update the database by using the glyphsets from source files.
@@ -240,32 +245,32 @@ except ImportError:
 #     raise NotImplementedError()
 
 
-# GFGlyphData = _GFGlyphData()
+GFGlyphData = _GFGlyphData()
 
 
-# class _TestDocData:
-#     def __init__(
-#         self,
-#         data=json.load(open(TEST_STRINGS_DATA, encoding="utf8")),
-#         glyphsets=GFGlyphData,
-#     ):
-#         self._data = data
-#         self._glyphsets = glyphsets
+class _TestDocData:
+    def __init__(
+        self,
+        data=json.load(open(TEST_STRINGS_DATA, encoding="utf8")),
+        glyphsets=GFGlyphData,
+    ):
+        self._data = data
+        self._glyphsets = glyphsets
 
-#     def test_strings_in_font(self, ttFont, threshold=0.95):
-#         res = {}
-#         glyphsets_in_font = self._glyphsets.glyphsets_fulfilled(ttFont)
-#         for glyphset, coverage in glyphsets_in_font.items():
-#             if coverage < threshold:
-#                 continue
-#             test_strings = self._data.get(glyphset)
-#             if not test_strings:
-#                 continue
-#             res[glyphset] = test_strings
-#         return res
+    def test_strings_in_font(self, ttFont, threshold=0.95):
+        res = {}
+        glyphsets_in_font = self._glyphsets.glyphsets_fulfilled(ttFont)
+        for glyphset, coverage in glyphsets_in_font.items():
+            if coverage < threshold:
+                continue
+            test_strings = self._data.get(glyphset)
+            if not test_strings:
+                continue
+            res[glyphset] = test_strings
+        return res
 
 
-# GFTestData = _TestDocData()
+GFTestData = _TestDocData()
 
 
 ## NEW SYSTEM:

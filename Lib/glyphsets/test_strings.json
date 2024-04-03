@@ -1,0 +1,110 @@
+{
+    "GF_Latin_Core": {
+        "Letter Groups": [
+            {
+                "string": "EFHIJLTU AVWXZ KMNY",
+                "lang": "en"
+            },
+            {
+                "string": "COQS BPRDGÞẞ",
+                "lang": "en"
+            },
+            {
+                "string": "hmnu ceogðsß abdpqþ",
+                "lang": "en"
+            },
+            {
+                "string": "kvwxyz fijltr",
+                "lang": "en"
+            },
+            {
+                "string": "0123456789",
+                "lang": "en"
+            },
+            {
+                "string": ".,:;/|?!-–—&@%([{}])°",
+                "lang": "en"
+            },
+            {
+                "string": "+−×÷=≠><≥≤±≈~¬∞",
+                "lang": "en"
+            }
+        ],
+        "Spacing": [
+            {
+                "string": "HHOHHOOHOO HIHOIO",
+                "lang": "en"
+            },
+            {
+                "string": "uuonouonoo ninoioolonlniuo",
+                "lang": "en"
+            },
+            {
+                "string": "010 080 030 020 050 060 070",
+                "lang": "en"
+            },
+            {
+                "string": "3+4=7 5>2 2x²−(8×7)÷9≈1",
+                "lang": "en"
+            },
+            {
+                "string": "L·L l·l",
+                "lang": "ca"
+            }
+        ],
+        "Kerning": [
+            {
+                "string": "HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH",
+                "lang": "en"
+            },
+            {
+                "string": "Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř",
+                "lang": "en"
+            },
+            {
+                "string": "HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj",
+                "lang": "en"
+            },
+            {
+                "string": "nin non nvn ovo oxo ayn fl fi fj ft gj ko rento",
+                "lang": "en"
+            },
+            {
+                "string": "ďá ďu gj ľk włw yły ółr fħ ílïlîl",
+                "lang": "en"
+            },
+            {
+                "string": "H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-",
+                "lang": "en"
+            },
+            {
+                "string": "n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}",
+                "lang": "en"
+            },
+            {
+                "string": "¿o,O? w@y «n•n» n*",
+                "lang": "en"
+            },
+            {
+                "string": "080 076 474 973 94 7078 54 24 272 679",
+                "lang": "en"
+            },
+            {
+                "string": "P4T47A .47,9.7-»4",
+                "lang": "en"
+            },
+            {
+                "string": "42°21′29″N 71°03′49″W",
+                "lang": "en"
+            },
+            {
+                "string": "d² m³ 15°C/26°F",
+                "lang": "en"
+            },
+            {
+                "string": "0/0\\0",
+                "lang": "en"
+            }
+        ]
+    }
+}
