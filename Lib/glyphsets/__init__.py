@@ -413,7 +413,6 @@ def languages_per_glyphset(glyphset_name):
     if regions:
         for language in languages.values():
             if language.id in exclude_language_codes:
-                print(f"{language.id} excluded")
                 continue
             if not historical and language.historical:
                 continue
