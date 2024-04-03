@@ -1,5 +1,25 @@
 Below are the most important changes from each release.
 
+### v0.6.16 (2024-?)
+#### Changes since last release
+
+### v0.6.15 (2024-Apr-3)
+#### Changes since last release
+
+- Excluded colonizer languages from African glyphset via new `exclude_language_codes` to prevent unnecessary glyphs (e.g. "ß") from appearing in the African Latin glyphset
+- Reintroduced `glyphsets filter-list` command to generate custom filter lists
+
+### v0.6.14 (2024-Feb-15)
+#### Changes since last release
+
+Added language codes for additional glyphsets that can be now covered in Fontbakery's shape_languages check.
+
+In total, these glyphsets are now covered:
+- Latin African+Core
+- Cyrillic Core
+- Greek Core
+- Arabic Core+Plus
+
 ### v0.6.13 (2024-Feb-9)
 #### Changes since last release
 
