@@ -1,3 +1,3 @@
 python scripts/assemble_charactersets.py
-echo "Assemble GLYPHSETS.md"
+echo "Assembling documentation for GLYPHSETS.md"
 python scripts/assemble_description.py
