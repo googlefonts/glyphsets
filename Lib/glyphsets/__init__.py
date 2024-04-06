@@ -524,8 +524,8 @@ def description_per_glyphset(glyphset_name):
     # Composed characters
     decomposed_chars = get_decomposed_chars(glyphset_name)
     if decomposed_chars:
-        md += f"### Decomposed Characters (for `ccmp`)\n\n"
-        md += f"The following {len(decomposed_chars)} composed characters are decomposed in the font:\n\n"
+        md += f"### Decomposed Characters\n\n"
+        md += f"The following {len(decomposed_chars)} composed character sequences are decomposed in the font:\n\n"
         md += "`\n"
         md += " ".join(decomposed_chars)
         md += "\n`\n\n"
