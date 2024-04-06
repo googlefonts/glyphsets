@@ -540,7 +540,7 @@ def description_per_glyphset(glyphset_name):
     md += f"### Resulting Glyphset Files\n\n"
     md += f".nam file (only encoded characters): [{glyphset_name}.nam](/data/results/nam/{glyphset_name}.nam)\n\n"
     md += f"Glyphs.app source file: [{glyphset_name}.glyphs](/data/results/glyphs/{glyphset_name}.glyphs)\n\n"
-    md += f"Text files: [{glyphset_name}.txt](/data/results/txt/nice-names/{glyphset_name}.txt) (nice names) and [{glyphset_name}.txt](/data/results/txt/nice-names/{glyphset_name}.txt) (production name)\n\n"
+    md += f"Text files: [{glyphset_name}.txt](/data/results/txt/nice-names/{glyphset_name}.txt) (nice names) and [{glyphset_name}.txt](/data/results/txt/prod-names/{glyphset_name}.txt) (production names)\n\n"
     md += f"Glyphs.app Custom Filter List (contains all {script} glyphsets): [CustomFilter_GF_{script}.plist](/data/results/plist/CustomFilter_GF_{script}.plist)\n\n"
 
     return md, warning

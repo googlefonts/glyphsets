@@ -42,7 +42,7 @@ Urdu (ur_Arab)
 
 Glyphs.app source file: [GF_Arabic_Core.glyphs](/data/results/glyphs/GF_Arabic_Core.glyphs)
 
-Text files: [GF_Arabic_Core.txt](/data/results/txt/nice-names/GF_Arabic_Core.txt) (nice names) and [GF_Arabic_Core.txt](/data/results/txt/nice-names/GF_Arabic_Core.txt) (production name)
+Text files: [GF_Arabic_Core.txt](/data/results/txt/nice-names/GF_Arabic_Core.txt) (nice names) and [GF_Arabic_Core.txt](/data/results/txt/prod-names/GF_Arabic_Core.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Arabic glyphsets): [CustomFilter_GF_Arabic.plist](/data/results/plist/CustomFilter_GF_Arabic.plist)
 
@@ -70,7 +70,7 @@ Uyghur (ug_Arab)
 
 Glyphs.app source file: [GF_Arabic_Plus.glyphs](/data/results/glyphs/GF_Arabic_Plus.glyphs)
 
-Text files: [GF_Arabic_Plus.txt](/data/results/txt/nice-names/GF_Arabic_Plus.txt) (nice names) and [GF_Arabic_Plus.txt](/data/results/txt/nice-names/GF_Arabic_Plus.txt) (production name)
+Text files: [GF_Arabic_Plus.txt](/data/results/txt/nice-names/GF_Arabic_Plus.txt) (nice names) and [GF_Arabic_Plus.txt](/data/results/txt/prod-names/GF_Arabic_Plus.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Arabic glyphsets): [CustomFilter_GF_Arabic.plist](/data/results/plist/CustomFilter_GF_Arabic.plist)
 
@@ -95,7 +95,7 @@ Ukrainian (uk_Cyrl)
 
 Glyphs.app source file: [GF_Cyrillic_Core.glyphs](/data/results/glyphs/GF_Cyrillic_Core.glyphs)
 
-Text files: [GF_Cyrillic_Core.txt](/data/results/txt/nice-names/GF_Cyrillic_Core.txt) (nice names) and [GF_Cyrillic_Core.txt](/data/results/txt/nice-names/GF_Cyrillic_Core.txt) (production name)
+Text files: [GF_Cyrillic_Core.txt](/data/results/txt/nice-names/GF_Cyrillic_Core.txt) (nice names) and [GF_Cyrillic_Core.txt](/data/results/txt/prod-names/GF_Cyrillic_Core.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_GF_Cyrillic.plist](/data/results/plist/CustomFilter_GF_Cyrillic.plist)
 
@@ -121,7 +121,7 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 Glyphs.app source file: [GF_Cyrillic_Historical.glyphs](/data/results/glyphs/GF_Cyrillic_Historical.glyphs)
 
-Text files: [GF_Cyrillic_Historical.txt](/data/results/txt/nice-names/GF_Cyrillic_Historical.txt) (nice names) and [GF_Cyrillic_Historical.txt](/data/results/txt/nice-names/GF_Cyrillic_Historical.txt) (production name)
+Text files: [GF_Cyrillic_Historical.txt](/data/results/txt/nice-names/GF_Cyrillic_Historical.txt) (nice names) and [GF_Cyrillic_Historical.txt](/data/results/txt/prod-names/GF_Cyrillic_Historical.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_GF_Cyrillic.plist](/data/results/plist/CustomFilter_GF_Cyrillic.plist)
 
@@ -151,7 +151,7 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 Glyphs.app source file: [GF_Cyrillic_Plus.glyphs](/data/results/glyphs/GF_Cyrillic_Plus.glyphs)
 
-Text files: [GF_Cyrillic_Plus.txt](/data/results/txt/nice-names/GF_Cyrillic_Plus.txt) (nice names) and [GF_Cyrillic_Plus.txt](/data/results/txt/nice-names/GF_Cyrillic_Plus.txt) (production name)
+Text files: [GF_Cyrillic_Plus.txt](/data/results/txt/nice-names/GF_Cyrillic_Plus.txt) (nice names) and [GF_Cyrillic_Plus.txt](/data/results/txt/prod-names/GF_Cyrillic_Plus.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_GF_Cyrillic.plist](/data/results/plist/CustomFilter_GF_Cyrillic.plist)
 
@@ -177,7 +177,7 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 Glyphs.app source file: [GF_Cyrillic_Pro.glyphs](/data/results/glyphs/GF_Cyrillic_Pro.glyphs)
 
-Text files: [GF_Cyrillic_Pro.txt](/data/results/txt/nice-names/GF_Cyrillic_Pro.txt) (nice names) and [GF_Cyrillic_Pro.txt](/data/results/txt/nice-names/GF_Cyrillic_Pro.txt) (production name)
+Text files: [GF_Cyrillic_Pro.txt](/data/results/txt/nice-names/GF_Cyrillic_Pro.txt) (nice names) and [GF_Cyrillic_Pro.txt](/data/results/txt/prod-names/GF_Cyrillic_Pro.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_GF_Cyrillic.plist](/data/results/plist/CustomFilter_GF_Cyrillic.plist)
 
@@ -207,7 +207,7 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 Glyphs.app source file: [GF_Greek_AncientMusicalSymbols.glyphs](/data/results/glyphs/GF_Greek_AncientMusicalSymbols.glyphs)
 
-Text files: [GF_Greek_AncientMusicalSymbols.txt](/data/results/txt/nice-names/GF_Greek_AncientMusicalSymbols.txt) (nice names) and [GF_Greek_AncientMusicalSymbols.txt](/data/results/txt/nice-names/GF_Greek_AncientMusicalSymbols.txt) (production name)
+Text files: [GF_Greek_AncientMusicalSymbols.txt](/data/results/txt/nice-names/GF_Greek_AncientMusicalSymbols.txt) (nice names) and [GF_Greek_AncientMusicalSymbols.txt](/data/results/txt/prod-names/GF_Greek_AncientMusicalSymbols.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_Greek.plist](/data/results/plist/CustomFilter_GF_Greek.plist)
 
@@ -245,7 +245,7 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 
 Glyphs.app source file: [GF_Greek_Archaic.glyphs](/data/results/glyphs/GF_Greek_Archaic.glyphs)
 
-Text files: [GF_Greek_Archaic.txt](/data/results/txt/nice-names/GF_Greek_Archaic.txt) (nice names) and [GF_Greek_Archaic.txt](/data/results/txt/nice-names/GF_Greek_Archaic.txt) (production name)
+Text files: [GF_Greek_Archaic.txt](/data/results/txt/nice-names/GF_Greek_Archaic.txt) (nice names) and [GF_Greek_Archaic.txt](/data/results/txt/prod-names/GF_Greek_Archaic.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_Greek.plist](/data/results/plist/CustomFilter_GF_Greek.plist)
 
@@ -287,7 +287,7 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 
 Glyphs.app source file: [GF_Greek_Coptic.glyphs](/data/results/glyphs/GF_Greek_Coptic.glyphs)
 
-Text files: [GF_Greek_Coptic.txt](/data/results/txt/nice-names/GF_Greek_Coptic.txt) (nice names) and [GF_Greek_Coptic.txt](/data/results/txt/nice-names/GF_Greek_Coptic.txt) (production name)
+Text files: [GF_Greek_Coptic.txt](/data/results/txt/nice-names/GF_Greek_Coptic.txt) (nice names) and [GF_Greek_Coptic.txt](/data/results/txt/prod-names/GF_Greek_Coptic.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_Greek.plist](/data/results/plist/CustomFilter_GF_Greek.plist)
 
@@ -319,7 +319,7 @@ Greek (el_Grek)
 
 Glyphs.app source file: [GF_Greek_Core.glyphs](/data/results/glyphs/GF_Greek_Core.glyphs)
 
-Text files: [GF_Greek_Core.txt](/data/results/txt/nice-names/GF_Greek_Core.txt) (nice names) and [GF_Greek_Core.txt](/data/results/txt/nice-names/GF_Greek_Core.txt) (production name)
+Text files: [GF_Greek_Core.txt](/data/results/txt/nice-names/GF_Greek_Core.txt) (nice names) and [GF_Greek_Core.txt](/data/results/txt/prod-names/GF_Greek_Core.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_Greek.plist](/data/results/plist/CustomFilter_GF_Greek.plist)
 
@@ -352,7 +352,7 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 
 Glyphs.app source file: [GF_Greek_Expert.glyphs](/data/results/glyphs/GF_Greek_Expert.glyphs)
 
-Text files: [GF_Greek_Expert.txt](/data/results/txt/nice-names/GF_Greek_Expert.txt) (nice names) and [GF_Greek_Expert.txt](/data/results/txt/nice-names/GF_Greek_Expert.txt) (production name)
+Text files: [GF_Greek_Expert.txt](/data/results/txt/nice-names/GF_Greek_Expert.txt) (nice names) and [GF_Greek_Expert.txt](/data/results/txt/prod-names/GF_Greek_Expert.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_Greek.plist](/data/results/plist/CustomFilter_GF_Greek.plist)
 
@@ -388,7 +388,7 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 
 Glyphs.app source file: [GF_Greek_Plus.glyphs](/data/results/glyphs/GF_Greek_Plus.glyphs)
 
-Text files: [GF_Greek_Plus.txt](/data/results/txt/nice-names/GF_Greek_Plus.txt) (nice names) and [GF_Greek_Plus.txt](/data/results/txt/nice-names/GF_Greek_Plus.txt) (production name)
+Text files: [GF_Greek_Plus.txt](/data/results/txt/nice-names/GF_Greek_Plus.txt) (nice names) and [GF_Greek_Plus.txt](/data/results/txt/prod-names/GF_Greek_Plus.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_Greek.plist](/data/results/plist/CustomFilter_GF_Greek.plist)
 
@@ -457,7 +457,7 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 
 Glyphs.app source file: [GF_Greek_Pro.glyphs](/data/results/glyphs/GF_Greek_Pro.glyphs)
 
-Text files: [GF_Greek_Pro.txt](/data/results/txt/nice-names/GF_Greek_Pro.txt) (nice names) and [GF_Greek_Pro.txt](/data/results/txt/nice-names/GF_Greek_Pro.txt) (production name)
+Text files: [GF_Greek_Pro.txt](/data/results/txt/nice-names/GF_Greek_Pro.txt) (nice names) and [GF_Greek_Pro.txt](/data/results/txt/prod-names/GF_Greek_Pro.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_Greek.plist](/data/results/plist/CustomFilter_GF_Greek.plist)
 
@@ -1159,7 +1159,7 @@ A̋ A̍ A̧ A̰ A̱ A᷄ A᷅ A᷆ A᷇ B̀ B́ B̯ C̱ D̯ E̋ E̍ E̱ E᷄ E�
 
 Glyphs.app source file: [GF_Latin_African.glyphs](/data/results/glyphs/GF_Latin_African.glyphs)
 
-Text files: [GF_Latin_African.txt](/data/results/txt/nice-names/GF_Latin_African.txt) (nice names) and [GF_Latin_African.txt](/data/results/txt/nice-names/GF_Latin_African.txt) (production name)
+Text files: [GF_Latin_African.txt](/data/results/txt/nice-names/GF_Latin_African.txt) (nice names) and [GF_Latin_African.txt](/data/results/txt/prod-names/GF_Latin_African.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_Latin.plist](/data/results/plist/CustomFilter_GF_Latin.plist)
 
@@ -1187,7 +1187,7 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 
 Glyphs.app source file: [GF_Latin_Beyond.glyphs](/data/results/glyphs/GF_Latin_Beyond.glyphs)
 
-Text files: [GF_Latin_Beyond.txt](/data/results/txt/nice-names/GF_Latin_Beyond.txt) (nice names) and [GF_Latin_Beyond.txt](/data/results/txt/nice-names/GF_Latin_Beyond.txt) (production name)
+Text files: [GF_Latin_Beyond.txt](/data/results/txt/nice-names/GF_Latin_Beyond.txt) (nice names) and [GF_Latin_Beyond.txt](/data/results/txt/prod-names/GF_Latin_Beyond.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_Latin.plist](/data/results/plist/CustomFilter_GF_Latin.plist)
 
@@ -1246,7 +1246,7 @@ The following 2 composed character sequences are decomposed in the font:
 
 Glyphs.app source file: [GF_Latin_Core.glyphs](/data/results/glyphs/GF_Latin_Core.glyphs)
 
-Text files: [GF_Latin_Core.txt](/data/results/txt/nice-names/GF_Latin_Core.txt) (nice names) and [GF_Latin_Core.txt](/data/results/txt/nice-names/GF_Latin_Core.txt) (production name)
+Text files: [GF_Latin_Core.txt](/data/results/txt/nice-names/GF_Latin_Core.txt) (nice names) and [GF_Latin_Core.txt](/data/results/txt/prod-names/GF_Latin_Core.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_Latin.plist](/data/results/plist/CustomFilter_GF_Latin.plist)
 
@@ -1277,7 +1277,7 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 
 Glyphs.app source file: [GF_Latin_Kernel.glyphs](/data/results/glyphs/GF_Latin_Kernel.glyphs)
 
-Text files: [GF_Latin_Kernel.txt](/data/results/txt/nice-names/GF_Latin_Kernel.txt) (nice names) and [GF_Latin_Kernel.txt](/data/results/txt/nice-names/GF_Latin_Kernel.txt) (production name)
+Text files: [GF_Latin_Kernel.txt](/data/results/txt/nice-names/GF_Latin_Kernel.txt) (nice names) and [GF_Latin_Kernel.txt](/data/results/txt/prod-names/GF_Latin_Kernel.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_Latin.plist](/data/results/plist/CustomFilter_GF_Latin.plist)
 
@@ -1303,7 +1303,7 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 
 Glyphs.app source file: [GF_Latin_Plus.glyphs](/data/results/glyphs/GF_Latin_Plus.glyphs)
 
-Text files: [GF_Latin_Plus.txt](/data/results/txt/nice-names/GF_Latin_Plus.txt) (nice names) and [GF_Latin_Plus.txt](/data/results/txt/nice-names/GF_Latin_Plus.txt) (production name)
+Text files: [GF_Latin_Plus.txt](/data/results/txt/nice-names/GF_Latin_Plus.txt) (nice names) and [GF_Latin_Plus.txt](/data/results/txt/prod-names/GF_Latin_Plus.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_Latin.plist](/data/results/plist/CustomFilter_GF_Latin.plist)
 
@@ -1325,7 +1325,7 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 
 Glyphs.app source file: [GF_Latin_PriAfrican.glyphs](/data/results/glyphs/GF_Latin_PriAfrican.glyphs)
 
-Text files: [GF_Latin_PriAfrican.txt](/data/results/txt/nice-names/GF_Latin_PriAfrican.txt) (nice names) and [GF_Latin_PriAfrican.txt](/data/results/txt/nice-names/GF_Latin_PriAfrican.txt) (production name)
+Text files: [GF_Latin_PriAfrican.txt](/data/results/txt/nice-names/GF_Latin_PriAfrican.txt) (nice names) and [GF_Latin_PriAfrican.txt](/data/results/txt/prod-names/GF_Latin_PriAfrican.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_Latin.plist](/data/results/plist/CustomFilter_GF_Latin.plist)
 
@@ -1351,7 +1351,7 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 
 Glyphs.app source file: [GF_Latin_Vietnamese.glyphs](/data/results/glyphs/GF_Latin_Vietnamese.glyphs)
 
-Text files: [GF_Latin_Vietnamese.txt](/data/results/txt/nice-names/GF_Latin_Vietnamese.txt) (nice names) and [GF_Latin_Vietnamese.txt](/data/results/txt/nice-names/GF_Latin_Vietnamese.txt) (production name)
+Text files: [GF_Latin_Vietnamese.txt](/data/results/txt/nice-names/GF_Latin_Vietnamese.txt) (nice names) and [GF_Latin_Vietnamese.txt](/data/results/txt/prod-names/GF_Latin_Vietnamese.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_Latin.plist](/data/results/plist/CustomFilter_GF_Latin.plist)
 
@@ -1377,7 +1377,7 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 
 Glyphs.app source file: [GF_Phonetics_APA.glyphs](/data/results/glyphs/GF_Phonetics_APA.glyphs)
 
-Text files: [GF_Phonetics_APA.txt](/data/results/txt/nice-names/GF_Phonetics_APA.txt) (nice names) and [GF_Phonetics_APA.txt](/data/results/txt/nice-names/GF_Phonetics_APA.txt) (production name)
+Text files: [GF_Phonetics_APA.txt](/data/results/txt/nice-names/GF_Phonetics_APA.txt) (nice names) and [GF_Phonetics_APA.txt](/data/results/txt/prod-names/GF_Phonetics_APA.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_GF_Phonetics.plist](/data/results/plist/CustomFilter_GF_Phonetics.plist)
 
@@ -1403,7 +1403,7 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 
 Glyphs.app source file: [GF_Phonetics_DisorderedSpeech.glyphs](/data/results/glyphs/GF_Phonetics_DisorderedSpeech.glyphs)
 
-Text files: [GF_Phonetics_DisorderedSpeech.txt](/data/results/txt/nice-names/GF_Phonetics_DisorderedSpeech.txt) (nice names) and [GF_Phonetics_DisorderedSpeech.txt](/data/results/txt/nice-names/GF_Phonetics_DisorderedSpeech.txt) (production name)
+Text files: [GF_Phonetics_DisorderedSpeech.txt](/data/results/txt/nice-names/GF_Phonetics_DisorderedSpeech.txt) (nice names) and [GF_Phonetics_DisorderedSpeech.txt](/data/results/txt/prod-names/GF_Phonetics_DisorderedSpeech.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_GF_Phonetics.plist](/data/results/plist/CustomFilter_GF_Phonetics.plist)
 
@@ -1429,7 +1429,7 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 
 Glyphs.app source file: [GF_Phonetics_IPAHistorical.glyphs](/data/results/glyphs/GF_Phonetics_IPAHistorical.glyphs)
 
-Text files: [GF_Phonetics_IPAHistorical.txt](/data/results/txt/nice-names/GF_Phonetics_IPAHistorical.txt) (nice names) and [GF_Phonetics_IPAHistorical.txt](/data/results/txt/nice-names/GF_Phonetics_IPAHistorical.txt) (production name)
+Text files: [GF_Phonetics_IPAHistorical.txt](/data/results/txt/nice-names/GF_Phonetics_IPAHistorical.txt) (nice names) and [GF_Phonetics_IPAHistorical.txt](/data/results/txt/prod-names/GF_Phonetics_IPAHistorical.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_GF_Phonetics.plist](/data/results/plist/CustomFilter_GF_Phonetics.plist)
 
@@ -1455,7 +1455,7 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 
 Glyphs.app source file: [GF_Phonetics_IPAStandard.glyphs](/data/results/glyphs/GF_Phonetics_IPAStandard.glyphs)
 
-Text files: [GF_Phonetics_IPAStandard.txt](/data/results/txt/nice-names/GF_Phonetics_IPAStandard.txt) (nice names) and [GF_Phonetics_IPAStandard.txt](/data/results/txt/nice-names/GF_Phonetics_IPAStandard.txt) (production name)
+Text files: [GF_Phonetics_IPAStandard.txt](/data/results/txt/nice-names/GF_Phonetics_IPAStandard.txt) (nice names) and [GF_Phonetics_IPAStandard.txt](/data/results/txt/prod-names/GF_Phonetics_IPAStandard.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_GF_Phonetics.plist](/data/results/plist/CustomFilter_GF_Phonetics.plist)
 
@@ -1481,7 +1481,7 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 
 Glyphs.app source file: [GF_Phonetics_SinoExt.glyphs](/data/results/glyphs/GF_Phonetics_SinoExt.glyphs)
 
-Text files: [GF_Phonetics_SinoExt.txt](/data/results/txt/nice-names/GF_Phonetics_SinoExt.txt) (nice names) and [GF_Phonetics_SinoExt.txt](/data/results/txt/nice-names/GF_Phonetics_SinoExt.txt) (production name)
+Text files: [GF_Phonetics_SinoExt.txt](/data/results/txt/nice-names/GF_Phonetics_SinoExt.txt) (nice names) and [GF_Phonetics_SinoExt.txt](/data/results/txt/prod-names/GF_Phonetics_SinoExt.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_GF_Phonetics.plist](/data/results/plist/CustomFilter_GF_Phonetics.plist)
 
@@ -1507,7 +1507,7 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 
 Glyphs.app source file: [GF_TransLatin_Arabic.glyphs](/data/results/glyphs/GF_TransLatin_Arabic.glyphs)
 
-Text files: [GF_TransLatin_Arabic.txt](/data/results/txt/nice-names/GF_TransLatin_Arabic.txt) (nice names) and [GF_TransLatin_Arabic.txt](/data/results/txt/nice-names/GF_TransLatin_Arabic.txt) (production name)
+Text files: [GF_TransLatin_Arabic.txt](/data/results/txt/nice-names/GF_TransLatin_Arabic.txt) (nice names) and [GF_TransLatin_Arabic.txt](/data/results/txt/prod-names/GF_TransLatin_Arabic.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all TransLatin glyphsets): [CustomFilter_GF_TransLatin.plist](/data/results/plist/CustomFilter_GF_TransLatin.plist)
 
@@ -1533,7 +1533,7 @@ Glyphs.app Custom Filter List (contains all TransLatin glyphsets): [CustomFilter
 
 Glyphs.app source file: [GF_TransLatin_Pinyin.glyphs](/data/results/glyphs/GF_TransLatin_Pinyin.glyphs)
 
-Text files: [GF_TransLatin_Pinyin.txt](/data/results/txt/nice-names/GF_TransLatin_Pinyin.txt) (nice names) and [GF_TransLatin_Pinyin.txt](/data/results/txt/nice-names/GF_TransLatin_Pinyin.txt) (production name)
+Text files: [GF_TransLatin_Pinyin.txt](/data/results/txt/nice-names/GF_TransLatin_Pinyin.txt) (nice names) and [GF_TransLatin_Pinyin.txt](/data/results/txt/prod-names/GF_TransLatin_Pinyin.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all TransLatin glyphsets): [CustomFilter_GF_TransLatin.plist](/data/results/plist/CustomFilter_GF_TransLatin.plist)
 
