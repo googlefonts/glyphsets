@@ -454,6 +454,7 @@ def description_per_glyphset(glyphset_name):
     historical = glyphset_definition.get("historical", False)
     population = glyphset_definition.get("population", False)
     description = glyphset_definition.get("description", None)
+    exclude_language_codes = glyphset_definition.get("exclude_language_codes", [])
 
     glyphs_stub_path = os.path.join(
         root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.glyphs"
@@ -494,6 +495,12 @@ def description_per_glyphset(glyphset_name):
         md += "* Including historical languages\n"
     if use_aux:
         md += "* Including auxiliary characters\n"
+    if exclude_language_codes:
+        md += (
+            "* Excluding the following languages: `\n"
+            + ",\n".join(sorted(map(add_language, exclude_language_codes)))
+            + "\n`\n"
+        )
 
     if regions and language_codes:
         md += (

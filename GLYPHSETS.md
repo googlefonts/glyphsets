@@ -533,6 +533,13 @@ Zimbabwe (ZW)
 `
 * With a population of over 1 speakers
 * Including auxiliary characters
+* Excluding the following languages: `
+English (en_Latn),
+French (fr_Latn),
+German (de_Latn),
+Portuguese (pt_Latn),
+Spanish (es_Latn)
+`
 
 
 The following list of **598** languages is computed as a result of the dynamic conditions described above:
