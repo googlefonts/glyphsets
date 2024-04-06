@@ -233,29 +233,29 @@
 			<string>Oopen</string>
 			<string>Chook</string>
 			<string>chook</string>
-			<string>Dafrican</string>
+			<string>Dtail</string>
 			<string>Dhook</string>
-			<string>Ereversed</string>
+			<string>Eturned</string>
 			<string>Schwa</string>
 			<string>Eopen</string>
 			<string>Fhook</string>
 			<string>florin</string>
 			<string>Ghook</string>
-			<string>Gammaafrican</string>
-			<string>Iotaafrican</string>
+			<string>Gamma-latin</string>
+			<string>Iota-latin</string>
 			<string>Istroke</string>
 			<string>Khook</string>
 			<string>khook</string>
 			<string>Mturned</string>
 			<string>Nhookleft</string>
-			<string>Ocenteredtilde</string>
+			<string>Obarred</string>
 			<string>Phook</string>
 			<string>phook</string>
 			<string>Esh</string>
 			<string>Thook</string>
 			<string>thook</string>
 			<string>Tretroflexhook</string>
-			<string>Upsilonafrican</string>
+			<string>Upsilon-latin</string>
 			<string>Vhook</string>
 			<string>Yhook</string>
 			<string>yhook</string>
@@ -308,7 +308,7 @@
 			<string>ecedilla</string>
 			<string>Ymacron</string>
 			<string>ymacron</string>
-			<string>Glottalstop</string>
+			<string>Glottalstopsmall</string>
 			<string>glottalstopsmall</string>
 			<string>Ubar</string>
 			<string>Vturned</string>
@@ -335,7 +335,7 @@
 			<string>mturned</string>
 			<string>nhookleft</string>
 			<string>obarred</string>
-			<string>rhook</string>
+			<string>rtail</string>
 			<string>esh</string>
 			<string>tretroflexhook</string>
 			<string>ubar</string>
@@ -392,14 +392,14 @@
 			<string>acutemacroncomb</string>
 			<string>Bdotbelow</string>
 			<string>bdotbelow</string>
-			<string>Blinebelow</string>
-			<string>blinebelow</string>
+			<string>Bmacronbelow</string>
+			<string>bmacronbelow</string>
 			<string>Ddotaccent</string>
 			<string>ddotaccent</string>
 			<string>Ddotbelow</string>
 			<string>ddotbelow</string>
-			<string>Dlinebelow</string>
-			<string>dlinebelow</string>
+			<string>Dmacronbelow</string>
+			<string>dmacronbelow</string>
 			<string>Dcircumflexbelow</string>
 			<string>dcircumflexbelow</string>
 			<string>Emacrongrave</string>
@@ -416,8 +416,8 @@
 			<string>idieresisacute</string>
 			<string>Kdotbelow</string>
 			<string>kdotbelow</string>
-			<string>Klinebelow</string>
-			<string>klinebelow</string>
+			<string>Kmacronbelow</string>
+			<string>kmacronbelow</string>
 			<string>Ldotbelow</string>
 			<string>ldotbelow</string>
 			<string>Lcircumflexbelow</string>
@@ -430,8 +430,8 @@
 			<string>ndotaccent</string>
 			<string>Ndotbelow</string>
 			<string>ndotbelow</string>
-			<string>Nlinebelow</string>
-			<string>nlinebelow</string>
+			<string>Nmacronbelow</string>
+			<string>nmacronbelow</string>
 			<string>Ncircumflexbelow</string>
 			<string>ncircumflexbelow</string>
 			<string>Otildeacute</string>
@@ -448,8 +448,8 @@
 			<string>tdotaccent</string>
 			<string>Tdotbelow</string>
 			<string>tdotbelow</string>
-			<string>Tlinebelow</string>
-			<string>tlinebelow</string>
+			<string>Tmacronbelow</string>
+			<string>tmacronbelow</string>
 			<string>Tcircumflexbelow</string>
 			<string>tcircumflexbelow</string>
 			<string>Udieresisbelow</string>
@@ -468,7 +468,7 @@
 			<string>xdotaccent</string>
 			<string>Zdotbelow</string>
 			<string>zdotbelow</string>
-			<string>hlinebelow</string>
+			<string>hmacronbelow</string>
 			<string>Adotbelow</string>
 			<string>adotbelow</string>
 			<string>Acircumflexdotbelow</string>

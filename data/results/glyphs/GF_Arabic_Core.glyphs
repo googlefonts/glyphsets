@@ -341,43 +341,43 @@ glyphname = "thousandseparator-ar";
 unicode = 1644;
 },
 {
-glyphname = "zero-persian";
+glyphname = "zeroFarsi-ar";
 unicode = 1776;
 },
 {
-glyphname = "one-persian";
+glyphname = "oneFarsi-ar";
 unicode = 1777;
 },
 {
-glyphname = "two-persian";
+glyphname = "twoFarsi-ar";
 unicode = 1778;
 },
 {
-glyphname = "three-persian";
+glyphname = "threeFarsi-ar";
 unicode = 1779;
 },
 {
-glyphname = "four-persian";
+glyphname = "fourFarsi-ar";
 unicode = 1780;
 },
 {
-glyphname = "five-persian";
+glyphname = "fiveFarsi-ar";
 unicode = 1781;
 },
 {
-glyphname = "six-persian";
+glyphname = "sixFarsi-ar";
 unicode = 1782;
 },
 {
-glyphname = "seven-persian";
+glyphname = "sevenFarsi-ar";
 unicode = 1783;
 },
 {
-glyphname = "eight-persian";
+glyphname = "eightFarsi-ar";
 unicode = 1784;
 },
 {
-glyphname = "nine-persian";
+glyphname = "nineFarsi-ar";
 unicode = 1785;
 },
 {
@@ -621,7 +621,7 @@ glyphname = "hehgoal-ar";
 unicode = 1729;
 },
 {
-glyphname = "yeh-farsi";
+glyphname = "yehFarsi-ar";
 unicode = 1740;
 },
 {

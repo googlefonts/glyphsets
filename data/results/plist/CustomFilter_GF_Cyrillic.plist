@@ -84,8 +84,8 @@
 			<string>Yeru-cy</string>
 			<string>Softsign-cy</string>
 			<string>Ereversed-cy</string>
-			<string>Iu-cy</string>
-			<string>Ia-cy</string>
+			<string>Yu-cy</string>
+			<string>Ya-cy</string>
 			<string>a-cy</string>
 			<string>be-cy</string>
 			<string>ve-cy</string>
@@ -116,8 +116,8 @@
 			<string>yeru-cy</string>
 			<string>softsign-cy</string>
 			<string>ereversed-cy</string>
-			<string>iu-cy</string>
-			<string>ia-cy</string>
+			<string>yu-cy</string>
+			<string>ya-cy</string>
 			<string>io-cy</string>
 			<string>dje-cy</string>
 			<string>e-cy</string>
@@ -129,8 +129,8 @@
 			<string>tshe-cy</string>
 			<string>ushort-cy</string>
 			<string>dzhe-cy</string>
-			<string>Gheupturn-cy</string>
-			<string>gheupturn-cy</string>
+			<string>Geupturn-cy</string>
+			<string>geupturn-cy</string>
 			<string>endash</string>
 			<string>emdash</string>
 			<string>quoteleft</string>
@@ -283,10 +283,10 @@
 			<string>tugrik</string>
 			<string>hryvnia</string>
 			<string>tenge</string>
-			<string>Gestroke-cy.loclBSH</string>
-			<string>yu-cy.loclBGR</string>
-			<string>gestroke-cy.loclBSH</string>
 			<string>brevecomb-cy</string>
+			<string>gestroke-cy.loclBSH</string>
+			<string>yu-cy.loclBGR</string>
+			<string>Gestroke-cy.loclBSH</string>
 			<string>De-cy.loclBGR</string>
 			<string>Ii-cy.loclBGR</string>
 			<string>Iishort-cy.loclBGR</string>

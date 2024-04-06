@@ -401,11 +401,11 @@ glyphname = "Ereversed-cy";
 unicode = 1069;
 },
 {
-glyphname = "Iu-cy";
+glyphname = "Yu-cy";
 unicode = 1070;
 },
 {
-glyphname = "Ia-cy";
+glyphname = "Ya-cy";
 unicode = 1071;
 },
 {
@@ -529,11 +529,11 @@ glyphname = "ereversed-cy";
 unicode = 1101;
 },
 {
-glyphname = "iu-cy";
+glyphname = "yu-cy";
 unicode = 1102;
 },
 {
-glyphname = "ia-cy";
+glyphname = "ya-cy";
 unicode = 1103;
 },
 {
@@ -581,11 +581,11 @@ glyphname = "dzhe-cy";
 unicode = 1119;
 },
 {
-glyphname = "Gheupturn-cy";
+glyphname = "Geupturn-cy";
 unicode = 1168;
 },
 {
-glyphname = "gheupturn-cy";
+glyphname = "geupturn-cy";
 unicode = 1169;
 }
 );

@@ -57,33 +57,6 @@ name = Regular;
 );
 glyphs = (
 {
-glyphname = "Gestroke-cy.loclBSH";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "yu-cy.loclBGR";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "gestroke-cy.loclBSH";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
 glyphname = tugrik;
 unicode = 8366;
 },
@@ -128,6 +101,33 @@ unicode = 776;
 {
 glyphname = hungarumlautcomb;
 unicode = 779;
+},
+{
+glyphname = "gestroke-cy.loclBSH";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "yu-cy.loclBGR";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "Gestroke-cy.loclBSH";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
 },
 {
 glyphname = "De-cy.loclBGR";

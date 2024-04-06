@@ -49,6 +49,990 @@ name = Regular;
 );
 glyphs = (
 {
+glyphname = "gorgonNeoKato-byzantineMusic";
+unicode = 119029;
+},
+{
+glyphname = "klasmaKato-byzantineMusic";
+unicode = 119028;
+},
+{
+glyphname = "kentimaNeoKato-byzantineMusic";
+unicode = 119027;
+},
+{
+glyphname = "kentimataNeoKato-byzantineMusic";
+unicode = 119026;
+},
+{
+glyphname = "kentimaNeoMeso-byzantineMusic";
+unicode = 119025;
+},
+{
+glyphname = "kentimataNeoMeso-byzantineMusic";
+unicode = 119024;
+},
+{
+glyphname = "arktikoNi-byzantineMusic";
+unicode = 119023;
+},
+{
+glyphname = "arktikoZo-byzantineMusic";
+unicode = 119022;
+},
+{
+glyphname = "arktikoKe-byzantineMusic";
+unicode = 119021;
+},
+{
+glyphname = "arktikoDi-byzantineMusic";
+unicode = 119020;
+},
+{
+glyphname = "arktikoGa-byzantineMusic";
+unicode = 119019;
+},
+{
+glyphname = "arktikoVou-byzantineMusic";
+unicode = 119018;
+},
+{
+glyphname = "arktikoPa-byzantineMusic";
+unicode = 119017;
+},
+{
+glyphname = "stigma-byzantineMusic";
+unicode = 119016;
+},
+{
+glyphname = "diftoggosOu-byzantineMusic";
+unicode = 119015;
+},
+{
+glyphname = "digrammaGg-byzantineMusic";
+unicode = 119014;
+},
+{
+glyphname = "simansisArseosTetrasimou-byzantineMusic";
+unicode = 119013;
+},
+{
+glyphname = "simansisArseosTrisimou-byzantineMusic";
+unicode = 119012;
+},
+{
+glyphname = "simansisArseosDisimou-byzantineMusic";
+unicode = 119011;
+},
+{
+glyphname = "simansisArseos-byzantineMusic";
+unicode = 119010;
+},
+{
+glyphname = "simansisTheseosTetrasimou-byzantineMusic";
+unicode = 119009;
+},
+{
+glyphname = "simansisTheseosTrisimou-byzantineMusic";
+unicode = 119008;
+},
+{
+glyphname = "simansisTheseosDisimou-byzantineMusic";
+unicode = 119007;
+},
+{
+glyphname = "simansisTheseos-byzantineMusic";
+unicode = 119006;
+},
+{
+glyphname = "diastoliTheseos-byzantineMusic";
+unicode = 119005;
+},
+{
+glyphname = "diastoliDipli-byzantineMusic";
+unicode = 119004;
+},
+{
+glyphname = "diastoliApliMegali-byzantineMusic";
+unicode = 119003;
+},
+{
+glyphname = "diastoliApliMikri-byzantineMusic";
+unicode = 119002;
+},
+{
+glyphname = "genikiYfesis-byzantineMusic";
+unicode = 119001;
+},
+{
+glyphname = "genikiDiesis-byzantineMusic";
+unicode = 119000;
+},
+{
+glyphname = "yfesisTrigrammosOktoDodekata-byzantineMusic";
+unicode = 118999;
+},
+{
+glyphname = "yfesisDigrammosExDodekata-byzantineMusic";
+unicode = 118998;
+},
+{
+glyphname = "yfesisMonogrammosTesseraDodekata-byzantineMusic";
+unicode = 118997;
+},
+{
+glyphname = "yfesisApliDyoDodekata-byzantineMusic";
+unicode = 118996;
+},
+{
+glyphname = "diesisTrigrammosOktoDodekata-byzantineMusic";
+unicode = 118995;
+},
+{
+glyphname = "diesisDigrammosExDodekata-byzantineMusic";
+unicode = 118994;
+},
+{
+glyphname = "diesisMonogrammosTesseraDodekata-byzantineMusic";
+unicode = 118993;
+},
+{
+glyphname = "diesisApliDyoDodekata-byzantineMusic";
+unicode = 118992;
+},
+{
+glyphname = "diesisTetartimorion-byzantineMusic";
+unicode = 118991;
+},
+{
+glyphname = "diesisTritimorion-byzantineMusic";
+unicode = 118990;
+},
+{
+glyphname = "yfesisTritimorion-byzantineMusic";
+unicode = 118989;
+},
+{
+glyphname = "fthoraEnarmoniosAntifonia-byzantineMusic";
+unicode = 118988;
+},
+{
+glyphname = "fthoraIYfesisTetartimorion-byzantineMusic";
+unicode = 118987;
+},
+{
+glyphname = "chroaSpathi-byzantineMusic";
+unicode = 118986;
+},
+{
+glyphname = "chroaKliton-byzantineMusic";
+unicode = 118985;
+},
+{
+glyphname = "chroaZygos-byzantineMusic";
+unicode = 118984;
+},
+{
+glyphname = "fthoraNenano-byzantineMusic";
+unicode = 118983;
+},
+{
+glyphname = "fthoraSklironChromaSynafi-byzantineMusic";
+unicode = 118982;
+},
+{
+glyphname = "fhtoraSklironChromaVasis-byzantineMusic";
+unicode = 118981;
+},
+{
+glyphname = "fthoraMalakonChromaMonofonias-byzantineMusic";
+unicode = 118980;
+},
+{
+glyphname = "fthoraMalakonChromaDifonias-byzantineMusic";
+unicode = 118979;
+},
+{
+glyphname = "fthoraDiatonikiNiAno-byzantineMusic";
+unicode = 118978;
+},
+{
+glyphname = "fthoraDiatonikiNiKato-byzantineMusic";
+unicode = 118977;
+},
+{
+glyphname = "fthoraDiatonikiZo-byzantineMusic";
+unicode = 118976;
+},
+{
+glyphname = "fthoraDiatonikiKe-byzantineMusic";
+unicode = 118975;
+},
+{
+glyphname = "fthoraSklironDiatononDi-byzantineMusic";
+unicode = 118974;
+},
+{
+glyphname = "fthoraDiatonikiDi-byzantineMusic";
+unicode = 118973;
+},
+{
+glyphname = "fthoraNaosIchos-byzantineMusic";
+unicode = 118972;
+},
+{
+glyphname = "fthoraDiatonikiNana-byzantineMusic";
+unicode = 118971;
+},
+{
+glyphname = "fthoraDiatonikiPa-byzantineMusic";
+unicode = 118970;
+},
+{
+glyphname = "fthoraArchaionDeyterouIchou-byzantineMusic";
+unicode = 118969;
+},
+{
+glyphname = "imifthoron-byzantineMusic";
+unicode = 118968;
+},
+{
+glyphname = "imifonon-byzantineMusic";
+unicode = 118967;
+},
+{
+glyphname = "enarxisKaiFthoraVou-byzantineMusic";
+unicode = 118966;
+},
+{
+glyphname = "gorthmikonNDiploun-byzantineMusic";
+unicode = 118965;
+},
+{
+glyphname = "gorthmikonNAploun-byzantineMusic";
+unicode = 118964;
+},
+{
+glyphname = "martyriaPlagiosTetartosIchos-byzantineMusic";
+unicode = 118963;
+},
+{
+glyphname = "martyriaProtovarysIchos-byzantineMusic";
+unicode = 118962;
+},
+{
+glyphname = "martyriaVarysIchos-byzantineMusic";
+unicode = 118961;
+},
+{
+glyphname = "fanerosisDifonias-byzantineMusic";
+unicode = 118960;
+},
+{
+glyphname = "fanerosisMonofonias-byzantineMusic";
+unicode = 118959;
+},
+{
+glyphname = "fanerosisTetrafonias-byzantineMusic";
+unicode = 118958;
+},
+{
+glyphname = "apostrofoiTelousIchimatos-byzantineMusic";
+unicode = 118957;
+},
+{
+glyphname = "isakiaTelousIchimatos-byzantineMusic";
+unicode = 118956;
+},
+{
+glyphname = "martyriaPlagiosIchos-byzantineMusic";
+unicode = 118955;
+},
+{
+glyphname = "martyriaLegetosIchos-byzantineMusic";
+unicode = 118954;
+},
+{
+glyphname = "martyriaTetartosLegetosIchos-byzantineMusic";
+unicode = 118953;
+},
+{
+glyphname = "martyriaTetartosIchos-byzantineMusic";
+unicode = 118952;
+},
+{
+glyphname = "martyriaTrifonias-byzantineMusic";
+unicode = 118951;
+},
+{
+glyphname = "martyriaTritosIchos-byzantineMusic";
+unicode = 118950;
+},
+{
+glyphname = "martyriaAlliDeyterosIchos-byzantineMusic";
+unicode = 118949;
+},
+{
+glyphname = "martyriaDeyterosIchos-byzantineMusic";
+unicode = 118948;
+},
+{
+glyphname = "martyriaAlliProtosIchos-byzantineMusic";
+unicode = 118947;
+},
+{
+glyphname = "martyriaProtosIchos-byzantineMusic";
+unicode = 118946;
+},
+{
+glyphname = "agogiPoliGorgi-byzantineMusic";
+unicode = 118945;
+},
+{
+glyphname = "agogiGorgoteri-byzantineMusic";
+unicode = 118944;
+},
+{
+glyphname = "agogiGorgi-byzantineMusic";
+unicode = 118943;
+},
+{
+glyphname = "agogiMesi-byzantineMusic";
+unicode = 118942;
+},
+{
+glyphname = "agogiMetria-byzantineMusic";
+unicode = 118941;
+},
+{
+glyphname = "agogiArgi-byzantineMusic";
+unicode = 118940;
+},
+{
+glyphname = "agogiArgoteri-byzantineMusic";
+unicode = 118939;
+},
+{
+glyphname = "agogiPoliArgi-byzantineMusic";
+unicode = 118938;
+},
+{
+glyphname = "diargon-byzantineMusic";
+unicode = 118937;
+},
+{
+glyphname = "imidiargon-byzantineMusic";
+unicode = 118936;
+},
+{
+glyphname = "argon-byzantineMusic";
+unicode = 118935;
+},
+{
+glyphname = "trigorgon-byzantineMusic";
+unicode = 118934;
+},
+{
+glyphname = "digorgonParestigmenonDexia-byzantineMusic";
+unicode = 118933;
+},
+{
+glyphname = "digorgonParestigmenonAristeraAno-byzantineMusic";
+unicode = 118932;
+},
+{
+glyphname = "digorgonParestigmenonAristeraKato-byzantineMusic";
+unicode = 118931;
+},
+{
+glyphname = "digorgon-byzantineMusic";
+unicode = 118930;
+},
+{
+glyphname = "gorgonParestigmenonDexia-byzantineMusic";
+unicode = 118929;
+},
+{
+glyphname = "gorgonParestigmenonAristera-byzantineMusic";
+unicode = 118928;
+},
+{
+glyphname = "gorgonNeoAno-byzantineMusic";
+unicode = 118927;
+},
+{
+glyphname = "leimmaImiseosChronou-byzantineMusic";
+unicode = 118926;
+},
+{
+glyphname = "leimmaTessaronChronon-byzantineMusic";
+unicode = 118925;
+},
+{
+glyphname = "leimmaTrionChronon-byzantineMusic";
+unicode = 118924;
+},
+{
+glyphname = "leimmaDyoChronon-byzantineMusic";
+unicode = 118923;
+},
+{
+glyphname = "leimmaEnosChronou-byzantineMusic";
+unicode = 118922;
+},
+{
+glyphname = "koronis-byzantineMusic";
+unicode = 118921;
+},
+{
+glyphname = "tetrapli-byzantineMusic";
+unicode = 118920;
+},
+{
+glyphname = "tripli-byzantineMusic";
+unicode = 118919;
+},
+{
+glyphname = "dipli-byzantineMusic";
+unicode = 118918;
+},
+{
+glyphname = "apli-byzantineMusic";
+unicode = 118917;
+},
+{
+glyphname = "apodermaNeo-byzantineMusic";
+unicode = 118916;
+},
+{
+glyphname = "kratimaNeo-byzantineMusic";
+unicode = 118915;
+},
+{
+glyphname = "kratimaAllo-byzantineMusic";
+unicode = 118914;
+},
+{
+glyphname = "kratimaArchaion-byzantineMusic";
+unicode = 118913;
+},
+{
+glyphname = "dipliArchaion-byzantineMusic";
+unicode = 118912;
+},
+{
+glyphname = "klasmaAno-byzantineMusic";
+unicode = 118911;
+},
+{
+glyphname = "stavros-byzantineMusic";
+unicode = 118910;
+},
+{
+glyphname = "yfenAno-byzantineMusic";
+unicode = 118909;
+},
+{
+glyphname = "yfenKato-byzantineMusic";
+unicode = 118908;
+},
+{
+glyphname = "endofonon-byzantineMusic";
+unicode = 118907;
+},
+{
+glyphname = "katavasma-byzantineMusic";
+unicode = 118906;
+},
+{
+glyphname = "thesKaiApothes-byzantineMusic";
+unicode = 118905;
+},
+{
+glyphname = "themaAploun-byzantineMusic";
+unicode = 118904;
+},
+{
+glyphname = "thematismosExo-byzantineMusic";
+unicode = 118903;
+},
+{
+glyphname = "thematismosEso-byzantineMusic";
+unicode = 118902;
+},
+{
+glyphname = "oyranismaNeo-byzantineMusic";
+unicode = 118901;
+},
+{
+glyphname = "eteronArgosyntheton-byzantineMusic";
+unicode = 118900;
+},
+{
+glyphname = "argosyntheton-byzantineMusic";
+unicode = 118899;
+},
+{
+glyphname = "gorgosyntheton-byzantineMusic";
+unicode = 118898;
+},
+{
+glyphname = "psifistosynagma-byzantineMusic";
+unicode = 118897;
+},
+{
+glyphname = "tromikosynagma-byzantineMusic";
+unicode = 118896;
+},
+{
+glyphname = "psifistoparakalesma-byzantineMusic";
+unicode = 118895;
+},
+{
+glyphname = "tromikoparakalesma-byzantineMusic";
+unicode = 118894;
+},
+{
+glyphname = "tromikolygisma-byzantineMusic";
+unicode = 118893;
+},
+{
+glyphname = "psifistolygisma-byzantineMusic";
+unicode = 118892;
+},
+{
+glyphname = "tromikopsifiston-byzantineMusic";
+unicode = 118891;
+},
+{
+glyphname = "xironKlasma-byzantineMusic";
+unicode = 118890;
+},
+{
+glyphname = "seismaNeo-byzantineMusic";
+unicode = 118889;
+},
+{
+glyphname = "epegerma-byzantineMusic";
+unicode = 118888;
+},
+{
+glyphname = "chorevmaNeo-byzantineMusic";
+unicode = 118887;
+},
+{
+glyphname = "syrma-byzantineMusic";
+unicode = 118886;
+},
+{
+glyphname = "synagmaNeo-byzantineMusic";
+unicode = 118885;
+},
+{
+glyphname = "ekstrepton-byzantineMusic";
+unicode = 118884;
+},
+{
+glyphname = "tromikonNeo-byzantineMusic";
+unicode = 118883;
+},
+{
+glyphname = "antikenokylisma-byzantineMusic";
+unicode = 118882;
+},
+{
+glyphname = "kylisma-byzantineMusic";
+unicode = 118881;
+},
+{
+glyphname = "eteronParakalesma-byzantineMusic";
+unicode = 118880;
+},
+{
+glyphname = "parakalesmaNeo-byzantineMusic";
+unicode = 118879;
+},
+{
+glyphname = "paraklitikiNeo-byzantineMusic";
+unicode = 118878;
+},
+{
+glyphname = "lygisma-byzantineMusic";
+unicode = 118877;
+},
+{
+glyphname = "antikenoma-byzantineMusic";
+unicode = 118876;
+},
+{
+glyphname = "omalon-byzantineMusic";
+unicode = 118875;
+},
+{
+glyphname = "psifistonNeo-byzantineMusic";
+unicode = 118874;
+},
+{
+glyphname = "piasmaNeo-byzantineMusic";
+unicode = 118873;
+},
+{
+glyphname = "vareiaNeo-byzantineMusic";
+unicode = 118872;
+},
+{
+glyphname = "mikronIson-byzantineMusic";
+unicode = 118871;
+},
+{
+glyphname = "chamili-byzantineMusic";
+unicode = 118870;
+},
+{
+glyphname = "elafron-byzantineMusic";
+unicode = 118869;
+},
+{
+glyphname = "kratimoyporroon-byzantineMusic";
+unicode = 118868;
+},
+{
+glyphname = "yporroi-byzantineMusic";
+unicode = 118867;
+},
+{
+glyphname = "apostrofoiSyndesmosNeo-byzantineMusic";
+unicode = 118866;
+},
+{
+glyphname = "apostrofosNeo-byzantineMusic";
+unicode = 118865;
+},
+{
+glyphname = "ypsili-byzantineMusic";
+unicode = 118864;
+},
+{
+glyphname = "kentimaNeoAno-byzantineMusic";
+unicode = 118863;
+},
+{
+glyphname = "kentimataNeoAno-byzantineMusic";
+unicode = 118862;
+},
+{
+glyphname = "pelastonNeo-byzantineMusic";
+unicode = 118861;
+},
+{
+glyphname = "kratimokoufisma-byzantineMusic";
+unicode = 118860;
+},
+{
+glyphname = "petastokoufisma-byzantineMusic";
+unicode = 118859;
+},
+{
+glyphname = "koufisma-byzantineMusic";
+unicode = 118858;
+},
+{
+glyphname = "petasti-byzantineMusic";
+unicode = 118857;
+},
+{
+glyphname = "oxeiaNeo-byzantineMusic";
+unicode = 118856;
+},
+{
+glyphname = "oligonNeo-byzantineMusic";
+unicode = 118855;
+},
+{
+glyphname = "isonNeo-byzantineMusic";
+unicode = 118854;
+},
+{
+glyphname = "gronthismata-byzantineMusic";
+unicode = 118853;
+},
+{
+glyphname = "straggismata-byzantineMusic";
+unicode = 118852;
+},
+{
+glyphname = "tromikonAllo-byzantineMusic";
+unicode = 118851;
+},
+{
+glyphname = "kontevmaAllo-byzantineMusic";
+unicode = 118850;
+},
+{
+glyphname = "petasma-byzantineMusic";
+unicode = 118849;
+},
+{
+glyphname = "nana-byzantineMusic";
+unicode = 118848;
+},
+{
+glyphname = "ichadin-byzantineMusic";
+unicode = 118847;
+},
+{
+glyphname = "paraklitikiArchaion-byzantineMusic";
+unicode = 118846;
+},
+{
+glyphname = "parakalesmaArchaion-byzantineMusic";
+unicode = 118845;
+},
+{
+glyphname = "rapisma-byzantineMusic";
+unicode = 118844;
+},
+{
+glyphname = "chorevmaArchaion-byzantineMusic";
+unicode = 118843;
+},
+{
+glyphname = "kontevma-byzantineMusic";
+unicode = 118842;
+},
+{
+glyphname = "psifiston-byzantineMusic";
+unicode = 118841;
+},
+{
+glyphname = "pelaston-byzantineMusic";
+unicode = 118840;
+},
+{
+glyphname = "katavaTromikon-byzantineMusic";
+unicode = 118839;
+},
+{
+glyphname = "tromikonArchaion-byzantineMusic";
+unicode = 118838;
+},
+{
+glyphname = "imifthora-byzantineMusic";
+unicode = 118837;
+},
+{
+glyphname = "fthoraArchaion-byzantineMusic";
+unicode = 118836;
+},
+{
+glyphname = "apesoExoNeo-byzantineMusic";
+unicode = 118835;
+},
+{
+glyphname = "kratimata-byzantineMusic";
+unicode = 118834;
+},
+{
+glyphname = "tessera-byzantineMusic";
+unicode = 118833;
+},
+{
+glyphname = "tria-byzantineMusic";
+unicode = 118832;
+},
+{
+glyphname = "dyo-byzantineMusic";
+unicode = 118831;
+},
+{
+glyphname = "lemoi-byzantineMusic";
+unicode = 118830;
+},
+{
+glyphname = "thema-byzantineMusic";
+unicode = 118829;
+},
+{
+glyphname = "oyranismaArchaion-byzantineMusic";
+unicode = 118828;
+},
+{
+glyphname = "synagmaMetaStavrou-byzantineMusic";
+unicode = 118827;
+},
+{
+glyphname = "synagmaArchaion-byzantineMusic";
+unicode = 118826;
+},
+{
+glyphname = "seisma-byzantineMusic";
+unicode = 118825;
+},
+{
+glyphname = "anatrichisma-byzantineMusic";
+unicode = 118824;
+},
+{
+glyphname = "tinagma-byzantineMusic";
+unicode = 118823;
+},
+{
+glyphname = "piasmaArchaion-byzantineMusic";
+unicode = 118822;
+},
+{
+glyphname = "revma-byzantineMusic";
+unicode = 118821;
+},
+{
+glyphname = "klasma-byzantineMusic";
+unicode = 118820;
+},
+{
+glyphname = "apothema-byzantineMusic";
+unicode = 118819;
+},
+{
+glyphname = "apodermaArchaion-byzantineMusic";
+unicode = 118818;
+},
+{
+glyphname = "vareiaiArchaion-byzantineMusic";
+unicode = 118817;
+},
+{
+glyphname = "oxeiaiArchaion-byzantineMusic";
+unicode = 118816;
+},
+{
+glyphname = "stavrosApodexia-byzantineMusic";
+unicode = 118815;
+},
+{
+glyphname = "parichon-byzantineMusic";
+unicode = 118814;
+},
+{
+glyphname = "saximata-byzantineMusic";
+unicode = 118813;
+},
+{
+glyphname = "kentimataArchaion-byzantineMusic";
+unicode = 118812;
+},
+{
+glyphname = "kentimaArchaion-byzantineMusic";
+unicode = 118811;
+},
+{
+glyphname = "isonArchaion-byzantineMusic";
+unicode = 118810;
+},
+{
+glyphname = "vathy-byzantineMusic";
+unicode = 118809;
+},
+{
+glyphname = "chamilon-byzantineMusic";
+unicode = 118808;
+},
+{
+glyphname = "psilon-byzantineMusic";
+unicode = 118807;
+},
+{
+glyphname = "gorgonArchaion-byzantineMusic";
+unicode = 118806;
+},
+{
+glyphname = "oligonArchaion-byzantineMusic";
+unicode = 118805;
+},
+{
+glyphname = "thita-byzantineMusic";
+unicode = 118804;
+},
+{
+glyphname = "synevma-byzantineMusic";
+unicode = 118803;
+},
+{
+glyphname = "apostrofosDipli-byzantineMusic";
+unicode = 118802;
+},
+{
+glyphname = "apostrofos-byzantineMusic";
+unicode = 118801;
+},
+{
+glyphname = "kentimata-byzantineMusic";
+unicode = 118800;
+},
+{
+glyphname = "teleia-byzantineMusic";
+unicode = 118799;
+},
+{
+glyphname = "exoEkfonitikon-byzantineMusic";
+unicode = 118798;
+},
+{
+glyphname = "apesoEkfonitikon-byzantineMusic";
+unicode = 118797;
+},
+{
+glyphname = "kremasti-byzantineMusic";
+unicode = 118796;
+},
+{
+glyphname = "ypokrisisDipli-byzantineMusic";
+unicode = 118795;
+},
+{
+glyphname = "ypokrisis-byzantineMusic";
+unicode = 118794;
+},
+{
+glyphname = "paraklitiki-byzantineMusic";
+unicode = 118793;
+},
+{
+glyphname = "syrmatiki-byzantineMusic";
+unicode = 118792;
+},
+{
+glyphname = "kathisti-byzantineMusic";
+unicode = 118791;
+},
+{
+glyphname = "vareiaDipli-byzantineMusic";
+unicode = 118790;
+},
+{
+glyphname = "vareiaEkfonitikon-byzantineMusic";
+unicode = 118789;
+},
+{
+glyphname = "oxeiaDipli-byzantineMusic";
+unicode = 118788;
+},
+{
+glyphname = "oxeiaEkfonitikon-byzantineMusic";
+unicode = 118787;
+},
+{
+glyphname = "perispomeni-byzantineMusic";
+unicode = 118786;
+},
+{
+glyphname = "daseia-byzantineMusic";
+unicode = 118785;
+},
+{
+glyphname = "psili-byzantineMusic";
+unicode = 118784;
+},
+{
 glyphname = uni1D200;
 unicode = 119296;
 },
@@ -327,990 +1311,6 @@ unicode = 119364;
 {
 glyphname = uni1D245;
 unicode = 119365;
-},
-{
-glyphname = "psili-byzantineMusic";
-unicode = 118784;
-},
-{
-glyphname = "daseia-byzantineMusic";
-unicode = 118785;
-},
-{
-glyphname = "perispomeni-byzantineMusic";
-unicode = 118786;
-},
-{
-glyphname = "oxeiaEkfonitikon-byzantineMusic";
-unicode = 118787;
-},
-{
-glyphname = "oxeiaDipli-byzantineMusic";
-unicode = 118788;
-},
-{
-glyphname = "vareiaEkfonitikon-byzantineMusic";
-unicode = 118789;
-},
-{
-glyphname = "vareiaDipli-byzantineMusic";
-unicode = 118790;
-},
-{
-glyphname = "kathisti-byzantineMusic";
-unicode = 118791;
-},
-{
-glyphname = "syrmatiki-byzantineMusic";
-unicode = 118792;
-},
-{
-glyphname = "paraklitiki-byzantineMusic";
-unicode = 118793;
-},
-{
-glyphname = "ypokrisis-byzantineMusic";
-unicode = 118794;
-},
-{
-glyphname = "ypokrisisDipli-byzantineMusic";
-unicode = 118795;
-},
-{
-glyphname = "kremasti-byzantineMusic";
-unicode = 118796;
-},
-{
-glyphname = "apesoEkfonitikon-byzantineMusic";
-unicode = 118797;
-},
-{
-glyphname = "exoEkfonitikon-byzantineMusic";
-unicode = 118798;
-},
-{
-glyphname = "teleia-byzantineMusic";
-unicode = 118799;
-},
-{
-glyphname = "kentimata-byzantineMusic";
-unicode = 118800;
-},
-{
-glyphname = "apostrofos-byzantineMusic";
-unicode = 118801;
-},
-{
-glyphname = "apostrofosDipli-byzantineMusic";
-unicode = 118802;
-},
-{
-glyphname = "synevma-byzantineMusic";
-unicode = 118803;
-},
-{
-glyphname = "thita-byzantineMusic";
-unicode = 118804;
-},
-{
-glyphname = "oligonArchaion-byzantineMusic";
-unicode = 118805;
-},
-{
-glyphname = "gorgonArchaion-byzantineMusic";
-unicode = 118806;
-},
-{
-glyphname = "psilon-byzantineMusic";
-unicode = 118807;
-},
-{
-glyphname = "chamilon-byzantineMusic";
-unicode = 118808;
-},
-{
-glyphname = "vathy-byzantineMusic";
-unicode = 118809;
-},
-{
-glyphname = "isonArchaion-byzantineMusic";
-unicode = 118810;
-},
-{
-glyphname = "kentimaArchaion-byzantineMusic";
-unicode = 118811;
-},
-{
-glyphname = "kentimataArchaion-byzantineMusic";
-unicode = 118812;
-},
-{
-glyphname = "saximata-byzantineMusic";
-unicode = 118813;
-},
-{
-glyphname = "parichon-byzantineMusic";
-unicode = 118814;
-},
-{
-glyphname = "stavrosApodexia-byzantineMusic";
-unicode = 118815;
-},
-{
-glyphname = "oxeiaiArchaion-byzantineMusic";
-unicode = 118816;
-},
-{
-glyphname = "vareiaiArchaion-byzantineMusic";
-unicode = 118817;
-},
-{
-glyphname = "apodermaArchaion-byzantineMusic";
-unicode = 118818;
-},
-{
-glyphname = "apothema-byzantineMusic";
-unicode = 118819;
-},
-{
-glyphname = "klasma-byzantineMusic";
-unicode = 118820;
-},
-{
-glyphname = "revma-byzantineMusic";
-unicode = 118821;
-},
-{
-glyphname = "piasmaArchaion-byzantineMusic";
-unicode = 118822;
-},
-{
-glyphname = "tinagma-byzantineMusic";
-unicode = 118823;
-},
-{
-glyphname = "anatrichisma-byzantineMusic";
-unicode = 118824;
-},
-{
-glyphname = "seisma-byzantineMusic";
-unicode = 118825;
-},
-{
-glyphname = "synagmaArchaion-byzantineMusic";
-unicode = 118826;
-},
-{
-glyphname = "synagmaMetaStavrou-byzantineMusic";
-unicode = 118827;
-},
-{
-glyphname = "oyranismaArchaion-byzantineMusic";
-unicode = 118828;
-},
-{
-glyphname = "thema-byzantineMusic";
-unicode = 118829;
-},
-{
-glyphname = "lemoi-byzantineMusic";
-unicode = 118830;
-},
-{
-glyphname = "dyo-byzantineMusic";
-unicode = 118831;
-},
-{
-glyphname = "tria-byzantineMusic";
-unicode = 118832;
-},
-{
-glyphname = "tessera-byzantineMusic";
-unicode = 118833;
-},
-{
-glyphname = "kratimata-byzantineMusic";
-unicode = 118834;
-},
-{
-glyphname = "apesoExoNeo-byzantineMusic";
-unicode = 118835;
-},
-{
-glyphname = "fthoraArchaion-byzantineMusic";
-unicode = 118836;
-},
-{
-glyphname = "imifthora-byzantineMusic";
-unicode = 118837;
-},
-{
-glyphname = "tromikonArchaion-byzantineMusic";
-unicode = 118838;
-},
-{
-glyphname = "katavaTromikon-byzantineMusic";
-unicode = 118839;
-},
-{
-glyphname = "pelaston-byzantineMusic";
-unicode = 118840;
-},
-{
-glyphname = "psifiston-byzantineMusic";
-unicode = 118841;
-},
-{
-glyphname = "kontevma-byzantineMusic";
-unicode = 118842;
-},
-{
-glyphname = "chorevmaArchaion-byzantineMusic";
-unicode = 118843;
-},
-{
-glyphname = "rapisma-byzantineMusic";
-unicode = 118844;
-},
-{
-glyphname = "parakalesmaArchaion-byzantineMusic";
-unicode = 118845;
-},
-{
-glyphname = "paraklitikiArchaion-byzantineMusic";
-unicode = 118846;
-},
-{
-glyphname = "ichadin-byzantineMusic";
-unicode = 118847;
-},
-{
-glyphname = "nana-byzantineMusic";
-unicode = 118848;
-},
-{
-glyphname = "petasma-byzantineMusic";
-unicode = 118849;
-},
-{
-glyphname = "kontevmaAllo-byzantineMusic";
-unicode = 118850;
-},
-{
-glyphname = "tromikonAllo-byzantineMusic";
-unicode = 118851;
-},
-{
-glyphname = "straggismata-byzantineMusic";
-unicode = 118852;
-},
-{
-glyphname = "gronthismata-byzantineMusic";
-unicode = 118853;
-},
-{
-glyphname = "isonNeo-byzantineMusic";
-unicode = 118854;
-},
-{
-glyphname = "oligonNeo-byzantineMusic";
-unicode = 118855;
-},
-{
-glyphname = "oxeiaNeo-byzantineMusic";
-unicode = 118856;
-},
-{
-glyphname = "petasti-byzantineMusic";
-unicode = 118857;
-},
-{
-glyphname = "koufisma-byzantineMusic";
-unicode = 118858;
-},
-{
-glyphname = "petastokoufisma-byzantineMusic";
-unicode = 118859;
-},
-{
-glyphname = "kratimokoufisma-byzantineMusic";
-unicode = 118860;
-},
-{
-glyphname = "pelastonNeo-byzantineMusic";
-unicode = 118861;
-},
-{
-glyphname = "kentimataNeoAno-byzantineMusic";
-unicode = 118862;
-},
-{
-glyphname = "kentimaNeoAno-byzantineMusic";
-unicode = 118863;
-},
-{
-glyphname = "ypsili-byzantineMusic";
-unicode = 118864;
-},
-{
-glyphname = "apostrofosNeo-byzantineMusic";
-unicode = 118865;
-},
-{
-glyphname = "apostrofoiSyndesmosNeo-byzantineMusic";
-unicode = 118866;
-},
-{
-glyphname = "yporroi-byzantineMusic";
-unicode = 118867;
-},
-{
-glyphname = "kratimoyporroon-byzantineMusic";
-unicode = 118868;
-},
-{
-glyphname = "elafron-byzantineMusic";
-unicode = 118869;
-},
-{
-glyphname = "chamili-byzantineMusic";
-unicode = 118870;
-},
-{
-glyphname = "mikronIson-byzantineMusic";
-unicode = 118871;
-},
-{
-glyphname = "vareiaNeo-byzantineMusic";
-unicode = 118872;
-},
-{
-glyphname = "piasmaNeo-byzantineMusic";
-unicode = 118873;
-},
-{
-glyphname = "psifistonNeo-byzantineMusic";
-unicode = 118874;
-},
-{
-glyphname = "omalon-byzantineMusic";
-unicode = 118875;
-},
-{
-glyphname = "antikenoma-byzantineMusic";
-unicode = 118876;
-},
-{
-glyphname = "lygisma-byzantineMusic";
-unicode = 118877;
-},
-{
-glyphname = "paraklitikiNeo-byzantineMusic";
-unicode = 118878;
-},
-{
-glyphname = "parakalesmaNeo-byzantineMusic";
-unicode = 118879;
-},
-{
-glyphname = "eteronParakalesma-byzantineMusic";
-unicode = 118880;
-},
-{
-glyphname = "kylisma-byzantineMusic";
-unicode = 118881;
-},
-{
-glyphname = "antikenokylisma-byzantineMusic";
-unicode = 118882;
-},
-{
-glyphname = "tromikonNeo-byzantineMusic";
-unicode = 118883;
-},
-{
-glyphname = "ekstrepton-byzantineMusic";
-unicode = 118884;
-},
-{
-glyphname = "synagmaNeo-byzantineMusic";
-unicode = 118885;
-},
-{
-glyphname = "syrma-byzantineMusic";
-unicode = 118886;
-},
-{
-glyphname = "chorevmaNeo-byzantineMusic";
-unicode = 118887;
-},
-{
-glyphname = "epegerma-byzantineMusic";
-unicode = 118888;
-},
-{
-glyphname = "seismaNeo-byzantineMusic";
-unicode = 118889;
-},
-{
-glyphname = "xironKlasma-byzantineMusic";
-unicode = 118890;
-},
-{
-glyphname = "tromikopsifiston-byzantineMusic";
-unicode = 118891;
-},
-{
-glyphname = "psifistolygisma-byzantineMusic";
-unicode = 118892;
-},
-{
-glyphname = "tromikolygisma-byzantineMusic";
-unicode = 118893;
-},
-{
-glyphname = "tromikoparakalesma-byzantineMusic";
-unicode = 118894;
-},
-{
-glyphname = "psifistoparakalesma-byzantineMusic";
-unicode = 118895;
-},
-{
-glyphname = "tromikosynagma-byzantineMusic";
-unicode = 118896;
-},
-{
-glyphname = "psifistosynagma-byzantineMusic";
-unicode = 118897;
-},
-{
-glyphname = "gorgosyntheton-byzantineMusic";
-unicode = 118898;
-},
-{
-glyphname = "argosyntheton-byzantineMusic";
-unicode = 118899;
-},
-{
-glyphname = "eteronArgosyntheton-byzantineMusic";
-unicode = 118900;
-},
-{
-glyphname = "oyranismaNeo-byzantineMusic";
-unicode = 118901;
-},
-{
-glyphname = "thematismosEso-byzantineMusic";
-unicode = 118902;
-},
-{
-glyphname = "thematismosExo-byzantineMusic";
-unicode = 118903;
-},
-{
-glyphname = "themaAploun-byzantineMusic";
-unicode = 118904;
-},
-{
-glyphname = "thesKaiApothes-byzantineMusic";
-unicode = 118905;
-},
-{
-glyphname = "katavasma-byzantineMusic";
-unicode = 118906;
-},
-{
-glyphname = "endofonon-byzantineMusic";
-unicode = 118907;
-},
-{
-glyphname = "yfenKato-byzantineMusic";
-unicode = 118908;
-},
-{
-glyphname = "yfenAno-byzantineMusic";
-unicode = 118909;
-},
-{
-glyphname = "stavros-byzantineMusic";
-unicode = 118910;
-},
-{
-glyphname = "klasmaAno-byzantineMusic";
-unicode = 118911;
-},
-{
-glyphname = "dipliArchaion-byzantineMusic";
-unicode = 118912;
-},
-{
-glyphname = "kratimaArchaion-byzantineMusic";
-unicode = 118913;
-},
-{
-glyphname = "kratimaAllo-byzantineMusic";
-unicode = 118914;
-},
-{
-glyphname = "kratimaNeo-byzantineMusic";
-unicode = 118915;
-},
-{
-glyphname = "apodermaNeo-byzantineMusic";
-unicode = 118916;
-},
-{
-glyphname = "apli-byzantineMusic";
-unicode = 118917;
-},
-{
-glyphname = "dipli-byzantineMusic";
-unicode = 118918;
-},
-{
-glyphname = "tripli-byzantineMusic";
-unicode = 118919;
-},
-{
-glyphname = "tetrapli-byzantineMusic";
-unicode = 118920;
-},
-{
-glyphname = "koronis-byzantineMusic";
-unicode = 118921;
-},
-{
-glyphname = "leimmaEnosChronou-byzantineMusic";
-unicode = 118922;
-},
-{
-glyphname = "leimmaDyoChronon-byzantineMusic";
-unicode = 118923;
-},
-{
-glyphname = "leimmaTrionChronon-byzantineMusic";
-unicode = 118924;
-},
-{
-glyphname = "leimmaTessaronChronon-byzantineMusic";
-unicode = 118925;
-},
-{
-glyphname = "leimmaImiseosChronou-byzantineMusic";
-unicode = 118926;
-},
-{
-glyphname = "gorgonNeoAno-byzantineMusic";
-unicode = 118927;
-},
-{
-glyphname = "gorgonParestigmenonAristera-byzantineMusic";
-unicode = 118928;
-},
-{
-glyphname = "gorgonParestigmenonDexia-byzantineMusic";
-unicode = 118929;
-},
-{
-glyphname = "digorgon-byzantineMusic";
-unicode = 118930;
-},
-{
-glyphname = "digorgonParestigmenonAristeraKato-byzantineMusic";
-unicode = 118931;
-},
-{
-glyphname = "digorgonParestigmenonAristeraAno-byzantineMusic";
-unicode = 118932;
-},
-{
-glyphname = "digorgonParestigmenonDexia-byzantineMusic";
-unicode = 118933;
-},
-{
-glyphname = "trigorgon-byzantineMusic";
-unicode = 118934;
-},
-{
-glyphname = "argon-byzantineMusic";
-unicode = 118935;
-},
-{
-glyphname = "imidiargon-byzantineMusic";
-unicode = 118936;
-},
-{
-glyphname = "diargon-byzantineMusic";
-unicode = 118937;
-},
-{
-glyphname = "agogiPoliArgi-byzantineMusic";
-unicode = 118938;
-},
-{
-glyphname = "agogiArgoteri-byzantineMusic";
-unicode = 118939;
-},
-{
-glyphname = "agogiArgi-byzantineMusic";
-unicode = 118940;
-},
-{
-glyphname = "agogiMetria-byzantineMusic";
-unicode = 118941;
-},
-{
-glyphname = "agogiMesi-byzantineMusic";
-unicode = 118942;
-},
-{
-glyphname = "agogiGorgi-byzantineMusic";
-unicode = 118943;
-},
-{
-glyphname = "agogiGorgoteri-byzantineMusic";
-unicode = 118944;
-},
-{
-glyphname = "agogiPoliGorgi-byzantineMusic";
-unicode = 118945;
-},
-{
-glyphname = "martyriaProtosIchos-byzantineMusic";
-unicode = 118946;
-},
-{
-glyphname = "martyriaAlliProtosIchos-byzantineMusic";
-unicode = 118947;
-},
-{
-glyphname = "martyriaDeyterosIchos-byzantineMusic";
-unicode = 118948;
-},
-{
-glyphname = "martyriaAlliDeyterosIchos-byzantineMusic";
-unicode = 118949;
-},
-{
-glyphname = "martyriaTritosIchos-byzantineMusic";
-unicode = 118950;
-},
-{
-glyphname = "martyriaTrifonias-byzantineMusic";
-unicode = 118951;
-},
-{
-glyphname = "martyriaTetartosIchos-byzantineMusic";
-unicode = 118952;
-},
-{
-glyphname = "martyriaTetartosLegetosIchos-byzantineMusic";
-unicode = 118953;
-},
-{
-glyphname = "martyriaLegetosIchos-byzantineMusic";
-unicode = 118954;
-},
-{
-glyphname = "martyriaPlagiosIchos-byzantineMusic";
-unicode = 118955;
-},
-{
-glyphname = "isakiaTelousIchimatos-byzantineMusic";
-unicode = 118956;
-},
-{
-glyphname = "apostrofoiTelousIchimatos-byzantineMusic";
-unicode = 118957;
-},
-{
-glyphname = "fanerosisTetrafonias-byzantineMusic";
-unicode = 118958;
-},
-{
-glyphname = "fanerosisMonofonias-byzantineMusic";
-unicode = 118959;
-},
-{
-glyphname = "fanerosisDifonias-byzantineMusic";
-unicode = 118960;
-},
-{
-glyphname = "martyriaVarysIchos-byzantineMusic";
-unicode = 118961;
-},
-{
-glyphname = "martyriaProtovarysIchos-byzantineMusic";
-unicode = 118962;
-},
-{
-glyphname = "martyriaPlagiosTetartosIchos-byzantineMusic";
-unicode = 118963;
-},
-{
-glyphname = "gorthmikonNAploun-byzantineMusic";
-unicode = 118964;
-},
-{
-glyphname = "gorthmikonNDiploun-byzantineMusic";
-unicode = 118965;
-},
-{
-glyphname = "enarxisKaiFthoraVou-byzantineMusic";
-unicode = 118966;
-},
-{
-glyphname = "imifonon-byzantineMusic";
-unicode = 118967;
-},
-{
-glyphname = "imifthoron-byzantineMusic";
-unicode = 118968;
-},
-{
-glyphname = "fthoraArchaionDeyterouIchou-byzantineMusic";
-unicode = 118969;
-},
-{
-glyphname = "fthoraDiatonikiPa-byzantineMusic";
-unicode = 118970;
-},
-{
-glyphname = "fthoraDiatonikiNana-byzantineMusic";
-unicode = 118971;
-},
-{
-glyphname = "fthoraNaosIchos-byzantineMusic";
-unicode = 118972;
-},
-{
-glyphname = "fthoraDiatonikiDi-byzantineMusic";
-unicode = 118973;
-},
-{
-glyphname = "fthoraSklironDiatononDi-byzantineMusic";
-unicode = 118974;
-},
-{
-glyphname = "fthoraDiatonikiKe-byzantineMusic";
-unicode = 118975;
-},
-{
-glyphname = "fthoraDiatonikiZo-byzantineMusic";
-unicode = 118976;
-},
-{
-glyphname = "fthoraDiatonikiNiKato-byzantineMusic";
-unicode = 118977;
-},
-{
-glyphname = "fthoraDiatonikiNiAno-byzantineMusic";
-unicode = 118978;
-},
-{
-glyphname = "fthoraMalakonChromaDifonias-byzantineMusic";
-unicode = 118979;
-},
-{
-glyphname = "fthoraMalakonChromaMonofonias-byzantineMusic";
-unicode = 118980;
-},
-{
-glyphname = "fhtoraSklironChromaVasis-byzantineMusic";
-unicode = 118981;
-},
-{
-glyphname = "fthoraSklironChromaSynafi-byzantineMusic";
-unicode = 118982;
-},
-{
-glyphname = "fthoraNenano-byzantineMusic";
-unicode = 118983;
-},
-{
-glyphname = "chroaZygos-byzantineMusic";
-unicode = 118984;
-},
-{
-glyphname = "chroaKliton-byzantineMusic";
-unicode = 118985;
-},
-{
-glyphname = "chroaSpathi-byzantineMusic";
-unicode = 118986;
-},
-{
-glyphname = "fthoraIYfesisTetartimorion-byzantineMusic";
-unicode = 118987;
-},
-{
-glyphname = "fthoraEnarmoniosAntifonia-byzantineMusic";
-unicode = 118988;
-},
-{
-glyphname = "yfesisTritimorion-byzantineMusic";
-unicode = 118989;
-},
-{
-glyphname = "diesisTritimorion-byzantineMusic";
-unicode = 118990;
-},
-{
-glyphname = "diesisTetartimorion-byzantineMusic";
-unicode = 118991;
-},
-{
-glyphname = "diesisApliDyoDodekata-byzantineMusic";
-unicode = 118992;
-},
-{
-glyphname = "diesisMonogrammosTesseraDodekata-byzantineMusic";
-unicode = 118993;
-},
-{
-glyphname = "diesisDigrammosExDodekata-byzantineMusic";
-unicode = 118994;
-},
-{
-glyphname = "diesisTrigrammosOktoDodekata-byzantineMusic";
-unicode = 118995;
-},
-{
-glyphname = "yfesisApliDyoDodekata-byzantineMusic";
-unicode = 118996;
-},
-{
-glyphname = "yfesisMonogrammosTesseraDodekata-byzantineMusic";
-unicode = 118997;
-},
-{
-glyphname = "yfesisDigrammosExDodekata-byzantineMusic";
-unicode = 118998;
-},
-{
-glyphname = "yfesisTrigrammosOktoDodekata-byzantineMusic";
-unicode = 118999;
-},
-{
-glyphname = "genikiDiesis-byzantineMusic";
-unicode = 119000;
-},
-{
-glyphname = "genikiYfesis-byzantineMusic";
-unicode = 119001;
-},
-{
-glyphname = "diastoliApliMikri-byzantineMusic";
-unicode = 119002;
-},
-{
-glyphname = "diastoliApliMegali-byzantineMusic";
-unicode = 119003;
-},
-{
-glyphname = "diastoliDipli-byzantineMusic";
-unicode = 119004;
-},
-{
-glyphname = "diastoliTheseos-byzantineMusic";
-unicode = 119005;
-},
-{
-glyphname = "simansisTheseos-byzantineMusic";
-unicode = 119006;
-},
-{
-glyphname = "simansisTheseosDisimou-byzantineMusic";
-unicode = 119007;
-},
-{
-glyphname = "simansisTheseosTrisimou-byzantineMusic";
-unicode = 119008;
-},
-{
-glyphname = "simansisTheseosTetrasimou-byzantineMusic";
-unicode = 119009;
-},
-{
-glyphname = "simansisArseos-byzantineMusic";
-unicode = 119010;
-},
-{
-glyphname = "simansisArseosDisimou-byzantineMusic";
-unicode = 119011;
-},
-{
-glyphname = "simansisArseosTrisimou-byzantineMusic";
-unicode = 119012;
-},
-{
-glyphname = "simansisArseosTetrasimou-byzantineMusic";
-unicode = 119013;
-},
-{
-glyphname = "digrammaGg-byzantineMusic";
-unicode = 119014;
-},
-{
-glyphname = "diftoggosOu-byzantineMusic";
-unicode = 119015;
-},
-{
-glyphname = "stigma-byzantineMusic";
-unicode = 119016;
-},
-{
-glyphname = "arktikoPa-byzantineMusic";
-unicode = 119017;
-},
-{
-glyphname = "arktikoVou-byzantineMusic";
-unicode = 119018;
-},
-{
-glyphname = "arktikoGa-byzantineMusic";
-unicode = 119019;
-},
-{
-glyphname = "arktikoDi-byzantineMusic";
-unicode = 119020;
-},
-{
-glyphname = "arktikoKe-byzantineMusic";
-unicode = 119021;
-},
-{
-glyphname = "arktikoZo-byzantineMusic";
-unicode = 119022;
-},
-{
-glyphname = "arktikoNi-byzantineMusic";
-unicode = 119023;
-},
-{
-glyphname = "kentimataNeoMeso-byzantineMusic";
-unicode = 119024;
-},
-{
-glyphname = "kentimaNeoMeso-byzantineMusic";
-unicode = 119025;
-},
-{
-glyphname = "kentimataNeoKato-byzantineMusic";
-unicode = 119026;
-},
-{
-glyphname = "kentimaNeoKato-byzantineMusic";
-unicode = 119027;
-},
-{
-glyphname = "klasmaKato-byzantineMusic";
-unicode = 119028;
-},
-{
-glyphname = "gorgonNeoKato-byzantineMusic";
-unicode = 119029;
 }
 );
 instances = (

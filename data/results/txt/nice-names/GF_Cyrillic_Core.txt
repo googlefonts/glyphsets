@@ -78,8 +78,8 @@ Hardsign-cy
 Yeru-cy
 Softsign-cy
 Ereversed-cy
-Iu-cy
-Ia-cy
+Yu-cy
+Ya-cy
 a-cy
 be-cy
 ve-cy
@@ -110,8 +110,8 @@ hardsign-cy
 yeru-cy
 softsign-cy
 ereversed-cy
-iu-cy
-ia-cy
+yu-cy
+ya-cy
 io-cy
 dje-cy
 e-cy
@@ -123,8 +123,8 @@ nje-cy
 tshe-cy
 ushort-cy
 dzhe-cy
-Gheupturn-cy
-gheupturn-cy
+Geupturn-cy
+geupturn-cy
 endash
 emdash
 quoteleft

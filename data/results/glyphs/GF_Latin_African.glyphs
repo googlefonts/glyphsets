@@ -1157,7 +1157,7 @@ glyphname = chook;
 unicode = 392;
 },
 {
-glyphname = Dafrican;
+glyphname = Dtail;
 unicode = 393;
 },
 {
@@ -1165,7 +1165,7 @@ glyphname = Dhook;
 unicode = 394;
 },
 {
-glyphname = Ereversed;
+glyphname = Eturned;
 unicode = 398;
 },
 {
@@ -1185,11 +1185,11 @@ glyphname = Ghook;
 unicode = 403;
 },
 {
-glyphname = Gammaafrican;
+glyphname = "Gamma-latin";
 unicode = 404;
 },
 {
-glyphname = Iotaafrican;
+glyphname = "Iota-latin";
 unicode = 406;
 },
 {
@@ -1213,7 +1213,7 @@ glyphname = Nhookleft;
 unicode = 413;
 },
 {
-glyphname = Ocenteredtilde;
+glyphname = Obarred;
 unicode = 415;
 },
 {
@@ -1241,7 +1241,7 @@ glyphname = Tretroflexhook;
 unicode = 430;
 },
 {
-glyphname = Upsilonafrican;
+glyphname = "Upsilon-latin";
 unicode = 433;
 },
 {
@@ -1453,7 +1453,7 @@ glyphname = ymacron;
 unicode = 563;
 },
 {
-glyphname = Glottalstop;
+glyphname = Glottalstopsmall;
 unicode = 577;
 },
 {
@@ -1561,7 +1561,7 @@ glyphname = obarred;
 unicode = 629;
 },
 {
-glyphname = rhook;
+glyphname = rtail;
 unicode = 637;
 },
 {
@@ -1653,11 +1653,11 @@ glyphname = bdotbelow;
 unicode = 7685;
 },
 {
-glyphname = Blinebelow;
+glyphname = Bmacronbelow;
 unicode = 7686;
 },
 {
-glyphname = blinebelow;
+glyphname = bmacronbelow;
 unicode = 7687;
 },
 {
@@ -1677,11 +1677,11 @@ glyphname = ddotbelow;
 unicode = 7693;
 },
 {
-glyphname = Dlinebelow;
+glyphname = Dmacronbelow;
 unicode = 7694;
 },
 {
-glyphname = dlinebelow;
+glyphname = dmacronbelow;
 unicode = 7695;
 },
 {
@@ -1749,11 +1749,11 @@ glyphname = kdotbelow;
 unicode = 7731;
 },
 {
-glyphname = Klinebelow;
+glyphname = Kmacronbelow;
 unicode = 7732;
 },
 {
-glyphname = klinebelow;
+glyphname = kmacronbelow;
 unicode = 7733;
 },
 {
@@ -1805,11 +1805,11 @@ glyphname = ndotbelow;
 unicode = 7751;
 },
 {
-glyphname = Nlinebelow;
+glyphname = Nmacronbelow;
 unicode = 7752;
 },
 {
-glyphname = nlinebelow;
+glyphname = nmacronbelow;
 unicode = 7753;
 },
 {
@@ -1877,11 +1877,11 @@ glyphname = tdotbelow;
 unicode = 7789;
 },
 {
-glyphname = Tlinebelow;
+glyphname = Tmacronbelow;
 unicode = 7790;
 },
 {
-glyphname = tlinebelow;
+glyphname = tmacronbelow;
 unicode = 7791;
 },
 {
@@ -1957,7 +1957,7 @@ glyphname = zdotbelow;
 unicode = 7827;
 },
 {
-glyphname = hlinebelow;
+glyphname = hmacronbelow;
 unicode = 7830;
 },
 {

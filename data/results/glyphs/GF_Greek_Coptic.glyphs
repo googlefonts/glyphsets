@@ -136,6 +136,30 @@ name = Regular;
 );
 glyphs = (
 {
+glyphname = "cryptogrammicni-coptic";
+unicode = 11453;
+},
+{
+glyphname = "Cryptogrammicni-coptic";
+unicode = 11452;
+},
+{
+glyphname = "dialectpni-coptic";
+unicode = 11451;
+},
+{
+glyphname = "dialectPni-coptic";
+unicode = 11450;
+},
+{
+glyphname = "dialectpkapa-coptic";
+unicode = 11449;
+},
+{
+glyphname = "dialectPkapa-coptic";
+unicode = 11448;
+},
+{
 glyphname = "oldNgi-nubian-coptic";
 layers = (
 {
@@ -574,30 +598,6 @@ unicode = 11446;
 {
 glyphname = "cryptogrammiceie-coptic";
 unicode = 11447;
-},
-{
-glyphname = "dialectPkapa-coptic";
-unicode = 11448;
-},
-{
-glyphname = "dialectpkapa-coptic";
-unicode = 11449;
-},
-{
-glyphname = "dialectPni-coptic";
-unicode = 11450;
-},
-{
-glyphname = "dialectpni-coptic";
-unicode = 11451;
-},
-{
-glyphname = "Cryptogrammicni-coptic";
-unicode = 11452;
-},
-{
-glyphname = "cryptogrammicni-coptic";
-unicode = 11453;
 },
 {
 glyphname = "OouOld-coptic";
