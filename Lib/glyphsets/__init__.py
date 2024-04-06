@@ -10,6 +10,7 @@ from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
 import copy
 import json
 import logging
+import unicodedata
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -520,7 +521,21 @@ def description_per_glyphset(glyphset_name):
             + "\n`\n\n"
         )
 
-    md += f"The resulting glyphset can be found here: [.nam](/data/results/nam/{glyphset_name}.nam) (only encoded characters), [.glyphs](/data/results/glyphs/{glyphset_name}.glyphs)/[.txt (nice names)](/data/results/txt/nice-names/{glyphset_name}.txt)/[.txt (production names)](/data/results/txt/prod-names/{glyphset_name}.txt) (all glyphs), as well as part of [CustomFilter_GF_{script}.plist](/data/results/plist/CustomFilter_GF_{script}.plist)\n\n"
+    # Composed characters
+    decomposed_chars = get_decomposed_chars(glyphset_name)
+    if decomposed_chars:
+        md += f"### Decomposed Characters (for `ccmp`)\n\n"
+        md += f"The following {len(decomposed_chars)} composed characters are decomposed in the font:\n\n"
+        md += "`\n"
+        md += " ".join(decomposed_chars)
+        md += "\n`\n\n"
+
+    md += f"### Resulting Glyphset Files\n\n"
+    md += f".nam file (only encoded characters): [{glyphset_name}.nam](/data/results/nam/{glyphset_name}.nam)\n\n"
+    md += f"Glyphs.app source file: [{glyphset_name}.glyphs](/data/results/glyphs/{glyphset_name}.glyphs)\n\n"
+    md += f"Text files: [{glyphset_name}.txt](/data/results/txt/nice-names/{glyphset_name}.txt) (nice names) and [{glyphset_name}.txt](/data/results/txt/nice-names/{glyphset_name}.txt) (production name)\n\n"
+    md += f"Glyphs.app Custom Filter List (contains all {script} glyphsets): [CustomFilter_GF_{script}.plist](/data/results/plist/CustomFilter_GF_{script}.plist)\n\n"
+
     return md, warning
 
 
@@ -548,6 +563,30 @@ def get_glyphsets_fulfilled(ttFont):
         else:
             res[glyphset]["percentage"] = 0
     return res
+
+
+def get_decomposed_chars(glyphset_name):
+    allchars = set()
+    for lang_code in languages_per_glyphset(glyphset_name):
+        lang = languages[lang_code]
+        allchars.update(
+            getattr(getattr(lang, "exemplar_chars", {}), "base", "").split(" ")
+        )
+        if get_glyphset_definition(glyphset_name).get("use_auxiliary"):
+            allchars.update(
+                getattr(getattr(lang, "exemplar_chars", {}), "auxiliary", "").split(" ")
+            )
+    decomposed_chars = sorted(
+        [
+            g[1:-1]
+            for g in allchars
+            if any(unicodedata.combining(c) for c in g)
+            and g.startswith("{")
+            and g.endswith("}")
+        ]
+    )
+
+    return decomposed_chars
 
 
 if __name__ == "__main__":
