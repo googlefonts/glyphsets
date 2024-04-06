@@ -29,12 +29,12 @@
 `GF_Arabic_Core` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Arabic_Core.yaml) as:
 
 * Script: Arabic
-* Characters and glyphs defined in [GF_Arabic_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Arabic_Core.stub.glyphs)
 * List of languages: `
 Arabic (ar_Arab),
 Persian (fa_Arab),
 Urdu (ur_Arab)
 `
+* Characters and glyphs defined in [GF_Arabic_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Arabic_Core.stub.glyphs)
 
 ### Resulting Glyphset Files
 
@@ -308,10 +308,10 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 `GF_Greek_Core` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Greek_Core.yaml) as:
 
 * Script: Greek
-* Characters and glyphs defined in [GF_Greek_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Greek_Core.stub.glyphs)
 * List of languages: `
 Greek (el_Grek)
 `
+* Characters and glyphs defined in [GF_Greek_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Greek_Core.stub.glyphs)
 
 ### Resulting Glyphset Files
 
@@ -1201,8 +1201,6 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 `GF_Latin_Core` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Latin_Core.yaml) as:
 
 * Script: Latin
-* Characters and glyphs defined in [GF_Latin_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Latin_Core.stub.glyphs)
-* Characters and glyphs defined in [ca_Latn.stub.glyphs](/data/definitions/per_language/ca_Latn.stub.glyphs)
 * List of languages: `
 Albanian (sq_Latn),
 Catalan (ca_Latn),
@@ -1231,6 +1229,8 @@ Swedish (sv_Latn),
 Turkish (tr_Latn),
 Welsh (cy_Latn)
 `
+* Characters and glyphs defined in [GF_Latin_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Latin_Core.stub.glyphs)
+* Language-specific characters and glyphs defined for [Catalan (ca_Latn)](/data/definitions/per_language/ca_Latn.stub.glyphs)
 
 ### Decomposed Characters
 
