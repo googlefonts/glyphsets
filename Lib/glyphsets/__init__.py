@@ -477,7 +477,7 @@ def categorize_glyphs(glyph_names):
         else:
             categories[category].append("/" + glyph_name)
 
-    return categories
+    return dict(sorted(categories.items()))
 
 
 def add_dotted_circle(character):
