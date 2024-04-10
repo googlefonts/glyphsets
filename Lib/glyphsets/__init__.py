@@ -14,6 +14,9 @@ import unicodedata
 import glyphsLib
 import functools
 from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
+from glyphsets.helpers import Colors
+
+Colors = Colors()
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -485,17 +488,21 @@ def add_dotted_circle(character):
     return "◌" + character
 
 
-def describe_glyphset(glyph_names):
+def describe_glyphset(glyph_names, target="markdown"):
     md = ""
     categories = categorize_glyphs(glyph_names)
     for category, characters in categories.items():
-        md += f"{category} ({len(characters)} glyphs): \n"
+        md += f"{Colors.BOLD}{category}{Colors.END} ({len(characters)} glyphs): \n"
 
         if category == "Mark":
             string = " ".join(map(add_dotted_circle, characters))
         else:
             string = " ".join(characters)
-        md += "`" + string + "`\n\n"
+        md += (
+            f"`{Colors.BROWN if target=='console' else ''}"
+            + string
+            + f"{Colors.END if target=='console' else ''}`\n\n"
+        )
     return md
 
 
@@ -515,9 +522,16 @@ def compare_glyphsets(glyphsets):
     reference_glyphset = glyphsets[0]
     reference_glyphs = set(glyphs_in_glyphset(reference_glyphset))
 
-    print(f"{reference_glyphset}:\n{'=' * len(reference_glyphset)}\n")
+    def headline(string):
+        print(Colors.NEGATIVE)
+        print(" " * (len(string) + 2))
+        print(" " + string + " ")
+        print(" " * (len(string) + 2))
+        print(Colors.END)
+
+    headline(reference_glyphset)
     print(f"Total glyphs: {len(reference_glyphs)}\n")
-    print(describe_glyphset(reference_glyphs))
+    print(describe_glyphset(reference_glyphs, target="console"))
 
     for i, glyphset in enumerate(glyphsets):
         if i == 0:
@@ -526,7 +540,7 @@ def compare_glyphsets(glyphsets):
         this_glyphs = set(glyphs_in_glyphset(glyphsets[i]))
         previous_glyphs = set(glyphs_in_glyphset(glyphsets[i - 1]))
 
-        print(f"\n{glyphset}:\n{'=' * len(glyphset)}\n")
+        headline(glyphset)
         print(f"Total glyphs: {len(this_glyphs)}\n")
 
         missing = previous_glyphs.difference(this_glyphs)
@@ -534,15 +548,15 @@ def compare_glyphsets(glyphsets):
 
         if missing:
             print(
-                f"{glyphset} has {len(missing)} **missing** glyphs compared to {glyphsets[i - 1]}:\n"
+                f"{Colors.BOLD}{glyphset}{Colors.END} has {len(missing)} {Colors.RED}{Colors.BOLD}missing{Colors.END} glyphs compared to {Colors.BOLD}{glyphsets[i - 1]}{Colors.END}:\n"
             )
-            print(describe_glyphset(missing))
+            print(describe_glyphset(missing, target="console"))
 
         if extra:
             print(
-                f"{glyphset} has {len(extra)} **extra** glyphs compared to {glyphsets[i - 1]}:\n"
+                f"{Colors.BOLD}{glyphset}{Colors.END} has {len(extra)} {Colors.GREEN}{Colors.BOLD}extra{Colors.END} glyphs compared to {Colors.BOLD}{glyphsets[i - 1]}{Colors.END}:\n"
             )
-            print(describe_glyphset(extra))
+            print(describe_glyphset(extra, target="console"))
 
 
 def add_country(code):
