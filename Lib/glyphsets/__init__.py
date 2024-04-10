@@ -549,7 +549,7 @@ def compare_glyphsets(glyphsets):
         else:
             previous_glyphs = reference_glyphs
 
-        headline(glyphset)
+        headline(glyphsets[i])
         print(f"Total glyphs: {len(this_glyphs)}\n")
 
         missing = previous_glyphs.difference(this_glyphs)
