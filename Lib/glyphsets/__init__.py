@@ -11,6 +11,9 @@ import copy
 import json
 import logging
 import unicodedata
+import glyphsLib
+import functools
+from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -22,6 +25,13 @@ DATA_FP = os.path.join(os.path.dirname(__file__), "data.json")
 TEST_STRINGS_DATA = os.path.join(os.path.dirname(__file__), "test_strings.json")
 log = logging.getLogger(__file__)
 data = json.load(open(DATA_FP, encoding="utf8"))
+
+# Call get_glyph once so that GLYPHDATA gets filled in glyphsLib
+get_glyph("A")
+# If I import GLYPHDATA at the top of the file, it doesn't get filled
+from glyphsLib.glyphdata import GLYPHDATA
+
+assert type(GLYPHDATA) is glyphsLib.glyphdata.GlyphData
 
 
 class _GFGlyphData:
@@ -281,6 +291,19 @@ root_folder = os.path.abspath(
 )
 
 
+def sort_unicodes(a, b):
+    glyph_a = get_glyph(a)
+    glyph_b = get_glyph(b)
+    if glyph_a.unicode and glyph_b.unicode:
+        return int(glyph_a.unicode, 16) - int(glyph_b.unicode, 16)
+    elif glyph_a.unicode:
+        return -1
+    elif glyph_b.unicode:
+        return 1
+    else:
+        return 0
+
+
 def read_nam_file(path):
     character_set = set()
     with open(path, "r") as f:
@@ -433,6 +456,48 @@ def languages_per_glyphset(glyphset_name):
     return language_codes
 
 
+def categorize_glyphs(glyph_names):
+    categories = {}
+
+    unicode_sorted_glyph_names = sorted(
+        glyph_names, key=functools.cmp_to_key(sort_unicodes)
+    )
+
+    for glyph_name in unicode_sorted_glyph_names:
+        glyph = get_glyph(glyph_name)
+        if not glyph.category:
+            category = "Uncategorized"
+        else:
+            category = glyph.category
+        if category not in categories:
+            categories[category] = []
+
+        if glyph.unicode:
+            categories[category].append(chr(int(glyph.unicode, 16)))
+        else:
+            categories[category].append("/" + glyph_name)
+
+    return categories
+
+
+def add_dotted_circle(character):
+    return "◌" + character
+
+
+def describe_glyphset(glyph_names):
+    md = ""
+    categories = categorize_glyphs(glyph_names)
+    for category, characters in categories.items():
+        md += f"{category} ({len(characters)} glyphs): \n"
+
+        if category == "Mark":
+            string = " ".join(map(add_dotted_circle, characters))
+        else:
+            string = " ".join(characters)
+        md += "`" + string + "`\n\n"
+    return md
+
+
 def add_country(code):
     if code in regions:
         return f"{regions[code].name} ({code})"
@@ -534,6 +599,11 @@ def description_per_glyphset(glyphset_name):
             + ",\n".join(sorted(map(add_language, _languages_per_glyphset)))
             + "\n`\n\n"
         )
+
+    # Content
+    md += f"### Characters and Glyphs\n\n"
+    md += f"Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.\n\n"
+    md += str(describe_glyphset(glyphs_in_glyphset(glyphset_name)))
 
     # Composed characters
     decomposed_chars = get_decomposed_chars(glyphset_name)

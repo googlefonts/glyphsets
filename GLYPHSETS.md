@@ -36,6 +36,28 @@ Urdu (ur_Arab)
 `
 * Characters and glyphs defined in [GF_Arabic_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Arabic_Core.stub.glyphs)
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Separator (3 glyphs): 
+`    ‎`
+
+Punctuation (36 glyphs): 
+`! " # ' ( ) * , - . / : [ \ ] { } « » ، ؍ ؛ ؟ ٭ ۔ – — ‘ ’ “ ” … ‹ › ﴾ ﴿`
+
+Symbol (12 glyphs): 
+`% + < = > | × ÷ ؉ ؜ ٪ −`
+
+Number (32 glyphs): 
+`0 1 2 3 4 5 6 7 8 9 ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹`
+
+Letter (50 glyphs): 
+`ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ـ ف ق ك ل م ن ه و ى ي ٹ پ چ ڈ ڑ ژ ک گ ھ ہ ی ے ݣ`
+
+Mark (12 glyphs): 
+`◌ً ◌ٌ ◌ٍ ◌َ ◌ُ ◌ِ ◌ّ ◌ْ ◌ٓ ◌ٔ ◌ٕ ◌ٰ`
+
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Arabic_Core.nam](/data/results/nam/GF_Arabic_Core.nam)
@@ -64,6 +86,28 @@ Sindhi (sd_Arab),
 Uyghur (ug_Arab)
 `
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Punctuation (18 glyphs): 
+`! ' ( ) , - . / : ; [ ] ، ۔ ۽ ‘ ⁏ ⹁`
+
+Symbol (6 glyphs): 
+`% + ؉ ٪ ۾ −`
+
+Number (32 glyphs): 
+`0 1 2 3 4 5 6 7 8 9 ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹`
+
+Letter (81 glyphs): 
+`ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي ٺ ٻ ټ ٽ پ ٿ ڀ ځ ڃ ڄ څ چ ڇ ډ ڊ ڌ ڍ ڏ ړ ڕ ږ ژ ڙ ښ ڤ ڦ ک ڪ ګ ڭ گ ڱ ڳ ڵ ڻ ڼ ھ ۆ ۇ ۈ ۋ ی ۍ ێ ې ە`
+
+Mark (10 glyphs): 
+`◌ً ◌ٌ ◌ٍ ◌َ ◌ُ ◌ِ ◌ّ ◌ْ ◌ٔ ◌ٰ`
+
+Separator (2 glyphs): 
+`‎ ‏`
+
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Arabic_Plus.nam](/data/results/nam/GF_Arabic_Plus.nam)
@@ -88,6 +132,25 @@ Russian (ru_Cyrl),
 Serbian (sr_Cyrl),
 Ukrainian (uk_Cyrl)
 `
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Punctuation (27 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] « » – — ‘ ’ ‚ “ „ …`
+
+Symbol (5 glyphs): 
+`% & + @ №`
+
+Number (10 glyphs): 
+`0 1 2 3 4 5 6 7 8 9`
+
+Mark (5 glyphs): 
+`◌ʼ ◌̀ ◌́ ◌̆ ◌̈`
+
+Letter (88 glyphs): 
+`Ё Ђ Є І Ї Ј Љ Њ Ћ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ є і ї ј љ њ ћ ў џ Ґ ґ`
 
 ### Resulting Glyphset Files
 
@@ -114,6 +177,19 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Cyrillic_Historical.yaml).
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Letter (28 glyphs): 
+`Ѡ ѡ Ѥ ѥ Ѧ ѧ Ѩ ѩ Ѭ ѭ Ѯ ѯ Ѱ ѱ Ѷ ѷ Ѹ ѹ Ҁ ҁ Ꙍ ꙍ /uni047A /uni047B /uni047C /uni047D /uni047E /uni047F`
+
+Symbol (1 glyphs): 
+`҂`
+
+Mark (7 glyphs): 
+`◌҃ ◌҄ ◌҅ ◌҆ ◌҇ ◌҈ ◌҉`
 
 ### Resulting Glyphset Files
 
@@ -145,6 +221,19 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Cyrillic_Plus.yaml).
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Mark (7 glyphs): 
+`◌ʼ ◌̀ ◌́ ◌̄ ◌̈ ◌̋ ◌/brevecomb-cy`
+
+Letter (119 glyphs): 
+`Ѣ ѣ Ѫ ѫ Ѳ ѳ Ѵ ѵ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҡ ҡ Ң ң Ҥ ҥ Ҫ ҫ Ү ү Ұ ұ Ҳ ҳ Ҷ ҷ Ҹ ҹ Һ һ Ӏ Ӂ ӂ Ӌ ӌ ӏ Ӑ ӑ Ӓ ӓ Ӕ ӕ Ӗ ӗ Ә ә Ӝ ӝ Ӟ ӟ Ӣ ӣ Ӥ ӥ Ӧ ӧ Ө ө Ӯ ӯ Ӱ ӱ Ӳ ӳ Ӵ ӵ Ӷ ӷ Ӹ ӹ Ԛ ԛ Ԝ ԝ /De-cy.loclBGR /Ef-cy.loclBGR /El-cy.loclBGR /Esdescender-cy.loclBSH /Esdescender-cy.loclCHU /Gestroke-cy.loclBSH /Ii-cy.loclBGR /Iigrave-cy.loclBGR /Iishort-cy.loclBGR /Zedescender-cy.loclBSH /be-cy.loclSRB /che-cy.loclBGR /de-cy.loclBGR /el-cy.loclBGR /en-cy.loclBGR /esdescender-cy.loclBSH /esdescender-cy.loclCHU /ge-cy.loclBGR /gestroke-cy.loclBSH /hardsign-cy.loclBGR /ii-cy.loclBGR /iigrave-cy.loclBGR /iishort-cy.loclBGR /ka-cy.loclBGR /pe-cy.loclBGR /sha-cy.loclBGR /shcha-cy.loclBGR /softsign-cy.loclBGR /te-cy.loclBGR /tse-cy.loclBGR /ve-cy.loclBGR /yu-cy.loclBGR /ze-cy.loclBGR /zedescender-cy.loclBSH /zhe-cy.loclBGR`
+
+Symbol (3 glyphs): 
+`₮ ₴ ₸`
+
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Cyrillic_Plus.nam](/data/results/nam/GF_Cyrillic_Plus.nam)
@@ -170,6 +259,13 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Cyrillic_Pro.yaml).
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Letter (56 glyphs): 
+`Ҋ ҋ Ҍ ҍ Ҏ ҏ Ҕ ҕ Ҟ ҟ Ҩ ҩ Ҭ ҭ Ҵ ҵ Ҽ ҽ Ҿ ҿ Ӄ ӄ Ӆ ӆ Ӈ ӈ Ӊ ӊ Ӎ ӎ Ӛ ӛ Ӡ ӡ Ӫ ӫ Ӭ ӭ Ӻ ӻ Ӽ ӽ Ӿ ӿ Ԑ ԑ Ԓ ԓ Ԥ ԥ Ԧ ԧ Ԩ ԩ Ԯ ԯ`
 
 ### Resulting Glyphset Files
 
@@ -200,6 +296,13 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Greek_AncientMusicalSymbols.yaml).
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Uncategorized (316 glyphs): 
+`/agogiArgi-byzantineMusic /agogiArgoteri-byzantineMusic /agogiGorgi-byzantineMusic /agogiGorgoteri-byzantineMusic /agogiMesi-byzantineMusic /agogiMetria-byzantineMusic /agogiPoliArgi-byzantineMusic /agogiPoliGorgi-byzantineMusic /anatrichisma-byzantineMusic /antikenokylisma-byzantineMusic /antikenoma-byzantineMusic /apesoEkfonitikon-byzantineMusic /apesoExoNeo-byzantineMusic /apli-byzantineMusic /apodermaArchaion-byzantineMusic /apodermaNeo-byzantineMusic /apostrofoiSyndesmosNeo-byzantineMusic /apostrofoiTelousIchimatos-byzantineMusic /apostrofos-byzantineMusic /apostrofosDipli-byzantineMusic /apostrofosNeo-byzantineMusic /apothema-byzantineMusic /argon-byzantineMusic /argosyntheton-byzantineMusic /arktikoDi-byzantineMusic /arktikoGa-byzantineMusic /arktikoKe-byzantineMusic /arktikoNi-byzantineMusic /arktikoPa-byzantineMusic /arktikoVou-byzantineMusic /arktikoZo-byzantineMusic /chamili-byzantineMusic /chamilon-byzantineMusic /chorevmaArchaion-byzantineMusic /chorevmaNeo-byzantineMusic /chroaKliton-byzantineMusic /chroaSpathi-byzantineMusic /chroaZygos-byzantineMusic /daseia-byzantineMusic /diargon-byzantineMusic /diastoliApliMegali-byzantineMusic /diastoliApliMikri-byzantineMusic /diastoliDipli-byzantineMusic /diastoliTheseos-byzantineMusic /diesisApliDyoDodekata-byzantineMusic /diesisDigrammosExDodekata-byzantineMusic /diesisMonogrammosTesseraDodekata-byzantineMusic /diesisTetartimorion-byzantineMusic /diesisTrigrammosOktoDodekata-byzantineMusic /diesisTritimorion-byzantineMusic /diftoggosOu-byzantineMusic /digorgon-byzantineMusic /digorgonParestigmenonAristeraAno-byzantineMusic /digorgonParestigmenonAristeraKato-byzantineMusic /digorgonParestigmenonDexia-byzantineMusic /digrammaGg-byzantineMusic /dipli-byzantineMusic /dipliArchaion-byzantineMusic /dyo-byzantineMusic /ekstrepton-byzantineMusic /elafron-byzantineMusic /enarxisKaiFthoraVou-byzantineMusic /endofonon-byzantineMusic /epegerma-byzantineMusic /eteronArgosyntheton-byzantineMusic /eteronParakalesma-byzantineMusic /exoEkfonitikon-byzantineMusic /fanerosisDifonias-byzantineMusic /fanerosisMonofonias-byzantineMusic /fanerosisTetrafonias-byzantineMusic /fhtoraSklironChromaVasis-byzantineMusic /fthoraArchaion-byzantineMusic /fthoraArchaionDeyterouIchou-byzantineMusic /fthoraDiatonikiDi-byzantineMusic /fthoraDiatonikiKe-byzantineMusic /fthoraDiatonikiNana-byzantineMusic /fthoraDiatonikiNiAno-byzantineMusic /fthoraDiatonikiNiKato-byzantineMusic /fthoraDiatonikiPa-byzantineMusic /fthoraDiatonikiZo-byzantineMusic /fthoraEnarmoniosAntifonia-byzantineMusic /fthoraIYfesisTetartimorion-byzantineMusic /fthoraMalakonChromaDifonias-byzantineMusic /fthoraMalakonChromaMonofonias-byzantineMusic /fthoraNaosIchos-byzantineMusic /fthoraNenano-byzantineMusic /fthoraSklironChromaSynafi-byzantineMusic /fthoraSklironDiatononDi-byzantineMusic /genikiDiesis-byzantineMusic /genikiYfesis-byzantineMusic /gorgonArchaion-byzantineMusic /gorgonNeoAno-byzantineMusic /gorgonNeoKato-byzantineMusic /gorgonParestigmenonAristera-byzantineMusic /gorgonParestigmenonDexia-byzantineMusic /gorgosyntheton-byzantineMusic /gorthmikonNAploun-byzantineMusic /gorthmikonNDiploun-byzantineMusic /gronthismata-byzantineMusic /ichadin-byzantineMusic /imidiargon-byzantineMusic /imifonon-byzantineMusic /imifthora-byzantineMusic /imifthoron-byzantineMusic /isakiaTelousIchimatos-byzantineMusic /isonArchaion-byzantineMusic /isonNeo-byzantineMusic /katavaTromikon-byzantineMusic /katavasma-byzantineMusic /kathisti-byzantineMusic /kentimaArchaion-byzantineMusic /kentimaNeoAno-byzantineMusic /kentimaNeoKato-byzantineMusic /kentimaNeoMeso-byzantineMusic /kentimata-byzantineMusic /kentimataArchaion-byzantineMusic /kentimataNeoAno-byzantineMusic /kentimataNeoKato-byzantineMusic /kentimataNeoMeso-byzantineMusic /klasma-byzantineMusic /klasmaAno-byzantineMusic /klasmaKato-byzantineMusic /kontevma-byzantineMusic /kontevmaAllo-byzantineMusic /koronis-byzantineMusic /koufisma-byzantineMusic /kratimaAllo-byzantineMusic /kratimaArchaion-byzantineMusic /kratimaNeo-byzantineMusic /kratimata-byzantineMusic /kratimokoufisma-byzantineMusic /kratimoyporroon-byzantineMusic /kremasti-byzantineMusic /kylisma-byzantineMusic /leimmaDyoChronon-byzantineMusic /leimmaEnosChronou-byzantineMusic /leimmaImiseosChronou-byzantineMusic /leimmaTessaronChronon-byzantineMusic /leimmaTrionChronon-byzantineMusic /lemoi-byzantineMusic /lygisma-byzantineMusic /martyriaAlliDeyterosIchos-byzantineMusic /martyriaAlliProtosIchos-byzantineMusic /martyriaDeyterosIchos-byzantineMusic /martyriaLegetosIchos-byzantineMusic /martyriaPlagiosIchos-byzantineMusic /martyriaPlagiosTetartosIchos-byzantineMusic /martyriaProtosIchos-byzantineMusic /martyriaProtovarysIchos-byzantineMusic /martyriaTetartosIchos-byzantineMusic /martyriaTetartosLegetosIchos-byzantineMusic /martyriaTrifonias-byzantineMusic /martyriaTritosIchos-byzantineMusic /martyriaVarysIchos-byzantineMusic /mikronIson-byzantineMusic /nana-byzantineMusic /oligonArchaion-byzantineMusic /oligonNeo-byzantineMusic /omalon-byzantineMusic /oxeiaDipli-byzantineMusic /oxeiaEkfonitikon-byzantineMusic /oxeiaNeo-byzantineMusic /oxeiaiArchaion-byzantineMusic /oyranismaArchaion-byzantineMusic /oyranismaNeo-byzantineMusic /parakalesmaArchaion-byzantineMusic /parakalesmaNeo-byzantineMusic /paraklitiki-byzantineMusic /paraklitikiArchaion-byzantineMusic /paraklitikiNeo-byzantineMusic /parichon-byzantineMusic /pelaston-byzantineMusic /pelastonNeo-byzantineMusic /perispomeni-byzantineMusic /petasma-byzantineMusic /petasti-byzantineMusic /petastokoufisma-byzantineMusic /piasmaArchaion-byzantineMusic /piasmaNeo-byzantineMusic /psifistolygisma-byzantineMusic /psifiston-byzantineMusic /psifistonNeo-byzantineMusic /psifistoparakalesma-byzantineMusic /psifistosynagma-byzantineMusic /psili-byzantineMusic /psilon-byzantineMusic /rapisma-byzantineMusic /revma-byzantineMusic /saximata-byzantineMusic /seisma-byzantineMusic /seismaNeo-byzantineMusic /simansisArseos-byzantineMusic /simansisArseosDisimou-byzantineMusic /simansisArseosTetrasimou-byzantineMusic /simansisArseosTrisimou-byzantineMusic /simansisTheseos-byzantineMusic /simansisTheseosDisimou-byzantineMusic /simansisTheseosTetrasimou-byzantineMusic /simansisTheseosTrisimou-byzantineMusic /stavros-byzantineMusic /stavrosApodexia-byzantineMusic /stigma-byzantineMusic /straggismata-byzantineMusic /synagmaArchaion-byzantineMusic /synagmaMetaStavrou-byzantineMusic /synagmaNeo-byzantineMusic /synevma-byzantineMusic /syrma-byzantineMusic /syrmatiki-byzantineMusic /teleia-byzantineMusic /tessera-byzantineMusic /tetrapli-byzantineMusic /thema-byzantineMusic /themaAploun-byzantineMusic /thematismosEso-byzantineMusic /thematismosExo-byzantineMusic /thesKaiApothes-byzantineMusic /thita-byzantineMusic /tinagma-byzantineMusic /tria-byzantineMusic /trigorgon-byzantineMusic /tripli-byzantineMusic /tromikolygisma-byzantineMusic /tromikonAllo-byzantineMusic /tromikonArchaion-byzantineMusic /tromikonNeo-byzantineMusic /tromikoparakalesma-byzantineMusic /tromikopsifiston-byzantineMusic /tromikosynagma-byzantineMusic /uni1D200 /uni1D201 /uni1D202 /uni1D203 /uni1D204 /uni1D205 /uni1D206 /uni1D207 /uni1D208 /uni1D209 /uni1D20A /uni1D20B /uni1D20C /uni1D20D /uni1D20E /uni1D20F /uni1D210 /uni1D211 /uni1D212 /uni1D213 /uni1D214 /uni1D215 /uni1D216 /uni1D217 /uni1D218 /uni1D219 /uni1D21A /uni1D21B /uni1D21C /uni1D21D /uni1D21E /uni1D21F /uni1D220 /uni1D221 /uni1D222 /uni1D223 /uni1D224 /uni1D225 /uni1D226 /uni1D227 /uni1D228 /uni1D229 /uni1D22A /uni1D22B /uni1D22C /uni1D22D /uni1D22E /uni1D22F /uni1D230 /uni1D231 /uni1D232 /uni1D233 /uni1D234 /uni1D235 /uni1D236 /uni1D237 /uni1D238 /uni1D239 /uni1D23A /uni1D23B /uni1D23C /uni1D23D /uni1D23E /uni1D23F /uni1D240 /uni1D241 /uni1D242 /uni1D243 /uni1D244 /uni1D245 /vareiaDipli-byzantineMusic /vareiaEkfonitikon-byzantineMusic /vareiaNeo-byzantineMusic /vareiaiArchaion-byzantineMusic /vathy-byzantineMusic /xironKlasma-byzantineMusic /yfenAno-byzantineMusic /yfenKato-byzantineMusic /yfesisApliDyoDodekata-byzantineMusic /yfesisDigrammosExDodekata-byzantineMusic /yfesisMonogrammosTesseraDodekata-byzantineMusic /yfesisTrigrammosOktoDodekata-byzantineMusic /yfesisTritimorion-byzantineMusic /ypokrisis-byzantineMusic /ypokrisisDipli-byzantineMusic /yporroi-byzantineMusic /ypsili-byzantineMusic`
 
 ### Resulting Glyphset Files
 
@@ -238,6 +341,19 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Greek_Archaic.yaml).
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Letter (33 glyphs): 
+`Ͱ ͱ Ͳ ͳ Ͷ ͷ ͻ ͼ ͽ ϐ ϑ ϒ ϓ ϔ ϕ ϖ Ϙ ϙ ϰ ϱ ϲ ϳ ϴ ϵ Ϸ ϸ Ϲ Ϻ ϻ ϼ Ͻ Ͼ Ͽ`
+
+Symbol (52 glyphs): 
+`϶ □ ★ ☉ ☊ ☋ ☌ ☍ ☧ ☩ ☽ ☾ ☿ ♀ ♁ ♂ ♃ ♄ ♅ ♆ ♇ ♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓ ⟀ ⟁ 𐅹 𐅺 𐅻 𐅼 𐅽 𐅾 𐅿 𐆀 𐆁 𐆂 𐆃 𐆄 𐆅 𐆆 𐆇 𐆈 𐆉`
+
+Number (58 glyphs): 
+`𐅀 𐅁 𐅂 𐅃 𐅄 𐅅 𐅆 𐅇 𐅈 𐅉 𐅊 𐅋 𐅌 𐅍 𐅎 𐅏 𐅐 𐅑 𐅒 𐅓 𐅔 𐅕 𐅖 𐅗 𐅘 𐅙 𐅚 𐅛 𐅜 𐅝 𐅞 𐅟 𐅠 𐅡 𐅢 𐅣 𐅤 𐅥 𐅦 𐅧 𐅨 𐅩 𐅪 𐅫 𐅬 𐅭 𐅮 𐅯 𐅰 𐅱 𐅲 𐅳 𐅴 𐅵 𐅶 𐅷 𐅸 𐆊`
 
 ### Resulting Glyphset Files
 
@@ -281,6 +397,28 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Greek_Coptic.yaml).
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Letter (106 glyphs): 
+`Ϣ ϣ Ϥ ϥ Ϧ ϧ Ϩ ϩ Ϫ ϫ Ϭ ϭ Ϯ ϯ Ⲁ ⲁ Ⲃ ⲃ Ⲅ ⲅ Ⲇ ⲇ Ⲉ ⲉ Ⲋ ⲋ Ⲍ ⲍ Ⲏ ⲏ Ⲑ ⲑ Ⲓ ⲓ Ⲕ ⲕ Ⲗ ⲗ Ⲙ ⲙ Ⲛ ⲛ Ⲝ ⲝ Ⲟ ⲟ Ⲡ ⲡ Ⲣ ⲣ Ⲥ ⲥ Ⲧ ⲧ Ⲩ ⲩ Ⲫ ⲫ Ⲭ ⲭ Ⲯ ⲯ Ⲱ ⲱ Ⲳ ⲳ Ⲵ ⲵ Ⲷ ⲷ Ⲿ ⲿ Ⳁ ⳁ Ⳃ ⳃ Ⳅ ⳅ Ⳇ ⳇ Ⳉ ⳉ Ⳋ ⳋ Ⳍ ⳍ Ⳏ ⳏ Ⳑ ⳑ Ⳓ ⳓ Ⳕ ⳕ Ⳗ ⳗ Ⳙ ⳙ Ⳛ ⳛ Ⳬ ⳬ Ⳮ ⳮ Ⳳ ⳳ`
+
+Symbol (7 glyphs): 
+`ⳤ ⳥ ⳦ ⳧ ⳨ ⳩ ⳪`
+
+Number (1 glyphs): 
+`⳽`
+
+Punctuation (2 glyphs): 
+`⳾ ⳿`
+
+Uncategorized (18 glyphs): 
+`/Cryptogrammicni-coptic /cryptogrammicni-coptic /dialectPkapa-coptic /dialectPni-coptic /dialectpkapa-coptic /dialectpni-coptic /oldNgi-nubian-coptic /oldNyi-nubian-coptic /oldShima-nubian-coptic /oldWau-nubian-coptic /olddirectquestion-nubian-coptic /oldfullstop-nubian-coptic /oldindirectquestion-nubian-coptic /oldngi-nubian-coptic /oldnyi-nubian-coptic /oldshima-nubian-coptic /oldversedivider-nubian-coptic /oldwau-nubian-coptic`
+
+Mark (3 glyphs): 
+`◌/uni2CEF ◌/uni2CF0 ◌/uni2CF1`
+
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Greek_Coptic.nam](/data/results/nam/GF_Greek_Coptic.nam)
@@ -312,6 +450,25 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 Greek (el_Grek)
 `
 * Characters and glyphs defined in [GF_Greek_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Greek_Core.stub.glyphs)
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Punctuation (21 glyphs): 
+`! " ( ) * , - . / : ; [ \ ] « » ; · – — …`
+
+Symbol (6 glyphs): 
+`% & + @ ʹ ͵`
+
+Number (10 glyphs): 
+`0 1 2 3 4 5 6 7 8 9`
+
+Mark (4 glyphs): 
+`◌́ ◌̈ ◌΄ ◌΅`
+
+Letter (71 glyphs): 
+`Ά Έ Ή Ί Ό Ύ Ώ ΐ Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ϊ Ϋ ά έ ή ί ΰ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ϊ ϋ ό ύ ώ Ϗ ϗ`
 
 ### Resulting Glyphset Files
 
@@ -345,6 +502,22 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Greek_Expert.yaml).
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Letter (276 glyphs): 
+`/Alpha.sups /Alphadasiaoxiaprosgegrammeni.sc.ss01 /Alphadasiaperispomeniprosgegrammeni.sc.ss01 /Alphadasiaprosgegrammeni.sc.ss01 /Alphadasiavariaprosgegrammeni.sc.ss01 /Alphaprosgegrammeni.sc.ss01 /Alphapsilioxiaprosgegrammeni.sc.ss01 /Alphapsiliperispomeniprosgegrammeni.sc.ss01 /Alphapsiliprosgegrammeni.sc.ss01 /Alphapsilivariaprosgegrammeni.sc.ss01 /Beta.sups /Chi.sups /Delta.sups /Epsilon.sups /Eta.sups /Etadasiaoxiaprosgegrammeni.sc.ss01 /Etadasiaperispomeniprosgegrammeni.sc.ss01 /Etadasiaprosgegrammeni.sc.ss01 /Etadasiavariaprosgegrammeni.sc.ss01 /Etaprosgegrammeni.sc.ss01 /Etapsilioxiaprosgegrammeni.sc.ss01 /Etapsiliperispomeniprosgegrammeni.sc.ss01 /Etapsiliprosgegrammeni.sc.ss01 /Etapsilivariaprosgegrammeni.sc.ss01 /Gamma.sups /Iota.sups /Kappa.sups /Lambda.sups /Mu.sups /Nu.sups /Omega.sups /Omegadasiaoxiaprosgegrammeni.sc.ss01 /Omegadasiaperispomeniprosgegrammeni.sc.ss01 /Omegadasiaprosgegrammeni.sc.ss01 /Omegadasiavariaprosgegrammeni.sc.ss01 /Omegaprosgegrammeni.sc.ss01 /Omegapsilioxiaprosgegrammeni.sc.ss01 /Omegapsiliperispomeniprosgegrammeni.sc.ss01 /Omegapsiliprosgegrammeni.sc.ss01 /Omegapsilivariaprosgegrammeni.sc.ss01 /Omicron.sups /Phi.sups /Pi.sups /Psi.sups /Rho.sups /Sigma.sups /Tau.sups /Theta.sups /Upsilon.sups /Xi.sups /Zeta.sups /alpha.sc /alpha.sups /alphadasia.sc /alphadasiaoxia.sc /alphadasiaoxiaypogegrammeni.sc /alphadasiaoxiaypogegrammeni.sc.ss01 /alphadasiaperispomeni.sc /alphadasiaperispomeniypogegrammeni.sc /alphadasiaperispomeniypogegrammeni.sc.ss01 /alphadasiavaria.sc /alphadasiavariaypogegrammeni.sc /alphadasiavariaypogegrammeni.sc.ss01 /alphadasiaypogegrammeni.sc /alphadasiaypogegrammeni.sc.ss01 /alphamacron.sc /alphaoxia.sc /alphaoxiaypogegrammeni.sc /alphaoxiaypogegrammeni.sc.ss01 /alphaperispomeni.sc /alphaperispomeniypogegrammeni.sc /alphaperispomeniypogegrammeni.sc.ss01 /alphapsili.sc /alphapsilioxia.sc /alphapsilioxiaypogegrammeni.sc /alphapsilioxiaypogegrammeni.sc.ss01 /alphapsiliperispomeni.sc /alphapsiliperispomeniypogegrammeni.sc /alphapsiliperispomeniypogegrammeni.sc.ss01 /alphapsilivaria.sc /alphapsilivariaypogegrammeni.sc /alphapsilivariaypogegrammeni.sc.ss01 /alphapsiliypogegrammeni.sc /alphapsiliypogegrammeni.sc.ss01 /alphatonos.sc /alphavaria.sc /alphavariaypogegrammeni.sc /alphavariaypogegrammeni.sc.ss01 /alphavrachy.sc /alphaypogegrammeni.sc /alphaypogegrammeni.sc.ss01 /beta.sc /beta.sups /chi.sc /chi.sups /delta.sc /delta.sups /digamma.sc /epsilon.sc /epsilon.sups /epsilondasia.sc /epsilondasiaoxia.sc /epsilondasiavaria.sc /epsilonoxia.sc /epsilonpsili.sc /epsilonpsilioxia.sc /epsilonpsilivaria.sc /epsilontonos.sc /epsilonvaria.sc /eta.sc /eta.sups /etadasia.sc /etadasiaoxia.sc /etadasiaoxiaypogegrammeni.sc /etadasiaoxiaypogegrammeni.sc.ss01 /etadasiaperispomeni.sc /etadasiaperispomeniypogegrammeni.sc /etadasiaperispomeniypogegrammeni.sc.ss01 /etadasiavaria.sc /etadasiavariaypogegrammeni.sc /etadasiavariaypogegrammeni.sc.ss01 /etadasiaypogegrammeni.sc /etadasiaypogegrammeni.sc.ss01 /etaoxia.sc /etaoxiaypogegrammeni.sc /etaoxiaypogegrammeni.sc.ss01 /etaperispomeni.sc /etaperispomeniypogegrammeni.sc /etaperispomeniypogegrammeni.sc.ss01 /etapsili.sc /etapsilioxia.sc /etapsilioxiaypogegrammeni.sc /etapsilioxiaypogegrammeni.sc.ss01 /etapsiliperispomeni.sc /etapsiliperispomeniypogegrammeni.sc /etapsiliperispomeniypogegrammeni.sc.ss01 /etapsilivaria.sc /etapsilivariaypogegrammeni.sc /etapsilivariaypogegrammeni.sc.ss01 /etapsiliypogegrammeni.sc /etapsiliypogegrammeni.sc.ss01 /etatonos.sc /etavaria.sc /etavariaypogegrammeni.sc /etavariaypogegrammeni.sc.ss01 /etaypogegrammeni.sc /etaypogegrammeni.sc.ss01 /gamma.sc /gamma.sups /gamma_gamma /iota.sc /iota.sups /iotadasia.sc /iotadasiaoxia.sc /iotadasiaperispomeni.sc /iotadasiavaria.sc /iotadialytikaoxia.sc /iotadialytikaperispomeni.sc /iotadialytikavaria.sc /iotadieresis.sc /iotadieresistonos.sc /iotamacron.sc /iotaoxia.sc /iotaperispomeni.sc /iotapsili.sc /iotapsilioxia.sc /iotapsiliperispomeni.sc /iotapsilivaria.sc /iotatonos.sc /iotavaria.sc /iotavrachy.sc /kaiSymbol.sc /kappa.sc /kappa.sups /koppa.sc /lambda.sc /lambda.sups /lambda_lambda /mu.sc /mu.sups /nu.sc /nu.sups /omega.sc /omega.sups /omegadasia.sc /omegadasiaoxia.sc /omegadasiaoxiaypogegrammeni.sc /omegadasiaoxiaypogegrammeni.sc.ss01 /omegadasiaperispomeni.sc /omegadasiaperispomeniypogegrammeni.sc /omegadasiaperispomeniypogegrammeni.sc.ss01 /omegadasiavaria.sc /omegadasiavariaypogegrammeni.sc /omegadasiavariaypogegrammeni.sc.ss01 /omegadasiaypogegrammeni.sc /omegadasiaypogegrammeni.sc.ss01 /omegaoxia.sc /omegaoxiaypogegrammeni.sc /omegaoxiaypogegrammeni.sc.ss01 /omegaperispomeni.sc /omegaperispomeniypogegrammeni.sc /omegaperispomeniypogegrammeni.sc.ss01 /omegapsili.sc /omegapsilioxia.sc /omegapsilioxiaypogegrammeni.sc /omegapsilioxiaypogegrammeni.sc.ss01 /omegapsiliperispomeni.sc /omegapsiliperispomeniypogegrammeni.sc /omegapsiliperispomeniypogegrammeni.sc.ss01 /omegapsilivaria.sc /omegapsilivariaypogegrammeni.sc /omegapsilivariaypogegrammeni.sc.ss01 /omegapsiliypogegrammeni.sc /omegapsiliypogegrammeni.sc.ss01 /omegatonos.sc /omegavaria.sc /omegavariaypogegrammeni.sc /omegavariaypogegrammeni.sc.ss01 /omegaypogegrammeni.sc /omegaypogegrammeni.sc.ss01 /omicron.sc /omicron.sups /omicrondasia.sc /omicrondasiaoxia.sc /omicrondasiavaria.sc /omicronoxia.sc /omicronpsili.sc /omicronpsilioxia.sc /omicronpsilivaria.sc /omicrontonos.sc /omicronvaria.sc /phi.sc /phi.sups /pi.sc /pi.sups /prosgegrammeni.sc /psi.sc /psi.sups /rho.sc /rho.sups /rhodasia.sc /rhopsili.sc /sampi.sc /sigma.sc /sigma.sups /sigmafinal.sups /stigma.sc /tau.sc /tau.sups /theta.sc /theta.sups /upsilon.sc /upsilon.sups /upsilondasia.sc /upsilondasiaoxia.sc /upsilondasiaperispomeni.sc /upsilondasiavaria.sc /upsilondialytikaoxia.sc /upsilondialytikaperispomeni.sc /upsilondialytikavaria.sc /upsilondieresis.sc /upsilondieresistonos.sc /upsilonmacron.sc /upsilonoxia.sc /upsilonperispomeni.sc /upsilonpsili.sc /upsilonpsilioxia.sc /upsilonpsiliperispomeni.sc /upsilonpsilivaria.sc /upsilontonos.sc /upsilonvaria.sc /upsilonvrachy.sc /xi.sc /xi.sups /zeta.sc /zeta.sups`
+
+Punctuation (2 glyphs): 
+`/anoteleia.sc /questiongreek.sc`
+
+Mark (2 glyphs): 
+`◌/dieresistonos.sc ◌/tonos.sc`
+
+Symbol (2 glyphs): 
+`/lowernumeral-greek.sc /numeral-greek.sc`
 
 ### Resulting Glyphset Files
 
@@ -381,6 +554,16 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Greek_Plus.yaml).
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Mark (19 glyphs): 
+`◌͂ ◌̓ ◌̈́ ◌ͅ ◌᾽ ◌᾿ ◌῀ ◌῁ ◌῍ ◌῎ ◌῏ ◌῝ ◌῞ ◌῟ ◌῭ ◌΅ ◌` ◌´ ◌῾`
+
+Letter (246 glyphs): 
+`ͺ ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ Ἀ Ἁ Ἂ Ἃ Ἄ Ἅ Ἆ Ἇ ἐ ἑ ἒ ἓ ἔ ἕ Ἐ Ἑ Ἒ Ἓ Ἔ Ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ Ἠ Ἡ Ἢ Ἣ Ἤ Ἥ Ἦ Ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ Ἰ Ἱ Ἲ Ἳ Ἴ Ἵ Ἶ Ἷ ὀ ὁ ὂ ὃ ὄ ὅ Ὀ Ὁ Ὂ Ὃ Ὄ Ὅ ὐ ὑ ὒ ὓ ὔ ὕ ὖ ὗ Ὑ Ὓ Ὕ Ὗ ὠ ὡ ὢ ὣ ὤ ὥ ὦ ὧ Ὠ Ὡ Ὢ Ὣ Ὤ Ὥ Ὦ Ὧ ὰ ά ὲ έ ὴ ή ὶ ί ὸ ό ὺ ύ ὼ ώ ᾀ ᾁ ᾂ ᾃ ᾄ ᾅ ᾆ ᾇ ᾈ ᾉ ᾊ ᾋ ᾌ ᾍ ᾎ ᾏ ᾐ ᾑ ᾒ ᾓ ᾔ ᾕ ᾖ ᾗ ᾘ ᾙ ᾚ ᾛ ᾜ ᾝ ᾞ ᾟ ᾠ ᾡ ᾢ ᾣ ᾤ ᾥ ᾦ ᾧ ᾨ ᾩ ᾪ ᾫ ᾬ ᾭ ᾮ ᾯ ᾰ ᾱ ᾲ ᾳ ᾴ ᾶ ᾷ Ᾰ Ᾱ Ὰ Ά ᾼ ι ῂ ῃ ῄ ῆ ῇ Ὲ Έ Ὴ Ή ῌ ῐ ῑ ῒ ΐ ῖ ῗ Ῐ Ῑ Ὶ Ί ῠ ῡ ῢ ΰ ῤ ῥ ῦ ῧ Ῠ Ῡ Ὺ Ύ Ῥ ῲ ῳ ῴ ῶ ῷ Ὸ Ό Ὼ Ώ ῼ /Alphadasiaoxiaprosgegrammeni.ss01 /Alphadasiaperispomeniprosgegrammeni.ss01 /Alphadasiaprosgegrammeni.ss01 /Alphadasiavariaprosgegrammeni.ss01 /Alphaprosgegrammeni.ss01 /Alphapsilioxiaprosgegrammeni.ss01 /Alphapsiliperispomeniprosgegrammeni.ss01 /Alphapsiliprosgegrammeni.ss01 /Alphapsilivariaprosgegrammeni.ss01 /Etadasiaoxiaprosgegrammeni.ss01 /Etadasiaperispomeniprosgegrammeni.ss01 /Etadasiaprosgegrammeni.ss01 /Etadasiavariaprosgegrammeni.ss01 /Etaprosgegrammeni.ss01 /Etapsilioxiaprosgegrammeni.ss01 /Etapsiliperispomeniprosgegrammeni.ss01 /Etapsiliprosgegrammeni.ss01 /Etapsilivariaprosgegrammeni.ss01 /Omegadasiaoxiaprosgegrammeni.ss01 /Omegadasiaperispomeniprosgegrammeni.ss01 /Omegadasiaprosgegrammeni.ss01 /Omegadasiavariaprosgegrammeni.ss01 /Omegaprosgegrammeni.ss01 /Omegapsilioxiaprosgegrammeni.ss01 /Omegapsiliperispomeniprosgegrammeni.ss01 /Omegapsiliprosgegrammeni.ss01 /Omegapsilivariaprosgegrammeni.ss01`
 
 ### Resulting Glyphset Files
 
@@ -450,6 +633,22 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Greek_Pro.yaml).
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Mark (5 glyphs): 
+`◌˙ ◌̅ ◌̣ ◌͙ ◌͜`
+
+Letter (13 glyphs): 
+`Ϛ ϛ Ϝ ϝ Ϟ ϟ Ϡ ϡ 𝑙 𝔐 𝔓 𝔖 𝔭`
+
+Punctuation (44 glyphs): 
+`‖ ※ ‿ ⁂ ⁖ ⁘ ⁙ ⁚ ⁛ ⁜ ⁝ ⁞ ⸀ ⸁ ⸂ ⸃ ⸄ ⸅ ⸆ ⸇ ⸈ ⸉ ⸊ ⸋ ⸌ ⸍ ⸎ ⸏ ⸐ ⸑ ⸒ ⸓ ⸔ ⸕ ⸖ ⸗ 〈 〉 《 》 「 」 〚 〛`
+
+Symbol (20 glyphs): 
+`⁺ ⁻ ⁼ ₊ ₋ ₌ ℵ ℶ ⊗ ⋮ ⏑ ⏒ ⏓ ⏔ ⏕ ⏖ ⏗ ⏘ ⏙ ⫽`
 
 ### Resulting Glyphset Files
 
@@ -1145,6 +1344,25 @@ ut-Hun (uth_Latn),
 ut-Ma’in (gel_Latn)
 `
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Punctuation (27 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ ] « » – — ‘ ’ “ ” … ‹ ›`
+
+Symbol (12 glyphs): 
+`% & + @ ƒ ˗ ˮ Ⓐ ⓐ ꞉ ꞊ /uniA7CB`
+
+Number (10 glyphs): 
+`0 1 2 3 4 5 6 7 8 9`
+
+Letter (438 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ª º À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ó ô õ ö ø ù ú û ü ý ÿ Ā ā Ă ă Ą ą Ĉ ĉ Č č Đ đ Ē ē Ė ė Ę ę Ě ě Ĥ ĥ Ħ ħ Ĩ ĩ Ī ī Į į Ĺ ĺ Ń ń Ň ň Ŋ ŋ Ō ō Ő ő Œ œ Ŕ ŕ Ŗ ŗ Ř ř Ś ś Ŝ ŝ Ş ş Š š Ţ ţ Ŧ ŧ Ũ ũ Ū ū Ű ű Ų ų Ŵ ŵ Ŷ ŷ Ÿ Ż ż Ž ž Ɓ Ƃ ƃ Ɔ Ƈ ƈ Ɖ Ɗ Ǝ Ə Ɛ Ƒ Ɠ Ɣ Ɩ Ɨ Ƙ ƙ Ɯ Ɲ Ɵ Ƥ ƥ Ʃ Ƭ ƭ Ʈ Ʊ Ʋ Ƴ ƴ Ʒ Ƹ ƹ ǀ ǁ ǂ ǃ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǘ ǘ ǝ Ǣ ǣ Ǧ ǧ Ǫ ǫ ǰ Ǹ ǹ Ǽ ǽ Ǿ ǿ Ȁ ȁ Ȅ ȅ Ȉ ȉ Ȍ ȍ Ȓ ȓ Ȕ ȕ Ȧ ȧ Ȩ ȩ Ȳ ȳ Ɂ ɂ Ʉ Ʌ Ɉ ɉ Ɍ ɍ ɐ ɑ ɓ ɔ ɖ ɗ ə ɛ ɠ ɣ ɤ ɥ ɦ ɨ ɩ ɪ ɯ ɲ ɵ ɽ ʃ ʈ ʉ ʊ ʋ ʌ ʒ ʔ ʘ ʝ ʷ ᵃ ᵉ ᵋ ᵒ ᵓ ᵘ ᵽ ᶤ ᶶ Ḅ ḅ Ḇ ḇ Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḓ ḓ Ḕ ḕ Ḛ ḛ Ḣ ḣ Ḥ ḥ Ḭ ḭ Ḯ ḯ Ḳ ḳ Ḵ ḵ Ḷ ḷ Ḽ ḽ Ḿ ḿ Ṃ ṃ Ṅ ṅ Ṇ ṇ Ṉ ṉ Ṋ ṋ Ṍ ṍ Ṕ ṕ Ṛ ṛ Ṡ ṡ Ṣ ṣ Ṫ ṫ Ṭ ṭ Ṯ ṯ Ṱ ṱ Ṳ ṳ Ṵ ṵ Ṹ ṹ Ṽ ṽ Ṿ ṿ Ẅ ẅ Ẋ ẋ Ẓ ẓ ẖ Ạ ạ Ậ ậ Ẹ ẹ Ẽ ẽ Ệ ệ Ị ị Ọ ọ Ộ ộ Ụ ụ Ỳ ỳ Ỹ ỹ ⁱ Ᵽ Ɽ Ɑ Ɐ Ⱳ ⱳ Ꞌ ꞌ Ɥ Ɦ Ʝ Ꞵ ꞵ Ꞷ ꞷ /uniA7AE /uniA7C7 /uniA7C8`
+
+Mark (32 glyphs): 
+`◌ʼ ◌ˀ ◌ˆ ◌ˈ ◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̊ ◌̋ ◌̌ ◌̍ ◌̏ ◌̑ ◌̣ ◌̤ ◌̥ ◌̧ ◌̨ ◌̭ ◌̯ ◌̰ ◌̱ ◌͟ ◌᷄ ◌᷅ ◌᷆ ◌᷇`
+
 ### Decomposed Characters
 
 The following 722 composed character sequences are decomposed in the font:
@@ -1180,6 +1398,19 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Latin_Beyond.yaml).
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Symbol (2 glyphs): 
+`° ⅄`
+
+Letter (121 glyphs): 
+`Ĉ ĉ Ĝ ĝ Ĥ ĥ Ĩ ĩ Ĵ ĵ ĸ Ŝ ŝ Ţ ţ Ŧ ŧ Ũ ũ Ɔ Ə Ɛ Ɣ Ɨ ƚ ƛ Ʊ Ʒ ǂ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǥ ǥ Ǧ ǧ Ǩ ǩ Ǫ ǫ Ǭ ǭ Ǯ ǯ ǰ Ⱥ Ȼ ȼ Ƚ Ⱦ Ɂ ɔ ə ɛ ɣ ɨ ɩ ɪ ɫ ɬ ʊ ʒ ʔ ʕ ʷ ʸ λ χ ᶻ ᶿ Ḕ ḕ Ḗ ḗ Ḡ ḡ Ḥ ḥ Ḱ ḱ Ḳ ḳ Ḵ ḵ Ḷ ḷ Ṃ ṃ Ṇ ṇ Ṉ ṉ Ṑ ṑ Ṓ ṓ Ṣ ṣ Ṯ ṯ Ẑ ẑ Ẕ ẕ Ẽ ẽ Ị ị Ỹ ỹ Ɫ ⱥ ⱦ Ꞌ ꞌ ꭓ`
+
+Mark (11 glyphs): 
+`◌ʹ ◌ʻ ◌ʼ ◌ˀ ◌ˈ ◌̓ ◌̕ ◌̣ ◌̱ ◌̲ ◌̵`
 
 ### Resulting Glyphset Files
 
@@ -1232,6 +1463,28 @@ Welsh (cy_Latn)
 * Characters and glyphs defined in [GF_Latin_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Latin_Core.stub.glyphs)
 * Language-specific characters and glyphs defined for [Catalan (ca_Latn)](/data/definitions/per_language/ca_Latn.stub.glyphs)
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Separator (3 glyphs): 
+`    /.notdef`
+
+Punctuation (39 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] _ { } ¡ « · » ¿ – — ‘ ’ ‚ “ ” „ • … ‹ › /periodcentered.loclCAT /periodcentered.loclCAT.case`
+
+Symbol (24 glyphs): 
+`$ % & + < = > @ ^ | ~ ¢ £ ¥ § © ® ° ¶ × ÷ € ™ −`
+
+Number (10 glyphs): 
+`0 1 2 3 4 5 6 7 8 9`
+
+Letter (220 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ª º À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ð Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý Þ ß à á â ã ä å æ ç è é ê ë ì í î ï ð ñ ò ó ô õ ö ø ù ú û ü ý þ ÿ Ā ā Ă ă Ą ą Ć ć Ċ ċ Č č Ď ď Đ đ Ē ē Ė ė Ę ę Ě ě Ğ ğ Ġ ġ Ģ ģ Ħ ħ Ī ī Į į İ ı Ķ ķ Ĺ ĺ Ļ ļ Ľ ľ Ł ł Ń ń Ņ ņ Ň ň Ő ő Œ œ Ŕ ŕ Ř ř Ś ś Ş ş Š š Ť ť Ū ū Ů ů Ű ű Ų ų Ŵ ŵ Ŷ ŷ Ÿ Ź ź Ż ż Ž ž Ș ș Ț ț ȷ Ẁ ẁ Ẃ ẃ Ẅ ẅ ẞ Ỳ ỳ /idotaccent`
+
+Mark (28 glyphs): 
+`◌` ◌¨ ◌¯ ◌´ ◌¸ ◌ˆ ◌ˇ ◌˘ ◌˙ ◌˚ ◌˛ ◌˜ ◌˝ ◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̊ ◌̋ ◌̌ ◌̦ ◌̧ ◌̨ ◌/caroncomb.alt`
+
 ### Decomposed Characters
 
 The following 2 composed character sequences are decomposed in the font:
@@ -1271,6 +1524,28 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Latin_Kernel.yaml).
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Separator (2 glyphs): 
+`   `
+
+Punctuation (29 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] _ { } · – — ‘ ’ “ ” • …`
+
+Symbol (22 glyphs): 
+`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ € ™ −`
+
+Number (10 glyphs): 
+`0 1 2 3 4 5 6 7 8 9`
+
+Letter (52 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z`
+
+Mark (1 glyphs): 
+`◌``
+
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Latin_Kernel.nam](/data/results/nam/GF_Latin_Kernel.nam)
@@ -1297,6 +1572,22 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Latin_Plus.yaml).
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Symbol (81 glyphs): 
+`¦ ¬ ± µ ฿ † ‡ ‰ ′ ″ ₡ ₦ ₨ ₩ ₪ ₫ ₭ ₮ ₱ ₲ ₴ ₵ ₸ ₹ ₺ ₼ ₽ ₾ ₿ ℓ № Ω ℮ ← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ∂ ∅ ∆ ∏ ∑ √ ∞ ∫ ≈ ≠ ≤ ≥ ■ □ ▪ ▫ ▲ △ ▴ ▵ ▶ ▷ ▸ ▹ ▼ ▽ ▾ ▿ ◀ ◁ ◂ ◃ ◆ ◇ ◊ ○ ● ◦`
+
+Number (55 glyphs): 
+`² ³ ¹ ¼ ½ ¾ ⁄ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ⅓ ⅔ /eight.dnom /eight.numr /eight.tf /five.dnom /five.numr /five.tf /four.dnom /four.numr /four.tf /nine.dnom /nine.numr /nine.tf /one.dnom /one.numr /one.tf /seven.dnom /seven.numr /seven.tf /six.dnom /six.numr /six.tf /three.dnom /three.numr /three.tf /two.dnom /two.numr /two.tf /zero.dnom /zero.numr /zero.tf /zero.zero`
+
+Letter (1 glyphs): 
+`π`
+
+Punctuation (3 glyphs): 
+`‖ ⟨ ⟩`
+
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Latin_Plus.nam](/data/results/nam/GF_Latin_Plus.nam)
@@ -1319,6 +1610,16 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Latin_PriAfrican.yaml).
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Letter (32 glyphs): 
+`Ŋ ŋ Ɓ Ɔ Ɗ Ɛ Ƙ ƙ Ɲ Ƴ ƴ Ǹ ǹ ɓ ɔ ɗ ɛ ɲ Ḿ ḿ Ṅ ṅ Ṣ ṣ Ẹ ẹ Ị ị Ọ ọ Ụ ụ`
+
+Mark (1 glyphs): 
+`◌̣`
+
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Latin_PriAfrican.nam](/data/results/nam/GF_Latin_PriAfrican.nam)
@@ -1339,6 +1640,25 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 Vietnamese (vi_Latn)
 `
 * Characters and glyphs defined in [GF_Latin_Vietnamese.stub.glyphs](/data/definitions/per_glyphset/GF_Latin_Vietnamese.stub.glyphs)
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Punctuation (23 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ ] – — ‘ ’ “ ” …`
+
+Symbol (4 glyphs): 
+`% & + @`
+
+Number (10 glyphs): 
+`0 1 2 3 4 5 6 7 8 9`
+
+Letter (186 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã È É Ê Ì Í Ò Ó Ô Õ Ù Ú Ý à á â ã è é ê ì í ò ó ô õ ù ú ý Ă ă Đ đ Ĩ ĩ Ũ ũ Ơ ơ Ư ư Ạ ạ Ả ả Ấ ấ Ầ ầ Ẩ ẩ Ẫ ẫ Ậ ậ Ắ ắ Ằ ằ Ẳ ẳ Ẵ ẵ Ặ ặ Ẹ ẹ Ẻ ẻ Ẽ ẽ Ế ế Ề ề Ể ể Ễ ễ Ệ ệ Ỉ ỉ Ị ị Ọ ọ Ỏ ỏ Ố ố Ồ ồ Ổ ổ Ỗ ỗ Ộ ộ Ớ ớ Ờ ờ Ở ở Ỡ ỡ Ợ ợ Ụ ụ Ủ ủ Ứ ứ Ừ ừ Ử ử Ữ ữ Ự ự Ỳ ỳ Ỵ ỵ Ỷ ỷ Ỹ ỹ`
+
+Mark (16 glyphs): 
+`◌̀ ◌́ ◌̂ ◌̃ ◌̆ ◌̉ ◌̛ ◌̣ ◌/brevecomb_acutecomb ◌/brevecomb_gravecomb ◌/brevecomb_hookabovecomb ◌/brevecomb_tildecomb ◌/circumflexcomb_acutecomb ◌/circumflexcomb_gravecomb ◌/circumflexcomb_hookabovecomb ◌/circumflexcomb_tildecomb`
 
 ### Resulting Glyphset Files
 
@@ -1366,6 +1686,19 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Phonetics_APA.yaml).
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Letter (20 glyphs): 
+`ĺ ƚ ƛ ǯ ǰ ȯ Ȼ ȼ ʸ λ φ ᴅ ᵍ ᵻ ᵾ ᶿ ṛ ṱ ẉ ẋ`
+
+Mark (2 glyphs): 
+`◌̓ ◌̨`
+
+Symbol (1 glyphs): 
+`꞉`
+
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Phonetics_APA.nam](/data/results/nam/GF_Phonetics_APA.nam)
@@ -1391,6 +1724,25 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Phonetics_DisorderedSpeech.yaml).
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Punctuation (5 glyphs): 
+`! * ¡ ₍ ₎`
+
+Letter (19 glyphs): 
+`ʩ ʪ ʫ ʬ ʭ ʴ ˢ ᴺ ᵊ ꞎ Ʞ 𝑓 𝑝 /Kturned.circled /fitalic-math.subs /fitalic-math.sups /pitalic-math.subs /pitalic-math.sups /uniA7AF`
+
+Symbol (13 glyphs): 
+`ˬ ˭ Ⓒ Ⓕ Ⓖ Ⓛ Ⓝ Ⓟ Ⓡ Ⓢ Ⓣ Ⓥ ◯`
+
+Mark (17 glyphs): 
+`◌͆ ◌͇ ◌͉ ◌͊ ◌͋ ◌͌ ◌͍ ◌͎ ◌͔ ◌͕ ◌͢ ◌᪻ ◌᪽ ◌/uni1AC1 ◌/uni1AC2 ◌/uni1AC3 ◌/uni1AC4`
+
+Uncategorized (16 glyphs): 
+`/uni10790 /uni10799 /uni1079A /uni1079C /uni1079D /uni1079F /uni107A1 /uni107AA /uni1DF00 /uni1DF01 /uni1DF02 /uni1DF03 /uni1DF04 /uni1DF05 /uni1DF06 /uni1DF07`
 
 ### Resulting Glyphset Files
 
@@ -1418,6 +1770,16 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Phonetics_IPAHistorical.yaml).
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Letter (12 glyphs): 
+`ƈ ƙ ƥ ƭ ʞ ʠ ʣ ʤ ʥ ʦ ʧ ʨ`
+
+Mark (1 glyphs): 
+`◌̢`
+
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Phonetics_IPAHistorical.nam](/data/results/nam/GF_Phonetics_IPAHistorical.nam)
@@ -1443,6 +1805,22 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Phonetics_IPAStandard.yaml).
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Punctuation (4 glyphs): 
+`! . ‖ ‿`
+
+Symbol (10 glyphs): 
+`| ˞ ˠ ˥ ˦ ˧ ˨ ˩ ˳ ◌`
+
+Letter (105 glyphs): 
+`æ ç ð ø ħ ŋ œ ǀ ǁ ǂ ǃ ȅ ɐ ɑ ɒ ɓ ɔ ɕ ɖ ɗ ɘ ə ɚ ɛ ɜ ɝ ɞ ɟ ɠ ɡ ɢ ɣ ɤ ɥ ɦ ɧ ɨ ɪ ɫ ɬ ɭ ɮ ɯ ɰ ɱ ɲ ɳ ɴ ɵ ɶ ɸ ɹ ɺ ɻ ɽ ɾ ʀ ʁ ʂ ʃ ʄ ʈ ʉ ʊ ʋ ʌ ʍ ʎ ʏ ʐ ʑ ʒ ʔ ʕ ʘ ʙ ʛ ʜ ʝ ʟ ʡ ʢ ʰ ʲ ʷ ˡ β θ χ ᵬ ᵭ ᵮ ᵯ ᵰ ᵱ ᵲ ᵳ ᵴ ᵵ ᵶ ⁿ ꜛ ꜜ ꞵ ꭓ`
+
+Mark (49 glyphs): 
+`◌ʼ ◌ˁ ◌ˈ ◌ˌ ◌ː ◌ˑ ◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̅ ◌̆ ◌̈ ◌̊ ◌̋ ◌̌ ◌̏ ◌̘ ◌̙ ◌̚ ◌̜ ◌̝ ◌̞ ◌̟ ◌̠ ◌̤ ◌̥ ◌̩ ◌̪ ◌̬ ◌̯ ◌̰ ◌̲ ◌̴ ◌̹ ◌̺ ◌̻ ◌̼ ◌̽ ◌͈ ◌͜ ◌͡ ◌᷄ ◌᷅ ◌᷆ ◌᷇ ◌᷈ ◌᷉`
 
 ### Resulting Glyphset Files
 
@@ -1470,6 +1848,13 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_Phonetics_SinoExt.yaml).
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Letter (11 glyphs): 
+`ȡ ȴ ȵ ȶ ɿ ʅ ʮ ʯ ᴀ ᴇ ꭥ`
+
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Phonetics_SinoExt.nam](/data/results/nam/GF_Phonetics_SinoExt.nam)
@@ -1496,6 +1881,16 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_TransLatin_Arabic.yaml).
 
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Letter (26 glyphs): 
+`Ǧ ǧ Ȳ ȳ Ḍ ḍ Ḏ ḏ Ḡ ḡ Ḥ ḥ Ḫ ḫ Ḵ ḵ Ṣ ṣ Ṭ ṭ Ṯ ṯ Ẓ ẓ ẖ ẗ`
+
+Mark (7 glyphs): 
+`◌ʼ ◌ʽ ◌ʾ ◌ʿ ◌̣ ◌̮ ◌̱`
+
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_TransLatin_Arabic.nam](/data/results/nam/GF_TransLatin_Arabic.nam)
@@ -1521,6 +1916,16 @@ Glyphs.app Custom Filter List (contains all TransLatin glyphsets): [CustomFilter
 > [!CAUTION]  
 > Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
 > Please add language code definions [here](/Lib/glyphsets/definitions/GF_TransLatin_Pinyin.yaml).
+
+### Characters and Glyphs
+
+Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.
+
+Letter (79 glyphs): 
+`À Á Â È É Ê Ì Í Î Ï Ò Ó Ô Ù Ú Û Ü à á â è é ê ì í î ñ ò ó ô ù ú û ü Ā ā Ă ă Ē ē Ĕ ĕ Ě ě Ī ī Ĭ ĭ Ń Ō ō Ŏ ŏ Ū ū Ŭ ŭ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǖ ǖ Ǘ ǘ Ǚ ǚ Ǜ ǜ Ǹ ǹ ᴺ Ḿ ḿ ⁿ`
+
+Mark (16 glyphs): 
+`◌ʼ ◌̀ ◌́ ◌̂ ◌̄ ◌̆ ◌̈ ◌̌ ◌̍ ◌͘ ◌/acutecomb_dotaboverightcomb ◌/brevecomb_dotaboverightcomb ◌/circumflexcomb_dotaboverightcomb ◌/gravecomb_dotaboverightcomb ◌/macroncomb_dotaboverightcomb ◌/verticallineabovecomb_dotaboverightcomb`
 
 ### Resulting Glyphset Files
 
