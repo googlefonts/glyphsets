@@ -289,6 +289,7 @@ GFTestData = _TestDocData()
 root_folder = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "..", "data")
 )
+tool_folder = os.path.abspath(os.path.dirname(__file__))
 
 
 def sort_unicodes(a, b):
@@ -411,10 +412,10 @@ def glyphs_in_glyphset(glyphset_name, production_names=False):
 
     with open(
         os.path.join(
-            root_folder,
+            tool_folder,
             "results",
             "txt",
-            "prod-names" if production_names else "nice-names",
+            "nice-names",
             f"{glyphset_name}.txt",
         ),
         "r",

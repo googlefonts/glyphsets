@@ -76,6 +76,18 @@ def assemble_characterset(root_folder, glyphset_name):
             f"{glyphset_name}.nam",
         )
     )
+    txt_in_package_path = os.path.abspath(
+        os.path.join(
+            root_folder,
+            "..",
+            "Lib",
+            "glyphsets",
+            "results",
+            "txt",
+            "nice-names",
+            f"{glyphset_name}.txt",
+        )
+    )
     glyphs_stub_path = os.path.join(
         root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.glyphs"
     )
@@ -217,6 +229,8 @@ def assemble_characterset(root_folder, glyphset_name):
             "# This file is auto-generated; do not edit. See /README.md for instructions.\n"
         )
         f.write("\n".join(production_glyph_names))
+    os.makedirs(os.path.dirname(txt_in_package_path), exist_ok=True)
+    shutil.copyfile(txt_nicenames_path, txt_in_package_path)
 
     # Adjust .plist
     os.makedirs(os.path.dirname(plist_path), exist_ok=True)

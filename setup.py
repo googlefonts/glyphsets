@@ -47,6 +47,7 @@ setup(
             "*.json",
             "definitions/*.yaml",
             "results/nam/*.nam",
+            "results/txt/nice-names/*.txt",
         ]
     },
     entry_points={"console_scripts": ["glyphsets = glyphsets.__main__:main"]},

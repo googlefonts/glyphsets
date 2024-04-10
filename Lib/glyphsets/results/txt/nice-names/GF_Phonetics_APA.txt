@@ -1,0 +1,24 @@
+# This file is auto-generated; do not edit. See /README.md for instructions.
+lacute
+lbar
+lambdastroke
+ezhcaron
+jcaron
+odotaccent
+Cstroke
+cstroke
+ymod
+commaabovecomb
+ogonekcomb
+lambda
+phi
+Dsmall
+gmod
+idotlessstroke
+ustroke
+thetamod
+rdotbelow
+tcircumflexbelow
+wdotbelow
+xdotaccent
+colonmod
