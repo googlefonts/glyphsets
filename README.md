@@ -106,6 +106,11 @@ RESULTS:                        │
 Glyphsets Tool
 ==============
 
+> [!NOTE]  
+> Previously existing commands of the `glyphsets` tool are currently deactivated after the transition to the new database. These are: `update-srcs`, `nam-file`, `missing-in-font`. Please report if you need to use these.
+
+## Custom Filters
+
 You can create your own Glyphs.app _Custom Filters_ using the `glyphsets` tool.
 
 Install or update the tool with pip, if you haven’t already:
@@ -121,10 +126,42 @@ glyphsets filter-list -o myfilter.plist GF_Latin_Core GF_Latin_Plus
 ```
 Add this `.plist` file next to your Glyphs file and (after restart) you would be able to see it in the filters sidebar.
 
-> [!NOTE]  
-> Previously existing commands of the `glyphsets` tool are currently deactivated after the transition to the new database. These are: `update-srcs`, `nam-file`, `missing-in-font`. Please report if you need to use these.
+## Compare Glyphsets
+
+You can compare the contents of two or more glyphsets against each other. Each consecutive glyphset will be compared to the previous one.
+
+This command lists the complete contents of `GF_Latin_Kernel` first, and then lists only extra (or missing) glyphs for `GF_Latin_Core` when compared to `GF_Latin_Kernel`:
+```
+glyphsets compare GF_Latin_Kernel GF_Latin_Core
+```
+
+Output:
+
+```
+GF_Latin_Kernel:
+===============
+
+Total glyphs: 116
+
+Letter (52 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z`
+
+...
 
 
+GF_Latin_Core:
+=============
+
+Total glyphs: 324
+
+GF_Latin_Core has 208 **extra** glyphs compared to GF_Latin_Kernel:
+
+Letter (168 glyphs): 
+`ª º À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ð Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý Þ ß à á â ã ä å æ ç è é ê ë ì í î ï ð ñ ò ó ô õ ö ø ù ú û ü ý þ ÿ Ā ā Ă ă Ą ą Ć ć Ċ ċ Č č Ď ď Đ đ Ē ē Ė ė Ę ę Ě ě Ğ ğ Ġ ġ Ģ ģ Ħ ħ Ī ī Į į İ ı Ķ ķ Ĺ ĺ Ļ ļ Ľ ľ Ł ł Ń ń Ņ ņ Ň ň Ő ő Œ œ Ŕ ŕ Ř ř Ś ś Ş ş Š š Ť ť Ū ū Ů ů Ű ű Ų ų Ŵ ŵ Ŷ ŷ Ÿ Ź ź Ż ż Ž ž Ș ș Ț ț ȷ Ẁ ẁ Ẃ ẃ Ẅ ẅ ẞ Ỳ ỳ /idotaccent`
+
+...
+
+```
 Acknowledgements
 ================
 

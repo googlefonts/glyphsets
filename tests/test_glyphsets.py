@@ -4,6 +4,7 @@ from glyphsets import (
     languages_per_glyphset,
     get_glyphsets_fulfilled,
     defined_glyphsets,
+    compare_glyphsets,
 )
 
 DATA_FP = os.path.join(os.path.dirname(__file__), "data")
@@ -31,3 +32,7 @@ def test_coverage():
 
     ttFont = TTFont(FONT_PATH)
     assert get_glyphsets_fulfilled(ttFont)["GF_Latin_Core"]["percentage"] > 0.99
+
+
+def test_compare():
+    compare_glyphsets(["GF_Latin_Kernel", "GF_Latin_Core", "GF_Latin_Plus"])

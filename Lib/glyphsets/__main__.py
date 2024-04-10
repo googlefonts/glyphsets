@@ -1,5 +1,5 @@
 import argparse
-from glyphsets import build_glyphsapp_filter_list
+from glyphsets import build_glyphsapp_filter_list, compare_glyphsets
 
 
 def main():
@@ -28,6 +28,12 @@ def main():
     filter_lists_parser.add_argument("--prod-names", action="store_true", default=False)
     filter_lists_parser.add_argument("-o", "--out", required=True, help="output path")
 
+    filter_lists_parser = subparsers.add_parser(
+        "compare",
+        help="Compare two or more glyhsets to each other; with later glyphsets being compared to the former.",
+    )
+    filter_lists_parser.add_argument("glyphsets", nargs="+")
+
     # nam_file_parser = subparsers.add_parser(
     #     "nam-file", help="Ouput .nam file from given glyphset(s)."
     # )
@@ -51,6 +57,9 @@ def main():
 
     if args.command == "filter-list":
         build_glyphsapp_filter_list(args.glyphsets, args.out, args.prod_names)
+
+    if args.command == "compare":
+        compare_glyphsets(args.glyphsets)
 
     # elif args.command == "update-srcs":
     #     srcs = [load_source(src) for src in args.srcs]

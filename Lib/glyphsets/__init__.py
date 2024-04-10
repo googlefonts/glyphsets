@@ -498,6 +498,52 @@ def describe_glyphset(glyph_names):
     return md
 
 
+def compare_glyphsets(glyphsets):
+    """
+    Compare the contents of glyphsets to each other,
+    with the first glyphset being the reference.
+    Each consecutive glyphset gets compares to each former.
+    """
+
+    if len(list(set(glyphsets))) < 2:
+        raise ValueError("Please provide at least two glyphsets to compare.")
+
+    if len(list(set(glyphsets))) != len(glyphsets):
+        raise ValueError("Please provide unique glyphsets to compare.")
+
+    reference_glyphset = glyphsets[0]
+    reference_glyphs = set(glyphs_in_glyphset(reference_glyphset))
+
+    print(f"{reference_glyphset}:\n{'=' * len(reference_glyphset)}\n")
+    print(f"Total glyphs: {len(reference_glyphs)}\n")
+    print(describe_glyphset(reference_glyphs))
+
+    for i, glyphset in enumerate(glyphsets):
+        if i == 0:
+            continue
+
+        this_glyphs = set(glyphs_in_glyphset(glyphsets[i]))
+        previous_glyphs = set(glyphs_in_glyphset(glyphsets[i - 1]))
+
+        print(f"\n{glyphset}:\n{'=' * len(glyphset)}\n")
+        print(f"Total glyphs: {len(this_glyphs)}\n")
+
+        missing = previous_glyphs.difference(this_glyphs)
+        extra = this_glyphs.difference(previous_glyphs)
+
+        if missing:
+            print(
+                f"{glyphset} has {len(missing)} **missing** glyphs compared to {glyphsets[i - 1]}:\n"
+            )
+            print(describe_glyphset(missing))
+
+        if extra:
+            print(
+                f"{glyphset} has {len(extra)} **extra** glyphs compared to {glyphsets[i - 1]}:\n"
+            )
+            print(describe_glyphset(extra))
+
+
 def add_country(code):
     if code in regions:
         return f"{regions[code].name} ({code})"
