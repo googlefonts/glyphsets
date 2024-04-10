@@ -9,7 +9,7 @@
 |  | [🛑 Pro](#gf-cyrillic-pro) | [✅ Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
 |  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) | [🛑 SinoExt](#gf-phonetics-sinoext) |  |
 |  |  | [🛑 Plus](#gf-greek-plus) | [🛑 PriAfrican](#gf-latin-priafrican) |  |  |
-|  |  | [🛑 Pro](#gf-greek-pro) | [🛑 Vietnamese](#gf-latin-vietnamese) |  |  |
+|  |  | [🛑 Pro](#gf-greek-pro) | [✅ Vietnamese](#gf-latin-vietnamese) |  |  |
 
 > [!NOTE]  
 > This document is a human-readable representation of the glyphset defintions defined in `.yaml` files [here](/Lib/glyphsets/definitions/) and gets updated automatically as part of the `sh build.sh` command.
@@ -1332,18 +1332,13 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 
 # GF Latin Vietnamese
 
-> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
-> 
-> Achuar-Shiwiar, Aguaruna, Apinayé, Bini, Cashinahua, Chachi, Embu, Kaingang, Kamba (Kenya), Kikuyu, Mirandese, Páez, Shuar, Toba, Umbundu, Vietnamese, Walser, Waorani, Xavánte
-
 `GF_Latin_Vietnamese` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Latin_Vietnamese.yaml) as:
 
 * Script: Latin
+* List of languages: `
+Vietnamese (vi_Latn)
+`
 * Characters and glyphs defined in [GF_Latin_Vietnamese.stub.glyphs](/data/definitions/per_glyphset/GF_Latin_Vietnamese.stub.glyphs)
-
-> [!CAUTION]  
-> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
-> Please add language code definions [here](/Lib/glyphsets/definitions/GF_Latin_Vietnamese.yaml).
 
 ### Resulting Glyphset Files
 
