@@ -602,8 +602,8 @@ def description_per_glyphset(glyphset_name):
 
     # Content
     md += f"### Characters and Glyphs\n\n"
-    md += f"Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder.\n\n"
     md += str(describe_glyphset(glyphs_in_glyphset(glyphset_name)))
+    md += f"_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._\n\n"
 
     # Composed characters
     decomposed_chars = get_decomposed_chars(glyphset_name)
