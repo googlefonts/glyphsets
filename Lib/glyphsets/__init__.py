@@ -541,10 +541,13 @@ def compare_glyphsets(glyphsets):
             continue
 
         this_glyphs = set(glyphs_in_glyphset(glyphsets[i]))
-        previous_glyphs = set(glyphs_in_glyphset(glyphsets[i - 1]))
         if not this_glyphs:
             raise ValueError(f"Glyphset {glyphsets[i]} is empty.")
 
+        if i > 1:
+            previous_glyphs = set(glyphs_in_glyphset(glyphsets[i - 1]))
+        else:
+            previous_glyphs = reference_glyphs
 
         headline(glyphset)
         print(f"Total glyphs: {len(this_glyphs)}\n")
