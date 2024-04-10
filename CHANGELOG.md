@@ -4,7 +4,8 @@ Below are the most important changes from each release.
 #### Changes since last release
 
 - Added back a few unencoded glyphs to **Latin_Plus** and **Latin_Vietnamese** that went missing in the recent data transition (Issue #166)
-- Added `language_code` definition for **Latin_Vietnamese** to allow shaping checking
+- Added `language_code` definition for **Latin_Vietnamese** to allow shaping tests
+- Added `glyphsets compare` CLI command
 
 ### v0.6.17 (2024-Apr-3)
 #### Changes since last release
