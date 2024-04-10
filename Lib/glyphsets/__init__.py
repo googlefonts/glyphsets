@@ -522,6 +522,9 @@ def compare_glyphsets(glyphsets):
     reference_glyphset = glyphsets[0]
     reference_glyphs = set(glyphs_in_glyphset(reference_glyphset))
 
+    if not reference_glyphs:
+        raise ValueError(f"Glyphset {reference_glyphset} is empty.")
+
     def headline(string):
         print(Colors.NEGATIVE)
         print(" " * (len(string) + 2))
@@ -539,6 +542,9 @@ def compare_glyphsets(glyphsets):
 
         this_glyphs = set(glyphs_in_glyphset(glyphsets[i]))
         previous_glyphs = set(glyphs_in_glyphset(glyphsets[i - 1]))
+        if not this_glyphs:
+            raise ValueError(f"Glyphset {glyphsets[i]} is empty.")
+
 
         headline(glyphset)
         print(f"Total glyphs: {len(this_glyphs)}\n")
