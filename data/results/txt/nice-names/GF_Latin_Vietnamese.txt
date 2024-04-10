@@ -98,3 +98,11 @@ Yhookabove
 yhookabove
 Ytilde
 ytilde
+brevecomb_acutecomb
+brevecomb_gravecomb
+brevecomb_hookabovecomb
+brevecomb_tildecomb
+circumflexcomb_acutecomb
+circumflexcomb_gravecomb
+circumflexcomb_hookabovecomb
+circumflexcomb_tildecomb

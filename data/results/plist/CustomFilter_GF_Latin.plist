@@ -1235,6 +1235,37 @@
 			<string>whiteBullet</string>
 			<string>leftanglebracket-math</string>
 			<string>rightanglebracket-math</string>
+			<string>zero.zero</string>
+			<string>zero.tf</string>
+			<string>one.tf</string>
+			<string>two.tf</string>
+			<string>three.tf</string>
+			<string>four.tf</string>
+			<string>five.tf</string>
+			<string>six.tf</string>
+			<string>seven.tf</string>
+			<string>eight.tf</string>
+			<string>nine.tf</string>
+			<string>zero.dnom</string>
+			<string>one.dnom</string>
+			<string>two.dnom</string>
+			<string>three.dnom</string>
+			<string>four.dnom</string>
+			<string>five.dnom</string>
+			<string>six.dnom</string>
+			<string>seven.dnom</string>
+			<string>eight.dnom</string>
+			<string>nine.dnom</string>
+			<string>zero.numr</string>
+			<string>one.numr</string>
+			<string>two.numr</string>
+			<string>three.numr</string>
+			<string>four.numr</string>
+			<string>five.numr</string>
+			<string>six.numr</string>
+			<string>seven.numr</string>
+			<string>eight.numr</string>
+			<string>nine.numr</string>
 		</array>
 		<key>name</key>
 		<string>GF_Latin_Plus</string>
@@ -1381,6 +1412,14 @@
 			<string>yhookabove</string>
 			<string>Ytilde</string>
 			<string>ytilde</string>
+			<string>brevecomb_acutecomb</string>
+			<string>brevecomb_gravecomb</string>
+			<string>brevecomb_hookabovecomb</string>
+			<string>brevecomb_tildecomb</string>
+			<string>circumflexcomb_acutecomb</string>
+			<string>circumflexcomb_gravecomb</string>
+			<string>circumflexcomb_hookabovecomb</string>
+			<string>circumflexcomb_tildecomb</string>
 		</array>
 		<key>name</key>
 		<string>GF_Latin_Vietnamese</string>
