@@ -1,6 +1,11 @@
 Below are the most important changes from each release.
 
-### v0.6.18 (2024-?)
+### v0.6.19 (2024-?)
+#### Changes since last release
+
+
+
+### v0.6.18 (2024-4-10)
 #### Changes since last release
 
 - Added back a few unencoded glyphs to **Latin_Plus** and **Latin_Vietnamese** that went missing in the recent data transition (Issue #166)
