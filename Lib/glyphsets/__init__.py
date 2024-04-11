@@ -502,6 +502,8 @@ def describe_glyphset(glyph_names, target="markdown", color=""):
             string = " ".join(map(add_dotted_circle, characters))
         else:
             string = " ".join(characters)
+        if target == "markdown":
+            string = string.replace("`", "/grave")
         md += (
             f"`{color if target=='console' and color else ''}"
             + string
