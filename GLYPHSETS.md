@@ -56,8 +56,6 @@ Separator (3 glyphs):
 Symbol (12 glyphs): 
 `% + < = > | × ÷ ؉ ؜ ٪ −`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Arabic_Core.nam](/data/results/nam/GF_Arabic_Core.nam)
@@ -106,8 +104,6 @@ Separator (2 glyphs):
 Symbol (6 glyphs): 
 `% + ؉ ٪ ۾ −`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Arabic_Plus.nam](/data/results/nam/GF_Arabic_Plus.nam)
@@ -153,8 +149,6 @@ Punctuation (27 glyphs):
 Symbol (5 glyphs): 
 `% & + @ №`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Cyrillic_Core.nam](/data/results/nam/GF_Cyrillic_Core.nam)
@@ -194,8 +188,6 @@ Mark, spacing (2 glyphs):
 
 Symbol (1 glyphs): 
 `҂`
-
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
 ### Resulting Glyphset Files
 
@@ -241,8 +233,6 @@ Mark, spacing (1 glyphs):
 Symbol (3 glyphs): 
 `₮ ₴ ₸`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Cyrillic_Plus.nam](/data/results/nam/GF_Cyrillic_Plus.nam)
@@ -273,8 +263,6 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 Letter (56 glyphs): 
 `Ҋ ҋ Ҍ ҍ Ҏ ҏ Ҕ ҕ Ҟ ҟ Ҩ ҩ Ҭ ҭ Ҵ ҵ Ҽ ҽ Ҿ ҿ Ӄ ӄ Ӆ ӆ Ӈ ӈ Ӊ ӊ Ӎ ӎ Ӛ ӛ Ӡ ӡ Ӫ ӫ Ӭ ӭ Ӻ ӻ Ӽ ӽ Ӿ ӿ Ԑ ԑ Ԓ ԓ Ԥ ԥ Ԧ ԧ Ԩ ԩ Ԯ ԯ`
-
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
 ### Resulting Glyphset Files
 
@@ -310,8 +298,6 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 Uncategorized (316 glyphs): 
 `/agogiArgi-byzantineMusic /agogiArgoteri-byzantineMusic /agogiGorgi-byzantineMusic /agogiGorgoteri-byzantineMusic /agogiMesi-byzantineMusic /agogiMetria-byzantineMusic /agogiPoliArgi-byzantineMusic /agogiPoliGorgi-byzantineMusic /anatrichisma-byzantineMusic /antikenokylisma-byzantineMusic /antikenoma-byzantineMusic /apesoEkfonitikon-byzantineMusic /apesoExoNeo-byzantineMusic /apli-byzantineMusic /apodermaArchaion-byzantineMusic /apodermaNeo-byzantineMusic /apostrofoiSyndesmosNeo-byzantineMusic /apostrofoiTelousIchimatos-byzantineMusic /apostrofos-byzantineMusic /apostrofosDipli-byzantineMusic /apostrofosNeo-byzantineMusic /apothema-byzantineMusic /argon-byzantineMusic /argosyntheton-byzantineMusic /arktikoDi-byzantineMusic /arktikoGa-byzantineMusic /arktikoKe-byzantineMusic /arktikoNi-byzantineMusic /arktikoPa-byzantineMusic /arktikoVou-byzantineMusic /arktikoZo-byzantineMusic /chamili-byzantineMusic /chamilon-byzantineMusic /chorevmaArchaion-byzantineMusic /chorevmaNeo-byzantineMusic /chroaKliton-byzantineMusic /chroaSpathi-byzantineMusic /chroaZygos-byzantineMusic /daseia-byzantineMusic /diargon-byzantineMusic /diastoliApliMegali-byzantineMusic /diastoliApliMikri-byzantineMusic /diastoliDipli-byzantineMusic /diastoliTheseos-byzantineMusic /diesisApliDyoDodekata-byzantineMusic /diesisDigrammosExDodekata-byzantineMusic /diesisMonogrammosTesseraDodekata-byzantineMusic /diesisTetartimorion-byzantineMusic /diesisTrigrammosOktoDodekata-byzantineMusic /diesisTritimorion-byzantineMusic /diftoggosOu-byzantineMusic /digorgon-byzantineMusic /digorgonParestigmenonAristeraAno-byzantineMusic /digorgonParestigmenonAristeraKato-byzantineMusic /digorgonParestigmenonDexia-byzantineMusic /digrammaGg-byzantineMusic /dipli-byzantineMusic /dipliArchaion-byzantineMusic /dyo-byzantineMusic /ekstrepton-byzantineMusic /elafron-byzantineMusic /enarxisKaiFthoraVou-byzantineMusic /endofonon-byzantineMusic /epegerma-byzantineMusic /eteronArgosyntheton-byzantineMusic /eteronParakalesma-byzantineMusic /exoEkfonitikon-byzantineMusic /fanerosisDifonias-byzantineMusic /fanerosisMonofonias-byzantineMusic /fanerosisTetrafonias-byzantineMusic /fhtoraSklironChromaVasis-byzantineMusic /fthoraArchaion-byzantineMusic /fthoraArchaionDeyterouIchou-byzantineMusic /fthoraDiatonikiDi-byzantineMusic /fthoraDiatonikiKe-byzantineMusic /fthoraDiatonikiNana-byzantineMusic /fthoraDiatonikiNiAno-byzantineMusic /fthoraDiatonikiNiKato-byzantineMusic /fthoraDiatonikiPa-byzantineMusic /fthoraDiatonikiZo-byzantineMusic /fthoraEnarmoniosAntifonia-byzantineMusic /fthoraIYfesisTetartimorion-byzantineMusic /fthoraMalakonChromaDifonias-byzantineMusic /fthoraMalakonChromaMonofonias-byzantineMusic /fthoraNaosIchos-byzantineMusic /fthoraNenano-byzantineMusic /fthoraSklironChromaSynafi-byzantineMusic /fthoraSklironDiatononDi-byzantineMusic /genikiDiesis-byzantineMusic /genikiYfesis-byzantineMusic /gorgonArchaion-byzantineMusic /gorgonNeoAno-byzantineMusic /gorgonNeoKato-byzantineMusic /gorgonParestigmenonAristera-byzantineMusic /gorgonParestigmenonDexia-byzantineMusic /gorgosyntheton-byzantineMusic /gorthmikonNAploun-byzantineMusic /gorthmikonNDiploun-byzantineMusic /gronthismata-byzantineMusic /ichadin-byzantineMusic /imidiargon-byzantineMusic /imifonon-byzantineMusic /imifthora-byzantineMusic /imifthoron-byzantineMusic /isakiaTelousIchimatos-byzantineMusic /isonArchaion-byzantineMusic /isonNeo-byzantineMusic /katavaTromikon-byzantineMusic /katavasma-byzantineMusic /kathisti-byzantineMusic /kentimaArchaion-byzantineMusic /kentimaNeoAno-byzantineMusic /kentimaNeoKato-byzantineMusic /kentimaNeoMeso-byzantineMusic /kentimata-byzantineMusic /kentimataArchaion-byzantineMusic /kentimataNeoAno-byzantineMusic /kentimataNeoKato-byzantineMusic /kentimataNeoMeso-byzantineMusic /klasma-byzantineMusic /klasmaAno-byzantineMusic /klasmaKato-byzantineMusic /kontevma-byzantineMusic /kontevmaAllo-byzantineMusic /koronis-byzantineMusic /koufisma-byzantineMusic /kratimaAllo-byzantineMusic /kratimaArchaion-byzantineMusic /kratimaNeo-byzantineMusic /kratimata-byzantineMusic /kratimokoufisma-byzantineMusic /kratimoyporroon-byzantineMusic /kremasti-byzantineMusic /kylisma-byzantineMusic /leimmaDyoChronon-byzantineMusic /leimmaEnosChronou-byzantineMusic /leimmaImiseosChronou-byzantineMusic /leimmaTessaronChronon-byzantineMusic /leimmaTrionChronon-byzantineMusic /lemoi-byzantineMusic /lygisma-byzantineMusic /martyriaAlliDeyterosIchos-byzantineMusic /martyriaAlliProtosIchos-byzantineMusic /martyriaDeyterosIchos-byzantineMusic /martyriaLegetosIchos-byzantineMusic /martyriaPlagiosIchos-byzantineMusic /martyriaPlagiosTetartosIchos-byzantineMusic /martyriaProtosIchos-byzantineMusic /martyriaProtovarysIchos-byzantineMusic /martyriaTetartosIchos-byzantineMusic /martyriaTetartosLegetosIchos-byzantineMusic /martyriaTrifonias-byzantineMusic /martyriaTritosIchos-byzantineMusic /martyriaVarysIchos-byzantineMusic /mikronIson-byzantineMusic /nana-byzantineMusic /oligonArchaion-byzantineMusic /oligonNeo-byzantineMusic /omalon-byzantineMusic /oxeiaDipli-byzantineMusic /oxeiaEkfonitikon-byzantineMusic /oxeiaNeo-byzantineMusic /oxeiaiArchaion-byzantineMusic /oyranismaArchaion-byzantineMusic /oyranismaNeo-byzantineMusic /parakalesmaArchaion-byzantineMusic /parakalesmaNeo-byzantineMusic /paraklitiki-byzantineMusic /paraklitikiArchaion-byzantineMusic /paraklitikiNeo-byzantineMusic /parichon-byzantineMusic /pelaston-byzantineMusic /pelastonNeo-byzantineMusic /perispomeni-byzantineMusic /petasma-byzantineMusic /petasti-byzantineMusic /petastokoufisma-byzantineMusic /piasmaArchaion-byzantineMusic /piasmaNeo-byzantineMusic /psifistolygisma-byzantineMusic /psifiston-byzantineMusic /psifistonNeo-byzantineMusic /psifistoparakalesma-byzantineMusic /psifistosynagma-byzantineMusic /psili-byzantineMusic /psilon-byzantineMusic /rapisma-byzantineMusic /revma-byzantineMusic /saximata-byzantineMusic /seisma-byzantineMusic /seismaNeo-byzantineMusic /simansisArseos-byzantineMusic /simansisArseosDisimou-byzantineMusic /simansisArseosTetrasimou-byzantineMusic /simansisArseosTrisimou-byzantineMusic /simansisTheseos-byzantineMusic /simansisTheseosDisimou-byzantineMusic /simansisTheseosTetrasimou-byzantineMusic /simansisTheseosTrisimou-byzantineMusic /stavros-byzantineMusic /stavrosApodexia-byzantineMusic /stigma-byzantineMusic /straggismata-byzantineMusic /synagmaArchaion-byzantineMusic /synagmaMetaStavrou-byzantineMusic /synagmaNeo-byzantineMusic /synevma-byzantineMusic /syrma-byzantineMusic /syrmatiki-byzantineMusic /teleia-byzantineMusic /tessera-byzantineMusic /tetrapli-byzantineMusic /thema-byzantineMusic /themaAploun-byzantineMusic /thematismosEso-byzantineMusic /thematismosExo-byzantineMusic /thesKaiApothes-byzantineMusic /thita-byzantineMusic /tinagma-byzantineMusic /tria-byzantineMusic /trigorgon-byzantineMusic /tripli-byzantineMusic /tromikolygisma-byzantineMusic /tromikonAllo-byzantineMusic /tromikonArchaion-byzantineMusic /tromikonNeo-byzantineMusic /tromikoparakalesma-byzantineMusic /tromikopsifiston-byzantineMusic /tromikosynagma-byzantineMusic /uni1D200 /uni1D201 /uni1D202 /uni1D203 /uni1D204 /uni1D205 /uni1D206 /uni1D207 /uni1D208 /uni1D209 /uni1D20A /uni1D20B /uni1D20C /uni1D20D /uni1D20E /uni1D20F /uni1D210 /uni1D211 /uni1D212 /uni1D213 /uni1D214 /uni1D215 /uni1D216 /uni1D217 /uni1D218 /uni1D219 /uni1D21A /uni1D21B /uni1D21C /uni1D21D /uni1D21E /uni1D21F /uni1D220 /uni1D221 /uni1D222 /uni1D223 /uni1D224 /uni1D225 /uni1D226 /uni1D227 /uni1D228 /uni1D229 /uni1D22A /uni1D22B /uni1D22C /uni1D22D /uni1D22E /uni1D22F /uni1D230 /uni1D231 /uni1D232 /uni1D233 /uni1D234 /uni1D235 /uni1D236 /uni1D237 /uni1D238 /uni1D239 /uni1D23A /uni1D23B /uni1D23C /uni1D23D /uni1D23E /uni1D23F /uni1D240 /uni1D241 /uni1D242 /uni1D243 /uni1D244 /uni1D245 /vareiaDipli-byzantineMusic /vareiaEkfonitikon-byzantineMusic /vareiaNeo-byzantineMusic /vareiaiArchaion-byzantineMusic /vathy-byzantineMusic /xironKlasma-byzantineMusic /yfenAno-byzantineMusic /yfenKato-byzantineMusic /yfesisApliDyoDodekata-byzantineMusic /yfesisDigrammosExDodekata-byzantineMusic /yfesisMonogrammosTesseraDodekata-byzantineMusic /yfesisTrigrammosOktoDodekata-byzantineMusic /yfesisTritimorion-byzantineMusic /ypokrisis-byzantineMusic /ypokrisisDipli-byzantineMusic /yporroi-byzantineMusic /ypsili-byzantineMusic`
-
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
 ### Resulting Glyphset Files
 
@@ -361,8 +347,6 @@ Number (58 glyphs):
 
 Symbol (52 glyphs): 
 `϶ □ ★ ☉ ☊ ☋ ☌ ☍ ☧ ☩ ☽ ☾ ☿ ♀ ♁ ♂ ♃ ♄ ♅ ♆ ♇ ♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓ ⟀ ⟁ 𐅹 𐅺 𐅻 𐅼 𐅽 𐅾 𐅿 𐆀 𐆁 𐆂 𐆃 𐆄 𐆅 𐆆 𐆇 𐆈 𐆉`
-
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
 ### Resulting Glyphset Files
 
@@ -426,8 +410,6 @@ Symbol (7 glyphs):
 Uncategorized (18 glyphs): 
 `/Cryptogrammicni-coptic /cryptogrammicni-coptic /dialectPkapa-coptic /dialectPni-coptic /dialectpkapa-coptic /dialectpni-coptic /oldNgi-nubian-coptic /oldNyi-nubian-coptic /oldShima-nubian-coptic /oldWau-nubian-coptic /olddirectquestion-nubian-coptic /oldfullstop-nubian-coptic /oldindirectquestion-nubian-coptic /oldngi-nubian-coptic /oldnyi-nubian-coptic /oldshima-nubian-coptic /oldversedivider-nubian-coptic /oldwau-nubian-coptic`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Greek_Coptic.nam](/data/results/nam/GF_Greek_Coptic.nam)
@@ -480,8 +462,6 @@ Punctuation (21 glyphs):
 Symbol (6 glyphs): 
 `% & + @ ʹ ͵`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Greek_Core.nam](/data/results/nam/GF_Greek_Core.nam)
@@ -529,8 +509,6 @@ Punctuation (2 glyphs):
 Symbol (2 glyphs): 
 `/lowernumeral-greek.sc /numeral-greek.sc`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Greek_Expert.nam](/data/results/nam/GF_Greek_Expert.nam)
@@ -577,8 +555,6 @@ Mark, nonspacing (4 glyphs):
 
 Mark, spacing (15 glyphs): 
 `᾽ ᾿ ῀ ῁ ῍ ῎ ῏ ῝ ῞ ῟ ῭ ΅ ` ´ ῾`
-
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
 ### Resulting Glyphset Files
 
@@ -665,8 +641,6 @@ Punctuation (44 glyphs):
 
 Symbol (20 glyphs): 
 `⁺ ⁻ ⁼ ₊ ₋ ₌ ℵ ℶ ⊗ ⋮ ⏑ ⏒ ⏓ ⏔ ⏕ ⏖ ⏗ ⏘ ⏙ ⫽`
-
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
 ### Resulting Glyphset Files
 
@@ -1382,8 +1356,6 @@ Punctuation (27 glyphs):
 Symbol (12 glyphs): 
 `% & + @ ƒ ˗ ˮ Ⓐ ⓐ ꞉ ꞊ /uniA7CB`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Decomposed Characters
 
 The following 722 composed character sequences are decomposed in the font:
@@ -1433,8 +1405,6 @@ Mark, spacing (5 glyphs):
 
 Symbol (2 glyphs): 
 `° ⅄`
-
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
 ### Resulting Glyphset Files
 
@@ -1510,8 +1480,6 @@ Separator (3 glyphs):
 Symbol (24 glyphs): 
 `$ % & + < = > @ ^ | ~ ¢ £ ¥ § © ® ° ¶ × ÷ € ™ −`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Decomposed Characters
 
 The following 2 composed character sequences are decomposed in the font:
@@ -1571,8 +1539,6 @@ Separator (2 glyphs):
 Symbol (22 glyphs): 
 `$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ € ™ −`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Latin_Kernel.nam](/data/results/nam/GF_Latin_Kernel.nam)
@@ -1613,8 +1579,6 @@ Punctuation (3 glyphs):
 Symbol (81 glyphs): 
 `¦ ¬ ± µ ฿ † ‡ ‰ ′ ″ ₡ ₦ ₨ ₩ ₪ ₫ ₭ ₮ ₱ ₲ ₴ ₵ ₸ ₹ ₺ ₼ ₽ ₾ ₿ ℓ № Ω ℮ ← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ∂ ∅ ∆ ∏ ∑ √ ∞ ∫ ≈ ≠ ≤ ≥ ■ □ ▪ ▫ ▲ △ ▴ ▵ ▶ ▷ ▸ ▹ ▼ ▽ ▾ ▿ ◀ ◁ ◂ ◃ ◆ ◇ ◊ ○ ● ◦`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Latin_Plus.nam](/data/results/nam/GF_Latin_Plus.nam)
@@ -1644,8 +1608,6 @@ Letter (32 glyphs):
 
 Mark, nonspacing (1 glyphs): 
 `◌̣`
-
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
 ### Resulting Glyphset Files
 
@@ -1685,8 +1647,6 @@ Punctuation (23 glyphs):
 Symbol (4 glyphs): 
 `% & + @`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Latin_Vietnamese.nam](/data/results/nam/GF_Latin_Vietnamese.nam)
@@ -1723,8 +1683,6 @@ Mark, nonspacing (2 glyphs):
 
 Symbol (1 glyphs): 
 `꞉`
-
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
 ### Resulting Glyphset Files
 
@@ -1769,8 +1727,6 @@ Symbol (13 glyphs):
 Uncategorized (16 glyphs): 
 `/uni10790 /uni10799 /uni1079A /uni1079C /uni1079D /uni1079F /uni107A1 /uni107AA /uni1DF00 /uni1DF01 /uni1DF02 /uni1DF03 /uni1DF04 /uni1DF05 /uni1DF06 /uni1DF07`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Phonetics_DisorderedSpeech.nam](/data/results/nam/GF_Phonetics_DisorderedSpeech.nam)
@@ -1804,8 +1760,6 @@ Letter (12 glyphs):
 
 Mark, nonspacing (1 glyphs): 
 `◌̢`
-
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
 ### Resulting Glyphset Files
 
@@ -1850,8 +1804,6 @@ Punctuation (4 glyphs):
 Symbol (10 glyphs): 
 `| ˞ ˠ ˥ ˦ ˧ ˨ ˩ ˳ ◌`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_Phonetics_IPAStandard.nam](/data/results/nam/GF_Phonetics_IPAStandard.nam)
@@ -1882,8 +1834,6 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 
 Letter (11 glyphs): 
 `ȡ ȴ ȵ ȶ ɿ ʅ ʮ ʯ ᴀ ᴇ ꭥ`
-
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
 ### Resulting Glyphset Files
 
@@ -1922,8 +1872,6 @@ Mark, nonspacing (3 glyphs):
 Mark, spacing (4 glyphs): 
 `ʼ ʽ ʾ ʿ`
 
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
-
 ### Resulting Glyphset Files
 
 .nam file (only encoded characters): [GF_TransLatin_Arabic.nam](/data/results/nam/GF_TransLatin_Arabic.nam)
@@ -1960,8 +1908,6 @@ Mark, nonspacing (15 glyphs):
 
 Mark, spacing (1 glyphs): 
 `ʼ`
-
-_Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
 ### Resulting Glyphset Files
 
