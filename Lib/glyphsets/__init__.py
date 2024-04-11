@@ -492,7 +492,7 @@ def add_dotted_circle(character):
     return "◌" + character
 
 
-def describe_glyphset(glyph_names, target="markdown"):
+def describe_glyphset(glyph_names, target="markdown", color=""):
     md = ""
     categories = categorize_glyphs(glyph_names)
     for category, characters in categories.items():
@@ -503,9 +503,9 @@ def describe_glyphset(glyph_names, target="markdown"):
         else:
             string = " ".join(characters)
         md += (
-            f"`{Colors.BROWN if target=='console' else ''}"
+            f"`{color if target=='console' and color else ''}"
             + string
-            + f"{Colors.END if target=='console' else ''}`\n\n"
+            + f"{Colors.END if target=='console' and color else ''}`\n\n"
         )
     return md
 
@@ -556,17 +556,17 @@ def compare_glyphsets(glyphsets):
         missing = previous_glyphs.difference(this_glyphs)
         extra = this_glyphs.difference(previous_glyphs)
 
-        if missing:
-            print(
-                f"{Colors.BOLD}{glyphsets[i]}{Colors.END} has {len(missing)} {Colors.RED}{Colors.BOLD}missing{Colors.END} glyphs compared to {Colors.BOLD}{glyphsets[i - 1]}{Colors.END}:\n"
-            )
-            print(describe_glyphset(missing, target="console"))
-
         if extra:
             print(
                 f"{Colors.BOLD}{glyphsets[i]}{Colors.END} has {len(extra)} {Colors.GREEN}{Colors.BOLD}extra{Colors.END} glyphs compared to {Colors.BOLD}{glyphsets[i - 1]}{Colors.END}:\n"
             )
-            print(describe_glyphset(extra, target="console"))
+            print(describe_glyphset(extra, target="console", color=Colors.GREEN))
+
+        if missing:
+            print(
+                f"{Colors.BOLD}{glyphsets[i]}{Colors.END} has {len(missing)} {Colors.RED}{Colors.BOLD}missing{Colors.END} glyphs compared to {Colors.BOLD}{glyphsets[i - 1]}{Colors.END}:\n"
+            )
+            print(describe_glyphset(missing, target="console", color=Colors.RED))
 
 
 def add_country(code):
