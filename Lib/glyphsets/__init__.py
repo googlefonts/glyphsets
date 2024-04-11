@@ -564,7 +564,7 @@ def compare_glyphsets(glyphsets):
 
         if missing:
             print(
-                f"{Colors.BOLD}{glyphsets[i]}{Colors.END} has {len(missing)} {Colors.RED}{Colors.BOLD}missing{Colors.END} glyphs compared to {Colors.BOLD}{glyphsets[i - 1]}{Colors.END}:\n"
+                f"{Colors.BOLD}{glyphsets[i]}{Colors.END} is {Colors.RED}{Colors.BOLD}missing{Colors.END} {len(missing)} glyphs compared to {Colors.BOLD}{glyphsets[i - 1]}{Colors.END}:\n"
             )
             print(describe_glyphset(missing, target="console", color=Colors.RED))
 
