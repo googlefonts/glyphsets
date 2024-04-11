@@ -496,7 +496,7 @@ def describe_glyphset(glyph_names, target="markdown", color=""):
     md = ""
     categories = categorize_glyphs(glyph_names)
     for category, characters in categories.items():
-        md += f"{Colors.BOLD}{category}{Colors.END} ({len(characters)} glyphs): \n"
+        md += f"{Colors.BOLD if target=='console' else ''}{category}{Colors.END if target=='console' else ''} ({len(characters)} glyphs): \n"
 
         if category == "Mark, nonspacing":
             string = " ".join(map(add_dotted_circle, characters))
