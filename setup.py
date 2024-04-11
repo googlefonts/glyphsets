@@ -41,7 +41,7 @@ setup(
     ),
     author_email="dave@lab6.com",
     package_dir={"": "Lib"},
-    packages=["glyphsets", "glyphsets.definitions"],
+    packages=["glyphsets"],
     package_data={
         "glyphsets": [
             "*.json",
