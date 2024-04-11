@@ -5,6 +5,7 @@ from glyphsets import (
     get_glyphsets_fulfilled,
     defined_glyphsets,
     compare_glyphsets,
+    build_glyphsapp_filter_list,
 )
 
 DATA_FP = os.path.join(os.path.dirname(__file__), "data")
@@ -36,3 +37,9 @@ def test_coverage():
 
 def test_compare():
     compare_glyphsets(["GF_Latin_Kernel", "GF_Latin_Core", "GF_Latin_Plus"])
+
+
+def test_filter_lists():
+    build_glyphsapp_filter_list(
+        ["GF_Latin_Kernel", "GF_Latin_Core", "GF_Latin_Plus"], "test.plist", False
+    )
