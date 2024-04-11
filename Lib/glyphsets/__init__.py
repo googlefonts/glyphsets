@@ -473,6 +473,10 @@ def categorize_glyphs(glyph_names):
             category = "Uncategorized"
         else:
             category = glyph.category
+            if category == "Mark" and glyph.subCategory == "Nonspacing":
+                category = "Mark, nonspacing"
+            elif category == "Mark":
+                category = "Mark, spacing"
         if category not in categories:
             categories[category] = []
 
@@ -494,7 +498,7 @@ def describe_glyphset(glyph_names, target="markdown"):
     for category, characters in categories.items():
         md += f"{Colors.BOLD}{category}{Colors.END} ({len(characters)} glyphs): \n"
 
-        if category == "Mark":
+        if category == "Mark, nonspacing":
             string = " ".join(map(add_dotted_circle, characters))
         else:
             string = " ".join(characters)
@@ -512,9 +516,6 @@ def compare_glyphsets(glyphsets):
     with the first glyphset being the reference.
     Each consecutive glyphset gets compares to each former.
     """
-
-    if len(list(set(glyphsets))) < 2:
-        raise ValueError("Please provide at least two glyphsets to compare.")
 
     if len(list(set(glyphsets))) != len(glyphsets):
         raise ValueError("Please provide unique glyphsets to compare.")
