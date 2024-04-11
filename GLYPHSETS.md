@@ -41,7 +41,7 @@ Urdu (ur_Arab)
 Letter (50 glyphs): 
 `ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ـ ف ق ك ل م ن ه و ى ي ٹ پ چ ڈ ڑ ژ ک گ ھ ہ ی ے ݣ`
 
-Mark (12 glyphs): 
+Mark, nonspacing (12 glyphs): 
 `◌ً ◌ٌ ◌ٍ ◌َ ◌ُ ◌ِ ◌ّ ◌ْ ◌ٓ ◌ٔ ◌ٕ ◌ٰ`
 
 Number (32 glyphs): 
@@ -91,7 +91,7 @@ Uyghur (ug_Arab)
 Letter (81 glyphs): 
 `ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي ٺ ٻ ټ ٽ پ ٿ ڀ ځ ڃ ڄ څ چ ڇ ډ ڊ ڌ ڍ ڏ ړ ڕ ږ ژ ڙ ښ ڤ ڦ ک ڪ ګ ڭ گ ڱ ڳ ڵ ڻ ڼ ھ ۆ ۇ ۈ ۋ ی ۍ ێ ې ە`
 
-Mark (10 glyphs): 
+Mark, nonspacing (10 glyphs): 
 `◌ً ◌ٌ ◌ٍ ◌َ ◌ُ ◌ِ ◌ّ ◌ْ ◌ٔ ◌ٰ`
 
 Number (32 glyphs): 
@@ -138,8 +138,11 @@ Ukrainian (uk_Cyrl)
 Letter (88 glyphs): 
 `Ё Ђ Є І Ї Ј Љ Њ Ћ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ є і ї ј љ њ ћ ў џ Ґ ґ`
 
-Mark (5 glyphs): 
-`◌ʼ ◌̀ ◌́ ◌̆ ◌̈`
+Mark, nonspacing (4 glyphs): 
+`◌̀ ◌́ ◌̆ ◌̈`
+
+Mark, spacing (1 glyphs): 
+`ʼ`
 
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
@@ -183,8 +186,11 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 Letter (28 glyphs): 
 `Ѡ ѡ Ѥ ѥ Ѧ ѧ Ѩ ѩ Ѭ ѭ Ѯ ѯ Ѱ ѱ Ѷ ѷ Ѹ ѹ Ҁ ҁ Ꙍ ꙍ /uni047A /uni047B /uni047C /uni047D /uni047E /uni047F`
 
-Mark (7 glyphs): 
-`◌҃ ◌҄ ◌҅ ◌҆ ◌҇ ◌҈ ◌҉`
+Mark, nonspacing (5 glyphs): 
+`◌҃ ◌҄ ◌҅ ◌҆ ◌҇`
+
+Mark, spacing (2 glyphs): 
+`҈ ҉`
 
 Symbol (1 glyphs): 
 `҂`
@@ -226,8 +232,11 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 Letter (119 glyphs): 
 `Ѣ ѣ Ѫ ѫ Ѳ ѳ Ѵ ѵ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҡ ҡ Ң ң Ҥ ҥ Ҫ ҫ Ү ү Ұ ұ Ҳ ҳ Ҷ ҷ Ҹ ҹ Һ һ Ӏ Ӂ ӂ Ӌ ӌ ӏ Ӑ ӑ Ӓ ӓ Ӕ ӕ Ӗ ӗ Ә ә Ӝ ӝ Ӟ ӟ Ӣ ӣ Ӥ ӥ Ӧ ӧ Ө ө Ӯ ӯ Ӱ ӱ Ӳ ӳ Ӵ ӵ Ӷ ӷ Ӹ ӹ Ԛ ԛ Ԝ ԝ /De-cy.loclBGR /Ef-cy.loclBGR /El-cy.loclBGR /Esdescender-cy.loclBSH /Esdescender-cy.loclCHU /Gestroke-cy.loclBSH /Ii-cy.loclBGR /Iigrave-cy.loclBGR /Iishort-cy.loclBGR /Zedescender-cy.loclBSH /be-cy.loclSRB /che-cy.loclBGR /de-cy.loclBGR /el-cy.loclBGR /en-cy.loclBGR /esdescender-cy.loclBSH /esdescender-cy.loclCHU /ge-cy.loclBGR /gestroke-cy.loclBSH /hardsign-cy.loclBGR /ii-cy.loclBGR /iigrave-cy.loclBGR /iishort-cy.loclBGR /ka-cy.loclBGR /pe-cy.loclBGR /sha-cy.loclBGR /shcha-cy.loclBGR /softsign-cy.loclBGR /te-cy.loclBGR /tse-cy.loclBGR /ve-cy.loclBGR /yu-cy.loclBGR /ze-cy.loclBGR /zedescender-cy.loclBSH /zhe-cy.loclBGR`
 
-Mark (7 glyphs): 
-`◌ʼ ◌̀ ◌́ ◌̄ ◌̈ ◌̋ ◌/brevecomb-cy`
+Mark, nonspacing (6 glyphs): 
+`◌̀ ◌́ ◌̄ ◌̈ ◌̋ ◌/brevecomb-cy`
+
+Mark, spacing (1 glyphs): 
+`ʼ`
 
 Symbol (3 glyphs): 
 `₮ ₴ ₸`
@@ -402,7 +411,7 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 Letter (106 glyphs): 
 `Ϣ ϣ Ϥ ϥ Ϧ ϧ Ϩ ϩ Ϫ ϫ Ϭ ϭ Ϯ ϯ Ⲁ ⲁ Ⲃ ⲃ Ⲅ ⲅ Ⲇ ⲇ Ⲉ ⲉ Ⲋ ⲋ Ⲍ ⲍ Ⲏ ⲏ Ⲑ ⲑ Ⲓ ⲓ Ⲕ ⲕ Ⲗ ⲗ Ⲙ ⲙ Ⲛ ⲛ Ⲝ ⲝ Ⲟ ⲟ Ⲡ ⲡ Ⲣ ⲣ Ⲥ ⲥ Ⲧ ⲧ Ⲩ ⲩ Ⲫ ⲫ Ⲭ ⲭ Ⲯ ⲯ Ⲱ ⲱ Ⲳ ⲳ Ⲵ ⲵ Ⲷ ⲷ Ⲿ ⲿ Ⳁ ⳁ Ⳃ ⳃ Ⳅ ⳅ Ⳇ ⳇ Ⳉ ⳉ Ⳋ ⳋ Ⳍ ⳍ Ⳏ ⳏ Ⳑ ⳑ Ⳓ ⳓ Ⳕ ⳕ Ⳗ ⳗ Ⳙ ⳙ Ⳛ ⳛ Ⳬ ⳬ Ⳮ ⳮ Ⳳ ⳳ`
 
-Mark (3 glyphs): 
+Mark, nonspacing (3 glyphs): 
 `◌/uni2CEF ◌/uni2CF0 ◌/uni2CF1`
 
 Number (1 glyphs): 
@@ -456,8 +465,11 @@ Greek (el_Grek)
 Letter (71 glyphs): 
 `Ά Έ Ή Ί Ό Ύ Ώ ΐ Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ϊ Ϋ ά έ ή ί ΰ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ϊ ϋ ό ύ ώ Ϗ ϗ`
 
-Mark (4 glyphs): 
-`◌́ ◌̈ ◌΄ ◌΅`
+Mark, nonspacing (2 glyphs): 
+`◌́ ◌̈`
+
+Mark, spacing (2 glyphs): 
+`΄ ΅`
 
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
@@ -508,8 +520,8 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 Letter (276 glyphs): 
 `/Alpha.sups /Alphadasiaoxiaprosgegrammeni.sc.ss01 /Alphadasiaperispomeniprosgegrammeni.sc.ss01 /Alphadasiaprosgegrammeni.sc.ss01 /Alphadasiavariaprosgegrammeni.sc.ss01 /Alphaprosgegrammeni.sc.ss01 /Alphapsilioxiaprosgegrammeni.sc.ss01 /Alphapsiliperispomeniprosgegrammeni.sc.ss01 /Alphapsiliprosgegrammeni.sc.ss01 /Alphapsilivariaprosgegrammeni.sc.ss01 /Beta.sups /Chi.sups /Delta.sups /Epsilon.sups /Eta.sups /Etadasiaoxiaprosgegrammeni.sc.ss01 /Etadasiaperispomeniprosgegrammeni.sc.ss01 /Etadasiaprosgegrammeni.sc.ss01 /Etadasiavariaprosgegrammeni.sc.ss01 /Etaprosgegrammeni.sc.ss01 /Etapsilioxiaprosgegrammeni.sc.ss01 /Etapsiliperispomeniprosgegrammeni.sc.ss01 /Etapsiliprosgegrammeni.sc.ss01 /Etapsilivariaprosgegrammeni.sc.ss01 /Gamma.sups /Iota.sups /Kappa.sups /Lambda.sups /Mu.sups /Nu.sups /Omega.sups /Omegadasiaoxiaprosgegrammeni.sc.ss01 /Omegadasiaperispomeniprosgegrammeni.sc.ss01 /Omegadasiaprosgegrammeni.sc.ss01 /Omegadasiavariaprosgegrammeni.sc.ss01 /Omegaprosgegrammeni.sc.ss01 /Omegapsilioxiaprosgegrammeni.sc.ss01 /Omegapsiliperispomeniprosgegrammeni.sc.ss01 /Omegapsiliprosgegrammeni.sc.ss01 /Omegapsilivariaprosgegrammeni.sc.ss01 /Omicron.sups /Phi.sups /Pi.sups /Psi.sups /Rho.sups /Sigma.sups /Tau.sups /Theta.sups /Upsilon.sups /Xi.sups /Zeta.sups /alpha.sc /alpha.sups /alphadasia.sc /alphadasiaoxia.sc /alphadasiaoxiaypogegrammeni.sc /alphadasiaoxiaypogegrammeni.sc.ss01 /alphadasiaperispomeni.sc /alphadasiaperispomeniypogegrammeni.sc /alphadasiaperispomeniypogegrammeni.sc.ss01 /alphadasiavaria.sc /alphadasiavariaypogegrammeni.sc /alphadasiavariaypogegrammeni.sc.ss01 /alphadasiaypogegrammeni.sc /alphadasiaypogegrammeni.sc.ss01 /alphamacron.sc /alphaoxia.sc /alphaoxiaypogegrammeni.sc /alphaoxiaypogegrammeni.sc.ss01 /alphaperispomeni.sc /alphaperispomeniypogegrammeni.sc /alphaperispomeniypogegrammeni.sc.ss01 /alphapsili.sc /alphapsilioxia.sc /alphapsilioxiaypogegrammeni.sc /alphapsilioxiaypogegrammeni.sc.ss01 /alphapsiliperispomeni.sc /alphapsiliperispomeniypogegrammeni.sc /alphapsiliperispomeniypogegrammeni.sc.ss01 /alphapsilivaria.sc /alphapsilivariaypogegrammeni.sc /alphapsilivariaypogegrammeni.sc.ss01 /alphapsiliypogegrammeni.sc /alphapsiliypogegrammeni.sc.ss01 /alphatonos.sc /alphavaria.sc /alphavariaypogegrammeni.sc /alphavariaypogegrammeni.sc.ss01 /alphavrachy.sc /alphaypogegrammeni.sc /alphaypogegrammeni.sc.ss01 /beta.sc /beta.sups /chi.sc /chi.sups /delta.sc /delta.sups /digamma.sc /epsilon.sc /epsilon.sups /epsilondasia.sc /epsilondasiaoxia.sc /epsilondasiavaria.sc /epsilonoxia.sc /epsilonpsili.sc /epsilonpsilioxia.sc /epsilonpsilivaria.sc /epsilontonos.sc /epsilonvaria.sc /eta.sc /eta.sups /etadasia.sc /etadasiaoxia.sc /etadasiaoxiaypogegrammeni.sc /etadasiaoxiaypogegrammeni.sc.ss01 /etadasiaperispomeni.sc /etadasiaperispomeniypogegrammeni.sc /etadasiaperispomeniypogegrammeni.sc.ss01 /etadasiavaria.sc /etadasiavariaypogegrammeni.sc /etadasiavariaypogegrammeni.sc.ss01 /etadasiaypogegrammeni.sc /etadasiaypogegrammeni.sc.ss01 /etaoxia.sc /etaoxiaypogegrammeni.sc /etaoxiaypogegrammeni.sc.ss01 /etaperispomeni.sc /etaperispomeniypogegrammeni.sc /etaperispomeniypogegrammeni.sc.ss01 /etapsili.sc /etapsilioxia.sc /etapsilioxiaypogegrammeni.sc /etapsilioxiaypogegrammeni.sc.ss01 /etapsiliperispomeni.sc /etapsiliperispomeniypogegrammeni.sc /etapsiliperispomeniypogegrammeni.sc.ss01 /etapsilivaria.sc /etapsilivariaypogegrammeni.sc /etapsilivariaypogegrammeni.sc.ss01 /etapsiliypogegrammeni.sc /etapsiliypogegrammeni.sc.ss01 /etatonos.sc /etavaria.sc /etavariaypogegrammeni.sc /etavariaypogegrammeni.sc.ss01 /etaypogegrammeni.sc /etaypogegrammeni.sc.ss01 /gamma.sc /gamma.sups /gamma_gamma /iota.sc /iota.sups /iotadasia.sc /iotadasiaoxia.sc /iotadasiaperispomeni.sc /iotadasiavaria.sc /iotadialytikaoxia.sc /iotadialytikaperispomeni.sc /iotadialytikavaria.sc /iotadieresis.sc /iotadieresistonos.sc /iotamacron.sc /iotaoxia.sc /iotaperispomeni.sc /iotapsili.sc /iotapsilioxia.sc /iotapsiliperispomeni.sc /iotapsilivaria.sc /iotatonos.sc /iotavaria.sc /iotavrachy.sc /kaiSymbol.sc /kappa.sc /kappa.sups /koppa.sc /lambda.sc /lambda.sups /lambda_lambda /mu.sc /mu.sups /nu.sc /nu.sups /omega.sc /omega.sups /omegadasia.sc /omegadasiaoxia.sc /omegadasiaoxiaypogegrammeni.sc /omegadasiaoxiaypogegrammeni.sc.ss01 /omegadasiaperispomeni.sc /omegadasiaperispomeniypogegrammeni.sc /omegadasiaperispomeniypogegrammeni.sc.ss01 /omegadasiavaria.sc /omegadasiavariaypogegrammeni.sc /omegadasiavariaypogegrammeni.sc.ss01 /omegadasiaypogegrammeni.sc /omegadasiaypogegrammeni.sc.ss01 /omegaoxia.sc /omegaoxiaypogegrammeni.sc /omegaoxiaypogegrammeni.sc.ss01 /omegaperispomeni.sc /omegaperispomeniypogegrammeni.sc /omegaperispomeniypogegrammeni.sc.ss01 /omegapsili.sc /omegapsilioxia.sc /omegapsilioxiaypogegrammeni.sc /omegapsilioxiaypogegrammeni.sc.ss01 /omegapsiliperispomeni.sc /omegapsiliperispomeniypogegrammeni.sc /omegapsiliperispomeniypogegrammeni.sc.ss01 /omegapsilivaria.sc /omegapsilivariaypogegrammeni.sc /omegapsilivariaypogegrammeni.sc.ss01 /omegapsiliypogegrammeni.sc /omegapsiliypogegrammeni.sc.ss01 /omegatonos.sc /omegavaria.sc /omegavariaypogegrammeni.sc /omegavariaypogegrammeni.sc.ss01 /omegaypogegrammeni.sc /omegaypogegrammeni.sc.ss01 /omicron.sc /omicron.sups /omicrondasia.sc /omicrondasiaoxia.sc /omicrondasiavaria.sc /omicronoxia.sc /omicronpsili.sc /omicronpsilioxia.sc /omicronpsilivaria.sc /omicrontonos.sc /omicronvaria.sc /phi.sc /phi.sups /pi.sc /pi.sups /prosgegrammeni.sc /psi.sc /psi.sups /rho.sc /rho.sups /rhodasia.sc /rhopsili.sc /sampi.sc /sigma.sc /sigma.sups /sigmafinal.sups /stigma.sc /tau.sc /tau.sups /theta.sc /theta.sups /upsilon.sc /upsilon.sups /upsilondasia.sc /upsilondasiaoxia.sc /upsilondasiaperispomeni.sc /upsilondasiavaria.sc /upsilondialytikaoxia.sc /upsilondialytikaperispomeni.sc /upsilondialytikavaria.sc /upsilondieresis.sc /upsilondieresistonos.sc /upsilonmacron.sc /upsilonoxia.sc /upsilonperispomeni.sc /upsilonpsili.sc /upsilonpsilioxia.sc /upsilonpsiliperispomeni.sc /upsilonpsilivaria.sc /upsilontonos.sc /upsilonvaria.sc /upsilonvrachy.sc /xi.sc /xi.sups /zeta.sc /zeta.sups`
 
-Mark (2 glyphs): 
-`◌/dieresistonos.sc ◌/tonos.sc`
+Mark, spacing (2 glyphs): 
+`/dieresistonos.sc /tonos.sc`
 
 Punctuation (2 glyphs): 
 `/anoteleia.sc /questiongreek.sc`
@@ -560,8 +572,11 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 Letter (246 glyphs): 
 `ͺ ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ Ἀ Ἁ Ἂ Ἃ Ἄ Ἅ Ἆ Ἇ ἐ ἑ ἒ ἓ ἔ ἕ Ἐ Ἑ Ἒ Ἓ Ἔ Ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ Ἠ Ἡ Ἢ Ἣ Ἤ Ἥ Ἦ Ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ Ἰ Ἱ Ἲ Ἳ Ἴ Ἵ Ἶ Ἷ ὀ ὁ ὂ ὃ ὄ ὅ Ὀ Ὁ Ὂ Ὃ Ὄ Ὅ ὐ ὑ ὒ ὓ ὔ ὕ ὖ ὗ Ὑ Ὓ Ὕ Ὗ ὠ ὡ ὢ ὣ ὤ ὥ ὦ ὧ Ὠ Ὡ Ὢ Ὣ Ὤ Ὥ Ὦ Ὧ ὰ ά ὲ έ ὴ ή ὶ ί ὸ ό ὺ ύ ὼ ώ ᾀ ᾁ ᾂ ᾃ ᾄ ᾅ ᾆ ᾇ ᾈ ᾉ ᾊ ᾋ ᾌ ᾍ ᾎ ᾏ ᾐ ᾑ ᾒ ᾓ ᾔ ᾕ ᾖ ᾗ ᾘ ᾙ ᾚ ᾛ ᾜ ᾝ ᾞ ᾟ ᾠ ᾡ ᾢ ᾣ ᾤ ᾥ ᾦ ᾧ ᾨ ᾩ ᾪ ᾫ ᾬ ᾭ ᾮ ᾯ ᾰ ᾱ ᾲ ᾳ ᾴ ᾶ ᾷ Ᾰ Ᾱ Ὰ Ά ᾼ ι ῂ ῃ ῄ ῆ ῇ Ὲ Έ Ὴ Ή ῌ ῐ ῑ ῒ ΐ ῖ ῗ Ῐ Ῑ Ὶ Ί ῠ ῡ ῢ ΰ ῤ ῥ ῦ ῧ Ῠ Ῡ Ὺ Ύ Ῥ ῲ ῳ ῴ ῶ ῷ Ὸ Ό Ὼ Ώ ῼ /Alphadasiaoxiaprosgegrammeni.ss01 /Alphadasiaperispomeniprosgegrammeni.ss01 /Alphadasiaprosgegrammeni.ss01 /Alphadasiavariaprosgegrammeni.ss01 /Alphaprosgegrammeni.ss01 /Alphapsilioxiaprosgegrammeni.ss01 /Alphapsiliperispomeniprosgegrammeni.ss01 /Alphapsiliprosgegrammeni.ss01 /Alphapsilivariaprosgegrammeni.ss01 /Etadasiaoxiaprosgegrammeni.ss01 /Etadasiaperispomeniprosgegrammeni.ss01 /Etadasiaprosgegrammeni.ss01 /Etadasiavariaprosgegrammeni.ss01 /Etaprosgegrammeni.ss01 /Etapsilioxiaprosgegrammeni.ss01 /Etapsiliperispomeniprosgegrammeni.ss01 /Etapsiliprosgegrammeni.ss01 /Etapsilivariaprosgegrammeni.ss01 /Omegadasiaoxiaprosgegrammeni.ss01 /Omegadasiaperispomeniprosgegrammeni.ss01 /Omegadasiaprosgegrammeni.ss01 /Omegadasiavariaprosgegrammeni.ss01 /Omegaprosgegrammeni.ss01 /Omegapsilioxiaprosgegrammeni.ss01 /Omegapsiliperispomeniprosgegrammeni.ss01 /Omegapsiliprosgegrammeni.ss01 /Omegapsilivariaprosgegrammeni.ss01`
 
-Mark (19 glyphs): 
-`◌͂ ◌̓ ◌̈́ ◌ͅ ◌᾽ ◌᾿ ◌῀ ◌῁ ◌῍ ◌῎ ◌῏ ◌῝ ◌῞ ◌῟ ◌῭ ◌΅ ◌` ◌´ ◌῾`
+Mark, nonspacing (4 glyphs): 
+`◌͂ ◌̓ ◌̈́ ◌ͅ`
+
+Mark, spacing (15 glyphs): 
+`᾽ ᾿ ῀ ῁ ῍ ῎ ῏ ῝ ῞ ῟ ῭ ΅ ` ´ ῾`
 
 _Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
@@ -639,8 +654,11 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 Letter (13 glyphs): 
 `Ϛ ϛ Ϝ ϝ Ϟ ϟ Ϡ ϡ 𝑙 𝔐 𝔓 𝔖 𝔭`
 
-Mark (5 glyphs): 
-`◌˙ ◌̅ ◌̣ ◌͙ ◌͜`
+Mark, nonspacing (4 glyphs): 
+`◌̅ ◌̣ ◌͙ ◌͜`
+
+Mark, spacing (1 glyphs): 
+`˙`
 
 Punctuation (44 glyphs): 
 `‖ ※ ‿ ⁂ ⁖ ⁘ ⁙ ⁚ ⁛ ⁜ ⁝ ⁞ ⸀ ⸁ ⸂ ⸃ ⸄ ⸅ ⸆ ⸇ ⸈ ⸉ ⸊ ⸋ ⸌ ⸍ ⸎ ⸏ ⸐ ⸑ ⸒ ⸓ ⸔ ⸕ ⸖ ⸗ 〈 〉 《 》 「 」 〚 〛`
@@ -1349,8 +1367,11 @@ ut-Ma’in (gel_Latn)
 Letter (438 glyphs): 
 `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ª º À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ó ô õ ö ø ù ú û ü ý ÿ Ā ā Ă ă Ą ą Ĉ ĉ Č č Đ đ Ē ē Ė ė Ę ę Ě ě Ĥ ĥ Ħ ħ Ĩ ĩ Ī ī Į į Ĺ ĺ Ń ń Ň ň Ŋ ŋ Ō ō Ő ő Œ œ Ŕ ŕ Ŗ ŗ Ř ř Ś ś Ŝ ŝ Ş ş Š š Ţ ţ Ŧ ŧ Ũ ũ Ū ū Ű ű Ų ų Ŵ ŵ Ŷ ŷ Ÿ Ż ż Ž ž Ɓ Ƃ ƃ Ɔ Ƈ ƈ Ɖ Ɗ Ǝ Ə Ɛ Ƒ Ɠ Ɣ Ɩ Ɨ Ƙ ƙ Ɯ Ɲ Ɵ Ƥ ƥ Ʃ Ƭ ƭ Ʈ Ʊ Ʋ Ƴ ƴ Ʒ Ƹ ƹ ǀ ǁ ǂ ǃ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǘ ǘ ǝ Ǣ ǣ Ǧ ǧ Ǫ ǫ ǰ Ǹ ǹ Ǽ ǽ Ǿ ǿ Ȁ ȁ Ȅ ȅ Ȉ ȉ Ȍ ȍ Ȓ ȓ Ȕ ȕ Ȧ ȧ Ȩ ȩ Ȳ ȳ Ɂ ɂ Ʉ Ʌ Ɉ ɉ Ɍ ɍ ɐ ɑ ɓ ɔ ɖ ɗ ə ɛ ɠ ɣ ɤ ɥ ɦ ɨ ɩ ɪ ɯ ɲ ɵ ɽ ʃ ʈ ʉ ʊ ʋ ʌ ʒ ʔ ʘ ʝ ʷ ᵃ ᵉ ᵋ ᵒ ᵓ ᵘ ᵽ ᶤ ᶶ Ḅ ḅ Ḇ ḇ Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḓ ḓ Ḕ ḕ Ḛ ḛ Ḣ ḣ Ḥ ḥ Ḭ ḭ Ḯ ḯ Ḳ ḳ Ḵ ḵ Ḷ ḷ Ḽ ḽ Ḿ ḿ Ṃ ṃ Ṅ ṅ Ṇ ṇ Ṉ ṉ Ṋ ṋ Ṍ ṍ Ṕ ṕ Ṛ ṛ Ṡ ṡ Ṣ ṣ Ṫ ṫ Ṭ ṭ Ṯ ṯ Ṱ ṱ Ṳ ṳ Ṵ ṵ Ṹ ṹ Ṽ ṽ Ṿ ṿ Ẅ ẅ Ẋ ẋ Ẓ ẓ ẖ Ạ ạ Ậ ậ Ẹ ẹ Ẽ ẽ Ệ ệ Ị ị Ọ ọ Ộ ộ Ụ ụ Ỳ ỳ Ỹ ỹ ⁱ Ᵽ Ɽ Ɑ Ɐ Ⱳ ⱳ Ꞌ ꞌ Ɥ Ɦ Ʝ Ꞵ ꞵ Ꞷ ꞷ /uniA7AE /uniA7C7 /uniA7C8`
 
-Mark (32 glyphs): 
-`◌ʼ ◌ˀ ◌ˆ ◌ˈ ◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̊ ◌̋ ◌̌ ◌̍ ◌̏ ◌̑ ◌̣ ◌̤ ◌̥ ◌̧ ◌̨ ◌̭ ◌̯ ◌̰ ◌̱ ◌͟ ◌᷄ ◌᷅ ◌᷆ ◌᷇`
+Mark, nonspacing (28 glyphs): 
+`◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̊ ◌̋ ◌̌ ◌̍ ◌̏ ◌̑ ◌̣ ◌̤ ◌̥ ◌̧ ◌̨ ◌̭ ◌̯ ◌̰ ◌̱ ◌͟ ◌᷄ ◌᷅ ◌᷆ ◌᷇`
+
+Mark, spacing (4 glyphs): 
+`ʼ ˀ ˆ ˈ`
 
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
@@ -1404,8 +1425,11 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 Letter (121 glyphs): 
 `Ĉ ĉ Ĝ ĝ Ĥ ĥ Ĩ ĩ Ĵ ĵ ĸ Ŝ ŝ Ţ ţ Ŧ ŧ Ũ ũ Ɔ Ə Ɛ Ɣ Ɨ ƚ ƛ Ʊ Ʒ ǂ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǥ ǥ Ǧ ǧ Ǩ ǩ Ǫ ǫ Ǭ ǭ Ǯ ǯ ǰ Ⱥ Ȼ ȼ Ƚ Ⱦ Ɂ ɔ ə ɛ ɣ ɨ ɩ ɪ ɫ ɬ ʊ ʒ ʔ ʕ ʷ ʸ λ χ ᶻ ᶿ Ḕ ḕ Ḗ ḗ Ḡ ḡ Ḥ ḥ Ḱ ḱ Ḳ ḳ Ḵ ḵ Ḷ ḷ Ṃ ṃ Ṇ ṇ Ṉ ṉ Ṑ ṑ Ṓ ṓ Ṣ ṣ Ṯ ṯ Ẑ ẑ Ẕ ẕ Ẽ ẽ Ị ị Ỹ ỹ Ɫ ⱥ ⱦ Ꞌ ꞌ ꭓ`
 
-Mark (11 glyphs): 
-`◌ʹ ◌ʻ ◌ʼ ◌ˀ ◌ˈ ◌̓ ◌̕ ◌̣ ◌̱ ◌̲ ◌̵`
+Mark, nonspacing (6 glyphs): 
+`◌̓ ◌̕ ◌̣ ◌̱ ◌̲ ◌̵`
+
+Mark, spacing (5 glyphs): 
+`ʹ ʻ ʼ ˀ ˈ`
 
 Symbol (2 glyphs): 
 `° ⅄`
@@ -1468,8 +1492,11 @@ Welsh (cy_Latn)
 Letter (220 glyphs): 
 `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ª º À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ð Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý Þ ß à á â ã ä å æ ç è é ê ë ì í î ï ð ñ ò ó ô õ ö ø ù ú û ü ý þ ÿ Ā ā Ă ă Ą ą Ć ć Ċ ċ Č č Ď ď Đ đ Ē ē Ė ė Ę ę Ě ě Ğ ğ Ġ ġ Ģ ģ Ħ ħ Ī ī Į į İ ı Ķ ķ Ĺ ĺ Ļ ļ Ľ ľ Ł ł Ń ń Ņ ņ Ň ň Ő ő Œ œ Ŕ ŕ Ř ř Ś ś Ş ş Š š Ť ť Ū ū Ů ů Ű ű Ų ų Ŵ ŵ Ŷ ŷ Ÿ Ź ź Ż ż Ž ž Ș ș Ț ț ȷ Ẁ ẁ Ẃ ẃ Ẅ ẅ ẞ Ỳ ỳ /idotaccent`
 
-Mark (28 glyphs): 
-`◌` ◌¨ ◌¯ ◌´ ◌¸ ◌ˆ ◌ˇ ◌˘ ◌˙ ◌˚ ◌˛ ◌˜ ◌˝ ◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̊ ◌̋ ◌̌ ◌̦ ◌̧ ◌̨ ◌/caroncomb.alt`
+Mark, nonspacing (15 glyphs): 
+`◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̊ ◌̋ ◌̌ ◌̦ ◌̧ ◌̨ ◌/caroncomb.alt`
+
+Mark, spacing (13 glyphs): 
+`` ¨ ¯ ´ ¸ ˆ ˇ ˘ ˙ ˚ ˛ ˜ ˝`
 
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
@@ -1529,8 +1556,8 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 Letter (52 glyphs): 
 `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z`
 
-Mark (1 glyphs): 
-`◌``
+Mark, spacing (1 glyphs): 
+```
 
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
@@ -1615,7 +1642,7 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 Letter (32 glyphs): 
 `Ŋ ŋ Ɓ Ɔ Ɗ Ɛ Ƙ ƙ Ɲ Ƴ ƴ Ǹ ǹ ɓ ɔ ɗ ɛ ɲ Ḿ ḿ Ṅ ṅ Ṣ ṣ Ẹ ẹ Ị ị Ọ ọ Ụ ụ`
 
-Mark (1 glyphs): 
+Mark, nonspacing (1 glyphs): 
 `◌̣`
 
 _Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
@@ -1646,7 +1673,7 @@ Vietnamese (vi_Latn)
 Letter (186 glyphs): 
 `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã È É Ê Ì Í Ò Ó Ô Õ Ù Ú Ý à á â ã è é ê ì í ò ó ô õ ù ú ý Ă ă Đ đ Ĩ ĩ Ũ ũ Ơ ơ Ư ư Ạ ạ Ả ả Ấ ấ Ầ ầ Ẩ ẩ Ẫ ẫ Ậ ậ Ắ ắ Ằ ằ Ẳ ẳ Ẵ ẵ Ặ ặ Ẹ ẹ Ẻ ẻ Ẽ ẽ Ế ế Ề ề Ể ể Ễ ễ Ệ ệ Ỉ ỉ Ị ị Ọ ọ Ỏ ỏ Ố ố Ồ ồ Ổ ổ Ỗ ỗ Ộ ộ Ớ ớ Ờ ờ Ở ở Ỡ ỡ Ợ ợ Ụ ụ Ủ ủ Ứ ứ Ừ ừ Ử ử Ữ ữ Ự ự Ỳ ỳ Ỵ ỵ Ỷ ỷ Ỹ ỹ`
 
-Mark (16 glyphs): 
+Mark, nonspacing (16 glyphs): 
 `◌̀ ◌́ ◌̂ ◌̃ ◌̆ ◌̉ ◌̛ ◌̣ ◌/brevecomb_acutecomb ◌/brevecomb_gravecomb ◌/brevecomb_hookabovecomb ◌/brevecomb_tildecomb ◌/circumflexcomb_acutecomb ◌/circumflexcomb_gravecomb ◌/circumflexcomb_hookabovecomb ◌/circumflexcomb_tildecomb`
 
 Number (10 glyphs): 
@@ -1691,7 +1718,7 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 Letter (20 glyphs): 
 `ĺ ƚ ƛ ǯ ǰ ȯ Ȼ ȼ ʸ λ φ ᴅ ᵍ ᵻ ᵾ ᶿ ṛ ṱ ẉ ẋ`
 
-Mark (2 glyphs): 
+Mark, nonspacing (2 glyphs): 
 `◌̓ ◌̨`
 
 Symbol (1 glyphs): 
@@ -1730,7 +1757,7 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 Letter (19 glyphs): 
 `ʩ ʪ ʫ ʬ ʭ ʴ ˢ ᴺ ᵊ ꞎ Ʞ 𝑓 𝑝 /Kturned.circled /fitalic-math.subs /fitalic-math.sups /pitalic-math.subs /pitalic-math.sups /uniA7AF`
 
-Mark (17 glyphs): 
+Mark, nonspacing (17 glyphs): 
 `◌͆ ◌͇ ◌͉ ◌͊ ◌͋ ◌͌ ◌͍ ◌͎ ◌͔ ◌͕ ◌͢ ◌᪻ ◌᪽ ◌/uni1AC1 ◌/uni1AC2 ◌/uni1AC3 ◌/uni1AC4`
 
 Punctuation (5 glyphs): 
@@ -1775,7 +1802,7 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 Letter (12 glyphs): 
 `ƈ ƙ ƥ ƭ ʞ ʠ ʣ ʤ ʥ ʦ ʧ ʨ`
 
-Mark (1 glyphs): 
+Mark, nonspacing (1 glyphs): 
 `◌̢`
 
 _Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
@@ -1811,8 +1838,11 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 Letter (105 glyphs): 
 `æ ç ð ø ħ ŋ œ ǀ ǁ ǂ ǃ ȅ ɐ ɑ ɒ ɓ ɔ ɕ ɖ ɗ ɘ ə ɚ ɛ ɜ ɝ ɞ ɟ ɠ ɡ ɢ ɣ ɤ ɥ ɦ ɧ ɨ ɪ ɫ ɬ ɭ ɮ ɯ ɰ ɱ ɲ ɳ ɴ ɵ ɶ ɸ ɹ ɺ ɻ ɽ ɾ ʀ ʁ ʂ ʃ ʄ ʈ ʉ ʊ ʋ ʌ ʍ ʎ ʏ ʐ ʑ ʒ ʔ ʕ ʘ ʙ ʛ ʜ ʝ ʟ ʡ ʢ ʰ ʲ ʷ ˡ β θ χ ᵬ ᵭ ᵮ ᵯ ᵰ ᵱ ᵲ ᵳ ᵴ ᵵ ᵶ ⁿ ꜛ ꜜ ꞵ ꭓ`
 
-Mark (49 glyphs): 
-`◌ʼ ◌ˁ ◌ˈ ◌ˌ ◌ː ◌ˑ ◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̅ ◌̆ ◌̈ ◌̊ ◌̋ ◌̌ ◌̏ ◌̘ ◌̙ ◌̚ ◌̜ ◌̝ ◌̞ ◌̟ ◌̠ ◌̤ ◌̥ ◌̩ ◌̪ ◌̬ ◌̯ ◌̰ ◌̲ ◌̴ ◌̹ ◌̺ ◌̻ ◌̼ ◌̽ ◌͈ ◌͜ ◌͡ ◌᷄ ◌᷅ ◌᷆ ◌᷇ ◌᷈ ◌᷉`
+Mark, nonspacing (43 glyphs): 
+`◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̅ ◌̆ ◌̈ ◌̊ ◌̋ ◌̌ ◌̏ ◌̘ ◌̙ ◌̚ ◌̜ ◌̝ ◌̞ ◌̟ ◌̠ ◌̤ ◌̥ ◌̩ ◌̪ ◌̬ ◌̯ ◌̰ ◌̲ ◌̴ ◌̹ ◌̺ ◌̻ ◌̼ ◌̽ ◌͈ ◌͜ ◌͡ ◌᷄ ◌᷅ ◌᷆ ◌᷇ ◌᷈ ◌᷉`
+
+Mark, spacing (6 glyphs): 
+`ʼ ˁ ˈ ˌ ː ˑ`
 
 Punctuation (4 glyphs): 
 `! . ‖ ‿`
@@ -1886,8 +1916,11 @@ Glyphs.app Custom Filter List (contains all Phonetics glyphsets): [CustomFilter_
 Letter (26 glyphs): 
 `Ǧ ǧ Ȳ ȳ Ḍ ḍ Ḏ ḏ Ḡ ḡ Ḥ ḥ Ḫ ḫ Ḵ ḵ Ṣ ṣ Ṭ ṭ Ṯ ṯ Ẓ ẓ ẖ ẗ`
 
-Mark (7 glyphs): 
-`◌ʼ ◌ʽ ◌ʾ ◌ʿ ◌̣ ◌̮ ◌̱`
+Mark, nonspacing (3 glyphs): 
+`◌̣ ◌̮ ◌̱`
+
+Mark, spacing (4 glyphs): 
+`ʼ ʽ ʾ ʿ`
 
 _Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
@@ -1922,8 +1955,11 @@ Glyphs.app Custom Filter List (contains all TransLatin glyphsets): [CustomFilter
 Letter (79 glyphs): 
 `À Á Â È É Ê Ì Í Î Ï Ò Ó Ô Ù Ú Û Ü à á â è é ê ì í î ñ ò ó ô ù ú û ü Ā ā Ă ă Ē ē Ĕ ĕ Ě ě Ī ī Ĭ ĭ Ń Ō ō Ŏ ŏ Ū ū Ŭ ŭ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǖ ǖ Ǘ ǘ Ǚ ǚ Ǜ ǜ Ǹ ǹ ᴺ Ḿ ḿ ⁿ`
 
-Mark (16 glyphs): 
-`◌ʼ ◌̀ ◌́ ◌̂ ◌̄ ◌̆ ◌̈ ◌̌ ◌̍ ◌͘ ◌/acutecomb_dotaboverightcomb ◌/brevecomb_dotaboverightcomb ◌/circumflexcomb_dotaboverightcomb ◌/gravecomb_dotaboverightcomb ◌/macroncomb_dotaboverightcomb ◌/verticallineabovecomb_dotaboverightcomb`
+Mark, nonspacing (15 glyphs): 
+`◌̀ ◌́ ◌̂ ◌̄ ◌̆ ◌̈ ◌̌ ◌̍ ◌͘ ◌/acutecomb_dotaboverightcomb ◌/brevecomb_dotaboverightcomb ◌/circumflexcomb_dotaboverightcomb ◌/gravecomb_dotaboverightcomb ◌/macroncomb_dotaboverightcomb ◌/verticallineabovecomb_dotaboverightcomb`
+
+Mark, spacing (1 glyphs): 
+`ʼ`
 
 _Note: Use this for a quick overview only, as some characters might be misrepresented here (for example the backtick). For accurate results, refer to the files in the `/data/results` folder._
 
