@@ -30,11 +30,11 @@ log = logging.getLogger(__file__)
 data = json.load(open(DATA_FP, encoding="utf8"))
 
 # Call get_glyph once so that GLYPHDATA gets filled in glyphsLib
-get_glyph("A")
+# get_glyph("A")
 # If I import GLYPHDATA at the top of the file, it doesn't get filled
-from glyphsLib.glyphdata import GLYPHDATA
+# from glyphsLib.glyphdata import GLYPHDATA
 
-assert type(GLYPHDATA) is glyphsLib.glyphdata.GlyphData
+# assert type(GLYPHDATA) is glyphsLib.glyphdata.GlyphData
 
 
 class _GFGlyphData:
