@@ -3,5 +3,9 @@
   "extends": [
     "config:recommended"
   ],
-  "rangeStrategy": "bump"
+  "rangeStrategy": "bump",
+  "timezone": "America/Los_Angeles",
+  "schedule": [
+    "before 8am"
+  ]
 }
