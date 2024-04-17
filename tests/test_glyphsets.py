@@ -6,7 +6,9 @@ from glyphsets import (
     defined_glyphsets,
     compare_glyphsets,
     build_glyphsapp_filter_list,
+    glyphs_in_glyphset,
 )
+import plistlib
 
 DATA_FP = os.path.join(os.path.dirname(__file__), "data")
 FONT_PATH = os.path.join(DATA_FP, "MavenPro[wght].ttf")
@@ -43,3 +45,13 @@ def test_filter_lists():
     build_glyphsapp_filter_list(
         ["GF_Latin_Kernel", "GF_Latin_Core", "GF_Latin_Plus"], "test.plist", False
     )
+    assert os.path.exists("CustomFiltertest.plist")
+    test = plistlib.load(open("CustomFiltertest.plist", "rb"))
+    assert len(test) == 3
+    assert test[0]["name"] == "GF_Latin_Core"
+    assert test[1]["name"] == "GF_Latin_Kernel"
+    assert test[2]["name"] == "GF_Latin_Plus"
+    assert test[0]["list"] == glyphs_in_glyphset("GF_Latin_Core")
+    assert test[1]["list"] == glyphs_in_glyphset("GF_Latin_Kernel")
+    assert test[2]["list"] == glyphs_in_glyphset("GF_Latin_Plus")
+    os.remove("CustomFiltertest.plist")
