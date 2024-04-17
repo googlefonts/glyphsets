@@ -1,9 +1,14 @@
 Below are the most important changes from each release.
 
-### v0.6.19 (2024-?)
+### v0.6.20 (2024-?)
 #### Changes since last release
 
+- ?
 
+### v0.6.19 (2024-4-17)
+#### Changes since last release
+
+- Removed unnecessary glyphsLib import that caused trouble on fontbakery.com
 
 ### v0.6.18 (2024-4-10)
 #### Changes since last release
