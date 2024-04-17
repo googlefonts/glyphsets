@@ -11,12 +11,9 @@ import copy
 import json
 import logging
 import unicodedata
-import glyphsLib
 import functools
-from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
+from glyphsLib.glyphdata import get_glyph
 from glyphsets.helpers import Colors
-
-Colors = Colors()
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -28,13 +25,6 @@ DATA_FP = os.path.join(os.path.dirname(__file__), "data.json")
 TEST_STRINGS_DATA = os.path.join(os.path.dirname(__file__), "test_strings.json")
 log = logging.getLogger(__file__)
 data = json.load(open(DATA_FP, encoding="utf8"))
-
-# Call get_glyph once so that GLYPHDATA gets filled in glyphsLib
-# get_glyph("A")
-# If I import GLYPHDATA at the top of the file, it doesn't get filled
-# from glyphsLib.glyphdata import GLYPHDATA
-
-# assert type(GLYPHDATA) is glyphsLib.glyphdata.GlyphData
 
 
 class _GFGlyphData:
