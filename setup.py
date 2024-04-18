@@ -60,7 +60,7 @@ setup(
         "Programming Language :: Python :: 3",
     ],
     python_requires=">=3.8",
-    setup_requires=["setuptools_scm>=4,<8.1"],
+    setup_requires=["setuptools_scm>=4.1.2,<8.1"],
     install_requires=[
         "requests",
         "setuptools",
