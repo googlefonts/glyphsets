@@ -60,7 +60,7 @@ setup(
         "Programming Language :: Python :: 3",
     ],
     python_requires=">=3.8",
-    setup_requires=["setuptools_scm>=4,<8.1"],
+    setup_requires=["setuptools_scm>=4.1.2,<8.1"],
     install_requires=[
         "requests",
         "setuptools",
@@ -68,7 +68,7 @@ setup(
         "glyphsLib>=6.7.0",
         "defcon",
         "unicodedata2",
-        "gflanguages>=0.5.16",
+        "gflanguages>=0.5.17",
         "pyyaml",
     ],
     extras_require={
