@@ -49,8 +49,200 @@ name = Regular;
 );
 glyphs = (
 {
+glyphname = percent;
+unicode = 37;
+},
+{
+glyphname = ampersand;
+unicode = 38;
+},
+{
+glyphname = plus;
+unicode = 43;
+},
+{
+glyphname = at;
+unicode = 64;
+},
+{
+glyphname = exclam;
+unicode = 33;
+},
+{
+glyphname = quotedbl;
+unicode = 34;
+},
+{
+glyphname = numbersign;
+unicode = 35;
+},
+{
+glyphname = quotesingle;
+unicode = 39;
+},
+{
+glyphname = parenleft;
+unicode = 40;
+},
+{
+glyphname = parenright;
+unicode = 41;
+},
+{
+glyphname = asterisk;
+unicode = 42;
+},
+{
+glyphname = comma;
+unicode = 44;
+},
+{
+glyphname = hyphen;
+unicode = 45;
+},
+{
+glyphname = period;
+unicode = 46;
+},
+{
+glyphname = slash;
+unicode = 47;
+},
+{
+glyphname = colon;
+unicode = 58;
+},
+{
+glyphname = semicolon;
+unicode = 59;
+},
+{
+glyphname = question;
+unicode = 63;
+},
+{
+glyphname = bracketleft;
+unicode = 91;
+},
+{
+glyphname = bracketright;
+unicode = 93;
+},
+{
+glyphname = endash;
+unicode = 8211;
+},
+{
+glyphname = emdash;
+unicode = 8212;
+},
+{
+glyphname = quoteleft;
+unicode = 8216;
+},
+{
+glyphname = quoteright;
+unicode = 8217;
+},
+{
+glyphname = quotedblleft;
+unicode = 8220;
+},
+{
+glyphname = quotedblright;
+unicode = 8221;
+},
+{
+glyphname = ellipsis;
+unicode = 8230;
+},
+{
+glyphname = zero;
+unicode = 48;
+},
+{
+glyphname = one;
+unicode = 49;
+},
+{
+glyphname = two;
+unicode = 50;
+},
+{
+glyphname = three;
+unicode = 51;
+},
+{
+glyphname = four;
+unicode = 52;
+},
+{
+glyphname = five;
+unicode = 53;
+},
+{
+glyphname = six;
+unicode = 54;
+},
+{
+glyphname = seven;
+unicode = 55;
+},
+{
+glyphname = eight;
+unicode = 56;
+},
+{
+glyphname = nine;
+unicode = 57;
+},
+{
 glyphname = dotbelowcomb;
 unicode = 803;
+},
+{
+glyphname = apostrophemod;
+unicode = 700;
+},
+{
+glyphname = gravecomb;
+unicode = 768;
+},
+{
+glyphname = acutecomb;
+unicode = 769;
+},
+{
+glyphname = circumflexcomb;
+unicode = 770;
+},
+{
+glyphname = tildecomb;
+unicode = 771;
+},
+{
+glyphname = macroncomb;
+unicode = 772;
+},
+{
+glyphname = brevecomb;
+unicode = 774;
+},
+{
+glyphname = dotaccentcomb;
+unicode = 775;
+},
+{
+glyphname = dieresiscomb;
+unicode = 776;
+},
+{
+glyphname = ringcomb;
+unicode = 778;
+},
+{
+glyphname = cedillacomb;
+unicode = 807;
 },
 {
 glyphname = Eng;
@@ -179,6 +371,390 @@ unicode = 7908;
 {
 glyphname = udotbelow;
 unicode = 7909;
+},
+{
+glyphname = A;
+unicode = 65;
+},
+{
+glyphname = B;
+unicode = 66;
+},
+{
+glyphname = C;
+unicode = 67;
+},
+{
+glyphname = D;
+unicode = 68;
+},
+{
+glyphname = E;
+unicode = 69;
+},
+{
+glyphname = F;
+unicode = 70;
+},
+{
+glyphname = G;
+unicode = 71;
+},
+{
+glyphname = H;
+unicode = 72;
+},
+{
+glyphname = I;
+unicode = 73;
+},
+{
+glyphname = J;
+unicode = 74;
+},
+{
+glyphname = K;
+unicode = 75;
+},
+{
+glyphname = L;
+unicode = 76;
+},
+{
+glyphname = M;
+unicode = 77;
+},
+{
+glyphname = N;
+unicode = 78;
+},
+{
+glyphname = O;
+unicode = 79;
+},
+{
+glyphname = P;
+unicode = 80;
+},
+{
+glyphname = Q;
+unicode = 81;
+},
+{
+glyphname = R;
+unicode = 82;
+},
+{
+glyphname = S;
+unicode = 83;
+},
+{
+glyphname = T;
+unicode = 84;
+},
+{
+glyphname = U;
+unicode = 85;
+},
+{
+glyphname = V;
+unicode = 86;
+},
+{
+glyphname = W;
+unicode = 87;
+},
+{
+glyphname = X;
+unicode = 88;
+},
+{
+glyphname = Y;
+unicode = 89;
+},
+{
+glyphname = Z;
+unicode = 90;
+},
+{
+glyphname = a;
+unicode = 97;
+},
+{
+glyphname = b;
+unicode = 98;
+},
+{
+glyphname = c;
+unicode = 99;
+},
+{
+glyphname = d;
+unicode = 100;
+},
+{
+glyphname = e;
+unicode = 101;
+},
+{
+glyphname = f;
+unicode = 102;
+},
+{
+glyphname = g;
+unicode = 103;
+},
+{
+glyphname = h;
+unicode = 104;
+},
+{
+glyphname = i;
+unicode = 105;
+},
+{
+glyphname = j;
+unicode = 106;
+},
+{
+glyphname = k;
+unicode = 107;
+},
+{
+glyphname = l;
+unicode = 108;
+},
+{
+glyphname = m;
+unicode = 109;
+},
+{
+glyphname = n;
+unicode = 110;
+},
+{
+glyphname = o;
+unicode = 111;
+},
+{
+glyphname = p;
+unicode = 112;
+},
+{
+glyphname = q;
+unicode = 113;
+},
+{
+glyphname = r;
+unicode = 114;
+},
+{
+glyphname = s;
+unicode = 115;
+},
+{
+glyphname = t;
+unicode = 116;
+},
+{
+glyphname = u;
+unicode = 117;
+},
+{
+glyphname = v;
+unicode = 118;
+},
+{
+glyphname = w;
+unicode = 119;
+},
+{
+glyphname = x;
+unicode = 120;
+},
+{
+glyphname = y;
+unicode = 121;
+},
+{
+glyphname = z;
+unicode = 122;
+},
+{
+glyphname = Agrave;
+unicode = 192;
+},
+{
+glyphname = Aacute;
+unicode = 193;
+},
+{
+glyphname = Adieresis;
+unicode = 196;
+},
+{
+glyphname = Egrave;
+unicode = 200;
+},
+{
+glyphname = Eacute;
+unicode = 201;
+},
+{
+glyphname = Ecircumflex;
+unicode = 202;
+},
+{
+glyphname = Edieresis;
+unicode = 203;
+},
+{
+glyphname = Igrave;
+unicode = 204;
+},
+{
+glyphname = Iacute;
+unicode = 205;
+},
+{
+glyphname = Icircumflex;
+unicode = 206;
+},
+{
+glyphname = Idieresis;
+unicode = 207;
+},
+{
+glyphname = Ntilde;
+unicode = 209;
+},
+{
+glyphname = Ograve;
+unicode = 210;
+},
+{
+glyphname = Oacute;
+unicode = 211;
+},
+{
+glyphname = Ocircumflex;
+unicode = 212;
+},
+{
+glyphname = Odieresis;
+unicode = 214;
+},
+{
+glyphname = Ugrave;
+unicode = 217;
+},
+{
+glyphname = Uacute;
+unicode = 218;
+},
+{
+glyphname = Ucircumflex;
+unicode = 219;
+},
+{
+glyphname = Udieresis;
+unicode = 220;
+},
+{
+glyphname = Yacute;
+unicode = 221;
+},
+{
+glyphname = agrave;
+unicode = 224;
+},
+{
+glyphname = aacute;
+unicode = 225;
+},
+{
+glyphname = adieresis;
+unicode = 228;
+},
+{
+glyphname = egrave;
+unicode = 232;
+},
+{
+glyphname = eacute;
+unicode = 233;
+},
+{
+glyphname = ecircumflex;
+unicode = 234;
+},
+{
+glyphname = edieresis;
+unicode = 235;
+},
+{
+glyphname = igrave;
+unicode = 236;
+},
+{
+glyphname = iacute;
+unicode = 237;
+},
+{
+glyphname = icircumflex;
+unicode = 238;
+},
+{
+glyphname = idieresis;
+unicode = 239;
+},
+{
+glyphname = ntilde;
+unicode = 241;
+},
+{
+glyphname = ograve;
+unicode = 242;
+},
+{
+glyphname = oacute;
+unicode = 243;
+},
+{
+glyphname = ocircumflex;
+unicode = 244;
+},
+{
+glyphname = odieresis;
+unicode = 246;
+},
+{
+glyphname = ugrave;
+unicode = 249;
+},
+{
+glyphname = uacute;
+unicode = 250;
+},
+{
+glyphname = ucircumflex;
+unicode = 251;
+},
+{
+glyphname = udieresis;
+unicode = 252;
+},
+{
+glyphname = yacute;
+unicode = 253;
+},
+{
+glyphname = Nacute;
+unicode = 323;
+},
+{
+glyphname = nacute;
+unicode = 324;
 }
 );
 instances = (

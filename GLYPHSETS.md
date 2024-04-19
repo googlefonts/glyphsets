@@ -8,7 +8,7 @@
 |  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |  |
 |  | [🛑 Pro](#gf-cyrillic-pro) | [✅ Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
 |  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) | [🛑 SinoExt](#gf-phonetics-sinoext) |  |
-|  |  | [🛑 Plus](#gf-greek-plus) | [🛑 PriAfrican](#gf-latin-priafrican) |  |  |
+|  |  | [🛑 Plus](#gf-greek-plus) | [✅ PriAfrican](#gf-latin-priafrican) |  |  |
 |  |  | [🛑 Pro](#gf-greek-pro) | [✅ Vietnamese](#gf-latin-vietnamese) |  |  |
 
 > [!NOTE]  
@@ -1592,22 +1592,58 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 
 # GF Latin PriAfrican
 
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
+> 
+> Languages of Africa with a minimal number of additional required characters and a large number of users.
+
 `GF_Latin_PriAfrican` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Latin_PriAfrican.yaml) as:
 
 * Script: Latin
+* List of languages: `
+Afrikaans (af_Latn),
+Akuapem Twi (tw_akuapem_Latn),
+Bambara (bm_Latn),
+Dyula (dyu_Latn),
+Fanti (fat_Latn),
+Fulah (ff_Latn),
+Ganda (lg_Latn),
+Hausa (ha_Latn),
+Igbo (ig_Latn),
+Oromo (om_Latn),
+Swahili (sw_Latn),
+Xhosa (xh_Latn),
+Yoruba (yo_Latn),
+Zulu (zu_Latn)
+`
 * Characters and glyphs defined in [GF_Latin_PriAfrican.stub.glyphs](/data/definitions/per_glyphset/GF_Latin_PriAfrican.stub.glyphs)
-
-> [!CAUTION]  
-> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
-> Please add language code definions [here](/Lib/glyphsets/definitions/GF_Latin_PriAfrican.yaml).
 
 ### Characters and Glyphs
 
-Letter (32 glyphs): 
-`Ŋ ŋ Ɓ Ɔ Ɗ Ɛ Ƙ ƙ Ɲ Ƴ ƴ Ǹ ǹ ɓ ɔ ɗ ɛ ɲ Ḿ ḿ Ṅ ṅ Ṣ ṣ Ẹ ẹ Ị ị Ọ ọ Ụ ụ`
+Letter (128 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Ä È É Ê Ë Ì Í Î Ï Ñ Ò Ó Ô Ö Ù Ú Û Ü Ý à á ä è é ê ë ì í î ï ñ ò ó ô ö ù ú û ü ý Ń ń Ŋ ŋ Ɓ Ɔ Ɗ Ɛ Ƙ ƙ Ɲ Ƴ ƴ Ǹ ǹ ɓ ɔ ɗ ɛ ɲ Ḿ ḿ Ṅ ṅ Ṣ ṣ Ẹ ẹ Ị ị Ọ ọ Ụ ụ`
 
-Mark, nonspacing (1 glyphs): 
-`◌̣`
+Mark, nonspacing (11 glyphs): 
+`◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̊ ◌̣ ◌̧`
+
+Mark, spacing (1 glyphs): 
+`ʼ`
+
+Number (10 glyphs): 
+`0 1 2 3 4 5 6 7 8 9`
+
+Punctuation (23 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ ] – — ‘ ’ “ ” …`
+
+Symbol (4 glyphs): 
+`% & + @`
+
+### Character Sequences
+
+The following 10 composed character sequences are decomposed in the font:
+
+`
+M̀ m̀ Ẹ̀ Ẹ́ ẹ̀ ẹ́ Ọ̀ Ọ́ ọ̀ ọ́
+`
 
 ### Resulting Glyphset Files
 
