@@ -670,7 +670,7 @@ def description_per_glyphset(glyphset_name):
     # Composed characters
     decomposed_chars = get_decomposed_chars(glyphset_name)
     if decomposed_chars:
-        md += f"### Characters Sequences\n\n"
+        md += f"### Character Sequences\n\n"
         md += f"The following {len(decomposed_chars)} composed character sequences are decomposed in the font:\n\n"
         md += "`\n"
         md += " ".join(decomposed_chars)
