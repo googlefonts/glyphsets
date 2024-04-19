@@ -1356,7 +1356,7 @@ Punctuation (27 glyphs):
 Symbol (12 glyphs): 
 `% & + @ ƒ ˗ ˮ Ⓐ ⓐ ꞉ ꞊ /uniA7CB`
 
-### Decomposed Characters
+### Characters Sequences
 
 The following 722 composed character sequences are decomposed in the font:
 
@@ -1480,7 +1480,7 @@ Separator (3 glyphs):
 Symbol (24 glyphs): 
 `$ % & + < = > @ ^ | ~ ¢ £ ¥ § © ® ° ¶ × ÷ € ™ −`
 
-### Decomposed Characters
+### Characters Sequences
 
 The following 2 composed character sequences are decomposed in the font:
 
