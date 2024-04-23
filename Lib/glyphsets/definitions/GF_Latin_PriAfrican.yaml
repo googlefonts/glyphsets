@@ -1,1 +1,17 @@
-{}
+description: "Languages of Africa with a minimal number of additional required
+  characters and a large number of users."
+language_codes:
+- af_Latn
+- bm_Latn
+- dyu_Latn
+- fat_Latn
+- ff_Latn
+- ha_Latn
+- ig_Latn
+- lg_Latn
+- om_Latn
+- sw_Latn
+- tw_akuapem_Latn
+- xh_Latn
+- yo_Latn
+- zu_Latn
