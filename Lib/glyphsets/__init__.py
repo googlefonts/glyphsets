@@ -739,29 +739,28 @@ def get_decomposed_chars(glyphset_name):
 def analyze_font(ttFont):
     results = get_glyphsets_fulfilled(ttFont)
 
-    headline("Fully supported glyphsets:")
-    found = 0
-    for key in results:
-        if results[key]["percentage"] == 1:
-            found += 1
-            print(key)
-    if not found:
-        print("———")
-
     def print_support(lower=0, upper=1, color=Colors.GREEN):
         found = 0
         for key in results:
-            if lower <= results[key]["percentage"] < upper:
+            if (lower < upper and lower <= results[key]["percentage"] < upper) or (
+                lower == upper and results[key]["percentage"] == lower
+            ):
                 found += 1
                 print(f"{Colors.BOLD}{key}{Colors.END} {color}{int(results[key]['percentage']*100)}%{Colors.END}")
-                print(f"Missing: {' '.join([chr(x) for x in results[key]['missing']])}")
-                if "unique" in results[key]:
-                    print(f"Unique: {' '.join([chr(x) for x in results[key]['unique']])}")
-                if "has_unique" in results[key]:
-                    print(f"Unique in font: {' '.join([chr(x) for x in results[key]['has_unique']])}")
+                # if not languages_per_glyphset(key):
+                #     print("No languages defined")
+                if results[key]["missing"]:
+                    print(f"Missing: {' '.join([chr(x) for x in results[key]['missing']])}")
+                    if "unique" in results[key]:
+                        print(f"Unique: {' '.join([chr(x) for x in results[key]['unique']])}")
+                    if "has_unique" in results[key]:
+                        print(f"Unique in font: {' '.join([chr(x) for x in results[key]['has_unique']])}")
                 print()
         if not found:
             print("———")
+
+    headline("Fully supported glyphsets:")
+    print_support(1, 1)
 
     print()
     headline("Partially supported glyphsets (>80%) (these will also be part of Fontbakery's shape_languages check):")
