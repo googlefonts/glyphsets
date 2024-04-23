@@ -742,7 +742,7 @@ def analyze_font(ttFont):
 
         if lower >= 0.8:
             print(
-                f"{Colors.BROWN}These glyphsets will {Colors.ITALIC}implicitly{Colors.END}{Colors.BROWN} be part of Fontbakery's {Colors.ITALIC}shape_languages{Colors.END}{Colors.BROWN} check if languages are defined for them."
+                f"{Colors.BROWN}These glyphsets will {Colors.ITALIC}implicitly{Colors.END}{Colors.BROWN} be part of Fontbakery's {Colors.ITALIC}shape_languages{Colors.END}{Colors.BROWN} check."
             )
             print(f"See https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md for details.{Colors.END}")
             print()
@@ -756,7 +756,15 @@ def analyze_font(ttFont):
                 color = color = Colors.RED if results[key]["percentage"] < 0.8 else Colors.GREEN
 
                 found += 1
-                print(f"{Colors.BOLD}{key}{Colors.END} {color}{int(results[key]['percentage']*100)}%{Colors.END}")
+
+                not_covered = ""
+                if lower >= 0.8:
+                    languages = languages_per_glyphset(key)
+                    if not languages:
+                        not_covered = f"{Colors.BROWN}(Not part of {Colors.ITALIC}shape_languages{Colors.END}{Colors.BROWN} because of missing language definitions){Colors.END}"
+                print(
+                    f"{Colors.BOLD}{key}{Colors.END} {color}{int(results[key]['percentage']*100)}%{Colors.END} {not_covered}"
+                )
                 if results[key]["missing"]:
                     print(f"Missing: {' '.join([chr(x) for x in results[key]['missing']])}")
                     if "unique" in results[key]:
