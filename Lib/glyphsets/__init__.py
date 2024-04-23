@@ -742,9 +742,8 @@ def analyze_font(ttFont):
 
         if lower >= 0.8:
             print(
-                f"{Colors.BROWN}These glyphsets will {Colors.ITALIC}implicitly{Colors.END}{Colors.BROWN} be part of Fontbakery's {Colors.ITALIC}shape_languages{Colors.END}{Colors.BROWN} check."
+                f"{Colors.BROWN}These glyphsets will {Colors.ITALIC}implicitly{Colors.END}{Colors.BROWN} be part of Fontbakery's {Colors.ITALIC}shape_languages{Colors.END}{Colors.BROWN} check:{Colors.END}"
             )
-            print(f"See https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md for details.{Colors.END}")
             print()
 
         found = 0
