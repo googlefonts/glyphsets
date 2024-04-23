@@ -23,7 +23,7 @@ def main():
 
     # Analyze
     analyze_parser = subparsers.add_parser(
-        "analyze",
+        "coverage",
         help="Analyze glyphsets covered by a font binary.",
     )
     analyze_parser.add_argument("font", help="Font binary to analyze")
@@ -37,7 +37,7 @@ def main():
     if args.command == "compare":
         compare_glyphsets(args.glyphsets)
 
-    if args.command == "analyze":
+    if args.command == "coverage":
         analyze_font(TTFont(args.font))
 
 
