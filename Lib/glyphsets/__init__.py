@@ -13,7 +13,7 @@ import logging
 import unicodedata
 import functools
 from glyphsLib.glyphdata import get_glyph
-from glyphsets.helpers import Colors
+from glyphsets.helpers import Colors, headline
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -67,23 +67,21 @@ class _GFGlyphData:
 
     def glyphsets_fulfilled(self, ttFont):
         res = self.glyphsets_in_font(ttFont)
-        return {
-            k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
-            for k, v in res.items()
-        }
+        return {k: len(v["has"]) / (len(v["has"]) + len(v["missing"])) for k, v in res.items()}
 
-    def missing_glyphsets_in_font(self, ttFont, threshold=0.8):
-        res = self.glyphsets_in_font(ttFont)
-        fulfilled = {
-            k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
-            for k, v in res.items()
-        }
-        missing = {}
-        for k, v in fulfilled.items():
-            if v == 1.0 or v < threshold:
-                continue
-            missing[k] = res[k]["missing"]
-        return missing
+    # Currently unused:
+    # def missing_glyphsets_in_font(self, ttFont, threshold=0.8):
+    #     res = self.glyphsets_in_font(ttFont)
+    #     fulfilled = {
+    #         k: len(v["has"]) / (len(v["has"]) + len(v["missing"]))
+    #         for k, v in res.items()
+    #     }
+    #     missing = {}
+    #     for k, v in fulfilled.items():
+    #         if v == 1.0 or v < threshold:
+    #             continue
+    #         missing[k] = res[k]["missing"]
+    #     return missing
 
     def glyphs_in_glyphsets(self, glyphsets):
         res = []
@@ -277,11 +275,9 @@ class _TestDocData:
 GFTestData = _TestDocData()
 
 
-## NEW SYSTEM:
+# NEW SYSTEM:
 
-root_folder = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "..", "data")
-)
+root_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data"))
 tool_folder = os.path.abspath(os.path.dirname(__file__))
 
 
@@ -318,9 +314,7 @@ def build_glyphsapp_filter_list(glyphsets, out, use_production_names=False):
 
     # glyphsapp need a prefix for the out file of "CustomFilter"
     if not os.path.basename(out).startswith("CustomFilter"):
-        print(
-            "Prefixing 'CustomFilter' to out path since file is intended for Glyphsapp"
-        )
+        print("Prefixing 'CustomFilter' to out path since file is intended for Glyphsapp")
         out = os.path.join(os.path.dirname(out), "CustomFilter" + os.path.basename(out))
 
     # Make .plist
@@ -373,9 +367,7 @@ def glyphsets_per_script(script):
 
 
 def get_glyphset_definition(glyphset_name):
-    yaml_path = os.path.join(
-        os.path.dirname(__file__), "definitions", f"{glyphset_name}.yaml"
-    )
+    yaml_path = os.path.join(os.path.dirname(__file__), "definitions", f"{glyphset_name}.yaml")
     with open(yaml_path, "r", encoding="utf8") as f:
         return yaml.load(f, Loader=yaml.FullLoader)
 
@@ -401,7 +393,7 @@ def glyphs_in_glyphsets(glyphset_names, production_names=False):
 
 
 def glyphs_in_glyphset(glyphset_name, production_names=False):
-    script = glyphset_name.split("_")[1]
+    # script = glyphset_name.split("_")[1]
 
     with open(
         os.path.join(
@@ -413,9 +405,7 @@ def glyphs_in_glyphset(glyphset_name, production_names=False):
         ),
         "r",
     ) as f:
-        glyph_names = [
-            line.strip() for line in f.readlines() if not line.startswith("#")
-        ]
+        glyph_names = [line.strip() for line in f.readlines() if not line.startswith("#")]
 
     return sorted(glyph_names)
 
@@ -426,7 +416,7 @@ def languages_per_glyphset(glyphset_name):
     glyphset_definition = get_glyphset_definition(glyphset_name)
     language_codes = glyphset_definition.get("language_codes", [])
     regions = glyphset_definition.get("regions")
-    use_aux = glyphset_definition.get("use_auxiliary", False)
+    # use_aux = glyphset_definition.get("use_auxiliary", False)
     historical = glyphset_definition.get("historical", False)
     population = glyphset_definition.get("population", False)
     exclude_language_codes = glyphset_definition.get("exclude_language_codes", set())
@@ -441,10 +431,7 @@ def languages_per_glyphset(glyphset_name):
                 continue
             if population > language.population:
                 continue
-            if (
-                set(language.region).intersection(set(regions))
-                and SCRIPT_NAMES[language.script] == script
-            ):
+            if set(language.region).intersection(set(regions)) and SCRIPT_NAMES[language.script] == script:
                 language_codes.append(language.id)
 
     return language_codes
@@ -453,9 +440,7 @@ def languages_per_glyphset(glyphset_name):
 def categorize_glyphs(glyph_names):
     categories = {}
 
-    unicode_sorted_glyph_names = sorted(
-        glyph_names, key=functools.cmp_to_key(sort_unicodes)
-    )
+    unicode_sorted_glyph_names = sorted(glyph_names, key=functools.cmp_to_key(sort_unicodes))
 
     for glyph_name in unicode_sorted_glyph_names:
         glyph = get_glyph(glyph_name)
@@ -486,7 +471,8 @@ def describe_glyphset(glyph_names, target="markdown", color=""):
     md = ""
     categories = categorize_glyphs(glyph_names)
     for category, characters in categories.items():
-        md += f"{Colors.BOLD if target=='console' else ''}{category}{Colors.END if target=='console' else ''} ({len(characters)} glyphs): \n"
+        md += f"{Colors.BOLD if target=='console' else ''}{category}{Colors.END if target=='console' else ''} "
+        md += f"({len(characters)} glyphs): \n"
 
         if category == "Mark, nonspacing":
             string = " ".join(map(add_dotted_circle, characters))
@@ -518,18 +504,11 @@ def compare_glyphsets(glyphsets):
     if not reference_glyphs:
         raise ValueError(f"Glyphset {reference_glyphset} is empty.")
 
-    def headline(string):
-        print(Colors.NEGATIVE)
-        print(" " * (len(string) + 2))
-        print(" " + string + " ")
-        print(" " * (len(string) + 2))
-        print(Colors.END)
-
     headline(reference_glyphset)
     print(f"Total glyphs: {len(reference_glyphs)}\n")
     print(describe_glyphset(reference_glyphs, target="console"))
 
-    for i, glyphset in enumerate(glyphsets):
+    for i, _glyphset in enumerate(glyphsets):
         if i == 0:
             continue
 
@@ -550,13 +529,15 @@ def compare_glyphsets(glyphsets):
 
         if extra:
             print(
-                f"{Colors.BOLD}{glyphsets[i]}{Colors.END} has {len(extra)} {Colors.GREEN}{Colors.BOLD}additional{Colors.END} glyphs compared to {Colors.BOLD}{glyphsets[i - 1]}{Colors.END}:\n"
+                f"{Colors.BOLD}{glyphsets[i]}{Colors.END} has {len(extra)} {Colors.GREEN}{Colors.BOLD}additional"
+                + f"{Colors.END} glyphs compared to {Colors.BOLD}{glyphsets[i - 1]}{Colors.END}:\n"
             )
             print(describe_glyphset(extra, target="console", color=Colors.GREEN))
 
         if missing:
             print(
-                f"{Colors.BOLD}{glyphsets[i]}{Colors.END} is {Colors.RED}{Colors.BOLD}missing{Colors.END} {len(missing)} glyphs compared to {Colors.BOLD}{glyphsets[i - 1]}{Colors.END}:\n"
+                f"{Colors.BOLD}{glyphsets[i]}{Colors.END} is {Colors.RED}{Colors.BOLD}missing{Colors.END} "
+                + f"{len(missing)} glyphs compared to {Colors.BOLD}{glyphsets[i - 1]}{Colors.END}:\n"
             )
             print(describe_glyphset(missing, target="console", color=Colors.RED))
 
@@ -584,9 +565,7 @@ def description_per_glyphset(glyphset_name):
     description = glyphset_definition.get("description", None)
     exclude_language_codes = glyphset_definition.get("exclude_language_codes", [])
 
-    glyphs_stub_path = os.path.join(
-        root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.glyphs"
-    )
+    glyphs_stub_path = os.path.join(root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.glyphs")
 
     warning = False
     md = ""
@@ -594,23 +573,22 @@ def description_per_glyphset(glyphset_name):
     md += f"# {glyphset_name.replace('_', ' ')}\n\n"
     if description:
         md += (
-            "> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_\n> \n> "
+            "> _Description partially salvaged from old README, so languages manually listed here (if any) may be "
+            + "outdated or irrelevant and need to be replaced by language code lists:_\n> \n> "
             + "\n> ".join(description.split("\n"))
             + "\n\n"
         )
     if regions:
-        md += f"`{glyphset_name}` is **dynamically** defined [here](/Lib/glyphsets/definitions/{glyphset_name}.yaml) as:\n\n"
+        md += f"`{glyphset_name}` is **dynamically** defined [here](/Lib/glyphsets/definitions/{glyphset_name}.yaml) "
+        md += "as:\n\n"
     else:
-        md += f"`{glyphset_name}` is **statically** defined [here](/Lib/glyphsets/definitions/{glyphset_name}.yaml) as:\n\n"
+        md += f"`{glyphset_name}` is **statically** defined [here](/Lib/glyphsets/definitions/{glyphset_name}.yaml) "
+        md += "as:\n\n"
     md += f"* Script: {script}\n"
 
     # Dynamic defintion
     if regions:
-        md += (
-            "* All languages of the countries `\n"
-            + ",\n".join(sorted(map(add_country, regions)))
-            + "\n`\n"
-        )
+        md += "* All languages of the countries `\n" + ",\n".join(sorted(map(add_country, regions))) + "\n`\n"
     if population:
         md += f"* With a population of over {population} speakers\n"
     if historical:
@@ -633,24 +611,24 @@ def description_per_glyphset(glyphset_name):
 
     # Static defintion
     elif not regions and language_codes:
-        md += (
-            "* List of languages: `\n"
-            + ",\n".join(sorted(map(add_language, language_codes)))
-            + "\n`\n"
-        )
+        md += "* List of languages: `\n" + ",\n".join(sorted(map(add_language, language_codes))) + "\n`\n"
 
     # Additional resources
     if os.path.exists(glyphs_stub_path):
-        md += f"* Characters and glyphs defined in [{os.path.basename(glyphs_stub_path)}](/data/definitions/per_glyphset/{os.path.basename(glyphs_stub_path)})\n"
+        md += f"* Characters and glyphs defined in [{os.path.basename(glyphs_stub_path)}]"
+        md += f"(/data/definitions/per_glyphset/{os.path.basename(glyphs_stub_path)})\n"
     for language_code in language_codes:
-        lang_stub_path = os.path.join(
-            root_folder, "definitions", "per_language", f"{language_code}.stub.glyphs"
-        )
+        lang_stub_path = os.path.join(root_folder, "definitions", "per_language", f"{language_code}.stub.glyphs")
         if os.path.exists(lang_stub_path):
-            md += f"* Language-specific characters and glyphs defined for [{add_language(language_code)}](/data/definitions/per_language/{os.path.basename(lang_stub_path)})\n"
+            md += "* Language-specific characters and glyphs defined for "
+            md += (
+                f"[{add_language(language_code)}](/data/definitions/per_language/{os.path.basename(lang_stub_path)})\n"
+            )
 
     if not regions and not language_codes:
-        md += f"\n> [!CAUTION]  \n> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.\n> Please add language code definions [here](/Lib/glyphsets/definitions/{glyphset_name}.yaml).\n"
+        md += "\n> [!CAUTION]  \n> Since this glyphset has no defined languages, it can't be checked via "
+        md += "Fontbakery's `shape_languages` check.\n> Please add language code definions "
+        md += f"[here](/Lib/glyphsets/definitions/{glyphset_name}.yaml).\n"
         warning = True
 
     md += "\n"
@@ -658,29 +636,32 @@ def description_per_glyphset(glyphset_name):
     if regions:
         _languages_per_glyphset = languages_per_glyphset(glyphset_name)
         md += (
-            f"\nThe following list of **{len(_languages_per_glyphset)}** languages is computed as a result of the dynamic conditions described above:\n\n`\n"
+            f"\nThe following list of **{len(_languages_per_glyphset)}** languages is computed as a result "
+            + "of the dynamic conditions described above:\n\n`\n"
             + ",\n".join(sorted(map(add_language, _languages_per_glyphset)))
             + "\n`\n\n"
         )
 
     # Content
-    md += f"### Characters and Glyphs\n\n"
+    md += "### Characters and Glyphs\n\n"
     md += str(describe_glyphset(glyphs_in_glyphset(glyphset_name)))
 
     # Composed characters
     decomposed_chars = get_decomposed_chars(glyphset_name)
     if decomposed_chars:
-        md += f"### Character Sequences\n\n"
+        md += "### Character Sequences\n\n"
         md += f"The following {len(decomposed_chars)} composed character sequences are decomposed in the font:\n\n"
         md += "`\n"
         md += " ".join(decomposed_chars)
         md += "\n`\n\n"
 
-    md += f"### Resulting Glyphset Files\n\n"
+    md += "### Resulting Glyphset Files\n\n"
     md += f".nam file (only encoded characters): [{glyphset_name}.nam](/data/results/nam/{glyphset_name}.nam)\n\n"
     md += f"Glyphs.app source file: [{glyphset_name}.glyphs](/data/results/glyphs/{glyphset_name}.glyphs)\n\n"
-    md += f"Text files: [{glyphset_name}.txt](/data/results/txt/nice-names/{glyphset_name}.txt) (nice names) and [{glyphset_name}.txt](/data/results/txt/prod-names/{glyphset_name}.txt) (production names)\n\n"
-    md += f"Glyphs.app Custom Filter List (contains all {script} glyphsets): [CustomFilter_GF_{script}.plist](/data/results/plist/CustomFilter_GF_{script}.plist)\n\n"
+    md += f"Text files: [{glyphset_name}.txt](/data/results/txt/nice-names/{glyphset_name}.txt) (nice names) and "
+    md += f"[{glyphset_name}.txt](/data/results/txt/prod-names/{glyphset_name}.txt) (production names)\n\n"
+    md += f"Glyphs.app Custom Filter List (contains all {script} glyphsets): "
+    md += f"[CustomFilter_GF_{script}.plist](/data/results/plist/CustomFilter_GF_{script}.plist)\n\n"
 
     return md, warning
 
@@ -702,37 +683,93 @@ def get_glyphsets_fulfilled(ttFont):
                 res[glyphset]["has"].append(unicode)
             else:
                 res[glyphset]["missing"].append(unicode)
-        if unicodes_in_glyphset:
-            res[glyphset]["percentage"] = len(res[glyphset]["has"]) / len(
-                unicodes_in_glyphset
-            )
+
+        if len(res[glyphset]["has"]) > 0 and len(res[glyphset]["missing"]) == 0:
+            res[glyphset]["percentage"] = 1
         else:
-            res[glyphset]["percentage"] = 0
-    return res
+
+            # Calculate the percentage supported not in total glyphs in font
+            # compared to the total glyphs in the glyphset,
+            # but shrink both to the unique set of Unicodes in the glyphset.
+            # Compare everything to Latin Core:
+            # - Subtract Latin Core from the covered Unicodes
+            # - Calculate percentage covered based on that
+
+            if glyphset == "GF_Latin_Core":
+                if unicodes_in_glyphset:
+                    has = res[glyphset]["has"]
+                    res[glyphset]["percentage"] = len(has) / len(unicodes_in_glyphset)
+                else:
+                    res[glyphset]["percentage"] = 0
+            else:
+                unicodes_unique_in_glyphset = list(
+                    set(unicodes_per_glyphset(glyphset)).difference(set(unicodes_per_glyphset("GF_Latin_Core")))
+                )
+
+                if unicodes_unique_in_glyphset:
+
+                    has = set(res[glyphset]["has"]).intersection(set(unicodes_unique_in_glyphset))
+                    res[glyphset]["percentage"] = len(has) / len(unicodes_unique_in_glyphset)
+
+                    # res[glyphset]["has_unique"] = list(has)
+                    # res[glyphset]["unique_in"] = unicodes_unique_in_glyphset
+                else:
+                    res[glyphset]["percentage"] = 0
+    return dict(sorted(res.items(), key=lambda x: x[1]["percentage"], reverse=True))
 
 
 def get_decomposed_chars(glyphset_name):
     allchars = set()
     for lang_code in languages_per_glyphset(glyphset_name):
         lang = languages[lang_code]
-        allchars.update(
-            getattr(getattr(lang, "exemplar_chars", {}), "base", "").split(" ")
-        )
+        allchars.update(getattr(getattr(lang, "exemplar_chars", {}), "base", "").split(" "))
         if get_glyphset_definition(glyphset_name).get("use_auxiliary"):
-            allchars.update(
-                getattr(getattr(lang, "exemplar_chars", {}), "auxiliary", "").split(" ")
-            )
+            allchars.update(getattr(getattr(lang, "exemplar_chars", {}), "auxiliary", "").split(" "))
     decomposed_chars = sorted(
         [
             g[1:-1]
             for g in allchars
-            if any(unicodedata.combining(c) for c in g)
-            and g.startswith("{")
-            and g.endswith("}")
+            if any(unicodedata.combining(c) for c in g) and g.startswith("{") and g.endswith("}")
         ]
     )
 
     return decomposed_chars
+
+
+def analyze_font(ttFont):
+    results = get_glyphsets_fulfilled(ttFont)
+
+    headline("Fully supported glyphsets:")
+    found = 0
+    for key in results:
+        if results[key]["percentage"] == 1:
+            found += 1
+            print(key)
+    if not found:
+        print("———")
+
+    def print_support(lower=0, upper=1, color=Colors.GREEN):
+        found = 0
+        for key in results:
+            if lower <= results[key]["percentage"] < upper:
+                found += 1
+                print(f"{Colors.BOLD}{key}{Colors.END} {color}{int(results[key]['percentage']*100)}%{Colors.END}")
+                print(f"Missing: {' '.join([chr(x) for x in results[key]['missing']])}")
+                if "unique" in results[key]:
+                    print(f"Unique: {' '.join([chr(x) for x in results[key]['unique']])}")
+                if "has_unique" in results[key]:
+                    print(f"Unique in font: {' '.join([chr(x) for x in results[key]['has_unique']])}")
+                print()
+        if not found:
+            print("———")
+
+    print()
+    headline("Partially supported glyphsets (>80%) (these will also be part of Fontbakery's shape_languages check):")
+    print_support(0.8, 1)
+
+    print()
+    headline("Unsupported glyphsets (<80%):")
+    print_support(0, 0.8, color=Colors.RED)
 
 
 if __name__ == "__main__":

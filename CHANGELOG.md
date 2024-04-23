@@ -1,9 +1,15 @@
 Below are the most important changes from each release.
 
-### v0.6.20 (2024-?)
+### v0.6.21 (2024-?)
 #### Changes since last release
 
 - ?
+
+### v0.6.20 (2024-4-23)
+#### Changes since last release
+
+- Added `language_code` definition for **GF_Latin_PriAfrican** to allow shaping tests
+- Reworked glyphset coverage calculation in `get_glyphsets_fulfilled()`; now based on characters per glyphset that are unique when compared to **GF_Latin_Core**.
 
 ### v0.6.19 (2024-4-17)
 #### Changes since last release

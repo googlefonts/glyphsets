@@ -1,6 +1,3 @@
-from typing import Any
-
-
 class Colors:
     """ANSI color codes"""
 
@@ -39,3 +36,11 @@ class Colors:
             kernel32 = __import__("ctypes").windll.kernel32
             kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
             del kernel32
+
+
+def headline(string):
+    print(Colors.NEGATIVE)
+    print(" " * (len(string) + 2))
+    print(" " + string + " ")
+    print(" " * (len(string) + 2))
+    print(Colors.END)
