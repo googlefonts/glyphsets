@@ -739,23 +739,32 @@ def get_decomposed_chars(glyphset_name):
 def analyze_font(ttFont):
     results = get_glyphsets_fulfilled(ttFont)
 
-    def print_support(lower=0, upper=1, color=Colors.GREEN):
+    def print_support(lower=0, upper=1):
+
+        if lower >= 0.8:
+            print(
+                f"{Colors.BROWN}These glyphsets will implicitly be part of Fontbakery's shape_languages check if languages are defined for them."
+            )
+            print(f"See https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md for details.{Colors.END}")
+            print()
+
         found = 0
         for key in results:
             if (lower < upper and lower <= results[key]["percentage"] < upper) or (
                 lower == upper and results[key]["percentage"] == lower
             ):
+
+                color = color = Colors.RED if results[key]["percentage"] < 0.8 else Colors.GREEN
+
                 found += 1
                 print(f"{Colors.BOLD}{key}{Colors.END} {color}{int(results[key]['percentage']*100)}%{Colors.END}")
-                # if not languages_per_glyphset(key):
-                #     print("No languages defined")
                 if results[key]["missing"]:
                     print(f"Missing: {' '.join([chr(x) for x in results[key]['missing']])}")
                     if "unique" in results[key]:
                         print(f"Unique: {' '.join([chr(x) for x in results[key]['unique']])}")
                     if "has_unique" in results[key]:
                         print(f"Unique in font: {' '.join([chr(x) for x in results[key]['has_unique']])}")
-                print()
+                    print()
         if not found:
             print("———")
 
@@ -763,12 +772,12 @@ def analyze_font(ttFont):
     print_support(1, 1)
 
     print()
-    headline("Partially supported glyphsets (>80%) (these will also be part of Fontbakery's shape_languages check):")
+    headline("Partially supported glyphsets (>80%):")
     print_support(0.8, 1)
 
     print()
     headline("Unsupported glyphsets (<80%):")
-    print_support(0, 0.8, color=Colors.RED)
+    print_support(0, 0.8)
 
 
 if __name__ == "__main__":
