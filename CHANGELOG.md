@@ -22,6 +22,8 @@ This generally worked, but created unwelcome overlaps as soon as glyphsets were 
 
 The _new_ calculation is based solely on **additional characters when compared to GF_Latin_Core**. Similar to the `compare` command, additional characters are calculated in a first step (`Ŋ ŋ Ɓ Ɔ Ɗ Ɛ Ƙ ƙ Ɲ Ƴ ƴ Ǹ ǹ ɓ ɔ ɗ ɛ ɲ Ḿ ḿ Ṅ ṅ Ṣ ṣ Ẹ ẹ Ị ị Ọ ọ Ụ ụ` for **GF_Latin_PriAfrican** vs **GF_Latin_Core**), and then it is calculated how many of _those_ characters a font supports, which is a significantly more accurate calculation.
 
+Since `get_glyphsets_fulfilled()` is hosted here inside `glyphsets`, no changes to external implementations are required as the API didn't change, only the calculation of the percentage. Fontbakery still uses 80% as the threshold, but now based on a more accurate calculation.
+
 ### v0.6.19 (2024-4-17)
 #### Changes since last release
 
