@@ -5,12 +5,22 @@ Below are the most important changes from each release.
 
 - ?
 
-### v0.6.20 (2024-4-23)
+### v0.6.20 (2024-4-24)
 #### Changes since last release
 
 - Added `language_code` definition for **GF_Latin_PriAfrican** to allow shaping tests
-- Reworked glyphset coverage calculation in `get_glyphsets_fulfilled()`; now based on characters per glyphset that are unique when compared to **GF_Latin_Core**.
-- Added **coverage** CLI command that prints a font's glyphset coverages
+- Added `glyphsets coverage` CLI command that prints a font's glyphset coverages
+- Reworked glyphset coverage calculation in `get_glyphsets_fulfilled()`; now based on characters per glyphset that are unique **when compared to GF_Latin_Core**.
+
+**Coverage Calculation Changes in Detail:**
+
+_Previously_, the coverage percentage as returned by `get_glyphsets_fulfilled()` would calculate all the font’s characters as a percentage of a glyphset’s total characters. Fontbakery (among others) would then treat a glyphset as covered as soon as 80% of characters are present.
+
+This generally worked, but created unwelcome overlaps as soon as glyphsets were too similar to each other. The newly redefined **GF_Latin_PriAfrican** glyphset, for example, has only 34 additional characters compared to **GF_Latin_Core**, as revealed by the command `glyphsets compare GF_Latin_Core GF_Latin_PriAfrican`.
+
+**GF_Latin_Core** on the other hand currently has 324 glyphs, and so a font that covers **GF_Latin_Core** also covers 90% of **GF_Latin_PriAfrican** and would therefore be counted as supporting **GF_Latin_PriAfrican** _by accident_, without _actually_ supporting it, resulting in loads of unwelcome reports by Fontbakery’s `shape_languages` check.
+
+The _new_ calculation is based solely on **additional characters when compared to GF_Latin_Core**. Similar to the `compare` command, additional characters are calculated in a first step (`Ŋ ŋ Ɓ Ɔ Ɗ Ɛ Ƙ ƙ Ɲ Ƴ ƴ Ǹ ǹ ɓ ɔ ɗ ɛ ɲ Ḿ ḿ Ṅ ṅ Ṣ ṣ Ẹ ẹ Ị ị Ọ ọ Ụ ụ` for **GF_Latin_PriAfrican** vs **GF_Latin_Core**), and then it is calculated how many of _those_ characters a font supports, which is a significantly more accurate calculation.
 
 ### v0.6.19 (2024-4-17)
 #### Changes since last release
