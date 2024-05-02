@@ -43,7 +43,7 @@ jobs:
         run: |
           git clone https://github.com/googlefonts/gftools.git
           cd gftools
-          pip install .[all]
+          pip install .
           cd ..
           pip install .[dev]
           pip freeze
