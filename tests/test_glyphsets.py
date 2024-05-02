@@ -18,13 +18,11 @@ def test_definitions():
     assert len(unicodes_per_glyphset("GF_Latin_Core")) == 319
 
     assert len(languages_per_glyphset("GF_Arabic_Plus")) == 5
-    assert len(languages_per_glyphset("GF_Latin_African")) == 598
+    assert len(languages_per_glyphset("GF_Latin_African")) == 601
 
     # accidental double definitions
     for code in defined_glyphsets():
-        assert len(languages_per_glyphset(code)) == len(
-            set(languages_per_glyphset(code))
-        )
+        assert len(languages_per_glyphset(code)) == len(set(languages_per_glyphset(code)))
     assert len(defined_glyphsets()) == len(set(defined_glyphsets()))
 
     assert "GF_Latin_Core" in defined_glyphsets()
@@ -42,9 +40,7 @@ def test_compare():
 
 
 def test_filter_lists():
-    build_glyphsapp_filter_list(
-        ["GF_Latin_Kernel", "GF_Latin_Core", "GF_Latin_Plus"], "test.plist", False
-    )
+    build_glyphsapp_filter_list(["GF_Latin_Kernel", "GF_Latin_Core", "GF_Latin_Plus"], "test.plist", False)
     assert os.path.exists("CustomFiltertest.plist")
     test = plistlib.load(open("CustomFiltertest.plist", "rb"))
     assert len(test) == 3
