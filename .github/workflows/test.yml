@@ -39,3 +39,13 @@ jobs:
           pip freeze
           cd fontbakery
           pytest
+      - name: Run gftools tests
+        run: |
+          git clone https://github.com/fonttools/gftools.git
+          cd gftools
+          pip install .[all]
+          cd ..
+          pip install .[dev]
+          pip freeze
+          cd gftools
+          pytest
