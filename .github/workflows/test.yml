@@ -41,7 +41,7 @@ jobs:
           pytest
       - name: Run gftools tests
         run: |
-          git clone https://github.com/fonttools/gftools.git
+          git clone https://github.com/googlefonts/gftools.git
           cd gftools
           pip install .[all]
           cd ..
