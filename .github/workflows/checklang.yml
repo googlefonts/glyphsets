@@ -26,4 +26,4 @@ jobs:
         pip freeze
         sh build.sh
         cd ..
-        diff -r glyphsets/data/results glyphsets2/data/results || export DIFF=$(diff -r glyphsets/data/results glyphsets2/data/results); BODY="Changes in gflanguages lead to the following glyphset definition changes:\n\n\n"; BODY+='```'; BODY+="\n$DIFF\n"; BODY+='```'; BODY+="\n"; echo $BODY > BODY; gh issue create --title "Changes in gflanguages data" -F BODY --label "dependencies"
+        diff -r glyphsets/data/results glyphsets2/data/results || export DIFF=$(diff -r glyphsets/data/results glyphsets2/data/results); BODY="Changes in gflanguages lead to the following glyphset definition changes:\n\n\n$DIFF\n"; echo $BODY > BODY; gh issue create --title "Changes in gflanguages data" --body-file BODY --label "dependencies"
