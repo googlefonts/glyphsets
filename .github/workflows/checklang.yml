@@ -17,6 +17,8 @@ jobs:
     - name: Install GH CLI
       uses: dev-hanz-ops/install-gh-cli-action@v0.2.0
     - name: Run Script
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         cd ..
         cp -r glyphsets glyphsets2
@@ -25,4 +27,4 @@ jobs:
         pip install -U git+https://github.com/googlefonts/lang
         pip freeze
         cd ..
-        diff -r glyphsets glyphsets2 || gh issue create --title "I found a bug" --body "Nothing works" || echo "no changes to data"
+        diff -r glyphsets/data glyphsets2/data || gh issue create --title "Changes in lang data" --body "Changes in gflanguages lead to updated glyphset definitions" --label "gflanguages"
