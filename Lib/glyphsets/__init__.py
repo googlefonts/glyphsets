@@ -742,7 +742,10 @@ def analyze_font(ttFont):
 
         if lower >= 0.8:
             print(
-                f"{Colors.BROWN}These glyphsets will {Colors.ITALIC}implicitly{Colors.END}{Colors.BROWN} be part of Fontbakery's {Colors.ITALIC}shape_languages{Colors.END}{Colors.BROWN} check:{Colors.END}"
+                (
+                    f"{Colors.BROWN}These glyphsets will {Colors.ITALIC}implicitly{Colors.END}{Colors.BROWN} be part "
+                    f"of Fontbakery's {Colors.ITALIC}shape_languages{Colors.END}{Colors.BROWN} check:{Colors.END}"
+                )
             )
             print()
 
@@ -760,9 +763,15 @@ def analyze_font(ttFont):
                 if lower >= 0.8:
                     languages = languages_per_glyphset(key)
                     if not languages:
-                        not_covered = f"{Colors.BROWN}(Not part of {Colors.ITALIC}shape_languages{Colors.END}{Colors.BROWN} because of missing language definitions){Colors.END}"
+                        not_covered = (
+                            f"{Colors.BROWN}(Not part of {Colors.ITALIC}shape_languages{Colors.END}"
+                            f"{Colors.BROWN} because of missing language definitions){Colors.END}"
+                        )
                 print(
-                    f"{Colors.BOLD}{key}{Colors.END} {color}{int(results[key]['percentage']*100)}%{Colors.END} {not_covered}"
+                    (
+                        f"{Colors.BOLD}{key}{Colors.END} {color}{int(results[key]['percentage']*100)}%"
+                        f"{Colors.END} {not_covered}"
+                    )
                 )
                 if results[key]["missing"]:
                     print(f"Missing: {' '.join([chr(x) for x in results[key]['missing']])}")
