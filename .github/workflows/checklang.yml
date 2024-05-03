@@ -1,0 +1,29 @@
+name: Check for changes in gflanguages
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+    - name: Install GH CLI
+      uses: dev-hanz-ops/install-gh-cli-action@v0.2.0
+    - name: Run Script
+      run: |
+        cd ..
+        cp -r glyphsets glyphsets2
+        cd glyphsets2
+        pip install .
+        pip install -U git+https://github.com/googlefonts/lang
+        pip freeze
+        cd ..
+        diff -r glyphsets glyphsets2
+        if [ $?==1 ]; then gh issue create --title "I found a bug" --body "Nothing works"; else echo "done"; fi
