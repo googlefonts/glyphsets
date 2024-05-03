@@ -50,6 +50,8 @@ jobs:
           cd gftools
           pytest tests -k 'not test_servers and not test_gfgithub'
       - name: Run diffenator2 tests
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git clone https://github.com/googlefonts/diffenator2.git
           cd diffenator2
