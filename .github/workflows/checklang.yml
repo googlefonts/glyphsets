@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 0 * * *'
   repository_dispatch:
-    types: [tests]
+    types: [run-script]
 
 jobs:
   run-script:
