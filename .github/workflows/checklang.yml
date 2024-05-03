@@ -1,9 +1,6 @@
 name: Check for changes in gflanguages
 
-on:
-  repository_dispatch:
-    types:
-      - test
+on: repository_dispatch
  
 jobs:
   run-script:
