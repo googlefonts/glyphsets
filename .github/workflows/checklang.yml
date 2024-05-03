@@ -3,7 +3,8 @@ name: Check for changes in gflanguages
 on:
   schedule:
     - cron: '0 0 * * *'
-  repository_dispatch
+  repository_dispatch:
+    types: [tests]
 
 jobs:
   run-script:
