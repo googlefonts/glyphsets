@@ -48,4 +48,4 @@ jobs:
           pip install '.[dev]'
           pip freeze
           cd gftools
-          pytest tests -k 'not test_servers'
+          pytest tests -k 'not test_servers and not test_gfgithub'
