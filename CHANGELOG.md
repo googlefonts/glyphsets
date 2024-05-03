@@ -1,9 +1,15 @@
 Below are the most important changes from each release.
 
-### v0.6.21 (2024-?)
+### v1.?.0 (2024-?)
 #### Changes since last release
 
 - ?
+
+### v1.0.0 (2024-05-03)
+#### Changes since last release
+
+- Removed all remaining old code after diffenator2 got refactored
+- Pulled in 3 additional African language definitions from `gflanguages v0.6.0`. **GF_Latin_African** glyphset didn’t change as a result of that, only its "Character Sequences" definitions increased from 722 to 746 (commit [8b93034](https://github.com/googlefonts/glyphsets/commit/8b930342005868b6d192c789aef154d715bcf0c0)).
 
 ### v0.6.20 (2024-4-24)
 #### Changes since last release
