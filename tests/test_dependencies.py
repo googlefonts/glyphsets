@@ -1,4 +1,3 @@
-import subprocess
 import os
 import re
 import requests
@@ -18,9 +17,7 @@ def get_setup_py_version(package_name):
 
 
 def get_latest_version(package_name):
-    return json.loads(requests.get(f"https://pypi.org/pypi/{package_name}/json").text)[
-        "info"
-    ]["version"]
+    return json.loads(requests.get(f"https://pypi.org/pypi/{package_name}/json").text)["info"]["version"]
 
 
 def check_version(package_name):
@@ -29,11 +26,3 @@ def check_version(package_name):
     assert (
         setup_py_version == latest_version
     ), f"{package_name} version in setup.py is not the latest version on PyPI ({latest_version})"
-
-
-# def test_dependencies():
-#     check_version("gflanguages")
-
-
-if __name__ == "__main__":
-    test_dependencies()
