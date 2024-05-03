@@ -1,7 +1,9 @@
 name: Check for changes in gflanguages
 
-on: repository_dispatch
- 
+on:
+  push:
+    paths:
+      - '**.yml' 
 jobs:
   run-script:
     runs-on: ubuntu-latest
