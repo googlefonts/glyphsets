@@ -24,8 +24,8 @@ jobs:
         cp -r glyphsets glyphsets2
         cd glyphsets2
         pip install .
-        pip install -U git+https://github.com/googlefonts/lang
+        pip install -U git+https://github.com/yanone/lang
         pip freeze
         sh build.sh
         cd ..
-        diff -r glyphsets/data glyphsets2/data || gh issue create --title "Changes in lang data" --body "Changes in gflanguages lead to updated glyphset definitions" --label "gflanguages"
+        diff -r glyphsets/data/results glyphsets2/data/results || gh issue create --title "Changes in gflanguages data" --body "Changes in gflanguages lead to the following glyphset definition changes:\n\n```\n$(diff -r glyphsets/data/results glyphsets2/data/results)\n```" --label "gflanguages"
