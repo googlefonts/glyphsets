@@ -182,3 +182,13 @@ Thomas Jockin,
 Thomas Phinney
 (Adobe Cyrillic lists), and
 Underware (Latin Plus Encoding)
+
+
+Housekeeping
+============
+
+Since v1.0.0, use these rules for **version updates** in line with semver:
+
+- Major versions for API changes (v**1**.0.0)
+- Minor versions for language data changes (v1.**1**.0)
+- Patch version for non-breaking miniscule code or language data fixes (v1.1.**1**)
