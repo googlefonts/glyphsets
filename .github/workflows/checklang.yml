@@ -25,5 +25,4 @@ jobs:
         pip install -U git+https://github.com/googlefonts/lang
         pip freeze
         cd ..
-        diff -r glyphsets glyphsets2
-        if [ $?==1 ]; then gh issue create --title "I found a bug" --body "Nothing works"; else echo "done"; fi
+        diff -r glyphsets glyphsets2 || gh issue create --title "I found a bug" --body "Nothing works" || echo "no changes to data"
