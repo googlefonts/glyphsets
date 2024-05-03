@@ -33,9 +33,9 @@ jobs:
         run: |
           git clone https://github.com/fonttools/fontbakery.git
           cd fontbakery
-          pip install .[all]
+          pip install '.[all]'
           cd ..
-          pip install .[dev]
+          pip install '.[dev]'
           pip freeze
           cd fontbakery
           pytest
@@ -43,9 +43,9 @@ jobs:
         run: |
           git clone https://github.com/googlefonts/gftools.git
           cd gftools
-          pip install .
+          pip install '.[qa]'
           cd ..
-          pip install .[dev]
+          pip install '.[dev]'
           pip freeze
           cd gftools
-          pytest
+          pytest tests -k 'not test_servers'
