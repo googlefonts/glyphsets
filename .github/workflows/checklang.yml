@@ -1,9 +1,12 @@
 name: Check for changes in gflanguages
 
 on:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '0 0 * * *'
+  push:
+    paths:
+      - '**.yml'   
+  # schedule:
+  #   # * is a special character in YAML so you have to quote this string
+  #   - cron:  '0 0 * * *'
 
 jobs:
   diff:
@@ -23,9 +26,9 @@ jobs:
         cp -r glyphsets glyphsets2
         cd glyphsets2
         pip install .
-        pip install -U git+https://github.com/googlefonts/lang
+        pip install -U git+https://github.com/yanone/lang
         pip freeze
         sh build.sh
         cd ..
         cd glyphsets
-        diff -r data/results ../glyphsets2/data/results || echo -e "Changes in gflanguages lead to the following glyphset definition changes:\n\n" > BODY; echo -e '```diff' >> BODY; echo -e "`diff -r data/results ../glyphsets2/data/results`" >> BODY; echo -e '```' >> BODY; cat BODY; gh issue create --title "Changes in gflanguages data" --body-file BODY --label "dependencies"
+        diff -r data/results ../glyphsets2/data/results && diff GLYPHSETS.md ../glyphsets2/GLYPHSETS.md || echo -e "Recent data changes in **gflanguages** lead to the following glyphset definition changes:\n\n" > BODY; echo -e '```diff' >> BODY; echo -e "`diff -r data/results ../glyphsets2/data/results && diff GLYPHSETS.md ../glyphsets2/GLYPHSETS.md`" >> BODY; echo -e '```' >> BODY; cat BODY; gh issue create --title "Changes in gflanguages data" --body-file BODY --label "dependencies"
