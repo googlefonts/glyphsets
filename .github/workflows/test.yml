@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
-        platform: [ubuntu-latest, windows-latest]
+        platform: [ubuntu-latest, windows-latest, macos-latest]
     steps:
       - uses: actions/checkout@v4
         with:
@@ -49,3 +49,13 @@ jobs:
           pip freeze
           cd gftools
           pytest tests -k 'not test_servers and not test_gfgithub'
+      - name: Run diffenator2 tests
+        run: |
+          git clone https://github.com/googlefonts/diffenator2.git
+          cd diffenator2
+          pip install .
+          cd ..
+          pip install '.[dev]'
+          pip freeze
+          cd diffenator2
+          pytest tests
