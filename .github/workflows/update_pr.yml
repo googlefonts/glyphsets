@@ -33,9 +33,6 @@ jobs:
         # Optional. Commit message for the created commit.
         # Defaults to "Apply automatic changes"
         commit_message: Update glyphset data
-        # Optional. Options used by `git-commit`.
-        # See https://git-scm.com/docs/git-commit#_options
-        commit_options: ''
 
 # jobs:
 #   diff:
