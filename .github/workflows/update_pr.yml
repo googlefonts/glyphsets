@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  format-code:
+  update-data:
     runs-on: ubuntu-latest
 
     permissions:
