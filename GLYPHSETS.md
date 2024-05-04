@@ -727,13 +727,12 @@ Zimbabwe (ZW)
 * Excluding the following languages: `
 English (en_Latn),
 French (fr_Latn),
-German (de_Latn),
 Portuguese (pt_Latn),
 Spanish (es_Latn)
 `
 
 
-The following list of **601** languages is computed as a result of the dynamic conditions described above:
+The following list of **602** languages is computed as a result of the dynamic conditions described above:
 
 `
 Abidji (abi_Latn),
@@ -913,6 +912,7 @@ Gbe, Tofin (tfi_Latn),
 Gbe, Waci (wci_Latn),
 Gbe, Xwela (xwe_Latn),
 Gen (gej_Latn),
+German (de_Latn),
 Ghomala (bbj_Latn),
 Gikyode (acd_Latn),
 Godié (god_Latn),
@@ -1341,8 +1341,8 @@ ut-Ma’in (gel_Latn)
 
 ### Characters and Glyphs
 
-Letter (438 glyphs): 
-`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ª º À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ó ô õ ö ø ù ú û ü ý ÿ Ā ā Ă ă Ą ą Ĉ ĉ Č č Đ đ Ē ē Ė ė Ę ę Ě ě Ĥ ĥ Ħ ħ Ĩ ĩ Ī ī Į į Ĺ ĺ Ń ń Ň ň Ŋ ŋ Ō ō Ő ő Œ œ Ŕ ŕ Ŗ ŗ Ř ř Ś ś Ŝ ŝ Ş ş Š š Ţ ţ Ŧ ŧ Ũ ũ Ū ū Ű ű Ų ų Ŵ ŵ Ŷ ŷ Ÿ Ż ż Ž ž Ɓ Ƃ ƃ Ɔ Ƈ ƈ Ɖ Ɗ Ǝ Ə Ɛ Ƒ Ɠ Ɣ Ɩ Ɨ Ƙ ƙ Ɯ Ɲ Ɵ Ƥ ƥ Ʃ Ƭ ƭ Ʈ Ʊ Ʋ Ƴ ƴ Ʒ Ƹ ƹ ǀ ǁ ǂ ǃ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǘ ǘ ǝ Ǣ ǣ Ǧ ǧ Ǫ ǫ ǰ Ǹ ǹ Ǽ ǽ Ǿ ǿ Ȁ ȁ Ȅ ȅ Ȉ ȉ Ȍ ȍ Ȓ ȓ Ȕ ȕ Ȧ ȧ Ȩ ȩ Ȳ ȳ Ɂ ɂ Ʉ Ʌ Ɉ ɉ Ɍ ɍ ɐ ɑ ɓ ɔ ɖ ɗ ə ɛ ɠ ɣ ɤ ɥ ɦ ɨ ɩ ɪ ɯ ɲ ɵ ɽ ʃ ʈ ʉ ʊ ʋ ʌ ʒ ʔ ʘ ʝ ʷ ᵃ ᵉ ᵋ ᵒ ᵓ ᵘ ᵽ ᶤ ᶶ Ḅ ḅ Ḇ ḇ Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḓ ḓ Ḕ ḕ Ḛ ḛ Ḣ ḣ Ḥ ḥ Ḭ ḭ Ḯ ḯ Ḳ ḳ Ḵ ḵ Ḷ ḷ Ḽ ḽ Ḿ ḿ Ṃ ṃ Ṅ ṅ Ṇ ṇ Ṉ ṉ Ṋ ṋ Ṍ ṍ Ṕ ṕ Ṛ ṛ Ṡ ṡ Ṣ ṣ Ṫ ṫ Ṭ ṭ Ṯ ṯ Ṱ ṱ Ṳ ṳ Ṵ ṵ Ṹ ṹ Ṽ ṽ Ṿ ṿ Ẅ ẅ Ẋ ẋ Ẓ ẓ ẖ Ạ ạ Ậ ậ Ẹ ẹ Ẽ ẽ Ệ ệ Ị ị Ọ ọ Ộ ộ Ụ ụ Ỳ ỳ Ỹ ỹ ⁱ Ᵽ Ɽ Ɑ Ɐ Ⱳ ⱳ Ꞌ ꞌ Ɥ Ɦ Ʝ Ꞵ ꞵ Ꞷ ꞷ /uniA7AE /uniA7C7 /uniA7C8`
+Letter (453 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ª º À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý ß à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ó ô õ ö ø ù ú û ü ý ÿ Ā ā Ă ă Ą ą Ĉ ĉ Č č Đ đ Ē ē Ĕ ĕ Ė ė Ę ę Ě ě Ğ ğ Ĥ ĥ Ħ ħ Ĩ ĩ Ī ī Ĭ ĭ Į į İ ı Ĺ ĺ Ń ń Ň ň Ŋ ŋ Ō ō Ŏ ŏ Ő ő Œ œ Ŕ ŕ Ŗ ŗ Ř ř Ś ś Ŝ ŝ Ş ş Š š Ţ ţ Ŧ ŧ Ũ ũ Ū ū Ŭ ŭ Ű ű Ų ų Ŵ ŵ Ŷ ŷ Ÿ Ż ż Ž ž ſ Ɓ Ƃ ƃ Ɔ Ƈ ƈ Ɖ Ɗ Ǝ Ə Ɛ Ƒ Ɠ Ɣ Ɩ Ɨ Ƙ ƙ Ɯ Ɲ Ɵ Ƥ ƥ Ʃ Ƭ ƭ Ʈ Ʊ Ʋ Ƴ ƴ Ʒ Ƹ ƹ ǀ ǁ ǂ ǃ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǘ ǘ ǝ Ǣ ǣ Ǧ ǧ Ǫ ǫ ǰ Ǹ ǹ Ǽ ǽ Ǿ ǿ Ȁ ȁ Ȅ ȅ Ȉ ȉ Ȍ ȍ Ȓ ȓ Ȕ ȕ Ȧ ȧ Ȩ ȩ Ȳ ȳ Ɂ ɂ Ʉ Ʌ Ɉ ɉ Ɍ ɍ ɐ ɑ ɓ ɔ ɖ ɗ ə ɛ ɠ ɣ ɤ ɥ ɦ ɨ ɩ ɪ ɯ ɲ ɵ ɽ ʃ ʈ ʉ ʊ ʋ ʌ ʒ ʔ ʘ ʝ ʷ ᵃ ᵉ ᵋ ᵒ ᵓ ᵘ ᵽ ᶤ ᶶ Ḅ ḅ Ḇ ḇ Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḓ ḓ Ḕ ḕ Ḛ ḛ Ḣ ḣ Ḥ ḥ Ḭ ḭ Ḯ ḯ Ḳ ḳ Ḵ ḵ Ḷ ḷ Ḽ ḽ Ḿ ḿ Ṃ ṃ Ṅ ṅ Ṇ ṇ Ṉ ṉ Ṋ ṋ Ṍ ṍ Ṕ ṕ Ṛ ṛ Ṡ ṡ Ṣ ṣ Ṫ ṫ Ṭ ṭ Ṯ ṯ Ṱ ṱ Ṳ ṳ Ṵ ṵ Ṹ ṹ Ṽ ṽ Ṿ ṿ Ẅ ẅ Ẋ ẋ Ẓ ẓ ẖ ẞ Ạ ạ Ậ ậ Ẹ ẹ Ẽ ẽ Ệ ệ Ị ị Ọ ọ Ộ ộ Ụ ụ Ỳ ỳ Ỹ ỹ ⁱ Ᵽ Ɽ Ɑ Ɐ Ⱳ ⱳ Ꞌ ꞌ Ɥ Ɦ Ʝ Ꞵ ꞵ Ꞷ ꞷ /uniA7AE /uniA7C7 /uniA7C8`
 
 Mark, nonspacing (28 glyphs): 
 `◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̊ ◌̋ ◌̌ ◌̍ ◌̏ ◌̑ ◌̣ ◌̤ ◌̥ ◌̧ ◌̨ ◌̭ ◌̯ ◌̰ ◌̱ ◌͟ ◌᷄ ◌᷅ ◌᷆ ◌᷇`
@@ -1353,8 +1353,8 @@ Mark, spacing (4 glyphs):
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
 
-Punctuation (27 glyphs): 
-`! " # ' ( ) * , - . / : ; ? [ ] « » – — ‘ ’ “ ” … ‹ ›`
+Punctuation (29 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ ] « » – — ‘ ’ ‚ “ ” „ … ‹ ›`
 
 Symbol (12 glyphs): 
 `% & + @ ƒ ˗ ˮ Ⓐ ⓐ ꞉ ꞊ /uniA7CB`
