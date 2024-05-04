@@ -29,6 +29,13 @@ jobs:
         sh build.sh
     # Commit all changed files back to the repository
     - uses: stefanzweifel/git-auto-commit-action@v5
+    with:
+      # Optional. Commit message for the created commit.
+      # Defaults to "Apply automatic changes"
+      commit_message: Updating glyphset data
+      # Optional. Options used by `git-commit`.
+      # See https://git-scm.com/docs/git-commit#_options
+      commit_options: ''
 
 # jobs:
 #   diff:
