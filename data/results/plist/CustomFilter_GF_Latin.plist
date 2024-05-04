@@ -60,7 +60,6 @@
 			<string>Y</string>
 			<string>Z</string>
 			<string>bracketleft</string>
-			<string>backslash</string>
 			<string>bracketright</string>
 			<string>a</string>
 			<string>b</string>
@@ -88,12 +87,10 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>exclamdown</string>
 			<string>ordfeminine</string>
 			<string>guillemetleft</string>
 			<string>ordmasculine</string>
 			<string>guillemetright</string>
-			<string>questiondown</string>
 			<string>Agrave</string>
 			<string>Aacute</string>
 			<string>Acircumflex</string>

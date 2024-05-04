@@ -54,7 +54,6 @@ X
 Y
 Z
 bracketleft
-backslash
 bracketright
 a
 b
@@ -82,12 +81,10 @@ w
 x
 y
 z
-exclamdown
 ordfeminine
 guillemotleft
 ordmasculine
 guillemotright
-questiondown
 Agrave
 Aacute
 Acircumflex

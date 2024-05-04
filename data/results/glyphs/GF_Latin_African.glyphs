@@ -157,16 +157,8 @@ glyphname = bracketleft;
 unicode = 91;
 },
 {
-glyphname = backslash;
-unicode = 92;
-},
-{
 glyphname = bracketright;
 unicode = 93;
-},
-{
-glyphname = exclamdown;
-unicode = 161;
 },
 {
 glyphname = guillemetleft;
@@ -175,10 +167,6 @@ unicode = 171;
 {
 glyphname = guillemetright;
 unicode = 187;
-},
-{
-glyphname = questiondown;
-unicode = 191;
 },
 {
 glyphname = endash;
