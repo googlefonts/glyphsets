@@ -1,8 +1,6 @@
 name: Update glyphset data
 
 on:
-  # push:
-  #   branches: [main]
   pull_request:
     branches: [main]
 
@@ -19,6 +17,7 @@ jobs:
     - uses: actions/checkout@v4
       with:
         ref: ${{ github.head_ref }}
+        token: ${{ secrets.PAT }}
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
@@ -33,28 +32,3 @@ jobs:
         # Optional. Commit message for the created commit.
         # Defaults to "Apply automatic changes"
         commit_message: Update glyphset data
-
-# jobs:
-#   diff:
-#     runs-on: ubuntu-latest
-#     steps:
-#     - name: Checkout
-#       uses: actions/checkout@v4
-#     - name: Set up Python
-#       uses: actions/setup-python@v5
-#       with:
-#         python-version: "3.11"
-#     - name: Run Script
-#       env:
-#         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#       run: |
-#         cd ..
-#         cp -r glyphsets glyphsets2
-#         cd glyphsets2
-#         pip install .
-#         pip install -U git+https://github.com/googlefonts/lang
-#         pip freeze
-#         sh build.sh
-#         cd ..
-#         cd glyphsets
-#         diff -r data/results ../glyphsets2/data/results || echo -e "Recent data changes in **gflanguages** lead to the following glyphset definition changes:\n\n" > BODY; echo -e '```diff' >> BODY; echo -e "`diff -r data/results ../glyphsets2/data/results`" >> BODY; echo -e '```' >> BODY; cat BODY; gh issue create --title "Changes in gflanguages data" --body-file BODY --label "dependencies"
