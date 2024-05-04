@@ -119,6 +119,7 @@
 			<string>Ucircumflex</string>
 			<string>Udieresis</string>
 			<string>Yacute</string>
+			<string>germandbls</string>
 			<string>agrave</string>
 			<string>aacute</string>
 			<string>acircumflex</string>
@@ -162,12 +163,16 @@
 			<string>dcroat</string>
 			<string>Emacron</string>
 			<string>emacron</string>
+			<string>Ebreve</string>
+			<string>ebreve</string>
 			<string>Edotaccent</string>
 			<string>edotaccent</string>
 			<string>Eogonek</string>
 			<string>eogonek</string>
 			<string>Ecaron</string>
 			<string>ecaron</string>
+			<string>Gbreve</string>
+			<string>gbreve</string>
 			<string>Hcircumflex</string>
 			<string>hcircumflex</string>
 			<string>Hbar</string>
@@ -176,8 +181,12 @@
 			<string>itilde</string>
 			<string>Imacron</string>
 			<string>imacron</string>
+			<string>Ibreve</string>
+			<string>ibreve</string>
 			<string>Iogonek</string>
 			<string>iogonek</string>
+			<string>Idotaccent</string>
+			<string>idotless</string>
 			<string>Lacute</string>
 			<string>lacute</string>
 			<string>Nacute</string>
@@ -188,6 +197,8 @@
 			<string>eng</string>
 			<string>Omacron</string>
 			<string>omacron</string>
+			<string>Obreve</string>
+			<string>obreve</string>
 			<string>Ohungarumlaut</string>
 			<string>ohungarumlaut</string>
 			<string>OE</string>
@@ -214,6 +225,8 @@
 			<string>utilde</string>
 			<string>Umacron</string>
 			<string>umacron</string>
+			<string>Ubreve</string>
+			<string>ubreve</string>
 			<string>Uhungarumlaut</string>
 			<string>uhungarumlaut</string>
 			<string>Uogonek</string>
@@ -227,6 +240,7 @@
 			<string>zdotaccent</string>
 			<string>Zcaron</string>
 			<string>zcaron</string>
+			<string>longs</string>
 			<string>Bhook</string>
 			<string>Btopbar</string>
 			<string>btopbar</string>
@@ -469,6 +483,7 @@
 			<string>Zdotbelow</string>
 			<string>zdotbelow</string>
 			<string>hmacronbelow</string>
+			<string>Germandbls</string>
 			<string>Adotbelow</string>
 			<string>adotbelow</string>
 			<string>Acircumflexdotbelow</string>
@@ -495,8 +510,10 @@
 			<string>emdash</string>
 			<string>quoteleft</string>
 			<string>quoteright</string>
+			<string>quotesinglbase</string>
 			<string>quotedblleft</string>
 			<string>quotedblright</string>
+			<string>quotedblbase</string>
 			<string>ellipsis</string>
 			<string>guilsinglleft</string>
 			<string>guilsinglright</string>

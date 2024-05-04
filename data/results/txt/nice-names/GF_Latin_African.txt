@@ -113,6 +113,7 @@ Uacute
 Ucircumflex
 Udieresis
 Yacute
+germandbls
 agrave
 aacute
 acircumflex
@@ -156,12 +157,16 @@ Dcroat
 dcroat
 Emacron
 emacron
+Ebreve
+ebreve
 Edotaccent
 edotaccent
 Eogonek
 eogonek
 Ecaron
 ecaron
+Gbreve
+gbreve
 Hcircumflex
 hcircumflex
 Hbar
@@ -170,8 +175,12 @@ Itilde
 itilde
 Imacron
 imacron
+Ibreve
+ibreve
 Iogonek
 iogonek
+Idotaccent
+idotless
 Lacute
 lacute
 Nacute
@@ -182,6 +191,8 @@ Eng
 eng
 Omacron
 omacron
+Obreve
+obreve
 Ohungarumlaut
 ohungarumlaut
 OE
@@ -208,6 +219,8 @@ Utilde
 utilde
 Umacron
 umacron
+Ubreve
+ubreve
 Uhungarumlaut
 uhungarumlaut
 Uogonek
@@ -221,6 +234,7 @@ Zdotaccent
 zdotaccent
 Zcaron
 zcaron
+longs
 Bhook
 Btopbar
 btopbar
@@ -463,6 +477,7 @@ xdotaccent
 Zdotbelow
 zdotbelow
 hmacronbelow
+Germandbls
 Adotbelow
 adotbelow
 Acircumflexdotbelow
@@ -489,8 +504,10 @@ endash
 emdash
 quoteleft
 quoteright
+quotesinglbase
 quotedblleft
 quotedblright
+quotedblbase
 ellipsis
 guilsinglleft
 guilsinglright
