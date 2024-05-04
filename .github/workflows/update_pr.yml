@@ -1,6 +1,10 @@
 name: Update on Push
 
-on: push
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   format-code:
