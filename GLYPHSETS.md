@@ -1645,7 +1645,7 @@ Symbol (4 glyphs):
 The following 10 composed character sequences are decomposed in the font:
 
 `
-M̀ m̀ Ẹ̀ Ẹ́ ẹ̀ ẹ́ Ọ̀ Ọ́ ọ̀ ọ́
+M̀ m̀ Ɔ̀ Ɔ́ Ɛ̀ Ɛ́ ɔ̀ ɔ́ ɛ̀ ɛ́
 `
 
 ### Resulting Glyphset Files
