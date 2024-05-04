@@ -1,0 +1,52 @@
+name: Update on Push
+
+on: push
+
+jobs:
+  format-code:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+    - name: Apply changes
+      run: |
+        pip install .
+        sh build.sh
+    # Commit all changed files back to the repository
+    - uses: stefanzweifel/git-auto-commit-action@v5
+
+# jobs:
+#   diff:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Checkout
+#       uses: actions/checkout@v4
+#     - name: Set up Python
+#       uses: actions/setup-python@v5
+#       with:
+#         python-version: "3.11"
+#     - name: Run Script
+#       env:
+#         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#       run: |
+#         cd ..
+#         cp -r glyphsets glyphsets2
+#         cd glyphsets2
+#         pip install .
+#         pip install -U git+https://github.com/googlefonts/lang
+#         pip freeze
+#         sh build.sh
+#         cd ..
+#         cd glyphsets
+#         diff -r data/results ../glyphsets2/data/results || echo -e "Recent data changes in **gflanguages** lead to the following glyphset definition changes:\n\n" > BODY; echo -e '```diff' >> BODY; echo -e "`diff -r data/results ../glyphsets2/data/results`" >> BODY; echo -e '```' >> BODY; cat BODY; gh issue create --title "Changes in gflanguages data" --body-file BODY --label "dependencies"
