@@ -727,12 +727,11 @@ Zimbabwe (ZW)
 * Excluding the following languages: `
 English (en_Latn),
 French (fr_Latn),
-Portuguese (pt_Latn),
-Spanish (es_Latn)
+Portuguese (pt_Latn)
 `
 
 
-The following list of **602** languages is computed as a result of the dynamic conditions described above:
+The following list of **603** languages is computed as a result of the dynamic conditions described above:
 
 `
 Abidji (abi_Latn),
@@ -1241,6 +1240,7 @@ Southern Kisi (kss_Latn),
 Southern Nuni (nnw_Latn),
 Southern Samo (sbd_Latn),
 Southern Sotho (st_Latn),
+Spanish (es_Latn),
 Suba (sxb_Latn),
 Sudanese Arabic (apd_Latn),
 Sukuma (suk_Latn),
@@ -1353,8 +1353,8 @@ Mark, spacing (4 glyphs):
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
 
-Punctuation (29 glyphs): 
-`! " # ' ( ) * , - . / : ; ? [ ] « » – — ‘ ’ ‚ “ ” „ … ‹ ›`
+Punctuation (32 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] ¡ « » ¿ – — ‘ ’ ‚ “ ” „ … ‹ ›`
 
 Symbol (12 glyphs): 
 `% & + @ ƒ ˗ ˮ Ⓐ ⓐ ꞉ ꞊ /uniA7CB`
