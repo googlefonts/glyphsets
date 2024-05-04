@@ -31,15 +31,14 @@
 * Script: Arabic
 * List of languages: `
 Arabic (ar_Arab),
-Persian (fa_Arab),
-Urdu (ur_Arab)
+Persian (fa_Arab)
 `
 * Characters and glyphs defined in [GF_Arabic_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Arabic_Core.stub.glyphs)
 
 ### Characters and Glyphs
 
-Letter (50 glyphs): 
-`ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ـ ف ق ك ل م ن ه و ى ي ٹ پ چ ڈ ڑ ژ ک گ ھ ہ ی ے ݣ`
+Letter (44 glyphs): 
+`ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ـ ف ق ك ل م ن ه و ى ي پ چ ژ ک گ ی ݣ`
 
 Mark, nonspacing (12 glyphs): 
 `◌ً ◌ٌ ◌ٍ ◌َ ◌ُ ◌ِ ◌ّ ◌ْ ◌ٓ ◌ٔ ◌ٕ ◌ٰ`

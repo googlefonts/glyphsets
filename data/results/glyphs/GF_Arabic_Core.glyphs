@@ -581,24 +581,12 @@ glyphname = "yeh-ar";
 unicode = 1610;
 },
 {
-glyphname = "tteh-ar";
-unicode = 1657;
-},
-{
 glyphname = "peh-ar";
 unicode = 1662;
 },
 {
 glyphname = "tcheh-ar";
 unicode = 1670;
-},
-{
-glyphname = "ddal-ar";
-unicode = 1672;
-},
-{
-glyphname = "rreh-ar";
-unicode = 1681;
 },
 {
 glyphname = "jeh-ar";
@@ -613,20 +601,8 @@ glyphname = "gaf-ar";
 unicode = 1711;
 },
 {
-glyphname = "hehDoachashmee-ar";
-unicode = 1726;
-},
-{
-glyphname = "hehgoal-ar";
-unicode = 1729;
-},
-{
 glyphname = "yehFarsi-ar";
 unicode = 1740;
-},
-{
-glyphname = "yehbarree-ar";
-unicode = 1746;
 }
 );
 instances = (
