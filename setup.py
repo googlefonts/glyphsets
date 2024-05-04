@@ -68,7 +68,7 @@ setup(
         "glyphsLib>=6.7.1",
         "defcon",
         "unicodedata2",
-        "gflanguages>=0.6.0",
+        "gflanguages>=0.5.17",
         "pyyaml",
     ],
     extras_require={
