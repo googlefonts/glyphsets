@@ -4,6 +4,9 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '0 23 * * 3'
+  # push:
+  #   paths:
+  #     - '**.yml'
 
 jobs:
   diff:
@@ -15,17 +18,17 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: "3.11"
-    - name: Run Script
+    - name: Check for changes in gflanguages
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         cd ..
-        cp -r glyphsets glyphsets2
-        cd glyphsets2
+        cp -r glyphsets upstream
+        cd upstream
         pip install .
         pip install -U git+https://github.com/googlefonts/lang
         pip freeze
         sh build.sh
         cd ..
         cd glyphsets
-        diff -r data/results ../glyphsets2/data/results || echo -e "Recent data changes in **gflanguages** lead to the following glyphset definition changes:\n\n" > BODY; echo -e '```diff' >> BODY; echo -e "`diff -r data/results ../glyphsets2/data/results`" >> BODY; echo -e '```' >> BODY; cat BODY; gh issue create --title "Changes in gflanguages data" --body-file BODY --label "dependencies"
+        diff -r -x BODY -x .git . ../upstream || echo -e "Recent data changes in **gflanguages** lead to the following glyphset definition changes:\n\n" > BODY; echo -e '```diff' >> BODY; echo -e "`diff -r -x BODY -x .git . ../upstream`" >> BODY; echo -e '```' >> BODY; cat BODY; gh issue create --title "Changes in gflanguages data" --body-file BODY --label "dependencies"
