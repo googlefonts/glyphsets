@@ -29,13 +29,17 @@ jobs:
         pip install -U git+https://github.com/googlefonts/lang
         pip freeze
         sh build.sh
+        rm -rf __pycache__
+        rm -rf _version.py
         rm -rf *.egg-info
         rm -rf build
         rm -rf .git
         rm -rf _*
         cd ..
-        rm -rf *.egg-info
+        rm -rf glyphsets.egg-info
         cd glyphsets
+        rm -rf __pycache__
+        rm -rf _version.py
         rm -rf *.egg-info
         rm -rf build
         rm -rf .git
