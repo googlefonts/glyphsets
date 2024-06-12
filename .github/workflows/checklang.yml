@@ -32,7 +32,7 @@ jobs:
         rm -f __pycache__
         rm -f _version.py
         rm -f *.egg-info
-        rm -f build
+        rm -rf build
         rm -f .git
         rm -f _*
         cd ..
@@ -41,7 +41,7 @@ jobs:
         rm -f __pycache__
         rm -f _version.py
         rm -f *.egg-info
-        rm -f build
+        rm -rf build
         rm -f .git
         rm -f _*
         diff -r -x BODY . ../upstream || echo "Diff return value: $?"; echo -e "Recent data changes in **gflanguages** lead to the following glyphset definition changes:\n\n" > BODY; echo -e '```diff' >> BODY; echo -e "`diff -r -x BODY . ../upstream`" >> BODY; echo -e '```' >> BODY; echo "BODY:"; cat BODY; 
