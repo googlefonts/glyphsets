@@ -23,31 +23,20 @@ jobs:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         cd ..
-        pwd
+        echo "pwd:" && pwd
         cp -r glyphsets upstream
         cd upstream
         pip install .
         pip install -U git+https://github.com/googlefonts/lang
         pip freeze
         sh build.sh
-        rm -f __pycache__
-        rm -f _version.py
-        rm -f *.egg-info
-        rm -rf build
-        rm -rf .git
-        rm -f _*
-        rm -f glyphsets.egg-info
         cd ..
-        pwd
+        echo "pwd:" && pwd
         rm -f glyphsets.egg-info
         cd glyphsets
-        pwd
-        rm -f Lib/glyphsets/__pycache__
-        rm -f Lib/glyphsets/_version.py
-        rm -f *.egg-info
-        rm -rf build
-        rm -rf .git
-        rm -f _*
-        rm -f Lib/glyphsets.egg-info
+        echo "pwd:" && pwd
+        rm -f ../upstream/Lib/glyphsets/__pycache__
+        rm -f ../upstream/Lib/glyphsets/_version.py
+        rm -f ../upstream/Lib/glyphsets.egg-info
         diff -r -x BODY . ../upstream || echo "Diff return value: $?"; echo -e "Recent data changes in **gflanguages** lead to the following glyphset definition changes:\n\n" > BODY; echo -e '```diff' >> BODY; echo -e "`diff -r -x BODY . ../upstream`" >> BODY; echo -e '```' >> BODY; echo "BODY:"; cat BODY; 
       # gh issue create --title "Changes in gflanguages data" --body-file BODY --label "dependencies"
