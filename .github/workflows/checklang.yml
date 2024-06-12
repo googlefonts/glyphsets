@@ -4,9 +4,9 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '0 23 * * 2'
-  # push:
-  #   paths:
-  #     - '**.yml'
+  push:
+    paths:
+      - '**.yml'
 
 jobs:
   diff:
@@ -31,4 +31,5 @@ jobs:
         sh build.sh
         cd ..
         cd glyphsets
-        diff -r -x BODY -x .git -x _* -x build -x *.egg-info . ../upstream || echo -e "Recent data changes in **gflanguages** lead to the following glyphset definition changes:\n\n" > BODY; echo -e '```diff' >> BODY; echo -e "`diff -r -x BODY -x .git -x _* -x build -x *.egg-info . ../upstream`" >> BODY; echo -e '```' >> BODY; cat BODY; gh issue create --title "Changes in gflanguages data" --body-file BODY --label "dependencies"
+        diff -r -x BODY -x .git -x _* -x build -x *.egg-info . ../upstream || echo "Diff return value: $?"; echo -e "Recent data changes in **gflanguages** lead to the following glyphset definition changes:\n\n" > BODY; echo -e '```diff' >> BODY; echo -e "`diff -r -x BODY -x .git -x _* -x build -x *.egg-info . ../upstream`" >> BODY; echo -e '```' >> BODY; echo "BODY:"; cat BODY; 
+      # gh issue create --title "Changes in gflanguages data" --body-file BODY --label "dependencies"
