@@ -39,5 +39,5 @@ jobs:
         rm -rf ../upstream/Lib/glyphsets.egg-info
         rm -rf ../upstream/build
         rm -f ./.git/index ../upstream/.git/index
-        diff -r -x BODY . ../upstream || echo "Diff return value: $?" && echo -e "Recent data changes in **gflanguages** lead to the following glyphset definition changes:\n\n" > BODY && echo -e '```diff' >> BODY && echo -e "`diff -r -x BODY . ../upstream`" >> BODY && echo -e '```' >> BODY && echo "BODY:" && cat BODY
+        diff -r -x BODY . ../upstream || (echo "Diff return value: $?" && echo -e "Recent data changes in **gflanguages** lead to the following glyphset definition changes:\n\n" > BODY && echo -e '```diff' >> BODY && echo -e "`diff -r -x BODY . ../upstream`" >> BODY && echo -e '```' >> BODY && echo "BODY:" && cat BODY)
       # gh issue create --title "Changes in gflanguages data" --body-file BODY --label "dependencies"
