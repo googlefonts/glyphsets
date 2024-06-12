@@ -22,10 +22,6 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        rm -rf *.egg-info
-        rm -rf build
-        rm -rf .git
-        rm -rf _*
         cd ..
         cp -r glyphsets upstream
         cd upstream
@@ -33,6 +29,10 @@ jobs:
         pip install -U git+https://github.com/googlefonts/lang
         pip freeze
         sh build.sh
+        rm -rf *.egg-info
+        rm -rf build
+        rm -rf .git
+        rm -rf _*
         cd ..
         cd glyphsets
         rm -rf *.egg-info
