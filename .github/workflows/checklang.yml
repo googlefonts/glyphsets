@@ -23,7 +23,7 @@ jobs:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         cd ..
-        echo "pwd:" && pwd
+        echo "pwd: `pwd`"
         cp -r glyphsets upstream
         cd upstream
         pip install .
@@ -31,11 +31,10 @@ jobs:
         pip freeze
         sh build.sh
         cd ..
-        echo "pwd:" && pwd
-        rm -f glyphsets.egg-info
+        echo "pwd: `pwd`"
         cd glyphsets
-        echo "pwd:" && pwd
-        rm -f ../upstream/Lib/glyphsets/__pycache__
+        echo "pwd: `pwd`"
+        rm -rf ../upstream/Lib/glyphsets/__pycache__
         rm -f ../upstream/Lib/glyphsets/_version.py
         rm -f ../upstream/Lib/glyphsets.egg-info
         diff -r -x BODY . ../upstream || echo "Diff return value: $?"; echo -e "Recent data changes in **gflanguages** lead to the following glyphset definition changes:\n\n" > BODY; echo -e '```diff' >> BODY; echo -e "`diff -r -x BODY . ../upstream`" >> BODY; echo -e '```' >> BODY; echo "BODY:"; cat BODY; 
