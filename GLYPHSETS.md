@@ -6,7 +6,7 @@
 | [✅ Core](#gf-arabic-core) | [✅ Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) | [🛑 APA](#gf-phonetics-apa) | [🛑 Arabic](#gf-translatin-arabic) |
 | [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) | [🛑 DisorderedSpeech](#gf-phonetics-disorderedspeech) | [🛑 Pinyin](#gf-translatin-pinyin) |
 |  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |  |
-|  | [🛑 Pro](#gf-cyrillic-pro) | [✅ Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
+|  | [✅ Pro](#gf-cyrillic-pro) | [✅ Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
 |  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) | [🛑 SinoExt](#gf-phonetics-sinoext) |  |
 |  |  | [🛑 Plus](#gf-greek-plus) | [✅ PriAfrican](#gf-latin-priafrican) |  |  |
 |  |  | [🛑 Pro](#gf-greek-pro) | [✅ Vietnamese](#gf-latin-vietnamese) |  |  |
@@ -248,21 +248,42 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 > _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
-> For Headline typefaces (?), with language support more Non-Slavic languages. Additional characters in this set provide support for the following 18 languages: Abkhaz, Chukchi, Enets, Eskimo, Even, Evenki, Itelmen, Khanty, Kildin Sami, Koryak, Mansi, Nganasan, Nenets, Oroch, Orok, Sakha/Yakut, Tati, Yukaghir, Yupik Ulch
+> For Headline typefaces (?), with language support for more Non-Slavic languages.
 
 `GF_Cyrillic_Pro` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Cyrillic_Pro.yaml) as:
 
 * Script: Cyrillic
-* Characters and glyphs defined in [GF_Cyrillic_Pro.stub.glyphs](/data/definitions/per_glyphset/GF_Cyrillic_Pro.stub.glyphs)
-
-> [!CAUTION]  
-> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
-> Please add language code definions [here](/Lib/glyphsets/definitions/GF_Cyrillic_Pro.yaml).
+* List of languages: `
+Abkhazian (ab_Cyrl),
+Chukot (ckt_Cyrl),
+Even (eve_Cyrl),
+Evenki (evn_Cyrl),
+Khanty (kca_Cyrl),
+Koryak (kpy_Cyrl),
+Mansi (mns_Cyrl),
+Nenets (yrk_Cyrl),
+Nganasan (nio_Cyrl),
+Orok (oaa_Cyrl),
+Sakha (sah_Cyrl),
+Yukaghir, Northern (ykg_Cyrl)
+`
 
 ### Characters and Glyphs
 
-Letter (56 glyphs): 
-`Ҋ ҋ Ҍ ҍ Ҏ ҏ Ҕ ҕ Ҟ ҟ Ҩ ҩ Ҭ ҭ Ҵ ҵ Ҽ ҽ Ҿ ҿ Ӄ ӄ Ӆ ӆ Ӈ ӈ Ӊ ӊ Ӎ ӎ Ӛ ӛ Ӡ ӡ Ӫ ӫ Ӭ ӭ Ӻ ӻ Ӽ ӽ Ӿ ӿ Ԑ ԑ Ԓ ԓ Ԥ ԥ Ԧ ԧ Ԩ ԩ Ԯ ԯ`
+Letter (136 glyphs): 
+`Ё Є Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў џ Ҕ ҕ Қ қ Ҟ ҟ Ң ң Ҥ ҥ Ҩ ҩ Ҭ ҭ Ү ү Ҳ ҳ Ҵ ҵ Ҷ ҷ Һ һ Ҽ ҽ Ҿ ҿ Ӄ ӄ Ӆ ӆ Ӈ ӈ Ӑ ӑ Ӓ ӓ Ә ә Ӛ ӛ Ӡ ӡ Ӣ ӣ Ӧ ӧ Ө ө Ӫ ӫ Ӭ ӭ Ӯ ӯ Ӱ ӱ Ӷ ӷ Ԓ ԓ Ԥ ԥ`
+
+Mark, nonspacing (3 glyphs): 
+`◌̄ ◌̆ ◌̈`
+
+Number (10 glyphs): 
+`0 1 2 3 4 5 6 7 8 9`
+
+Punctuation (5 glyphs): 
+`, - : ’ ”`
+
+Symbol (2 glyphs): 
+`% +`
 
 ### Resulting Glyphset Files
 
