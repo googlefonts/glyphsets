@@ -331,7 +331,7 @@
 			<string>hhook</string>
 			<string>istroke</string>
 			<string>iota-latin</string>
-			<string>Ismall</string>
+			<string>icapitalsmall</string>
 			<string>mturned</string>
 			<string>nhookleft</string>
 			<string>obarred</string>
@@ -515,15 +515,15 @@
 			<string>saltillo</string>
 			<string>Hturned</string>
 			<string>Hhook</string>
-			<string>uniA7AE</string>
+			<string>Icapitalsmall</string>
 			<string>Jcrossedtail</string>
 			<string>Beta-latin</string>
 			<string>beta-latin</string>
 			<string>Omega-latin</string>
 			<string>omega-latin</string>
-			<string>uniA7C7</string>
-			<string>uniA7C8</string>
-			<string>uniA7CB</string>
+			<string>Dshortstrokeoverlay</string>
+			<string>dshortstrokeoverlay</string>
+			<string>Ramshorn</string>
 		</array>
 		<key>name</key>
 		<string>GF_Latin_African</string>
