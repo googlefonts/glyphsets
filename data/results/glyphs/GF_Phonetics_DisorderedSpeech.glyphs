@@ -136,70 +136,6 @@ name = Regular;
 );
 glyphs = (
 {
-glyphname = uni10790;
-unicode = 67472;
-},
-{
-glyphname = uni10799;
-unicode = 67481;
-},
-{
-glyphname = uni1079A;
-unicode = 67482;
-},
-{
-glyphname = uni1079C;
-unicode = 67484;
-},
-{
-glyphname = uni1079D;
-unicode = 67485;
-},
-{
-glyphname = uni1079F;
-unicode = 67487;
-},
-{
-glyphname = uni107A1;
-unicode = 67489;
-},
-{
-glyphname = uni107AA;
-unicode = 67498;
-},
-{
-glyphname = uni1DF00;
-unicode = 122624;
-},
-{
-glyphname = uni1DF01;
-unicode = 122625;
-},
-{
-glyphname = uni1DF02;
-unicode = 122626;
-},
-{
-glyphname = uni1DF03;
-unicode = 122627;
-},
-{
-glyphname = uni1DF04;
-unicode = 122628;
-},
-{
-glyphname = uni1DF05;
-unicode = 122629;
-},
-{
-glyphname = uni1DF06;
-unicode = 122630;
-},
-{
-glyphname = uni1DF07;
-unicode = 122631;
-},
-{
 glyphname = voicingmod;
 unicode = 748;
 },
@@ -338,6 +274,70 @@ unicode = 6851;
 {
 glyphname = uni1AC4;
 unicode = 6852;
+},
+{
+glyphname = uni1DF07;
+unicode = 122631;
+},
+{
+glyphname = uni1DF06;
+unicode = 122630;
+},
+{
+glyphname = uni1DF05;
+unicode = 122629;
+},
+{
+glyphname = uni1DF04;
+unicode = 122628;
+},
+{
+glyphname = uni1DF03;
+unicode = 122627;
+},
+{
+glyphname = uni1DF02;
+unicode = 122626;
+},
+{
+glyphname = uni1DF01;
+unicode = 122625;
+},
+{
+glyphname = uni1DF00;
+unicode = 122624;
+},
+{
+glyphname = uni107AA;
+unicode = 67498;
+},
+{
+glyphname = uni107A1;
+unicode = 67489;
+},
+{
+glyphname = uni1079F;
+unicode = 67487;
+},
+{
+glyphname = uni1079D;
+unicode = 67485;
+},
+{
+glyphname = uni1079C;
+unicode = 67484;
+},
+{
+glyphname = uni1079A;
+unicode = 67482;
+},
+{
+glyphname = uni10799;
+unicode = 67481;
+},
+{
+glyphname = uni10790;
+unicode = 67472;
 },
 {
 glyphname = Kturned.circled;

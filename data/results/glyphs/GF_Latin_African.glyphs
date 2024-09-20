@@ -93,10 +93,6 @@ glyphname = shortequalmod;
 unicode = 42890;
 },
 {
-glyphname = uniA7CB;
-unicode = 42955;
-},
-{
 glyphname = exclam;
 unicode = 33;
 },
@@ -1545,7 +1541,7 @@ glyphname = "iota-latin";
 unicode = 617;
 },
 {
-glyphname = Ismall;
+glyphname = icapitalsmall;
 unicode = 618;
 },
 {
@@ -2093,7 +2089,7 @@ glyphname = Hhook;
 unicode = 42922;
 },
 {
-glyphname = uniA7AE;
+glyphname = Icapitalsmall;
 unicode = 42926;
 },
 {
@@ -2117,12 +2113,16 @@ glyphname = "omega-latin";
 unicode = 42935;
 },
 {
-glyphname = uniA7C7;
+glyphname = Dshortstrokeoverlay;
 unicode = 42951;
 },
 {
-glyphname = uniA7C8;
+glyphname = dshortstrokeoverlay;
 unicode = 42952;
+},
+{
+glyphname = Ramshorn;
+unicode = 42955;
 }
 );
 instances = (
