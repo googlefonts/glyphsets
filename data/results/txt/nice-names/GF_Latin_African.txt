@@ -325,7 +325,7 @@ hturned
 hhook
 istroke
 iota-latin
-Ismall
+icapitalsmall
 mturned
 nhookleft
 obarred
@@ -509,12 +509,12 @@ Saltillo
 saltillo
 Hturned
 Hhook
-uniA7AE
+Icapitalsmall
 Jcrossedtail
 Beta-latin
 beta-latin
 Omega-latin
 omega-latin
-uniA7C7
-uniA7C8
-uniA7CB
+Dshortstrokeoverlay
+dshortstrokeoverlay
+Ramshorn
