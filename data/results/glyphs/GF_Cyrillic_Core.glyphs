@@ -169,6 +169,10 @@ glyphname = quotedblleft;
 unicode = 8220;
 },
 {
+glyphname = quotedblright;
+unicode = 8221;
+},
+{
 glyphname = quotedblbase;
 unicode = 8222;
 },
@@ -227,6 +231,10 @@ unicode = 768;
 {
 glyphname = acutecomb;
 unicode = 769;
+},
+{
+glyphname = macroncomb;
+unicode = 772;
 },
 {
 glyphname = brevecomb;
@@ -587,6 +595,110 @@ unicode = 1168;
 {
 glyphname = "geupturn-cy";
 unicode = 1169;
+},
+{
+glyphname = "Gestroke-cy";
+unicode = 1170;
+},
+{
+glyphname = "gestroke-cy";
+unicode = 1171;
+},
+{
+glyphname = "Zhedescender-cy";
+unicode = 1174;
+},
+{
+glyphname = "zhedescender-cy";
+unicode = 1175;
+},
+{
+glyphname = "Kadescender-cy";
+unicode = 1178;
+},
+{
+glyphname = "kadescender-cy";
+unicode = 1179;
+},
+{
+glyphname = "Endescender-cy";
+unicode = 1186;
+},
+{
+glyphname = "endescender-cy";
+unicode = 1187;
+},
+{
+glyphname = "Ustraight-cy";
+unicode = 1198;
+},
+{
+glyphname = "ustraight-cy";
+unicode = 1199;
+},
+{
+glyphname = "Ustraightstroke-cy";
+unicode = 1200;
+},
+{
+glyphname = "ustraightstroke-cy";
+unicode = 1201;
+},
+{
+glyphname = "Hadescender-cy";
+unicode = 1202;
+},
+{
+glyphname = "hadescender-cy";
+unicode = 1203;
+},
+{
+glyphname = "Chedescender-cy";
+unicode = 1206;
+},
+{
+glyphname = "chedescender-cy";
+unicode = 1207;
+},
+{
+glyphname = "Shha-cy";
+unicode = 1210;
+},
+{
+glyphname = "shha-cy";
+unicode = 1211;
+},
+{
+glyphname = "Schwa-cy";
+unicode = 1240;
+},
+{
+glyphname = "schwa-cy";
+unicode = 1241;
+},
+{
+glyphname = "Imacron-cy";
+unicode = 1250;
+},
+{
+glyphname = "imacron-cy";
+unicode = 1251;
+},
+{
+glyphname = "Obarred-cy";
+unicode = 1256;
+},
+{
+glyphname = "obarred-cy";
+unicode = 1257;
+},
+{
+glyphname = "Umacron-cy";
+unicode = 1262;
+},
+{
+glyphname = "umacron-cy";
+unicode = 1263;
 }
 );
 instances = (

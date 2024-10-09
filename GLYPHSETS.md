@@ -124,18 +124,23 @@ Glyphs.app Custom Filter List (contains all Arabic glyphsets): [CustomFilter_GF_
 Belarusian (be_Cyrl),
 Bosnian (Cyrillic) (bs_Cyrl),
 Bulgarian (bg_Cyrl),
+Kazakh (kk_Cyrl),
+Kurdish (ku_Cyrl),
 Russian (ru_Cyrl),
 Serbian (sr_Cyrl),
-Ukrainian (uk_Cyrl)
+Tajik (tg_Cyrl),
+Turkmen (Cyrillic) (tk_Cyrl),
+Ukrainian (uk_Cyrl),
+Uzbek (Cyrillic) (uz_Cyrl)
 `
 
 ### Characters and Glyphs
 
-Letter (88 glyphs): 
-`Ё Ђ Є І Ї Ј Љ Њ Ћ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ є і ї ј љ њ ћ ў џ Ґ ґ`
+Letter (114 glyphs): 
+`Ё Ђ Є І Ї Ј Љ Њ Ћ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ є і ї ј љ њ ћ ў џ Ґ ґ Ғ ғ Җ җ Қ қ Ң ң Ү ү Ұ ұ Ҳ ҳ Ҷ ҷ Һ һ Ә ә Ӣ ӣ Ө ө Ӯ ӯ`
 
-Mark, nonspacing (4 glyphs): 
-`◌̀ ◌́ ◌̆ ◌̈`
+Mark, nonspacing (5 glyphs): 
+`◌̀ ◌́ ◌̄ ◌̆ ◌̈`
 
 Mark, spacing (1 glyphs): 
 `ʼ`
@@ -143,8 +148,8 @@ Mark, spacing (1 glyphs):
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
 
-Punctuation (27 glyphs): 
-`! " # ' ( ) * , - . / : ; ? [ \ ] « » – — ‘ ’ ‚ “ „ …`
+Punctuation (28 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] « » – — ‘ ’ ‚ “ ” „ …`
 
 Symbol (5 glyphs): 
 `% & + @ №`
