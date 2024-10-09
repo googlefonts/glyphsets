@@ -326,22 +326,120 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>Iishorttail-cy</string>
-			<string>iishorttail-cy</string>
-			<string>Semisoftsign-cy</string>
-			<string>semisoftsign-cy</string>
-			<string>Ertick-cy</string>
-			<string>ertick-cy</string>
-			<string>Ghemiddlehook-cy</string>
-			<string>ghemiddlehook-cy</string>
+			<string>percent</string>
+			<string>plus</string>
+			<string>comma</string>
+			<string>hyphen</string>
+			<string>zero</string>
+			<string>one</string>
+			<string>two</string>
+			<string>three</string>
+			<string>four</string>
+			<string>five</string>
+			<string>six</string>
+			<string>seven</string>
+			<string>eight</string>
+			<string>nine</string>
+			<string>colon</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>Io-cy</string>
+			<string>E-cy</string>
+			<string>Ushort-cy</string>
+			<string>Dzhe-cy</string>
+			<string>A-cy</string>
+			<string>Be-cy</string>
+			<string>Ve-cy</string>
+			<string>Ge-cy</string>
+			<string>De-cy</string>
+			<string>Ie-cy</string>
+			<string>Zhe-cy</string>
+			<string>Ze-cy</string>
+			<string>Ii-cy</string>
+			<string>Iishort-cy</string>
+			<string>Ka-cy</string>
+			<string>El-cy</string>
+			<string>Em-cy</string>
+			<string>En-cy</string>
+			<string>O-cy</string>
+			<string>Pe-cy</string>
+			<string>Er-cy</string>
+			<string>Es-cy</string>
+			<string>Te-cy</string>
+			<string>U-cy</string>
+			<string>Ef-cy</string>
+			<string>Ha-cy</string>
+			<string>Tse-cy</string>
+			<string>Che-cy</string>
+			<string>Sha-cy</string>
+			<string>Shcha-cy</string>
+			<string>Hardsign-cy</string>
+			<string>Yeru-cy</string>
+			<string>Softsign-cy</string>
+			<string>Ereversed-cy</string>
+			<string>Yu-cy</string>
+			<string>Ya-cy</string>
+			<string>a-cy</string>
+			<string>be-cy</string>
+			<string>ve-cy</string>
+			<string>ge-cy</string>
+			<string>de-cy</string>
+			<string>ie-cy</string>
+			<string>zhe-cy</string>
+			<string>ze-cy</string>
+			<string>ii-cy</string>
+			<string>iishort-cy</string>
+			<string>ka-cy</string>
+			<string>el-cy</string>
+			<string>em-cy</string>
+			<string>en-cy</string>
+			<string>o-cy</string>
+			<string>pe-cy</string>
+			<string>er-cy</string>
+			<string>es-cy</string>
+			<string>te-cy</string>
+			<string>u-cy</string>
+			<string>ef-cy</string>
+			<string>ha-cy</string>
+			<string>tse-cy</string>
+			<string>che-cy</string>
+			<string>sha-cy</string>
+			<string>shcha-cy</string>
+			<string>hardsign-cy</string>
+			<string>yeru-cy</string>
+			<string>softsign-cy</string>
+			<string>ereversed-cy</string>
+			<string>yu-cy</string>
+			<string>ya-cy</string>
+			<string>io-cy</string>
+			<string>e-cy</string>
+			<string>ushort-cy</string>
+			<string>dzhe-cy</string>
+			<string>Gemiddlehook-cy</string>
+			<string>gemiddlehook-cy</string>
+			<string>Kadescender-cy</string>
+			<string>kadescender-cy</string>
 			<string>Kastroke-cy</string>
 			<string>kastroke-cy</string>
+			<string>Endescender-cy</string>
+			<string>endescender-cy</string>
+			<string>EnGe-cy</string>
+			<string>enge-cy</string>
 			<string>Haabkhasian-cy</string>
 			<string>haabkhasian-cy</string>
 			<string>Tedescender-cy</string>
 			<string>tedescender-cy</string>
+			<string>Ustraight-cy</string>
+			<string>ustraight-cy</string>
+			<string>Hadescender-cy</string>
+			<string>hadescender-cy</string>
 			<string>Tetse-cy</string>
 			<string>tetse-cy</string>
+			<string>Chedescender-cy</string>
+			<string>chedescender-cy</string>
+			<string>Shha-cy</string>
+			<string>shha-cy</string>
 			<string>Cheabkhasian-cy</string>
 			<string>cheabkhasian-cy</string>
 			<string>Chedescenderabkhasian-cy</string>
@@ -352,36 +450,38 @@
 			<string>eltail-cy</string>
 			<string>Enhook-cy</string>
 			<string>enhook-cy</string>
-			<string>Entail-cy</string>
-			<string>entail-cy</string>
-			<string>Emtail-cy</string>
-			<string>emtail-cy</string>
+			<string>Abreve-cy</string>
+			<string>abreve-cy</string>
+			<string>Adieresis-cy</string>
+			<string>adieresis-cy</string>
+			<string>Schwa-cy</string>
+			<string>schwa-cy</string>
 			<string>Schwadieresis-cy</string>
 			<string>schwadieresis-cy</string>
 			<string>Dzeabkhasian-cy</string>
 			<string>dzeabkhasian-cy</string>
+			<string>Imacron-cy</string>
+			<string>imacron-cy</string>
+			<string>Odieresis-cy</string>
+			<string>odieresis-cy</string>
+			<string>Obarred-cy</string>
+			<string>obarred-cy</string>
 			<string>Obarreddieresis-cy</string>
 			<string>obarreddieresis-cy</string>
 			<string>Edieresis-cy</string>
 			<string>edieresis-cy</string>
-			<string>Gestrokehook-cy</string>
-			<string>gestrokehook-cy</string>
-			<string>Hahook-cy</string>
-			<string>hahook-cy</string>
-			<string>Hastroke-cy</string>
-			<string>hastroke-cy</string>
-			<string>Reversedze-cy</string>
-			<string>reversedze-cy</string>
+			<string>Umacron-cy</string>
+			<string>umacron-cy</string>
+			<string>Udieresis-cy</string>
+			<string>udieresis-cy</string>
+			<string>Gedescender-cy</string>
+			<string>gedescender-cy</string>
 			<string>Elhook-cy</string>
 			<string>elhook-cy</string>
 			<string>Pedescender-cy</string>
 			<string>pedescender-cy</string>
-			<string>Shhadescender-cy</string>
-			<string>shhadescender-cy</string>
-			<string>EnLeftHook-cy</string>
-			<string>enlefthook-cy</string>
-			<string>Eldescender-cy</string>
-			<string>eldescender-cy</string>
+			<string>quoteright</string>
+			<string>quotedblright</string>
 		</array>
 		<key>name</key>
 		<string>GF_Cyrillic_Pro</string>
