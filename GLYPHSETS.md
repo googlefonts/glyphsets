@@ -117,6 +117,10 @@ Glyphs.app Custom Filter List (contains all Arabic glyphsets): [CustomFilter_GF_
 
 # GF Cyrillic Core
 
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
+> 
+> Languages that use the Cyrillic alphabet and have more than 3 million speakers. This set is the minimum required for families that support the Cyrillic alphabet and want to be incorporated into Google Fonts.
+
 `GF_Cyrillic_Core` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Cyrillic_Core.yaml) as:
 
 * Script: Cyrillic
