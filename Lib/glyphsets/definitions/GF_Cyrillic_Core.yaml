@@ -1,7 +1,15 @@
+description: "Languages that use the Cyrillic alphabet and have more than 3 million speakers. 
+  This set is the minimum required for families that support the Cyrillic alphabet 
+  and want to be incorporated into Google Fonts."
+
 language_codes:
 - ru_Cyrl
 - uk_Cyrl
-- sr_Cyrl
+- kk_Cyrl
 - be_Cyrl
+- tg_Cyrl
 - bg_Cyrl
+- sr_Cyrl
+- uz_Cyrl
 - bs_Cyrl
+- tk_Cyrl

@@ -41,6 +41,7 @@
 			<string>apostrophemod</string>
 			<string>gravecomb</string>
 			<string>acutecomb</string>
+			<string>macroncomb</string>
 			<string>brevecomb</string>
 			<string>dieresiscomb</string>
 			<string>Io-cy</string>
@@ -131,12 +132,39 @@
 			<string>dzhe-cy</string>
 			<string>Geupturn-cy</string>
 			<string>geupturn-cy</string>
+			<string>Gestroke-cy</string>
+			<string>gestroke-cy</string>
+			<string>Zhedescender-cy</string>
+			<string>zhedescender-cy</string>
+			<string>Kadescender-cy</string>
+			<string>kadescender-cy</string>
+			<string>Endescender-cy</string>
+			<string>endescender-cy</string>
+			<string>Ustraight-cy</string>
+			<string>ustraight-cy</string>
+			<string>Ustraightstroke-cy</string>
+			<string>ustraightstroke-cy</string>
+			<string>Hadescender-cy</string>
+			<string>hadescender-cy</string>
+			<string>Chedescender-cy</string>
+			<string>chedescender-cy</string>
+			<string>Shha-cy</string>
+			<string>shha-cy</string>
+			<string>Schwa-cy</string>
+			<string>schwa-cy</string>
+			<string>Imacron-cy</string>
+			<string>imacron-cy</string>
+			<string>Obarred-cy</string>
+			<string>obarred-cy</string>
+			<string>Umacron-cy</string>
+			<string>umacron-cy</string>
 			<string>endash</string>
 			<string>emdash</string>
 			<string>quoteleft</string>
 			<string>quoteright</string>
 			<string>quotesinglbase</string>
 			<string>quotedblleft</string>
+			<string>quotedblright</string>
 			<string>quotedblbase</string>
 			<string>ellipsis</string>
 			<string>numero</string>
