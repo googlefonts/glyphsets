@@ -5,7 +5,7 @@
 | --- | --- | --- | --- | --- | --- |
 | [✅ Core](#gf-arabic-core) | [✅ Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) | [🛑 APA](#gf-phonetics-apa) | [🛑 Arabic](#gf-translatin-arabic) |
 | [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) | [🛑 DisorderedSpeech](#gf-phonetics-disorderedspeech) | [🛑 Pinyin](#gf-translatin-pinyin) |
-|  | [🛑 Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |  |
+|  | [✅ Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |  |
 |  | [🛑 Pro](#gf-cyrillic-pro) | [✅ Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
 |  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) | [🛑 SinoExt](#gf-phonetics-sinoext) |  |
 |  |  | [🛑 Plus](#gf-greek-plus) | [✅ PriAfrican](#gf-latin-priafrican) |  |  |
@@ -204,34 +204,58 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 > _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
-> Includes added language coverage for Slavic, Non-Slavic, and Uralic languages. Supports the following 90 Cyrillic languages: Abaza, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyrillic), Bagvalal Balkar, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Botlikh, Budukh, Bulgarian, Buryat, Chamalal, Chechen, Chuvash, Crimean Tatar (Cyrillic), Croatian (Cyrillic), Dargwa/Dargin, Dungan, Erzya, Gagauz (Cyrillic), Godoberi, Hinukh, Hunzib, Ingush, Juhuri/çuhuri (Cyrillic), Kabardian, Kalmyk, Karachay, Karaim (Cyrillic), Karakalpak (Cyrillic), Karata, Kazakh, Ket (Cyrillic), Khakas (Cyrillic), Khinalugh, Komi, Krymchak, Kryts, Kubachi, Kumyk, Kurdish (Cyrillic), Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Lingua Franca Nova (Cyrillic), Macedonian, Mari (Hill and Meadow), Moksha, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin (Cyrillic), Nanai, Nogai, Ossetian, Russian, Rusyn, Rutul, Serbian (Cyrillic), Shor, Slovio, Tabassaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Tindi, Tofa, Tsakhur (Cyrillic), Tsez, Turkmen, Tuvan/Tuvinian, Udi, Udmurt, Ukrainian, Urum, Uyghur (Cyrillic), Uzbek (Cyrillic), Votik (Cyrillic), Wakhi (Cyrillic), West Polesian, Yaghnobi (Cyrillic), Yukaghir (Northern and Southern)
-> 
-> Includes currencies: ₮, ₴, ₸.
-> 
-> The ruble sign (₽ U+20BD) is not included, since it is already present in the Latin Plus set.
+> Languages that uses the Cyrillic script between 240K and 3M speakers. This set is the intermediate set required for all families that want to give support beyond the GF Cyrillic Core.
 
 `GF_Cyrillic_Plus` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Cyrillic_Plus.yaml) as:
 
 * Script: Cyrillic
-* Characters and glyphs defined in [GF_Cyrillic_Plus.stub.glyphs](/data/definitions/per_glyphset/GF_Cyrillic_Plus.stub.glyphs)
-
-> [!CAUTION]  
-> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
-> Please add language code definions [here](/Lib/glyphsets/definitions/GF_Cyrillic_Plus.yaml).
+* List of languages: `
+Adyghe (ady_Cyrl),
+Avaric (av_Cyrl),
+Azerbaijani (Cyrillic) (az_Cyrl),
+Bashkir (ba_Cyrl),
+Buriat (bua_Cyrl),
+Chechen (ce_Cyrl),
+Chuvash (cv_Cyrl),
+Crimean Turkish, Cyrillic (crh_Cyrl),
+Dargwa (dar_Cyrl),
+Erzya (myv_Cyrl),
+Ingush (inh_Cyrl),
+Kabardian (kbd_Cyrl),
+Kara-Kalpak (kaa_Cyrl),
+Karachay-Balkar (krc_Cyrl),
+Komi (kv_Cyrl),
+Kumyk (kum_Cyrl),
+Kyrgyz (ky_Cyrl),
+Lezghian (lez_Cyrl),
+Macedonian (mk_Cyrl),
+Mari (chm_Cyrl),
+Moksha (mdf_Cyrl),
+Mongolian (mn_Cyrl),
+Ossetic (os_Cyrl),
+Rusyn (rue_Cyrl),
+Sakha (sah_Cyrl),
+Tatar (tt_Cyrl),
+Udmurt (udm_Cyrl),
+Uyghur (Cyrillic) (ug_Cyrl)
+`
 
 ### Characters and Glyphs
 
-Letter (119 glyphs): 
-`Ѣ ѣ Ѫ ѫ Ѳ ѳ Ѵ ѵ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҡ ҡ Ң ң Ҥ ҥ Ҫ ҫ Ү ү Ұ ұ Ҳ ҳ Ҷ ҷ Ҹ ҹ Һ һ Ӏ Ӂ ӂ Ӌ ӌ ӏ Ӑ ӑ Ӓ ӓ Ӕ ӕ Ӗ ӗ Ә ә Ӝ ӝ Ӟ ӟ Ӣ ӣ Ӥ ӥ Ӧ ӧ Ө ө Ӯ ӯ Ӱ ӱ Ӳ ӳ Ӵ ӵ Ӷ ӷ Ӹ ӹ Ԛ ԛ Ԝ ԝ /De-cy.loclBGR /Ef-cy.loclBGR /El-cy.loclBGR /Esdescender-cy.loclBSH /Esdescender-cy.loclCHU /Gestroke-cy.loclBSH /Ii-cy.loclBGR /Iigrave-cy.loclBGR /Iishort-cy.loclBGR /Zedescender-cy.loclBSH /be-cy.loclSRB /che-cy.loclBGR /de-cy.loclBGR /el-cy.loclBGR /en-cy.loclBGR /esdescender-cy.loclBSH /esdescender-cy.loclCHU /ge-cy.loclBGR /gestroke-cy.loclBSH /hardsign-cy.loclBGR /ii-cy.loclBGR /iigrave-cy.loclBGR /iishort-cy.loclBGR /ka-cy.loclBGR /pe-cy.loclBGR /sha-cy.loclBGR /shcha-cy.loclBGR /softsign-cy.loclBGR /te-cy.loclBGR /tse-cy.loclBGR /ve-cy.loclBGR /yu-cy.loclBGR /ze-cy.loclBGR /zedescender-cy.loclBSH /zhe-cy.loclBGR`
+Letter (144 glyphs): 
+`Ё Ѓ Є Ѕ І Ї Ј Љ Њ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ѓ є ѕ і ї ј љ њ ќ ў џ Ґ ґ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҡ ҡ Ң ң Ҥ ҥ Ҫ ҫ Ү ү Ҳ ҳ Ҹ ҹ Һ һ Ӏ ӏ Ӑ ӑ Ӕ ӕ Ӗ ӗ Ә ә Ӝ ӝ Ӟ ӟ Ӥ ӥ Ӧ ӧ Ө ө Ӱ ӱ Ӳ ӳ Ӵ ӵ`
 
-Mark, nonspacing (6 glyphs): 
-`◌̀ ◌́ ◌̄ ◌̈ ◌̋ ◌/brevecomb-cy`
+Mark, nonspacing (5 glyphs): 
+`◌̀ ◌́ ◌̆ ◌̈ ◌̋`
 
-Mark, spacing (1 glyphs): 
-`ʼ`
+Number (10 glyphs): 
+`0 1 2 3 4 5 6 7 8 9`
 
-Symbol (3 glyphs): 
-`₮ ₴ ₸`
+Punctuation (27 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ ] « » – — ‘ ’ ‚ “ ” „ …`
+
+Symbol (4 glyphs): 
+`% & + @`
 
 ### Resulting Glyphset Files
 
