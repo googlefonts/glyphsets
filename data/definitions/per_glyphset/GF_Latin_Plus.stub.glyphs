@@ -1,5 +1,5 @@
 {
-.appVersion = "3257";
+.appVersion = "3311";
 .formatVersion = 3;
 axes = (
 {
@@ -732,6 +732,16 @@ width = 600;
 }
 );
 unicode = 8470;
+},
+{
+glyphname = D.circled;
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 9401;
 },
 {
 glyphname = bitcoin;
