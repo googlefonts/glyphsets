@@ -80,6 +80,7 @@ approxequal
 notequal
 lessequal
 greaterequal
+uni24B9
 filledbox
 uni25A1
 uni25AA

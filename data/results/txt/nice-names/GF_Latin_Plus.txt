@@ -80,6 +80,7 @@ approxequal
 notequal
 lessequal
 greaterequal
+D.circled
 blackSquare
 whiteSquare
 blackSmallSquare

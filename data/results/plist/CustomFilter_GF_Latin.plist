@@ -1207,6 +1207,7 @@
 			<string>notequal</string>
 			<string>lessequal</string>
 			<string>greaterequal</string>
+			<string>D.circled</string>
 			<string>blackSquare</string>
 			<string>whiteSquare</string>
 			<string>blackSmallSquare</string>
