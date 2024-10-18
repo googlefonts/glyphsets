@@ -565,13 +565,32 @@ def find_character(input_character):
                     )
 
     found_languages = sorted(found_languages, key=lambda x: x[3], reverse=True)
+    print()
 
-    print(
-        tabulate.tabulate(
-            found_languages,
-            headers=["Language", "Name", "Category", "Speakers", "Script", "Regions"],
+    if found_languages:
+        print(
+            tabulate.tabulate(
+                found_languages,
+                headers=["Language", "Name", "Category", "Speakers", "Script", "Regions"],
+            )
         )
-    )
+    else:
+        print("The character was not found in any of the language definitions.")
+    print()
+
+    found_in_glyphsets = []
+    for glyphset in defined_glyphsets():
+        for unicode in unicodes_per_glyphset(glyphset):
+            if unicode == ord(input_character):
+                found_in_glyphsets.append(glyphset)
+                break
+
+    if found_in_glyphsets:
+        print("Character is part of the following glyphsets:")
+        print("---------------------------------------------")
+        print("\n".join(found_in_glyphsets))
+    else:
+        print("The character is not part of any glyphset.")
 
 
 if __name__ == "__main__":
