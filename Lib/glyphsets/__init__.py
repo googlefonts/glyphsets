@@ -7,6 +7,7 @@ import unicodedata
 import functools
 from glyphsLib.glyphdata import get_glyph
 from glyphsets.helpers import Colors, headline
+import tabulate
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -529,6 +530,48 @@ def analyze_font(ttFont):
     print()
     headline("Unsupported glyphsets (<80%):")
     print_support(0, 0.8)
+
+
+def find_character(input_character):
+    if input_character.startswith("0x"):
+        input_character = chr(int(input_character, 16))
+    unicode_string = f"{ord(input_character):#0{6}X}".replace("0X", "0x")
+    print(f"Character: [{input_character}]  ({unicode_string} {unicodedata.name(input_character)})")
+
+    found_languages = []
+
+    # Read language definitions
+    for lang_code in languages:
+        lang = languages[lang_code]
+        if lang.exemplar_chars:
+            chars = lang.exemplar_chars
+            for category in ("base", "index", "marks", "numerals", "punctuation"):
+                if input_character in getattr(chars, category) or input_character in getattr(chars, category).upper():
+                    # Find regions
+                    found_regions = set()
+                    for country_code in regions:
+                        if country_code in lang.region:
+                            found_regions.update(set(regions[country_code].region_group))
+
+                    found_languages.append(
+                        (
+                            lang_code,
+                            lang.name,
+                            category,
+                            lang.population,
+                            lang.script,
+                            ", ".join(list(found_regions)),
+                        )
+                    )
+
+    found_languages = sorted(found_languages, key=lambda x: x[3], reverse=True)
+
+    print(
+        tabulate.tabulate(
+            found_languages,
+            headers=["Language", "Name", "Category", "Speakers", "Script", "Regions"],
+        )
+    )
 
 
 if __name__ == "__main__":

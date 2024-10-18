@@ -70,6 +70,7 @@ setup(
         "unicodedata2",
         "gflanguages>=0.6.5",
         "pyyaml",
+        "tabulate",
     ],
     extras_require={
         "dev": [  # For the tests to run

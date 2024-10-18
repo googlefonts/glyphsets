@@ -1,5 +1,5 @@
 import argparse
-from glyphsets import build_glyphsapp_filter_list, compare_glyphsets, analyze_font
+from glyphsets import build_glyphsapp_filter_list, compare_glyphsets, analyze_font, find_character
 from fontTools.ttLib import TTFont
 
 
@@ -28,6 +28,13 @@ def main():
     )
     analyze_parser.add_argument("font", help="Font binary to analyze")
 
+    # Find character
+    find_parser = subparsers.add_parser(
+        "find",
+        help="Find a character in the language definitions and glyphsets.",
+    )
+    find_parser.add_argument("character", help="0xABCD hex string or Unicode character")
+
     # PROCESS
     args = parser.parse_args()
 
@@ -39,6 +46,9 @@ def main():
 
     if args.command == "coverage":
         analyze_font(TTFont(args.font))
+
+    if args.command == "find":
+        find_character(args.character)
 
 
 if __name__ == "__main__":
