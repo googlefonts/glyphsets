@@ -162,6 +162,35 @@ Letter (168 glyphs):
 ...
 
 ```
+
+## Find characters
+
+To help authoring glyphsets, use `glyphsets find ſ` or `glyphsets find 0x017F` to see in which language definions (and under which category therein) and glyphsets a character is defined. As usual, the definitions are pulled from the `glyphsets` and `gflanguages` modules that are currently installed on your machine or venv
+
+```
+glyphsets % glyphsets find ß
+Character: [ß]  (0x00DF LATIN SMALL LETTER SHARP S)
+
+Language    Name           Category      Speakers  Script    Regions
+----------  -------------  ----------  ----------  --------  ---------------------------------------
+fr_Latn     French         auxiliary    272965534  Latn      Asia, Americas, Oceania, Europe, Africa
+de_Latn     German         base         134799567  Latn      Asia, Americas, Europe, Africa
+tr_Latn     Turkish        auxiliary     80191488  Latn      Europe, Asia
+it_Latn     Italian        auxiliary     70743415  Latn      Oceania, Europe, Americas
+pl_Latn     Polish         auxiliary     38273562  Latn      Europe, Asia
+nds_Latn    Low German     base          11520008  Latn      Europe
+fi_Latn     Finnish        auxiliary      5736841  Latn      Europe
+lb_Latn     Luxembourgish  auxiliary       421015  Latn      Europe
+ksh_Latn    Colognian      base            240479  Latn      Europe
+hsb_Latn    Upper Sorbian  auxiliary        12825  Latn      Europe
+wae_Latn    Walser         auxiliary        11376  Latn      Europe
+dsb_Latn    Lower Sorbian  auxiliary         6973  Latn      Europe
+
+Character is part of the following glyphsets:
+---------------------------------------------
+GF_Latin_Core
+```
+
 Acknowledgements
 ================
 
