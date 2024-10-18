@@ -545,7 +545,7 @@ def find_character(input_character):
         lang = languages[lang_code]
         if lang.exemplar_chars:
             chars = lang.exemplar_chars
-            for category in ("base", "index", "marks", "numerals", "punctuation"):
+            for category in ("base", "index", "marks", "numerals", "punctuation", "auxiliary"):
                 if input_character in getattr(chars, category) or input_character in getattr(chars, category).upper():
                     # Find regions
                     found_regions = set()
