@@ -48,7 +48,6 @@
 			<string>comma-ar</string>
 			<string>dateseparator-ar</string>
 			<string>semicolon-ar</string>
-			<string>mark-ar</string>
 			<string>question-ar</string>
 			<string>hamza-ar</string>
 			<string>alefMadda-ar</string>
@@ -137,7 +136,6 @@
 			<string>eightFarsi-ar</string>
 			<string>nineFarsi-ar</string>
 			<string>kehehThreedotsabove-ar</string>
-			<string>lefttorightmark</string>
 			<string>endash</string>
 			<string>emdash</string>
 			<string>quoteleft</string>
@@ -300,8 +298,6 @@
 			<string>nineFarsi-ar</string>
 			<string>sindhiampersand-ar</string>
 			<string>sindhipostpositionmen-ar</string>
-			<string>lefttorightmark</string>
-			<string>righttoleftmark</string>
 			<string>quoteleft</string>
 			<string>reversedsemicolon</string>
 			<string>minus</string>

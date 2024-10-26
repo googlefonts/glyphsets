@@ -142,8 +142,6 @@ uni06F8
 uni06F9
 uni06FD
 uni06FE
-uni200E
-uni200F
 quoteleft
 uni204F
 minus

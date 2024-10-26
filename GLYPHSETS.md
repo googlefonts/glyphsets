@@ -50,11 +50,11 @@ Number (32 glyphs):
 Punctuation (36 glyphs): 
 `! " # ' ( ) * , - . / : [ \ ] { } « » ، ؍ ؛ ؟ ٭ ۔ – — ‘ ’ “ ” … ‹ › ﴾ ﴿`
 
-Separator (3 glyphs): 
-`    ‎`
+Separator (2 glyphs): 
+`   `
 
-Symbol (12 glyphs): 
-`% + < = > | × ÷ ؉ ؜ ٪ −`
+Symbol (11 glyphs): 
+`% + < = > | × ÷ ؉ ٪ −`
 
 ### Resulting Glyphset Files
 
@@ -97,9 +97,6 @@ Number (32 glyphs):
 
 Punctuation (18 glyphs): 
 `! ' ( ) , - . / : ; [ ] ، ۔ ۽ ‘ ⁏ ⹁`
-
-Separator (2 glyphs): 
-`‎ ‏`
 
 Symbol (6 glyphs): 
 `% + ؉ ٪ ۾ −`

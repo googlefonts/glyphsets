@@ -85,10 +85,6 @@ glyphname = "perthousand-ar";
 unicode = 1545;
 },
 {
-glyphname = "mark-ar";
-unicode = 1564;
-},
-{
 glyphname = "percent-ar";
 unicode = 1642;
 },
@@ -103,10 +99,6 @@ unicode = 32;
 {
 glyphname = nbspace;
 unicode = 160;
-},
-{
-glyphname = lefttorightmark;
-unicode = 8206;
 },
 {
 glyphname = numbersign;

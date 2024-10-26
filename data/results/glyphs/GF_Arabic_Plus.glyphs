@@ -73,14 +73,6 @@ glyphname = minus;
 unicode = 8722;
 },
 {
-glyphname = lefttorightmark;
-unicode = 8206;
-},
-{
-glyphname = righttoleftmark;
-unicode = 8207;
-},
-{
 glyphname = exclam;
 unicode = 33;
 },

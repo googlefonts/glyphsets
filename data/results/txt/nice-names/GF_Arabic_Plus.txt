@@ -142,8 +142,6 @@ eightFarsi-ar
 nineFarsi-ar
 sindhiampersand-ar
 sindhipostpositionmen-ar
-lefttorightmark
-righttoleftmark
 quoteleft
 reversedsemicolon
 minus

@@ -42,7 +42,6 @@ uni0609
 uni060C
 uni060D
 uni061B
-uni061C
 uni061F
 uni0621
 uni0622
@@ -131,7 +130,6 @@ uni06F7
 uni06F8
 uni06F9
 uni0763
-uni200E
 endash
 emdash
 quoteleft

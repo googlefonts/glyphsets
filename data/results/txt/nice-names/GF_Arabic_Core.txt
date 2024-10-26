@@ -42,7 +42,6 @@ perthousand-ar
 comma-ar
 dateseparator-ar
 semicolon-ar
-mark-ar
 question-ar
 hamza-ar
 alefMadda-ar
@@ -131,7 +130,6 @@ sevenFarsi-ar
 eightFarsi-ar
 nineFarsi-ar
 kehehThreedotsabove-ar
-lefttorightmark
 endash
 emdash
 quoteleft

@@ -61,9 +61,7 @@ def assemble_characterset(root_folder, glyphset_name):
     language_codes = languages_per_glyphset(glyphset_name)
     use_aux = glyphset_definition.get("use_auxiliary", False)
 
-    nam_stub_path = os.path.join(
-        root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.nam"
-    )
+    nam_stub_path = os.path.join(root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.nam")
     nam_path = os.path.join(root_folder, "results", "nam", f"{glyphset_name}.nam")
     nam_in_package_path = os.path.abspath(
         os.path.join(
@@ -88,22 +86,12 @@ def assemble_characterset(root_folder, glyphset_name):
             f"{glyphset_name}.txt",
         )
     )
-    glyphs_stub_path = os.path.join(
-        root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.glyphs"
-    )
-    glyphs_path = os.path.join(
-        root_folder, "results", "glyphs", f"{glyphset_name}.glyphs"
-    )
+    glyphs_stub_path = os.path.join(root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.glyphs")
+    glyphs_path = os.path.join(root_folder, "results", "glyphs", f"{glyphset_name}.glyphs")
     glyphs_empty_path = os.path.join(root_folder, f"empty_font.glyphs")
-    txt_nicenames_path = os.path.join(
-        root_folder, "results", "txt", "nice-names", f"{glyphset_name}.txt"
-    )
-    txt_prodnames_path = os.path.join(
-        root_folder, "results", "txt", "prod-names", f"{glyphset_name}.txt"
-    )
-    plist_path = os.path.join(
-        root_folder, "results", "plist", f"CustomFilter_GF_{script}.plist"
-    )
+    txt_nicenames_path = os.path.join(root_folder, "results", "txt", "nice-names", f"{glyphset_name}.txt")
+    txt_prodnames_path = os.path.join(root_folder, "results", "txt", "prod-names", f"{glyphset_name}.txt")
+    plist_path = os.path.join(root_folder, "results", "plist", f"CustomFilter_GF_{script}.plist")
 
     character_set = set()
 
@@ -113,6 +101,7 @@ def assemble_characterset(root_folder, glyphset_name):
         chars = languages[language_code].exemplar_chars
         # chars.base.upper() is important because many Latin languages don't
         # contain a complete set of uppercase letters in "index"
+        # Filter for control characters and format characters
         character_set.update(
             {
                 ord(c)
@@ -125,7 +114,7 @@ def assemble_characterset(root_folder, glyphset_name):
                     | set(chars.punctuation)
                     | (set(chars.auxiliary) if use_aux else set())
                 )
-                if c not in (" ", "{", "}", "◌")
+                if (c not in (" ", "{", "}", "◌") and unicodedata.category(c) not in ("Cc", "Cf"))
             }
         )
 
@@ -190,9 +179,7 @@ def assemble_characterset(root_folder, glyphset_name):
     font.glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_by_category))
     unicode_sorted_glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_unicodes))
     glyph_names = [glyph.name for glyph in unicode_sorted_glyphs]
-    production_glyph_names = [
-        get_glyph(glyph.name).production_name for glyph in unicode_sorted_glyphs
-    ]
+    production_glyph_names = [get_glyph(glyph.name).production_name for glyph in unicode_sorted_glyphs]
 
     # Save glyphs file
     os.makedirs(os.path.dirname(glyphs_path), exist_ok=True)
@@ -202,9 +189,7 @@ def assemble_characterset(root_folder, glyphset_name):
     os.makedirs(os.path.dirname(nam_path), exist_ok=True)
     os.makedirs(os.path.dirname(nam_in_package_path), exist_ok=True)
     with open(nam_path, "w") as f:
-        f.write(
-            "# This file is auto-generated; do not edit. See /README.md for instructions.\n"
-        )
+        f.write("# This file is auto-generated; do not edit. See /README.md for instructions.\n")
         for i, unicode in enumerate(sorted(list(character_set))):
             unicode_string = f"{unicode:#0{6}X}".replace("0X", "0x")
             try:
@@ -219,15 +204,11 @@ def assemble_characterset(root_folder, glyphset_name):
     # Output txt files
     os.makedirs(os.path.dirname(txt_nicenames_path), exist_ok=True)
     with open(txt_nicenames_path, "w") as f:
-        f.write(
-            "# This file is auto-generated; do not edit. See /README.md for instructions.\n"
-        )
+        f.write("# This file is auto-generated; do not edit. See /README.md for instructions.\n")
         f.write("\n".join(glyph_names))
     os.makedirs(os.path.dirname(txt_prodnames_path), exist_ok=True)
     with open(txt_prodnames_path, "w") as f:
-        f.write(
-            "# This file is auto-generated; do not edit. See /README.md for instructions.\n"
-        )
+        f.write("# This file is auto-generated; do not edit. See /README.md for instructions.\n")
         f.write("\n".join(production_glyph_names))
     os.makedirs(os.path.dirname(txt_in_package_path), exist_ok=True)
     shutil.copyfile(txt_nicenames_path, txt_in_package_path)
