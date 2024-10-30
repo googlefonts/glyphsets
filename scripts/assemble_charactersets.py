@@ -178,7 +178,7 @@ def assemble_characterset(root_folder, glyphset_name):
                 unicode_name = unicodedata.name(chr(unicode))
             except ValueError:
                 unicode_name = ""
-            f.write(f"{unicode_string} {unicode_name}")
+            f.write(f"{unicode_string} # {unicode_name}")
             if i < len(character_set) - 1:
                 f.write("\n")
     shutil.copyfile(nam_path, nam_in_package_path)
