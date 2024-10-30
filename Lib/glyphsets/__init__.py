@@ -1,3 +1,4 @@
+import copy
 import yaml
 import plistlib
 import os
@@ -74,6 +75,52 @@ regions = gflanguages.LoadRegions()
 languages = gflanguages.LoadLanguages()
 
 
+class GlyphSet(object):
+    def __init__(self, name):
+        self.name = name
+
+        # Read definition
+        yaml_path = os.path.join(os.path.dirname(__file__), "definitions", f"{self.name}.yaml")
+        with open(yaml_path, "r", encoding="utf8") as f:
+            self.definition = yaml.load(f, Loader=yaml.FullLoader)
+
+        # Read definitions and set defaults
+        self.description = self.definition.get("description", None)
+        self.language_codes = self.definition.get("language_codes", [])
+        self.exclude_language_codes = self.definition.get("exclude_language_codes", set())
+        self.regions = self.definition.get("regions", [])
+        self.use_aux = self.definition.get("use_auxiliary", False)
+        self.historical = self.definition.get("historical", False)
+        self.population = self.definition.get("population", False)
+
+        self.script = get_script(self.name)
+
+    def __str__(self):
+        return f"<Glyphset {self.name}>"
+
+    def get_language_codes(self):
+        """Compute the language codes for this glyphset"""
+
+        language_codes = copy.copy(self.language_codes)
+
+        # Assemble character sets from gflanguages
+        if self.regions:
+            for language in languages.values():
+                if language.id in self.exclude_language_codes:
+                    continue
+                if not self.historical and language.historical:
+                    continue
+                if self.population > language.population:
+                    continue
+                if (
+                    set(language.region).intersection(set(self.regions))
+                    and SCRIPT_NAMES[language.script] == self.script
+                ):
+                    language_codes.append(language.id)
+
+        return language_codes
+
+
 def defined_glyphsets():
     definitions_path = os.path.join(os.path.dirname(__file__), "definitions")
     yaml_files = [
@@ -109,6 +156,7 @@ def get_glyphset_definition(glyphset_name):
         return yaml.load(f, Loader=yaml.FullLoader)
 
 
+# Rewrite this to be calculated live
 def unicodes_per_glyphset(glyphset_name):
     # Read .nam file
     nam_path = os.path.join(
@@ -129,6 +177,8 @@ def glyphs_in_glyphsets(glyphset_names, production_names=False):
     return sorted(list(glyphs))
 
 
+# TODO:
+# Rewrite this to be calculated live
 def glyphs_in_glyphset(glyphset_name, production_names=False):
     # script = glyphset_name.split("_")[1]
 
@@ -145,32 +195,6 @@ def glyphs_in_glyphset(glyphset_name, production_names=False):
         glyph_names = [line.strip() for line in f.readlines() if not line.startswith("#")]
 
     return sorted(glyph_names)
-
-
-def languages_per_glyphset(glyphset_name):
-
-    script = get_script(glyphset_name)
-    glyphset_definition = get_glyphset_definition(glyphset_name)
-    language_codes = glyphset_definition.get("language_codes", [])
-    regions = glyphset_definition.get("regions")
-    # use_aux = glyphset_definition.get("use_auxiliary", False)
-    historical = glyphset_definition.get("historical", False)
-    population = glyphset_definition.get("population", False)
-    exclude_language_codes = glyphset_definition.get("exclude_language_codes", set())
-
-    # Assemble character sets from gflanguages
-    if regions:
-        for language in languages.values():
-            if language.id in exclude_language_codes:
-                continue
-            if not historical and language.historical:
-                continue
-            if population > language.population:
-                continue
-            if set(language.region).intersection(set(regions)) and SCRIPT_NAMES[language.script] == script:
-                language_codes.append(language.id)
-
-    return language_codes
 
 
 def categorize_glyphs(glyph_names):

@@ -16,14 +16,7 @@ from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
 # Insert local module path at beginning of sys.path
 # so that up-to-date version of glyphsets package is used
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "Lib"))
-from glyphsets import (
-    get_script,
-    defined_glyphsets,
-    get_glyphset_definition,
-    unicodes_per_glyphset,
-    languages_per_glyphset,
-    read_nam_file,
-)  # noqa: E402
+from glyphsets import defined_glyphsets, GlyphSet  # noqa: E402
 
 
 def sort_unicodes(a, b):
@@ -56,12 +49,8 @@ def sort_by_category(a, b):
 
 def assemble_characterset(root_folder, glyphset_name):
 
-    script = get_script(glyphset_name)
-    glyphset_definition = get_glyphset_definition(glyphset_name)
-    language_codes = languages_per_glyphset(glyphset_name)
-    use_aux = glyphset_definition.get("use_auxiliary", False)
+    glyphset = GlyphSet(glyphset_name)
 
-    nam_stub_path = os.path.join(root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.nam")
     nam_path = os.path.join(root_folder, "results", "nam", f"{glyphset_name}.nam")
     nam_in_package_path = os.path.abspath(
         os.path.join(
@@ -91,13 +80,13 @@ def assemble_characterset(root_folder, glyphset_name):
     glyphs_empty_path = os.path.join(root_folder, f"empty_font.glyphs")
     txt_nicenames_path = os.path.join(root_folder, "results", "txt", "nice-names", f"{glyphset_name}.txt")
     txt_prodnames_path = os.path.join(root_folder, "results", "txt", "prod-names", f"{glyphset_name}.txt")
-    plist_path = os.path.join(root_folder, "results", "plist", f"CustomFilter_GF_{script}.plist")
+    plist_path = os.path.join(root_folder, "results", "plist", f"CustomFilter_GF_{glyphset.script}.plist")
 
     character_set = set()
 
     # Assemble character sets from gflanguages
     languages = gflanguages.LoadLanguages()
-    for language_code in language_codes:
+    for language_code in glyphset.get_language_codes():
         chars = languages[language_code].exemplar_chars
         # chars.base.upper() is important because many Latin languages don't
         # contain a complete set of uppercase letters in "index"
@@ -112,7 +101,7 @@ def assemble_characterset(root_folder, glyphset_name):
                     | set(chars.marks)
                     | set(chars.numerals)
                     | set(chars.punctuation)
-                    | (set(chars.auxiliary) if use_aux else set())
+                    | (set(chars.auxiliary) if glyphset.use_aux else set())
                 )
                 if (c not in (" ", "{", "}", "◌") and unicodedata.category(c) not in ("Cc", "Cf"))
             }
@@ -144,7 +133,7 @@ def assemble_characterset(root_folder, glyphset_name):
     font.familyName = glyphset_name
 
     # Add language-specific glyphs
-    for language_code in language_codes:
+    for language_code in glyphset.get_language_codes():
         per_language_glyphs_stub_path = os.path.join(
             root_folder, "definitions", "per_language", f"{language_code}.stub.glyphs"
         )
