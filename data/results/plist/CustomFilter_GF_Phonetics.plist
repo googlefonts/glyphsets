@@ -20,8 +20,8 @@
 			<string>phi</string>
 			<string>Dsmall</string>
 			<string>gmod</string>
-			<string>idotlessstroke</string>
-			<string>ustroke</string>
+			<string>Ismallstroke</string>
+			<string>Usmallstroke</string>
 			<string>thetamod</string>
 			<string>rdotbelow</string>
 			<string>tcircumflexbelow</string>
@@ -80,26 +80,26 @@
 			<string>V.circled</string>
 			<string>largeCircle</string>
 			<string>lretroflexhookandbelt</string>
-			<string>uniA7AF</string>
+			<string>Qsmall</string>
 			<string>Kturned</string>
-			<string>uni10790</string>
-			<string>uni10799</string>
-			<string>uni1079A</string>
-			<string>uni1079C</string>
-			<string>uni1079D</string>
-			<string>uni1079F</string>
-			<string>uni107A1</string>
-			<string>uni107AA</string>
+			<string>fengdigraphmod</string>
+			<string>lsdigraphmod</string>
+			<string>lzdigraphmod</string>
+			<string>Lsmallbeltmod</string>
+			<string>lretroflexhookandbeltmod</string>
+			<string>lezhhookretroflexmod</string>
+			<string>yturnedbeltmod</string>
+			<string>Rsmallmod</string>
 			<string>fitalic-math</string>
 			<string>pitalic-math</string>
-			<string>uni1DF00</string>
-			<string>uni1DF01</string>
-			<string>uni1DF02</string>
-			<string>uni1DF03</string>
-			<string>uni1DF04</string>
-			<string>uni1DF05</string>
-			<string>uni1DF06</string>
-			<string>uni1DF07</string>
+			<string>fengdigraphetrill</string>
+			<string>gscriptreversed</string>
+			<string>Gsmallturned</string>
+			<string>kreversed</string>
+			<string>Lsmallbelt</string>
+			<string>lezhhookretroflex</string>
+			<string>yturnedbeld</string>
+			<string>engreversed</string>
 			<string>Kturned.circled</string>
 			<string>fitalic-math.subs</string>
 			<string>pitalic-math.subs</string>
@@ -172,7 +172,7 @@
 			<string>hhook</string>
 			<string>henghook</string>
 			<string>istroke</string>
-			<string>Ismall</string>
+			<string>icapitalsmall</string>
 			<string>lmiddletilde</string>
 			<string>lbelt</string>
 			<string>lhookretroflex</string>
@@ -189,7 +189,7 @@
 			<string>rturned</string>
 			<string>rlonglegturned</string>
 			<string>rhookturned</string>
-			<string>rhook</string>
+			<string>rtail</string>
 			<string>rfishhook</string>
 			<string>Rsmall</string>
 			<string>Rsmallinverted</string>

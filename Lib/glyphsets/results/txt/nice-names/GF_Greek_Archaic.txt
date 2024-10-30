@@ -34,7 +34,7 @@ SigmaLunateReversedSymbol
 SigmaLunateDottedSymbol
 SigmaLunateDottedReversedSymbol
 whiteSquare
-blackstar
+blackStar
 sunSymbol
 ascendingNode
 descendingNode

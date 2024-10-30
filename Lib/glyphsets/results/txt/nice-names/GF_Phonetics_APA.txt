@@ -14,8 +14,8 @@ lambda
 phi
 Dsmall
 gmod
-idotlessstroke
-ustroke
+Ismallstroke
+Usmallstroke
 thetamod
 rdotbelow
 tcircumflexbelow

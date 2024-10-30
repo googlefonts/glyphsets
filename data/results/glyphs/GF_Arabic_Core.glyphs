@@ -49,6 +49,14 @@ name = Regular;
 );
 glyphs = (
 {
+glyphname = percent;
+unicode = 37;
+},
+{
+glyphname = plus;
+unicode = 43;
+},
+{
 glyphname = less;
 unicode = 60;
 },
@@ -73,14 +81,6 @@ glyphname = divide;
 unicode = 247;
 },
 {
-glyphname = percent;
-unicode = 37;
-},
-{
-glyphname = plus;
-unicode = 43;
-},
-{
 glyphname = "perthousand-ar";
 unicode = 1545;
 },
@@ -101,44 +101,16 @@ glyphname = nbspace;
 unicode = 160;
 },
 {
-glyphname = numbersign;
-unicode = 35;
-},
-{
-glyphname = braceleft;
-unicode = 123;
-},
-{
-glyphname = braceright;
-unicode = 125;
-},
-{
-glyphname = quoteleft;
-unicode = 8216;
-},
-{
-glyphname = quoteright;
-unicode = 8217;
-},
-{
-glyphname = quotedblleft;
-unicode = 8220;
-},
-{
-glyphname = quotedblright;
-unicode = 8221;
-},
-{
-glyphname = ellipsis;
-unicode = 8230;
-},
-{
 glyphname = exclam;
 unicode = 33;
 },
 {
 glyphname = quotedbl;
 unicode = 34;
+},
+{
+glyphname = numbersign;
+unicode = 35;
 },
 {
 glyphname = quotesingle;
@@ -189,6 +161,14 @@ glyphname = bracketright;
 unicode = 93;
 },
 {
+glyphname = braceleft;
+unicode = 123;
+},
+{
+glyphname = braceright;
+unicode = 125;
+},
+{
 glyphname = guillemetleft;
 unicode = 171;
 },
@@ -227,6 +207,26 @@ unicode = 8211;
 {
 glyphname = emdash;
 unicode = 8212;
+},
+{
+glyphname = quoteleft;
+unicode = 8216;
+},
+{
+glyphname = quoteright;
+unicode = 8217;
+},
+{
+glyphname = quotedblleft;
+unicode = 8220;
+},
+{
+glyphname = quotedblright;
+unicode = 8221;
+},
+{
+glyphname = ellipsis;
+unicode = 8230;
 },
 {
 glyphname = guilsinglleft;
@@ -419,10 +419,6 @@ unicode = 1621;
 {
 glyphname = "alefabove-ar";
 unicode = 1648;
-},
-{
-glyphname = "kehehThreedotsabove-ar";
-unicode = 1891;
 },
 {
 glyphname = "hamza-ar";
@@ -619,6 +615,10 @@ unicode = 1740;
 {
 glyphname = "yehbarree-ar";
 unicode = 1746;
+},
+{
+glyphname = "kehehThreedotsabove-ar";
+unicode = 1891;
 }
 );
 instances = (

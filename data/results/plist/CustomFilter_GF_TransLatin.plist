@@ -18,25 +18,25 @@
 			<string>macronbelowcomb</string>
 			<string>Ddotbelow</string>
 			<string>ddotbelow</string>
-			<string>Dlinebelow</string>
-			<string>dlinebelow</string>
+			<string>Dmacronbelow</string>
+			<string>dmacronbelow</string>
 			<string>Gmacron</string>
 			<string>gmacron</string>
 			<string>Hdotbelow</string>
 			<string>hdotbelow</string>
 			<string>Hbrevebelow</string>
 			<string>hbrevebelow</string>
-			<string>Klinebelow</string>
-			<string>klinebelow</string>
+			<string>Kmacronbelow</string>
+			<string>kmacronbelow</string>
 			<string>Sdotbelow</string>
 			<string>sdotbelow</string>
 			<string>Tdotbelow</string>
 			<string>tdotbelow</string>
-			<string>Tlinebelow</string>
-			<string>tlinebelow</string>
+			<string>Tmacronbelow</string>
+			<string>tmacronbelow</string>
 			<string>Zdotbelow</string>
 			<string>zdotbelow</string>
-			<string>hlinebelow</string>
+			<string>hmacronbelow</string>
 			<string>tdieresis</string>
 		</array>
 		<key>name</key>

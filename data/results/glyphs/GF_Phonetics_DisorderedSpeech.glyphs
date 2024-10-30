@@ -1,5 +1,5 @@
 {
-.appVersion = "3239";
+.appVersion = "3151";
 .formatVersion = 3;
 axes = (
 {
@@ -11,95 +11,8 @@ name = Width;
 tag = wdth;
 }
 );
-date = "2021-10-28 12:22:31 +0000";
+date = "2023-12-13 14:28:10 +0000";
 familyName = GF_Phonetics_DisorderedSpeech;
-featurePrefixes = (
-{
-automatic = 1;
-code = "languagesystem DFLT dflt;
-
-languagesystem latn dflt;
-languagesystem latn AZE;
-languagesystem latn CRT;
-languagesystem latn KAZ;
-languagesystem latn TAT;
-languagesystem latn TRK;
-languagesystem latn ROM;
-languagesystem latn MOL;
-languagesystem latn CAT;
-";
-name = Languagesystems;
-}
-);
-features = (
-{
-automatic = 1;
-code = "feature locl;
-feature ordn;
-feature case;
-";
-tag = aalt;
-},
-{
-automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-} ccmp_Other_1;
-";
-tag = ccmp;
-},
-{
-automatic = 1;
-code = "lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
-	sub i by idotaccent;
-} locl_latn_0;
-
-lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	language MOL;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-} locl_latn_1;
-
-lookup locl_latn_2 {
-	script latn;
-	language CAT;
-	sub l periodcentered' l by periodcentered.loclCAT;
-	sub L periodcentered' L by periodcentered.loclCAT.case;
-} locl_latn_2;
-";
-tag = locl;
-},
-{
-automatic = 1;
-code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
-";
-tag = ordn;
-},
-{
-automatic = 1;
-code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
-";
-tag = case;
-}
-);
 fontMaster = (
 {
 axesValues = (
@@ -128,7 +41,7 @@ over = -16;
 pos = -200;
 },
 {
-over = 0;
+over = -16;
 }
 );
 name = Regular;
@@ -276,115 +189,6 @@ glyphname = uni1AC4;
 unicode = 6852;
 },
 {
-glyphname = uni1DF07;
-unicode = 122631;
-},
-{
-glyphname = uni1DF06;
-unicode = 122630;
-},
-{
-glyphname = uni1DF05;
-unicode = 122629;
-},
-{
-glyphname = uni1DF04;
-unicode = 122628;
-},
-{
-glyphname = uni1DF03;
-unicode = 122627;
-},
-{
-glyphname = uni1DF02;
-unicode = 122626;
-},
-{
-glyphname = uni1DF01;
-unicode = 122625;
-},
-{
-glyphname = uni1DF00;
-unicode = 122624;
-},
-{
-glyphname = uni107AA;
-unicode = 67498;
-},
-{
-glyphname = uni107A1;
-unicode = 67489;
-},
-{
-glyphname = uni1079F;
-unicode = 67487;
-},
-{
-glyphname = uni1079D;
-unicode = 67485;
-},
-{
-glyphname = uni1079C;
-unicode = 67484;
-},
-{
-glyphname = uni1079A;
-unicode = 67482;
-},
-{
-glyphname = uni10799;
-unicode = 67481;
-},
-{
-glyphname = uni10790;
-unicode = 67472;
-},
-{
-glyphname = Kturned.circled;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "fitalic-math.subs";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "pitalic-math.subs";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "fitalic-math.sups";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "pitalic-math.sups";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
 glyphname = fengdigraph;
 unicode = 681;
 },
@@ -425,12 +229,44 @@ glyphname = lretroflexhookandbelt;
 unicode = 42894;
 },
 {
-glyphname = uniA7AF;
+glyphname = Qsmall;
 unicode = 42927;
 },
 {
 glyphname = Kturned;
 unicode = 42928;
+},
+{
+glyphname = fengdigraphmod;
+unicode = 67472;
+},
+{
+glyphname = lsdigraphmod;
+unicode = 67481;
+},
+{
+glyphname = lzdigraphmod;
+unicode = 67482;
+},
+{
+glyphname = Lsmallbeltmod;
+unicode = 67484;
+},
+{
+glyphname = lretroflexhookandbeltmod;
+unicode = 67485;
+},
+{
+glyphname = lezhhookretroflexmod;
+unicode = 67487;
+},
+{
+glyphname = yturnedbeltmod;
+unicode = 67489;
+},
+{
+glyphname = Rsmallmod;
+unicode = 67498;
 },
 {
 glyphname = "fitalic-math";
@@ -439,6 +275,53 @@ unicode = 119891;
 {
 glyphname = "pitalic-math";
 unicode = 119901;
+},
+{
+glyphname = fengdigraphetrill;
+unicode = 122624;
+},
+{
+glyphname = gscriptreversed;
+unicode = 122625;
+},
+{
+glyphname = Gsmallturned;
+unicode = 122626;
+},
+{
+glyphname = kreversed;
+unicode = 122627;
+},
+{
+glyphname = Lsmallbelt;
+unicode = 122628;
+},
+{
+glyphname = lezhhookretroflex;
+unicode = 122629;
+},
+{
+glyphname = yturnedbeld;
+unicode = 122630;
+},
+{
+glyphname = engreversed;
+unicode = 122631;
+},
+{
+glyphname = Kturned.circled;
+},
+{
+glyphname = "fitalic-math.subs";
+},
+{
+glyphname = "pitalic-math.subs";
+},
+{
+glyphname = "fitalic-math.sups";
+},
+{
+glyphname = "pitalic-math.sups";
 }
 );
 instances = (

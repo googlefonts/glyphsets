@@ -449,7 +449,7 @@ glyphname = istroke;
 unicode = 616;
 },
 {
-glyphname = Ismall;
+glyphname = icapitalsmall;
 unicode = 618;
 },
 {
@@ -517,7 +517,7 @@ glyphname = rhookturned;
 unicode = 635;
 },
 {
-glyphname = rhook;
+glyphname = rtail;
 unicode = 637;
 },
 {

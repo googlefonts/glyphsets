@@ -1,5 +1,5 @@
 {
-.appVersion = "3311";
+.appVersion = "3151";
 .formatVersion = 3;
 axes = (
 {
@@ -41,7 +41,7 @@ over = -16;
 pos = -200;
 },
 {
-over = 0;
+over = -16;
 }
 );
 name = Regular;
@@ -49,1491 +49,536 @@ name = Regular;
 );
 glyphs = (
 {
-glyphname = baht;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = brokenbar;
+unicode = 166;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = logicalnot;
+unicode = 172;
+},
+{
+glyphname = plusminus;
+unicode = 177;
+},
+{
+glyphname = micro;
+unicode = 181;
+},
+{
+glyphname = baht;
 unicode = 3647;
 },
 {
-glyphname = minute;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = dagger;
+unicode = 8224;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = daggerdbl;
+unicode = 8225;
+},
+{
+glyphname = perthousand;
+unicode = 8240;
+},
+{
+glyphname = minute;
 unicode = 8242;
 },
 {
 glyphname = second;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8243;
 },
 {
-glyphname = brokenbar;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 166;
-},
-{
-glyphname = dagger;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8224;
-},
-{
-glyphname = literSign;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8467;
-},
-{
-glyphname = daggerdbl;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8225;
-},
-{
-glyphname = estimated;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8494;
-},
-{
-glyphname = numero;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8470;
-},
-{
-glyphname = D.circled;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9401;
-},
-{
-glyphname = bitcoin;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8383;
-},
-{
-glyphname = cedi;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8373;
-},
-{
 glyphname = colonsign;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8353;
 },
 {
-glyphname = dong;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = naira;
+unicode = 8358;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = rupee;
+unicode = 8360;
+},
+{
+glyphname = won;
+unicode = 8361;
+},
+{
+glyphname = sheqel;
+unicode = 8362;
+},
+{
+glyphname = dong;
 unicode = 8363;
 },
 {
-glyphname = guarani;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = kip;
+unicode = 8365;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = tugrik;
+unicode = 8366;
+},
+{
+glyphname = peso;
+unicode = 8369;
+},
+{
+glyphname = guarani;
 unicode = 8370;
 },
 {
 glyphname = hryvnia;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8372;
 },
 {
-glyphname = kip;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8365;
+glyphname = cedi;
+unicode = 8373;
 },
 {
-glyphname = lari;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = tenge;
+unicode = 8376;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8382;
+glyphname = rupeeIndian;
+unicode = 8377;
 },
 {
 glyphname = liraTurkish;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8378;
 },
 {
 glyphname = manat;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8380;
 },
 {
-glyphname = naira;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8358;
-},
-{
-glyphname = peso;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8369;
-},
-{
 glyphname = ruble;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8381;
 },
 {
-glyphname = rupee;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8360;
+glyphname = lari;
+unicode = 8382;
 },
 {
-glyphname = rupeeIndian;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8377;
+glyphname = bitcoin;
+unicode = 8383;
 },
 {
-glyphname = sheqel;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8362;
+glyphname = literSign;
+unicode = 8467;
 },
 {
-glyphname = tenge;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8376;
-},
-{
-glyphname = tugrik;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8366;
-},
-{
-glyphname = won;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8361;
-},
-{
-glyphname = notequal;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8800;
-},
-{
-glyphname = greaterequal;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8805;
-},
-{
-glyphname = lessequal;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8804;
-},
-{
-glyphname = plusminus;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 177;
-},
-{
-glyphname = approxequal;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8776;
-},
-{
-glyphname = logicalnot;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 172;
-},
-{
-glyphname = emptyset;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8709;
-},
-{
-glyphname = "infinity";
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8734;
-},
-{
-glyphname = integral;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8747;
+glyphname = numero;
+unicode = 8470;
 },
 {
 glyphname = Ohm;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8486;
 },
 {
-glyphname = increment;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8710;
-},
-{
-glyphname = product;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8719;
-},
-{
-glyphname = summation;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8721;
-},
-{
-glyphname = radical;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8730;
-},
-{
-glyphname = micro;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 181;
-},
-{
-glyphname = partialdiff;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8706;
-},
-{
-glyphname = perthousand;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8240;
-},
-{
-glyphname = upArrow;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8593;
-},
-{
-glyphname = northEastArrow;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8599;
-},
-{
-glyphname = rightArrow;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8594;
-},
-{
-glyphname = southEastArrow;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8600;
-},
-{
-glyphname = downArrow;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8595;
-},
-{
-glyphname = southWestArrow;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8601;
+glyphname = estimated;
+unicode = 8494;
 },
 {
 glyphname = leftArrow;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8592;
 },
 {
-glyphname = northWestArrow;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = upArrow;
+unicode = 8593;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8598;
+glyphname = rightArrow;
+unicode = 8594;
+},
+{
+glyphname = downArrow;
+unicode = 8595;
 },
 {
 glyphname = leftRightArrow;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8596;
 },
 {
 glyphname = upDownArrow;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8597;
 },
 {
-glyphname = blackCircle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9679;
+glyphname = northWestArrow;
+unicode = 8598;
 },
 {
-glyphname = whiteCircle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9675;
+glyphname = northEastArrow;
+unicode = 8599;
 },
 {
-glyphname = whiteBullet;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9702;
+glyphname = southEastArrow;
+unicode = 8600;
 },
 {
-glyphname = blackDiamond;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9670;
+glyphname = southWestArrow;
+unicode = 8601;
 },
 {
-glyphname = whiteDiamond;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9671;
+glyphname = partialdiff;
+unicode = 8706;
 },
 {
-glyphname = lozenge;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = emptyset;
+unicode = 8709;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9674;
+glyphname = increment;
+unicode = 8710;
+},
+{
+glyphname = product;
+unicode = 8719;
+},
+{
+glyphname = summation;
+unicode = 8721;
+},
+{
+glyphname = radical;
+unicode = 8730;
+},
+{
+glyphname = "infinity";
+unicode = 8734;
+},
+{
+glyphname = integral;
+unicode = 8747;
+},
+{
+glyphname = approxequal;
+unicode = 8776;
+},
+{
+glyphname = notequal;
+unicode = 8800;
+},
+{
+glyphname = lessequal;
+unicode = 8804;
+},
+{
+glyphname = greaterequal;
+unicode = 8805;
+},
+{
+glyphname = D.circled;
+unicode = 9401;
 },
 {
 glyphname = blackSquare;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 9632;
 },
 {
 glyphname = whiteSquare;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 9633;
 },
 {
 glyphname = blackSmallSquare;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 9642;
 },
 {
 glyphname = whiteSmallSquare;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 9643;
 },
 {
 glyphname = upBlackTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 9650;
 },
 {
-glyphname = rightBlackTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9654;
-},
-{
-glyphname = downBlackTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9660;
-},
-{
-glyphname = leftBlackTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9664;
-},
-{
 glyphname = upWhiteTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 9651;
 },
 {
-glyphname = rightWhiteTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9655;
-},
-{
-glyphname = downWhiteTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9661;
-},
-{
-glyphname = leftWhiteTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9665;
-},
-{
 glyphname = upBlackSmallTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 9652;
 },
 {
-glyphname = rightBlackSmallTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9656;
-},
-{
-glyphname = downBlackSmallTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9662;
-},
-{
-glyphname = leftBlackSmallTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 9666;
-},
-{
 glyphname = upWhiteSmallTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 9653;
 },
 {
-glyphname = rightWhiteSmallTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = rightBlackTriangle;
+unicode = 9654;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = rightWhiteTriangle;
+unicode = 9655;
+},
+{
+glyphname = rightBlackSmallTriangle;
+unicode = 9656;
+},
+{
+glyphname = rightWhiteSmallTriangle;
 unicode = 9657;
 },
 {
-glyphname = downWhiteSmallTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = downBlackTriangle;
+unicode = 9660;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = downWhiteTriangle;
+unicode = 9661;
+},
+{
+glyphname = downBlackSmallTriangle;
+unicode = 9662;
+},
+{
+glyphname = downWhiteSmallTriangle;
 unicode = 9663;
 },
 {
-glyphname = leftWhiteSmallTriangle;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = leftBlackTriangle;
+unicode = 9664;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = leftWhiteTriangle;
+unicode = 9665;
+},
+{
+glyphname = leftBlackSmallTriangle;
+unicode = 9666;
+},
+{
+glyphname = leftWhiteSmallTriangle;
 unicode = 9667;
 },
 {
-glyphname = "leftanglebracket-math";
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = blackDiamond;
+unicode = 9670;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = whiteDiamond;
+unicode = 9671;
+},
+{
+glyphname = lozenge;
+unicode = 9674;
+},
+{
+glyphname = whiteCircle;
+unicode = 9675;
+},
+{
+glyphname = blackCircle;
+unicode = 9679;
+},
+{
+glyphname = whiteBullet;
+unicode = 9702;
+},
+{
+glyphname = dblverticalbar;
+unicode = 8214;
+},
+{
+glyphname = "leftanglebracket-math";
 unicode = 10216;
 },
 {
 glyphname = "rightanglebracket-math";
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 10217;
 },
 {
-glyphname = dblverticalbar;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8214;
-},
-{
-glyphname = zero.zero;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = zero.tf;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = one.tf;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = two.tf;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = three.tf;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = four.tf;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = five.tf;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = six.tf;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = seven.tf;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = eight.tf;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = nine.tf;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = zero.dnom;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = one.dnom;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = two.dnom;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = three.dnom;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = four.dnom;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = five.dnom;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = six.dnom;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = seven.dnom;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = eight.dnom;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = nine.dnom;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = zero.numr;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = one.numr;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = two.numr;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = three.numr;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = four.numr;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = five.numr;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = six.numr;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = seven.numr;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = eight.numr;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = nine.numr;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = fraction;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8260;
-},
-{
-glyphname = onehalf;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 189;
-},
-{
-glyphname = onethird;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8531;
-},
-{
-glyphname = twothirds;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8532;
-},
-{
-glyphname = onequarter;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 188;
-},
-{
-glyphname = threequarters;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 190;
-},
-{
-glyphname = oneinferior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8321;
-},
-{
-glyphname = twoinferior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8322;
-},
-{
-glyphname = threeinferior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8323;
-},
-{
-glyphname = fourinferior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8324;
-},
-{
-glyphname = fiveinferior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8325;
-},
-{
-glyphname = sixinferior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8326;
-},
-{
-glyphname = seveninferior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8327;
-},
-{
-glyphname = eightinferior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8328;
-},
-{
-glyphname = nineinferior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 8329;
-},
-{
-glyphname = onesuperior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 185;
-},
-{
 glyphname = twosuperior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 178;
 },
 {
 glyphname = threesuperior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 179;
 },
 {
-glyphname = foursuperior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = onesuperior;
+unicode = 185;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = onequarter;
+unicode = 188;
+},
+{
+glyphname = onehalf;
+unicode = 189;
+},
+{
+glyphname = threequarters;
+unicode = 190;
+},
+{
+glyphname = fraction;
+unicode = 8260;
+},
+{
+glyphname = foursuperior;
 unicode = 8308;
 },
 {
 glyphname = fivesuperior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8309;
 },
 {
 glyphname = sixsuperior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8310;
 },
 {
 glyphname = sevensuperior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8311;
 },
 {
 glyphname = eightsuperior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8312;
 },
 {
 glyphname = ninesuperior;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 unicode = 8313;
 },
 {
-glyphname = pi;
-lastChange = "2024-04-10 10:50:35 +0000";
-layers = (
+glyphname = oneinferior;
+unicode = 8321;
+},
 {
-layerId = m01;
-width = 600;
-}
-);
+glyphname = twoinferior;
+unicode = 8322;
+},
+{
+glyphname = threeinferior;
+unicode = 8323;
+},
+{
+glyphname = fourinferior;
+unicode = 8324;
+},
+{
+glyphname = fiveinferior;
+unicode = 8325;
+},
+{
+glyphname = sixinferior;
+unicode = 8326;
+},
+{
+glyphname = seveninferior;
+unicode = 8327;
+},
+{
+glyphname = eightinferior;
+unicode = 8328;
+},
+{
+glyphname = nineinferior;
+unicode = 8329;
+},
+{
+glyphname = onethird;
+unicode = 8531;
+},
+{
+glyphname = twothirds;
+unicode = 8532;
+},
+{
+glyphname = zero.zero;
+},
+{
+glyphname = zero.tf;
+},
+{
+glyphname = one.tf;
+},
+{
+glyphname = two.tf;
+},
+{
+glyphname = three.tf;
+},
+{
+glyphname = four.tf;
+},
+{
+glyphname = five.tf;
+},
+{
+glyphname = six.tf;
+},
+{
+glyphname = seven.tf;
+},
+{
+glyphname = eight.tf;
+},
+{
+glyphname = nine.tf;
+},
+{
+glyphname = zero.dnom;
+},
+{
+glyphname = one.dnom;
+},
+{
+glyphname = two.dnom;
+},
+{
+glyphname = three.dnom;
+},
+{
+glyphname = four.dnom;
+},
+{
+glyphname = five.dnom;
+},
+{
+glyphname = six.dnom;
+},
+{
+glyphname = seven.dnom;
+},
+{
+glyphname = eight.dnom;
+},
+{
+glyphname = nine.dnom;
+},
+{
+glyphname = zero.numr;
+},
+{
+glyphname = one.numr;
+},
+{
+glyphname = two.numr;
+},
+{
+glyphname = three.numr;
+},
+{
+glyphname = four.numr;
+},
+{
+glyphname = five.numr;
+},
+{
+glyphname = six.numr;
+},
+{
+glyphname = seven.numr;
+},
+{
+glyphname = eight.numr;
+},
+{
+glyphname = nine.numr;
+},
+{
+glyphname = pi;
 unicode = 960;
 }
 );

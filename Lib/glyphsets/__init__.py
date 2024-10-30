@@ -6,9 +6,18 @@ import gflanguages
 from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
 import unicodedata
 import functools
-from glyphsLib.glyphdata import get_glyph
 from glyphsets.helpers import Colors, headline
 import tabulate
+import glyphsLib
+
+from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
+
+# Call get_glyph once so that GLYPHDATA gets filled in glyphsLib
+get_glyph("A")
+# If I import GLYPHDATA at the top of the file, it doesn't get filled
+from glyphsLib.glyphdata import GLYPHDATA
+
+assert type(GLYPHDATA) is glyphsLib.glyphdata.GlyphData
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -119,6 +128,78 @@ class GlyphSet(object):
                     language_codes.append(language.id)
 
         return language_codes
+
+    def get_characters(self):
+        """Compute list of characters for this glyphset"""
+
+        character_set = set()
+
+        for language_code in self.get_language_codes():
+            chars = LANGUAGES[language_code].exemplar_chars
+            # chars.base.upper() is important because many Latin languages don't
+            # contain a complete set of uppercase letters in "index"
+            # Filter for control characters and format characters
+            character_set.update(
+                {
+                    ord(c)
+                    for c in list(
+                        set(chars.base)
+                        | set(chars.base.upper())
+                        | set(chars.index)
+                        | set(chars.marks)
+                        | set(chars.numerals)
+                        | set(chars.punctuation)
+                        | (set(chars.auxiliary) if self.use_aux else set())
+                    )
+                    if (c not in (" ", "{", "}", "◌") and unicodedata.category(c) not in ("Cc", "Cf"))
+                }
+            )
+
+        return list(sorted(character_set))
+
+    def get_stub_characters(self):
+        """Collect list of encoded characters from .stub.glyphs file"""
+
+        character_set = []
+
+        glyphs_stub_path = os.path.join(root_folder, "definitions", "per_glyphset", f"{self.name}.stub.glyphs")
+        if os.path.exists(glyphs_stub_path):
+            font = get_glyphs_file(glyphs_stub_path)
+            for glyph in font.glyphs:
+                if glyph.unicodes:
+                    for unicode in glyph.unicodes:
+                        character_set.append(int(unicode, 16))
+
+        return character_set
+
+    def get_stub_glyph_objects(self):
+        """Collect list of all glyphs from .stub.glyphs file"""
+
+        glyph_set = []
+
+        glyphs_stub_path = os.path.join(root_folder, "definitions", "per_glyphset", f"{self.name}.stub.glyphs")
+        if os.path.exists(glyphs_stub_path):
+            font = get_glyphs_file(glyphs_stub_path)
+            for glyph in font.glyphs:
+                glyph_set.append(Glyph(glyph.name, glyph.unicode))
+
+        return glyph_set
+
+
+class Glyph(object):
+    def __init__(self, name, unicode=None):
+        self.name = name
+        self.unicode = unicode
+
+
+def get_glyphs_file(file_path):
+    font = glyphsLib.load(file_path)
+    for glyph in font.glyphs:
+        if glyph.unicode:
+            glyph_info = _lookup_attributes_by_unicode(glyph.unicode, GLYPHDATA)
+            if "name" in glyph_info and glyph_info["name"] != glyph.name:
+                glyph.name = glyph_info["name"]
+    return font
 
 
 def defined_glyphsets():

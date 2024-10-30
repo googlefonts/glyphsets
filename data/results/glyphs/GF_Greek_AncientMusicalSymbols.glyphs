@@ -49,1268 +49,1268 @@ name = Regular;
 );
 glyphs = (
 {
-glyphname = "gorgonNeoKato-byzantineMusic";
-unicode = 119029;
-},
-{
-glyphname = "klasmaKato-byzantineMusic";
-unicode = 119028;
-},
-{
-glyphname = "kentimaNeoKato-byzantineMusic";
-unicode = 119027;
-},
-{
-glyphname = "kentimataNeoKato-byzantineMusic";
-unicode = 119026;
-},
-{
-glyphname = "kentimaNeoMeso-byzantineMusic";
-unicode = 119025;
-},
-{
-glyphname = "kentimataNeoMeso-byzantineMusic";
-unicode = 119024;
-},
-{
-glyphname = "arktikoNi-byzantineMusic";
-unicode = 119023;
-},
-{
-glyphname = "arktikoZo-byzantineMusic";
-unicode = 119022;
-},
-{
-glyphname = "arktikoKe-byzantineMusic";
-unicode = 119021;
-},
-{
-glyphname = "arktikoDi-byzantineMusic";
-unicode = 119020;
-},
-{
-glyphname = "arktikoGa-byzantineMusic";
-unicode = 119019;
-},
-{
-glyphname = "arktikoVou-byzantineMusic";
-unicode = 119018;
-},
-{
-glyphname = "arktikoPa-byzantineMusic";
-unicode = 119017;
-},
-{
-glyphname = "stigma-byzantineMusic";
-unicode = 119016;
-},
-{
-glyphname = "diftoggosOu-byzantineMusic";
-unicode = 119015;
-},
-{
-glyphname = "digrammaGg-byzantineMusic";
-unicode = 119014;
-},
-{
-glyphname = "simansisArseosTetrasimou-byzantineMusic";
-unicode = 119013;
-},
-{
-glyphname = "simansisArseosTrisimou-byzantineMusic";
-unicode = 119012;
-},
-{
-glyphname = "simansisArseosDisimou-byzantineMusic";
-unicode = 119011;
-},
-{
-glyphname = "simansisArseos-byzantineMusic";
-unicode = 119010;
-},
-{
-glyphname = "simansisTheseosTetrasimou-byzantineMusic";
-unicode = 119009;
-},
-{
-glyphname = "simansisTheseosTrisimou-byzantineMusic";
-unicode = 119008;
-},
-{
-glyphname = "simansisTheseosDisimou-byzantineMusic";
-unicode = 119007;
-},
-{
-glyphname = "simansisTheseos-byzantineMusic";
-unicode = 119006;
-},
-{
-glyphname = "diastoliTheseos-byzantineMusic";
-unicode = 119005;
-},
-{
-glyphname = "diastoliDipli-byzantineMusic";
-unicode = 119004;
-},
-{
-glyphname = "diastoliApliMegali-byzantineMusic";
-unicode = 119003;
-},
-{
-glyphname = "diastoliApliMikri-byzantineMusic";
-unicode = 119002;
-},
-{
-glyphname = "genikiYfesis-byzantineMusic";
-unicode = 119001;
-},
-{
-glyphname = "genikiDiesis-byzantineMusic";
-unicode = 119000;
-},
-{
-glyphname = "yfesisTrigrammosOktoDodekata-byzantineMusic";
-unicode = 118999;
-},
-{
-glyphname = "yfesisDigrammosExDodekata-byzantineMusic";
-unicode = 118998;
-},
-{
-glyphname = "yfesisMonogrammosTesseraDodekata-byzantineMusic";
-unicode = 118997;
-},
-{
-glyphname = "yfesisApliDyoDodekata-byzantineMusic";
-unicode = 118996;
-},
-{
-glyphname = "diesisTrigrammosOktoDodekata-byzantineMusic";
-unicode = 118995;
-},
-{
-glyphname = "diesisDigrammosExDodekata-byzantineMusic";
-unicode = 118994;
-},
-{
-glyphname = "diesisMonogrammosTesseraDodekata-byzantineMusic";
-unicode = 118993;
-},
-{
-glyphname = "diesisApliDyoDodekata-byzantineMusic";
-unicode = 118992;
-},
-{
-glyphname = "diesisTetartimorion-byzantineMusic";
-unicode = 118991;
-},
-{
-glyphname = "diesisTritimorion-byzantineMusic";
-unicode = 118990;
-},
-{
-glyphname = "yfesisTritimorion-byzantineMusic";
-unicode = 118989;
-},
-{
-glyphname = "fthoraEnarmoniosAntifonia-byzantineMusic";
-unicode = 118988;
-},
-{
-glyphname = "fthoraIYfesisTetartimorion-byzantineMusic";
-unicode = 118987;
-},
-{
-glyphname = "chroaSpathi-byzantineMusic";
-unicode = 118986;
-},
-{
-glyphname = "chroaKliton-byzantineMusic";
-unicode = 118985;
-},
-{
-glyphname = "chroaZygos-byzantineMusic";
-unicode = 118984;
-},
-{
-glyphname = "fthoraNenano-byzantineMusic";
-unicode = 118983;
-},
-{
-glyphname = "fthoraSklironChromaSynafi-byzantineMusic";
-unicode = 118982;
-},
-{
-glyphname = "fhtoraSklironChromaVasis-byzantineMusic";
-unicode = 118981;
-},
-{
-glyphname = "fthoraMalakonChromaMonofonias-byzantineMusic";
-unicode = 118980;
-},
-{
-glyphname = "fthoraMalakonChromaDifonias-byzantineMusic";
-unicode = 118979;
-},
-{
-glyphname = "fthoraDiatonikiNiAno-byzantineMusic";
-unicode = 118978;
-},
-{
-glyphname = "fthoraDiatonikiNiKato-byzantineMusic";
-unicode = 118977;
-},
-{
-glyphname = "fthoraDiatonikiZo-byzantineMusic";
-unicode = 118976;
-},
-{
-glyphname = "fthoraDiatonikiKe-byzantineMusic";
-unicode = 118975;
-},
-{
-glyphname = "fthoraSklironDiatononDi-byzantineMusic";
-unicode = 118974;
-},
-{
-glyphname = "fthoraDiatonikiDi-byzantineMusic";
-unicode = 118973;
-},
-{
-glyphname = "fthoraNaosIchos-byzantineMusic";
-unicode = 118972;
-},
-{
-glyphname = "fthoraDiatonikiNana-byzantineMusic";
-unicode = 118971;
-},
-{
-glyphname = "fthoraDiatonikiPa-byzantineMusic";
-unicode = 118970;
-},
-{
-glyphname = "fthoraArchaionDeyterouIchou-byzantineMusic";
-unicode = 118969;
-},
-{
-glyphname = "imifthoron-byzantineMusic";
-unicode = 118968;
-},
-{
-glyphname = "imifonon-byzantineMusic";
-unicode = 118967;
-},
-{
-glyphname = "enarxisKaiFthoraVou-byzantineMusic";
-unicode = 118966;
-},
-{
-glyphname = "gorthmikonNDiploun-byzantineMusic";
-unicode = 118965;
-},
-{
-glyphname = "gorthmikonNAploun-byzantineMusic";
-unicode = 118964;
-},
-{
-glyphname = "martyriaPlagiosTetartosIchos-byzantineMusic";
-unicode = 118963;
-},
-{
-glyphname = "martyriaProtovarysIchos-byzantineMusic";
-unicode = 118962;
-},
-{
-glyphname = "martyriaVarysIchos-byzantineMusic";
-unicode = 118961;
-},
-{
-glyphname = "fanerosisDifonias-byzantineMusic";
-unicode = 118960;
-},
-{
-glyphname = "fanerosisMonofonias-byzantineMusic";
-unicode = 118959;
-},
-{
-glyphname = "fanerosisTetrafonias-byzantineMusic";
-unicode = 118958;
-},
-{
-glyphname = "apostrofoiTelousIchimatos-byzantineMusic";
-unicode = 118957;
-},
-{
-glyphname = "isakiaTelousIchimatos-byzantineMusic";
-unicode = 118956;
-},
-{
-glyphname = "martyriaPlagiosIchos-byzantineMusic";
-unicode = 118955;
-},
-{
-glyphname = "martyriaLegetosIchos-byzantineMusic";
-unicode = 118954;
-},
-{
-glyphname = "martyriaTetartosLegetosIchos-byzantineMusic";
-unicode = 118953;
-},
-{
-glyphname = "martyriaTetartosIchos-byzantineMusic";
-unicode = 118952;
-},
-{
-glyphname = "martyriaTrifonias-byzantineMusic";
-unicode = 118951;
-},
-{
-glyphname = "martyriaTritosIchos-byzantineMusic";
-unicode = 118950;
-},
-{
-glyphname = "martyriaAlliDeyterosIchos-byzantineMusic";
-unicode = 118949;
-},
-{
-glyphname = "martyriaDeyterosIchos-byzantineMusic";
-unicode = 118948;
-},
-{
-glyphname = "martyriaAlliProtosIchos-byzantineMusic";
-unicode = 118947;
-},
-{
-glyphname = "martyriaProtosIchos-byzantineMusic";
-unicode = 118946;
-},
-{
-glyphname = "agogiPoliGorgi-byzantineMusic";
-unicode = 118945;
-},
-{
-glyphname = "agogiGorgoteri-byzantineMusic";
-unicode = 118944;
-},
-{
-glyphname = "agogiGorgi-byzantineMusic";
-unicode = 118943;
-},
-{
-glyphname = "agogiMesi-byzantineMusic";
-unicode = 118942;
-},
-{
-glyphname = "agogiMetria-byzantineMusic";
-unicode = 118941;
-},
-{
-glyphname = "agogiArgi-byzantineMusic";
-unicode = 118940;
-},
-{
-glyphname = "agogiArgoteri-byzantineMusic";
-unicode = 118939;
-},
-{
-glyphname = "agogiPoliArgi-byzantineMusic";
-unicode = 118938;
-},
-{
-glyphname = "diargon-byzantineMusic";
-unicode = 118937;
-},
-{
-glyphname = "imidiargon-byzantineMusic";
-unicode = 118936;
-},
-{
-glyphname = "argon-byzantineMusic";
-unicode = 118935;
-},
-{
-glyphname = "trigorgon-byzantineMusic";
-unicode = 118934;
-},
-{
-glyphname = "digorgonParestigmenonDexia-byzantineMusic";
-unicode = 118933;
-},
-{
-glyphname = "digorgonParestigmenonAristeraAno-byzantineMusic";
-unicode = 118932;
-},
-{
-glyphname = "digorgonParestigmenonAristeraKato-byzantineMusic";
-unicode = 118931;
-},
-{
-glyphname = "digorgon-byzantineMusic";
-unicode = 118930;
-},
-{
-glyphname = "gorgonParestigmenonDexia-byzantineMusic";
-unicode = 118929;
-},
-{
-glyphname = "gorgonParestigmenonAristera-byzantineMusic";
-unicode = 118928;
-},
-{
-glyphname = "gorgonNeoAno-byzantineMusic";
-unicode = 118927;
-},
-{
-glyphname = "leimmaImiseosChronou-byzantineMusic";
-unicode = 118926;
-},
-{
-glyphname = "leimmaTessaronChronon-byzantineMusic";
-unicode = 118925;
-},
-{
-glyphname = "leimmaTrionChronon-byzantineMusic";
-unicode = 118924;
-},
-{
-glyphname = "leimmaDyoChronon-byzantineMusic";
-unicode = 118923;
-},
-{
-glyphname = "leimmaEnosChronou-byzantineMusic";
-unicode = 118922;
-},
-{
-glyphname = "koronis-byzantineMusic";
-unicode = 118921;
-},
-{
-glyphname = "tetrapli-byzantineMusic";
-unicode = 118920;
-},
-{
-glyphname = "tripli-byzantineMusic";
-unicode = 118919;
-},
-{
-glyphname = "dipli-byzantineMusic";
-unicode = 118918;
-},
-{
-glyphname = "apli-byzantineMusic";
-unicode = 118917;
-},
-{
-glyphname = "apodermaNeo-byzantineMusic";
-unicode = 118916;
-},
-{
-glyphname = "kratimaNeo-byzantineMusic";
-unicode = 118915;
-},
-{
-glyphname = "kratimaAllo-byzantineMusic";
-unicode = 118914;
-},
-{
-glyphname = "kratimaArchaion-byzantineMusic";
-unicode = 118913;
-},
-{
-glyphname = "dipliArchaion-byzantineMusic";
-unicode = 118912;
-},
-{
-glyphname = "klasmaAno-byzantineMusic";
-unicode = 118911;
-},
-{
-glyphname = "stavros-byzantineMusic";
-unicode = 118910;
-},
-{
-glyphname = "yfenAno-byzantineMusic";
-unicode = 118909;
-},
-{
-glyphname = "yfenKato-byzantineMusic";
-unicode = 118908;
-},
-{
-glyphname = "endofonon-byzantineMusic";
-unicode = 118907;
-},
-{
-glyphname = "katavasma-byzantineMusic";
-unicode = 118906;
-},
-{
-glyphname = "thesKaiApothes-byzantineMusic";
-unicode = 118905;
-},
-{
-glyphname = "themaAploun-byzantineMusic";
-unicode = 118904;
-},
-{
-glyphname = "thematismosExo-byzantineMusic";
-unicode = 118903;
-},
-{
-glyphname = "thematismosEso-byzantineMusic";
-unicode = 118902;
-},
-{
-glyphname = "oyranismaNeo-byzantineMusic";
-unicode = 118901;
-},
-{
-glyphname = "eteronArgosyntheton-byzantineMusic";
-unicode = 118900;
-},
-{
-glyphname = "argosyntheton-byzantineMusic";
-unicode = 118899;
-},
-{
-glyphname = "gorgosyntheton-byzantineMusic";
-unicode = 118898;
-},
-{
-glyphname = "psifistosynagma-byzantineMusic";
-unicode = 118897;
-},
-{
-glyphname = "tromikosynagma-byzantineMusic";
-unicode = 118896;
-},
-{
-glyphname = "psifistoparakalesma-byzantineMusic";
-unicode = 118895;
-},
-{
-glyphname = "tromikoparakalesma-byzantineMusic";
-unicode = 118894;
-},
-{
-glyphname = "tromikolygisma-byzantineMusic";
-unicode = 118893;
-},
-{
-glyphname = "psifistolygisma-byzantineMusic";
-unicode = 118892;
-},
-{
-glyphname = "tromikopsifiston-byzantineMusic";
-unicode = 118891;
-},
-{
-glyphname = "xironKlasma-byzantineMusic";
-unicode = 118890;
-},
-{
-glyphname = "seismaNeo-byzantineMusic";
-unicode = 118889;
-},
-{
-glyphname = "epegerma-byzantineMusic";
-unicode = 118888;
-},
-{
-glyphname = "chorevmaNeo-byzantineMusic";
-unicode = 118887;
-},
-{
-glyphname = "syrma-byzantineMusic";
-unicode = 118886;
-},
-{
-glyphname = "synagmaNeo-byzantineMusic";
-unicode = 118885;
-},
-{
-glyphname = "ekstrepton-byzantineMusic";
-unicode = 118884;
-},
-{
-glyphname = "tromikonNeo-byzantineMusic";
-unicode = 118883;
-},
-{
-glyphname = "antikenokylisma-byzantineMusic";
-unicode = 118882;
-},
-{
-glyphname = "kylisma-byzantineMusic";
-unicode = 118881;
-},
-{
-glyphname = "eteronParakalesma-byzantineMusic";
-unicode = 118880;
-},
-{
-glyphname = "parakalesmaNeo-byzantineMusic";
-unicode = 118879;
-},
-{
-glyphname = "paraklitikiNeo-byzantineMusic";
-unicode = 118878;
-},
-{
-glyphname = "lygisma-byzantineMusic";
-unicode = 118877;
-},
-{
-glyphname = "antikenoma-byzantineMusic";
-unicode = 118876;
-},
-{
-glyphname = "omalon-byzantineMusic";
-unicode = 118875;
-},
-{
-glyphname = "psifistonNeo-byzantineMusic";
-unicode = 118874;
-},
-{
-glyphname = "piasmaNeo-byzantineMusic";
-unicode = 118873;
-},
-{
-glyphname = "vareiaNeo-byzantineMusic";
-unicode = 118872;
-},
-{
-glyphname = "mikronIson-byzantineMusic";
-unicode = 118871;
-},
-{
-glyphname = "chamili-byzantineMusic";
-unicode = 118870;
-},
-{
-glyphname = "elafron-byzantineMusic";
-unicode = 118869;
-},
-{
-glyphname = "kratimoyporroon-byzantineMusic";
-unicode = 118868;
-},
-{
-glyphname = "yporroi-byzantineMusic";
-unicode = 118867;
-},
-{
-glyphname = "apostrofoiSyndesmosNeo-byzantineMusic";
-unicode = 118866;
-},
-{
-glyphname = "apostrofosNeo-byzantineMusic";
-unicode = 118865;
-},
-{
-glyphname = "ypsili-byzantineMusic";
-unicode = 118864;
-},
-{
-glyphname = "kentimaNeoAno-byzantineMusic";
-unicode = 118863;
-},
-{
-glyphname = "kentimataNeoAno-byzantineMusic";
-unicode = 118862;
-},
-{
-glyphname = "pelastonNeo-byzantineMusic";
-unicode = 118861;
-},
-{
-glyphname = "kratimokoufisma-byzantineMusic";
-unicode = 118860;
-},
-{
-glyphname = "petastokoufisma-byzantineMusic";
-unicode = 118859;
-},
-{
-glyphname = "koufisma-byzantineMusic";
-unicode = 118858;
-},
-{
-glyphname = "petasti-byzantineMusic";
-unicode = 118857;
-},
-{
-glyphname = "oxeiaNeo-byzantineMusic";
-unicode = 118856;
-},
-{
-glyphname = "oligonNeo-byzantineMusic";
-unicode = 118855;
-},
-{
-glyphname = "isonNeo-byzantineMusic";
-unicode = 118854;
-},
-{
-glyphname = "gronthismata-byzantineMusic";
-unicode = 118853;
-},
-{
-glyphname = "straggismata-byzantineMusic";
-unicode = 118852;
-},
-{
-glyphname = "tromikonAllo-byzantineMusic";
-unicode = 118851;
-},
-{
-glyphname = "kontevmaAllo-byzantineMusic";
-unicode = 118850;
-},
-{
-glyphname = "petasma-byzantineMusic";
-unicode = 118849;
-},
-{
-glyphname = "nana-byzantineMusic";
-unicode = 118848;
-},
-{
-glyphname = "ichadin-byzantineMusic";
-unicode = 118847;
-},
-{
-glyphname = "paraklitikiArchaion-byzantineMusic";
-unicode = 118846;
-},
-{
-glyphname = "parakalesmaArchaion-byzantineMusic";
-unicode = 118845;
-},
-{
-glyphname = "rapisma-byzantineMusic";
-unicode = 118844;
-},
-{
-glyphname = "chorevmaArchaion-byzantineMusic";
-unicode = 118843;
-},
-{
-glyphname = "kontevma-byzantineMusic";
-unicode = 118842;
-},
-{
-glyphname = "psifiston-byzantineMusic";
-unicode = 118841;
-},
-{
-glyphname = "pelaston-byzantineMusic";
-unicode = 118840;
-},
-{
-glyphname = "katavaTromikon-byzantineMusic";
-unicode = 118839;
-},
-{
-glyphname = "tromikonArchaion-byzantineMusic";
-unicode = 118838;
-},
-{
-glyphname = "imifthora-byzantineMusic";
-unicode = 118837;
-},
-{
-glyphname = "fthoraArchaion-byzantineMusic";
-unicode = 118836;
-},
-{
-glyphname = "apesoExoNeo-byzantineMusic";
-unicode = 118835;
-},
-{
-glyphname = "kratimata-byzantineMusic";
-unicode = 118834;
-},
-{
-glyphname = "tessera-byzantineMusic";
-unicode = 118833;
-},
-{
-glyphname = "tria-byzantineMusic";
-unicode = 118832;
-},
-{
-glyphname = "dyo-byzantineMusic";
-unicode = 118831;
-},
-{
-glyphname = "lemoi-byzantineMusic";
-unicode = 118830;
-},
-{
-glyphname = "thema-byzantineMusic";
-unicode = 118829;
-},
-{
-glyphname = "oyranismaArchaion-byzantineMusic";
-unicode = 118828;
-},
-{
-glyphname = "synagmaMetaStavrou-byzantineMusic";
-unicode = 118827;
-},
-{
-glyphname = "synagmaArchaion-byzantineMusic";
-unicode = 118826;
-},
-{
-glyphname = "seisma-byzantineMusic";
-unicode = 118825;
-},
-{
-glyphname = "anatrichisma-byzantineMusic";
-unicode = 118824;
-},
-{
-glyphname = "tinagma-byzantineMusic";
-unicode = 118823;
-},
-{
-glyphname = "piasmaArchaion-byzantineMusic";
-unicode = 118822;
-},
-{
-glyphname = "revma-byzantineMusic";
-unicode = 118821;
-},
-{
-glyphname = "klasma-byzantineMusic";
-unicode = 118820;
-},
-{
-glyphname = "apothema-byzantineMusic";
-unicode = 118819;
-},
-{
-glyphname = "apodermaArchaion-byzantineMusic";
-unicode = 118818;
-},
-{
-glyphname = "vareiaiArchaion-byzantineMusic";
-unicode = 118817;
-},
-{
-glyphname = "oxeiaiArchaion-byzantineMusic";
-unicode = 118816;
-},
-{
-glyphname = "stavrosApodexia-byzantineMusic";
-unicode = 118815;
-},
-{
-glyphname = "parichon-byzantineMusic";
-unicode = 118814;
-},
-{
-glyphname = "saximata-byzantineMusic";
-unicode = 118813;
-},
-{
-glyphname = "kentimataArchaion-byzantineMusic";
-unicode = 118812;
-},
-{
-glyphname = "kentimaArchaion-byzantineMusic";
-unicode = 118811;
-},
-{
-glyphname = "isonArchaion-byzantineMusic";
-unicode = 118810;
-},
-{
-glyphname = "vathy-byzantineMusic";
-unicode = 118809;
-},
-{
-glyphname = "chamilon-byzantineMusic";
-unicode = 118808;
-},
-{
-glyphname = "psilon-byzantineMusic";
-unicode = 118807;
-},
-{
-glyphname = "gorgonArchaion-byzantineMusic";
-unicode = 118806;
-},
-{
-glyphname = "oligonArchaion-byzantineMusic";
-unicode = 118805;
-},
-{
-glyphname = "thita-byzantineMusic";
-unicode = 118804;
-},
-{
-glyphname = "synevma-byzantineMusic";
-unicode = 118803;
-},
-{
-glyphname = "apostrofosDipli-byzantineMusic";
-unicode = 118802;
-},
-{
-glyphname = "apostrofos-byzantineMusic";
-unicode = 118801;
-},
-{
-glyphname = "kentimata-byzantineMusic";
-unicode = 118800;
-},
-{
-glyphname = "teleia-byzantineMusic";
-unicode = 118799;
-},
-{
-glyphname = "exoEkfonitikon-byzantineMusic";
-unicode = 118798;
-},
-{
-glyphname = "apesoEkfonitikon-byzantineMusic";
-unicode = 118797;
-},
-{
-glyphname = "kremasti-byzantineMusic";
-unicode = 118796;
-},
-{
-glyphname = "ypokrisisDipli-byzantineMusic";
-unicode = 118795;
-},
-{
-glyphname = "ypokrisis-byzantineMusic";
-unicode = 118794;
-},
-{
-glyphname = "paraklitiki-byzantineMusic";
-unicode = 118793;
-},
-{
-glyphname = "syrmatiki-byzantineMusic";
-unicode = 118792;
-},
-{
-glyphname = "kathisti-byzantineMusic";
-unicode = 118791;
-},
-{
-glyphname = "vareiaDipli-byzantineMusic";
-unicode = 118790;
-},
-{
-glyphname = "vareiaEkfonitikon-byzantineMusic";
-unicode = 118789;
-},
-{
-glyphname = "oxeiaDipli-byzantineMusic";
-unicode = 118788;
-},
-{
-glyphname = "oxeiaEkfonitikon-byzantineMusic";
-unicode = 118787;
-},
-{
-glyphname = "perispomeni-byzantineMusic";
-unicode = 118786;
-},
-{
-glyphname = "daseia-byzantineMusic";
-unicode = 118785;
-},
-{
-glyphname = "psili-byzantineMusic";
-unicode = 118784;
-},
-{
-glyphname = uni1D200;
-unicode = 119296;
-},
-{
-glyphname = uni1D201;
-unicode = 119297;
-},
-{
-glyphname = uni1D202;
-unicode = 119298;
-},
-{
-glyphname = uni1D203;
-unicode = 119299;
-},
-{
-glyphname = uni1D204;
-unicode = 119300;
-},
-{
-glyphname = uni1D205;
-unicode = 119301;
-},
-{
-glyphname = uni1D206;
-unicode = 119302;
-},
-{
-glyphname = uni1D207;
-unicode = 119303;
-},
-{
-glyphname = uni1D208;
-unicode = 119304;
-},
-{
-glyphname = uni1D209;
-unicode = 119305;
-},
-{
-glyphname = uni1D20A;
-unicode = 119306;
-},
-{
-glyphname = uni1D20B;
-unicode = 119307;
-},
-{
-glyphname = uni1D20C;
-unicode = 119308;
-},
-{
-glyphname = uni1D20D;
-unicode = 119309;
-},
-{
-glyphname = uni1D20E;
-unicode = 119310;
-},
-{
-glyphname = uni1D20F;
-unicode = 119311;
-},
-{
-glyphname = uni1D210;
-unicode = 119312;
-},
-{
-glyphname = uni1D211;
-unicode = 119313;
-},
-{
-glyphname = uni1D212;
-unicode = 119314;
-},
-{
-glyphname = uni1D213;
-unicode = 119315;
-},
-{
-glyphname = uni1D214;
-unicode = 119316;
-},
-{
-glyphname = uni1D215;
-unicode = 119317;
-},
-{
-glyphname = uni1D216;
-unicode = 119318;
-},
-{
-glyphname = uni1D217;
-unicode = 119319;
-},
-{
-glyphname = uni1D218;
-unicode = 119320;
-},
-{
-glyphname = uni1D219;
-unicode = 119321;
-},
-{
-glyphname = uni1D21A;
-unicode = 119322;
-},
-{
-glyphname = uni1D21B;
-unicode = 119323;
-},
-{
-glyphname = uni1D21C;
-unicode = 119324;
-},
-{
-glyphname = uni1D21D;
-unicode = 119325;
-},
-{
-glyphname = uni1D21E;
-unicode = 119326;
-},
-{
-glyphname = uni1D21F;
-unicode = 119327;
-},
-{
-glyphname = uni1D220;
-unicode = 119328;
-},
-{
-glyphname = uni1D221;
-unicode = 119329;
-},
-{
-glyphname = uni1D222;
-unicode = 119330;
-},
-{
-glyphname = uni1D223;
-unicode = 119331;
-},
-{
-glyphname = uni1D224;
-unicode = 119332;
-},
-{
-glyphname = uni1D225;
-unicode = 119333;
-},
-{
-glyphname = uni1D226;
-unicode = 119334;
-},
-{
-glyphname = uni1D227;
-unicode = 119335;
-},
-{
-glyphname = uni1D228;
-unicode = 119336;
-},
-{
-glyphname = uni1D229;
-unicode = 119337;
-},
-{
-glyphname = uni1D22A;
-unicode = 119338;
-},
-{
-glyphname = uni1D22B;
-unicode = 119339;
-},
-{
-glyphname = uni1D22C;
-unicode = 119340;
-},
-{
-glyphname = uni1D22D;
-unicode = 119341;
-},
-{
-glyphname = uni1D22E;
-unicode = 119342;
-},
-{
-glyphname = uni1D22F;
-unicode = 119343;
-},
-{
-glyphname = uni1D230;
-unicode = 119344;
-},
-{
-glyphname = uni1D231;
-unicode = 119345;
-},
-{
-glyphname = uni1D232;
-unicode = 119346;
-},
-{
-glyphname = uni1D233;
-unicode = 119347;
-},
-{
-glyphname = uni1D234;
-unicode = 119348;
-},
-{
-glyphname = uni1D235;
-unicode = 119349;
-},
-{
-glyphname = uni1D236;
-unicode = 119350;
-},
-{
-glyphname = uni1D237;
-unicode = 119351;
-},
-{
-glyphname = uni1D238;
-unicode = 119352;
-},
-{
-glyphname = uni1D239;
-unicode = 119353;
-},
-{
-glyphname = uni1D23A;
-unicode = 119354;
-},
-{
-glyphname = uni1D23B;
-unicode = 119355;
-},
-{
-glyphname = uni1D23C;
-unicode = 119356;
-},
-{
-glyphname = uni1D23D;
-unicode = 119357;
-},
-{
-glyphname = uni1D23E;
-unicode = 119358;
-},
-{
-glyphname = uni1D23F;
-unicode = 119359;
-},
-{
-glyphname = uni1D240;
-unicode = 119360;
-},
-{
-glyphname = uni1D241;
-unicode = 119361;
-},
-{
-glyphname = uni1D242;
-unicode = 119362;
-},
-{
-glyphname = uni1D243;
-unicode = 119363;
+glyphname = uni1D245;
+unicode = 119365;
 },
 {
 glyphname = uni1D244;
 unicode = 119364;
 },
 {
-glyphname = uni1D245;
-unicode = 119365;
+glyphname = uni1D243;
+unicode = 119363;
+},
+{
+glyphname = uni1D242;
+unicode = 119362;
+},
+{
+glyphname = uni1D241;
+unicode = 119361;
+},
+{
+glyphname = uni1D240;
+unicode = 119360;
+},
+{
+glyphname = uni1D23F;
+unicode = 119359;
+},
+{
+glyphname = uni1D23E;
+unicode = 119358;
+},
+{
+glyphname = uni1D23D;
+unicode = 119357;
+},
+{
+glyphname = uni1D23C;
+unicode = 119356;
+},
+{
+glyphname = uni1D23B;
+unicode = 119355;
+},
+{
+glyphname = uni1D23A;
+unicode = 119354;
+},
+{
+glyphname = uni1D239;
+unicode = 119353;
+},
+{
+glyphname = uni1D238;
+unicode = 119352;
+},
+{
+glyphname = uni1D237;
+unicode = 119351;
+},
+{
+glyphname = uni1D236;
+unicode = 119350;
+},
+{
+glyphname = uni1D235;
+unicode = 119349;
+},
+{
+glyphname = uni1D234;
+unicode = 119348;
+},
+{
+glyphname = uni1D233;
+unicode = 119347;
+},
+{
+glyphname = uni1D232;
+unicode = 119346;
+},
+{
+glyphname = uni1D231;
+unicode = 119345;
+},
+{
+glyphname = uni1D230;
+unicode = 119344;
+},
+{
+glyphname = uni1D22F;
+unicode = 119343;
+},
+{
+glyphname = uni1D22E;
+unicode = 119342;
+},
+{
+glyphname = uni1D22D;
+unicode = 119341;
+},
+{
+glyphname = uni1D22C;
+unicode = 119340;
+},
+{
+glyphname = uni1D22B;
+unicode = 119339;
+},
+{
+glyphname = uni1D22A;
+unicode = 119338;
+},
+{
+glyphname = uni1D229;
+unicode = 119337;
+},
+{
+glyphname = uni1D228;
+unicode = 119336;
+},
+{
+glyphname = uni1D227;
+unicode = 119335;
+},
+{
+glyphname = uni1D226;
+unicode = 119334;
+},
+{
+glyphname = uni1D225;
+unicode = 119333;
+},
+{
+glyphname = uni1D224;
+unicode = 119332;
+},
+{
+glyphname = uni1D223;
+unicode = 119331;
+},
+{
+glyphname = uni1D222;
+unicode = 119330;
+},
+{
+glyphname = uni1D221;
+unicode = 119329;
+},
+{
+glyphname = uni1D220;
+unicode = 119328;
+},
+{
+glyphname = uni1D21F;
+unicode = 119327;
+},
+{
+glyphname = uni1D21E;
+unicode = 119326;
+},
+{
+glyphname = uni1D21D;
+unicode = 119325;
+},
+{
+glyphname = uni1D21C;
+unicode = 119324;
+},
+{
+glyphname = uni1D21B;
+unicode = 119323;
+},
+{
+glyphname = uni1D21A;
+unicode = 119322;
+},
+{
+glyphname = uni1D219;
+unicode = 119321;
+},
+{
+glyphname = uni1D218;
+unicode = 119320;
+},
+{
+glyphname = uni1D217;
+unicode = 119319;
+},
+{
+glyphname = uni1D216;
+unicode = 119318;
+},
+{
+glyphname = uni1D215;
+unicode = 119317;
+},
+{
+glyphname = uni1D214;
+unicode = 119316;
+},
+{
+glyphname = uni1D213;
+unicode = 119315;
+},
+{
+glyphname = uni1D212;
+unicode = 119314;
+},
+{
+glyphname = uni1D211;
+unicode = 119313;
+},
+{
+glyphname = uni1D210;
+unicode = 119312;
+},
+{
+glyphname = uni1D20F;
+unicode = 119311;
+},
+{
+glyphname = uni1D20E;
+unicode = 119310;
+},
+{
+glyphname = uni1D20D;
+unicode = 119309;
+},
+{
+glyphname = uni1D20C;
+unicode = 119308;
+},
+{
+glyphname = uni1D20B;
+unicode = 119307;
+},
+{
+glyphname = uni1D20A;
+unicode = 119306;
+},
+{
+glyphname = uni1D209;
+unicode = 119305;
+},
+{
+glyphname = uni1D208;
+unicode = 119304;
+},
+{
+glyphname = uni1D207;
+unicode = 119303;
+},
+{
+glyphname = uni1D206;
+unicode = 119302;
+},
+{
+glyphname = uni1D205;
+unicode = 119301;
+},
+{
+glyphname = uni1D204;
+unicode = 119300;
+},
+{
+glyphname = uni1D203;
+unicode = 119299;
+},
+{
+glyphname = uni1D202;
+unicode = 119298;
+},
+{
+glyphname = uni1D201;
+unicode = 119297;
+},
+{
+glyphname = uni1D200;
+unicode = 119296;
+},
+{
+glyphname = uni1D0F5;
+unicode = 119029;
+},
+{
+glyphname = uni1D0F4;
+unicode = 119028;
+},
+{
+glyphname = uni1D0F3;
+unicode = 119027;
+},
+{
+glyphname = uni1D0F2;
+unicode = 119026;
+},
+{
+glyphname = uni1D0F1;
+unicode = 119025;
+},
+{
+glyphname = uni1D0F0;
+unicode = 119024;
+},
+{
+glyphname = uni1D0EF;
+unicode = 119023;
+},
+{
+glyphname = uni1D0EE;
+unicode = 119022;
+},
+{
+glyphname = uni1D0ED;
+unicode = 119021;
+},
+{
+glyphname = uni1D0EC;
+unicode = 119020;
+},
+{
+glyphname = uni1D0EB;
+unicode = 119019;
+},
+{
+glyphname = uni1D0EA;
+unicode = 119018;
+},
+{
+glyphname = uni1D0E9;
+unicode = 119017;
+},
+{
+glyphname = uni1D0E8;
+unicode = 119016;
+},
+{
+glyphname = uni1D0E7;
+unicode = 119015;
+},
+{
+glyphname = uni1D0E6;
+unicode = 119014;
+},
+{
+glyphname = uni1D0E5;
+unicode = 119013;
+},
+{
+glyphname = uni1D0E4;
+unicode = 119012;
+},
+{
+glyphname = uni1D0E3;
+unicode = 119011;
+},
+{
+glyphname = uni1D0E2;
+unicode = 119010;
+},
+{
+glyphname = uni1D0E1;
+unicode = 119009;
+},
+{
+glyphname = uni1D0E0;
+unicode = 119008;
+},
+{
+glyphname = uni1D0DF;
+unicode = 119007;
+},
+{
+glyphname = uni1D0DE;
+unicode = 119006;
+},
+{
+glyphname = uni1D0DD;
+unicode = 119005;
+},
+{
+glyphname = uni1D0DC;
+unicode = 119004;
+},
+{
+glyphname = uni1D0DB;
+unicode = 119003;
+},
+{
+glyphname = uni1D0DA;
+unicode = 119002;
+},
+{
+glyphname = uni1D0D9;
+unicode = 119001;
+},
+{
+glyphname = uni1D0D8;
+unicode = 119000;
+},
+{
+glyphname = uni1D0D7;
+unicode = 118999;
+},
+{
+glyphname = uni1D0D6;
+unicode = 118998;
+},
+{
+glyphname = uni1D0D5;
+unicode = 118997;
+},
+{
+glyphname = uni1D0D4;
+unicode = 118996;
+},
+{
+glyphname = uni1D0D3;
+unicode = 118995;
+},
+{
+glyphname = uni1D0D2;
+unicode = 118994;
+},
+{
+glyphname = uni1D0D1;
+unicode = 118993;
+},
+{
+glyphname = uni1D0D0;
+unicode = 118992;
+},
+{
+glyphname = uni1D0CF;
+unicode = 118991;
+},
+{
+glyphname = uni1D0CE;
+unicode = 118990;
+},
+{
+glyphname = uni1D0CD;
+unicode = 118989;
+},
+{
+glyphname = uni1D0CC;
+unicode = 118988;
+},
+{
+glyphname = uni1D0CB;
+unicode = 118987;
+},
+{
+glyphname = uni1D0CA;
+unicode = 118986;
+},
+{
+glyphname = uni1D0C9;
+unicode = 118985;
+},
+{
+glyphname = uni1D0C8;
+unicode = 118984;
+},
+{
+glyphname = uni1D0C7;
+unicode = 118983;
+},
+{
+glyphname = uni1D0C6;
+unicode = 118982;
+},
+{
+glyphname = uni1D0C5;
+unicode = 118981;
+},
+{
+glyphname = uni1D0C4;
+unicode = 118980;
+},
+{
+glyphname = uni1D0C3;
+unicode = 118979;
+},
+{
+glyphname = uni1D0C2;
+unicode = 118978;
+},
+{
+glyphname = uni1D0C1;
+unicode = 118977;
+},
+{
+glyphname = uni1D0C0;
+unicode = 118976;
+},
+{
+glyphname = uni1D0BF;
+unicode = 118975;
+},
+{
+glyphname = uni1D0BE;
+unicode = 118974;
+},
+{
+glyphname = uni1D0BD;
+unicode = 118973;
+},
+{
+glyphname = uni1D0BC;
+unicode = 118972;
+},
+{
+glyphname = uni1D0BB;
+unicode = 118971;
+},
+{
+glyphname = uni1D0BA;
+unicode = 118970;
+},
+{
+glyphname = uni1D0B9;
+unicode = 118969;
+},
+{
+glyphname = uni1D0B8;
+unicode = 118968;
+},
+{
+glyphname = uni1D0B7;
+unicode = 118967;
+},
+{
+glyphname = uni1D0B6;
+unicode = 118966;
+},
+{
+glyphname = uni1D0B5;
+unicode = 118965;
+},
+{
+glyphname = uni1D0B4;
+unicode = 118964;
+},
+{
+glyphname = uni1D0B3;
+unicode = 118963;
+},
+{
+glyphname = uni1D0B2;
+unicode = 118962;
+},
+{
+glyphname = uni1D0B1;
+unicode = 118961;
+},
+{
+glyphname = uni1D0B0;
+unicode = 118960;
+},
+{
+glyphname = uni1D0AF;
+unicode = 118959;
+},
+{
+glyphname = uni1D0AE;
+unicode = 118958;
+},
+{
+glyphname = uni1D0AD;
+unicode = 118957;
+},
+{
+glyphname = uni1D0AC;
+unicode = 118956;
+},
+{
+glyphname = uni1D0AB;
+unicode = 118955;
+},
+{
+glyphname = uni1D0AA;
+unicode = 118954;
+},
+{
+glyphname = uni1D0A9;
+unicode = 118953;
+},
+{
+glyphname = uni1D0A8;
+unicode = 118952;
+},
+{
+glyphname = uni1D0A7;
+unicode = 118951;
+},
+{
+glyphname = uni1D0A6;
+unicode = 118950;
+},
+{
+glyphname = uni1D0A5;
+unicode = 118949;
+},
+{
+glyphname = uni1D0A4;
+unicode = 118948;
+},
+{
+glyphname = uni1D0A3;
+unicode = 118947;
+},
+{
+glyphname = uni1D0A2;
+unicode = 118946;
+},
+{
+glyphname = uni1D0A1;
+unicode = 118945;
+},
+{
+glyphname = uni1D0A0;
+unicode = 118944;
+},
+{
+glyphname = uni1D09F;
+unicode = 118943;
+},
+{
+glyphname = uni1D09E;
+unicode = 118942;
+},
+{
+glyphname = uni1D09D;
+unicode = 118941;
+},
+{
+glyphname = uni1D09C;
+unicode = 118940;
+},
+{
+glyphname = uni1D09B;
+unicode = 118939;
+},
+{
+glyphname = uni1D09A;
+unicode = 118938;
+},
+{
+glyphname = uni1D099;
+unicode = 118937;
+},
+{
+glyphname = uni1D098;
+unicode = 118936;
+},
+{
+glyphname = uni1D097;
+unicode = 118935;
+},
+{
+glyphname = uni1D096;
+unicode = 118934;
+},
+{
+glyphname = uni1D095;
+unicode = 118933;
+},
+{
+glyphname = uni1D094;
+unicode = 118932;
+},
+{
+glyphname = uni1D093;
+unicode = 118931;
+},
+{
+glyphname = uni1D092;
+unicode = 118930;
+},
+{
+glyphname = uni1D091;
+unicode = 118929;
+},
+{
+glyphname = uni1D090;
+unicode = 118928;
+},
+{
+glyphname = uni1D08F;
+unicode = 118927;
+},
+{
+glyphname = uni1D08E;
+unicode = 118926;
+},
+{
+glyphname = uni1D08D;
+unicode = 118925;
+},
+{
+glyphname = uni1D08C;
+unicode = 118924;
+},
+{
+glyphname = uni1D08B;
+unicode = 118923;
+},
+{
+glyphname = uni1D08A;
+unicode = 118922;
+},
+{
+glyphname = uni1D089;
+unicode = 118921;
+},
+{
+glyphname = uni1D088;
+unicode = 118920;
+},
+{
+glyphname = uni1D087;
+unicode = 118919;
+},
+{
+glyphname = uni1D086;
+unicode = 118918;
+},
+{
+glyphname = uni1D085;
+unicode = 118917;
+},
+{
+glyphname = uni1D084;
+unicode = 118916;
+},
+{
+glyphname = uni1D083;
+unicode = 118915;
+},
+{
+glyphname = uni1D082;
+unicode = 118914;
+},
+{
+glyphname = uni1D081;
+unicode = 118913;
+},
+{
+glyphname = uni1D080;
+unicode = 118912;
+},
+{
+glyphname = uni1D07F;
+unicode = 118911;
+},
+{
+glyphname = uni1D07E;
+unicode = 118910;
+},
+{
+glyphname = uni1D07D;
+unicode = 118909;
+},
+{
+glyphname = uni1D07C;
+unicode = 118908;
+},
+{
+glyphname = uni1D07B;
+unicode = 118907;
+},
+{
+glyphname = uni1D07A;
+unicode = 118906;
+},
+{
+glyphname = uni1D079;
+unicode = 118905;
+},
+{
+glyphname = uni1D078;
+unicode = 118904;
+},
+{
+glyphname = uni1D077;
+unicode = 118903;
+},
+{
+glyphname = uni1D076;
+unicode = 118902;
+},
+{
+glyphname = uni1D075;
+unicode = 118901;
+},
+{
+glyphname = uni1D074;
+unicode = 118900;
+},
+{
+glyphname = uni1D073;
+unicode = 118899;
+},
+{
+glyphname = uni1D072;
+unicode = 118898;
+},
+{
+glyphname = uni1D071;
+unicode = 118897;
+},
+{
+glyphname = uni1D070;
+unicode = 118896;
+},
+{
+glyphname = uni1D06F;
+unicode = 118895;
+},
+{
+glyphname = uni1D06E;
+unicode = 118894;
+},
+{
+glyphname = uni1D06D;
+unicode = 118893;
+},
+{
+glyphname = uni1D06C;
+unicode = 118892;
+},
+{
+glyphname = uni1D06B;
+unicode = 118891;
+},
+{
+glyphname = uni1D06A;
+unicode = 118890;
+},
+{
+glyphname = uni1D069;
+unicode = 118889;
+},
+{
+glyphname = uni1D068;
+unicode = 118888;
+},
+{
+glyphname = uni1D067;
+unicode = 118887;
+},
+{
+glyphname = uni1D066;
+unicode = 118886;
+},
+{
+glyphname = uni1D065;
+unicode = 118885;
+},
+{
+glyphname = uni1D064;
+unicode = 118884;
+},
+{
+glyphname = uni1D063;
+unicode = 118883;
+},
+{
+glyphname = uni1D062;
+unicode = 118882;
+},
+{
+glyphname = uni1D061;
+unicode = 118881;
+},
+{
+glyphname = uni1D060;
+unicode = 118880;
+},
+{
+glyphname = uni1D05F;
+unicode = 118879;
+},
+{
+glyphname = uni1D05E;
+unicode = 118878;
+},
+{
+glyphname = uni1D05D;
+unicode = 118877;
+},
+{
+glyphname = uni1D05C;
+unicode = 118876;
+},
+{
+glyphname = uni1D05B;
+unicode = 118875;
+},
+{
+glyphname = uni1D05A;
+unicode = 118874;
+},
+{
+glyphname = uni1D059;
+unicode = 118873;
+},
+{
+glyphname = uni1D058;
+unicode = 118872;
+},
+{
+glyphname = uni1D057;
+unicode = 118871;
+},
+{
+glyphname = uni1D056;
+unicode = 118870;
+},
+{
+glyphname = uni1D055;
+unicode = 118869;
+},
+{
+glyphname = uni1D054;
+unicode = 118868;
+},
+{
+glyphname = uni1D053;
+unicode = 118867;
+},
+{
+glyphname = uni1D052;
+unicode = 118866;
+},
+{
+glyphname = uni1D051;
+unicode = 118865;
+},
+{
+glyphname = uni1D050;
+unicode = 118864;
+},
+{
+glyphname = uni1D04F;
+unicode = 118863;
+},
+{
+glyphname = uni1D04E;
+unicode = 118862;
+},
+{
+glyphname = uni1D04D;
+unicode = 118861;
+},
+{
+glyphname = uni1D04C;
+unicode = 118860;
+},
+{
+glyphname = uni1D04B;
+unicode = 118859;
+},
+{
+glyphname = uni1D04A;
+unicode = 118858;
+},
+{
+glyphname = uni1D049;
+unicode = 118857;
+},
+{
+glyphname = uni1D048;
+unicode = 118856;
+},
+{
+glyphname = uni1D047;
+unicode = 118855;
+},
+{
+glyphname = uni1D046;
+unicode = 118854;
+},
+{
+glyphname = uni1D045;
+unicode = 118853;
+},
+{
+glyphname = uni1D044;
+unicode = 118852;
+},
+{
+glyphname = uni1D043;
+unicode = 118851;
+},
+{
+glyphname = uni1D042;
+unicode = 118850;
+},
+{
+glyphname = uni1D041;
+unicode = 118849;
+},
+{
+glyphname = uni1D040;
+unicode = 118848;
+},
+{
+glyphname = uni1D03F;
+unicode = 118847;
+},
+{
+glyphname = uni1D03E;
+unicode = 118846;
+},
+{
+glyphname = uni1D03D;
+unicode = 118845;
+},
+{
+glyphname = uni1D03C;
+unicode = 118844;
+},
+{
+glyphname = uni1D03B;
+unicode = 118843;
+},
+{
+glyphname = uni1D03A;
+unicode = 118842;
+},
+{
+glyphname = uni1D039;
+unicode = 118841;
+},
+{
+glyphname = uni1D038;
+unicode = 118840;
+},
+{
+glyphname = uni1D037;
+unicode = 118839;
+},
+{
+glyphname = uni1D036;
+unicode = 118838;
+},
+{
+glyphname = uni1D035;
+unicode = 118837;
+},
+{
+glyphname = uni1D034;
+unicode = 118836;
+},
+{
+glyphname = uni1D033;
+unicode = 118835;
+},
+{
+glyphname = uni1D032;
+unicode = 118834;
+},
+{
+glyphname = uni1D031;
+unicode = 118833;
+},
+{
+glyphname = uni1D030;
+unicode = 118832;
+},
+{
+glyphname = uni1D02F;
+unicode = 118831;
+},
+{
+glyphname = uni1D02E;
+unicode = 118830;
+},
+{
+glyphname = uni1D02D;
+unicode = 118829;
+},
+{
+glyphname = uni1D02C;
+unicode = 118828;
+},
+{
+glyphname = uni1D02B;
+unicode = 118827;
+},
+{
+glyphname = uni1D02A;
+unicode = 118826;
+},
+{
+glyphname = uni1D029;
+unicode = 118825;
+},
+{
+glyphname = uni1D028;
+unicode = 118824;
+},
+{
+glyphname = uni1D027;
+unicode = 118823;
+},
+{
+glyphname = uni1D026;
+unicode = 118822;
+},
+{
+glyphname = uni1D025;
+unicode = 118821;
+},
+{
+glyphname = uni1D024;
+unicode = 118820;
+},
+{
+glyphname = uni1D023;
+unicode = 118819;
+},
+{
+glyphname = uni1D022;
+unicode = 118818;
+},
+{
+glyphname = uni1D021;
+unicode = 118817;
+},
+{
+glyphname = uni1D020;
+unicode = 118816;
+},
+{
+glyphname = uni1D01F;
+unicode = 118815;
+},
+{
+glyphname = uni1D01E;
+unicode = 118814;
+},
+{
+glyphname = uni1D01D;
+unicode = 118813;
+},
+{
+glyphname = uni1D01C;
+unicode = 118812;
+},
+{
+glyphname = uni1D01B;
+unicode = 118811;
+},
+{
+glyphname = uni1D01A;
+unicode = 118810;
+},
+{
+glyphname = uni1D019;
+unicode = 118809;
+},
+{
+glyphname = uni1D018;
+unicode = 118808;
+},
+{
+glyphname = uni1D017;
+unicode = 118807;
+},
+{
+glyphname = uni1D016;
+unicode = 118806;
+},
+{
+glyphname = uni1D015;
+unicode = 118805;
+},
+{
+glyphname = uni1D014;
+unicode = 118804;
+},
+{
+glyphname = uni1D013;
+unicode = 118803;
+},
+{
+glyphname = uni1D012;
+unicode = 118802;
+},
+{
+glyphname = uni1D011;
+unicode = 118801;
+},
+{
+glyphname = uni1D010;
+unicode = 118800;
+},
+{
+glyphname = uni1D00F;
+unicode = 118799;
+},
+{
+glyphname = uni1D00E;
+unicode = 118798;
+},
+{
+glyphname = uni1D00D;
+unicode = 118797;
+},
+{
+glyphname = uni1D00C;
+unicode = 118796;
+},
+{
+glyphname = uni1D00B;
+unicode = 118795;
+},
+{
+glyphname = uni1D00A;
+unicode = 118794;
+},
+{
+glyphname = uni1D009;
+unicode = 118793;
+},
+{
+glyphname = uni1D008;
+unicode = 118792;
+},
+{
+glyphname = uni1D007;
+unicode = 118791;
+},
+{
+glyphname = uni1D006;
+unicode = 118790;
+},
+{
+glyphname = uni1D005;
+unicode = 118789;
+},
+{
+glyphname = uni1D004;
+unicode = 118788;
+},
+{
+glyphname = uni1D003;
+unicode = 118787;
+},
+{
+glyphname = uni1D002;
+unicode = 118786;
+},
+{
+glyphname = uni1D001;
+unicode = 118785;
+},
+{
+glyphname = uni1D000;
+unicode = 118784;
 }
 );
 instances = (

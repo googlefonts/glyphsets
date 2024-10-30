@@ -39,7 +39,7 @@ hturned
 hhook
 henghook
 istroke
-Ismall
+icapitalsmall
 lmiddletilde
 lbelt
 lhookretroflex
@@ -56,7 +56,7 @@ phi-latin
 rturned
 rlonglegturned
 rhookturned
-rhook
+rtail
 rfishhook
 Rsmall
 Rsmallinverted

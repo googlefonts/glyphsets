@@ -113,11 +113,11 @@ glyphname = gmod;
 unicode = 7501;
 },
 {
-glyphname = idotlessstroke;
+glyphname = Ismallstroke;
 unicode = 7547;
 },
 {
-glyphname = ustroke;
+glyphname = Usmallstroke;
 unicode = 7550;
 },
 {

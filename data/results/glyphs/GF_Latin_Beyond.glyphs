@@ -189,7 +189,7 @@ glyphname = Eopen;
 unicode = 400;
 },
 {
-glyphname = Gammaafrican;
+glyphname = "Gamma-latin";
 unicode = 404;
 },
 {
@@ -205,7 +205,7 @@ glyphname = lambdastroke;
 unicode = 411;
 },
 {
-glyphname = Upsilonafrican;
+glyphname = "Upsilon-latin";
 unicode = 433;
 },
 {
@@ -321,7 +321,7 @@ glyphname = Tdiagonalstroke;
 unicode = 574;
 },
 {
-glyphname = Glottalstop;
+glyphname = Glottalstopsmall;
 unicode = 577;
 },
 {
@@ -349,7 +349,7 @@ glyphname = "iota-latin";
 unicode = 617;
 },
 {
-glyphname = Ismall;
+glyphname = icapitalsmall;
 unicode = 618;
 },
 {
@@ -449,11 +449,11 @@ glyphname = kdotbelow;
 unicode = 7731;
 },
 {
-glyphname = Klinebelow;
+glyphname = Kmacronbelow;
 unicode = 7732;
 },
 {
-glyphname = klinebelow;
+glyphname = kmacronbelow;
 unicode = 7733;
 },
 {
@@ -481,11 +481,11 @@ glyphname = ndotbelow;
 unicode = 7751;
 },
 {
-glyphname = Nlinebelow;
+glyphname = Nmacronbelow;
 unicode = 7752;
 },
 {
-glyphname = nlinebelow;
+glyphname = nmacronbelow;
 unicode = 7753;
 },
 {
@@ -513,11 +513,11 @@ glyphname = sdotbelow;
 unicode = 7779;
 },
 {
-glyphname = Tlinebelow;
+glyphname = Tmacronbelow;
 unicode = 7790;
 },
 {
-glyphname = tlinebelow;
+glyphname = tmacronbelow;
 unicode = 7791;
 },
 {
@@ -529,11 +529,11 @@ glyphname = zcircumflex;
 unicode = 7825;
 },
 {
-glyphname = Zlinebelow;
+glyphname = Zmacronbelow;
 unicode = 7828;
 },
 {
-glyphname = zlinebelow;
+glyphname = zmacronbelow;
 unicode = 7829;
 },
 {

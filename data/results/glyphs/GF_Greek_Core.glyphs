@@ -49,14 +49,6 @@ name = Regular;
 );
 glyphs = (
 {
-glyphname = "numeral-greek";
-unicode = 884;
-},
-{
-glyphname = "lowernumeral-greek";
-unicode = 885;
-},
-{
 glyphname = percent;
 unicode = 37;
 },
@@ -73,12 +65,12 @@ glyphname = at;
 unicode = 64;
 },
 {
-glyphname = questiongreek;
-unicode = 894;
+glyphname = "numeral-greek";
+unicode = 884;
 },
 {
-glyphname = anoteleia;
-unicode = 903;
+glyphname = "lowernumeral-greek";
+unicode = 885;
 },
 {
 glyphname = exclam;
@@ -145,6 +137,14 @@ glyphname = guillemetright;
 unicode = 187;
 },
 {
+glyphname = questiongreek;
+unicode = 894;
+},
+{
+glyphname = anoteleia;
+unicode = 903;
+},
+{
 glyphname = endash;
 unicode = 8211;
 },
@@ -197,20 +197,20 @@ glyphname = nine;
 unicode = 57;
 },
 {
-glyphname = tonos;
-unicode = 900;
-},
-{
-glyphname = dieresistonos;
-unicode = 901;
-},
-{
 glyphname = acutecomb;
 unicode = 769;
 },
 {
 glyphname = dieresiscomb;
 unicode = 776;
+},
+{
+glyphname = tonos;
+unicode = 900;
+},
+{
+glyphname = dieresistonos;
+unicode = 901;
 },
 {
 glyphname = Alphatonos;
