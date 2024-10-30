@@ -65,6 +65,10 @@ glyphname = at;
 unicode = 64;
 },
 {
+glyphname = numero;
+unicode = 8470;
+},
+{
 glyphname = exclam;
 unicode = 33;
 },
@@ -123,6 +127,10 @@ unicode = 63;
 {
 glyphname = bracketleft;
 unicode = 91;
+},
+{
+glyphname = backslash;
+unicode = 92;
 },
 {
 glyphname = bracketright;
@@ -213,12 +221,20 @@ glyphname = nine;
 unicode = 57;
 },
 {
+glyphname = apostrophemod;
+unicode = 700;
+},
+{
 glyphname = gravecomb;
 unicode = 768;
 },
 {
 glyphname = acutecomb;
 unicode = 769;
+},
+{
+glyphname = macroncomb;
+unicode = 772;
 },
 {
 glyphname = brevecomb;
@@ -235,6 +251,10 @@ unicode = 779;
 {
 glyphname = "Io-cy";
 unicode = 1025;
+},
+{
+glyphname = "Dje-cy";
+unicode = 1026;
 },
 {
 glyphname = "Gje-cy";
@@ -267,6 +287,10 @@ unicode = 1033;
 {
 glyphname = "Nje-cy";
 unicode = 1034;
+},
+{
+glyphname = "Tshe-cy";
+unicode = 1035;
 },
 {
 glyphname = "Kje-cy";
@@ -541,6 +565,10 @@ glyphname = "io-cy";
 unicode = 1105;
 },
 {
+glyphname = "dje-cy";
+unicode = 1106;
+},
+{
 glyphname = "gje-cy";
 unicode = 1107;
 },
@@ -571,6 +599,10 @@ unicode = 1113;
 {
 glyphname = "nje-cy";
 unicode = 1114;
+},
+{
+glyphname = "tshe-cy";
+unicode = 1115;
 },
 {
 glyphname = "kje-cy";
@@ -681,12 +713,28 @@ glyphname = "ustraight-cy";
 unicode = 1199;
 },
 {
+glyphname = "Ustraightstroke-cy";
+unicode = 1200;
+},
+{
+glyphname = "ustraightstroke-cy";
+unicode = 1201;
+},
+{
 glyphname = "Hadescender-cy";
 unicode = 1202;
 },
 {
 glyphname = "hadescender-cy";
 unicode = 1203;
+},
+{
+glyphname = "Chedescender-cy";
+unicode = 1206;
+},
+{
+glyphname = "chedescender-cy";
+unicode = 1207;
 },
 {
 glyphname = "Cheverticalstroke-cy";
@@ -761,6 +809,14 @@ glyphname = "zedieresis-cy";
 unicode = 1247;
 },
 {
+glyphname = "Imacron-cy";
+unicode = 1250;
+},
+{
+glyphname = "imacron-cy";
+unicode = 1251;
+},
+{
 glyphname = "Idieresis-cy";
 unicode = 1252;
 },
@@ -783,6 +839,14 @@ unicode = 1256;
 {
 glyphname = "obarred-cy";
 unicode = 1257;
+},
+{
+glyphname = "Umacron-cy";
+unicode = 1262;
+},
+{
+glyphname = "umacron-cy";
+unicode = 1263;
 },
 {
 glyphname = "Udieresis-cy";

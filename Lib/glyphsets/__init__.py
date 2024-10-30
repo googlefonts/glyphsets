@@ -101,16 +101,39 @@ class GlyphSet(object):
         self.use_aux = self.definition.get("use_auxiliary", False)
         self.historical = self.definition.get("historical", False)
         self.population = self.definition.get("population", False)
+        self.include_glyphsets = self.definition.get("include_glyphsets", [])
 
         self.script = get_script(self.name)
 
     def __str__(self):
         return f"<Glyphset {self.name}>"
 
+    def get_included_glyphsets(self):
+        """Compute list of all included glyphsets"""
+
+        included_glyphsets = []
+
+        for glyphset in self.include_glyphsets:
+            included_glyphsets.append(glyphset)
+            for glyphset_name in GlyphSet(glyphset).get_included_glyphsets():
+                if glyphset_name not in included_glyphsets:
+                    included_glyphsets.append(glyphset_name)
+
+        if included_glyphsets:
+            included_glyphsets = reversed(included_glyphsets)
+
+        return included_glyphsets
+
     def get_language_codes(self):
         """Compute the language codes for this glyphset"""
 
         language_codes = copy.copy(self.language_codes)
+
+        # Include glyphset dependencies
+        for glyphset in self.include_glyphsets:
+            for language_code in GlyphSet(glyphset).get_language_codes():
+                if language_code not in language_codes:
+                    language_codes.append(language_code)
 
         # Assemble character sets from gflanguages
         if self.regions:
@@ -162,6 +185,12 @@ class GlyphSet(object):
 
         character_set = []
 
+        # Include glyphset dependencies
+        for glyphset in self.include_glyphsets:
+            for unicode in GlyphSet(glyphset).get_stub_characters():
+                if unicode not in character_set:
+                    character_set.append(unicode)
+
         glyphs_stub_path = os.path.join(root_folder, "definitions", "per_glyphset", f"{self.name}.stub.glyphs")
         if os.path.exists(glyphs_stub_path):
             font = get_glyphs_file(glyphs_stub_path)
@@ -176,6 +205,12 @@ class GlyphSet(object):
         """Collect list of all glyphs from .stub.glyphs file"""
 
         glyph_set = []
+
+        # Include glyphset dependencies
+        for glyphset in self.include_glyphsets:
+            for glyph in GlyphSet(glyphset).get_stub_glyph_objects():
+                if glyph.name not in [g.name for g in glyph_set]:
+                    glyph_set.append(glyph)
 
         glyphs_stub_path = os.path.join(root_folder, "definitions", "per_glyphset", f"{self.name}.stub.glyphs")
         if os.path.exists(glyphs_stub_path):
@@ -208,6 +243,8 @@ class GlyphSet(object):
             md += "as:\n\n"
         md += f"* Script: {self.script}\n"
 
+        if self.get_included_glyphsets():
+            md += "* Includes glyphsets `\n" + ",\n".join(self.get_included_glyphsets()) + "\n`\n"
         # Dynamic defintion
         if self.regions:
             md += "* All languages of the countries `\n" + ",\n".join(sorted(map(add_country, self.regions))) + "\n`\n"

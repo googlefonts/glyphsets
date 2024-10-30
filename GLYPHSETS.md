@@ -214,6 +214,9 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 `GF_Cyrillic_Plus` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Cyrillic_Plus.yaml) as:
 
 * Script: Cyrillic
+* Includes glyphsets `
+GF_Cyrillic_Core
+`
 * List of languages: `
 Adyghe (ady_Cyrl),
 Avaric (av_Cyrl),
@@ -247,20 +250,23 @@ Uyghur (Cyrillic) (ug_Cyrl)
 
 ### Characters and Glyphs
 
-Letter (144 glyphs): 
-`Ё Ѓ Є Ѕ І Ї Ј Љ Њ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ѓ є ѕ і ї ј љ њ ќ ў џ Ґ ґ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҡ ҡ Ң ң Ҥ ҥ Ҫ ҫ Ү ү Ҳ ҳ Ҹ ҹ Һ һ Ӏ ӏ Ӑ ӑ Ӕ ӕ Ӗ ӗ Ә ә Ӝ ӝ Ӟ ӟ Ӥ ӥ Ӧ ӧ Ө ө Ӱ ӱ Ӳ ӳ Ӵ ӵ`
+Letter (156 glyphs): 
+`Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ ѓ є ѕ і ї ј љ њ ћ ќ ў џ Ґ ґ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҡ ҡ Ң ң Ҥ ҥ Ҫ ҫ Ү ү Ұ ұ Ҳ ҳ Ҷ ҷ Ҹ ҹ Һ һ Ӏ ӏ Ӑ ӑ Ӕ ӕ Ӗ ӗ Ә ә Ӝ ӝ Ӟ ӟ Ӣ ӣ Ӥ ӥ Ӧ ӧ Ө ө Ӯ ӯ Ӱ ӱ Ӳ ӳ Ӵ ӵ`
 
-Mark, nonspacing (5 glyphs): 
-`◌̀ ◌́ ◌̆ ◌̈ ◌̋`
+Mark, nonspacing (6 glyphs): 
+`◌̀ ◌́ ◌̄ ◌̆ ◌̈ ◌̋`
+
+Mark, spacing (1 glyphs): 
+`ʼ`
 
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
 
-Punctuation (27 glyphs): 
-`! " # ' ( ) * , - . / : ; ? [ ] « » – — ‘ ’ ‚ “ ” „ …`
+Punctuation (28 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] « » – — ‘ ’ ‚ “ ” „ …`
 
-Symbol (4 glyphs): 
-`% & + @`
+Symbol (5 glyphs): 
+`% & + @ №`
 
 ### Resulting Glyphset Files
 
@@ -282,6 +288,10 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 `GF_Cyrillic_Pro` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Cyrillic_Pro.yaml) as:
 
 * Script: Cyrillic
+* Includes glyphsets `
+GF_Cyrillic_Core,
+GF_Cyrillic_Plus
+`
 * Characters and glyphs defined in [GF_Cyrillic_Pro.stub.glyphs](/data/definitions/per_glyphset/GF_Cyrillic_Pro.stub.glyphs)
 
 > [!CAUTION]  
@@ -290,8 +300,23 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 ### Characters and Glyphs
 
-Letter (56 glyphs): 
-`Ҋ ҋ Ҍ ҍ Ҏ ҏ Ҕ ҕ Ҟ ҟ Ҩ ҩ Ҭ ҭ Ҵ ҵ Ҽ ҽ Ҿ ҿ Ӄ ӄ Ӆ ӆ Ӈ ӈ Ӊ ӊ Ӎ ӎ Ӛ ӛ Ӡ ӡ Ӫ ӫ Ӭ ӭ Ӻ ӻ Ӽ ӽ Ӿ ӿ Ԑ ԑ Ԓ ԓ Ԥ ԥ Ԧ ԧ Ԩ ԩ Ԯ ԯ`
+Letter (210 glyphs): 
+`Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ ѓ є ѕ і ї ј љ њ ћ ќ ў џ Ҋ ҋ Ҍ ҍ Ҏ ҏ Ґ ґ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҟ ҟ Ҡ ҡ Ң ң Ҥ ҥ Ҩ ҩ Ҫ ҫ Ҭ ҭ Ү ү Ұ ұ Ҳ ҳ Ҵ ҵ Ҷ ҷ Ҹ ҹ Һ һ Ҽ ҽ Ҿ ҿ Ӏ Ӄ ӄ Ӆ ӆ Ӈ ӈ Ӊ ӊ Ӎ ӎ ӏ Ӑ ӑ Ӕ ӕ Ӗ ӗ Ә ә Ӛ ӛ Ӝ ӝ Ӟ ӟ Ӡ ӡ Ӣ ӣ Ӥ ӥ Ӧ ӧ Ө ө Ӫ ӫ Ӭ ӭ Ӯ ӯ Ӱ ӱ Ӳ ӳ Ӵ ӵ Ӻ ӻ Ӽ ӽ Ӿ ӿ Ԑ ԑ Ԓ ԓ Ԥ ԥ Ԧ ԧ Ԩ ԩ Ԯ ԯ`
+
+Mark, nonspacing (6 glyphs): 
+`◌̀ ◌́ ◌̄ ◌̆ ◌̈ ◌̋`
+
+Mark, spacing (1 glyphs): 
+`ʼ`
+
+Number (10 glyphs): 
+`0 1 2 3 4 5 6 7 8 9`
+
+Punctuation (28 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] « » – — ‘ ’ ‚ “ ” „ …`
+
+Symbol (5 glyphs): 
+`% & + @ №`
 
 ### Resulting Glyphset Files
 

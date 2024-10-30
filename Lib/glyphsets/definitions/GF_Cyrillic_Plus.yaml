@@ -1,6 +1,10 @@
 description: "Languages that uses the Cyrillic script between 240K and 3M speakers. 
   This set is the intermediate set required for all families that want to give support
   beyond the GF Cyrillic Core."
+
+include_glyphsets:
+- GF_Cyrillic_Core
+
 language_codes:
 - mn_Cyrl
 - ky_Cyrl
