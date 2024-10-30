@@ -71,8 +71,8 @@ def build_glyphsapp_filter_list(glyphsets, out, use_production_names=False):
         print("Wrote", out)
 
 
-regions = gflanguages.LoadRegions()
-languages = gflanguages.LoadLanguages()
+REGIONS = gflanguages.LoadRegions()
+LANGUAGES = gflanguages.LoadLanguages()
 
 
 class GlyphSet(object):
@@ -105,7 +105,7 @@ class GlyphSet(object):
 
         # Assemble character sets from gflanguages
         if self.regions:
-            for language in languages.values():
+            for language in LANGUAGES.values():
                 if language.id in self.exclude_language_codes:
                     continue
                 if not self.historical and language.historical:
@@ -303,14 +303,14 @@ def compare_glyphsets(glyphsets):
 
 
 def add_country(code):
-    if code in regions:
-        return f"{regions[code].name} ({code})"
+    if code in REGIONS:
+        return f"{REGIONS[code].name} ({code})"
     return code
 
 
 def add_language(code):
-    if code in languages:
-        return f"{languages[code].name} ({code})"
+    if code in LANGUAGES:
+        return f"{LANGUAGES[code].name} ({code})"
     return code
 
 
@@ -394,7 +394,7 @@ def description_per_glyphset(glyphset_name):
     md += "\n"
 
     if regions:
-        _languages_per_glyphset = languages_per_glyphset(glyphset_name)
+        _languages_per_glyphset = GlyphSet(glyphset_name).get_language_codes()
         md += (
             f"\nThe following list of **{len(_languages_per_glyphset)}** languages is computed as a result "
             + "of the dynamic conditions described above:\n\n`\n"
@@ -480,8 +480,8 @@ def get_glyphsets_fulfilled(ttFont):
 
 def get_decomposed_chars(glyphset_name):
     allchars = set()
-    for lang_code in languages_per_glyphset(glyphset_name):
-        lang = languages[lang_code]
+    for lang_code in GlyphSet(glyphset_name).get_language_codes():
+        lang = LANGUAGES[lang_code]
         allchars.update(getattr(getattr(lang, "exemplar_chars", {}), "base", "").split(" "))
         if get_glyphset_definition(glyphset_name).get("use_auxiliary"):
             allchars.update(getattr(getattr(lang, "exemplar_chars", {}), "auxiliary", "").split(" "))
@@ -522,7 +522,7 @@ def analyze_font(ttFont):
 
                 not_covered = ""
                 if lower >= 0.8:
-                    languages = languages_per_glyphset(key)
+                    languages = GlyphSet(key).get_language_codes()
                     if not languages:
                         not_covered = (
                             f"{Colors.BROWN}(Not part of {Colors.ITALIC}shape_languages{Colors.END}"
@@ -565,17 +565,17 @@ def find_character(input_character):
     found_languages = []
 
     # Read language definitions
-    for lang_code in languages:
-        lang = languages[lang_code]
+    for lang_code in LANGUAGES:
+        lang = LANGUAGES[lang_code]
         if lang.exemplar_chars:
             chars = lang.exemplar_chars
             for category in ("base", "index", "marks", "numerals", "punctuation", "auxiliary"):
                 if input_character in getattr(chars, category) or input_character in getattr(chars, category).upper():
                     # Find regions
                     found_regions = set()
-                    for country_code in regions:
+                    for country_code in REGIONS:
                         if country_code in lang.region:
-                            found_regions.update(set(regions[country_code].region_group))
+                            found_regions.update(set(REGIONS[country_code].region_group))
 
                     found_languages.append(
                         (

@@ -11,7 +11,8 @@ import glyphsLib
 import functools
 import plistlib
 from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
-from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
+
+# from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
 
 # Insert local module path at beginning of sys.path
 # so that up-to-date version of glyphsets package is used
@@ -77,7 +78,7 @@ def assemble_characterset(root_folder, glyphset_name):
     )
     glyphs_stub_path = os.path.join(root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.glyphs")
     glyphs_path = os.path.join(root_folder, "results", "glyphs", f"{glyphset_name}.glyphs")
-    glyphs_empty_path = os.path.join(root_folder, f"empty_font.glyphs")
+    glyphs_empty_path = os.path.join(root_folder, "empty_font.glyphs")
     txt_nicenames_path = os.path.join(root_folder, "results", "txt", "nice-names", f"{glyphset_name}.txt")
     txt_prodnames_path = os.path.join(root_folder, "results", "txt", "prod-names", f"{glyphset_name}.txt")
     plist_path = os.path.join(root_folder, "results", "plist", f"CustomFilter_GF_{glyphset.script}.plist")
@@ -85,9 +86,9 @@ def assemble_characterset(root_folder, glyphset_name):
     character_set = set()
 
     # Assemble character sets from gflanguages
-    languages = gflanguages.LoadLanguages()
+    LANGUAGES = gflanguages.LoadLanguages()
     for language_code in glyphset.get_language_codes():
-        chars = languages[language_code].exemplar_chars
+        chars = LANGUAGES[language_code].exemplar_chars
         # chars.base.upper() is important because many Latin languages don't
         # contain a complete set of uppercase letters in "index"
         # Filter for control characters and format characters
