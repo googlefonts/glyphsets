@@ -12,13 +12,11 @@ from glyphsets import (
     defined_glyphsets,
     defined_scripts,
     glyphsets_per_script,
-    description_per_glyphset,
+    GlyphSet,
 )  # noqa: E402
 
 if __name__ == "__main__":
-    root_folder = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "..", "GF_Glyphsets")
-    )
+    root_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "GF_Glyphsets"))
 
     repo_root_folder = os.path.abspath(
         os.path.join(
@@ -46,14 +44,13 @@ if __name__ == "__main__":
         for script in scripts:
             if i < len(script_dict[script]):
                 glyphset_name = script_dict[script][i]
+                glyphset = GlyphSet(glyphset_name)
                 abbr = glyphset_name.split("_")[-1]
-                _new_md, warning = description_per_glyphset(glyphset_name)
+                _new_md, warning = glyphset.get_description()
                 warning_md = "✅"
                 if warning:
                     warning_md = "🛑"
-                row.append(
-                    f"[{warning_md} {abbr}](#{glyphset_name.lower().replace('_', '-')})"
-                )
+                row.append(f"[{warning_md} {abbr}](#{glyphset_name.lower().replace('_', '-')})")
             else:
                 row.append("")
         md.append("| " + " | ".join(row) + " |")
@@ -69,7 +66,8 @@ if __name__ == "__main__":
 
     # Content
     for glyphset_name in defined_glyphsets():
-        new_md, _warning = description_per_glyphset(glyphset_name)
+        glyphset = GlyphSet(glyphset_name)
+        new_md, _warning = glyphset.get_description()
         md.append(new_md)
 
     with open(os.path.join(repo_root_folder, "GLYPHSETS.md"), "w") as f:

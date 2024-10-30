@@ -185,6 +185,107 @@ class GlyphSet(object):
 
         return glyph_set
 
+    def get_description(self):
+
+        glyphs_stub_path = os.path.join(root_folder, "definitions", "per_glyphset", f"{self.name}.stub.glyphs")
+
+        warning = False
+        md = ""
+
+        md += f"# {self.name.replace('_', ' ')}\n\n"
+        if self.description:
+            md += (
+                "> _Description partially salvaged from old README, so languages manually listed here (if any) may be "
+                + "outdated or irrelevant and need to be replaced by language code lists:_\n> \n> "
+                + "\n> ".join(self.description.split("\n"))
+                + "\n\n"
+            )
+        if self.regions:
+            md += f"`{self.name}` is **dynamically** defined [here](/Lib/glyphsets/definitions/{self.name}.yaml) "
+            md += "as:\n\n"
+        else:
+            md += f"`{self.name}` is **statically** defined [here](/Lib/glyphsets/definitions/{self.name}.yaml) "
+            md += "as:\n\n"
+        md += f"* Script: {self.script}\n"
+
+        # Dynamic defintion
+        if self.regions:
+            md += "* All languages of the countries `\n" + ",\n".join(sorted(map(add_country, self.regions))) + "\n`\n"
+        if self.population:
+            md += f"* With a population of over {self.population} speakers\n"
+        if self.historical:
+            md += "* Including historical languages\n"
+        if self.use_aux:
+            md += "* Including auxiliary characters\n"
+        if self.exclude_language_codes:
+            md += (
+                "* Excluding the following languages: `\n"
+                + ",\n".join(sorted(map(add_language, self.exclude_language_codes)))
+                + "\n`\n"
+            )
+
+        if self.regions and self.language_codes:
+            md += (
+                "* Additionally, the following languages are defined **statically**: `\n"
+                + ",\n".join(sorted(map(add_language, self.language_codes)))
+                + "\n`\n"
+            )
+
+        # Static defintion
+        elif not self.regions and self.language_codes:
+            md += "* List of languages: `\n" + ",\n".join(sorted(map(add_language, self.language_codes))) + "\n`\n"
+
+        # Additional resources
+        if os.path.exists(glyphs_stub_path):
+            md += f"* Characters and glyphs defined in [{os.path.basename(glyphs_stub_path)}]"
+            md += f"(/data/definitions/per_glyphset/{os.path.basename(glyphs_stub_path)})\n"
+        for language_code in self.language_codes:
+            lang_stub_path = os.path.join(root_folder, "definitions", "per_language", f"{language_code}.stub.glyphs")
+            if os.path.exists(lang_stub_path):
+                md += "* Language-specific characters and glyphs defined for "
+                md += f"[{add_language(language_code)}]"
+                md += f"(/data/definitions/per_language/{os.path.basename(lang_stub_path)})\n"
+
+        if not self.regions and not self.language_codes:
+            md += "\n> [!CAUTION]  \n> Since this glyphset has no defined languages, it can't be checked via "
+            md += "Fontbakery's `shape_languages` check.\n> Please add language code definions "
+            md += f"[here](/Lib/glyphsets/definitions/{self.name}.yaml).\n"
+            warning = True
+
+        md += "\n"
+
+        if self.regions:
+            _languages_per_glyphset = GlyphSet(self.name).get_language_codes()
+            md += (
+                f"\nThe following list of **{len(_languages_per_glyphset)}** languages is computed as a result "
+                + "of the dynamic conditions described above:\n\n`\n"
+                + ",\n".join(sorted(map(add_language, _languages_per_glyphset)))
+                + "\n`\n\n"
+            )
+
+        # Content
+        md += "### Characters and Glyphs\n\n"
+        md += str(describe_glyphset(glyphs_in_glyphset(self.name)))
+
+        # Composed characters
+        decomposed_chars = get_decomposed_chars(self.name)
+        if decomposed_chars:
+            md += "### Character Sequences\n\n"
+            md += f"The following {len(decomposed_chars)} composed character sequences are decomposed in the font:\n\n"
+            md += "`\n"
+            md += " ".join(decomposed_chars)
+            md += "\n`\n\n"
+
+        md += "### Resulting Glyphset Files\n\n"
+        md += f".nam file (only encoded characters): [{self.name}.nam](/data/results/nam/{self.name}.nam)\n\n"
+        md += f"Glyphs.app source file: [{self.name}.glyphs](/data/results/glyphs/{self.name}.glyphs)\n\n"
+        md += f"Text files: [{self.name}.txt](/data/results/txt/nice-names/{self.name}.txt) (nice names) and "
+        md += f"[{self.name}.txt](/data/results/txt/prod-names/{self.name}.txt) (production names)\n\n"
+        md += f"Glyphs.app Custom Filter List (contains all {self.script} glyphsets): "
+        md += f"[CustomFilter_GF_{self.script}.plist](/data/results/plist/CustomFilter_GF_{self.script}.plist)\n\n"
+
+        return md, warning
+
 
 class Glyph(object):
     def __init__(self, name, unicode=None):
@@ -393,118 +494,6 @@ def add_language(code):
     if code in LANGUAGES:
         return f"{LANGUAGES[code].name} ({code})"
     return code
-
-
-def description_per_glyphset(glyphset_name):
-    script = get_script(glyphset_name)
-    glyphset_definition = get_glyphset_definition(glyphset_name)
-    language_codes = glyphset_definition.get("language_codes", [])
-    regions = glyphset_definition.get("regions")
-    use_aux = glyphset_definition.get("use_auxiliary", False)
-    historical = glyphset_definition.get("historical", False)
-    population = glyphset_definition.get("population", False)
-    description = glyphset_definition.get("description", None)
-    exclude_language_codes = glyphset_definition.get("exclude_language_codes", [])
-
-    glyphs_stub_path = os.path.join(root_folder, "definitions", "per_glyphset", f"{glyphset_name}.stub.glyphs")
-
-    warning = False
-    md = ""
-
-    md += f"# {glyphset_name.replace('_', ' ')}\n\n"
-    if description:
-        md += (
-            "> _Description partially salvaged from old README, so languages manually listed here (if any) may be "
-            + "outdated or irrelevant and need to be replaced by language code lists:_\n> \n> "
-            + "\n> ".join(description.split("\n"))
-            + "\n\n"
-        )
-    if regions:
-        md += f"`{glyphset_name}` is **dynamically** defined [here](/Lib/glyphsets/definitions/{glyphset_name}.yaml) "
-        md += "as:\n\n"
-    else:
-        md += f"`{glyphset_name}` is **statically** defined [here](/Lib/glyphsets/definitions/{glyphset_name}.yaml) "
-        md += "as:\n\n"
-    md += f"* Script: {script}\n"
-
-    # Dynamic defintion
-    if regions:
-        md += "* All languages of the countries `\n" + ",\n".join(sorted(map(add_country, regions))) + "\n`\n"
-    if population:
-        md += f"* With a population of over {population} speakers\n"
-    if historical:
-        md += "* Including historical languages\n"
-    if use_aux:
-        md += "* Including auxiliary characters\n"
-    if exclude_language_codes:
-        md += (
-            "* Excluding the following languages: `\n"
-            + ",\n".join(sorted(map(add_language, exclude_language_codes)))
-            + "\n`\n"
-        )
-
-    if regions and language_codes:
-        md += (
-            "* Additionally, the following languages are defined **statically**: `\n"
-            + ",\n".join(sorted(map(add_language, language_codes)))
-            + "\n`\n"
-        )
-
-    # Static defintion
-    elif not regions and language_codes:
-        md += "* List of languages: `\n" + ",\n".join(sorted(map(add_language, language_codes))) + "\n`\n"
-
-    # Additional resources
-    if os.path.exists(glyphs_stub_path):
-        md += f"* Characters and glyphs defined in [{os.path.basename(glyphs_stub_path)}]"
-        md += f"(/data/definitions/per_glyphset/{os.path.basename(glyphs_stub_path)})\n"
-    for language_code in language_codes:
-        lang_stub_path = os.path.join(root_folder, "definitions", "per_language", f"{language_code}.stub.glyphs")
-        if os.path.exists(lang_stub_path):
-            md += "* Language-specific characters and glyphs defined for "
-            md += (
-                f"[{add_language(language_code)}](/data/definitions/per_language/{os.path.basename(lang_stub_path)})\n"
-            )
-
-    if not regions and not language_codes:
-        md += "\n> [!CAUTION]  \n> Since this glyphset has no defined languages, it can't be checked via "
-        md += "Fontbakery's `shape_languages` check.\n> Please add language code definions "
-        md += f"[here](/Lib/glyphsets/definitions/{glyphset_name}.yaml).\n"
-        warning = True
-
-    md += "\n"
-
-    if regions:
-        _languages_per_glyphset = GlyphSet(glyphset_name).get_language_codes()
-        md += (
-            f"\nThe following list of **{len(_languages_per_glyphset)}** languages is computed as a result "
-            + "of the dynamic conditions described above:\n\n`\n"
-            + ",\n".join(sorted(map(add_language, _languages_per_glyphset)))
-            + "\n`\n\n"
-        )
-
-    # Content
-    md += "### Characters and Glyphs\n\n"
-    md += str(describe_glyphset(glyphs_in_glyphset(glyphset_name)))
-
-    # Composed characters
-    decomposed_chars = get_decomposed_chars(glyphset_name)
-    if decomposed_chars:
-        md += "### Character Sequences\n\n"
-        md += f"The following {len(decomposed_chars)} composed character sequences are decomposed in the font:\n\n"
-        md += "`\n"
-        md += " ".join(decomposed_chars)
-        md += "\n`\n\n"
-
-    md += "### Resulting Glyphset Files\n\n"
-    md += f".nam file (only encoded characters): [{glyphset_name}.nam](/data/results/nam/{glyphset_name}.nam)\n\n"
-    md += f"Glyphs.app source file: [{glyphset_name}.glyphs](/data/results/glyphs/{glyphset_name}.glyphs)\n\n"
-    md += f"Text files: [{glyphset_name}.txt](/data/results/txt/nice-names/{glyphset_name}.txt) (nice names) and "
-    md += f"[{glyphset_name}.txt](/data/results/txt/prod-names/{glyphset_name}.txt) (production names)\n\n"
-    md += f"Glyphs.app Custom Filter List (contains all {script} glyphsets): "
-    md += f"[CustomFilter_GF_{script}.plist](/data/results/plist/CustomFilter_GF_{script}.plist)\n\n"
-
-    return md, warning
 
 
 def get_glyphsets_fulfilled(ttFont):
