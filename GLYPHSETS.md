@@ -133,14 +133,15 @@ Turkmen (Cyrillic) (tk_Cyrl),
 Ukrainian (uk_Cyrl),
 Uzbek (Cyrillic) (uz_Cyrl)
 `
+* Characters and glyphs defined in [GF_Cyrillic_Core.stub.glyphs](/data/definitions/per_glyphset/GF_Cyrillic_Core.stub.glyphs)
 
 ### Characters and Glyphs
 
-Letter (114 glyphs): 
-`Ё Ђ Є І Ї Ј Љ Њ Ћ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ є і ї ј љ њ ћ ў џ Ґ ґ Ғ ғ Җ җ Қ қ Ң ң Ү ү Ұ ұ Ҳ ҳ Ҷ ҷ Һ һ Ә ә Ӣ ӣ Ө ө Ӯ ӯ`
+Letter (141 glyphs): 
+`Ё Ђ Є І Ї Ј Љ Њ Ћ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ є і ї ј љ њ ћ ў џ Ґ ґ Ғ ғ Җ җ Қ қ Ң ң Ү ү Ұ ұ Ҳ ҳ Ҷ ҷ Һ һ Ә ә Ӣ ӣ Ө ө Ӯ ӯ /De-cy.loclBGR /Ef-cy.loclBGR /El-cy.loclBGR /Ii-cy.loclBGR /Iigrave-cy.loclBGR /Iishort-cy.loclBGR /be-cy.loclSRB /de-cy.loclBGR /de-cy.loclSRB /el-cy.loclBGR /ge-cy.loclBGR /ge-cy.loclSRB /gje-cy.loclMKD /ii-cy.loclBGR /ii-cy.loclSRB /iigrave-cy.loclBGR /iishort-cy.loclBGR /ka-cy.loclBGR /pe-cy.loclBGR /pe-cy.loclSRB /sha-cy.loclSRB /te-cy.loclBGR /te-cy.loclSRB /ve-cy.loclBGR /yu-cy.loclBGR /ze-cy.loclBGR /zhe-cy.loclBGR`
 
-Mark, nonspacing (5 glyphs): 
-`◌̀ ◌́ ◌̄ ◌̆ ◌̈`
+Mark, nonspacing (6 glyphs): 
+`◌̀ ◌́ ◌̄ ◌̆ ◌̈ ◌/brevecomb-cy`
 
 Mark, spacing (1 glyphs): 
 `ʼ`
@@ -244,14 +245,15 @@ Tatar (tt_Cyrl),
 Udmurt (udm_Cyrl),
 Uyghur (Cyrillic) (ug_Cyrl)
 `
+* Characters and glyphs defined in [GF_Cyrillic_Plus.stub.glyphs](/data/definitions/per_glyphset/GF_Cyrillic_Plus.stub.glyphs)
 
 ### Characters and Glyphs
 
-Letter (144 glyphs): 
-`Ё Ѓ Є Ѕ І Ї Ј Љ Њ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ѓ є ѕ і ї ј љ њ ќ ў џ Ґ ґ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҡ ҡ Ң ң Ҥ ҥ Ҫ ҫ Ү ү Ҳ ҳ Ҹ ҹ Һ һ Ӏ ӏ Ӑ ӑ Ӕ ӕ Ӗ ӗ Ә ә Ӝ ӝ Ӟ ӟ Ӥ ӥ Ӧ ӧ Ө ө Ӱ ӱ Ӳ ӳ Ӵ ӵ`
+Letter (178 glyphs): 
+`Ё Ѓ Є Ѕ І Ї Ј Љ Њ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ѓ є ѕ і ї ј љ њ ќ ў џ Ґ ґ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҡ ҡ Ң ң Ҥ ҥ Ҫ ҫ Ү ү Ҳ ҳ Ҹ ҹ Һ һ Ӏ ӏ Ӑ ӑ Ӕ ӕ Ӗ ӗ Ә ә Ӝ ӝ Ӟ ӟ Ӥ ӥ Ӧ ӧ Ө ө Ӱ ӱ Ӳ ӳ Ӵ ӵ /De-cy.loclBGR /Ef-cy.loclBGR /El-cy.loclBGR /Esdescender-cy.loclBSH /Esdescender-cy.loclCHU /Gestroke-cy.loclBSH /Ii-cy.loclBGR /Iigrave-cy.loclBGR /Iishort-cy.loclBGR /Zedescender-cy.loclBSH /be-cy.loclSRB /de-cy.loclBGR /de-cy.loclSRB /el-cy.loclBGR /esdescender-cy.loclBSH /esdescender-cy.loclCHU /ge-cy.loclBGR /ge-cy.loclSRB /gestroke-cy.loclBSH /gje-cy.loclMKD /ii-cy.loclBGR /ii-cy.loclSRB /iigrave-cy.loclBGR /iishort-cy.loclBGR /ka-cy.loclBGR /pe-cy.loclBGR /pe-cy.loclSRB /sha-cy.loclSRB /te-cy.loclBGR /te-cy.loclSRB /ve-cy.loclBGR /yu-cy.loclBGR /ze-cy.loclBGR /zhe-cy.loclBGR`
 
-Mark, nonspacing (5 glyphs): 
-`◌̀ ◌́ ◌̆ ◌̈ ◌̋`
+Mark, nonspacing (6 glyphs): 
+`◌̀ ◌́ ◌̆ ◌̈ ◌̋ ◌/brevecomb-cy`
 
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`

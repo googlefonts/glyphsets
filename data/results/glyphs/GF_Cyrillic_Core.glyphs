@@ -1,6 +1,12 @@
 {
-.appVersion = "3151";
+.appVersion = "3324";
 .formatVersion = 3;
+DisplayStrings = (
+"",
+"",
+"",
+""
+);
 axes = (
 {
 name = Weight;
@@ -11,8 +17,16 @@ name = Width;
 tag = wdth;
 }
 );
-date = "2023-12-13 14:28:10 +0000";
+date = "2021-10-28 12:22:31 +0000";
 familyName = GF_Cyrillic_Core;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
 fontMaster = (
 {
 axesValues = (
@@ -41,7 +55,7 @@ over = -16;
 pos = -200;
 },
 {
-over = -16;
+over = 0;
 }
 );
 name = Regular;
@@ -221,6 +235,16 @@ glyphname = nine;
 unicode = 57;
 },
 {
+glyphname = "brevecomb-cy";
+lastChange = "2024-10-29 23:48:13 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
 glyphname = apostrophemod;
 unicode = 700;
 },
@@ -243,6 +267,303 @@ unicode = 774;
 {
 glyphname = dieresiscomb;
 unicode = 776;
+},
+{
+color = 4;
+glyphname = "De-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "Ii-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "Iishort-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "Iigrave-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "El-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "Ef-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "ve-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "ge-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "de-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "zhe-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "ze-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "ii-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "iishort-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "iigrave-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "ka-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "el-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "pe-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "te-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "yu-cy.loclBGR";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "gje-cy.loclMKD";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "be-cy.loclSRB";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "ge-cy.loclSRB";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "de-cy.loclSRB";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "ii-cy.loclSRB";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "pe-cy.loclSRB";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "te-cy.loclSRB";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = "sha-cy.loclSRB";
+lastChange = "2024-10-29 23:48:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
 },
 {
 glyphname = "Io-cy";
