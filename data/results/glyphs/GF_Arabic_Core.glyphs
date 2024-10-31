@@ -49,8 +49,16 @@ name = Regular;
 );
 glyphs = (
 {
+glyphname = dollar;
+unicode = 36;
+},
+{
 glyphname = percent;
 unicode = 37;
+},
+{
+glyphname = ampersand;
+unicode = 38;
 },
 {
 glyphname = plus;
@@ -69,8 +77,44 @@ glyphname = greater;
 unicode = 62;
 },
 {
+glyphname = at;
+unicode = 64;
+},
+{
+glyphname = asciicircum;
+unicode = 94;
+},
+{
 glyphname = bar;
 unicode = 124;
+},
+{
+glyphname = asciitilde;
+unicode = 126;
+},
+{
+glyphname = cent;
+unicode = 162;
+},
+{
+glyphname = sterling;
+unicode = 163;
+},
+{
+glyphname = yen;
+unicode = 165;
+},
+{
+glyphname = copyright;
+unicode = 169;
+},
+{
+glyphname = registered;
+unicode = 174;
+},
+{
+glyphname = degree;
+unicode = 176;
 },
 {
 glyphname = multiply;
@@ -87,6 +131,14 @@ unicode = 1545;
 {
 glyphname = "percent-ar";
 unicode = 1642;
+},
+{
+glyphname = euro;
+unicode = 8364;
+},
+{
+glyphname = trademark;
+unicode = 8482;
 },
 {
 glyphname = minus;
@@ -149,6 +201,14 @@ glyphname = colon;
 unicode = 58;
 },
 {
+glyphname = semicolon;
+unicode = 59;
+},
+{
+glyphname = question;
+unicode = 63;
+},
+{
 glyphname = bracketleft;
 unicode = 91;
 },
@@ -161,6 +221,10 @@ glyphname = bracketright;
 unicode = 93;
 },
 {
+glyphname = underscore;
+unicode = 95;
+},
+{
 glyphname = braceleft;
 unicode = 123;
 },
@@ -171,6 +235,10 @@ unicode = 125;
 {
 glyphname = guillemetleft;
 unicode = 171;
+},
+{
+glyphname = periodcentered;
+unicode = 183;
 },
 {
 glyphname = guillemetright;
@@ -223,6 +291,10 @@ unicode = 8220;
 {
 glyphname = quotedblright;
 unicode = 8221;
+},
+{
+glyphname = bullet;
+unicode = 8226;
 },
 {
 glyphname = ellipsis;
@@ -373,6 +445,10 @@ glyphname = "nineFarsi-ar";
 unicode = 1785;
 },
 {
+glyphname = grave;
+unicode = 96;
+},
+{
 glyphname = "fathatan-ar";
 unicode = 1611;
 },
@@ -419,6 +495,214 @@ unicode = 1621;
 {
 glyphname = "alefabove-ar";
 unicode = 1648;
+},
+{
+glyphname = A;
+unicode = 65;
+},
+{
+glyphname = B;
+unicode = 66;
+},
+{
+glyphname = C;
+unicode = 67;
+},
+{
+glyphname = D;
+unicode = 68;
+},
+{
+glyphname = E;
+unicode = 69;
+},
+{
+glyphname = F;
+unicode = 70;
+},
+{
+glyphname = G;
+unicode = 71;
+},
+{
+glyphname = H;
+unicode = 72;
+},
+{
+glyphname = I;
+unicode = 73;
+},
+{
+glyphname = J;
+unicode = 74;
+},
+{
+glyphname = K;
+unicode = 75;
+},
+{
+glyphname = L;
+unicode = 76;
+},
+{
+glyphname = M;
+unicode = 77;
+},
+{
+glyphname = N;
+unicode = 78;
+},
+{
+glyphname = O;
+unicode = 79;
+},
+{
+glyphname = P;
+unicode = 80;
+},
+{
+glyphname = Q;
+unicode = 81;
+},
+{
+glyphname = R;
+unicode = 82;
+},
+{
+glyphname = S;
+unicode = 83;
+},
+{
+glyphname = T;
+unicode = 84;
+},
+{
+glyphname = U;
+unicode = 85;
+},
+{
+glyphname = V;
+unicode = 86;
+},
+{
+glyphname = W;
+unicode = 87;
+},
+{
+glyphname = X;
+unicode = 88;
+},
+{
+glyphname = Y;
+unicode = 89;
+},
+{
+glyphname = Z;
+unicode = 90;
+},
+{
+glyphname = a;
+unicode = 97;
+},
+{
+glyphname = b;
+unicode = 98;
+},
+{
+glyphname = c;
+unicode = 99;
+},
+{
+glyphname = d;
+unicode = 100;
+},
+{
+glyphname = e;
+unicode = 101;
+},
+{
+glyphname = f;
+unicode = 102;
+},
+{
+glyphname = g;
+unicode = 103;
+},
+{
+glyphname = h;
+unicode = 104;
+},
+{
+glyphname = i;
+unicode = 105;
+},
+{
+glyphname = j;
+unicode = 106;
+},
+{
+glyphname = k;
+unicode = 107;
+},
+{
+glyphname = l;
+unicode = 108;
+},
+{
+glyphname = m;
+unicode = 109;
+},
+{
+glyphname = n;
+unicode = 110;
+},
+{
+glyphname = o;
+unicode = 111;
+},
+{
+glyphname = p;
+unicode = 112;
+},
+{
+glyphname = q;
+unicode = 113;
+},
+{
+glyphname = r;
+unicode = 114;
+},
+{
+glyphname = s;
+unicode = 115;
+},
+{
+glyphname = t;
+unicode = 116;
+},
+{
+glyphname = u;
+unicode = 117;
+},
+{
+glyphname = v;
+unicode = 118;
+},
+{
+glyphname = w;
+unicode = 119;
+},
+{
+glyphname = x;
+unicode = 120;
+},
+{
+glyphname = y;
+unicode = 121;
+},
+{
+glyphname = z;
+unicode = 122;
 },
 {
 glyphname = "hamza-ar";

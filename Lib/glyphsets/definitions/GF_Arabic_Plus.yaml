@@ -1,5 +1,7 @@
 description: Covering additional less widely used languages (but not characters needed
   for historical or specialized texts)
+include_glyphsets:
+- GF_Latin_Kernel
 language_codes:
 - ckb_Arab
 - zlm_Arab

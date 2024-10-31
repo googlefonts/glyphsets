@@ -5,3 +5,4 @@ description: 'For Headline typefaces (?), with language support more Non-Slavic 
 
 include_glyphsets:
 - GF_Cyrillic_Plus
+- GF_Latin_Kernel

@@ -2,6 +2,8 @@ description: "Languages that use the Cyrillic alphabet and have more than 3 mill
   This set is the minimum required for families that support the Cyrillic alphabet 
   and want to be incorporated into Google Fonts."
 
+include_glyphsets:
+- GF_Latin_Kernel
 language_codes:
 - ru_Cyrl
 - uk_Cyrl

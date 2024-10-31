@@ -29,6 +29,9 @@
 `GF_Arabic_Core` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Arabic_Core.yaml) as:
 
 * Script: Arabic
+* Includes glyphsets `
+GF_Latin_Kernel
+`
 * List of languages: `
 Arabic (ar_Arab),
 Persian (fa_Arab),
@@ -38,23 +41,26 @@ Urdu (ur_Arab)
 
 ### Characters and Glyphs
 
-Letter (50 glyphs): 
-`ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ـ ف ق ك ل م ن ه و ى ي ٹ پ چ ڈ ڑ ژ ک گ ھ ہ ی ے ݣ`
+Letter (102 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ـ ف ق ك ل م ن ه و ى ي ٹ پ چ ڈ ڑ ژ ک گ ھ ہ ی ے ݣ`
 
 Mark, nonspacing (12 glyphs): 
 `◌ً ◌ٌ ◌ٍ ◌َ ◌ُ ◌ِ ◌ّ ◌ْ ◌ٓ ◌ٔ ◌ٕ ◌ٰ`
 
+Mark, spacing (1 glyphs): 
+`/grave`
+
 Number (32 glyphs): 
 `0 1 2 3 4 5 6 7 8 9 ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹`
 
-Punctuation (36 glyphs): 
-`! " # ' ( ) * , - . / : [ \ ] { } « » ، ؍ ؛ ؟ ٭ ۔ – — ‘ ’ “ ” … ‹ › ﴾ ﴿`
+Punctuation (41 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] _ { } « · » ، ؍ ؛ ؟ ٭ ۔ – — ‘ ’ “ ” • … ‹ › ﴾ ﴿`
 
 Separator (2 glyphs): 
 `   `
 
-Symbol (11 glyphs): 
-`% + < = > | × ÷ ؉ ٪ −`
+Symbol (24 glyphs): 
+`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ ؉ ٪ € ™ −`
 
 ### Resulting Glyphset Files
 
@@ -76,6 +82,9 @@ Glyphs.app Custom Filter List (contains all Arabic glyphsets): [CustomFilter_GF_
 `GF_Arabic_Plus` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Arabic_Plus.yaml) as:
 
 * Script: Arabic
+* Includes glyphsets `
+GF_Latin_Kernel
+`
 * List of languages: `
 Central Kurdish (ckb_Arab),
 Malay (Arabic) (zlm_Arab),
@@ -86,20 +95,26 @@ Uyghur (ug_Arab)
 
 ### Characters and Glyphs
 
-Letter (81 glyphs): 
-`ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي ٺ ٻ ټ ٽ پ ٿ ڀ ځ ڃ ڄ څ چ ڇ ډ ڊ ڌ ڍ ڏ ړ ڕ ږ ژ ڙ ښ ڤ ڦ ک ڪ ګ ڭ گ ڱ ڳ ڵ ڻ ڼ ھ ۆ ۇ ۈ ۋ ی ۍ ێ ې ە`
+Letter (133 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي ٺ ٻ ټ ٽ پ ٿ ڀ ځ ڃ ڄ څ چ ڇ ډ ڊ ڌ ڍ ڏ ړ ڕ ږ ژ ڙ ښ ڤ ڦ ک ڪ ګ ڭ گ ڱ ڳ ڵ ڻ ڼ ھ ۆ ۇ ۈ ۋ ی ۍ ێ ې ە`
 
 Mark, nonspacing (10 glyphs): 
 `◌ً ◌ٌ ◌ٍ ◌َ ◌ُ ◌ِ ◌ّ ◌ْ ◌ٔ ◌ٰ`
 
+Mark, spacing (1 glyphs): 
+`/grave`
+
 Number (32 glyphs): 
 `0 1 2 3 4 5 6 7 8 9 ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹`
 
-Punctuation (18 glyphs): 
-`! ' ( ) , - . / : ; [ ] ، ۔ ۽ ‘ ⁏ ⹁`
+Punctuation (34 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] _ { } · ، ۔ ۽ – — ‘ ’ “ ” • … ⁏ ⹁`
 
-Symbol (6 glyphs): 
-`% + ؉ ٪ ۾ −`
+Separator (2 glyphs): 
+`   `
+
+Symbol (25 glyphs): 
+`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ ؉ ٪ ۾ € ™ −`
 
 ### Resulting Glyphset Files
 
@@ -121,6 +136,9 @@ Glyphs.app Custom Filter List (contains all Arabic glyphsets): [CustomFilter_GF_
 `GF_Cyrillic_Core` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Cyrillic_Core.yaml) as:
 
 * Script: Cyrillic
+* Includes glyphsets `
+GF_Latin_Kernel
+`
 * List of languages: `
 Belarusian (be_Cyrl),
 Bosnian (Cyrillic) (bs_Cyrl),
@@ -136,23 +154,26 @@ Uzbek (Cyrillic) (uz_Cyrl)
 
 ### Characters and Glyphs
 
-Letter (114 glyphs): 
-`Ё Ђ Є І Ї Ј Љ Њ Ћ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ є і ї ј љ њ ћ ў џ Ґ ґ Ғ ғ Җ җ Қ қ Ң ң Ү ү Ұ ұ Ҳ ҳ Ҷ ҷ Һ һ Ә ә Ӣ ӣ Ө ө Ӯ ӯ`
+Letter (166 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z Ё Ђ Є І Ї Ј Љ Њ Ћ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ є і ї ј љ њ ћ ў џ Ґ ґ Ғ ғ Җ җ Қ қ Ң ң Ү ү Ұ ұ Ҳ ҳ Ҷ ҷ Һ һ Ә ә Ӣ ӣ Ө ө Ӯ ӯ`
 
 Mark, nonspacing (5 glyphs): 
 `◌̀ ◌́ ◌̄ ◌̆ ◌̈`
 
-Mark, spacing (1 glyphs): 
-`ʼ`
+Mark, spacing (2 glyphs): 
+`/grave ʼ`
 
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
 
-Punctuation (28 glyphs): 
-`! " # ' ( ) * , - . / : ; ? [ \ ] « » – — ‘ ’ ‚ “ ” „ …`
+Punctuation (33 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] _ { } « · » – — ‘ ’ ‚ “ ” „ • …`
 
-Symbol (5 glyphs): 
-`% & + @ №`
+Separator (2 glyphs): 
+`   `
+
+Symbol (23 glyphs): 
+`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ € № ™ −`
 
 ### Resulting Glyphset Files
 
@@ -215,6 +236,8 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 * Script: Cyrillic
 * Includes glyphsets `
+GF_Latin_Kernel,
+GF_Latin_Kernel,
 GF_Cyrillic_Core
 `
 * List of languages: `
@@ -250,23 +273,26 @@ Uyghur (Cyrillic) (ug_Cyrl)
 
 ### Characters and Glyphs
 
-Letter (156 glyphs): 
-`Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ ѓ є ѕ і ї ј љ њ ћ ќ ў џ Ґ ґ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҡ ҡ Ң ң Ҥ ҥ Ҫ ҫ Ү ү Ұ ұ Ҳ ҳ Ҷ ҷ Ҹ ҹ Һ һ Ӏ ӏ Ӑ ӑ Ӕ ӕ Ӗ ӗ Ә ә Ӝ ӝ Ӟ ӟ Ӣ ӣ Ӥ ӥ Ӧ ӧ Ө ө Ӯ ӯ Ӱ ӱ Ӳ ӳ Ӵ ӵ`
+Letter (208 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ ѓ є ѕ і ї ј љ њ ћ ќ ў џ Ґ ґ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҡ ҡ Ң ң Ҥ ҥ Ҫ ҫ Ү ү Ұ ұ Ҳ ҳ Ҷ ҷ Ҹ ҹ Һ һ Ӏ ӏ Ӑ ӑ Ӕ ӕ Ӗ ӗ Ә ә Ӝ ӝ Ӟ ӟ Ӣ ӣ Ӥ ӥ Ӧ ӧ Ө ө Ӯ ӯ Ӱ ӱ Ӳ ӳ Ӵ ӵ`
 
 Mark, nonspacing (6 glyphs): 
 `◌̀ ◌́ ◌̄ ◌̆ ◌̈ ◌̋`
 
-Mark, spacing (1 glyphs): 
-`ʼ`
+Mark, spacing (2 glyphs): 
+`/grave ʼ`
 
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
 
-Punctuation (28 glyphs): 
-`! " # ' ( ) * , - . / : ; ? [ \ ] « » – — ‘ ’ ‚ “ ” „ …`
+Punctuation (33 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] _ { } « · » – — ‘ ’ ‚ “ ” „ • …`
 
-Symbol (5 glyphs): 
-`% & + @ №`
+Separator (2 glyphs): 
+`   `
+
+Symbol (23 glyphs): 
+`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ € № ™ −`
 
 ### Resulting Glyphset Files
 
@@ -289,7 +315,9 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 * Script: Cyrillic
 * Includes glyphsets `
+GF_Latin_Kernel,
 GF_Cyrillic_Core,
+GF_Latin_Kernel,
 GF_Cyrillic_Plus
 `
 * Characters and glyphs defined in [GF_Cyrillic_Pro.stub.glyphs](/data/definitions/per_glyphset/GF_Cyrillic_Pro.stub.glyphs)
@@ -300,23 +328,26 @@ GF_Cyrillic_Plus
 
 ### Characters and Glyphs
 
-Letter (210 glyphs): 
-`Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ ѓ є ѕ і ї ј љ њ ћ ќ ў џ Ҋ ҋ Ҍ ҍ Ҏ ҏ Ґ ґ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҟ ҟ Ҡ ҡ Ң ң Ҥ ҥ Ҩ ҩ Ҫ ҫ Ҭ ҭ Ү ү Ұ ұ Ҳ ҳ Ҵ ҵ Ҷ ҷ Ҹ ҹ Һ һ Ҽ ҽ Ҿ ҿ Ӏ Ӄ ӄ Ӆ ӆ Ӈ ӈ Ӊ ӊ Ӎ ӎ ӏ Ӑ ӑ Ӕ ӕ Ӗ ӗ Ә ә Ӛ ӛ Ӝ ӝ Ӟ ӟ Ӡ ӡ Ӣ ӣ Ӥ ӥ Ӧ ӧ Ө ө Ӫ ӫ Ӭ ӭ Ӯ ӯ Ӱ ӱ Ӳ ӳ Ӵ ӵ Ӻ ӻ Ӽ ӽ Ӿ ӿ Ԑ ԑ Ԓ ԓ Ԥ ԥ Ԧ ԧ Ԩ ԩ Ԯ ԯ`
+Letter (262 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ ѓ є ѕ і ї ј љ њ ћ ќ ў џ Ҋ ҋ Ҍ ҍ Ҏ ҏ Ґ ґ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҟ ҟ Ҡ ҡ Ң ң Ҥ ҥ Ҩ ҩ Ҫ ҫ Ҭ ҭ Ү ү Ұ ұ Ҳ ҳ Ҵ ҵ Ҷ ҷ Ҹ ҹ Һ һ Ҽ ҽ Ҿ ҿ Ӏ Ӄ ӄ Ӆ ӆ Ӈ ӈ Ӊ ӊ Ӎ ӎ ӏ Ӑ ӑ Ӕ ӕ Ӗ ӗ Ә ә Ӛ ӛ Ӝ ӝ Ӟ ӟ Ӡ ӡ Ӣ ӣ Ӥ ӥ Ӧ ӧ Ө ө Ӫ ӫ Ӭ ӭ Ӯ ӯ Ӱ ӱ Ӳ ӳ Ӵ ӵ Ӻ ӻ Ӽ ӽ Ӿ ӿ Ԑ ԑ Ԓ ԓ Ԥ ԥ Ԧ ԧ Ԩ ԩ Ԯ ԯ`
 
 Mark, nonspacing (6 glyphs): 
 `◌̀ ◌́ ◌̄ ◌̆ ◌̈ ◌̋`
 
-Mark, spacing (1 glyphs): 
-`ʼ`
+Mark, spacing (2 glyphs): 
+`/grave ʼ`
 
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
 
-Punctuation (28 glyphs): 
-`! " # ' ( ) * , - . / : ; ? [ \ ] « » – — ‘ ’ ‚ “ ” „ …`
+Punctuation (33 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] _ { } « · » – — ‘ ’ ‚ “ ” „ • …`
 
-Symbol (5 glyphs): 
-`% & + @ №`
+Separator (2 glyphs): 
+`   `
+
+Symbol (23 glyphs): 
+`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ € № ™ −`
 
 ### Resulting Glyphset Files
 
@@ -491,6 +522,9 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 `GF_Greek_Core` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Greek_Core.yaml) as:
 
 * Script: Greek
+* Includes glyphsets `
+GF_Latin_Kernel
+`
 * List of languages: `
 Greek (el_Grek)
 `
@@ -498,23 +532,26 @@ Greek (el_Grek)
 
 ### Characters and Glyphs
 
-Letter (71 glyphs): 
-`Ά Έ Ή Ί Ό Ύ Ώ ΐ Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ϊ Ϋ ά έ ή ί ΰ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ϊ ϋ ό ύ ώ Ϗ ϗ`
+Letter (123 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z Ά Έ Ή Ί Ό Ύ Ώ ΐ Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ϊ Ϋ ά έ ή ί ΰ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ϊ ϋ ό ύ ώ Ϗ ϗ`
 
 Mark, nonspacing (2 glyphs): 
 `◌́ ◌̈`
 
-Mark, spacing (2 glyphs): 
-`΄ ΅`
+Mark, spacing (3 glyphs): 
+`/grave ΄ ΅`
 
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
 
-Punctuation (21 glyphs): 
-`! " ( ) * , - . / : ; [ \ ] « » ; · – — …`
+Punctuation (33 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] _ { } « · » ; · – — ‘ ’ “ ” • …`
 
-Symbol (6 glyphs): 
-`% & + @ ʹ ͵`
+Separator (2 glyphs): 
+`   `
+
+Symbol (24 glyphs): 
+`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ ʹ ͵ € ™ −`
 
 ### Resulting Glyphset Files
 

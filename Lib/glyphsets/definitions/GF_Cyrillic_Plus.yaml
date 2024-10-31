@@ -4,6 +4,7 @@ description: "Languages that uses the Cyrillic script between 240K and 3M speake
 
 include_glyphsets:
 - GF_Cyrillic_Core
+- GF_Latin_Kernel
 
 language_codes:
 - mn_Cyrl

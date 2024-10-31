@@ -9,7 +9,9 @@
 			<string>exclam</string>
 			<string>quotedbl</string>
 			<string>numbersign</string>
+			<string>dollar</string>
 			<string>percent</string>
+			<string>ampersand</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
@@ -30,17 +32,83 @@
 			<string>eight</string>
 			<string>nine</string>
 			<string>colon</string>
+			<string>semicolon</string>
 			<string>less</string>
 			<string>equal</string>
 			<string>greater</string>
+			<string>question</string>
+			<string>at</string>
+			<string>A</string>
+			<string>B</string>
+			<string>C</string>
+			<string>D</string>
+			<string>E</string>
+			<string>F</string>
+			<string>G</string>
+			<string>H</string>
+			<string>I</string>
+			<string>J</string>
+			<string>K</string>
+			<string>L</string>
+			<string>M</string>
+			<string>N</string>
+			<string>O</string>
+			<string>P</string>
+			<string>Q</string>
+			<string>R</string>
+			<string>S</string>
+			<string>T</string>
+			<string>U</string>
+			<string>V</string>
+			<string>W</string>
+			<string>X</string>
+			<string>Y</string>
+			<string>Z</string>
 			<string>bracketleft</string>
 			<string>backslash</string>
 			<string>bracketright</string>
+			<string>asciicircum</string>
+			<string>underscore</string>
+			<string>grave</string>
+			<string>a</string>
+			<string>b</string>
+			<string>c</string>
+			<string>d</string>
+			<string>e</string>
+			<string>f</string>
+			<string>g</string>
+			<string>h</string>
+			<string>i</string>
+			<string>j</string>
+			<string>k</string>
+			<string>l</string>
+			<string>m</string>
+			<string>n</string>
+			<string>o</string>
+			<string>p</string>
+			<string>q</string>
+			<string>r</string>
+			<string>s</string>
+			<string>t</string>
+			<string>u</string>
+			<string>v</string>
+			<string>w</string>
+			<string>x</string>
+			<string>y</string>
+			<string>z</string>
 			<string>braceleft</string>
 			<string>bar</string>
 			<string>braceright</string>
+			<string>asciitilde</string>
 			<string>nbspace</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
 			<string>guillemetleft</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>periodcentered</string>
 			<string>guillemetright</string>
 			<string>multiply</string>
 			<string>divide</string>
@@ -142,9 +210,12 @@
 			<string>quoteright</string>
 			<string>quotedblleft</string>
 			<string>quotedblright</string>
+			<string>bullet</string>
 			<string>ellipsis</string>
 			<string>guilsinglleft</string>
 			<string>guilsinglright</string>
+			<string>euro</string>
+			<string>trademark</string>
 			<string>minus</string>
 			<string>parenleft-ar</string>
 			<string>parenright-ar</string>
@@ -155,11 +226,122 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>guillemetleft</string>
+			<string>guillemetright</string>
+			<string>perthousand-ar</string>
+			<string>comma-ar</string>
+			<string>dateseparator-ar</string>
+			<string>semicolon-ar</string>
+			<string>question-ar</string>
+			<string>hamza-ar</string>
+			<string>alefMadda-ar</string>
+			<string>alefHamzaabove-ar</string>
+			<string>wawHamzaabove-ar</string>
+			<string>alefHamzabelow-ar</string>
+			<string>yehHamzaabove-ar</string>
+			<string>alef-ar</string>
+			<string>beh-ar</string>
+			<string>tehMarbuta-ar</string>
+			<string>teh-ar</string>
+			<string>theh-ar</string>
+			<string>jeem-ar</string>
+			<string>hah-ar</string>
+			<string>khah-ar</string>
+			<string>dal-ar</string>
+			<string>thal-ar</string>
+			<string>reh-ar</string>
+			<string>zain-ar</string>
+			<string>seen-ar</string>
+			<string>sheen-ar</string>
+			<string>sad-ar</string>
+			<string>dad-ar</string>
+			<string>tah-ar</string>
+			<string>zah-ar</string>
+			<string>ain-ar</string>
+			<string>ghain-ar</string>
+			<string>kashida-ar</string>
+			<string>feh-ar</string>
+			<string>qaf-ar</string>
+			<string>kaf-ar</string>
+			<string>lam-ar</string>
+			<string>meem-ar</string>
+			<string>noon-ar</string>
+			<string>heh-ar</string>
+			<string>waw-ar</string>
+			<string>alefMaksura-ar</string>
+			<string>yeh-ar</string>
+			<string>fathatan-ar</string>
+			<string>dammatan-ar</string>
+			<string>kasratan-ar</string>
+			<string>fatha-ar</string>
+			<string>damma-ar</string>
+			<string>kasra-ar</string>
+			<string>shadda-ar</string>
+			<string>sukun-ar</string>
+			<string>madda-ar</string>
+			<string>hamzaabove-ar</string>
+			<string>hamzabelow-ar</string>
+			<string>zero-ar</string>
+			<string>one-ar</string>
+			<string>two-ar</string>
+			<string>three-ar</string>
+			<string>four-ar</string>
+			<string>five-ar</string>
+			<string>six-ar</string>
+			<string>seven-ar</string>
+			<string>eight-ar</string>
+			<string>nine-ar</string>
+			<string>percent-ar</string>
+			<string>decimalseparator-ar</string>
+			<string>thousandseparator-ar</string>
+			<string>asterisk-ar</string>
+			<string>alefabove-ar</string>
+			<string>tteh-ar</string>
+			<string>peh-ar</string>
+			<string>tcheh-ar</string>
+			<string>ddal-ar</string>
+			<string>rreh-ar</string>
+			<string>jeh-ar</string>
+			<string>keheh-ar</string>
+			<string>gaf-ar</string>
+			<string>hehDoachashmee-ar</string>
+			<string>hehgoal-ar</string>
+			<string>yehFarsi-ar</string>
+			<string>yehbarree-ar</string>
+			<string>fullstop-ar</string>
+			<string>zeroFarsi-ar</string>
+			<string>oneFarsi-ar</string>
+			<string>twoFarsi-ar</string>
+			<string>threeFarsi-ar</string>
+			<string>fourFarsi-ar</string>
+			<string>fiveFarsi-ar</string>
+			<string>sixFarsi-ar</string>
+			<string>sevenFarsi-ar</string>
+			<string>eightFarsi-ar</string>
+			<string>nineFarsi-ar</string>
+			<string>kehehThreedotsabove-ar</string>
+			<string>guilsinglleft</string>
+			<string>guilsinglright</string>
+			<string>parenleft-ar</string>
+			<string>parenright-ar</string>
+		</array>
+		<key>name</key>
+		<string>GF_Arabic_Core Exclusive</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
+			<string>space</string>
 			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
+			<string>dollar</string>
 			<string>percent</string>
+			<string>ampersand</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
+			<string>asterisk</string>
 			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
@@ -177,8 +359,83 @@
 			<string>nine</string>
 			<string>colon</string>
 			<string>semicolon</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>question</string>
+			<string>at</string>
+			<string>A</string>
+			<string>B</string>
+			<string>C</string>
+			<string>D</string>
+			<string>E</string>
+			<string>F</string>
+			<string>G</string>
+			<string>H</string>
+			<string>I</string>
+			<string>J</string>
+			<string>K</string>
+			<string>L</string>
+			<string>M</string>
+			<string>N</string>
+			<string>O</string>
+			<string>P</string>
+			<string>Q</string>
+			<string>R</string>
+			<string>S</string>
+			<string>T</string>
+			<string>U</string>
+			<string>V</string>
+			<string>W</string>
+			<string>X</string>
+			<string>Y</string>
+			<string>Z</string>
 			<string>bracketleft</string>
+			<string>backslash</string>
 			<string>bracketright</string>
+			<string>asciicircum</string>
+			<string>underscore</string>
+			<string>grave</string>
+			<string>a</string>
+			<string>b</string>
+			<string>c</string>
+			<string>d</string>
+			<string>e</string>
+			<string>f</string>
+			<string>g</string>
+			<string>h</string>
+			<string>i</string>
+			<string>j</string>
+			<string>k</string>
+			<string>l</string>
+			<string>m</string>
+			<string>n</string>
+			<string>o</string>
+			<string>p</string>
+			<string>q</string>
+			<string>r</string>
+			<string>s</string>
+			<string>t</string>
+			<string>u</string>
+			<string>v</string>
+			<string>w</string>
+			<string>x</string>
+			<string>y</string>
+			<string>z</string>
+			<string>braceleft</string>
+			<string>bar</string>
+			<string>braceright</string>
+			<string>asciitilde</string>
+			<string>nbspace</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>periodcentered</string>
+			<string>multiply</string>
+			<string>divide</string>
 			<string>perthousand-ar</string>
 			<string>comma-ar</string>
 			<string>hamza-ar</string>
@@ -298,13 +555,150 @@
 			<string>nineFarsi-ar</string>
 			<string>sindhiampersand-ar</string>
 			<string>sindhipostpositionmen-ar</string>
+			<string>endash</string>
+			<string>emdash</string>
 			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
 			<string>reversedsemicolon</string>
+			<string>euro</string>
+			<string>trademark</string>
 			<string>minus</string>
 			<string>commareversed</string>
 		</array>
 		<key>name</key>
 		<string>GF_Arabic_Plus</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
+			<string>perthousand-ar</string>
+			<string>comma-ar</string>
+			<string>hamza-ar</string>
+			<string>alefMadda-ar</string>
+			<string>alefHamzaabove-ar</string>
+			<string>wawHamzaabove-ar</string>
+			<string>yehHamzaabove-ar</string>
+			<string>alef-ar</string>
+			<string>beh-ar</string>
+			<string>tehMarbuta-ar</string>
+			<string>teh-ar</string>
+			<string>theh-ar</string>
+			<string>jeem-ar</string>
+			<string>hah-ar</string>
+			<string>khah-ar</string>
+			<string>dal-ar</string>
+			<string>thal-ar</string>
+			<string>reh-ar</string>
+			<string>zain-ar</string>
+			<string>seen-ar</string>
+			<string>sheen-ar</string>
+			<string>sad-ar</string>
+			<string>dad-ar</string>
+			<string>tah-ar</string>
+			<string>zah-ar</string>
+			<string>ain-ar</string>
+			<string>ghain-ar</string>
+			<string>feh-ar</string>
+			<string>qaf-ar</string>
+			<string>kaf-ar</string>
+			<string>lam-ar</string>
+			<string>meem-ar</string>
+			<string>noon-ar</string>
+			<string>heh-ar</string>
+			<string>waw-ar</string>
+			<string>alefMaksura-ar</string>
+			<string>yeh-ar</string>
+			<string>fathatan-ar</string>
+			<string>dammatan-ar</string>
+			<string>kasratan-ar</string>
+			<string>fatha-ar</string>
+			<string>damma-ar</string>
+			<string>kasra-ar</string>
+			<string>shadda-ar</string>
+			<string>sukun-ar</string>
+			<string>hamzaabove-ar</string>
+			<string>zero-ar</string>
+			<string>one-ar</string>
+			<string>two-ar</string>
+			<string>three-ar</string>
+			<string>four-ar</string>
+			<string>five-ar</string>
+			<string>six-ar</string>
+			<string>seven-ar</string>
+			<string>eight-ar</string>
+			<string>nine-ar</string>
+			<string>percent-ar</string>
+			<string>decimalseparator-ar</string>
+			<string>thousandseparator-ar</string>
+			<string>alefabove-ar</string>
+			<string>tteheh-ar</string>
+			<string>beeh-ar</string>
+			<string>tehRing-ar</string>
+			<string>tehThreedotsdown-ar</string>
+			<string>peh-ar</string>
+			<string>teheh-ar</string>
+			<string>beheh-ar</string>
+			<string>hahHamzaabove-ar</string>
+			<string>nyeh-ar</string>
+			<string>dyeh-ar</string>
+			<string>hahThreedotsabove-ar</string>
+			<string>tcheh-ar</string>
+			<string>tcheheh-ar</string>
+			<string>dalRing-ar</string>
+			<string>dalDotbelow-ar</string>
+			<string>dahal-ar</string>
+			<string>ddahal-ar</string>
+			<string>dalThreedotsdown-ar</string>
+			<string>rehRing-ar</string>
+			<string>rehVbelow-ar</string>
+			<string>rehDotbelowdotabove-ar</string>
+			<string>jeh-ar</string>
+			<string>rehFourdots-ar</string>
+			<string>seenDotbelowDotabove-ar</string>
+			<string>veh-ar</string>
+			<string>peheh-ar</string>
+			<string>keheh-ar</string>
+			<string>kafswash-ar</string>
+			<string>kafRing-ar</string>
+			<string>ng-ar</string>
+			<string>gaf-ar</string>
+			<string>ngoeh-ar</string>
+			<string>gueh-ar</string>
+			<string>lamVabove-ar</string>
+			<string>rnoon-ar</string>
+			<string>noonRing-ar</string>
+			<string>hehDoachashmee-ar</string>
+			<string>oe-ar</string>
+			<string>u-ar</string>
+			<string>yu-ar</string>
+			<string>ve-ar</string>
+			<string>yehFarsi-ar</string>
+			<string>yehTail-ar</string>
+			<string>yehVabove-ar</string>
+			<string>e-ar</string>
+			<string>fullstop-ar</string>
+			<string>ae-ar</string>
+			<string>zeroFarsi-ar</string>
+			<string>oneFarsi-ar</string>
+			<string>twoFarsi-ar</string>
+			<string>threeFarsi-ar</string>
+			<string>fourFarsi-ar</string>
+			<string>fiveFarsi-ar</string>
+			<string>sixFarsi-ar</string>
+			<string>sevenFarsi-ar</string>
+			<string>eightFarsi-ar</string>
+			<string>nineFarsi-ar</string>
+			<string>sindhiampersand-ar</string>
+			<string>sindhipostpositionmen-ar</string>
+			<string>reversedsemicolon</string>
+			<string>commareversed</string>
+		</array>
+		<key>name</key>
+		<string>GF_Arabic_Plus Exclusive</string>
 	</dict>
 </array>
 </plist>

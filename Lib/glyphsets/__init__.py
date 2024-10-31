@@ -379,7 +379,6 @@ class GlyphSet(object):
             # Subtract own glyphs
             complete_glyphs = set(self.get_final_glyphnames(exclusive=False))
             glyph_names = list(set(complete_glyphs) - inherited_glyphs)
-            print(len(complete_glyphs), len(inherited_glyphs), len(glyph_names))
 
             return sorted(glyph_names, key=functools.cmp_to_key(sort_unicodes_by_name))
 

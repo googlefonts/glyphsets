@@ -1,4 +1,6 @@
 description: Basic character set covering the 3 most widely used languages
+include_glyphsets:
+- GF_Latin_Kernel
 language_codes:
 - ar_Arab
 - fa_Arab

@@ -17,6 +17,7 @@ Below are the most important changes from each release.
 - Include glyphset inheritance, defined in child glyphsets (e.g. **GF_Cyrillic_Plus** is set to include **GF_Cyrillic_Core**)
 - Following inheritance, put out exclusive glyphsets for `.plist` files for now; may be extended to other outputs later
 - Add `CustomFilter_GF_All.plist.plist`
+- Manually added **GF_Latin_Kernel** to all modern **Arabic**, **Cyrillic** glyphsets as well as **GF_Greek_Core**
 
 ### v1.0.0 (2024-05-03)
 #### Changes since last release
