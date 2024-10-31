@@ -583,6 +583,10 @@ def glyphs_in_glyphsets(glyphset_names, production_names=False):
     return sorted(list(glyphs))
 
 
+def languages_per_glyphset(glyphset_name):
+    return GlyphSet(glyphset_name).get_language_codes()
+
+
 # TODO:
 # Rewrite this to be calculated live
 def glyphs_in_glyphset(glyphset_name, production_names=False):
