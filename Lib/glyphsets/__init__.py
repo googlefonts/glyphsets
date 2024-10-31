@@ -114,7 +114,13 @@ LANGUAGES = gflanguages.LoadLanguages()
 
 class GlyphSet(object):
     def __init__(self, name):
-        self.name = name
+        if " " in name:
+            self.name = name.split(" ")[0]
+            name_length = len(self.name) + 1
+            self.modifier = name[name_length:]
+        else:
+            self.name = name
+            self.modifier = None
 
         # Read definition
         yaml_path = os.path.join(os.path.dirname(__file__), "definitions", f"{self.name}.yaml")
@@ -133,8 +139,14 @@ class GlyphSet(object):
 
         self.script = get_script(self.name)
 
+    def complete_name(self):
+        if self.modifier:
+            return f"{self.name} {self.modifier}"
+        else:
+            return self.name
+
     def __str__(self):
-        return f"<Glyphset {self.name}>"
+        return f"<GlyphSet {self.complete_name()}>"
 
     def get_included_glyphsets(self):
         """Compute list of all included glyphsets"""
@@ -150,7 +162,18 @@ class GlyphSet(object):
         if included_glyphsets:
             included_glyphsets = reversed(included_glyphsets)
 
-        return included_glyphsets
+        return list(included_glyphsets)
+
+    def get_extended_glyphsets(self):
+        """Compute list of dynamically spawned glyphsets"""
+
+        extended_glyphsets = []
+
+        # Glyphsets that contain just glyphs exclusive to this set in case of inheritances
+        if self.get_included_glyphsets():
+            extended_glyphsets.append(self.name + " Exclusive")
+
+        return extended_glyphsets
 
     def get_language_codes(self):
         """Compute the language codes for this glyphset"""
@@ -343,11 +366,29 @@ class GlyphSet(object):
     def get_final_unicodes(self):
         return [glyph.unicode for glyph in self.get_final_glyph_objects() if glyph.unicode]
 
-    def get_final_glyphnames(self):
-        return [glyph.name for glyph in self.get_final_glyph_objects()]
+    def get_final_glyphnames(self, exclusive=True):
+
+        if self.modifier == "Exclusive" and exclusive:
+
+            inherited_glyphs = set()
+            for glyphset in self.include_glyphsets:
+                inherited_glyphset = GlyphSet(glyphset)
+                this_inherited_glyphs = set(inherited_glyphset.get_final_glyphnames())
+                inherited_glyphs.update(this_inherited_glyphs)
+
+            # Subtract own glyphs
+            complete_glyphs = set(self.get_final_glyphnames(exclusive=False))
+            glyph_names = list(set(complete_glyphs) - inherited_glyphs)
+            print(len(complete_glyphs), len(inherited_glyphs), len(glyph_names))
+
+            return sorted(glyph_names, key=functools.cmp_to_key(sort_unicodes_by_name))
+
+        else:
+            glyph_names = [glyph.name for glyph in self.get_final_glyph_objects()]
+            return glyph_names
 
     def get_final_productionglyphnames(self):
-        return [get_glyph(glyph.name).production_name for glyph in self.get_final_glyph_objects()]
+        return [get_glyph(glyph_name).production_name for glyph_name in self.get_final_glyphnames()]
 
     def get_description(self):
 
@@ -470,6 +511,8 @@ def get_glyphs_file(file_path):
 
 
 def defined_glyphsets():
+    """Return a list of defined glyphsets"""
+
     definitions_path = os.path.join(os.path.dirname(__file__), "definitions")
     yaml_files = [
         os.path.splitext(f)[0]
@@ -477,6 +520,20 @@ def defined_glyphsets():
         if os.path.isfile(os.path.join(definitions_path, f)) and f.endswith(".yaml")
     ]
     return sorted(yaml_files)
+
+
+def extended_glyphsets():
+    """
+    Return a list of glyphsets, both explicitly defined as well as implicitly generated
+    for instance when glyphsets have inheritances, to accomodate for exclusive glyphsets
+    """
+
+    glyphsets = []
+    for glyphset in defined_glyphsets():
+        glyphsets.append(glyphset)
+        glyphsets.extend(GlyphSet(glyphset).get_extended_glyphsets())
+
+    return glyphsets
 
 
 def get_script(glyphset_name):
