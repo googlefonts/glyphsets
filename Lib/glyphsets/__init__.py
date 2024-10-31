@@ -151,10 +151,9 @@ class GlyphSet(object):
     def get_included_glyphsets(self):
         """Compute list of all included glyphsets"""
 
-        included_glyphsets = []
+        included_glyphsets = copy.copy(self.include_glyphsets)
 
         for glyphset in self.include_glyphsets:
-            included_glyphsets.append(glyphset)
             for glyphset_name in GlyphSet(glyphset).get_included_glyphsets():
                 if glyphset_name not in included_glyphsets:
                     included_glyphsets.append(glyphset_name)
