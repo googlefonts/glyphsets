@@ -30,7 +30,7 @@
 
 * Script: Arabic
 * Includes glyphsets `
-GF_Latin_Kernel
+[GF_Latin_Kernel](#gf-latin-kernel)
 `
 * List of languages: `
 Arabic (ar_Arab),
@@ -83,7 +83,7 @@ Glyphs.app Custom Filter List (contains all Arabic glyphsets): [CustomFilter_GF_
 
 * Script: Arabic
 * Includes glyphsets `
-GF_Latin_Kernel
+[GF_Latin_Kernel](#gf-latin-kernel)
 `
 * List of languages: `
 Central Kurdish (ckb_Arab),
@@ -137,7 +137,7 @@ Glyphs.app Custom Filter List (contains all Arabic glyphsets): [CustomFilter_GF_
 
 * Script: Cyrillic
 * Includes glyphsets `
-GF_Latin_Kernel
+[GF_Latin_Kernel](#gf-latin-kernel)
 `
 * List of languages: `
 Belarusian (be_Cyrl),
@@ -236,9 +236,8 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 * Script: Cyrillic
 * Includes glyphsets `
-GF_Latin_Kernel,
-GF_Latin_Kernel,
-GF_Cyrillic_Core
+[GF_Latin_Kernel](#gf-latin-kernel),
+[GF_Cyrillic_Core](#gf-cyrillic-core)
 `
 * List of languages: `
 Adyghe (ady_Cyrl),
@@ -315,10 +314,9 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 * Script: Cyrillic
 * Includes glyphsets `
-GF_Latin_Kernel,
-GF_Cyrillic_Core,
-GF_Latin_Kernel,
-GF_Cyrillic_Plus
+[GF_Cyrillic_Core](#gf-cyrillic-core),
+[GF_Latin_Kernel](#gf-latin-kernel),
+[GF_Cyrillic_Plus](#gf-cyrillic-plus)
 `
 * Characters and glyphs defined in [GF_Cyrillic_Pro.stub.glyphs](/data/definitions/per_glyphset/GF_Cyrillic_Pro.stub.glyphs)
 
@@ -523,7 +521,7 @@ Glyphs.app Custom Filter List (contains all Greek glyphsets): [CustomFilter_GF_G
 
 * Script: Greek
 * Includes glyphsets `
-GF_Latin_Kernel
+[GF_Latin_Kernel](#gf-latin-kernel)
 `
 * List of languages: `
 Greek (el_Grek)

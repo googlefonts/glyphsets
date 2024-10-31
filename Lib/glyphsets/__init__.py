@@ -411,8 +411,11 @@ class GlyphSet(object):
             md += "as:\n\n"
         md += f"* Script: {self.script}\n"
 
+        def make_link(text):
+            return f"[{text}](#{text.lower().replace('_', '-')})"
+
         if self.get_included_glyphsets():
-            md += "* Includes glyphsets `\n" + ",\n".join(self.get_included_glyphsets()) + "\n`\n"
+            md += "* Includes glyphsets `\n" + ",\n".join(map(make_link, self.get_included_glyphsets())) + "\n`\n"
         # Dynamic defintion
         if self.regions:
             md += "* All languages of the countries `\n" + ",\n".join(sorted(map(add_country, self.regions))) + "\n`\n"
