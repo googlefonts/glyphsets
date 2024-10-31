@@ -7,45 +7,12 @@ import os
 import shutil
 import gflanguages
 import unicodedata
-import glyphsLib
-import functools
 import plistlib
-from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
-
-# from fontTools.unicodedata.Scripts import NAMES as SCRIPT_NAMES
 
 # Insert local module path at beginning of sys.path
 # so that up-to-date version of glyphsets package is used
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "Lib"))
 from glyphsets import defined_glyphsets, GlyphSet  # noqa: E402
-
-
-def sort_unicodes(a, b):
-    if a.unicode and b.unicode:
-        return int(a.unicode, 16) - int(b.unicode, 16)
-    elif a.unicode:
-        return -1
-    elif b.unicode:
-        return 1
-    else:
-        return 0
-
-
-def sort_by_category(a, b):
-    info_a = get_glyph(a.name)
-    info_b = get_glyph(b.name)
-
-    if info_a.category is None:
-        return -1
-    elif info_b.category is None:
-        return 1
-
-    value = sorted([info_a.category, info_b.category]).index(info_a.category)
-    if value == 0:
-        value = -1
-    value *= -1
-
-    return value
 
 
 def assemble_characterset(root_folder, glyphset_name):
@@ -77,88 +44,11 @@ def assemble_characterset(root_folder, glyphset_name):
         )
     )
     glyphs_path = os.path.join(root_folder, "results", "glyphs", f"{glyphset_name}.glyphs")
-    glyphs_empty_path = os.path.join(root_folder, "empty_font.glyphs")
     txt_nicenames_path = os.path.join(root_folder, "results", "txt", "nice-names", f"{glyphset_name}.txt")
     txt_prodnames_path = os.path.join(root_folder, "results", "txt", "prod-names", f"{glyphset_name}.txt")
     plist_path = os.path.join(root_folder, "results", "plist", f"CustomFilter_GF_{glyphset.script}.plist")
 
-    # Create or open glyphs file and add characters
-    font = glyphsLib.load(glyphs_empty_path)
-    font.familyName = glyphset_name
-
-    # Start assembly
-    character_set = set(glyphset.get_characters())
-    character_set.update(set(glyphset.get_stub_characters()))
-    # glyph_set = glyphset.get_stub_glyphs()
-
-    # Call get_glyph once so that GLYPHDATA gets filled in glyphsLib
-    get_glyph("A")
-    # If I import GLYPHDATA at the top of the file, it doesn't get filled
-    from glyphsLib.glyphdata import GLYPHDATA
-
-    assert type(GLYPHDATA) is glyphsLib.glyphdata.GlyphData
-
-    def _font_has_unicode(font, unicode):
-        if type(unicode) is str:
-            unicode = int(unicode, 16)
-        for glyph in font.glyphs:
-            if glyph.unicode:
-                if int(glyph.unicode, 16) == unicode:
-                    return True
-
-    # Add language-specific glyphs
-    for language_code in glyphset.get_language_codes():
-        per_language_glyphs_stub_path = os.path.join(
-            root_folder, "definitions", "per_language", f"{language_code}.stub.glyphs"
-        )
-        if os.path.exists(per_language_glyphs_stub_path):
-            per_language_font = glyphsLib.load(per_language_glyphs_stub_path)
-
-            for glyph in per_language_font.glyphs:
-
-                # Add encoded characters to character_set
-                if glyph.unicodes:
-                    for unicode in glyph.unicodes:
-                        character_set.update({int(unicode, 16)})
-
-                # Add to glyphs to .glyphs file
-                if (
-                    glyph.unicode
-                    and not _font_has_unicode(font, glyph.unicode)
-                    or not glyph.unicode
-                    and not font.glyphs[glyph.name]
-                ):
-                    new_glyph = glyphsLib.GSGlyph(glyph.name)
-                    font.glyphs.append(new_glyph)
-
-    # Add encoded characters to .glyphs file
-    for _i, unicode in enumerate(sorted(list(character_set))):
-        if not _font_has_unicode(font, unicode):
-            unicode = f"{unicode:#0{6}X}".replace("0X", "")
-            glyph_info = _lookup_attributes_by_unicode(unicode, GLYPHDATA)
-            if "name" in glyph_info:
-                new_glyph = glyphsLib.GSGlyph(glyph_info["name"])
-            else:
-                new_glyph = glyphsLib.GSGlyph(f"uni{unicode}")
-            new_glyph.unicode = unicode
-            font.glyphs.append(new_glyph)
-
-    # Add stub glyphs to .glyphs file
-    for glyph in glyphset.get_stub_glyph_objects():
-        if (
-            glyph.unicode
-            and not _font_has_unicode(font, glyph.unicode)
-            or not glyph.unicode
-            and not font.glyphs[glyph.name]
-        ):
-            new_glyph = glyphsLib.GSGlyph(glyph.name)
-            font.glyphs.append(new_glyph)
-
-    # Sort
-    font.glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_by_category))
-    unicode_sorted_glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_unicodes))
-    glyph_names = [glyph.name for glyph in unicode_sorted_glyphs]
-    production_glyph_names = [get_glyph(glyph.name).production_name for glyph in unicode_sorted_glyphs]
+    font = glyphset.get_final_glyphs_font()
 
     # Save glyphs file
     os.makedirs(os.path.dirname(glyphs_path), exist_ok=True)
@@ -172,14 +62,15 @@ def assemble_characterset(root_folder, glyphset_name):
     os.makedirs(os.path.dirname(nam_in_package_path), exist_ok=True)
     with open(nam_path, "w") as f:
         f.write("# This file is auto-generated; do not edit. See /README.md for instructions.\n")
-        for i, unicode in enumerate(sorted(list(character_set))):
-            unicode_string = f"{unicode:#0{6}X}".replace("0X", "0x")
+        for i, unicode in enumerate(glyphset.get_final_unicodes()):
+            # unicode_string = f"{unicode:#0{6}X}".replace("0X", "0x")
+            unicode_string = f"0x{unicode}"
             try:
-                unicode_name = unicodedata.name(chr(unicode))
+                unicode_name = unicodedata.name(chr(int(unicode, 16)))
             except ValueError:
                 unicode_name = ""
             f.write(f"{unicode_string} # {unicode_name}")
-            if i < len(character_set) - 1:
+            if i < len(glyphset.get_final_unicodes()) - 1:
                 f.write("\n")
     shutil.copyfile(nam_path, nam_in_package_path)
 
@@ -187,11 +78,11 @@ def assemble_characterset(root_folder, glyphset_name):
     os.makedirs(os.path.dirname(txt_nicenames_path), exist_ok=True)
     with open(txt_nicenames_path, "w") as f:
         f.write("# This file is auto-generated; do not edit. See /README.md for instructions.\n")
-        f.write("\n".join(glyph_names))
+        f.write("\n".join(glyphset.get_final_glyphnames()))
     os.makedirs(os.path.dirname(txt_prodnames_path), exist_ok=True)
     with open(txt_prodnames_path, "w") as f:
         f.write("# This file is auto-generated; do not edit. See /README.md for instructions.\n")
-        f.write("\n".join(production_glyph_names))
+        f.write("\n".join(glyphset.get_final_productionglyphnames()))
     os.makedirs(os.path.dirname(txt_in_package_path), exist_ok=True)
     shutil.copyfile(txt_nicenames_path, txt_in_package_path)
 
@@ -205,10 +96,10 @@ def assemble_characterset(root_folder, glyphset_name):
     found_list = False
     for plist_glyphset in plist:
         if "name" in plist_glyphset and plist_glyphset["name"] == glyphset_name:
-            plist_glyphset["list"] = glyph_names
+            plist_glyphset["list"] = glyphset.get_final_glyphnames()
             found_list = True
     if not found_list:
-        plist.append({"name": glyphset_name, "list": glyph_names})
+        plist.append({"name": glyphset_name, "list": glyphset.get_final_glyphnames()})
     with open(plist_path, "wb") as f:
         plistlib.dump(plist, f)
 

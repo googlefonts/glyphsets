@@ -15,7 +15,7 @@ from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
 # Call get_glyph once so that GLYPHDATA gets filled in glyphsLib
 get_glyph("A")
 # If I import GLYPHDATA at the top of the file, it doesn't get filled
-from glyphsLib.glyphdata import GLYPHDATA
+from glyphsLib.glyphdata import GLYPHDATA  # noqa E402
 
 assert type(GLYPHDATA) is glyphsLib.glyphdata.GlyphData
 
@@ -28,7 +28,7 @@ root_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."
 tool_folder = os.path.abspath(os.path.dirname(__file__))
 
 
-def sort_unicodes(a, b):
+def sort_unicodes_by_name(a, b):
     glyph_a = get_glyph(a)
     glyph_b = get_glyph(b)
     if glyph_a.unicode and glyph_b.unicode:
@@ -39,6 +39,34 @@ def sort_unicodes(a, b):
         return 1
     else:
         return 0
+
+
+def sort_unicodes_by_glyphobject(a, b):
+    if a.unicode and b.unicode:
+        return int(a.unicode, 16) - int(b.unicode, 16)
+    elif a.unicode:
+        return -1
+    elif b.unicode:
+        return 1
+    else:
+        return 0
+
+
+def sort_by_category(a, b):
+    info_a = get_glyph(a.name)
+    info_b = get_glyph(b.name)
+
+    if info_a.category is None:
+        return -1
+    elif info_b.category is None:
+        return 1
+
+    value = sorted([info_a.category, info_b.category]).index(info_a.category)
+    if value == 0:
+        value = -1
+    value *= -1
+
+    return value
 
 
 def read_nam_file(path):
@@ -219,6 +247,107 @@ class GlyphSet(object):
                 glyph_set.append(Glyph(glyph.name, glyph.unicode))
 
         return glyph_set
+
+    def get_final_glyphs_font(self):
+        """Collect list of all glyphs for this glyphset in a GSFont object"""
+
+        if hasattr(self, "_final_glyphs_font"):
+            return self._final_glyphs_font
+
+        else:
+
+            glyphs_empty_path = os.path.join(root_folder, "empty_font.glyphs")
+
+            # Create or open glyphs file and add characters
+            font = glyphsLib.load(glyphs_empty_path)
+            font.familyName = self.name
+
+            # Start assembly
+            character_set = set(self.get_characters())
+            character_set.update(set(self.get_stub_characters()))
+            # glyph_set = self.get_stub_glyphs()
+
+            # Call get_glyph once so that GLYPHDATA gets filled in glyphsLib
+            get_glyph("A")
+            # If I import GLYPHDATA at the top of the file, it doesn't get filled
+            from glyphsLib.glyphdata import GLYPHDATA
+
+            assert type(GLYPHDATA) is glyphsLib.glyphdata.GlyphData
+
+            def _font_has_unicode(font, unicode):
+                if type(unicode) is str:
+                    unicode = int(unicode, 16)
+                for glyph in font.glyphs:
+                    if glyph.unicode:
+                        if int(glyph.unicode, 16) == unicode:
+                            return True
+
+            # Add language-specific glyphs
+            for language_code in self.get_language_codes():
+                per_language_glyphs_stub_path = os.path.join(
+                    root_folder, "definitions", "per_language", f"{language_code}.stub.glyphs"
+                )
+                if os.path.exists(per_language_glyphs_stub_path):
+                    per_language_font = glyphsLib.load(per_language_glyphs_stub_path)
+
+                    for glyph in per_language_font.glyphs:
+
+                        # Add encoded characters to character_set
+                        if glyph.unicodes:
+                            for unicode in glyph.unicodes:
+                                character_set.update({int(unicode, 16)})
+
+                        # Add to glyphs to .glyphs file
+                        if (
+                            glyph.unicode
+                            and not _font_has_unicode(font, glyph.unicode)
+                            or not glyph.unicode
+                            and not font.glyphs[glyph.name]
+                        ):
+                            new_glyph = glyphsLib.GSGlyph(glyph.name)
+                            font.glyphs.append(new_glyph)
+
+            # Add encoded characters to .glyphs file
+            for _i, unicode in enumerate(sorted(list(character_set))):
+                if not _font_has_unicode(font, unicode):
+                    unicode = f"{unicode:#0{6}X}".replace("0X", "")
+                    glyph_info = _lookup_attributes_by_unicode(unicode, GLYPHDATA)
+                    if "name" in glyph_info:
+                        new_glyph = glyphsLib.GSGlyph(glyph_info["name"])
+                    else:
+                        new_glyph = glyphsLib.GSGlyph(f"uni{unicode}")
+                    new_glyph.unicode = unicode
+                    font.glyphs.append(new_glyph)
+
+            # Add stub glyphs to .glyphs file
+            for glyph in self.get_stub_glyph_objects():
+                if (
+                    glyph.unicode
+                    and not _font_has_unicode(font, glyph.unicode)
+                    or not glyph.unicode
+                    and not font.glyphs[glyph.name]
+                ):
+                    new_glyph = glyphsLib.GSGlyph(glyph.name)
+                    font.glyphs.append(new_glyph)
+
+            # Sort
+            font.glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_by_category))
+
+            self._final_glyphs_font = font
+
+            return font
+
+    def get_final_glyph_objects(self):
+        return sorted(self.get_final_glyphs_font().glyphs, key=functools.cmp_to_key(sort_unicodes_by_glyphobject))
+
+    def get_final_unicodes(self):
+        return [glyph.unicode for glyph in self.get_final_glyph_objects() if glyph.unicode]
+
+    def get_final_glyphnames(self):
+        return [glyph.name for glyph in self.get_final_glyph_objects()]
+
+    def get_final_productionglyphnames(self):
+        return [get_glyph(glyph.name).production_name for glyph in self.get_final_glyph_objects()]
 
     def get_description(self):
 
@@ -419,7 +548,7 @@ def glyphs_in_glyphset(glyphset_name, production_names=False):
 def categorize_glyphs(glyph_names):
     categories = {}
 
-    unicode_sorted_glyph_names = sorted(glyph_names, key=functools.cmp_to_key(sort_unicodes))
+    unicode_sorted_glyph_names = sorted(glyph_names, key=functools.cmp_to_key(sort_unicodes_by_name))
 
     for glyph_name in unicode_sorted_glyph_names:
         glyph = get_glyph(glyph_name)
