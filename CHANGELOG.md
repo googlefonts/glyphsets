@@ -3,7 +3,20 @@ Below are the most important changes from each release.
 ### v1.?.0 (2024-?)
 #### Changes since last release
 
-- ?
+- 
+
+### v1.1.0 (2024-?)
+#### Changes since last release
+
+- Added Ⓓ (design right symbol) to **GF_Latin_Plus** (issue #217)
+- Revised **GF_Cyrillic_Core** and **Plus** glyphset definitions with language definitions and descriptions
+- Removed Python 3.8 support from tests
+- Implemented `glyphsets find` to find characters in the language and glyphset definitions
+- Remove invisible control and format characters from glyphsets (Unicode `Cc` and `Cf` categories)
+- In `.nam` files, separate names from unicodes with a `#` to make the files consumable as-is in subsetting applications (issue #232)
+- Include glyphset inheritance, defined in child glyphsets (e.g. **GF_Cyrillic_Plus** is set to include **GF_Cyrillic_Core**)
+- Following inheritance, put out exclusive glyphsets for `.plist` files for now; may be extended to other outputs later
+- Add `CustomFilter_GF_All.plist.plist`
 
 ### v1.0.0 (2024-05-03)
 #### Changes since last release
