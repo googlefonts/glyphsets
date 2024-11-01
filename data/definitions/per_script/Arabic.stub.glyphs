@@ -107,36 +107,6 @@ width = 600;
 unicode = 1722;
 },
 {
-glyphname = "hehgoalHamzaabove-ar";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1730;
-},
-{
-glyphname = "tehMarbutagoal-ar";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1731;
-},
-{
-glyphname = "yehbarreeHamzaabove-ar";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 1747;
-},
-{
 glyphname = "lam_alef-ar";
 layers = (
 {

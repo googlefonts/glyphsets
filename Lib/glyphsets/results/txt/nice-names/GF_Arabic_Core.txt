@@ -192,11 +192,8 @@ gaf-ar
 noonghunna-ar
 hehDoachashmee-ar
 hehgoal-ar
-hehgoalHamzaabove-ar
-tehMarbutagoal-ar
 yehFarsi-ar
 yehbarree-ar
-yehbarreeHamzaabove-ar
 fullstop-ar
 threedotsabove-ar
 zeroFarsi-ar

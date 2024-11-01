@@ -209,8 +209,6 @@ uni06BA
 uni06BB
 uni06BC
 uni06BE
-uni06C2
-uni06C3
 uni06C6
 uni06C7
 uni06C8
@@ -219,7 +217,6 @@ uni06CC
 uni06CD
 uni06CE
 uni06D0
-uni06D3
 uni06D4
 uni06D5
 uni06DB

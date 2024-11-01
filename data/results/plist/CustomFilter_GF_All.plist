@@ -198,11 +198,8 @@
 			<string>noonghunna-ar</string>
 			<string>hehDoachashmee-ar</string>
 			<string>hehgoal-ar</string>
-			<string>hehgoalHamzaabove-ar</string>
-			<string>tehMarbutagoal-ar</string>
 			<string>yehFarsi-ar</string>
 			<string>yehbarree-ar</string>
-			<string>yehbarreeHamzaabove-ar</string>
 			<string>fullstop-ar</string>
 			<string>threedotsabove-ar</string>
 			<string>zeroFarsi-ar</string>
@@ -368,11 +365,8 @@
 			<string>noonghunna-ar</string>
 			<string>hehDoachashmee-ar</string>
 			<string>hehgoal-ar</string>
-			<string>hehgoalHamzaabove-ar</string>
-			<string>tehMarbutagoal-ar</string>
 			<string>yehFarsi-ar</string>
 			<string>yehbarree-ar</string>
-			<string>yehbarreeHamzaabove-ar</string>
 			<string>fullstop-ar</string>
 			<string>threedotsabove-ar</string>
 			<string>zeroFarsi-ar</string>
@@ -391,47 +385,47 @@
 			<string>dottedCircle</string>
 			<string>parenleft-ar</string>
 			<string>parenright-ar</string>
-			<string>threedotsdownabove-ar</string>
-			<string>hamzaaboveDammatan-ar</string>
-			<string>hamzabelowKasra-ar</string>
-			<string>dotbelow-ar</string>
-			<string>shaddaKasra-ar</string>
-			<string>alef-ar.short</string>
-			<string>dotcenter-ar</string>
-			<string>qaf_yehHamzaabove-ar</string>
-			<string>lam_alefHamzaabove-ar</string>
-			<string>fourFarsi-ar.urdu</string>
-			<string>gafsarkashabove-ar</string>
-			<string>hamzaaboveDamma-ar</string>
-			<string>threedotsdowncenter-ar</string>
-			<string>shaddaDamma-ar</string>
-			<string>lam_alefWasla-ar</string>
-			<string>hamzaaboveFatha-ar</string>
-			<string>goalcomma-ar</string>
-			<string>shaddaAlefabove-ar</string>
-			<string>threedotsupabove-ar</string>
-			<string>hamzaaboveSukun-ar</string>
-			<string>hamzabelowKasratan-ar</string>
-			<string>qaf_alefMaksura-ar</string>
-			<string>wasla-ar</string>
-			<string>dotabove-ar</string>
-			<string>feh_alefMaksura-ar</string>
-			<string>feh_yeh-ar</string>
-			<string>hamzaaboveFathatan-ar</string>
-			<string>twodotshorizontalabove-ar</string>
 			<string>fehdotless_alefMaksura-ar</string>
 			<string>shaddaKasratan-ar</string>
-			<string>twodotshorizontalbelow-ar</string>
+			<string>shaddaAlefabove-ar</string>
 			<string>qaf_yeh-ar</string>
-			<string>sevenFarsi-ar.urdu</string>
-			<string>threedotsdownbelow-ar</string>
-			<string>feh_yehHamzaabove-ar</string>
-			<string>shaddaFathatan-ar</string>
-			<string>shaddaDammatan-ar</string>
-			<string>lam_alefHamzabelow-ar</string>
-			<string>shaddaFatha-ar</string>
 			<string>lam_alef-ar</string>
+			<string>fourFarsi-ar.urdu</string>
+			<string>shaddaFatha-ar</string>
+			<string>lam_alefWasla-ar</string>
+			<string>threedotsdowncenter-ar</string>
+			<string>hamzabelowKasra-ar</string>
+			<string>threedotsdownabove-ar</string>
+			<string>hamzaaboveSukun-ar</string>
+			<string>alef-ar.short</string>
+			<string>shaddaDammatan-ar</string>
+			<string>qaf_alefMaksura-ar</string>
+			<string>feh_alefMaksura-ar</string>
+			<string>wasla-ar</string>
+			<string>threedotsdownbelow-ar</string>
+			<string>threedotsupabove-ar</string>
+			<string>dotcenter-ar</string>
+			<string>hamzaaboveDammatan-ar</string>
+			<string>hamzaaboveDamma-ar</string>
+			<string>dotabove-ar</string>
+			<string>lam_alefHamzaabove-ar</string>
+			<string>twodotshorizontalbelow-ar</string>
+			<string>feh_yehHamzaabove-ar</string>
+			<string>goalcomma-ar</string>
+			<string>hamzaaboveFatha-ar</string>
+			<string>shaddaDamma-ar</string>
 			<string>lam_alefMadda-ar</string>
+			<string>qaf_yehHamzaabove-ar</string>
+			<string>shaddaFathatan-ar</string>
+			<string>shaddaKasra-ar</string>
+			<string>gafsarkashabove-ar</string>
+			<string>dotbelow-ar</string>
+			<string>lam_alefHamzabelow-ar</string>
+			<string>sevenFarsi-ar.urdu</string>
+			<string>hamzabelowKasratan-ar</string>
+			<string>twodotshorizontalabove-ar</string>
+			<string>hamzaaboveFathatan-ar</string>
+			<string>feh_yeh-ar</string>
 		</array>
 		<key>name</key>
 		<string>GF_Arabic_Core Exclusive</string>
@@ -649,8 +643,6 @@
 			<string>rnoon-ar</string>
 			<string>noonRing-ar</string>
 			<string>hehDoachashmee-ar</string>
-			<string>hehgoalHamzaabove-ar</string>
-			<string>tehMarbutagoal-ar</string>
 			<string>oe-ar</string>
 			<string>u-ar</string>
 			<string>yu-ar</string>
@@ -659,7 +651,6 @@
 			<string>yehTail-ar</string>
 			<string>yehVabove-ar</string>
 			<string>e-ar</string>
-			<string>yehbarreeHamzaabove-ar</string>
 			<string>fullstop-ar</string>
 			<string>ae-ar</string>
 			<string>threedotsabove-ar</string>
@@ -842,8 +833,6 @@
 			<string>rnoon-ar</string>
 			<string>noonRing-ar</string>
 			<string>hehDoachashmee-ar</string>
-			<string>hehgoalHamzaabove-ar</string>
-			<string>tehMarbutagoal-ar</string>
 			<string>oe-ar</string>
 			<string>u-ar</string>
 			<string>yu-ar</string>
@@ -852,7 +841,6 @@
 			<string>yehTail-ar</string>
 			<string>yehVabove-ar</string>
 			<string>e-ar</string>
-			<string>yehbarreeHamzaabove-ar</string>
 			<string>fullstop-ar</string>
 			<string>ae-ar</string>
 			<string>threedotsabove-ar</string>
@@ -871,47 +859,47 @@
 			<string>reversedsemicolon</string>
 			<string>dottedCircle</string>
 			<string>commareversed</string>
-			<string>threedotsdownabove-ar</string>
-			<string>hamzaaboveDammatan-ar</string>
-			<string>hamzabelowKasra-ar</string>
-			<string>dotbelow-ar</string>
-			<string>shaddaKasra-ar</string>
-			<string>alef-ar.short</string>
-			<string>dotcenter-ar</string>
-			<string>qaf_yehHamzaabove-ar</string>
-			<string>lam_alefHamzaabove-ar</string>
-			<string>fourFarsi-ar.urdu</string>
-			<string>gafsarkashabove-ar</string>
-			<string>hamzaaboveDamma-ar</string>
-			<string>threedotsdowncenter-ar</string>
-			<string>shaddaDamma-ar</string>
-			<string>lam_alefWasla-ar</string>
-			<string>hamzaaboveFatha-ar</string>
-			<string>goalcomma-ar</string>
-			<string>shaddaAlefabove-ar</string>
-			<string>threedotsupabove-ar</string>
-			<string>hamzaaboveSukun-ar</string>
-			<string>hamzabelowKasratan-ar</string>
-			<string>qaf_alefMaksura-ar</string>
-			<string>wasla-ar</string>
-			<string>dotabove-ar</string>
-			<string>feh_alefMaksura-ar</string>
-			<string>feh_yeh-ar</string>
-			<string>hamzaaboveFathatan-ar</string>
-			<string>twodotshorizontalabove-ar</string>
 			<string>fehdotless_alefMaksura-ar</string>
 			<string>shaddaKasratan-ar</string>
-			<string>twodotshorizontalbelow-ar</string>
+			<string>shaddaAlefabove-ar</string>
 			<string>qaf_yeh-ar</string>
-			<string>sevenFarsi-ar.urdu</string>
-			<string>threedotsdownbelow-ar</string>
-			<string>feh_yehHamzaabove-ar</string>
-			<string>shaddaFathatan-ar</string>
-			<string>shaddaDammatan-ar</string>
-			<string>shaddaFatha-ar</string>
-			<string>lam_alefHamzabelow-ar</string>
 			<string>lam_alef-ar</string>
+			<string>fourFarsi-ar.urdu</string>
+			<string>shaddaFatha-ar</string>
+			<string>lam_alefWasla-ar</string>
+			<string>threedotsdowncenter-ar</string>
+			<string>hamzabelowKasra-ar</string>
+			<string>threedotsdownabove-ar</string>
+			<string>hamzaaboveSukun-ar</string>
+			<string>alef-ar.short</string>
+			<string>shaddaDammatan-ar</string>
+			<string>qaf_alefMaksura-ar</string>
+			<string>feh_alefMaksura-ar</string>
+			<string>wasla-ar</string>
+			<string>threedotsdownbelow-ar</string>
+			<string>threedotsupabove-ar</string>
+			<string>dotcenter-ar</string>
+			<string>hamzaaboveDammatan-ar</string>
+			<string>hamzaaboveDamma-ar</string>
+			<string>dotabove-ar</string>
+			<string>lam_alefHamzaabove-ar</string>
+			<string>twodotshorizontalbelow-ar</string>
+			<string>feh_yehHamzaabove-ar</string>
+			<string>goalcomma-ar</string>
+			<string>hamzaaboveFatha-ar</string>
+			<string>shaddaDamma-ar</string>
 			<string>lam_alefMadda-ar</string>
+			<string>qaf_yehHamzaabove-ar</string>
+			<string>shaddaFathatan-ar</string>
+			<string>shaddaKasra-ar</string>
+			<string>gafsarkashabove-ar</string>
+			<string>dotbelow-ar</string>
+			<string>lam_alefHamzabelow-ar</string>
+			<string>sevenFarsi-ar.urdu</string>
+			<string>hamzabelowKasratan-ar</string>
+			<string>twodotshorizontalabove-ar</string>
+			<string>hamzaaboveFathatan-ar</string>
+			<string>feh_yeh-ar</string>
 		</array>
 		<key>name</key>
 		<string>GF_Arabic_Plus Exclusive</string>

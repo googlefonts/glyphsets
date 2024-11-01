@@ -209,8 +209,6 @@ noonghunna-ar
 rnoon-ar
 noonRing-ar
 hehDoachashmee-ar
-hehgoalHamzaabove-ar
-tehMarbutagoal-ar
 oe-ar
 u-ar
 yu-ar
@@ -219,7 +217,6 @@ yehFarsi-ar
 yehTail-ar
 yehVabove-ar
 e-ar
-yehbarreeHamzaabove-ar
 fullstop-ar
 ae-ar
 threedotsabove-ar
