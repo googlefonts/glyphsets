@@ -1,5 +1,5 @@
 import argparse
-from glyphsets import build_glyphsapp_filter_list, compare_glyphsets, analyze_font, find_character
+from glyphsets import build_glyphsapp_filter_list, compare_glyphsets, analyze_font, find_character, GlyphSet
 from fontTools.ttLib import TTFont
 
 
@@ -35,6 +35,19 @@ def main():
     )
     find_parser.add_argument("character", help="0xABCD hex string or Unicode character")
 
+    # Print unicodes
+    printunicodes_parser = subparsers.add_parser(
+        "print-unicodes",
+        help="Print comma-separated list of unicodes for given glyphsets, to be used for subsetting",
+    )
+    printunicodes_parser.add_argument(
+        "-s", "--separator", dest="separator", help="List separator, default is `,`", default=","
+    )
+    printunicodes_parser.add_argument(
+        "-d", "--decorator", dest="decorator", help="Hex Unicode decorator, default is U+", default="U+"
+    )
+    printunicodes_parser.add_argument("glyphsets", nargs="+", help="List of glyphset names")
+
     # PROCESS
     args = parser.parse_args()
 
@@ -49,6 +62,13 @@ def main():
 
     if args.command == "find":
         find_character(args.character)
+
+    if args.command == "print-unicodes":
+        unicodes = set()
+        for glyphset in args.glyphsets:
+            unicodes.update(set(GlyphSet.load(glyphset).get_final_unicodes()))
+
+        print(args.separator.join([f"{args.decorator}{unicode}" for unicode in unicodes]))
 
 
 if __name__ == "__main__":
