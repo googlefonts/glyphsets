@@ -350,7 +350,10 @@ class GlyphSet(object):
                             new_glyph = glyphsLib.GSGlyph(glyph.name)
                             font.glyphs.append(new_glyph)
 
+            # TODO:
+            # Make sure this code isn't a duplicate of the .stub.glyphs handling above
             # Add encoded characters to .glyphs file
+            # That pertains to all of character_set handling
             for _i, unicode in enumerate(sorted(list(character_set))):
                 if not _font_has_unicode(font, unicode):
                     unicode = f"{unicode:#0{6}X}".replace("0X", "")
