@@ -223,8 +223,6 @@ minus
 dottedCircle
 parenleft-ar
 parenright-ar
-goalcomma-ar
-fehdotless_alefMaksura-ar
 fourFarsi-ar.urdu
 sevenFarsi-ar.urdu
 dotabove-ar
@@ -258,9 +256,3 @@ lam_alefHamzaabove-ar
 lam_alefHamzabelow-ar
 lam_alefMadda-ar
 lam_alefWasla-ar
-feh_alefMaksura-ar
-feh_yeh-ar
-feh_yehHamzaabove-ar
-qaf_alefMaksura-ar
-qaf_yeh-ar
-qaf_yehHamzaabove-ar

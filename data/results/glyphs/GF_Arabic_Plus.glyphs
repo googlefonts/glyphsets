@@ -49,12 +49,6 @@ name = Regular;
 );
 glyphs = (
 {
-glyphname = "goalcomma-ar";
-},
-{
-glyphname = "fehdotless_alefMaksura-ar";
-},
-{
 glyphname = dottedCircle;
 unicode = 9676;
 },
@@ -608,24 +602,6 @@ glyphname = "lam_alefMadda-ar";
 },
 {
 glyphname = "lam_alefWasla-ar";
-},
-{
-glyphname = "feh_alefMaksura-ar";
-},
-{
-glyphname = "feh_yeh-ar";
-},
-{
-glyphname = "feh_yehHamzaabove-ar";
-},
-{
-glyphname = "qaf_alefMaksura-ar";
-},
-{
-glyphname = "qaf_yeh-ar";
-},
-{
-glyphname = "qaf_yehHamzaabove-ar";
 },
 {
 glyphname = A;

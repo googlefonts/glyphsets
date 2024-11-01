@@ -246,8 +246,6 @@ trademark
 minus
 uni25CC
 uni2E41
-goalcommaar
-fehdotless_alefMaksuraar
 uni06F4.urdu
 uni06F7.urdu
 dotabovear
@@ -281,9 +279,3 @@ uni06440623
 uni06440625
 uni06440622
 uni06440671
-uni06410649
-uni0641064A
-uni06410626
-uni06420649
-uni0642064A
-uni06420626

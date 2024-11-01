@@ -152,60 +152,6 @@ width = 600;
 );
 },
 {
-glyphname = "feh_alefMaksura-ar";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "feh_yeh-ar";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "feh_yehHamzaabove-ar";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "qaf_alefMaksura-ar";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "qaf_yeh-ar";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "qaf_yehHamzaabove-ar";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
 glyphname = "fourFarsi-ar.urdu";
 layers = (
 {
@@ -497,24 +443,6 @@ width = 300;
 }
 );
 unicode = 1755;
-},
-{
-glyphname = "fehdotless_alefMaksura-ar";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-},
-{
-glyphname = "goalcomma-ar";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
 }
 );
 metrics = (
