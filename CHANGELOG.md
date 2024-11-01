@@ -15,10 +15,10 @@ Below are the most important changes from each release.
 - Remove invisible control and format characters from glyphsets (Unicode `Cc` and `Cf` categories)
 - In `.nam` files, separate names from unicodes with a `#` to make the files consumable as-is in subsetting applications (issue #232)
 - Include glyphset inheritance, defined in child glyphsets (e.g. **GF_Cyrillic_Plus** is set to include **GF_Cyrillic_Core**)
-- Following inheritance, put out exclusive glyphsets for `.plist` files for now; may be extended to other outputs later
-- Add `CustomFilter_GF_All.plist.plist`
+- Following inheritance, put out “Exclusive” glyphsets (for `.plist` files for now); may be extended to other outputs later
+- Add `CustomFilter_GF_All.plist` to results
 - Manually added **GF_Latin_Kernel** to all modern **Arabic**, **Cyrillic** glyphsets as well as **GF_Greek_Core**
-- Added dynamic Cyrillic Roman/Italic localization glyphsets to `.plist` files
+- Added dynamic Cyrillic Roman/Italic localization glyphsets to `.plist` files based on manually curated files in `definitions/misc/`
 
 ### v1.0.0 (2024-05-03)
 #### Changes since last release
