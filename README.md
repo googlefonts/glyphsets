@@ -60,6 +60,9 @@ Once your language and glyphset definitions are set up and edited, run `sh build
 
 Additionally, the [GLYPHSETS.md](GLYPHSETS.md) document is updated, which contains a human-readable overview of the state of each glyphset.
 
+> [!NOTE]  
+> When making PRs, the glyphsets will automatically be rendered depending on defintion changes (which is useful for dependency update PRs such as `glyphsLib` or `gflanguages`). This means that you don’t _need to_ supply updated glyphsets and `GLYPHSETS.md` as part of your PR (as rendered by `sh build.sh`). A PR may be as simple as adding a language to a `.yaml` defintion and the changes to glyphsets will automatically be added in a commit to your PR where you can review the changed glyphsets.
+
 
 Data flow visualization
 -----------------------
