@@ -525,6 +525,8 @@ class GlyphSet(object):
         md += f"[{self.name}.txt](/data/results/txt/prod-names/{self.name}.txt) (production names)\n\n"
         md += f"Glyphs.app Custom Filter List (contains all {self.script} glyphsets): "
         md += f"[CustomFilter_GF_{self.script}.plist](/data/results/plist/CustomFilter_GF_{self.script}.plist)\n\n"
+        md += " or [CustomFilter_GF_All.plist](/data/results/plist/CustomFilter_GF_All.plist)"
+        md += " for the complete list.\n\n"
 
         return md, warning
 
