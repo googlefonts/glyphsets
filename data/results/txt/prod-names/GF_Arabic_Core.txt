@@ -211,5 +211,6 @@ guilsinglright
 Euro
 trademark
 minus
+uni25CC
 uniFD3E
 uniFD3F

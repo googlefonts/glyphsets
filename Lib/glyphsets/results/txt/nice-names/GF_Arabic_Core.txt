@@ -211,5 +211,6 @@ guilsinglright
 euro
 trademark
 minus
+dottedCircle
 parenleft-ar
 parenright-ar
