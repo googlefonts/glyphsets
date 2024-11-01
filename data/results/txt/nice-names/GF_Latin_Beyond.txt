@@ -1,5 +1,17 @@
 # This file is auto-generated; do not edit. See /README.md for instructions.
 degree
+YturnedSansSerif
+primemod
+commaturnedmod
+apostrophemod
+glottalstopmod
+verticallinemod
+commaabovecomb
+commaaboverightcomb
+dotbelowcomb
+macronbelowcomb
+lowlinecomb
+strokeshortcomb
 Ccircumflex
 ccircumflex
 Gcircumflex
@@ -71,17 +83,6 @@ glottalstop
 glottalstopreversed
 wmod
 ymod
-primemod
-commaturnedmod
-apostrophemod
-glottalstopmod
-verticallinemod
-commaabovecomb
-commaaboverightcomb
-dotbelowcomb
-macronbelowcomb
-lowlinecomb
-strokeshortcomb
 lambda
 chi
 zmod
@@ -126,7 +127,6 @@ Idotbelow
 idotbelow
 Ytilde
 ytilde
-YturnedSansSerif
 Lmiddletilde
 astroke
 tdiagonalstroke

@@ -1,4 +1,7 @@
 # This file is auto-generated; do not edit. See /README.md for instructions.
+uniA789
+uni0313
+uni0328
 lacute
 uni019A
 uni019B
@@ -8,8 +11,6 @@ uni022F
 uni023B
 uni023C
 uni02B8
-uni0313
-uni0328
 lambda
 phi
 uni1D05
@@ -21,4 +22,3 @@ uni1E5B
 uni1E71
 uni1E89
 uni1E8B
-uniA789

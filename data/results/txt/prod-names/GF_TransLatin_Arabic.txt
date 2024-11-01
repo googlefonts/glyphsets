@@ -1,8 +1,4 @@
 # This file is auto-generated; do not edit. See /README.md for instructions.
-Gcaron
-gcaron
-uni0232
-uni0233
 uni02BC
 uni02BD
 uni02BE
@@ -10,6 +6,10 @@ uni02BF
 dotbelowcomb
 uni032E
 uni0331
+Gcaron
+gcaron
+uni0232
+uni0233
 uni1E0C
 uni1E0D
 uni1E0E

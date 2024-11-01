@@ -5,22 +5,76 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>space</string>
-			<string>exclam</string>
-			<string>quotedbl</string>
-			<string>numbersign</string>
+			<string>dottedCircle</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
+			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>multiply</string>
+			<string>divide</string>
+			<string>perthousand-ar</string>
+			<string>percent-ar</string>
+			<string>euro</string>
+			<string>trademark</string>
+			<string>minus</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>guillemetleft</string>
+			<string>periodcentered</string>
+			<string>guillemetright</string>
+			<string>comma-ar</string>
+			<string>dateseparator-ar</string>
+			<string>semicolon-ar</string>
+			<string>question-ar</string>
+			<string>asterisk-ar</string>
+			<string>fullstop-ar</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
+			<string>guilsinglleft</string>
+			<string>guilsinglright</string>
+			<string>parenleft-ar</string>
+			<string>parenright-ar</string>
+			<string>fourFarsi-ar.urdu</string>
+			<string>sevenFarsi-ar.urdu</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -31,13 +85,93 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>less</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>question</string>
-			<string>at</string>
+			<string>zero-ar</string>
+			<string>one-ar</string>
+			<string>two-ar</string>
+			<string>three-ar</string>
+			<string>four-ar</string>
+			<string>five-ar</string>
+			<string>six-ar</string>
+			<string>seven-ar</string>
+			<string>eight-ar</string>
+			<string>nine-ar</string>
+			<string>decimalseparator-ar</string>
+			<string>thousandseparator-ar</string>
+			<string>zeroFarsi-ar</string>
+			<string>oneFarsi-ar</string>
+			<string>twoFarsi-ar</string>
+			<string>threeFarsi-ar</string>
+			<string>fourFarsi-ar</string>
+			<string>fiveFarsi-ar</string>
+			<string>sixFarsi-ar</string>
+			<string>sevenFarsi-ar</string>
+			<string>eightFarsi-ar</string>
+			<string>nineFarsi-ar</string>
+			<string>tahabove-ar</string>
+			<string>dotabove-ar</string>
+			<string>dotbelow-ar</string>
+			<string>dotcenter-ar</string>
+			<string>twodotshorizontalabove-ar</string>
+			<string>twodotshorizontalbelow-ar</string>
+			<string>threedotsdownabove-ar</string>
+			<string>threedotsdownbelow-ar</string>
+			<string>threedotsdowncenter-ar</string>
+			<string>threedotsupabove-ar</string>
+			<string>wasla-ar</string>
+			<string>gafsarkashabove-ar</string>
+			<string>alefbelow-ar</string>
+			<string>hamzaaboveDamma-ar</string>
+			<string>hamzaaboveDammatan-ar</string>
+			<string>hamzaaboveFatha-ar</string>
+			<string>hamzaaboveFathatan-ar</string>
+			<string>hamzaaboveSukun-ar</string>
+			<string>hamzabelowKasra-ar</string>
+			<string>hamzabelowKasratan-ar</string>
+			<string>shaddaFathatan-ar</string>
+			<string>shaddaDammatan-ar</string>
+			<string>shaddaKasratan-ar</string>
+			<string>shaddaFatha-ar</string>
+			<string>shaddaDamma-ar</string>
+			<string>shaddaKasra-ar</string>
+			<string>shaddaAlefabove-ar</string>
+			<string>noonghunnaabove-ar</string>
+			<string>threedotsabove-ar</string>
+			<string>grave</string>
+			<string>fathatan-ar</string>
+			<string>dammatan-ar</string>
+			<string>kasratan-ar</string>
+			<string>fatha-ar</string>
+			<string>damma-ar</string>
+			<string>kasra-ar</string>
+			<string>shadda-ar</string>
+			<string>sukun-ar</string>
+			<string>madda-ar</string>
+			<string>hamzaabove-ar</string>
+			<string>hamzabelow-ar</string>
+			<string>alefabove-ar</string>
+			<string>alefWasla-ar</string>
+			<string>alefWasla-ar.fina</string>
+			<string>behDotless-ar</string>
+			<string>behDotless-ar.init</string>
+			<string>behDotless-ar.medi</string>
+			<string>behDotless-ar.fina</string>
+			<string>fehDotless-ar</string>
+			<string>fehDotless-ar.init</string>
+			<string>fehDotless-ar.medi</string>
+			<string>fehDotless-ar.fina</string>
+			<string>qafDotless-ar</string>
+			<string>qafDotless-ar.init</string>
+			<string>qafDotless-ar.medi</string>
+			<string>qafDotless-ar.fina</string>
+			<string>noonghunna-ar</string>
+			<string>noonghunna-ar.init</string>
+			<string>noonghunna-ar.medi</string>
+			<string>noonghunna-ar.fina</string>
+			<string>lam_alef-ar</string>
+			<string>lam_alefHamzaabove-ar</string>
+			<string>lam_alefHamzabelow-ar</string>
+			<string>lam_alefMadda-ar</string>
+			<string>lam_alefWasla-ar</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -64,12 +198,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>backslash</string>
-			<string>bracketright</string>
-			<string>asciicircum</string>
-			<string>underscore</string>
-			<string>grave</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -96,171 +224,170 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>braceleft</string>
-			<string>bar</string>
-			<string>braceright</string>
-			<string>asciitilde</string>
-			<string>nbspace</string>
-			<string>cent</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>copyright</string>
-			<string>guillemetleft</string>
-			<string>registered</string>
-			<string>degree</string>
-			<string>periodcentered</string>
-			<string>guillemetright</string>
-			<string>multiply</string>
-			<string>divide</string>
-			<string>perthousand-ar</string>
-			<string>comma-ar</string>
-			<string>dateseparator-ar</string>
-			<string>tahabove-ar</string>
-			<string>semicolon-ar</string>
-			<string>question-ar</string>
 			<string>hamza-ar</string>
 			<string>alefMadda-ar</string>
+			<string>alefMadda-ar.fina</string>
 			<string>alefHamzaabove-ar</string>
+			<string>alefHamzaabove-ar.fina</string>
 			<string>wawHamzaabove-ar</string>
+			<string>wawHamzaabove-ar.fina</string>
 			<string>alefHamzabelow-ar</string>
+			<string>alefHamzabelow-ar.fina</string>
 			<string>yehHamzaabove-ar</string>
+			<string>yehHamzaabove-ar.init</string>
+			<string>yehHamzaabove-ar.medi</string>
+			<string>yehHamzaabove-ar.fina</string>
 			<string>alef-ar</string>
+			<string>alef-ar.fina</string>
 			<string>beh-ar</string>
+			<string>beh-ar.init</string>
+			<string>beh-ar.medi</string>
+			<string>beh-ar.fina</string>
 			<string>tehMarbuta-ar</string>
+			<string>tehMarbuta-ar.fina</string>
 			<string>teh-ar</string>
+			<string>teh-ar.init</string>
+			<string>teh-ar.medi</string>
+			<string>teh-ar.fina</string>
 			<string>theh-ar</string>
+			<string>theh-ar.init</string>
+			<string>theh-ar.medi</string>
+			<string>theh-ar.fina</string>
 			<string>jeem-ar</string>
+			<string>jeem-ar.init</string>
+			<string>jeem-ar.medi</string>
+			<string>jeem-ar.fina</string>
 			<string>hah-ar</string>
+			<string>hah-ar.init</string>
+			<string>hah-ar.medi</string>
+			<string>hah-ar.fina</string>
 			<string>khah-ar</string>
+			<string>khah-ar.init</string>
+			<string>khah-ar.medi</string>
+			<string>khah-ar.fina</string>
 			<string>dal-ar</string>
+			<string>dal-ar.fina</string>
 			<string>thal-ar</string>
+			<string>thal-ar.fina</string>
 			<string>reh-ar</string>
+			<string>reh-ar.fina</string>
 			<string>zain-ar</string>
+			<string>zain-ar.fina</string>
 			<string>seen-ar</string>
+			<string>seen-ar.init</string>
+			<string>seen-ar.medi</string>
+			<string>seen-ar.fina</string>
 			<string>sheen-ar</string>
+			<string>sheen-ar.init</string>
+			<string>sheen-ar.medi</string>
+			<string>sheen-ar.fina</string>
 			<string>sad-ar</string>
+			<string>sad-ar.init</string>
+			<string>sad-ar.medi</string>
+			<string>sad-ar.fina</string>
 			<string>dad-ar</string>
+			<string>dad-ar.init</string>
+			<string>dad-ar.medi</string>
+			<string>dad-ar.fina</string>
 			<string>tah-ar</string>
+			<string>tah-ar.init</string>
+			<string>tah-ar.medi</string>
+			<string>tah-ar.fina</string>
 			<string>zah-ar</string>
+			<string>zah-ar.init</string>
+			<string>zah-ar.medi</string>
+			<string>zah-ar.fina</string>
 			<string>ain-ar</string>
+			<string>ain-ar.init</string>
+			<string>ain-ar.medi</string>
+			<string>ain-ar.fina</string>
 			<string>ghain-ar</string>
+			<string>ghain-ar.init</string>
+			<string>ghain-ar.medi</string>
+			<string>ghain-ar.fina</string>
 			<string>kashida-ar</string>
 			<string>feh-ar</string>
+			<string>feh-ar.init</string>
+			<string>feh-ar.medi</string>
+			<string>feh-ar.fina</string>
 			<string>qaf-ar</string>
+			<string>qaf-ar.init</string>
+			<string>qaf-ar.medi</string>
+			<string>qaf-ar.fina</string>
 			<string>kaf-ar</string>
+			<string>kaf-ar.init</string>
+			<string>kaf-ar.medi</string>
+			<string>kaf-ar.fina</string>
 			<string>lam-ar</string>
+			<string>lam-ar.init</string>
+			<string>lam-ar.medi</string>
+			<string>lam-ar.fina</string>
 			<string>meem-ar</string>
+			<string>meem-ar.init</string>
+			<string>meem-ar.medi</string>
+			<string>meem-ar.fina</string>
 			<string>noon-ar</string>
+			<string>noon-ar.init</string>
+			<string>noon-ar.medi</string>
+			<string>noon-ar.fina</string>
 			<string>heh-ar</string>
+			<string>heh-ar.init</string>
+			<string>heh-ar.medi</string>
+			<string>heh-ar.fina</string>
 			<string>waw-ar</string>
+			<string>waw-ar.fina</string>
 			<string>alefMaksura-ar</string>
+			<string>alefMaksura-ar.init</string>
+			<string>alefMaksura-ar.medi</string>
+			<string>alefMaksura-ar.fina</string>
 			<string>yeh-ar</string>
-			<string>fathatan-ar</string>
-			<string>dammatan-ar</string>
-			<string>kasratan-ar</string>
-			<string>fatha-ar</string>
-			<string>damma-ar</string>
-			<string>kasra-ar</string>
-			<string>shadda-ar</string>
-			<string>sukun-ar</string>
-			<string>madda-ar</string>
-			<string>hamzaabove-ar</string>
-			<string>hamzabelow-ar</string>
-			<string>alefbelow-ar</string>
-			<string>noonghunnaabove-ar</string>
-			<string>zero-ar</string>
-			<string>one-ar</string>
-			<string>two-ar</string>
-			<string>three-ar</string>
-			<string>four-ar</string>
-			<string>five-ar</string>
-			<string>six-ar</string>
-			<string>seven-ar</string>
-			<string>eight-ar</string>
-			<string>nine-ar</string>
-			<string>percent-ar</string>
-			<string>decimalseparator-ar</string>
-			<string>thousandseparator-ar</string>
-			<string>asterisk-ar</string>
-			<string>behDotless-ar</string>
-			<string>qafDotless-ar</string>
-			<string>alefabove-ar</string>
-			<string>alefWasla-ar</string>
+			<string>yeh-ar.init</string>
+			<string>yeh-ar.medi</string>
+			<string>yeh-ar.fina</string>
 			<string>tteh-ar</string>
+			<string>tteh-ar.init</string>
+			<string>tteh-ar.medi</string>
+			<string>tteh-ar.fina</string>
 			<string>peh-ar</string>
+			<string>peh-ar.init</string>
+			<string>peh-ar.medi</string>
+			<string>peh-ar.fina</string>
 			<string>tcheh-ar</string>
+			<string>tcheh-ar.init</string>
+			<string>tcheh-ar.medi</string>
+			<string>tcheh-ar.fina</string>
 			<string>ddal-ar</string>
+			<string>ddal-ar.fina</string>
 			<string>rreh-ar</string>
+			<string>rreh-ar.fina</string>
 			<string>jeh-ar</string>
-			<string>fehDotless-ar</string>
+			<string>jeh-ar.fina</string>
 			<string>keheh-ar</string>
+			<string>keheh-ar.init</string>
+			<string>keheh-ar.medi</string>
+			<string>keheh-ar.fina</string>
 			<string>gaf-ar</string>
-			<string>noonghunna-ar</string>
+			<string>gaf-ar.init</string>
+			<string>gaf-ar.medi</string>
+			<string>gaf-ar.fina</string>
 			<string>hehDoachashmee-ar</string>
+			<string>hehDoachashmee-ar.init</string>
+			<string>hehDoachashmee-ar.medi</string>
+			<string>hehDoachashmee-ar.fina</string>
 			<string>hehgoal-ar</string>
+			<string>hehgoal-ar.init</string>
+			<string>hehgoal-ar.medi</string>
+			<string>hehgoal-ar.fina</string>
 			<string>yehFarsi-ar</string>
+			<string>yehFarsi-ar.init</string>
+			<string>yehFarsi-ar.medi</string>
+			<string>yehFarsi-ar.fina</string>
 			<string>yehbarree-ar</string>
-			<string>fullstop-ar</string>
-			<string>threedotsabove-ar</string>
-			<string>zeroFarsi-ar</string>
-			<string>oneFarsi-ar</string>
-			<string>twoFarsi-ar</string>
-			<string>threeFarsi-ar</string>
-			<string>fourFarsi-ar</string>
-			<string>fiveFarsi-ar</string>
-			<string>sixFarsi-ar</string>
-			<string>sevenFarsi-ar</string>
-			<string>eightFarsi-ar</string>
-			<string>nineFarsi-ar</string>
+			<string>yehbarree-ar.fina</string>
 			<string>kehehThreedotsabove-ar</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>bullet</string>
-			<string>ellipsis</string>
-			<string>guilsinglleft</string>
-			<string>guilsinglright</string>
-			<string>euro</string>
-			<string>trademark</string>
-			<string>minus</string>
-			<string>dottedCircle</string>
-			<string>parenleft-ar</string>
-			<string>parenright-ar</string>
-			<string>fourFarsi-ar.urdu</string>
-			<string>sevenFarsi-ar.urdu</string>
-			<string>dotabove-ar</string>
-			<string>dotbelow-ar</string>
-			<string>dotcenter-ar</string>
-			<string>twodotshorizontalabove-ar</string>
-			<string>twodotshorizontalbelow-ar</string>
-			<string>threedotsdownabove-ar</string>
-			<string>threedotsdownbelow-ar</string>
-			<string>threedotsdowncenter-ar</string>
-			<string>threedotsupabove-ar</string>
-			<string>wasla-ar</string>
-			<string>gafsarkashabove-ar</string>
-			<string>hamzaaboveDamma-ar</string>
-			<string>hamzaaboveDammatan-ar</string>
-			<string>hamzaaboveFatha-ar</string>
-			<string>hamzaaboveFathatan-ar</string>
-			<string>hamzaaboveSukun-ar</string>
-			<string>hamzabelowKasra-ar</string>
-			<string>hamzabelowKasratan-ar</string>
-			<string>shaddaFathatan-ar</string>
-			<string>shaddaDammatan-ar</string>
-			<string>shaddaKasratan-ar</string>
-			<string>shaddaFatha-ar</string>
-			<string>shaddaDamma-ar</string>
-			<string>shaddaKasra-ar</string>
-			<string>shaddaAlefabove-ar</string>
-			<string>lam_alef-ar</string>
-			<string>lam_alefHamzaabove-ar</string>
-			<string>lam_alefHamzabelow-ar</string>
-			<string>lam_alefMadda-ar</string>
-			<string>lam_alefWasla-ar</string>
+			<string>kehehThreedotsabove-ar.init</string>
+			<string>kehehThreedotsabove-ar.medi</string>
+			<string>kehehThreedotsabove-ar.fina</string>
 		</array>
 		<key>name</key>
 		<string>GF_Arabic_Core</string>
@@ -376,38 +503,165 @@
 			<string>dottedCircle</string>
 			<string>parenleft-ar</string>
 			<string>parenright-ar</string>
-			<string>threedotsdowncenter-ar</string>
-			<string>shaddaFathatan-ar</string>
-			<string>hamzaaboveDammatan-ar</string>
-			<string>dotabove-ar</string>
-			<string>threedotsupabove-ar</string>
-			<string>hamzabelowKasratan-ar</string>
-			<string>shaddaDamma-ar</string>
-			<string>shaddaAlefabove-ar</string>
-			<string>shaddaKasratan-ar</string>
-			<string>sevenFarsi-ar.urdu</string>
-			<string>lam_alefHamzaabove-ar</string>
-			<string>hamzaaboveFatha-ar</string>
+			<string>jeem-ar.fina</string>
+			<string>tteh-ar.medi</string>
+			<string>heh-ar.init</string>
+			<string>yehFarsi-ar.fina</string>
+			<string>qaf-ar.init</string>
 			<string>wasla-ar</string>
-			<string>hamzaaboveSukun-ar</string>
+			<string>ain-ar.fina</string>
+			<string>tcheh-ar.medi</string>
+			<string>behDotless-ar.medi</string>
+			<string>tah-ar.init</string>
+			<string>yehHamzaabove-ar.init</string>
 			<string>gafsarkashabove-ar</string>
-			<string>lam_alefHamzabelow-ar</string>
-			<string>shaddaKasra-ar</string>
+			<string>qaf-ar.medi</string>
 			<string>shaddaDammatan-ar</string>
+			<string>seen-ar.fina</string>
+			<string>lam_alefHamzabelow-ar</string>
+			<string>lam-ar.medi</string>
+			<string>gaf-ar.init</string>
+			<string>fehDotless-ar.fina</string>
+			<string>alefWasla-ar.fina</string>
+			<string>feh-ar.init</string>
+			<string>alefMaksura-ar.medi</string>
+			<string>qaf-ar.fina</string>
+			<string>meem-ar.medi</string>
+			<string>tteh-ar.init</string>
+			<string>shaddaAlefabove-ar</string>
+			<string>alefMadda-ar.fina</string>
+			<string>dad-ar.fina</string>
+			<string>tcheh-ar.init</string>
+			<string>teh-ar.fina</string>
+			<string>feh-ar.medi</string>
+			<string>alefMaksura-ar.init</string>
+			<string>heh-ar.medi</string>
+			<string>sad-ar.init</string>
+			<string>beh-ar.medi</string>
+			<string>lam-ar.fina</string>
+			<string>zah-ar.medi</string>
+			<string>sad-ar.medi</string>
+			<string>rreh-ar.fina</string>
 			<string>lam_alefMadda-ar</string>
-			<string>threedotsdownbelow-ar</string>
-			<string>fourFarsi-ar.urdu</string>
+			<string>dad-ar.medi</string>
+			<string>yehHamzaabove-ar.medi</string>
+			<string>ain-ar.init</string>
+			<string>shaddaKasratan-ar</string>
+			<string>noonghunna-ar.fina</string>
+			<string>alefHamzabelow-ar.fina</string>
+			<string>sheen-ar.init</string>
+			<string>dad-ar.init</string>
+			<string>hehgoal-ar.init</string>
+			<string>kehehThreedotsabove-ar.init</string>
+			<string>beh-ar.fina</string>
+			<string>theh-ar.fina</string>
+			<string>ddal-ar.fina</string>
+			<string>theh-ar.medi</string>
 			<string>twodotshorizontalabove-ar</string>
+			<string>threedotsdownbelow-ar</string>
+			<string>yehFarsi-ar.medi</string>
 			<string>twodotshorizontalbelow-ar</string>
-			<string>dotbelow-ar</string>
+			<string>khah-ar.medi</string>
+			<string>yehHamzaabove-ar.fina</string>
+			<string>shaddaDamma-ar</string>
+			<string>fehDotless-ar.init</string>
+			<string>kehehThreedotsabove-ar.medi</string>
+			<string>hamzaaboveDammatan-ar</string>
+			<string>kaf-ar.fina</string>
+			<string>sad-ar.fina</string>
+			<string>alef-ar.fina</string>
+			<string>alefMaksura-ar.fina</string>
+			<string>dotabove-ar</string>
+			<string>tehMarbuta-ar.fina</string>
+			<string>behDotless-ar.fina</string>
+			<string>meem-ar.init</string>
+			<string>behDotless-ar.init</string>
+			<string>hah-ar.init</string>
+			<string>heh-ar.fina</string>
+			<string>yeh-ar.medi</string>
+			<string>lam_alefHamzaabove-ar</string>
+			<string>fourFarsi-ar.urdu</string>
+			<string>noonghunna-ar.init</string>
+			<string>tah-ar.medi</string>
 			<string>lam_alefWasla-ar</string>
-			<string>hamzaaboveFathatan-ar</string>
-			<string>shaddaFatha-ar</string>
+			<string>zain-ar.fina</string>
+			<string>meem-ar.fina</string>
+			<string>hah-ar.fina</string>
+			<string>thal-ar.fina</string>
+			<string>teh-ar.medi</string>
 			<string>dotcenter-ar</string>
-			<string>hamzabelowKasra-ar</string>
+			<string>keheh-ar.init</string>
+			<string>kaf-ar.init</string>
+			<string>ain-ar.medi</string>
+			<string>noon-ar.init</string>
+			<string>jeem-ar.medi</string>
+			<string>seen-ar.init</string>
+			<string>reh-ar.fina</string>
+			<string>qafDotless-ar.init</string>
+			<string>ghain-ar.init</string>
+			<string>gaf-ar.medi</string>
+			<string>sevenFarsi-ar.urdu</string>
+			<string>jeem-ar.init</string>
+			<string>shaddaFathatan-ar</string>
+			<string>waw-ar.fina</string>
+			<string>yehbarree-ar.fina</string>
 			<string>threedotsdownabove-ar</string>
-			<string>hamzaaboveDamma-ar</string>
+			<string>lam-ar.init</string>
+			<string>hah-ar.medi</string>
+			<string>peh-ar.init</string>
+			<string>qafDotless-ar.fina</string>
+			<string>dotbelow-ar</string>
+			<string>seen-ar.medi</string>
+			<string>tteh-ar.fina</string>
+			<string>shaddaFatha-ar</string>
+			<string>shaddaKasra-ar</string>
+			<string>ghain-ar.medi</string>
+			<string>khah-ar.init</string>
+			<string>yehFarsi-ar.init</string>
+			<string>gaf-ar.fina</string>
+			<string>threedotsupabove-ar</string>
+			<string>hehgoal-ar.medi</string>
+			<string>hamzaaboveFathatan-ar</string>
 			<string>lam_alef-ar</string>
+			<string>hehgoal-ar.fina</string>
+			<string>jeh-ar.fina</string>
+			<string>peh-ar.fina</string>
+			<string>theh-ar.init</string>
+			<string>khah-ar.fina</string>
+			<string>yeh-ar.init</string>
+			<string>sheen-ar.medi</string>
+			<string>tcheh-ar.fina</string>
+			<string>hehDoachashmee-ar.init</string>
+			<string>hamzaaboveDamma-ar</string>
+			<string>wawHamzaabove-ar.fina</string>
+			<string>keheh-ar.fina</string>
+			<string>keheh-ar.medi</string>
+			<string>hamzaaboveFatha-ar</string>
+			<string>qafDotless-ar.medi</string>
+			<string>hehDoachashmee-ar.medi</string>
+			<string>hamzabelowKasratan-ar</string>
+			<string>kehehThreedotsabove-ar.fina</string>
+			<string>noonghunna-ar.medi</string>
+			<string>hamzabelowKasra-ar</string>
+			<string>kaf-ar.medi</string>
+			<string>zah-ar.init</string>
+			<string>fehDotless-ar.medi</string>
+			<string>dal-ar.fina</string>
+			<string>feh-ar.fina</string>
+			<string>teh-ar.init</string>
+			<string>ghain-ar.fina</string>
+			<string>noon-ar.fina</string>
+			<string>noon-ar.medi</string>
+			<string>threedotsdowncenter-ar</string>
+			<string>tah-ar.fina</string>
+			<string>alefHamzaabove-ar.fina</string>
+			<string>peh-ar.medi</string>
+			<string>beh-ar.init</string>
+			<string>hamzaaboveSukun-ar</string>
+			<string>hehDoachashmee-ar.fina</string>
+			<string>sheen-ar.fina</string>
+			<string>zah-ar.fina</string>
+			<string>yeh-ar.fina</string>
 		</array>
 		<key>name</key>
 		<string>GF_Arabic_Core Exclusive</string>
@@ -415,22 +669,70 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>space</string>
-			<string>exclam</string>
-			<string>quotedbl</string>
-			<string>numbersign</string>
+			<string>dottedCircle</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
+			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>multiply</string>
+			<string>divide</string>
+			<string>perthousand-ar</string>
+			<string>percent-ar</string>
+			<string>sindhipostpositionmen-ar</string>
+			<string>euro</string>
+			<string>trademark</string>
+			<string>minus</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>periodcentered</string>
+			<string>comma-ar</string>
+			<string>fullstop-ar</string>
+			<string>sindhiampersand-ar</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
+			<string>reversedsemicolon</string>
+			<string>commareversed</string>
+			<string>fourFarsi-ar.urdu</string>
+			<string>sevenFarsi-ar.urdu</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -441,13 +743,91 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>less</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>question</string>
-			<string>at</string>
+			<string>zero-ar</string>
+			<string>one-ar</string>
+			<string>two-ar</string>
+			<string>three-ar</string>
+			<string>four-ar</string>
+			<string>five-ar</string>
+			<string>six-ar</string>
+			<string>seven-ar</string>
+			<string>eight-ar</string>
+			<string>nine-ar</string>
+			<string>decimalseparator-ar</string>
+			<string>thousandseparator-ar</string>
+			<string>zeroFarsi-ar</string>
+			<string>oneFarsi-ar</string>
+			<string>twoFarsi-ar</string>
+			<string>threeFarsi-ar</string>
+			<string>fourFarsi-ar</string>
+			<string>fiveFarsi-ar</string>
+			<string>sixFarsi-ar</string>
+			<string>sevenFarsi-ar</string>
+			<string>eightFarsi-ar</string>
+			<string>nineFarsi-ar</string>
+			<string>tahabove-ar</string>
+			<string>dotabove-ar</string>
+			<string>dotbelow-ar</string>
+			<string>dotcenter-ar</string>
+			<string>twodotshorizontalabove-ar</string>
+			<string>twodotshorizontalbelow-ar</string>
+			<string>threedotsdownabove-ar</string>
+			<string>threedotsdownbelow-ar</string>
+			<string>threedotsdowncenter-ar</string>
+			<string>threedotsupabove-ar</string>
+			<string>wasla-ar</string>
+			<string>gafsarkashabove-ar</string>
+			<string>alefbelow-ar</string>
+			<string>hamzaaboveDamma-ar</string>
+			<string>hamzaaboveDammatan-ar</string>
+			<string>hamzaaboveFatha-ar</string>
+			<string>hamzaaboveFathatan-ar</string>
+			<string>hamzaaboveSukun-ar</string>
+			<string>hamzabelowKasra-ar</string>
+			<string>hamzabelowKasratan-ar</string>
+			<string>shaddaFathatan-ar</string>
+			<string>shaddaDammatan-ar</string>
+			<string>shaddaKasratan-ar</string>
+			<string>shaddaFatha-ar</string>
+			<string>shaddaDamma-ar</string>
+			<string>shaddaKasra-ar</string>
+			<string>shaddaAlefabove-ar</string>
+			<string>noonghunnaabove-ar</string>
+			<string>threedotsabove-ar</string>
+			<string>grave</string>
+			<string>fathatan-ar</string>
+			<string>dammatan-ar</string>
+			<string>kasratan-ar</string>
+			<string>fatha-ar</string>
+			<string>damma-ar</string>
+			<string>kasra-ar</string>
+			<string>shadda-ar</string>
+			<string>sukun-ar</string>
+			<string>hamzaabove-ar</string>
+			<string>alefabove-ar</string>
+			<string>alefWasla-ar</string>
+			<string>alefWasla-ar.fina</string>
+			<string>behDotless-ar</string>
+			<string>behDotless-ar.init</string>
+			<string>behDotless-ar.medi</string>
+			<string>behDotless-ar.fina</string>
+			<string>fehDotless-ar</string>
+			<string>fehDotless-ar.init</string>
+			<string>fehDotless-ar.medi</string>
+			<string>fehDotless-ar.fina</string>
+			<string>qafDotless-ar</string>
+			<string>qafDotless-ar.init</string>
+			<string>qafDotless-ar.medi</string>
+			<string>qafDotless-ar.fina</string>
+			<string>noonghunna-ar</string>
+			<string>noonghunna-ar.init</string>
+			<string>noonghunna-ar.medi</string>
+			<string>noonghunna-ar.fina</string>
+			<string>lam_alef-ar</string>
+			<string>lam_alefHamzaabove-ar</string>
+			<string>lam_alefHamzabelow-ar</string>
+			<string>lam_alefMadda-ar</string>
+			<string>lam_alefWasla-ar</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -474,12 +854,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>backslash</string>
-			<string>bracketright</string>
-			<string>asciicircum</string>
-			<string>underscore</string>
-			<string>grave</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -506,194 +880,275 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>braceleft</string>
-			<string>bar</string>
-			<string>braceright</string>
-			<string>asciitilde</string>
-			<string>nbspace</string>
-			<string>cent</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>copyright</string>
-			<string>registered</string>
-			<string>degree</string>
-			<string>periodcentered</string>
-			<string>multiply</string>
-			<string>divide</string>
-			<string>perthousand-ar</string>
-			<string>comma-ar</string>
-			<string>tahabove-ar</string>
 			<string>hamza-ar</string>
 			<string>alefMadda-ar</string>
+			<string>alefMadda-ar.fina</string>
 			<string>alefHamzaabove-ar</string>
+			<string>alefHamzaabove-ar.fina</string>
 			<string>wawHamzaabove-ar</string>
+			<string>wawHamzaabove-ar.fina</string>
 			<string>yehHamzaabove-ar</string>
+			<string>yehHamzaabove-ar.init</string>
+			<string>yehHamzaabove-ar.medi</string>
+			<string>yehHamzaabove-ar.fina</string>
 			<string>alef-ar</string>
+			<string>alef-ar.fina</string>
 			<string>beh-ar</string>
+			<string>beh-ar.init</string>
+			<string>beh-ar.medi</string>
+			<string>beh-ar.fina</string>
 			<string>tehMarbuta-ar</string>
+			<string>tehMarbuta-ar.fina</string>
 			<string>teh-ar</string>
+			<string>teh-ar.init</string>
+			<string>teh-ar.medi</string>
+			<string>teh-ar.fina</string>
 			<string>theh-ar</string>
+			<string>theh-ar.init</string>
+			<string>theh-ar.medi</string>
+			<string>theh-ar.fina</string>
 			<string>jeem-ar</string>
+			<string>jeem-ar.init</string>
+			<string>jeem-ar.medi</string>
+			<string>jeem-ar.fina</string>
 			<string>hah-ar</string>
+			<string>hah-ar.init</string>
+			<string>hah-ar.medi</string>
+			<string>hah-ar.fina</string>
 			<string>khah-ar</string>
+			<string>khah-ar.init</string>
+			<string>khah-ar.medi</string>
+			<string>khah-ar.fina</string>
 			<string>dal-ar</string>
+			<string>dal-ar.fina</string>
 			<string>thal-ar</string>
+			<string>thal-ar.fina</string>
 			<string>reh-ar</string>
+			<string>reh-ar.fina</string>
 			<string>zain-ar</string>
+			<string>zain-ar.fina</string>
 			<string>seen-ar</string>
+			<string>seen-ar.init</string>
+			<string>seen-ar.medi</string>
+			<string>seen-ar.fina</string>
 			<string>sheen-ar</string>
+			<string>sheen-ar.init</string>
+			<string>sheen-ar.medi</string>
+			<string>sheen-ar.fina</string>
 			<string>sad-ar</string>
+			<string>sad-ar.init</string>
+			<string>sad-ar.medi</string>
+			<string>sad-ar.fina</string>
 			<string>dad-ar</string>
+			<string>dad-ar.init</string>
+			<string>dad-ar.medi</string>
+			<string>dad-ar.fina</string>
 			<string>tah-ar</string>
+			<string>tah-ar.init</string>
+			<string>tah-ar.medi</string>
+			<string>tah-ar.fina</string>
 			<string>zah-ar</string>
+			<string>zah-ar.init</string>
+			<string>zah-ar.medi</string>
+			<string>zah-ar.fina</string>
 			<string>ain-ar</string>
+			<string>ain-ar.init</string>
+			<string>ain-ar.medi</string>
+			<string>ain-ar.fina</string>
 			<string>ghain-ar</string>
+			<string>ghain-ar.init</string>
+			<string>ghain-ar.medi</string>
+			<string>ghain-ar.fina</string>
 			<string>feh-ar</string>
+			<string>feh-ar.init</string>
+			<string>feh-ar.medi</string>
+			<string>feh-ar.fina</string>
 			<string>qaf-ar</string>
+			<string>qaf-ar.init</string>
+			<string>qaf-ar.medi</string>
+			<string>qaf-ar.fina</string>
 			<string>kaf-ar</string>
+			<string>kaf-ar.init</string>
+			<string>kaf-ar.medi</string>
+			<string>kaf-ar.fina</string>
 			<string>lam-ar</string>
+			<string>lam-ar.init</string>
+			<string>lam-ar.medi</string>
+			<string>lam-ar.fina</string>
 			<string>meem-ar</string>
+			<string>meem-ar.init</string>
+			<string>meem-ar.medi</string>
+			<string>meem-ar.fina</string>
 			<string>noon-ar</string>
+			<string>noon-ar.init</string>
+			<string>noon-ar.medi</string>
+			<string>noon-ar.fina</string>
 			<string>heh-ar</string>
+			<string>heh-ar.init</string>
+			<string>heh-ar.medi</string>
+			<string>heh-ar.fina</string>
 			<string>waw-ar</string>
+			<string>waw-ar.fina</string>
 			<string>alefMaksura-ar</string>
+			<string>alefMaksura-ar.init</string>
+			<string>alefMaksura-ar.medi</string>
+			<string>alefMaksura-ar.fina</string>
 			<string>yeh-ar</string>
-			<string>fathatan-ar</string>
-			<string>dammatan-ar</string>
-			<string>kasratan-ar</string>
-			<string>fatha-ar</string>
-			<string>damma-ar</string>
-			<string>kasra-ar</string>
-			<string>shadda-ar</string>
-			<string>sukun-ar</string>
-			<string>hamzaabove-ar</string>
-			<string>alefbelow-ar</string>
-			<string>noonghunnaabove-ar</string>
-			<string>zero-ar</string>
-			<string>one-ar</string>
-			<string>two-ar</string>
-			<string>three-ar</string>
-			<string>four-ar</string>
-			<string>five-ar</string>
-			<string>six-ar</string>
-			<string>seven-ar</string>
-			<string>eight-ar</string>
-			<string>nine-ar</string>
-			<string>percent-ar</string>
-			<string>decimalseparator-ar</string>
-			<string>thousandseparator-ar</string>
-			<string>behDotless-ar</string>
-			<string>qafDotless-ar</string>
-			<string>alefabove-ar</string>
-			<string>alefWasla-ar</string>
+			<string>yeh-ar.init</string>
+			<string>yeh-ar.medi</string>
+			<string>yeh-ar.fina</string>
 			<string>tteheh-ar</string>
+			<string>tteheh-ar.init</string>
+			<string>tteheh-ar.medi</string>
+			<string>tteheh-ar.fina</string>
 			<string>beeh-ar</string>
+			<string>beeh-ar.init</string>
+			<string>beeh-ar.medi</string>
+			<string>beeh-ar.fina</string>
 			<string>tehRing-ar</string>
+			<string>tehRing-ar.init</string>
+			<string>tehRing-ar.medi</string>
+			<string>tehRing-ar.fina</string>
 			<string>tehThreedotsdown-ar</string>
+			<string>tehThreedotsdown-ar.init</string>
+			<string>tehThreedotsdown-ar.medi</string>
+			<string>tehThreedotsdown-ar.fina</string>
 			<string>peh-ar</string>
+			<string>peh-ar.init</string>
+			<string>peh-ar.medi</string>
+			<string>peh-ar.fina</string>
 			<string>teheh-ar</string>
+			<string>teheh-ar.init</string>
+			<string>teheh-ar.medi</string>
+			<string>teheh-ar.fina</string>
 			<string>beheh-ar</string>
+			<string>beheh-ar.init</string>
+			<string>beheh-ar.medi</string>
+			<string>beheh-ar.fina</string>
 			<string>hahHamzaabove-ar</string>
+			<string>hahHamzaabove-ar.init</string>
+			<string>hahHamzaabove-ar.medi</string>
+			<string>hahHamzaabove-ar.fina</string>
 			<string>nyeh-ar</string>
+			<string>nyeh-ar.init</string>
+			<string>nyeh-ar.medi</string>
+			<string>nyeh-ar.fina</string>
 			<string>dyeh-ar</string>
+			<string>dyeh-ar.init</string>
+			<string>dyeh-ar.medi</string>
+			<string>dyeh-ar.fina</string>
 			<string>hahThreedotsabove-ar</string>
+			<string>hahThreedotsabove-ar.init</string>
+			<string>hahThreedotsabove-ar.medi</string>
+			<string>hahThreedotsabove-ar.fina</string>
 			<string>tcheh-ar</string>
+			<string>tcheh-ar.init</string>
+			<string>tcheh-ar.medi</string>
+			<string>tcheh-ar.fina</string>
 			<string>tcheheh-ar</string>
+			<string>tcheheh-ar.init</string>
+			<string>tcheheh-ar.medi</string>
+			<string>tcheheh-ar.fina</string>
 			<string>dalRing-ar</string>
+			<string>dalRing-ar.fina</string>
 			<string>dalDotbelow-ar</string>
+			<string>dalDotbelow-ar.fina</string>
 			<string>dahal-ar</string>
+			<string>dahal-ar.fina</string>
 			<string>ddahal-ar</string>
+			<string>ddahal-ar.fina</string>
 			<string>dalThreedotsdown-ar</string>
+			<string>dalThreedotsdown-ar.fina</string>
 			<string>rehRing-ar</string>
+			<string>rehRing-ar.fina</string>
 			<string>rehVbelow-ar</string>
+			<string>rehVbelow-ar.fina</string>
 			<string>rehDotbelowdotabove-ar</string>
+			<string>rehDotbelowdotabove-ar.fina</string>
 			<string>jeh-ar</string>
+			<string>jeh-ar.fina</string>
 			<string>rehFourdots-ar</string>
+			<string>rehFourdots-ar.fina</string>
 			<string>seenDotbelowDotabove-ar</string>
-			<string>fehDotless-ar</string>
+			<string>seenDotbelowDotabove-ar.init</string>
+			<string>seenDotbelowDotabove-ar.medi</string>
+			<string>seenDotbelowDotabove-ar.fina</string>
 			<string>veh-ar</string>
+			<string>veh-ar.init</string>
+			<string>veh-ar.medi</string>
+			<string>veh-ar.fina</string>
 			<string>peheh-ar</string>
+			<string>peheh-ar.init</string>
+			<string>peheh-ar.medi</string>
+			<string>peheh-ar.fina</string>
 			<string>keheh-ar</string>
+			<string>keheh-ar.init</string>
+			<string>keheh-ar.medi</string>
+			<string>keheh-ar.fina</string>
 			<string>kafswash-ar</string>
+			<string>kafswash-ar.init</string>
+			<string>kafswash-ar.medi</string>
+			<string>kafswash-ar.fina</string>
 			<string>kafRing-ar</string>
+			<string>kafRing-ar.init</string>
+			<string>kafRing-ar.medi</string>
+			<string>kafRing-ar.fina</string>
 			<string>ng-ar</string>
+			<string>ng-ar.init</string>
+			<string>ng-ar.medi</string>
+			<string>ng-ar.fina</string>
 			<string>gaf-ar</string>
+			<string>gaf-ar.init</string>
+			<string>gaf-ar.medi</string>
+			<string>gaf-ar.fina</string>
 			<string>ngoeh-ar</string>
+			<string>ngoeh-ar.init</string>
+			<string>ngoeh-ar.medi</string>
+			<string>ngoeh-ar.fina</string>
 			<string>gueh-ar</string>
+			<string>gueh-ar.init</string>
+			<string>gueh-ar.medi</string>
+			<string>gueh-ar.fina</string>
 			<string>lamVabove-ar</string>
-			<string>noonghunna-ar</string>
+			<string>lamVabove-ar.init</string>
+			<string>lamVabove-ar.medi</string>
+			<string>lamVabove-ar.fina</string>
 			<string>rnoon-ar</string>
+			<string>rnoon-ar.init</string>
+			<string>rnoon-ar.medi</string>
+			<string>rnoon-ar.fina</string>
 			<string>noonRing-ar</string>
+			<string>noonRing-ar.init</string>
+			<string>noonRing-ar.medi</string>
+			<string>noonRing-ar.fina</string>
 			<string>hehDoachashmee-ar</string>
+			<string>hehDoachashmee-ar.init</string>
+			<string>hehDoachashmee-ar.medi</string>
+			<string>hehDoachashmee-ar.fina</string>
 			<string>oe-ar</string>
+			<string>oe-ar.fina</string>
 			<string>u-ar</string>
+			<string>u-ar.fina</string>
 			<string>yu-ar</string>
+			<string>yu-ar.fina</string>
 			<string>ve-ar</string>
+			<string>ve-ar.fina</string>
 			<string>yehFarsi-ar</string>
+			<string>yehFarsi-ar.init</string>
+			<string>yehFarsi-ar.medi</string>
+			<string>yehFarsi-ar.fina</string>
 			<string>yehTail-ar</string>
+			<string>yehTail-ar.fina</string>
 			<string>yehVabove-ar</string>
+			<string>yehVabove-ar.init</string>
+			<string>yehVabove-ar.medi</string>
+			<string>yehVabove-ar.fina</string>
 			<string>e-ar</string>
-			<string>fullstop-ar</string>
+			<string>e-ar.init</string>
+			<string>e-ar.medi</string>
+			<string>e-ar.fina</string>
 			<string>ae-ar</string>
-			<string>threedotsabove-ar</string>
-			<string>zeroFarsi-ar</string>
-			<string>oneFarsi-ar</string>
-			<string>twoFarsi-ar</string>
-			<string>threeFarsi-ar</string>
-			<string>fourFarsi-ar</string>
-			<string>fiveFarsi-ar</string>
-			<string>sixFarsi-ar</string>
-			<string>sevenFarsi-ar</string>
-			<string>eightFarsi-ar</string>
-			<string>nineFarsi-ar</string>
-			<string>sindhiampersand-ar</string>
-			<string>sindhipostpositionmen-ar</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>bullet</string>
-			<string>ellipsis</string>
-			<string>reversedsemicolon</string>
-			<string>euro</string>
-			<string>trademark</string>
-			<string>minus</string>
-			<string>dottedCircle</string>
-			<string>commareversed</string>
-			<string>fourFarsi-ar.urdu</string>
-			<string>sevenFarsi-ar.urdu</string>
-			<string>dotabove-ar</string>
-			<string>dotbelow-ar</string>
-			<string>dotcenter-ar</string>
-			<string>twodotshorizontalabove-ar</string>
-			<string>twodotshorizontalbelow-ar</string>
-			<string>threedotsdownabove-ar</string>
-			<string>threedotsdownbelow-ar</string>
-			<string>threedotsdowncenter-ar</string>
-			<string>threedotsupabove-ar</string>
-			<string>wasla-ar</string>
-			<string>gafsarkashabove-ar</string>
-			<string>hamzaaboveDamma-ar</string>
-			<string>hamzaaboveDammatan-ar</string>
-			<string>hamzaaboveFatha-ar</string>
-			<string>hamzaaboveFathatan-ar</string>
-			<string>hamzaaboveSukun-ar</string>
-			<string>hamzabelowKasra-ar</string>
-			<string>hamzabelowKasratan-ar</string>
-			<string>shaddaFathatan-ar</string>
-			<string>shaddaDammatan-ar</string>
-			<string>shaddaKasratan-ar</string>
-			<string>shaddaFatha-ar</string>
-			<string>shaddaDamma-ar</string>
-			<string>shaddaKasra-ar</string>
-			<string>shaddaAlefabove-ar</string>
-			<string>lam_alef-ar</string>
-			<string>lam_alefHamzaabove-ar</string>
-			<string>lam_alefHamzabelow-ar</string>
-			<string>lam_alefMadda-ar</string>
-			<string>lam_alefWasla-ar</string>
+			<string>ae-ar.fina</string>
 		</array>
 		<key>name</key>
 		<string>GF_Arabic_Plus</string>
@@ -832,38 +1287,239 @@
 			<string>reversedsemicolon</string>
 			<string>dottedCircle</string>
 			<string>commareversed</string>
-			<string>threedotsdowncenter-ar</string>
-			<string>shaddaFathatan-ar</string>
-			<string>hamzaaboveDammatan-ar</string>
-			<string>dotabove-ar</string>
-			<string>threedotsupabove-ar</string>
-			<string>hamzabelowKasratan-ar</string>
-			<string>shaddaDamma-ar</string>
-			<string>shaddaAlefabove-ar</string>
-			<string>shaddaKasratan-ar</string>
-			<string>sevenFarsi-ar.urdu</string>
-			<string>lam_alefHamzaabove-ar</string>
-			<string>hamzaaboveFatha-ar</string>
+			<string>jeem-ar.fina</string>
+			<string>heh-ar.init</string>
+			<string>ng-ar.fina</string>
+			<string>qaf-ar.init</string>
 			<string>wasla-ar</string>
-			<string>hamzaaboveSukun-ar</string>
+			<string>beheh-ar.init</string>
+			<string>ain-ar.fina</string>
+			<string>tcheh-ar.medi</string>
+			<string>ngoeh-ar.init</string>
+			<string>nyeh-ar.init</string>
+			<string>teheh-ar.init</string>
+			<string>yehHamzaabove-ar.init</string>
+			<string>beeh-ar.medi</string>
 			<string>gafsarkashabove-ar</string>
-			<string>lam_alefHamzabelow-ar</string>
-			<string>shaddaKasra-ar</string>
-			<string>shaddaDammatan-ar</string>
-			<string>lam_alefMadda-ar</string>
-			<string>threedotsdownbelow-ar</string>
-			<string>fourFarsi-ar.urdu</string>
+			<string>yehVabove-ar.fina</string>
+			<string>qaf-ar.medi</string>
+			<string>rnoon-ar.fina</string>
+			<string>seen-ar.fina</string>
+			<string>rehDotbelowdotabove-ar.fina</string>
+			<string>fehDotless-ar.fina</string>
+			<string>alefWasla-ar.fina</string>
+			<string>e-ar.medi</string>
+			<string>tehThreedotsdown-ar.fina</string>
+			<string>meem-ar.medi</string>
+			<string>gueh-ar.fina</string>
+			<string>tcheheh-ar.medi</string>
+			<string>noonRing-ar.medi</string>
+			<string>peheh-ar.init</string>
+			<string>alefMadda-ar.fina</string>
+			<string>tcheh-ar.init</string>
+			<string>feh-ar.medi</string>
+			<string>alefMaksura-ar.init</string>
+			<string>heh-ar.medi</string>
+			<string>lam-ar.fina</string>
+			<string>yehVabove-ar.medi</string>
+			<string>zah-ar.medi</string>
+			<string>rehRing-ar.fina</string>
+			<string>yehHamzaabove-ar.medi</string>
+			<string>ain-ar.init</string>
+			<string>noonghunna-ar.fina</string>
+			<string>ngoeh-ar.medi</string>
+			<string>seenDotbelowDotabove-ar.medi</string>
+			<string>sheen-ar.init</string>
+			<string>dad-ar.init</string>
+			<string>hahThreedotsabove-ar.fina</string>
+			<string>kafRing-ar.init</string>
+			<string>beh-ar.fina</string>
+			<string>dahal-ar.fina</string>
+			<string>dalRing-ar.fina</string>
 			<string>twodotshorizontalabove-ar</string>
-			<string>twodotshorizontalbelow-ar</string>
-			<string>dotbelow-ar</string>
-			<string>lam_alefWasla-ar</string>
-			<string>hamzaaboveFathatan-ar</string>
-			<string>shaddaFatha-ar</string>
+			<string>ng-ar.medi</string>
+			<string>yehFarsi-ar.medi</string>
+			<string>noonRing-ar.init</string>
+			<string>kafswash-ar.fina</string>
+			<string>dalThreedotsdown-ar.fina</string>
+			<string>shaddaDamma-ar</string>
+			<string>tteheh-ar.fina</string>
+			<string>fehDotless-ar.init</string>
+			<string>beheh-ar.medi</string>
+			<string>hahHamzaabove-ar.init</string>
+			<string>behDotless-ar.fina</string>
+			<string>meem-ar.init</string>
+			<string>behDotless-ar.init</string>
+			<string>hah-ar.init</string>
+			<string>heh-ar.fina</string>
+			<string>lam_alefHamzaabove-ar</string>
+			<string>yeh-ar.medi</string>
+			<string>ng-ar.init</string>
+			<string>zain-ar.fina</string>
+			<string>thal-ar.fina</string>
+			<string>gueh-ar.init</string>
 			<string>dotcenter-ar</string>
-			<string>hamzabelowKasra-ar</string>
-			<string>threedotsdownabove-ar</string>
-			<string>hamzaaboveDamma-ar</string>
+			<string>kaf-ar.init</string>
+			<string>noon-ar.init</string>
+			<string>tteheh-ar.medi</string>
+			<string>oe-ar.fina</string>
+			<string>qafDotless-ar.init</string>
+			<string>shaddaFathatan-ar</string>
+			<string>e-ar.fina</string>
+			<string>waw-ar.fina</string>
+			<string>qafDotless-ar.fina</string>
+			<string>dotbelow-ar</string>
+			<string>seen-ar.medi</string>
+			<string>shaddaFatha-ar</string>
+			<string>gueh-ar.medi</string>
+			<string>gaf-ar.fina</string>
+			<string>rehFourdots-ar.fina</string>
+			<string>hamzaaboveFathatan-ar</string>
 			<string>lam_alef-ar</string>
+			<string>jeh-ar.fina</string>
+			<string>peh-ar.fina</string>
+			<string>theh-ar.init</string>
+			<string>khah-ar.fina</string>
+			<string>hehDoachashmee-ar.init</string>
+			<string>hamzaaboveDamma-ar</string>
+			<string>wawHamzaabove-ar.fina</string>
+			<string>keheh-ar.fina</string>
+			<string>hamzaaboveFatha-ar</string>
+			<string>hehDoachashmee-ar.medi</string>
+			<string>ddahal-ar.fina</string>
+			<string>hamzabelowKasratan-ar</string>
+			<string>nyeh-ar.fina</string>
+			<string>noonghunna-ar.medi</string>
+			<string>kafRing-ar.medi</string>
+			<string>dyeh-ar.init</string>
+			<string>e-ar.init</string>
+			<string>feh-ar.fina</string>
+			<string>noon-ar.fina</string>
+			<string>yehTail-ar.fina</string>
+			<string>noon-ar.medi</string>
+			<string>kafswash-ar.medi</string>
+			<string>hamzaaboveSukun-ar</string>
+			<string>hehDoachashmee-ar.fina</string>
+			<string>dyeh-ar.medi</string>
+			<string>sheen-ar.fina</string>
+			<string>teheh-ar.medi</string>
+			<string>zah-ar.fina</string>
+			<string>yeh-ar.fina</string>
+			<string>veh-ar.medi</string>
+			<string>yehFarsi-ar.fina</string>
+			<string>noonRing-ar.fina</string>
+			<string>behDotless-ar.medi</string>
+			<string>ve-ar.fina</string>
+			<string>tah-ar.init</string>
+			<string>shaddaDammatan-ar</string>
+			<string>lam_alefHamzabelow-ar</string>
+			<string>lam-ar.medi</string>
+			<string>gaf-ar.init</string>
+			<string>feh-ar.init</string>
+			<string>alefMaksura-ar.medi</string>
+			<string>qaf-ar.fina</string>
+			<string>hahThreedotsabove-ar.medi</string>
+			<string>shaddaAlefabove-ar</string>
+			<string>beheh-ar.fina</string>
+			<string>yehVabove-ar.init</string>
+			<string>veh-ar.fina</string>
+			<string>dad-ar.fina</string>
+			<string>teh-ar.fina</string>
+			<string>dalDotbelow-ar.fina</string>
+			<string>sad-ar.init</string>
+			<string>beh-ar.medi</string>
+			<string>sad-ar.medi</string>
+			<string>lam_alefMadda-ar</string>
+			<string>dad-ar.medi</string>
+			<string>rnoon-ar.medi</string>
+			<string>shaddaKasratan-ar</string>
+			<string>rnoon-ar.init</string>
+			<string>tehThreedotsdown-ar.init</string>
+			<string>theh-ar.fina</string>
+			<string>theh-ar.medi</string>
+			<string>twodotshorizontalbelow-ar</string>
+			<string>dyeh-ar.fina</string>
+			<string>nyeh-ar.medi</string>
+			<string>khah-ar.medi</string>
+			<string>lamVabove-ar.fina</string>
+			<string>yehHamzaabove-ar.fina</string>
+			<string>hamzaaboveDammatan-ar</string>
+			<string>kaf-ar.fina</string>
+			<string>sad-ar.fina</string>
+			<string>alef-ar.fina</string>
+			<string>alefMaksura-ar.fina</string>
+			<string>kafRing-ar.fina</string>
+			<string>dotabove-ar</string>
+			<string>yu-ar.fina</string>
+			<string>tehMarbuta-ar.fina</string>
+			<string>fourFarsi-ar.urdu</string>
+			<string>tteheh-ar.init</string>
+			<string>noonghunna-ar.init</string>
+			<string>tah-ar.medi</string>
+			<string>lam_alefWasla-ar</string>
+			<string>meem-ar.fina</string>
+			<string>hah-ar.fina</string>
+			<string>tehRing-ar.init</string>
+			<string>beeh-ar.fina</string>
+			<string>lamVabove-ar.medi</string>
+			<string>ngoeh-ar.fina</string>
+			<string>seenDotbelowDotabove-ar.fina</string>
+			<string>teh-ar.medi</string>
+			<string>tehRing-ar.fina</string>
+			<string>lamVabove-ar.init</string>
+			<string>keheh-ar.init</string>
+			<string>ain-ar.medi</string>
+			<string>jeem-ar.medi</string>
+			<string>seen-ar.init</string>
+			<string>reh-ar.fina</string>
+			<string>veh-ar.init</string>
+			<string>ghain-ar.init</string>
+			<string>gaf-ar.medi</string>
+			<string>sevenFarsi-ar.urdu</string>
+			<string>u-ar.fina</string>
+			<string>jeem-ar.init</string>
+			<string>threedotsdownabove-ar</string>
+			<string>hahHamzaabove-ar.fina</string>
+			<string>lam-ar.init</string>
+			<string>hah-ar.medi</string>
+			<string>peh-ar.init</string>
+			<string>hahThreedotsabove-ar.init</string>
+			<string>teheh-ar.fina</string>
+			<string>shaddaKasra-ar</string>
+			<string>ghain-ar.medi</string>
+			<string>khah-ar.init</string>
+			<string>rehVbelow-ar.fina</string>
+			<string>ae-ar.fina</string>
+			<string>yehFarsi-ar.init</string>
+			<string>seenDotbelowDotabove-ar.init</string>
+			<string>kafswash-ar.init</string>
+			<string>threedotsupabove-ar</string>
+			<string>yeh-ar.init</string>
+			<string>sheen-ar.medi</string>
+			<string>tcheheh-ar.fina</string>
+			<string>tehRing-ar.medi</string>
+			<string>tcheh-ar.fina</string>
+			<string>keheh-ar.medi</string>
+			<string>hahHamzaabove-ar.medi</string>
+			<string>qafDotless-ar.medi</string>
+			<string>peheh-ar.fina</string>
+			<string>hamzabelowKasra-ar</string>
+			<string>kaf-ar.medi</string>
+			<string>peheh-ar.medi</string>
+			<string>zah-ar.init</string>
+			<string>fehDotless-ar.medi</string>
+			<string>dal-ar.fina</string>
+			<string>ghain-ar.fina</string>
+			<string>teh-ar.init</string>
+			<string>beeh-ar.init</string>
+			<string>tcheheh-ar.init</string>
+			<string>threedotsdowncenter-ar</string>
+			<string>alefHamzaabove-ar.fina</string>
+			<string>tah-ar.fina</string>
+			<string>peh-ar.medi</string>
+			<string>beh-ar.init</string>
+			<string>tehThreedotsdown-ar.medi</string>
+			<string>threedotsdownbelow-ar</string>
 		</array>
 		<key>name</key>
 		<string>GF_Arabic_Plus Exclusive</string>
@@ -871,22 +1527,64 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>space</string>
-			<string>exclam</string>
-			<string>quotedbl</string>
-			<string>numbersign</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
+			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>multiply</string>
+			<string>divide</string>
+			<string>euro</string>
+			<string>numero</string>
+			<string>trademark</string>
+			<string>minus</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>guillemetleft</string>
+			<string>periodcentered</string>
+			<string>guillemetright</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotesinglbase</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>quotedblbase</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -897,13 +1595,13 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>less</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>question</string>
-			<string>at</string>
+			<string>grave</string>
+			<string>apostrophemod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -930,12 +1628,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>backslash</string>
-			<string>bracketright</string>
-			<string>asciicircum</string>
-			<string>underscore</string>
-			<string>grave</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -962,28 +1654,6 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>braceleft</string>
-			<string>bar</string>
-			<string>braceright</string>
-			<string>asciitilde</string>
-			<string>nbspace</string>
-			<string>cent</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>copyright</string>
-			<string>guillemetleft</string>
-			<string>registered</string>
-			<string>degree</string>
-			<string>periodcentered</string>
-			<string>guillemetright</string>
-			<string>multiply</string>
-			<string>divide</string>
-			<string>apostrophemod</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>macroncomb</string>
-			<string>brevecomb</string>
-			<string>dieresiscomb</string>
 			<string>Io-cy</string>
 			<string>Dje-cy</string>
 			<string>E-cy</string>
@@ -1098,20 +1768,6 @@
 			<string>obarred-cy</string>
 			<string>Umacron-cy</string>
 			<string>umacron-cy</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotesinglbase</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>quotedblbase</string>
-			<string>bullet</string>
-			<string>ellipsis</string>
-			<string>euro</string>
-			<string>numero</string>
-			<string>trademark</string>
-			<string>minus</string>
 		</array>
 		<key>name</key>
 		<string>GF_Cyrillic_Core</string>
@@ -1309,6 +1965,14 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>thousand-cy</string>
+			<string>titlocomb-cy</string>
+			<string>palatalizationcomb-cy</string>
+			<string>dasiapneumatacomb-cy</string>
+			<string>psilipneumatacomb-cy</string>
+			<string>pokrytiecomb-cy</string>
+			<string>hundredthousandssigncomb-cy</string>
+			<string>millionssigncomb-cy</string>
 			<string>Omega-cy</string>
 			<string>omega-cy</string>
 			<string>Eiotified-cy</string>
@@ -1335,14 +1999,6 @@
 			<string>uni047F</string>
 			<string>Koppa-cy</string>
 			<string>koppa-cy</string>
-			<string>thousand-cy</string>
-			<string>titlocomb-cy</string>
-			<string>palatalizationcomb-cy</string>
-			<string>dasiapneumatacomb-cy</string>
-			<string>psilipneumatacomb-cy</string>
-			<string>pokrytiecomb-cy</string>
-			<string>hundredthousandssigncomb-cy</string>
-			<string>millionssigncomb-cy</string>
 			<string>OmegaBroad-cy</string>
 			<string>omegaBroad-cy</string>
 		</array>
@@ -1352,22 +2008,64 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>space</string>
-			<string>exclam</string>
-			<string>quotedbl</string>
-			<string>numbersign</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
+			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>multiply</string>
+			<string>divide</string>
+			<string>euro</string>
+			<string>numero</string>
+			<string>trademark</string>
+			<string>minus</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>guillemetleft</string>
+			<string>periodcentered</string>
+			<string>guillemetright</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotesinglbase</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>quotedblbase</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -1378,13 +2076,14 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>less</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>question</string>
-			<string>at</string>
+			<string>grave</string>
+			<string>apostrophemod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>hungarumlautcomb</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -1411,12 +2110,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>backslash</string>
-			<string>bracketright</string>
-			<string>asciicircum</string>
-			<string>underscore</string>
-			<string>grave</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -1443,29 +2136,6 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>braceleft</string>
-			<string>bar</string>
-			<string>braceright</string>
-			<string>asciitilde</string>
-			<string>nbspace</string>
-			<string>cent</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>copyright</string>
-			<string>guillemetleft</string>
-			<string>registered</string>
-			<string>degree</string>
-			<string>periodcentered</string>
-			<string>guillemetright</string>
-			<string>multiply</string>
-			<string>divide</string>
-			<string>apostrophemod</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>macroncomb</string>
-			<string>brevecomb</string>
-			<string>dieresiscomb</string>
-			<string>hungarumlautcomb</string>
 			<string>Io-cy</string>
 			<string>Dje-cy</string>
 			<string>Gje-cy</string>
@@ -1622,20 +2292,6 @@
 			<string>uhungarumlaut-cy</string>
 			<string>Chedieresis-cy</string>
 			<string>chedieresis-cy</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotesinglbase</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>quotedblbase</string>
-			<string>bullet</string>
-			<string>ellipsis</string>
-			<string>euro</string>
-			<string>numero</string>
-			<string>trademark</string>
-			<string>minus</string>
 		</array>
 		<key>name</key>
 		<string>GF_Cyrillic_Plus</string>
@@ -1764,22 +2420,64 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>space</string>
-			<string>exclam</string>
-			<string>quotedbl</string>
-			<string>numbersign</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
+			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>multiply</string>
+			<string>divide</string>
+			<string>euro</string>
+			<string>numero</string>
+			<string>trademark</string>
+			<string>minus</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>guillemetleft</string>
+			<string>periodcentered</string>
+			<string>guillemetright</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotesinglbase</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>quotedblbase</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -1790,13 +2488,14 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>less</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>question</string>
-			<string>at</string>
+			<string>grave</string>
+			<string>apostrophemod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>hungarumlautcomb</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -1823,12 +2522,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>backslash</string>
-			<string>bracketright</string>
-			<string>asciicircum</string>
-			<string>underscore</string>
-			<string>grave</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -1855,29 +2548,6 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>braceleft</string>
-			<string>bar</string>
-			<string>braceright</string>
-			<string>asciitilde</string>
-			<string>nbspace</string>
-			<string>cent</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>copyright</string>
-			<string>guillemetleft</string>
-			<string>registered</string>
-			<string>degree</string>
-			<string>periodcentered</string>
-			<string>guillemetright</string>
-			<string>multiply</string>
-			<string>divide</string>
-			<string>apostrophemod</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>macroncomb</string>
-			<string>brevecomb</string>
-			<string>dieresiscomb</string>
-			<string>hungarumlautcomb</string>
 			<string>Io-cy</string>
 			<string>Dje-cy</string>
 			<string>Gje-cy</string>
@@ -2088,20 +2758,6 @@
 			<string>enlefthook-cy</string>
 			<string>Eldescender-cy</string>
 			<string>eldescender-cy</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotesinglbase</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>quotedblbase</string>
-			<string>bullet</string>
-			<string>ellipsis</string>
-			<string>euro</string>
-			<string>numero</string>
-			<string>trademark</string>
-			<string>minus</string>
 		</array>
 		<key>name</key>
 		<string>GF_Cyrillic_Pro</string>
@@ -2241,322 +2897,322 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>uni1D000</string>
-			<string>uni1D001</string>
-			<string>uni1D002</string>
-			<string>uni1D003</string>
-			<string>uni1D004</string>
-			<string>uni1D005</string>
-			<string>uni1D006</string>
-			<string>uni1D007</string>
-			<string>uni1D008</string>
-			<string>uni1D009</string>
-			<string>uni1D00A</string>
-			<string>uni1D00B</string>
-			<string>uni1D00C</string>
-			<string>uni1D00D</string>
-			<string>uni1D00E</string>
-			<string>uni1D00F</string>
-			<string>uni1D010</string>
-			<string>uni1D011</string>
-			<string>uni1D012</string>
-			<string>uni1D013</string>
-			<string>uni1D014</string>
-			<string>uni1D015</string>
-			<string>uni1D016</string>
-			<string>uni1D017</string>
-			<string>uni1D018</string>
-			<string>uni1D019</string>
-			<string>uni1D01A</string>
-			<string>uni1D01B</string>
-			<string>uni1D01C</string>
-			<string>uni1D01D</string>
-			<string>uni1D01E</string>
-			<string>uni1D01F</string>
-			<string>uni1D020</string>
-			<string>uni1D021</string>
-			<string>uni1D022</string>
-			<string>uni1D023</string>
-			<string>uni1D024</string>
-			<string>uni1D025</string>
-			<string>uni1D026</string>
-			<string>uni1D027</string>
-			<string>uni1D028</string>
-			<string>uni1D029</string>
-			<string>uni1D02A</string>
-			<string>uni1D02B</string>
-			<string>uni1D02C</string>
-			<string>uni1D02D</string>
-			<string>uni1D02E</string>
-			<string>uni1D02F</string>
-			<string>uni1D030</string>
-			<string>uni1D031</string>
-			<string>uni1D032</string>
-			<string>uni1D033</string>
-			<string>uni1D034</string>
-			<string>uni1D035</string>
-			<string>uni1D036</string>
-			<string>uni1D037</string>
-			<string>uni1D038</string>
-			<string>uni1D039</string>
-			<string>uni1D03A</string>
-			<string>uni1D03B</string>
-			<string>uni1D03C</string>
-			<string>uni1D03D</string>
-			<string>uni1D03E</string>
-			<string>uni1D03F</string>
-			<string>uni1D040</string>
-			<string>uni1D041</string>
-			<string>uni1D042</string>
-			<string>uni1D043</string>
-			<string>uni1D044</string>
-			<string>uni1D045</string>
-			<string>uni1D046</string>
-			<string>uni1D047</string>
-			<string>uni1D048</string>
-			<string>uni1D049</string>
-			<string>uni1D04A</string>
-			<string>uni1D04B</string>
-			<string>uni1D04C</string>
-			<string>uni1D04D</string>
-			<string>uni1D04E</string>
-			<string>uni1D04F</string>
-			<string>uni1D050</string>
-			<string>uni1D051</string>
-			<string>uni1D052</string>
-			<string>uni1D053</string>
-			<string>uni1D054</string>
-			<string>uni1D055</string>
-			<string>uni1D056</string>
-			<string>uni1D057</string>
-			<string>uni1D058</string>
-			<string>uni1D059</string>
-			<string>uni1D05A</string>
-			<string>uni1D05B</string>
-			<string>uni1D05C</string>
-			<string>uni1D05D</string>
-			<string>uni1D05E</string>
-			<string>uni1D05F</string>
-			<string>uni1D060</string>
-			<string>uni1D061</string>
-			<string>uni1D062</string>
-			<string>uni1D063</string>
-			<string>uni1D064</string>
-			<string>uni1D065</string>
-			<string>uni1D066</string>
-			<string>uni1D067</string>
-			<string>uni1D068</string>
-			<string>uni1D069</string>
-			<string>uni1D06A</string>
-			<string>uni1D06B</string>
-			<string>uni1D06C</string>
-			<string>uni1D06D</string>
-			<string>uni1D06E</string>
-			<string>uni1D06F</string>
-			<string>uni1D070</string>
-			<string>uni1D071</string>
-			<string>uni1D072</string>
-			<string>uni1D073</string>
-			<string>uni1D074</string>
-			<string>uni1D075</string>
-			<string>uni1D076</string>
-			<string>uni1D077</string>
-			<string>uni1D078</string>
-			<string>uni1D079</string>
-			<string>uni1D07A</string>
-			<string>uni1D07B</string>
-			<string>uni1D07C</string>
-			<string>uni1D07D</string>
-			<string>uni1D07E</string>
-			<string>uni1D07F</string>
-			<string>uni1D080</string>
-			<string>uni1D081</string>
-			<string>uni1D082</string>
-			<string>uni1D083</string>
-			<string>uni1D084</string>
-			<string>uni1D085</string>
-			<string>uni1D086</string>
-			<string>uni1D087</string>
-			<string>uni1D088</string>
-			<string>uni1D089</string>
-			<string>uni1D08A</string>
-			<string>uni1D08B</string>
-			<string>uni1D08C</string>
-			<string>uni1D08D</string>
-			<string>uni1D08E</string>
-			<string>uni1D08F</string>
-			<string>uni1D090</string>
-			<string>uni1D091</string>
-			<string>uni1D092</string>
-			<string>uni1D093</string>
-			<string>uni1D094</string>
-			<string>uni1D095</string>
-			<string>uni1D096</string>
-			<string>uni1D097</string>
-			<string>uni1D098</string>
-			<string>uni1D099</string>
-			<string>uni1D09A</string>
-			<string>uni1D09B</string>
-			<string>uni1D09C</string>
-			<string>uni1D09D</string>
-			<string>uni1D09E</string>
-			<string>uni1D09F</string>
-			<string>uni1D0A0</string>
-			<string>uni1D0A1</string>
-			<string>uni1D0A2</string>
-			<string>uni1D0A3</string>
-			<string>uni1D0A4</string>
-			<string>uni1D0A5</string>
-			<string>uni1D0A6</string>
-			<string>uni1D0A7</string>
-			<string>uni1D0A8</string>
-			<string>uni1D0A9</string>
-			<string>uni1D0AA</string>
-			<string>uni1D0AB</string>
-			<string>uni1D0AC</string>
-			<string>uni1D0AD</string>
-			<string>uni1D0AE</string>
-			<string>uni1D0AF</string>
-			<string>uni1D0B0</string>
-			<string>uni1D0B1</string>
-			<string>uni1D0B2</string>
-			<string>uni1D0B3</string>
-			<string>uni1D0B4</string>
-			<string>uni1D0B5</string>
-			<string>uni1D0B6</string>
-			<string>uni1D0B7</string>
-			<string>uni1D0B8</string>
-			<string>uni1D0B9</string>
-			<string>uni1D0BA</string>
-			<string>uni1D0BB</string>
-			<string>uni1D0BC</string>
-			<string>uni1D0BD</string>
-			<string>uni1D0BE</string>
-			<string>uni1D0BF</string>
-			<string>uni1D0C0</string>
-			<string>uni1D0C1</string>
-			<string>uni1D0C2</string>
-			<string>uni1D0C3</string>
-			<string>uni1D0C4</string>
-			<string>uni1D0C5</string>
-			<string>uni1D0C6</string>
-			<string>uni1D0C7</string>
-			<string>uni1D0C8</string>
-			<string>uni1D0C9</string>
-			<string>uni1D0CA</string>
-			<string>uni1D0CB</string>
-			<string>uni1D0CC</string>
-			<string>uni1D0CD</string>
-			<string>uni1D0CE</string>
-			<string>uni1D0CF</string>
-			<string>uni1D0D0</string>
-			<string>uni1D0D1</string>
-			<string>uni1D0D2</string>
-			<string>uni1D0D3</string>
-			<string>uni1D0D4</string>
-			<string>uni1D0D5</string>
-			<string>uni1D0D6</string>
-			<string>uni1D0D7</string>
-			<string>uni1D0D8</string>
-			<string>uni1D0D9</string>
-			<string>uni1D0DA</string>
-			<string>uni1D0DB</string>
-			<string>uni1D0DC</string>
-			<string>uni1D0DD</string>
-			<string>uni1D0DE</string>
-			<string>uni1D0DF</string>
-			<string>uni1D0E0</string>
-			<string>uni1D0E1</string>
-			<string>uni1D0E2</string>
-			<string>uni1D0E3</string>
-			<string>uni1D0E4</string>
-			<string>uni1D0E5</string>
-			<string>uni1D0E6</string>
-			<string>uni1D0E7</string>
-			<string>uni1D0E8</string>
-			<string>uni1D0E9</string>
-			<string>uni1D0EA</string>
-			<string>uni1D0EB</string>
-			<string>uni1D0EC</string>
-			<string>uni1D0ED</string>
-			<string>uni1D0EE</string>
-			<string>uni1D0EF</string>
-			<string>uni1D0F0</string>
-			<string>uni1D0F1</string>
-			<string>uni1D0F2</string>
-			<string>uni1D0F3</string>
-			<string>uni1D0F4</string>
-			<string>uni1D0F5</string>
-			<string>uni1D200</string>
-			<string>uni1D201</string>
-			<string>uni1D202</string>
-			<string>uni1D203</string>
-			<string>uni1D204</string>
-			<string>uni1D205</string>
-			<string>uni1D206</string>
-			<string>uni1D207</string>
-			<string>uni1D208</string>
-			<string>uni1D209</string>
-			<string>uni1D20A</string>
-			<string>uni1D20B</string>
-			<string>uni1D20C</string>
-			<string>uni1D20D</string>
-			<string>uni1D20E</string>
-			<string>uni1D20F</string>
-			<string>uni1D210</string>
-			<string>uni1D211</string>
-			<string>uni1D212</string>
-			<string>uni1D213</string>
-			<string>uni1D214</string>
-			<string>uni1D215</string>
-			<string>uni1D216</string>
-			<string>uni1D217</string>
-			<string>uni1D218</string>
-			<string>uni1D219</string>
-			<string>uni1D21A</string>
-			<string>uni1D21B</string>
-			<string>uni1D21C</string>
-			<string>uni1D21D</string>
-			<string>uni1D21E</string>
-			<string>uni1D21F</string>
-			<string>uni1D220</string>
-			<string>uni1D221</string>
-			<string>uni1D222</string>
-			<string>uni1D223</string>
-			<string>uni1D224</string>
-			<string>uni1D225</string>
-			<string>uni1D226</string>
-			<string>uni1D227</string>
-			<string>uni1D228</string>
-			<string>uni1D229</string>
-			<string>uni1D22A</string>
-			<string>uni1D22B</string>
-			<string>uni1D22C</string>
-			<string>uni1D22D</string>
-			<string>uni1D22E</string>
-			<string>uni1D22F</string>
-			<string>uni1D230</string>
-			<string>uni1D231</string>
-			<string>uni1D232</string>
-			<string>uni1D233</string>
-			<string>uni1D234</string>
-			<string>uni1D235</string>
-			<string>uni1D236</string>
-			<string>uni1D237</string>
-			<string>uni1D238</string>
-			<string>uni1D239</string>
-			<string>uni1D23A</string>
-			<string>uni1D23B</string>
-			<string>uni1D23C</string>
-			<string>uni1D23D</string>
-			<string>uni1D23E</string>
-			<string>uni1D23F</string>
-			<string>uni1D240</string>
-			<string>uni1D241</string>
-			<string>uni1D242</string>
-			<string>uni1D243</string>
-			<string>uni1D244</string>
 			<string>uni1D245</string>
+			<string>uni1D244</string>
+			<string>uni1D243</string>
+			<string>uni1D242</string>
+			<string>uni1D241</string>
+			<string>uni1D240</string>
+			<string>uni1D23F</string>
+			<string>uni1D23E</string>
+			<string>uni1D23D</string>
+			<string>uni1D23C</string>
+			<string>uni1D23B</string>
+			<string>uni1D23A</string>
+			<string>uni1D239</string>
+			<string>uni1D238</string>
+			<string>uni1D237</string>
+			<string>uni1D236</string>
+			<string>uni1D235</string>
+			<string>uni1D234</string>
+			<string>uni1D233</string>
+			<string>uni1D232</string>
+			<string>uni1D231</string>
+			<string>uni1D230</string>
+			<string>uni1D22F</string>
+			<string>uni1D22E</string>
+			<string>uni1D22D</string>
+			<string>uni1D22C</string>
+			<string>uni1D22B</string>
+			<string>uni1D22A</string>
+			<string>uni1D229</string>
+			<string>uni1D228</string>
+			<string>uni1D227</string>
+			<string>uni1D226</string>
+			<string>uni1D225</string>
+			<string>uni1D224</string>
+			<string>uni1D223</string>
+			<string>uni1D222</string>
+			<string>uni1D221</string>
+			<string>uni1D220</string>
+			<string>uni1D21F</string>
+			<string>uni1D21E</string>
+			<string>uni1D21D</string>
+			<string>uni1D21C</string>
+			<string>uni1D21B</string>
+			<string>uni1D21A</string>
+			<string>uni1D219</string>
+			<string>uni1D218</string>
+			<string>uni1D217</string>
+			<string>uni1D216</string>
+			<string>uni1D215</string>
+			<string>uni1D214</string>
+			<string>uni1D213</string>
+			<string>uni1D212</string>
+			<string>uni1D211</string>
+			<string>uni1D210</string>
+			<string>uni1D20F</string>
+			<string>uni1D20E</string>
+			<string>uni1D20D</string>
+			<string>uni1D20C</string>
+			<string>uni1D20B</string>
+			<string>uni1D20A</string>
+			<string>uni1D209</string>
+			<string>uni1D208</string>
+			<string>uni1D207</string>
+			<string>uni1D206</string>
+			<string>uni1D205</string>
+			<string>uni1D204</string>
+			<string>uni1D203</string>
+			<string>uni1D202</string>
+			<string>uni1D201</string>
+			<string>uni1D200</string>
+			<string>uni1D0F5</string>
+			<string>uni1D0F4</string>
+			<string>uni1D0F3</string>
+			<string>uni1D0F2</string>
+			<string>uni1D0F1</string>
+			<string>uni1D0F0</string>
+			<string>uni1D0EF</string>
+			<string>uni1D0EE</string>
+			<string>uni1D0ED</string>
+			<string>uni1D0EC</string>
+			<string>uni1D0EB</string>
+			<string>uni1D0EA</string>
+			<string>uni1D0E9</string>
+			<string>uni1D0E8</string>
+			<string>uni1D0E7</string>
+			<string>uni1D0E6</string>
+			<string>uni1D0E5</string>
+			<string>uni1D0E4</string>
+			<string>uni1D0E3</string>
+			<string>uni1D0E2</string>
+			<string>uni1D0E1</string>
+			<string>uni1D0E0</string>
+			<string>uni1D0DF</string>
+			<string>uni1D0DE</string>
+			<string>uni1D0DD</string>
+			<string>uni1D0DC</string>
+			<string>uni1D0DB</string>
+			<string>uni1D0DA</string>
+			<string>uni1D0D9</string>
+			<string>uni1D0D8</string>
+			<string>uni1D0D7</string>
+			<string>uni1D0D6</string>
+			<string>uni1D0D5</string>
+			<string>uni1D0D4</string>
+			<string>uni1D0D3</string>
+			<string>uni1D0D2</string>
+			<string>uni1D0D1</string>
+			<string>uni1D0D0</string>
+			<string>uni1D0CF</string>
+			<string>uni1D0CE</string>
+			<string>uni1D0CD</string>
+			<string>uni1D0CC</string>
+			<string>uni1D0CB</string>
+			<string>uni1D0CA</string>
+			<string>uni1D0C9</string>
+			<string>uni1D0C8</string>
+			<string>uni1D0C7</string>
+			<string>uni1D0C6</string>
+			<string>uni1D0C5</string>
+			<string>uni1D0C4</string>
+			<string>uni1D0C3</string>
+			<string>uni1D0C2</string>
+			<string>uni1D0C1</string>
+			<string>uni1D0C0</string>
+			<string>uni1D0BF</string>
+			<string>uni1D0BE</string>
+			<string>uni1D0BD</string>
+			<string>uni1D0BC</string>
+			<string>uni1D0BB</string>
+			<string>uni1D0BA</string>
+			<string>uni1D0B9</string>
+			<string>uni1D0B8</string>
+			<string>uni1D0B7</string>
+			<string>uni1D0B6</string>
+			<string>uni1D0B5</string>
+			<string>uni1D0B4</string>
+			<string>uni1D0B3</string>
+			<string>uni1D0B2</string>
+			<string>uni1D0B1</string>
+			<string>uni1D0B0</string>
+			<string>uni1D0AF</string>
+			<string>uni1D0AE</string>
+			<string>uni1D0AD</string>
+			<string>uni1D0AC</string>
+			<string>uni1D0AB</string>
+			<string>uni1D0AA</string>
+			<string>uni1D0A9</string>
+			<string>uni1D0A8</string>
+			<string>uni1D0A7</string>
+			<string>uni1D0A6</string>
+			<string>uni1D0A5</string>
+			<string>uni1D0A4</string>
+			<string>uni1D0A3</string>
+			<string>uni1D0A2</string>
+			<string>uni1D0A1</string>
+			<string>uni1D0A0</string>
+			<string>uni1D09F</string>
+			<string>uni1D09E</string>
+			<string>uni1D09D</string>
+			<string>uni1D09C</string>
+			<string>uni1D09B</string>
+			<string>uni1D09A</string>
+			<string>uni1D099</string>
+			<string>uni1D098</string>
+			<string>uni1D097</string>
+			<string>uni1D096</string>
+			<string>uni1D095</string>
+			<string>uni1D094</string>
+			<string>uni1D093</string>
+			<string>uni1D092</string>
+			<string>uni1D091</string>
+			<string>uni1D090</string>
+			<string>uni1D08F</string>
+			<string>uni1D08E</string>
+			<string>uni1D08D</string>
+			<string>uni1D08C</string>
+			<string>uni1D08B</string>
+			<string>uni1D08A</string>
+			<string>uni1D089</string>
+			<string>uni1D088</string>
+			<string>uni1D087</string>
+			<string>uni1D086</string>
+			<string>uni1D085</string>
+			<string>uni1D084</string>
+			<string>uni1D083</string>
+			<string>uni1D082</string>
+			<string>uni1D081</string>
+			<string>uni1D080</string>
+			<string>uni1D07F</string>
+			<string>uni1D07E</string>
+			<string>uni1D07D</string>
+			<string>uni1D07C</string>
+			<string>uni1D07B</string>
+			<string>uni1D07A</string>
+			<string>uni1D079</string>
+			<string>uni1D078</string>
+			<string>uni1D077</string>
+			<string>uni1D076</string>
+			<string>uni1D075</string>
+			<string>uni1D074</string>
+			<string>uni1D073</string>
+			<string>uni1D072</string>
+			<string>uni1D071</string>
+			<string>uni1D070</string>
+			<string>uni1D06F</string>
+			<string>uni1D06E</string>
+			<string>uni1D06D</string>
+			<string>uni1D06C</string>
+			<string>uni1D06B</string>
+			<string>uni1D06A</string>
+			<string>uni1D069</string>
+			<string>uni1D068</string>
+			<string>uni1D067</string>
+			<string>uni1D066</string>
+			<string>uni1D065</string>
+			<string>uni1D064</string>
+			<string>uni1D063</string>
+			<string>uni1D062</string>
+			<string>uni1D061</string>
+			<string>uni1D060</string>
+			<string>uni1D05F</string>
+			<string>uni1D05E</string>
+			<string>uni1D05D</string>
+			<string>uni1D05C</string>
+			<string>uni1D05B</string>
+			<string>uni1D05A</string>
+			<string>uni1D059</string>
+			<string>uni1D058</string>
+			<string>uni1D057</string>
+			<string>uni1D056</string>
+			<string>uni1D055</string>
+			<string>uni1D054</string>
+			<string>uni1D053</string>
+			<string>uni1D052</string>
+			<string>uni1D051</string>
+			<string>uni1D050</string>
+			<string>uni1D04F</string>
+			<string>uni1D04E</string>
+			<string>uni1D04D</string>
+			<string>uni1D04C</string>
+			<string>uni1D04B</string>
+			<string>uni1D04A</string>
+			<string>uni1D049</string>
+			<string>uni1D048</string>
+			<string>uni1D047</string>
+			<string>uni1D046</string>
+			<string>uni1D045</string>
+			<string>uni1D044</string>
+			<string>uni1D043</string>
+			<string>uni1D042</string>
+			<string>uni1D041</string>
+			<string>uni1D040</string>
+			<string>uni1D03F</string>
+			<string>uni1D03E</string>
+			<string>uni1D03D</string>
+			<string>uni1D03C</string>
+			<string>uni1D03B</string>
+			<string>uni1D03A</string>
+			<string>uni1D039</string>
+			<string>uni1D038</string>
+			<string>uni1D037</string>
+			<string>uni1D036</string>
+			<string>uni1D035</string>
+			<string>uni1D034</string>
+			<string>uni1D033</string>
+			<string>uni1D032</string>
+			<string>uni1D031</string>
+			<string>uni1D030</string>
+			<string>uni1D02F</string>
+			<string>uni1D02E</string>
+			<string>uni1D02D</string>
+			<string>uni1D02C</string>
+			<string>uni1D02B</string>
+			<string>uni1D02A</string>
+			<string>uni1D029</string>
+			<string>uni1D028</string>
+			<string>uni1D027</string>
+			<string>uni1D026</string>
+			<string>uni1D025</string>
+			<string>uni1D024</string>
+			<string>uni1D023</string>
+			<string>uni1D022</string>
+			<string>uni1D021</string>
+			<string>uni1D020</string>
+			<string>uni1D01F</string>
+			<string>uni1D01E</string>
+			<string>uni1D01D</string>
+			<string>uni1D01C</string>
+			<string>uni1D01B</string>
+			<string>uni1D01A</string>
+			<string>uni1D019</string>
+			<string>uni1D018</string>
+			<string>uni1D017</string>
+			<string>uni1D016</string>
+			<string>uni1D015</string>
+			<string>uni1D014</string>
+			<string>uni1D013</string>
+			<string>uni1D012</string>
+			<string>uni1D011</string>
+			<string>uni1D010</string>
+			<string>uni1D00F</string>
+			<string>uni1D00E</string>
+			<string>uni1D00D</string>
+			<string>uni1D00C</string>
+			<string>uni1D00B</string>
+			<string>uni1D00A</string>
+			<string>uni1D009</string>
+			<string>uni1D008</string>
+			<string>uni1D007</string>
+			<string>uni1D006</string>
+			<string>uni1D005</string>
+			<string>uni1D004</string>
+			<string>uni1D003</string>
+			<string>uni1D002</string>
+			<string>uni1D001</string>
+			<string>uni1D000</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_AncientMusicalSymbols</string>
@@ -2564,40 +3220,7 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>Heta</string>
-			<string>heta</string>
-			<string>Archaicsampi</string>
-			<string>archaicsampi</string>
-			<string>Pamphyliandigamma</string>
-			<string>pamphyliandigamma</string>
-			<string>sigmaLunateReversedSymbol</string>
-			<string>sigmaLunateDottedSymbol</string>
-			<string>sigmaLunateDottedReversedSymbol</string>
-			<string>betaSymbol</string>
-			<string>thetaSymbol</string>
-			<string>UpsilonhookSymbol</string>
-			<string>UpsilonacutehookSymbol</string>
-			<string>UpsilondieresishookSymbol</string>
-			<string>phiSymbol</string>
-			<string>piSymbol</string>
-			<string>KoppaArchaic</string>
-			<string>koppaArchaic</string>
-			<string>kappaSymbol</string>
-			<string>rhoSymbol</string>
-			<string>sigmaLunateSymbol</string>
-			<string>yot</string>
-			<string>ThetaSymbol</string>
-			<string>epsilonLunateSymbol</string>
 			<string>epsilonLunateReversedSymbol</string>
-			<string>Sho</string>
-			<string>sho</string>
-			<string>SigmaLunateSymbol</string>
-			<string>San</string>
-			<string>san</string>
-			<string>rhoStrokeSymbol</string>
-			<string>SigmaLunateReversedSymbol</string>
-			<string>SigmaLunateDottedSymbol</string>
-			<string>SigmaLunateDottedReversedSymbol</string>
 			<string>whiteSquare</string>
 			<string>blackStar</string>
 			<string>sunSymbol</string>
@@ -2632,6 +3255,23 @@
 			<string>pisces</string>
 			<string>threeDimensionalAngle</string>
 			<string>whitetrianglecontainingwhitetriangle</string>
+			<string>year-greek</string>
+			<string>talent-greek</string>
+			<string>drachma-greek</string>
+			<string>obol-greek</string>
+			<string>twoObols-greek</string>
+			<string>threeObols-greek</string>
+			<string>fourObols-greek</string>
+			<string>fiveObols-greek</string>
+			<string>metretes-greek</string>
+			<string>kyathosBase-greek</string>
+			<string>litra-greek</string>
+			<string>ounkia-greek</string>
+			<string>xestes-greek</string>
+			<string>artabe-greek</string>
+			<string>aroura-greek</string>
+			<string>gramma-greek</string>
+			<string>tryblionBase-greek</string>
 			<string>onequarter-atticGreek</string>
 			<string>onehalf-atticGreek</string>
 			<string>onedrachma-atticGreek</string>
@@ -2689,24 +3329,40 @@
 			<string>onehalfAlternate-greek</string>
 			<string>twothirds-greek</string>
 			<string>threequarters-greek</string>
-			<string>year-greek</string>
-			<string>talent-greek</string>
-			<string>drachma-greek</string>
-			<string>obol-greek</string>
-			<string>twoObols-greek</string>
-			<string>threeObols-greek</string>
-			<string>fourObols-greek</string>
-			<string>fiveObols-greek</string>
-			<string>metretes-greek</string>
-			<string>kyathosBase-greek</string>
-			<string>litra-greek</string>
-			<string>ounkia-greek</string>
-			<string>xestes-greek</string>
-			<string>artabe-greek</string>
-			<string>aroura-greek</string>
-			<string>gramma-greek</string>
-			<string>tryblionBase-greek</string>
 			<string>zero-greek</string>
+			<string>Heta</string>
+			<string>heta</string>
+			<string>Archaicsampi</string>
+			<string>archaicsampi</string>
+			<string>Pamphyliandigamma</string>
+			<string>pamphyliandigamma</string>
+			<string>sigmaLunateReversedSymbol</string>
+			<string>sigmaLunateDottedSymbol</string>
+			<string>sigmaLunateDottedReversedSymbol</string>
+			<string>betaSymbol</string>
+			<string>thetaSymbol</string>
+			<string>UpsilonhookSymbol</string>
+			<string>UpsilonacutehookSymbol</string>
+			<string>UpsilondieresishookSymbol</string>
+			<string>phiSymbol</string>
+			<string>piSymbol</string>
+			<string>KoppaArchaic</string>
+			<string>koppaArchaic</string>
+			<string>kappaSymbol</string>
+			<string>rhoSymbol</string>
+			<string>sigmaLunateSymbol</string>
+			<string>yot</string>
+			<string>ThetaSymbol</string>
+			<string>epsilonLunateSymbol</string>
+			<string>Sho</string>
+			<string>sho</string>
+			<string>SigmaLunateSymbol</string>
+			<string>San</string>
+			<string>san</string>
+			<string>rhoStrokeSymbol</string>
+			<string>SigmaLunateReversedSymbol</string>
+			<string>SigmaLunateDottedSymbol</string>
+			<string>SigmaLunateDottedReversedSymbol</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_Archaic</string>
@@ -2714,6 +3370,31 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>oldNgi-nubian-coptic</string>
+			<string>oldNyi-nubian-coptic</string>
+			<string>oldShima-nubian-coptic</string>
+			<string>oldWau-nubian-coptic</string>
+			<string>olddirectquestion-nubian-coptic</string>
+			<string>oldfullstop-nubian-coptic</string>
+			<string>oldindirectquestion-nubian-coptic</string>
+			<string>oldngi-nubian-coptic</string>
+			<string>oldnyi-nubian-coptic</string>
+			<string>oldshima-nubian-coptic</string>
+			<string>oldversedivider-nubian-coptic</string>
+			<string>oldwau-nubian-coptic</string>
+			<string>kai-coptic</string>
+			<string>miro-coptic</string>
+			<string>piro-coptic</string>
+			<string>stauros-coptic</string>
+			<string>tauro-coptic</string>
+			<string>khiro-coptic</string>
+			<string>shimasima-coptic</string>
+			<string>fullstop-coptic</string>
+			<string>morphologicaldivider-coptic</string>
+			<string>onehalf-coptic</string>
+			<string>uni2CEF</string>
+			<string>uni2CF0</string>
+			<string>uni2CF1</string>
 			<string>Shei-coptic</string>
 			<string>shei-coptic</string>
 			<string>Fei-coptic</string>
@@ -2820,37 +3501,12 @@
 			<string>djaOld-coptic</string>
 			<string>ShimaOld-coptic</string>
 			<string>shimaOld-coptic</string>
-			<string>kai-coptic</string>
-			<string>miro-coptic</string>
-			<string>piro-coptic</string>
-			<string>stauros-coptic</string>
-			<string>tauro-coptic</string>
-			<string>khiro-coptic</string>
-			<string>shimasima-coptic</string>
 			<string>SheiCryptogrammic-coptic</string>
 			<string>sheiCryptogrammic-coptic</string>
 			<string>GangiaCryptogrammic-coptic</string>
 			<string>gangiaCryptogrammic-coptic</string>
-			<string>uni2CEF</string>
-			<string>uni2CF0</string>
-			<string>uni2CF1</string>
 			<string>KheiBohairic-coptic</string>
 			<string>kheiBohairic-coptic</string>
-			<string>onehalf-coptic</string>
-			<string>fullstop-coptic</string>
-			<string>morphologicaldivider-coptic</string>
-			<string>oldNgi-nubian-coptic</string>
-			<string>oldNyi-nubian-coptic</string>
-			<string>oldShima-nubian-coptic</string>
-			<string>oldWau-nubian-coptic</string>
-			<string>olddirectquestion-nubian-coptic</string>
-			<string>oldfullstop-nubian-coptic</string>
-			<string>oldindirectquestion-nubian-coptic</string>
-			<string>oldngi-nubian-coptic</string>
-			<string>oldnyi-nubian-coptic</string>
-			<string>oldshima-nubian-coptic</string>
-			<string>oldversedivider-nubian-coptic</string>
-			<string>oldwau-nubian-coptic</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_Coptic</string>
@@ -2858,22 +3514,65 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>space</string>
-			<string>exclam</string>
-			<string>quotedbl</string>
-			<string>numbersign</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
+			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>multiply</string>
+			<string>divide</string>
+			<string>numeral-greek</string>
+			<string>lowernumeral-greek</string>
+			<string>euro</string>
+			<string>trademark</string>
+			<string>minus</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>guillemetleft</string>
+			<string>periodcentered</string>
+			<string>guillemetright</string>
+			<string>questiongreek</string>
+			<string>anoteleia</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -2884,13 +3583,11 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>less</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>question</string>
-			<string>at</string>
+			<string>grave</string>
+			<string>acutecomb</string>
+			<string>dieresiscomb</string>
+			<string>tonos</string>
+			<string>dieresistonos</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -2917,12 +3614,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>backslash</string>
-			<string>bracketright</string>
-			<string>asciicircum</string>
-			<string>underscore</string>
-			<string>grave</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -2949,31 +3640,7 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>braceleft</string>
-			<string>bar</string>
-			<string>braceright</string>
-			<string>asciitilde</string>
-			<string>nbspace</string>
-			<string>cent</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>copyright</string>
-			<string>guillemetleft</string>
-			<string>registered</string>
-			<string>degree</string>
-			<string>periodcentered</string>
-			<string>guillemetright</string>
-			<string>multiply</string>
-			<string>divide</string>
-			<string>acutecomb</string>
-			<string>dieresiscomb</string>
-			<string>numeral-greek</string>
-			<string>lowernumeral-greek</string>
-			<string>questiongreek</string>
-			<string>tonos</string>
-			<string>dieresistonos</string>
 			<string>Alphatonos</string>
-			<string>anoteleia</string>
 			<string>Epsilontonos</string>
 			<string>Etatonos</string>
 			<string>Iotatonos</string>
@@ -3044,17 +3711,6 @@
 			<string>omegatonos</string>
 			<string>KaiSymbol</string>
 			<string>kaiSymbol</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>bullet</string>
-			<string>ellipsis</string>
-			<string>euro</string>
-			<string>trademark</string>
-			<string>minus</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_Core</string>
@@ -3443,6 +4099,21 @@
 			<string>koroniscomb</string>
 			<string>dialytikatonoscomb</string>
 			<string>ypogegrammenicomb</string>
+			<string>koronis</string>
+			<string>psili</string>
+			<string>perispomeni</string>
+			<string>dialytikaperispomeni</string>
+			<string>psilivaria</string>
+			<string>psilioxia</string>
+			<string>psiliperispomeni</string>
+			<string>dasiavaria</string>
+			<string>dasiaoxia</string>
+			<string>dasiaperispomeni</string>
+			<string>dialytikavaria</string>
+			<string>dialytikaoxia</string>
+			<string>varia</string>
+			<string>oxia</string>
+			<string>dasia</string>
 			<string>ypogegrammeni</string>
 			<string>alphapsili</string>
 			<string>alphadasia</string>
@@ -3618,11 +4289,7 @@
 			<string>Alphavaria</string>
 			<string>Alphaoxia</string>
 			<string>Alphaprosgegrammeni</string>
-			<string>koronis</string>
 			<string>prosgegrammeni</string>
-			<string>psili</string>
-			<string>perispomeni</string>
-			<string>dialytikaperispomeni</string>
 			<string>etavariaypogegrammeni</string>
 			<string>etaypogegrammeni</string>
 			<string>etaoxiaypogegrammeni</string>
@@ -3633,9 +4300,6 @@
 			<string>Etavaria</string>
 			<string>Etaoxia</string>
 			<string>Etaprosgegrammeni</string>
-			<string>psilivaria</string>
-			<string>psilioxia</string>
-			<string>psiliperispomeni</string>
 			<string>iotavrachy</string>
 			<string>iotamacron</string>
 			<string>iotadialytikavaria</string>
@@ -3646,9 +4310,6 @@
 			<string>Iotamacron</string>
 			<string>Iotavaria</string>
 			<string>Iotaoxia</string>
-			<string>dasiavaria</string>
-			<string>dasiaoxia</string>
-			<string>dasiaperispomeni</string>
 			<string>upsilonvrachy</string>
 			<string>upsilonmacron</string>
 			<string>upsilondialytikavaria</string>
@@ -3662,9 +4323,6 @@
 			<string>Upsilonvaria</string>
 			<string>Upsilonoxia</string>
 			<string>Rhodasia</string>
-			<string>dialytikavaria</string>
-			<string>dialytikaoxia</string>
-			<string>varia</string>
 			<string>omegavariaypogegrammeni</string>
 			<string>omegaypogegrammeni</string>
 			<string>omegaoxiaypogegrammeni</string>
@@ -3675,8 +4333,6 @@
 			<string>Omegavaria</string>
 			<string>Omegaoxia</string>
 			<string>Omegaprosgegrammeni</string>
-			<string>oxia</string>
-			<string>dasia</string>
 			<string>Alphaprosgegrammeni.ss01</string>
 			<string>Alphapsiliprosgegrammeni.ss01</string>
 			<string>Alphadasiaprosgegrammeni.ss01</string>
@@ -3711,31 +4367,6 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>dotaccent</string>
-			<string>overlinecomb</string>
-			<string>dotbelowcomb</string>
-			<string>asteriskbelowcomb</string>
-			<string>doublebrevebelowcomb</string>
-			<string>Stigma</string>
-			<string>stigma</string>
-			<string>Digamma</string>
-			<string>digamma</string>
-			<string>Koppa</string>
-			<string>koppa</string>
-			<string>Sampi</string>
-			<string>sampi</string>
-			<string>dblverticalbar</string>
-			<string>referencemark</string>
-			<string>undertie</string>
-			<string>asterism</string>
-			<string>threedotpunctuation</string>
-			<string>fourdotpunctuation</string>
-			<string>fivedotpunctuation</string>
-			<string>twodotpunctuation</string>
-			<string>fourdotmark</string>
-			<string>dottedcross</string>
-			<string>tricolon</string>
-			<string>verticalfourdots</string>
 			<string>plussuperior</string>
 			<string>minussuperior</string>
 			<string>equalsuperior</string>
@@ -3756,6 +4387,18 @@
 			<string>metricaltetraseme</string>
 			<string>metricalpentaseme</string>
 			<string>doubleSolidusOperator</string>
+			<string>dblverticalbar</string>
+			<string>referencemark</string>
+			<string>undertie</string>
+			<string>asterism</string>
+			<string>threedotpunctuation</string>
+			<string>fourdotpunctuation</string>
+			<string>fivedotpunctuation</string>
+			<string>twodotpunctuation</string>
+			<string>fourdotmark</string>
+			<string>dottedcross</string>
+			<string>tricolon</string>
+			<string>verticalfourdots</string>
 			<string>rightanglesubstitutionmarker</string>
 			<string>rightangledottedsubstitutionmarker</string>
 			<string>leftsubstitutionbracket</string>
@@ -3788,6 +4431,19 @@
 			<string>cornerbracketright</string>
 			<string>whitesquarebracketleft</string>
 			<string>whitesquarebracketright</string>
+			<string>dotaccent</string>
+			<string>overlinecomb</string>
+			<string>dotbelowcomb</string>
+			<string>asteriskbelowcomb</string>
+			<string>doublebrevebelowcomb</string>
+			<string>Stigma</string>
+			<string>stigma</string>
+			<string>Digamma</string>
+			<string>digamma</string>
+			<string>Koppa</string>
+			<string>koppa</string>
+			<string>Sampi</string>
+			<string>sampi</string>
 			<string>litalic-math</string>
 			<string>M-fraktur</string>
 			<string>P-fraktur</string>
@@ -3800,20 +4456,44 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>percent</string>
+			<string>ampersand</string>
+			<string>plus</string>
+			<string>at</string>
+			<string>florin</string>
+			<string>minusmod</string>
+			<string>doubleapostrophemod</string>
+			<string>A.circled</string>
+			<string>a.circled</string>
+			<string>colonmod</string>
+			<string>shortequalmod</string>
 			<string>exclam</string>
 			<string>quotedbl</string>
 			<string>numbersign</string>
-			<string>percent</string>
-			<string>ampersand</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>bracketright</string>
+			<string>guillemetleft</string>
+			<string>guillemetright</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>ellipsis</string>
+			<string>guilsinglleft</string>
+			<string>guilsinglright</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -3824,10 +4504,38 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>question</string>
-			<string>at</string>
+			<string>apostrophemod</string>
+			<string>glottalstopmod</string>
+			<string>circumflex</string>
+			<string>verticallinemod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>circumflexcomb</string>
+			<string>tildecomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dotaccentcomb</string>
+			<string>dieresiscomb</string>
+			<string>ringcomb</string>
+			<string>hungarumlautcomb</string>
+			<string>caroncomb</string>
+			<string>verticallineabovecomb</string>
+			<string>dblgravecomb</string>
+			<string>breveinvertedcomb</string>
+			<string>dotbelowcomb</string>
+			<string>dieresisbelowcomb</string>
+			<string>ringbelowcomb</string>
+			<string>cedillacomb</string>
+			<string>ogonekcomb</string>
+			<string>circumflexbelowcomb</string>
+			<string>breveinvertedbelowcomb</string>
+			<string>tildebelowcomb</string>
+			<string>macronbelowcomb</string>
+			<string>doublemacronbelowcomb</string>
+			<string>macronacutecomb</string>
+			<string>gravemacroncomb</string>
+			<string>macrongravecomb</string>
+			<string>acutemacroncomb</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -3854,8 +4562,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>bracketright</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -3883,9 +4589,7 @@
 			<string>y</string>
 			<string>z</string>
 			<string>ordfeminine</string>
-			<string>guillemetleft</string>
 			<string>ordmasculine</string>
-			<string>guillemetright</string>
 			<string>Agrave</string>
 			<string>Aacute</string>
 			<string>Acircumflex</string>
@@ -4034,7 +4738,6 @@
 			<string>Schwa</string>
 			<string>Eopen</string>
 			<string>Fhook</string>
-			<string>florin</string>
 			<string>Ghook</string>
 			<string>Gamma-latin</string>
 			<string>Iota-latin</string>
@@ -4143,36 +4846,6 @@
 			<string>bilabialclick</string>
 			<string>jcrossedtail</string>
 			<string>wmod</string>
-			<string>apostrophemod</string>
-			<string>glottalstopmod</string>
-			<string>circumflex</string>
-			<string>verticallinemod</string>
-			<string>minusmod</string>
-			<string>doubleapostrophemod</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>circumflexcomb</string>
-			<string>tildecomb</string>
-			<string>macroncomb</string>
-			<string>brevecomb</string>
-			<string>dotaccentcomb</string>
-			<string>dieresiscomb</string>
-			<string>ringcomb</string>
-			<string>hungarumlautcomb</string>
-			<string>caroncomb</string>
-			<string>verticallineabovecomb</string>
-			<string>dblgravecomb</string>
-			<string>breveinvertedcomb</string>
-			<string>dotbelowcomb</string>
-			<string>dieresisbelowcomb</string>
-			<string>ringbelowcomb</string>
-			<string>cedillacomb</string>
-			<string>ogonekcomb</string>
-			<string>circumflexbelowcomb</string>
-			<string>breveinvertedbelowcomb</string>
-			<string>tildebelowcomb</string>
-			<string>macronbelowcomb</string>
-			<string>doublemacronbelowcomb</string>
 			<string>amod</string>
 			<string>emod</string>
 			<string>eOpenmod</string>
@@ -4182,10 +4855,6 @@
 			<string>pstroke</string>
 			<string>istrokemod</string>
 			<string>ubarmod</string>
-			<string>macronacutecomb</string>
-			<string>gravemacroncomb</string>
-			<string>macrongravecomb</string>
-			<string>acutemacroncomb</string>
 			<string>Bdotbelow</string>
 			<string>bdotbelow</string>
 			<string>Bmacronbelow</string>
@@ -4289,26 +4958,13 @@
 			<string>ygrave</string>
 			<string>Ytilde</string>
 			<string>ytilde</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>ellipsis</string>
-			<string>guilsinglleft</string>
-			<string>guilsinglright</string>
 			<string>imod</string>
-			<string>A.circled</string>
-			<string>a.circled</string>
 			<string>Pstroke</string>
 			<string>Rtail</string>
 			<string>Alpha-latin</string>
 			<string>Aturned</string>
 			<string>Whook</string>
 			<string>whook</string>
-			<string>colonmod</string>
-			<string>shortequalmod</string>
 			<string>Saltillo</string>
 			<string>saltillo</string>
 			<string>Hturned</string>
@@ -4330,6 +4986,18 @@
 		<key>list</key>
 		<array>
 			<string>degree</string>
+			<string>YturnedSansSerif</string>
+			<string>primemod</string>
+			<string>commaturnedmod</string>
+			<string>apostrophemod</string>
+			<string>glottalstopmod</string>
+			<string>verticallinemod</string>
+			<string>commaabovecomb</string>
+			<string>commaaboverightcomb</string>
+			<string>dotbelowcomb</string>
+			<string>macronbelowcomb</string>
+			<string>lowlinecomb</string>
+			<string>strokeshortcomb</string>
 			<string>Ccircumflex</string>
 			<string>ccircumflex</string>
 			<string>Gcircumflex</string>
@@ -4401,17 +5069,6 @@
 			<string>glottalstopreversed</string>
 			<string>wmod</string>
 			<string>ymod</string>
-			<string>primemod</string>
-			<string>commaturnedmod</string>
-			<string>apostrophemod</string>
-			<string>glottalstopmod</string>
-			<string>verticallinemod</string>
-			<string>commaabovecomb</string>
-			<string>commaaboverightcomb</string>
-			<string>dotbelowcomb</string>
-			<string>macronbelowcomb</string>
-			<string>lowlinecomb</string>
-			<string>strokeshortcomb</string>
 			<string>lambda</string>
 			<string>chi</string>
 			<string>zmod</string>
@@ -4456,7 +5113,6 @@
 			<string>idotbelow</string>
 			<string>Ytilde</string>
 			<string>ytilde</string>
-			<string>YturnedSansSerif</string>
 			<string>Lmiddletilde</string>
 			<string>astroke</string>
 			<string>tdiagonalstroke</string>
@@ -4470,22 +5126,72 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>space</string>
-			<string>exclam</string>
-			<string>quotedbl</string>
-			<string>numbersign</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
+			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>section</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>paragraph</string>
+			<string>multiply</string>
+			<string>divide</string>
+			<string>euro</string>
+			<string>trademark</string>
+			<string>minus</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>.notdef</string>
+			<string>periodcentered.loclCAT</string>
+			<string>periodcentered.loclCAT.case</string>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>exclamdown</string>
+			<string>guillemetleft</string>
+			<string>periodcentered</string>
+			<string>guillemetright</string>
+			<string>questiondown</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotesinglbase</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>quotedblbase</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
+			<string>guilsinglleft</string>
+			<string>guilsinglright</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -4496,13 +5202,34 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>less</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>question</string>
-			<string>at</string>
+			<string>grave</string>
+			<string>dieresis</string>
+			<string>macron</string>
+			<string>acute</string>
+			<string>cedilla</string>
+			<string>circumflex</string>
+			<string>caron</string>
+			<string>breve</string>
+			<string>dotaccent</string>
+			<string>ring</string>
+			<string>ogonek</string>
+			<string>tilde</string>
+			<string>hungarumlaut</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>circumflexcomb</string>
+			<string>tildecomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dotaccentcomb</string>
+			<string>dieresiscomb</string>
+			<string>ringcomb</string>
+			<string>hungarumlautcomb</string>
+			<string>caroncomb</string>
+			<string>commaaccentcomb</string>
+			<string>cedillacomb</string>
+			<string>ogonekcomb</string>
+			<string>caroncomb.alt</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -4529,12 +5256,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>backslash</string>
-			<string>bracketright</string>
-			<string>asciicircum</string>
-			<string>underscore</string>
-			<string>grave</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -4561,30 +5282,8 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>braceleft</string>
-			<string>bar</string>
-			<string>braceright</string>
-			<string>asciitilde</string>
-			<string>nbspace</string>
-			<string>exclamdown</string>
-			<string>cent</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>section</string>
-			<string>dieresis</string>
-			<string>copyright</string>
 			<string>ordfeminine</string>
-			<string>guillemetleft</string>
-			<string>registered</string>
-			<string>macron</string>
-			<string>degree</string>
-			<string>acute</string>
-			<string>paragraph</string>
-			<string>periodcentered</string>
-			<string>cedilla</string>
 			<string>ordmasculine</string>
-			<string>guillemetright</string>
-			<string>questiondown</string>
 			<string>Agrave</string>
 			<string>Aacute</string>
 			<string>Acircumflex</string>
@@ -4608,7 +5307,6 @@
 			<string>Ocircumflex</string>
 			<string>Otilde</string>
 			<string>Odieresis</string>
-			<string>multiply</string>
 			<string>Oslash</string>
 			<string>Ugrave</string>
 			<string>Uacute</string>
@@ -4640,7 +5338,6 @@
 			<string>ocircumflex</string>
 			<string>otilde</string>
 			<string>odieresis</string>
-			<string>divide</string>
 			<string>oslash</string>
 			<string>ugrave</string>
 			<string>uacute</string>
@@ -4743,28 +5440,6 @@
 			<string>Tcommaaccent</string>
 			<string>tcommaaccent</string>
 			<string>jdotless</string>
-			<string>circumflex</string>
-			<string>caron</string>
-			<string>breve</string>
-			<string>dotaccent</string>
-			<string>ring</string>
-			<string>ogonek</string>
-			<string>tilde</string>
-			<string>hungarumlaut</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>circumflexcomb</string>
-			<string>tildecomb</string>
-			<string>macroncomb</string>
-			<string>brevecomb</string>
-			<string>dotaccentcomb</string>
-			<string>dieresiscomb</string>
-			<string>ringcomb</string>
-			<string>hungarumlautcomb</string>
-			<string>caroncomb</string>
-			<string>commaaccentcomb</string>
-			<string>cedillacomb</string>
-			<string>ogonekcomb</string>
 			<string>Wgrave</string>
 			<string>wgrave</string>
 			<string>Wacute</string>
@@ -4774,25 +5449,6 @@
 			<string>Germandbls</string>
 			<string>Ygrave</string>
 			<string>ygrave</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotesinglbase</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>quotedblbase</string>
-			<string>bullet</string>
-			<string>ellipsis</string>
-			<string>guilsinglleft</string>
-			<string>guilsinglright</string>
-			<string>euro</string>
-			<string>trademark</string>
-			<string>minus</string>
-			<string>.notdef</string>
-			<string>periodcentered.loclCAT</string>
-			<string>periodcentered.loclCAT.case</string>
-			<string>caroncomb.alt</string>
 			<string>idotaccent</string>
 		</array>
 		<key>name</key>
@@ -4801,22 +5457,59 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>space</string>
-			<string>exclam</string>
-			<string>quotedbl</string>
-			<string>numbersign</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
+			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>multiply</string>
+			<string>divide</string>
+			<string>euro</string>
+			<string>trademark</string>
+			<string>minus</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>periodcentered</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -4827,13 +5520,7 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>less</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>question</string>
-			<string>at</string>
+			<string>grave</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -4860,12 +5547,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>backslash</string>
-			<string>bracketright</string>
-			<string>asciicircum</string>
-			<string>underscore</string>
-			<string>grave</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -4892,31 +5573,6 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>braceleft</string>
-			<string>bar</string>
-			<string>braceright</string>
-			<string>asciitilde</string>
-			<string>nbspace</string>
-			<string>cent</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>copyright</string>
-			<string>registered</string>
-			<string>degree</string>
-			<string>periodcentered</string>
-			<string>multiply</string>
-			<string>divide</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>bullet</string>
-			<string>ellipsis</string>
-			<string>euro</string>
-			<string>trademark</string>
-			<string>minus</string>
 		</array>
 		<key>name</key>
 		<string>GF_Latin_Kernel</string>
@@ -4927,37 +5583,13 @@
 			<string>brokenbar</string>
 			<string>logicalnot</string>
 			<string>plusminus</string>
-			<string>twosuperior</string>
-			<string>threesuperior</string>
 			<string>micro</string>
-			<string>onesuperior</string>
-			<string>onequarter</string>
-			<string>onehalf</string>
-			<string>threequarters</string>
-			<string>pi</string>
 			<string>baht</string>
-			<string>dblverticalbar</string>
 			<string>dagger</string>
 			<string>daggerdbl</string>
 			<string>perthousand</string>
 			<string>minute</string>
 			<string>second</string>
-			<string>fraction</string>
-			<string>foursuperior</string>
-			<string>fivesuperior</string>
-			<string>sixsuperior</string>
-			<string>sevensuperior</string>
-			<string>eightsuperior</string>
-			<string>ninesuperior</string>
-			<string>oneinferior</string>
-			<string>twoinferior</string>
-			<string>threeinferior</string>
-			<string>fourinferior</string>
-			<string>fiveinferior</string>
-			<string>sixinferior</string>
-			<string>seveninferior</string>
-			<string>eightinferior</string>
-			<string>nineinferior</string>
 			<string>colonsign</string>
 			<string>naira</string>
 			<string>rupee</string>
@@ -4981,8 +5613,6 @@
 			<string>numero</string>
 			<string>Ohm</string>
 			<string>estimated</string>
-			<string>onethird</string>
-			<string>twothirds</string>
 			<string>leftArrow</string>
 			<string>upArrow</string>
 			<string>rightArrow</string>
@@ -5032,8 +5662,33 @@
 			<string>whiteCircle</string>
 			<string>blackCircle</string>
 			<string>whiteBullet</string>
+			<string>dblverticalbar</string>
 			<string>leftanglebracket-math</string>
 			<string>rightanglebracket-math</string>
+			<string>twosuperior</string>
+			<string>threesuperior</string>
+			<string>onesuperior</string>
+			<string>onequarter</string>
+			<string>onehalf</string>
+			<string>threequarters</string>
+			<string>fraction</string>
+			<string>foursuperior</string>
+			<string>fivesuperior</string>
+			<string>sixsuperior</string>
+			<string>sevensuperior</string>
+			<string>eightsuperior</string>
+			<string>ninesuperior</string>
+			<string>oneinferior</string>
+			<string>twoinferior</string>
+			<string>threeinferior</string>
+			<string>fourinferior</string>
+			<string>fiveinferior</string>
+			<string>sixinferior</string>
+			<string>seveninferior</string>
+			<string>eightinferior</string>
+			<string>nineinferior</string>
+			<string>onethird</string>
+			<string>twothirds</string>
 			<string>zero.zero</string>
 			<string>zero.tf</string>
 			<string>one.tf</string>
@@ -5065,6 +5720,7 @@
 			<string>seven.numr</string>
 			<string>eight.numr</string>
 			<string>nine.numr</string>
+			<string>pi</string>
 		</array>
 		<key>name</key>
 		<string>GF_Latin_Plus</string>
@@ -5072,20 +5728,33 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>percent</string>
+			<string>ampersand</string>
+			<string>plus</string>
+			<string>at</string>
 			<string>exclam</string>
 			<string>quotedbl</string>
 			<string>numbersign</string>
-			<string>percent</string>
-			<string>ampersand</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>bracketright</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>ellipsis</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -5096,10 +5765,18 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>question</string>
-			<string>at</string>
+			<string>apostrophemod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>circumflexcomb</string>
+			<string>tildecomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dotaccentcomb</string>
+			<string>dieresiscomb</string>
+			<string>ringcomb</string>
+			<string>dotbelowcomb</string>
+			<string>cedillacomb</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -5126,8 +5803,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>bracketright</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -5216,18 +5891,6 @@
 			<string>dhook</string>
 			<string>eopen</string>
 			<string>nhookleft</string>
-			<string>apostrophemod</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>circumflexcomb</string>
-			<string>tildecomb</string>
-			<string>macroncomb</string>
-			<string>brevecomb</string>
-			<string>dotaccentcomb</string>
-			<string>dieresiscomb</string>
-			<string>ringcomb</string>
-			<string>dotbelowcomb</string>
-			<string>cedillacomb</string>
 			<string>Macute</string>
 			<string>macute</string>
 			<string>Ndotaccent</string>
@@ -5242,13 +5905,6 @@
 			<string>odotbelow</string>
 			<string>Udotbelow</string>
 			<string>udotbelow</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>ellipsis</string>
 		</array>
 		<key>name</key>
 		<string>GF_Latin_PriAfrican</string>
@@ -5256,20 +5912,33 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>percent</string>
+			<string>ampersand</string>
+			<string>plus</string>
+			<string>at</string>
 			<string>exclam</string>
 			<string>quotedbl</string>
 			<string>numbersign</string>
-			<string>percent</string>
-			<string>ampersand</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>bracketright</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>ellipsis</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -5280,10 +5949,22 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>question</string>
-			<string>at</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>circumflexcomb</string>
+			<string>tildecomb</string>
+			<string>brevecomb</string>
+			<string>hookabovecomb</string>
+			<string>horncomb</string>
+			<string>dotbelowcomb</string>
+			<string>brevecomb_acutecomb</string>
+			<string>brevecomb_gravecomb</string>
+			<string>brevecomb_hookabovecomb</string>
+			<string>brevecomb_tildecomb</string>
+			<string>circumflexcomb_acutecomb</string>
+			<string>circumflexcomb_gravecomb</string>
+			<string>circumflexcomb_hookabovecomb</string>
+			<string>circumflexcomb_tildecomb</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -5310,8 +5991,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>bracketright</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -5382,14 +6061,6 @@
 			<string>ohorn</string>
 			<string>Uhorn</string>
 			<string>uhorn</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>circumflexcomb</string>
-			<string>tildecomb</string>
-			<string>brevecomb</string>
-			<string>hookabovecomb</string>
-			<string>horncomb</string>
-			<string>dotbelowcomb</string>
 			<string>Adotbelow</string>
 			<string>adotbelow</string>
 			<string>Ahookabove</string>
@@ -5480,21 +6151,6 @@
 			<string>yhookabove</string>
 			<string>Ytilde</string>
 			<string>ytilde</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>ellipsis</string>
-			<string>brevecomb_acutecomb</string>
-			<string>brevecomb_gravecomb</string>
-			<string>brevecomb_hookabovecomb</string>
-			<string>brevecomb_tildecomb</string>
-			<string>circumflexcomb_acutecomb</string>
-			<string>circumflexcomb_gravecomb</string>
-			<string>circumflexcomb_hookabovecomb</string>
-			<string>circumflexcomb_tildecomb</string>
 		</array>
 		<key>name</key>
 		<string>GF_Latin_Vietnamese</string>
@@ -5502,6 +6158,9 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>colonmod</string>
+			<string>commaabovecomb</string>
+			<string>ogonekcomb</string>
 			<string>lacute</string>
 			<string>lbar</string>
 			<string>lambdastroke</string>
@@ -5511,8 +6170,6 @@
 			<string>Cstroke</string>
 			<string>cstroke</string>
 			<string>ymod</string>
-			<string>commaabovecomb</string>
-			<string>ogonekcomb</string>
 			<string>lambda</string>
 			<string>phi</string>
 			<string>Dsmall</string>
@@ -5524,7 +6181,6 @@
 			<string>tcircumflexbelow</string>
 			<string>wdotbelow</string>
 			<string>xdotaccent</string>
-			<string>colonmod</string>
 		</array>
 		<key>name</key>
 		<string>GF_Phonetics_APA</string>
@@ -5532,18 +6188,24 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>voicingmod</string>
+			<string>unaspiratedmod</string>
+			<string>C.circled</string>
+			<string>F.circled</string>
+			<string>G.circled</string>
+			<string>L.circled</string>
+			<string>N.circled</string>
+			<string>P.circled</string>
+			<string>R.circled</string>
+			<string>S.circled</string>
+			<string>T.circled</string>
+			<string>V.circled</string>
+			<string>largeCircle</string>
 			<string>exclam</string>
 			<string>asterisk</string>
 			<string>exclamdown</string>
-			<string>fengdigraph</string>
-			<string>lsdigraph</string>
-			<string>lzdigraph</string>
-			<string>bilabialpercussive</string>
-			<string>bidentalpercussive</string>
-			<string>rturnedmod</string>
-			<string>smod</string>
-			<string>voicingmod</string>
-			<string>unaspiratedmod</string>
+			<string>parenleftinferior</string>
+			<string>parenrightinferior</string>
 			<string>gbridgeabovecomb</string>
 			<string>equalbelowcomb</string>
 			<string>leftanglebelowcomb</string>
@@ -5561,21 +6223,15 @@
 			<string>uni1AC2</string>
 			<string>uni1AC3</string>
 			<string>uni1AC4</string>
+			<string>fengdigraph</string>
+			<string>lsdigraph</string>
+			<string>lzdigraph</string>
+			<string>bilabialpercussive</string>
+			<string>bidentalpercussive</string>
+			<string>rturnedmod</string>
+			<string>smod</string>
 			<string>Nmod</string>
 			<string>schwamod</string>
-			<string>parenleftinferior</string>
-			<string>parenrightinferior</string>
-			<string>C.circled</string>
-			<string>F.circled</string>
-			<string>G.circled</string>
-			<string>L.circled</string>
-			<string>N.circled</string>
-			<string>P.circled</string>
-			<string>R.circled</string>
-			<string>S.circled</string>
-			<string>T.circled</string>
-			<string>V.circled</string>
-			<string>largeCircle</string>
 			<string>lretroflexhookandbelt</string>
 			<string>Qsmall</string>
 			<string>Kturned</string>
@@ -5609,6 +6265,7 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>retroflexhookcomb</string>
 			<string>chook</string>
 			<string>khook</string>
 			<string>phook</string>
@@ -5621,7 +6278,6 @@
 			<string>ts</string>
 			<string>tesh</string>
 			<string>tccurl</string>
-			<string>retroflexhookcomb</string>
 		</array>
 		<key>name</key>
 		<string>GF_Phonetics_IPAHistorical</string>
@@ -5629,9 +6285,69 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>bar</string>
+			<string>rhotichookmod</string>
+			<string>gammamod-latin</string>
+			<string>tonebarextrahighmod</string>
+			<string>tonebarhighmod</string>
+			<string>tonebarmidmod</string>
+			<string>tonebarlowmod</string>
+			<string>tonebarextralowmod</string>
+			<string>lowringmod</string>
+			<string>dottedCircle</string>
 			<string>exclam</string>
 			<string>period</string>
-			<string>bar</string>
+			<string>dblverticalbar</string>
+			<string>undertie</string>
+			<string>apostrophemod</string>
+			<string>glottalstopreversedmod</string>
+			<string>verticallinemod</string>
+			<string>verticallinelowmod</string>
+			<string>colontriangularmod</string>
+			<string>colontriangularhalfmod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>circumflexcomb</string>
+			<string>tildecomb</string>
+			<string>macroncomb</string>
+			<string>overlinecomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>ringcomb</string>
+			<string>hungarumlautcomb</string>
+			<string>caroncomb</string>
+			<string>dblgravecomb</string>
+			<string>lefttackbelowcomb</string>
+			<string>righttackbelowcomb</string>
+			<string>leftangleabovecomb</string>
+			<string>ringhalfleftbelowcomb</string>
+			<string>uptackbelowcomb</string>
+			<string>downtackbelowcomb</string>
+			<string>plusbelowcomb</string>
+			<string>minusbelowcomb</string>
+			<string>dieresisbelowcomb</string>
+			<string>ringbelowcomb</string>
+			<string>verticallinebelowcomb</string>
+			<string>bridgebelowcomb</string>
+			<string>caronbelowcomb</string>
+			<string>breveinvertedbelowcomb</string>
+			<string>tildebelowcomb</string>
+			<string>lowlinecomb</string>
+			<string>tildeoverlaycomb</string>
+			<string>ringhalfrightbelowcomb</string>
+			<string>bridgeinvertedbelowcomb</string>
+			<string>squarebelowcomb</string>
+			<string>seagullbelowcomb</string>
+			<string>xabovecomb</string>
+			<string>doubleverticallinebelowcomb</string>
+			<string>doublebrevebelowcomb</string>
+			<string>breveinverteddoublecomb</string>
+			<string>macronacutecomb</string>
+			<string>gravemacroncomb</string>
+			<string>macrongravecomb</string>
+			<string>acutemacroncomb</string>
+			<string>graveacutegravecomb</string>
+			<string>acutegraveacutecomb</string>
 			<string>ae</string>
 			<string>ccedilla</string>
 			<string>eth</string>
@@ -5717,58 +6433,7 @@
 			<string>hmod</string>
 			<string>jmod</string>
 			<string>wmod</string>
-			<string>apostrophemod</string>
-			<string>glottalstopreversedmod</string>
-			<string>verticallinemod</string>
-			<string>verticallinelowmod</string>
-			<string>colontriangularmod</string>
-			<string>colontriangularhalfmod</string>
-			<string>rhotichookmod</string>
-			<string>gammamod-latin</string>
 			<string>lmod</string>
-			<string>tonebarextrahighmod</string>
-			<string>tonebarhighmod</string>
-			<string>tonebarmidmod</string>
-			<string>tonebarlowmod</string>
-			<string>tonebarextralowmod</string>
-			<string>lowringmod</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>circumflexcomb</string>
-			<string>tildecomb</string>
-			<string>macroncomb</string>
-			<string>overlinecomb</string>
-			<string>brevecomb</string>
-			<string>dieresiscomb</string>
-			<string>ringcomb</string>
-			<string>hungarumlautcomb</string>
-			<string>caroncomb</string>
-			<string>dblgravecomb</string>
-			<string>lefttackbelowcomb</string>
-			<string>righttackbelowcomb</string>
-			<string>leftangleabovecomb</string>
-			<string>ringhalfleftbelowcomb</string>
-			<string>uptackbelowcomb</string>
-			<string>downtackbelowcomb</string>
-			<string>plusbelowcomb</string>
-			<string>minusbelowcomb</string>
-			<string>dieresisbelowcomb</string>
-			<string>ringbelowcomb</string>
-			<string>verticallinebelowcomb</string>
-			<string>bridgebelowcomb</string>
-			<string>caronbelowcomb</string>
-			<string>breveinvertedbelowcomb</string>
-			<string>tildebelowcomb</string>
-			<string>lowlinecomb</string>
-			<string>tildeoverlaycomb</string>
-			<string>ringhalfrightbelowcomb</string>
-			<string>bridgeinvertedbelowcomb</string>
-			<string>squarebelowcomb</string>
-			<string>seagullbelowcomb</string>
-			<string>xabovecomb</string>
-			<string>doubleverticallinebelowcomb</string>
-			<string>doublebrevebelowcomb</string>
-			<string>breveinverteddoublecomb</string>
 			<string>beta</string>
 			<string>theta</string>
 			<string>chi</string>
@@ -5783,16 +6448,7 @@
 			<string>smiddletilde</string>
 			<string>tmiddletilde</string>
 			<string>zmiddletilde</string>
-			<string>macronacutecomb</string>
-			<string>gravemacroncomb</string>
-			<string>macrongravecomb</string>
-			<string>acutemacroncomb</string>
-			<string>graveacutegravecomb</string>
-			<string>acutegraveacutecomb</string>
-			<string>dblverticalbar</string>
-			<string>undertie</string>
 			<string>nmod</string>
-			<string>dottedCircle</string>
 			<string>raiseduparrowmod</string>
 			<string>raiseddownarrowmod</string>
 			<string>beta-latin</string>
@@ -5822,10 +6478,6 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>Gcaron</string>
-			<string>gcaron</string>
-			<string>Ymacron</string>
-			<string>ymacron</string>
 			<string>apostrophemod</string>
 			<string>commareversedmod</string>
 			<string>ringhalfright</string>
@@ -5833,6 +6485,10 @@
 			<string>dotbelowcomb</string>
 			<string>brevebelowcomb</string>
 			<string>macronbelowcomb</string>
+			<string>Gcaron</string>
+			<string>gcaron</string>
+			<string>Ymacron</string>
+			<string>ymacron</string>
 			<string>Ddotbelow</string>
 			<string>ddotbelow</string>
 			<string>Dmacronbelow</string>
@@ -5862,6 +6518,22 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>apostrophemod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>circumflexcomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>caroncomb</string>
+			<string>verticallineabovecomb</string>
+			<string>dotaboverightcomb</string>
+			<string>gravecomb_dotaboverightcomb</string>
+			<string>acutecomb_dotaboverightcomb</string>
+			<string>circumflexcomb_dotaboverightcomb</string>
+			<string>brevecomb_dotaboverightcomb</string>
+			<string>macroncomb_dotaboverightcomb</string>
+			<string>verticallineabovecomb_dotaboverightcomb</string>
 			<string>Agrave</string>
 			<string>Aacute</string>
 			<string>Acircumflex</string>
@@ -5937,26 +6609,10 @@
 			<string>udieresisgrave</string>
 			<string>Ngrave</string>
 			<string>ngrave</string>
-			<string>apostrophemod</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>circumflexcomb</string>
-			<string>macroncomb</string>
-			<string>brevecomb</string>
-			<string>dieresiscomb</string>
-			<string>caroncomb</string>
-			<string>verticallineabovecomb</string>
-			<string>dotaboverightcomb</string>
 			<string>Nmod</string>
 			<string>Macute</string>
 			<string>macute</string>
 			<string>nmod</string>
-			<string>gravecomb_dotaboverightcomb</string>
-			<string>acutecomb_dotaboverightcomb</string>
-			<string>circumflexcomb_dotaboverightcomb</string>
-			<string>brevecomb_dotaboverightcomb</string>
-			<string>macroncomb_dotaboverightcomb</string>
-			<string>verticallineabovecomb_dotaboverightcomb</string>
 		</array>
 		<key>name</key>
 		<string>GF_TransLatin_Pinyin</string>

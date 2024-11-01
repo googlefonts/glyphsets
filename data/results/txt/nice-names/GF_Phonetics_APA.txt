@@ -1,4 +1,7 @@
 # This file is auto-generated; do not edit. See /README.md for instructions.
+colonmod
+commaabovecomb
+ogonekcomb
 lacute
 lbar
 lambdastroke
@@ -8,8 +11,6 @@ odotaccent
 Cstroke
 cstroke
 ymod
-commaabovecomb
-ogonekcomb
 lambda
 phi
 Dsmall
@@ -21,4 +22,3 @@ rdotbelow
 tcircumflexbelow
 wdotbelow
 xdotaccent
-colonmod

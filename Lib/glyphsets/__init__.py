@@ -9,6 +9,7 @@ import functools
 from glyphsets.helpers import Colors, headline
 import tabulate
 import glyphsLib
+import youseedee
 
 from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
 
@@ -389,15 +390,42 @@ class GlyphSet(object):
                     new_glyph = glyphsLib.GSGlyph(glyph.name)
                     font.glyphs.append(new_glyph)
 
-            # Sort
+            # Sort into categories
             font.glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_by_category))
+
+            # Arabic presentation forms
+            glyphs = []
+            if self.script == "Arabic":
+                for glyph in font.glyphs:
+                    glyphs.append(glyph)
+                    if glyph.unicode:
+                        unicode = int(glyph.unicode, 16)
+                        ucd = youseedee.ucd_data(unicode)
+                        if ucd["Script"] == "Arabic":
+                            if (
+                                ucd["General_Category"] == "Lo"
+                                and "Joining_Type" in ucd
+                                and ucd["Joining_Type"] in ("D")
+                            ):
+                                glyphs.append(glyphsLib.GSGlyph(f"{glyph.name}.init"))
+                                glyphs.append(glyphsLib.GSGlyph(f"{glyph.name}.medi"))
+                                glyphs.append(glyphsLib.GSGlyph(f"{glyph.name}.fina"))
+                            elif (
+                                ucd["General_Category"] == "Lo"
+                                and "Joining_Type" in ucd
+                                and ucd["Joining_Type"] == "R"
+                            ):
+                                glyphs.append(glyphsLib.GSGlyph(f"{glyph.name}.fina"))
+
+                font.glyphs = glyphs
 
             self._final_glyphs_font = font
 
             return font
 
     def get_final_glyph_objects(self):
-        return sorted(self.get_final_glyphs_font().glyphs, key=functools.cmp_to_key(sort_unicodes_by_glyphobject))
+        # return sorted(self.get_final_glyphs_font().glyphs, key=functools.cmp_to_key(sort_unicodes_by_glyphobject))
+        return self.get_final_glyphs_font().glyphs
 
     def get_final_unicodes(self):
         return [glyph.unicode for glyph in self.get_final_glyph_objects() if glyph.unicode]

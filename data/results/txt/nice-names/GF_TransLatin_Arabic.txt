@@ -1,8 +1,4 @@
 # This file is auto-generated; do not edit. See /README.md for instructions.
-Gcaron
-gcaron
-Ymacron
-ymacron
 apostrophemod
 commareversedmod
 ringhalfright
@@ -10,6 +6,10 @@ ringhalfleft
 dotbelowcomb
 brevebelowcomb
 macronbelowcomb
+Gcaron
+gcaron
+Ymacron
+ymacron
 Ddotbelow
 ddotbelow
 Dmacronbelow

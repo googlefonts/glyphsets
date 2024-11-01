@@ -5,322 +5,322 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>uni1D000</string>
-			<string>uni1D001</string>
-			<string>uni1D002</string>
-			<string>uni1D003</string>
-			<string>uni1D004</string>
-			<string>uni1D005</string>
-			<string>uni1D006</string>
-			<string>uni1D007</string>
-			<string>uni1D008</string>
-			<string>uni1D009</string>
-			<string>uni1D00A</string>
-			<string>uni1D00B</string>
-			<string>uni1D00C</string>
-			<string>uni1D00D</string>
-			<string>uni1D00E</string>
-			<string>uni1D00F</string>
-			<string>uni1D010</string>
-			<string>uni1D011</string>
-			<string>uni1D012</string>
-			<string>uni1D013</string>
-			<string>uni1D014</string>
-			<string>uni1D015</string>
-			<string>uni1D016</string>
-			<string>uni1D017</string>
-			<string>uni1D018</string>
-			<string>uni1D019</string>
-			<string>uni1D01A</string>
-			<string>uni1D01B</string>
-			<string>uni1D01C</string>
-			<string>uni1D01D</string>
-			<string>uni1D01E</string>
-			<string>uni1D01F</string>
-			<string>uni1D020</string>
-			<string>uni1D021</string>
-			<string>uni1D022</string>
-			<string>uni1D023</string>
-			<string>uni1D024</string>
-			<string>uni1D025</string>
-			<string>uni1D026</string>
-			<string>uni1D027</string>
-			<string>uni1D028</string>
-			<string>uni1D029</string>
-			<string>uni1D02A</string>
-			<string>uni1D02B</string>
-			<string>uni1D02C</string>
-			<string>uni1D02D</string>
-			<string>uni1D02E</string>
-			<string>uni1D02F</string>
-			<string>uni1D030</string>
-			<string>uni1D031</string>
-			<string>uni1D032</string>
-			<string>uni1D033</string>
-			<string>uni1D034</string>
-			<string>uni1D035</string>
-			<string>uni1D036</string>
-			<string>uni1D037</string>
-			<string>uni1D038</string>
-			<string>uni1D039</string>
-			<string>uni1D03A</string>
-			<string>uni1D03B</string>
-			<string>uni1D03C</string>
-			<string>uni1D03D</string>
-			<string>uni1D03E</string>
-			<string>uni1D03F</string>
-			<string>uni1D040</string>
-			<string>uni1D041</string>
-			<string>uni1D042</string>
-			<string>uni1D043</string>
-			<string>uni1D044</string>
-			<string>uni1D045</string>
-			<string>uni1D046</string>
-			<string>uni1D047</string>
-			<string>uni1D048</string>
-			<string>uni1D049</string>
-			<string>uni1D04A</string>
-			<string>uni1D04B</string>
-			<string>uni1D04C</string>
-			<string>uni1D04D</string>
-			<string>uni1D04E</string>
-			<string>uni1D04F</string>
-			<string>uni1D050</string>
-			<string>uni1D051</string>
-			<string>uni1D052</string>
-			<string>uni1D053</string>
-			<string>uni1D054</string>
-			<string>uni1D055</string>
-			<string>uni1D056</string>
-			<string>uni1D057</string>
-			<string>uni1D058</string>
-			<string>uni1D059</string>
-			<string>uni1D05A</string>
-			<string>uni1D05B</string>
-			<string>uni1D05C</string>
-			<string>uni1D05D</string>
-			<string>uni1D05E</string>
-			<string>uni1D05F</string>
-			<string>uni1D060</string>
-			<string>uni1D061</string>
-			<string>uni1D062</string>
-			<string>uni1D063</string>
-			<string>uni1D064</string>
-			<string>uni1D065</string>
-			<string>uni1D066</string>
-			<string>uni1D067</string>
-			<string>uni1D068</string>
-			<string>uni1D069</string>
-			<string>uni1D06A</string>
-			<string>uni1D06B</string>
-			<string>uni1D06C</string>
-			<string>uni1D06D</string>
-			<string>uni1D06E</string>
-			<string>uni1D06F</string>
-			<string>uni1D070</string>
-			<string>uni1D071</string>
-			<string>uni1D072</string>
-			<string>uni1D073</string>
-			<string>uni1D074</string>
-			<string>uni1D075</string>
-			<string>uni1D076</string>
-			<string>uni1D077</string>
-			<string>uni1D078</string>
-			<string>uni1D079</string>
-			<string>uni1D07A</string>
-			<string>uni1D07B</string>
-			<string>uni1D07C</string>
-			<string>uni1D07D</string>
-			<string>uni1D07E</string>
-			<string>uni1D07F</string>
-			<string>uni1D080</string>
-			<string>uni1D081</string>
-			<string>uni1D082</string>
-			<string>uni1D083</string>
-			<string>uni1D084</string>
-			<string>uni1D085</string>
-			<string>uni1D086</string>
-			<string>uni1D087</string>
-			<string>uni1D088</string>
-			<string>uni1D089</string>
-			<string>uni1D08A</string>
-			<string>uni1D08B</string>
-			<string>uni1D08C</string>
-			<string>uni1D08D</string>
-			<string>uni1D08E</string>
-			<string>uni1D08F</string>
-			<string>uni1D090</string>
-			<string>uni1D091</string>
-			<string>uni1D092</string>
-			<string>uni1D093</string>
-			<string>uni1D094</string>
-			<string>uni1D095</string>
-			<string>uni1D096</string>
-			<string>uni1D097</string>
-			<string>uni1D098</string>
-			<string>uni1D099</string>
-			<string>uni1D09A</string>
-			<string>uni1D09B</string>
-			<string>uni1D09C</string>
-			<string>uni1D09D</string>
-			<string>uni1D09E</string>
-			<string>uni1D09F</string>
-			<string>uni1D0A0</string>
-			<string>uni1D0A1</string>
-			<string>uni1D0A2</string>
-			<string>uni1D0A3</string>
-			<string>uni1D0A4</string>
-			<string>uni1D0A5</string>
-			<string>uni1D0A6</string>
-			<string>uni1D0A7</string>
-			<string>uni1D0A8</string>
-			<string>uni1D0A9</string>
-			<string>uni1D0AA</string>
-			<string>uni1D0AB</string>
-			<string>uni1D0AC</string>
-			<string>uni1D0AD</string>
-			<string>uni1D0AE</string>
-			<string>uni1D0AF</string>
-			<string>uni1D0B0</string>
-			<string>uni1D0B1</string>
-			<string>uni1D0B2</string>
-			<string>uni1D0B3</string>
-			<string>uni1D0B4</string>
-			<string>uni1D0B5</string>
-			<string>uni1D0B6</string>
-			<string>uni1D0B7</string>
-			<string>uni1D0B8</string>
-			<string>uni1D0B9</string>
-			<string>uni1D0BA</string>
-			<string>uni1D0BB</string>
-			<string>uni1D0BC</string>
-			<string>uni1D0BD</string>
-			<string>uni1D0BE</string>
-			<string>uni1D0BF</string>
-			<string>uni1D0C0</string>
-			<string>uni1D0C1</string>
-			<string>uni1D0C2</string>
-			<string>uni1D0C3</string>
-			<string>uni1D0C4</string>
-			<string>uni1D0C5</string>
-			<string>uni1D0C6</string>
-			<string>uni1D0C7</string>
-			<string>uni1D0C8</string>
-			<string>uni1D0C9</string>
-			<string>uni1D0CA</string>
-			<string>uni1D0CB</string>
-			<string>uni1D0CC</string>
-			<string>uni1D0CD</string>
-			<string>uni1D0CE</string>
-			<string>uni1D0CF</string>
-			<string>uni1D0D0</string>
-			<string>uni1D0D1</string>
-			<string>uni1D0D2</string>
-			<string>uni1D0D3</string>
-			<string>uni1D0D4</string>
-			<string>uni1D0D5</string>
-			<string>uni1D0D6</string>
-			<string>uni1D0D7</string>
-			<string>uni1D0D8</string>
-			<string>uni1D0D9</string>
-			<string>uni1D0DA</string>
-			<string>uni1D0DB</string>
-			<string>uni1D0DC</string>
-			<string>uni1D0DD</string>
-			<string>uni1D0DE</string>
-			<string>uni1D0DF</string>
-			<string>uni1D0E0</string>
-			<string>uni1D0E1</string>
-			<string>uni1D0E2</string>
-			<string>uni1D0E3</string>
-			<string>uni1D0E4</string>
-			<string>uni1D0E5</string>
-			<string>uni1D0E6</string>
-			<string>uni1D0E7</string>
-			<string>uni1D0E8</string>
-			<string>uni1D0E9</string>
-			<string>uni1D0EA</string>
-			<string>uni1D0EB</string>
-			<string>uni1D0EC</string>
-			<string>uni1D0ED</string>
-			<string>uni1D0EE</string>
-			<string>uni1D0EF</string>
-			<string>uni1D0F0</string>
-			<string>uni1D0F1</string>
-			<string>uni1D0F2</string>
-			<string>uni1D0F3</string>
-			<string>uni1D0F4</string>
-			<string>uni1D0F5</string>
-			<string>uni1D200</string>
-			<string>uni1D201</string>
-			<string>uni1D202</string>
-			<string>uni1D203</string>
-			<string>uni1D204</string>
-			<string>uni1D205</string>
-			<string>uni1D206</string>
-			<string>uni1D207</string>
-			<string>uni1D208</string>
-			<string>uni1D209</string>
-			<string>uni1D20A</string>
-			<string>uni1D20B</string>
-			<string>uni1D20C</string>
-			<string>uni1D20D</string>
-			<string>uni1D20E</string>
-			<string>uni1D20F</string>
-			<string>uni1D210</string>
-			<string>uni1D211</string>
-			<string>uni1D212</string>
-			<string>uni1D213</string>
-			<string>uni1D214</string>
-			<string>uni1D215</string>
-			<string>uni1D216</string>
-			<string>uni1D217</string>
-			<string>uni1D218</string>
-			<string>uni1D219</string>
-			<string>uni1D21A</string>
-			<string>uni1D21B</string>
-			<string>uni1D21C</string>
-			<string>uni1D21D</string>
-			<string>uni1D21E</string>
-			<string>uni1D21F</string>
-			<string>uni1D220</string>
-			<string>uni1D221</string>
-			<string>uni1D222</string>
-			<string>uni1D223</string>
-			<string>uni1D224</string>
-			<string>uni1D225</string>
-			<string>uni1D226</string>
-			<string>uni1D227</string>
-			<string>uni1D228</string>
-			<string>uni1D229</string>
-			<string>uni1D22A</string>
-			<string>uni1D22B</string>
-			<string>uni1D22C</string>
-			<string>uni1D22D</string>
-			<string>uni1D22E</string>
-			<string>uni1D22F</string>
-			<string>uni1D230</string>
-			<string>uni1D231</string>
-			<string>uni1D232</string>
-			<string>uni1D233</string>
-			<string>uni1D234</string>
-			<string>uni1D235</string>
-			<string>uni1D236</string>
-			<string>uni1D237</string>
-			<string>uni1D238</string>
-			<string>uni1D239</string>
-			<string>uni1D23A</string>
-			<string>uni1D23B</string>
-			<string>uni1D23C</string>
-			<string>uni1D23D</string>
-			<string>uni1D23E</string>
-			<string>uni1D23F</string>
-			<string>uni1D240</string>
-			<string>uni1D241</string>
-			<string>uni1D242</string>
-			<string>uni1D243</string>
-			<string>uni1D244</string>
 			<string>uni1D245</string>
+			<string>uni1D244</string>
+			<string>uni1D243</string>
+			<string>uni1D242</string>
+			<string>uni1D241</string>
+			<string>uni1D240</string>
+			<string>uni1D23F</string>
+			<string>uni1D23E</string>
+			<string>uni1D23D</string>
+			<string>uni1D23C</string>
+			<string>uni1D23B</string>
+			<string>uni1D23A</string>
+			<string>uni1D239</string>
+			<string>uni1D238</string>
+			<string>uni1D237</string>
+			<string>uni1D236</string>
+			<string>uni1D235</string>
+			<string>uni1D234</string>
+			<string>uni1D233</string>
+			<string>uni1D232</string>
+			<string>uni1D231</string>
+			<string>uni1D230</string>
+			<string>uni1D22F</string>
+			<string>uni1D22E</string>
+			<string>uni1D22D</string>
+			<string>uni1D22C</string>
+			<string>uni1D22B</string>
+			<string>uni1D22A</string>
+			<string>uni1D229</string>
+			<string>uni1D228</string>
+			<string>uni1D227</string>
+			<string>uni1D226</string>
+			<string>uni1D225</string>
+			<string>uni1D224</string>
+			<string>uni1D223</string>
+			<string>uni1D222</string>
+			<string>uni1D221</string>
+			<string>uni1D220</string>
+			<string>uni1D21F</string>
+			<string>uni1D21E</string>
+			<string>uni1D21D</string>
+			<string>uni1D21C</string>
+			<string>uni1D21B</string>
+			<string>uni1D21A</string>
+			<string>uni1D219</string>
+			<string>uni1D218</string>
+			<string>uni1D217</string>
+			<string>uni1D216</string>
+			<string>uni1D215</string>
+			<string>uni1D214</string>
+			<string>uni1D213</string>
+			<string>uni1D212</string>
+			<string>uni1D211</string>
+			<string>uni1D210</string>
+			<string>uni1D20F</string>
+			<string>uni1D20E</string>
+			<string>uni1D20D</string>
+			<string>uni1D20C</string>
+			<string>uni1D20B</string>
+			<string>uni1D20A</string>
+			<string>uni1D209</string>
+			<string>uni1D208</string>
+			<string>uni1D207</string>
+			<string>uni1D206</string>
+			<string>uni1D205</string>
+			<string>uni1D204</string>
+			<string>uni1D203</string>
+			<string>uni1D202</string>
+			<string>uni1D201</string>
+			<string>uni1D200</string>
+			<string>uni1D0F5</string>
+			<string>uni1D0F4</string>
+			<string>uni1D0F3</string>
+			<string>uni1D0F2</string>
+			<string>uni1D0F1</string>
+			<string>uni1D0F0</string>
+			<string>uni1D0EF</string>
+			<string>uni1D0EE</string>
+			<string>uni1D0ED</string>
+			<string>uni1D0EC</string>
+			<string>uni1D0EB</string>
+			<string>uni1D0EA</string>
+			<string>uni1D0E9</string>
+			<string>uni1D0E8</string>
+			<string>uni1D0E7</string>
+			<string>uni1D0E6</string>
+			<string>uni1D0E5</string>
+			<string>uni1D0E4</string>
+			<string>uni1D0E3</string>
+			<string>uni1D0E2</string>
+			<string>uni1D0E1</string>
+			<string>uni1D0E0</string>
+			<string>uni1D0DF</string>
+			<string>uni1D0DE</string>
+			<string>uni1D0DD</string>
+			<string>uni1D0DC</string>
+			<string>uni1D0DB</string>
+			<string>uni1D0DA</string>
+			<string>uni1D0D9</string>
+			<string>uni1D0D8</string>
+			<string>uni1D0D7</string>
+			<string>uni1D0D6</string>
+			<string>uni1D0D5</string>
+			<string>uni1D0D4</string>
+			<string>uni1D0D3</string>
+			<string>uni1D0D2</string>
+			<string>uni1D0D1</string>
+			<string>uni1D0D0</string>
+			<string>uni1D0CF</string>
+			<string>uni1D0CE</string>
+			<string>uni1D0CD</string>
+			<string>uni1D0CC</string>
+			<string>uni1D0CB</string>
+			<string>uni1D0CA</string>
+			<string>uni1D0C9</string>
+			<string>uni1D0C8</string>
+			<string>uni1D0C7</string>
+			<string>uni1D0C6</string>
+			<string>uni1D0C5</string>
+			<string>uni1D0C4</string>
+			<string>uni1D0C3</string>
+			<string>uni1D0C2</string>
+			<string>uni1D0C1</string>
+			<string>uni1D0C0</string>
+			<string>uni1D0BF</string>
+			<string>uni1D0BE</string>
+			<string>uni1D0BD</string>
+			<string>uni1D0BC</string>
+			<string>uni1D0BB</string>
+			<string>uni1D0BA</string>
+			<string>uni1D0B9</string>
+			<string>uni1D0B8</string>
+			<string>uni1D0B7</string>
+			<string>uni1D0B6</string>
+			<string>uni1D0B5</string>
+			<string>uni1D0B4</string>
+			<string>uni1D0B3</string>
+			<string>uni1D0B2</string>
+			<string>uni1D0B1</string>
+			<string>uni1D0B0</string>
+			<string>uni1D0AF</string>
+			<string>uni1D0AE</string>
+			<string>uni1D0AD</string>
+			<string>uni1D0AC</string>
+			<string>uni1D0AB</string>
+			<string>uni1D0AA</string>
+			<string>uni1D0A9</string>
+			<string>uni1D0A8</string>
+			<string>uni1D0A7</string>
+			<string>uni1D0A6</string>
+			<string>uni1D0A5</string>
+			<string>uni1D0A4</string>
+			<string>uni1D0A3</string>
+			<string>uni1D0A2</string>
+			<string>uni1D0A1</string>
+			<string>uni1D0A0</string>
+			<string>uni1D09F</string>
+			<string>uni1D09E</string>
+			<string>uni1D09D</string>
+			<string>uni1D09C</string>
+			<string>uni1D09B</string>
+			<string>uni1D09A</string>
+			<string>uni1D099</string>
+			<string>uni1D098</string>
+			<string>uni1D097</string>
+			<string>uni1D096</string>
+			<string>uni1D095</string>
+			<string>uni1D094</string>
+			<string>uni1D093</string>
+			<string>uni1D092</string>
+			<string>uni1D091</string>
+			<string>uni1D090</string>
+			<string>uni1D08F</string>
+			<string>uni1D08E</string>
+			<string>uni1D08D</string>
+			<string>uni1D08C</string>
+			<string>uni1D08B</string>
+			<string>uni1D08A</string>
+			<string>uni1D089</string>
+			<string>uni1D088</string>
+			<string>uni1D087</string>
+			<string>uni1D086</string>
+			<string>uni1D085</string>
+			<string>uni1D084</string>
+			<string>uni1D083</string>
+			<string>uni1D082</string>
+			<string>uni1D081</string>
+			<string>uni1D080</string>
+			<string>uni1D07F</string>
+			<string>uni1D07E</string>
+			<string>uni1D07D</string>
+			<string>uni1D07C</string>
+			<string>uni1D07B</string>
+			<string>uni1D07A</string>
+			<string>uni1D079</string>
+			<string>uni1D078</string>
+			<string>uni1D077</string>
+			<string>uni1D076</string>
+			<string>uni1D075</string>
+			<string>uni1D074</string>
+			<string>uni1D073</string>
+			<string>uni1D072</string>
+			<string>uni1D071</string>
+			<string>uni1D070</string>
+			<string>uni1D06F</string>
+			<string>uni1D06E</string>
+			<string>uni1D06D</string>
+			<string>uni1D06C</string>
+			<string>uni1D06B</string>
+			<string>uni1D06A</string>
+			<string>uni1D069</string>
+			<string>uni1D068</string>
+			<string>uni1D067</string>
+			<string>uni1D066</string>
+			<string>uni1D065</string>
+			<string>uni1D064</string>
+			<string>uni1D063</string>
+			<string>uni1D062</string>
+			<string>uni1D061</string>
+			<string>uni1D060</string>
+			<string>uni1D05F</string>
+			<string>uni1D05E</string>
+			<string>uni1D05D</string>
+			<string>uni1D05C</string>
+			<string>uni1D05B</string>
+			<string>uni1D05A</string>
+			<string>uni1D059</string>
+			<string>uni1D058</string>
+			<string>uni1D057</string>
+			<string>uni1D056</string>
+			<string>uni1D055</string>
+			<string>uni1D054</string>
+			<string>uni1D053</string>
+			<string>uni1D052</string>
+			<string>uni1D051</string>
+			<string>uni1D050</string>
+			<string>uni1D04F</string>
+			<string>uni1D04E</string>
+			<string>uni1D04D</string>
+			<string>uni1D04C</string>
+			<string>uni1D04B</string>
+			<string>uni1D04A</string>
+			<string>uni1D049</string>
+			<string>uni1D048</string>
+			<string>uni1D047</string>
+			<string>uni1D046</string>
+			<string>uni1D045</string>
+			<string>uni1D044</string>
+			<string>uni1D043</string>
+			<string>uni1D042</string>
+			<string>uni1D041</string>
+			<string>uni1D040</string>
+			<string>uni1D03F</string>
+			<string>uni1D03E</string>
+			<string>uni1D03D</string>
+			<string>uni1D03C</string>
+			<string>uni1D03B</string>
+			<string>uni1D03A</string>
+			<string>uni1D039</string>
+			<string>uni1D038</string>
+			<string>uni1D037</string>
+			<string>uni1D036</string>
+			<string>uni1D035</string>
+			<string>uni1D034</string>
+			<string>uni1D033</string>
+			<string>uni1D032</string>
+			<string>uni1D031</string>
+			<string>uni1D030</string>
+			<string>uni1D02F</string>
+			<string>uni1D02E</string>
+			<string>uni1D02D</string>
+			<string>uni1D02C</string>
+			<string>uni1D02B</string>
+			<string>uni1D02A</string>
+			<string>uni1D029</string>
+			<string>uni1D028</string>
+			<string>uni1D027</string>
+			<string>uni1D026</string>
+			<string>uni1D025</string>
+			<string>uni1D024</string>
+			<string>uni1D023</string>
+			<string>uni1D022</string>
+			<string>uni1D021</string>
+			<string>uni1D020</string>
+			<string>uni1D01F</string>
+			<string>uni1D01E</string>
+			<string>uni1D01D</string>
+			<string>uni1D01C</string>
+			<string>uni1D01B</string>
+			<string>uni1D01A</string>
+			<string>uni1D019</string>
+			<string>uni1D018</string>
+			<string>uni1D017</string>
+			<string>uni1D016</string>
+			<string>uni1D015</string>
+			<string>uni1D014</string>
+			<string>uni1D013</string>
+			<string>uni1D012</string>
+			<string>uni1D011</string>
+			<string>uni1D010</string>
+			<string>uni1D00F</string>
+			<string>uni1D00E</string>
+			<string>uni1D00D</string>
+			<string>uni1D00C</string>
+			<string>uni1D00B</string>
+			<string>uni1D00A</string>
+			<string>uni1D009</string>
+			<string>uni1D008</string>
+			<string>uni1D007</string>
+			<string>uni1D006</string>
+			<string>uni1D005</string>
+			<string>uni1D004</string>
+			<string>uni1D003</string>
+			<string>uni1D002</string>
+			<string>uni1D001</string>
+			<string>uni1D000</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_AncientMusicalSymbols</string>
@@ -328,40 +328,7 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>Heta</string>
-			<string>heta</string>
-			<string>Archaicsampi</string>
-			<string>archaicsampi</string>
-			<string>Pamphyliandigamma</string>
-			<string>pamphyliandigamma</string>
-			<string>sigmaLunateReversedSymbol</string>
-			<string>sigmaLunateDottedSymbol</string>
-			<string>sigmaLunateDottedReversedSymbol</string>
-			<string>betaSymbol</string>
-			<string>thetaSymbol</string>
-			<string>UpsilonhookSymbol</string>
-			<string>UpsilonacutehookSymbol</string>
-			<string>UpsilondieresishookSymbol</string>
-			<string>phiSymbol</string>
-			<string>piSymbol</string>
-			<string>KoppaArchaic</string>
-			<string>koppaArchaic</string>
-			<string>kappaSymbol</string>
-			<string>rhoSymbol</string>
-			<string>sigmaLunateSymbol</string>
-			<string>yot</string>
-			<string>ThetaSymbol</string>
-			<string>epsilonLunateSymbol</string>
 			<string>epsilonLunateReversedSymbol</string>
-			<string>Sho</string>
-			<string>sho</string>
-			<string>SigmaLunateSymbol</string>
-			<string>San</string>
-			<string>san</string>
-			<string>rhoStrokeSymbol</string>
-			<string>SigmaLunateReversedSymbol</string>
-			<string>SigmaLunateDottedSymbol</string>
-			<string>SigmaLunateDottedReversedSymbol</string>
 			<string>whiteSquare</string>
 			<string>blackStar</string>
 			<string>sunSymbol</string>
@@ -396,6 +363,23 @@
 			<string>pisces</string>
 			<string>threeDimensionalAngle</string>
 			<string>whitetrianglecontainingwhitetriangle</string>
+			<string>year-greek</string>
+			<string>talent-greek</string>
+			<string>drachma-greek</string>
+			<string>obol-greek</string>
+			<string>twoObols-greek</string>
+			<string>threeObols-greek</string>
+			<string>fourObols-greek</string>
+			<string>fiveObols-greek</string>
+			<string>metretes-greek</string>
+			<string>kyathosBase-greek</string>
+			<string>litra-greek</string>
+			<string>ounkia-greek</string>
+			<string>xestes-greek</string>
+			<string>artabe-greek</string>
+			<string>aroura-greek</string>
+			<string>gramma-greek</string>
+			<string>tryblionBase-greek</string>
 			<string>onequarter-atticGreek</string>
 			<string>onehalf-atticGreek</string>
 			<string>onedrachma-atticGreek</string>
@@ -453,24 +437,40 @@
 			<string>onehalfAlternate-greek</string>
 			<string>twothirds-greek</string>
 			<string>threequarters-greek</string>
-			<string>year-greek</string>
-			<string>talent-greek</string>
-			<string>drachma-greek</string>
-			<string>obol-greek</string>
-			<string>twoObols-greek</string>
-			<string>threeObols-greek</string>
-			<string>fourObols-greek</string>
-			<string>fiveObols-greek</string>
-			<string>metretes-greek</string>
-			<string>kyathosBase-greek</string>
-			<string>litra-greek</string>
-			<string>ounkia-greek</string>
-			<string>xestes-greek</string>
-			<string>artabe-greek</string>
-			<string>aroura-greek</string>
-			<string>gramma-greek</string>
-			<string>tryblionBase-greek</string>
 			<string>zero-greek</string>
+			<string>Heta</string>
+			<string>heta</string>
+			<string>Archaicsampi</string>
+			<string>archaicsampi</string>
+			<string>Pamphyliandigamma</string>
+			<string>pamphyliandigamma</string>
+			<string>sigmaLunateReversedSymbol</string>
+			<string>sigmaLunateDottedSymbol</string>
+			<string>sigmaLunateDottedReversedSymbol</string>
+			<string>betaSymbol</string>
+			<string>thetaSymbol</string>
+			<string>UpsilonhookSymbol</string>
+			<string>UpsilonacutehookSymbol</string>
+			<string>UpsilondieresishookSymbol</string>
+			<string>phiSymbol</string>
+			<string>piSymbol</string>
+			<string>KoppaArchaic</string>
+			<string>koppaArchaic</string>
+			<string>kappaSymbol</string>
+			<string>rhoSymbol</string>
+			<string>sigmaLunateSymbol</string>
+			<string>yot</string>
+			<string>ThetaSymbol</string>
+			<string>epsilonLunateSymbol</string>
+			<string>Sho</string>
+			<string>sho</string>
+			<string>SigmaLunateSymbol</string>
+			<string>San</string>
+			<string>san</string>
+			<string>rhoStrokeSymbol</string>
+			<string>SigmaLunateReversedSymbol</string>
+			<string>SigmaLunateDottedSymbol</string>
+			<string>SigmaLunateDottedReversedSymbol</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_Archaic</string>
@@ -478,6 +478,31 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>oldNgi-nubian-coptic</string>
+			<string>oldNyi-nubian-coptic</string>
+			<string>oldShima-nubian-coptic</string>
+			<string>oldWau-nubian-coptic</string>
+			<string>olddirectquestion-nubian-coptic</string>
+			<string>oldfullstop-nubian-coptic</string>
+			<string>oldindirectquestion-nubian-coptic</string>
+			<string>oldngi-nubian-coptic</string>
+			<string>oldnyi-nubian-coptic</string>
+			<string>oldshima-nubian-coptic</string>
+			<string>oldversedivider-nubian-coptic</string>
+			<string>oldwau-nubian-coptic</string>
+			<string>kai-coptic</string>
+			<string>miro-coptic</string>
+			<string>piro-coptic</string>
+			<string>stauros-coptic</string>
+			<string>tauro-coptic</string>
+			<string>khiro-coptic</string>
+			<string>shimasima-coptic</string>
+			<string>fullstop-coptic</string>
+			<string>morphologicaldivider-coptic</string>
+			<string>onehalf-coptic</string>
+			<string>uni2CEF</string>
+			<string>uni2CF0</string>
+			<string>uni2CF1</string>
 			<string>Shei-coptic</string>
 			<string>shei-coptic</string>
 			<string>Fei-coptic</string>
@@ -584,37 +609,12 @@
 			<string>djaOld-coptic</string>
 			<string>ShimaOld-coptic</string>
 			<string>shimaOld-coptic</string>
-			<string>kai-coptic</string>
-			<string>miro-coptic</string>
-			<string>piro-coptic</string>
-			<string>stauros-coptic</string>
-			<string>tauro-coptic</string>
-			<string>khiro-coptic</string>
-			<string>shimasima-coptic</string>
 			<string>SheiCryptogrammic-coptic</string>
 			<string>sheiCryptogrammic-coptic</string>
 			<string>GangiaCryptogrammic-coptic</string>
 			<string>gangiaCryptogrammic-coptic</string>
-			<string>uni2CEF</string>
-			<string>uni2CF0</string>
-			<string>uni2CF1</string>
 			<string>KheiBohairic-coptic</string>
 			<string>kheiBohairic-coptic</string>
-			<string>onehalf-coptic</string>
-			<string>fullstop-coptic</string>
-			<string>morphologicaldivider-coptic</string>
-			<string>oldNgi-nubian-coptic</string>
-			<string>oldNyi-nubian-coptic</string>
-			<string>oldShima-nubian-coptic</string>
-			<string>oldWau-nubian-coptic</string>
-			<string>olddirectquestion-nubian-coptic</string>
-			<string>oldfullstop-nubian-coptic</string>
-			<string>oldindirectquestion-nubian-coptic</string>
-			<string>oldngi-nubian-coptic</string>
-			<string>oldnyi-nubian-coptic</string>
-			<string>oldshima-nubian-coptic</string>
-			<string>oldversedivider-nubian-coptic</string>
-			<string>oldwau-nubian-coptic</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_Coptic</string>
@@ -622,22 +622,65 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>space</string>
-			<string>exclam</string>
-			<string>quotedbl</string>
-			<string>numbersign</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
+			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>multiply</string>
+			<string>divide</string>
+			<string>numeral-greek</string>
+			<string>lowernumeral-greek</string>
+			<string>euro</string>
+			<string>trademark</string>
+			<string>minus</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>guillemetleft</string>
+			<string>periodcentered</string>
+			<string>guillemetright</string>
+			<string>questiongreek</string>
+			<string>anoteleia</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -648,13 +691,11 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>less</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>question</string>
-			<string>at</string>
+			<string>grave</string>
+			<string>acutecomb</string>
+			<string>dieresiscomb</string>
+			<string>tonos</string>
+			<string>dieresistonos</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -681,12 +722,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>backslash</string>
-			<string>bracketright</string>
-			<string>asciicircum</string>
-			<string>underscore</string>
-			<string>grave</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -713,31 +748,7 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>braceleft</string>
-			<string>bar</string>
-			<string>braceright</string>
-			<string>asciitilde</string>
-			<string>nbspace</string>
-			<string>cent</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>copyright</string>
-			<string>guillemetleft</string>
-			<string>registered</string>
-			<string>degree</string>
-			<string>periodcentered</string>
-			<string>guillemetright</string>
-			<string>multiply</string>
-			<string>divide</string>
-			<string>acutecomb</string>
-			<string>dieresiscomb</string>
-			<string>numeral-greek</string>
-			<string>lowernumeral-greek</string>
-			<string>questiongreek</string>
-			<string>tonos</string>
-			<string>dieresistonos</string>
 			<string>Alphatonos</string>
-			<string>anoteleia</string>
 			<string>Epsilontonos</string>
 			<string>Etatonos</string>
 			<string>Iotatonos</string>
@@ -808,17 +819,6 @@
 			<string>omegatonos</string>
 			<string>KaiSymbol</string>
 			<string>kaiSymbol</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>bullet</string>
-			<string>ellipsis</string>
-			<string>euro</string>
-			<string>trademark</string>
-			<string>minus</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_Core</string>
@@ -1207,6 +1207,21 @@
 			<string>koroniscomb</string>
 			<string>dialytikatonoscomb</string>
 			<string>ypogegrammenicomb</string>
+			<string>koronis</string>
+			<string>psili</string>
+			<string>perispomeni</string>
+			<string>dialytikaperispomeni</string>
+			<string>psilivaria</string>
+			<string>psilioxia</string>
+			<string>psiliperispomeni</string>
+			<string>dasiavaria</string>
+			<string>dasiaoxia</string>
+			<string>dasiaperispomeni</string>
+			<string>dialytikavaria</string>
+			<string>dialytikaoxia</string>
+			<string>varia</string>
+			<string>oxia</string>
+			<string>dasia</string>
 			<string>ypogegrammeni</string>
 			<string>alphapsili</string>
 			<string>alphadasia</string>
@@ -1382,11 +1397,7 @@
 			<string>Alphavaria</string>
 			<string>Alphaoxia</string>
 			<string>Alphaprosgegrammeni</string>
-			<string>koronis</string>
 			<string>prosgegrammeni</string>
-			<string>psili</string>
-			<string>perispomeni</string>
-			<string>dialytikaperispomeni</string>
 			<string>etavariaypogegrammeni</string>
 			<string>etaypogegrammeni</string>
 			<string>etaoxiaypogegrammeni</string>
@@ -1397,9 +1408,6 @@
 			<string>Etavaria</string>
 			<string>Etaoxia</string>
 			<string>Etaprosgegrammeni</string>
-			<string>psilivaria</string>
-			<string>psilioxia</string>
-			<string>psiliperispomeni</string>
 			<string>iotavrachy</string>
 			<string>iotamacron</string>
 			<string>iotadialytikavaria</string>
@@ -1410,9 +1418,6 @@
 			<string>Iotamacron</string>
 			<string>Iotavaria</string>
 			<string>Iotaoxia</string>
-			<string>dasiavaria</string>
-			<string>dasiaoxia</string>
-			<string>dasiaperispomeni</string>
 			<string>upsilonvrachy</string>
 			<string>upsilonmacron</string>
 			<string>upsilondialytikavaria</string>
@@ -1426,9 +1431,6 @@
 			<string>Upsilonvaria</string>
 			<string>Upsilonoxia</string>
 			<string>Rhodasia</string>
-			<string>dialytikavaria</string>
-			<string>dialytikaoxia</string>
-			<string>varia</string>
 			<string>omegavariaypogegrammeni</string>
 			<string>omegaypogegrammeni</string>
 			<string>omegaoxiaypogegrammeni</string>
@@ -1439,8 +1441,6 @@
 			<string>Omegavaria</string>
 			<string>Omegaoxia</string>
 			<string>Omegaprosgegrammeni</string>
-			<string>oxia</string>
-			<string>dasia</string>
 			<string>Alphaprosgegrammeni.ss01</string>
 			<string>Alphapsiliprosgegrammeni.ss01</string>
 			<string>Alphadasiaprosgegrammeni.ss01</string>
@@ -1475,31 +1475,6 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>dotaccent</string>
-			<string>overlinecomb</string>
-			<string>dotbelowcomb</string>
-			<string>asteriskbelowcomb</string>
-			<string>doublebrevebelowcomb</string>
-			<string>Stigma</string>
-			<string>stigma</string>
-			<string>Digamma</string>
-			<string>digamma</string>
-			<string>Koppa</string>
-			<string>koppa</string>
-			<string>Sampi</string>
-			<string>sampi</string>
-			<string>dblverticalbar</string>
-			<string>referencemark</string>
-			<string>undertie</string>
-			<string>asterism</string>
-			<string>threedotpunctuation</string>
-			<string>fourdotpunctuation</string>
-			<string>fivedotpunctuation</string>
-			<string>twodotpunctuation</string>
-			<string>fourdotmark</string>
-			<string>dottedcross</string>
-			<string>tricolon</string>
-			<string>verticalfourdots</string>
 			<string>plussuperior</string>
 			<string>minussuperior</string>
 			<string>equalsuperior</string>
@@ -1520,6 +1495,18 @@
 			<string>metricaltetraseme</string>
 			<string>metricalpentaseme</string>
 			<string>doubleSolidusOperator</string>
+			<string>dblverticalbar</string>
+			<string>referencemark</string>
+			<string>undertie</string>
+			<string>asterism</string>
+			<string>threedotpunctuation</string>
+			<string>fourdotpunctuation</string>
+			<string>fivedotpunctuation</string>
+			<string>twodotpunctuation</string>
+			<string>fourdotmark</string>
+			<string>dottedcross</string>
+			<string>tricolon</string>
+			<string>verticalfourdots</string>
 			<string>rightanglesubstitutionmarker</string>
 			<string>rightangledottedsubstitutionmarker</string>
 			<string>leftsubstitutionbracket</string>
@@ -1552,6 +1539,19 @@
 			<string>cornerbracketright</string>
 			<string>whitesquarebracketleft</string>
 			<string>whitesquarebracketright</string>
+			<string>dotaccent</string>
+			<string>overlinecomb</string>
+			<string>dotbelowcomb</string>
+			<string>asteriskbelowcomb</string>
+			<string>doublebrevebelowcomb</string>
+			<string>Stigma</string>
+			<string>stigma</string>
+			<string>Digamma</string>
+			<string>digamma</string>
+			<string>Koppa</string>
+			<string>koppa</string>
+			<string>Sampi</string>
+			<string>sampi</string>
 			<string>litalic-math</string>
 			<string>M-fraktur</string>
 			<string>P-fraktur</string>

@@ -5,10 +5,6 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>Gcaron</string>
-			<string>gcaron</string>
-			<string>Ymacron</string>
-			<string>ymacron</string>
 			<string>apostrophemod</string>
 			<string>commareversedmod</string>
 			<string>ringhalfright</string>
@@ -16,6 +12,10 @@
 			<string>dotbelowcomb</string>
 			<string>brevebelowcomb</string>
 			<string>macronbelowcomb</string>
+			<string>Gcaron</string>
+			<string>gcaron</string>
+			<string>Ymacron</string>
+			<string>ymacron</string>
 			<string>Ddotbelow</string>
 			<string>ddotbelow</string>
 			<string>Dmacronbelow</string>
@@ -45,6 +45,22 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>apostrophemod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>circumflexcomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>caroncomb</string>
+			<string>verticallineabovecomb</string>
+			<string>dotaboverightcomb</string>
+			<string>gravecomb_dotaboverightcomb</string>
+			<string>acutecomb_dotaboverightcomb</string>
+			<string>circumflexcomb_dotaboverightcomb</string>
+			<string>brevecomb_dotaboverightcomb</string>
+			<string>macroncomb_dotaboverightcomb</string>
+			<string>verticallineabovecomb_dotaboverightcomb</string>
 			<string>Agrave</string>
 			<string>Aacute</string>
 			<string>Acircumflex</string>
@@ -120,26 +136,10 @@
 			<string>udieresisgrave</string>
 			<string>Ngrave</string>
 			<string>ngrave</string>
-			<string>apostrophemod</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>circumflexcomb</string>
-			<string>macroncomb</string>
-			<string>brevecomb</string>
-			<string>dieresiscomb</string>
-			<string>caroncomb</string>
-			<string>verticallineabovecomb</string>
-			<string>dotaboverightcomb</string>
 			<string>Nmod</string>
 			<string>Macute</string>
 			<string>macute</string>
 			<string>nmod</string>
-			<string>gravecomb_dotaboverightcomb</string>
-			<string>acutecomb_dotaboverightcomb</string>
-			<string>circumflexcomb_dotaboverightcomb</string>
-			<string>brevecomb_dotaboverightcomb</string>
-			<string>macroncomb_dotaboverightcomb</string>
-			<string>verticallineabovecomb_dotaboverightcomb</string>
 		</array>
 		<key>name</key>
 		<string>GF_TransLatin_Pinyin</string>

@@ -570,20 +570,59 @@ glyphname = "alefWasla-ar";
 unicode = 1649;
 },
 {
+glyphname = "alefWasla-ar.fina";
+},
+{
 glyphname = "behDotless-ar";
 unicode = 1646;
+},
+{
+glyphname = "behDotless-ar.init";
+},
+{
+glyphname = "behDotless-ar.medi";
+},
+{
+glyphname = "behDotless-ar.fina";
 },
 {
 glyphname = "fehDotless-ar";
 unicode = 1697;
 },
 {
+glyphname = "fehDotless-ar.init";
+},
+{
+glyphname = "fehDotless-ar.medi";
+},
+{
+glyphname = "fehDotless-ar.fina";
+},
+{
 glyphname = "qafDotless-ar";
 unicode = 1647;
 },
 {
+glyphname = "qafDotless-ar.init";
+},
+{
+glyphname = "qafDotless-ar.medi";
+},
+{
+glyphname = "qafDotless-ar.fina";
+},
+{
 glyphname = "noonghunna-ar";
 unicode = 1722;
+},
+{
+glyphname = "noonghunna-ar.init";
+},
+{
+glyphname = "noonghunna-ar.medi";
+},
+{
+glyphname = "noonghunna-ar.fina";
 },
 {
 glyphname = "lam_alef-ar";
@@ -817,320 +856,884 @@ glyphname = "alefMadda-ar";
 unicode = 1570;
 },
 {
+glyphname = "alefMadda-ar.fina";
+},
+{
 glyphname = "alefHamzaabove-ar";
 unicode = 1571;
+},
+{
+glyphname = "alefHamzaabove-ar.fina";
 },
 {
 glyphname = "wawHamzaabove-ar";
 unicode = 1572;
 },
 {
+glyphname = "wawHamzaabove-ar.fina";
+},
+{
 glyphname = "yehHamzaabove-ar";
 unicode = 1574;
+},
+{
+glyphname = "yehHamzaabove-ar.init";
+},
+{
+glyphname = "yehHamzaabove-ar.medi";
+},
+{
+glyphname = "yehHamzaabove-ar.fina";
 },
 {
 glyphname = "alef-ar";
 unicode = 1575;
 },
 {
+glyphname = "alef-ar.fina";
+},
+{
 glyphname = "beh-ar";
 unicode = 1576;
+},
+{
+glyphname = "beh-ar.init";
+},
+{
+glyphname = "beh-ar.medi";
+},
+{
+glyphname = "beh-ar.fina";
 },
 {
 glyphname = "tehMarbuta-ar";
 unicode = 1577;
 },
 {
+glyphname = "tehMarbuta-ar.fina";
+},
+{
 glyphname = "teh-ar";
 unicode = 1578;
+},
+{
+glyphname = "teh-ar.init";
+},
+{
+glyphname = "teh-ar.medi";
+},
+{
+glyphname = "teh-ar.fina";
 },
 {
 glyphname = "theh-ar";
 unicode = 1579;
 },
 {
+glyphname = "theh-ar.init";
+},
+{
+glyphname = "theh-ar.medi";
+},
+{
+glyphname = "theh-ar.fina";
+},
+{
 glyphname = "jeem-ar";
 unicode = 1580;
+},
+{
+glyphname = "jeem-ar.init";
+},
+{
+glyphname = "jeem-ar.medi";
+},
+{
+glyphname = "jeem-ar.fina";
 },
 {
 glyphname = "hah-ar";
 unicode = 1581;
 },
 {
+glyphname = "hah-ar.init";
+},
+{
+glyphname = "hah-ar.medi";
+},
+{
+glyphname = "hah-ar.fina";
+},
+{
 glyphname = "khah-ar";
 unicode = 1582;
+},
+{
+glyphname = "khah-ar.init";
+},
+{
+glyphname = "khah-ar.medi";
+},
+{
+glyphname = "khah-ar.fina";
 },
 {
 glyphname = "dal-ar";
 unicode = 1583;
 },
 {
+glyphname = "dal-ar.fina";
+},
+{
 glyphname = "thal-ar";
 unicode = 1584;
+},
+{
+glyphname = "thal-ar.fina";
 },
 {
 glyphname = "reh-ar";
 unicode = 1585;
 },
 {
+glyphname = "reh-ar.fina";
+},
+{
 glyphname = "zain-ar";
 unicode = 1586;
+},
+{
+glyphname = "zain-ar.fina";
 },
 {
 glyphname = "seen-ar";
 unicode = 1587;
 },
 {
+glyphname = "seen-ar.init";
+},
+{
+glyphname = "seen-ar.medi";
+},
+{
+glyphname = "seen-ar.fina";
+},
+{
 glyphname = "sheen-ar";
 unicode = 1588;
+},
+{
+glyphname = "sheen-ar.init";
+},
+{
+glyphname = "sheen-ar.medi";
+},
+{
+glyphname = "sheen-ar.fina";
 },
 {
 glyphname = "sad-ar";
 unicode = 1589;
 },
 {
+glyphname = "sad-ar.init";
+},
+{
+glyphname = "sad-ar.medi";
+},
+{
+glyphname = "sad-ar.fina";
+},
+{
 glyphname = "dad-ar";
 unicode = 1590;
+},
+{
+glyphname = "dad-ar.init";
+},
+{
+glyphname = "dad-ar.medi";
+},
+{
+glyphname = "dad-ar.fina";
 },
 {
 glyphname = "tah-ar";
 unicode = 1591;
 },
 {
+glyphname = "tah-ar.init";
+},
+{
+glyphname = "tah-ar.medi";
+},
+{
+glyphname = "tah-ar.fina";
+},
+{
 glyphname = "zah-ar";
 unicode = 1592;
+},
+{
+glyphname = "zah-ar.init";
+},
+{
+glyphname = "zah-ar.medi";
+},
+{
+glyphname = "zah-ar.fina";
 },
 {
 glyphname = "ain-ar";
 unicode = 1593;
 },
 {
+glyphname = "ain-ar.init";
+},
+{
+glyphname = "ain-ar.medi";
+},
+{
+glyphname = "ain-ar.fina";
+},
+{
 glyphname = "ghain-ar";
 unicode = 1594;
+},
+{
+glyphname = "ghain-ar.init";
+},
+{
+glyphname = "ghain-ar.medi";
+},
+{
+glyphname = "ghain-ar.fina";
 },
 {
 glyphname = "feh-ar";
 unicode = 1601;
 },
 {
+glyphname = "feh-ar.init";
+},
+{
+glyphname = "feh-ar.medi";
+},
+{
+glyphname = "feh-ar.fina";
+},
+{
 glyphname = "qaf-ar";
 unicode = 1602;
+},
+{
+glyphname = "qaf-ar.init";
+},
+{
+glyphname = "qaf-ar.medi";
+},
+{
+glyphname = "qaf-ar.fina";
 },
 {
 glyphname = "kaf-ar";
 unicode = 1603;
 },
 {
+glyphname = "kaf-ar.init";
+},
+{
+glyphname = "kaf-ar.medi";
+},
+{
+glyphname = "kaf-ar.fina";
+},
+{
 glyphname = "lam-ar";
 unicode = 1604;
+},
+{
+glyphname = "lam-ar.init";
+},
+{
+glyphname = "lam-ar.medi";
+},
+{
+glyphname = "lam-ar.fina";
 },
 {
 glyphname = "meem-ar";
 unicode = 1605;
 },
 {
+glyphname = "meem-ar.init";
+},
+{
+glyphname = "meem-ar.medi";
+},
+{
+glyphname = "meem-ar.fina";
+},
+{
 glyphname = "noon-ar";
 unicode = 1606;
+},
+{
+glyphname = "noon-ar.init";
+},
+{
+glyphname = "noon-ar.medi";
+},
+{
+glyphname = "noon-ar.fina";
 },
 {
 glyphname = "heh-ar";
 unicode = 1607;
 },
 {
+glyphname = "heh-ar.init";
+},
+{
+glyphname = "heh-ar.medi";
+},
+{
+glyphname = "heh-ar.fina";
+},
+{
 glyphname = "waw-ar";
 unicode = 1608;
+},
+{
+glyphname = "waw-ar.fina";
 },
 {
 glyphname = "alefMaksura-ar";
 unicode = 1609;
 },
 {
+glyphname = "alefMaksura-ar.init";
+},
+{
+glyphname = "alefMaksura-ar.medi";
+},
+{
+glyphname = "alefMaksura-ar.fina";
+},
+{
 glyphname = "yeh-ar";
 unicode = 1610;
+},
+{
+glyphname = "yeh-ar.init";
+},
+{
+glyphname = "yeh-ar.medi";
+},
+{
+glyphname = "yeh-ar.fina";
 },
 {
 glyphname = "tteheh-ar";
 unicode = 1658;
 },
 {
+glyphname = "tteheh-ar.init";
+},
+{
+glyphname = "tteheh-ar.medi";
+},
+{
+glyphname = "tteheh-ar.fina";
+},
+{
 glyphname = "beeh-ar";
 unicode = 1659;
+},
+{
+glyphname = "beeh-ar.init";
+},
+{
+glyphname = "beeh-ar.medi";
+},
+{
+glyphname = "beeh-ar.fina";
 },
 {
 glyphname = "tehRing-ar";
 unicode = 1660;
 },
 {
+glyphname = "tehRing-ar.init";
+},
+{
+glyphname = "tehRing-ar.medi";
+},
+{
+glyphname = "tehRing-ar.fina";
+},
+{
 glyphname = "tehThreedotsdown-ar";
 unicode = 1661;
+},
+{
+glyphname = "tehThreedotsdown-ar.init";
+},
+{
+glyphname = "tehThreedotsdown-ar.medi";
+},
+{
+glyphname = "tehThreedotsdown-ar.fina";
 },
 {
 glyphname = "peh-ar";
 unicode = 1662;
 },
 {
+glyphname = "peh-ar.init";
+},
+{
+glyphname = "peh-ar.medi";
+},
+{
+glyphname = "peh-ar.fina";
+},
+{
 glyphname = "teheh-ar";
 unicode = 1663;
+},
+{
+glyphname = "teheh-ar.init";
+},
+{
+glyphname = "teheh-ar.medi";
+},
+{
+glyphname = "teheh-ar.fina";
 },
 {
 glyphname = "beheh-ar";
 unicode = 1664;
 },
 {
+glyphname = "beheh-ar.init";
+},
+{
+glyphname = "beheh-ar.medi";
+},
+{
+glyphname = "beheh-ar.fina";
+},
+{
 glyphname = "hahHamzaabove-ar";
 unicode = 1665;
+},
+{
+glyphname = "hahHamzaabove-ar.init";
+},
+{
+glyphname = "hahHamzaabove-ar.medi";
+},
+{
+glyphname = "hahHamzaabove-ar.fina";
 },
 {
 glyphname = "nyeh-ar";
 unicode = 1667;
 },
 {
+glyphname = "nyeh-ar.init";
+},
+{
+glyphname = "nyeh-ar.medi";
+},
+{
+glyphname = "nyeh-ar.fina";
+},
+{
 glyphname = "dyeh-ar";
 unicode = 1668;
+},
+{
+glyphname = "dyeh-ar.init";
+},
+{
+glyphname = "dyeh-ar.medi";
+},
+{
+glyphname = "dyeh-ar.fina";
 },
 {
 glyphname = "hahThreedotsabove-ar";
 unicode = 1669;
 },
 {
+glyphname = "hahThreedotsabove-ar.init";
+},
+{
+glyphname = "hahThreedotsabove-ar.medi";
+},
+{
+glyphname = "hahThreedotsabove-ar.fina";
+},
+{
 glyphname = "tcheh-ar";
 unicode = 1670;
+},
+{
+glyphname = "tcheh-ar.init";
+},
+{
+glyphname = "tcheh-ar.medi";
+},
+{
+glyphname = "tcheh-ar.fina";
 },
 {
 glyphname = "tcheheh-ar";
 unicode = 1671;
 },
 {
+glyphname = "tcheheh-ar.init";
+},
+{
+glyphname = "tcheheh-ar.medi";
+},
+{
+glyphname = "tcheheh-ar.fina";
+},
+{
 glyphname = "dalRing-ar";
 unicode = 1673;
+},
+{
+glyphname = "dalRing-ar.fina";
 },
 {
 glyphname = "dalDotbelow-ar";
 unicode = 1674;
 },
 {
+glyphname = "dalDotbelow-ar.fina";
+},
+{
 glyphname = "dahal-ar";
 unicode = 1676;
+},
+{
+glyphname = "dahal-ar.fina";
 },
 {
 glyphname = "ddahal-ar";
 unicode = 1677;
 },
 {
+glyphname = "ddahal-ar.fina";
+},
+{
 glyphname = "dalThreedotsdown-ar";
 unicode = 1679;
+},
+{
+glyphname = "dalThreedotsdown-ar.fina";
 },
 {
 glyphname = "rehRing-ar";
 unicode = 1683;
 },
 {
+glyphname = "rehRing-ar.fina";
+},
+{
 glyphname = "rehVbelow-ar";
 unicode = 1685;
+},
+{
+glyphname = "rehVbelow-ar.fina";
 },
 {
 glyphname = "rehDotbelowdotabove-ar";
 unicode = 1686;
 },
 {
+glyphname = "rehDotbelowdotabove-ar.fina";
+},
+{
 glyphname = "jeh-ar";
 unicode = 1688;
+},
+{
+glyphname = "jeh-ar.fina";
 },
 {
 glyphname = "rehFourdots-ar";
 unicode = 1689;
 },
 {
+glyphname = "rehFourdots-ar.fina";
+},
+{
 glyphname = "seenDotbelowDotabove-ar";
 unicode = 1690;
+},
+{
+glyphname = "seenDotbelowDotabove-ar.init";
+},
+{
+glyphname = "seenDotbelowDotabove-ar.medi";
+},
+{
+glyphname = "seenDotbelowDotabove-ar.fina";
 },
 {
 glyphname = "veh-ar";
 unicode = 1700;
 },
 {
+glyphname = "veh-ar.init";
+},
+{
+glyphname = "veh-ar.medi";
+},
+{
+glyphname = "veh-ar.fina";
+},
+{
 glyphname = "peheh-ar";
 unicode = 1702;
+},
+{
+glyphname = "peheh-ar.init";
+},
+{
+glyphname = "peheh-ar.medi";
+},
+{
+glyphname = "peheh-ar.fina";
 },
 {
 glyphname = "keheh-ar";
 unicode = 1705;
 },
 {
+glyphname = "keheh-ar.init";
+},
+{
+glyphname = "keheh-ar.medi";
+},
+{
+glyphname = "keheh-ar.fina";
+},
+{
 glyphname = "kafswash-ar";
 unicode = 1706;
+},
+{
+glyphname = "kafswash-ar.init";
+},
+{
+glyphname = "kafswash-ar.medi";
+},
+{
+glyphname = "kafswash-ar.fina";
 },
 {
 glyphname = "kafRing-ar";
 unicode = 1707;
 },
 {
+glyphname = "kafRing-ar.init";
+},
+{
+glyphname = "kafRing-ar.medi";
+},
+{
+glyphname = "kafRing-ar.fina";
+},
+{
 glyphname = "ng-ar";
 unicode = 1709;
+},
+{
+glyphname = "ng-ar.init";
+},
+{
+glyphname = "ng-ar.medi";
+},
+{
+glyphname = "ng-ar.fina";
 },
 {
 glyphname = "gaf-ar";
 unicode = 1711;
 },
 {
+glyphname = "gaf-ar.init";
+},
+{
+glyphname = "gaf-ar.medi";
+},
+{
+glyphname = "gaf-ar.fina";
+},
+{
 glyphname = "ngoeh-ar";
 unicode = 1713;
+},
+{
+glyphname = "ngoeh-ar.init";
+},
+{
+glyphname = "ngoeh-ar.medi";
+},
+{
+glyphname = "ngoeh-ar.fina";
 },
 {
 glyphname = "gueh-ar";
 unicode = 1715;
 },
 {
+glyphname = "gueh-ar.init";
+},
+{
+glyphname = "gueh-ar.medi";
+},
+{
+glyphname = "gueh-ar.fina";
+},
+{
 glyphname = "lamVabove-ar";
 unicode = 1717;
+},
+{
+glyphname = "lamVabove-ar.init";
+},
+{
+glyphname = "lamVabove-ar.medi";
+},
+{
+glyphname = "lamVabove-ar.fina";
 },
 {
 glyphname = "rnoon-ar";
 unicode = 1723;
 },
 {
+glyphname = "rnoon-ar.init";
+},
+{
+glyphname = "rnoon-ar.medi";
+},
+{
+glyphname = "rnoon-ar.fina";
+},
+{
 glyphname = "noonRing-ar";
 unicode = 1724;
+},
+{
+glyphname = "noonRing-ar.init";
+},
+{
+glyphname = "noonRing-ar.medi";
+},
+{
+glyphname = "noonRing-ar.fina";
 },
 {
 glyphname = "hehDoachashmee-ar";
 unicode = 1726;
 },
 {
+glyphname = "hehDoachashmee-ar.init";
+},
+{
+glyphname = "hehDoachashmee-ar.medi";
+},
+{
+glyphname = "hehDoachashmee-ar.fina";
+},
+{
 glyphname = "oe-ar";
 unicode = 1734;
+},
+{
+glyphname = "oe-ar.fina";
 },
 {
 glyphname = "u-ar";
 unicode = 1735;
 },
 {
+glyphname = "u-ar.fina";
+},
+{
 glyphname = "yu-ar";
 unicode = 1736;
+},
+{
+glyphname = "yu-ar.fina";
 },
 {
 glyphname = "ve-ar";
 unicode = 1739;
 },
 {
+glyphname = "ve-ar.fina";
+},
+{
 glyphname = "yehFarsi-ar";
 unicode = 1740;
+},
+{
+glyphname = "yehFarsi-ar.init";
+},
+{
+glyphname = "yehFarsi-ar.medi";
+},
+{
+glyphname = "yehFarsi-ar.fina";
 },
 {
 glyphname = "yehTail-ar";
 unicode = 1741;
 },
 {
+glyphname = "yehTail-ar.fina";
+},
+{
 glyphname = "yehVabove-ar";
 unicode = 1742;
+},
+{
+glyphname = "yehVabove-ar.init";
+},
+{
+glyphname = "yehVabove-ar.medi";
+},
+{
+glyphname = "yehVabove-ar.fina";
 },
 {
 glyphname = "e-ar";
 unicode = 1744;
 },
 {
+glyphname = "e-ar.init";
+},
+{
+glyphname = "e-ar.medi";
+},
+{
+glyphname = "e-ar.fina";
+},
+{
 glyphname = "ae-ar";
 unicode = 1749;
+},
+{
+glyphname = "ae-ar.fina";
 }
 );
 instances = (

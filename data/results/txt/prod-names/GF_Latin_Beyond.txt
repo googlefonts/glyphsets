@@ -1,5 +1,17 @@
 # This file is auto-generated; do not edit. See /README.md for instructions.
 degree
+uni2144
+uni02B9
+uni02BB
+uni02BC
+uni02C0
+uni02C8
+uni0313
+uni0315
+dotbelowcomb
+uni0331
+uni0332
+uni0335
 Ccircumflex
 ccircumflex
 Gcircumflex
@@ -71,17 +83,6 @@ uni0294
 uni0295
 uni02B7
 uni02B8
-uni02B9
-uni02BB
-uni02BC
-uni02C0
-uni02C8
-uni0313
-uni0315
-dotbelowcomb
-uni0331
-uni0332
-uni0335
 lambda
 chi
 uni1DBB
@@ -126,7 +127,6 @@ uni1ECA
 uni1ECB
 uni1EF8
 uni1EF9
-uni2144
 uni2C62
 uni2C65
 uni2C66

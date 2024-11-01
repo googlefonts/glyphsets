@@ -5,6 +5,9 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>colonmod</string>
+			<string>commaabovecomb</string>
+			<string>ogonekcomb</string>
 			<string>lacute</string>
 			<string>lbar</string>
 			<string>lambdastroke</string>
@@ -14,8 +17,6 @@
 			<string>Cstroke</string>
 			<string>cstroke</string>
 			<string>ymod</string>
-			<string>commaabovecomb</string>
-			<string>ogonekcomb</string>
 			<string>lambda</string>
 			<string>phi</string>
 			<string>Dsmall</string>
@@ -27,7 +28,6 @@
 			<string>tcircumflexbelow</string>
 			<string>wdotbelow</string>
 			<string>xdotaccent</string>
-			<string>colonmod</string>
 		</array>
 		<key>name</key>
 		<string>GF_Phonetics_APA</string>
@@ -35,18 +35,24 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>voicingmod</string>
+			<string>unaspiratedmod</string>
+			<string>C.circled</string>
+			<string>F.circled</string>
+			<string>G.circled</string>
+			<string>L.circled</string>
+			<string>N.circled</string>
+			<string>P.circled</string>
+			<string>R.circled</string>
+			<string>S.circled</string>
+			<string>T.circled</string>
+			<string>V.circled</string>
+			<string>largeCircle</string>
 			<string>exclam</string>
 			<string>asterisk</string>
 			<string>exclamdown</string>
-			<string>fengdigraph</string>
-			<string>lsdigraph</string>
-			<string>lzdigraph</string>
-			<string>bilabialpercussive</string>
-			<string>bidentalpercussive</string>
-			<string>rturnedmod</string>
-			<string>smod</string>
-			<string>voicingmod</string>
-			<string>unaspiratedmod</string>
+			<string>parenleftinferior</string>
+			<string>parenrightinferior</string>
 			<string>gbridgeabovecomb</string>
 			<string>equalbelowcomb</string>
 			<string>leftanglebelowcomb</string>
@@ -64,21 +70,15 @@
 			<string>uni1AC2</string>
 			<string>uni1AC3</string>
 			<string>uni1AC4</string>
+			<string>fengdigraph</string>
+			<string>lsdigraph</string>
+			<string>lzdigraph</string>
+			<string>bilabialpercussive</string>
+			<string>bidentalpercussive</string>
+			<string>rturnedmod</string>
+			<string>smod</string>
 			<string>Nmod</string>
 			<string>schwamod</string>
-			<string>parenleftinferior</string>
-			<string>parenrightinferior</string>
-			<string>C.circled</string>
-			<string>F.circled</string>
-			<string>G.circled</string>
-			<string>L.circled</string>
-			<string>N.circled</string>
-			<string>P.circled</string>
-			<string>R.circled</string>
-			<string>S.circled</string>
-			<string>T.circled</string>
-			<string>V.circled</string>
-			<string>largeCircle</string>
 			<string>lretroflexhookandbelt</string>
 			<string>Qsmall</string>
 			<string>Kturned</string>
@@ -112,6 +112,7 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>retroflexhookcomb</string>
 			<string>chook</string>
 			<string>khook</string>
 			<string>phook</string>
@@ -124,7 +125,6 @@
 			<string>ts</string>
 			<string>tesh</string>
 			<string>tccurl</string>
-			<string>retroflexhookcomb</string>
 		</array>
 		<key>name</key>
 		<string>GF_Phonetics_IPAHistorical</string>
@@ -132,9 +132,69 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>bar</string>
+			<string>rhotichookmod</string>
+			<string>gammamod-latin</string>
+			<string>tonebarextrahighmod</string>
+			<string>tonebarhighmod</string>
+			<string>tonebarmidmod</string>
+			<string>tonebarlowmod</string>
+			<string>tonebarextralowmod</string>
+			<string>lowringmod</string>
+			<string>dottedCircle</string>
 			<string>exclam</string>
 			<string>period</string>
-			<string>bar</string>
+			<string>dblverticalbar</string>
+			<string>undertie</string>
+			<string>apostrophemod</string>
+			<string>glottalstopreversedmod</string>
+			<string>verticallinemod</string>
+			<string>verticallinelowmod</string>
+			<string>colontriangularmod</string>
+			<string>colontriangularhalfmod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>circumflexcomb</string>
+			<string>tildecomb</string>
+			<string>macroncomb</string>
+			<string>overlinecomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>ringcomb</string>
+			<string>hungarumlautcomb</string>
+			<string>caroncomb</string>
+			<string>dblgravecomb</string>
+			<string>lefttackbelowcomb</string>
+			<string>righttackbelowcomb</string>
+			<string>leftangleabovecomb</string>
+			<string>ringhalfleftbelowcomb</string>
+			<string>uptackbelowcomb</string>
+			<string>downtackbelowcomb</string>
+			<string>plusbelowcomb</string>
+			<string>minusbelowcomb</string>
+			<string>dieresisbelowcomb</string>
+			<string>ringbelowcomb</string>
+			<string>verticallinebelowcomb</string>
+			<string>bridgebelowcomb</string>
+			<string>caronbelowcomb</string>
+			<string>breveinvertedbelowcomb</string>
+			<string>tildebelowcomb</string>
+			<string>lowlinecomb</string>
+			<string>tildeoverlaycomb</string>
+			<string>ringhalfrightbelowcomb</string>
+			<string>bridgeinvertedbelowcomb</string>
+			<string>squarebelowcomb</string>
+			<string>seagullbelowcomb</string>
+			<string>xabovecomb</string>
+			<string>doubleverticallinebelowcomb</string>
+			<string>doublebrevebelowcomb</string>
+			<string>breveinverteddoublecomb</string>
+			<string>macronacutecomb</string>
+			<string>gravemacroncomb</string>
+			<string>macrongravecomb</string>
+			<string>acutemacroncomb</string>
+			<string>graveacutegravecomb</string>
+			<string>acutegraveacutecomb</string>
 			<string>ae</string>
 			<string>ccedilla</string>
 			<string>eth</string>
@@ -220,58 +280,7 @@
 			<string>hmod</string>
 			<string>jmod</string>
 			<string>wmod</string>
-			<string>apostrophemod</string>
-			<string>glottalstopreversedmod</string>
-			<string>verticallinemod</string>
-			<string>verticallinelowmod</string>
-			<string>colontriangularmod</string>
-			<string>colontriangularhalfmod</string>
-			<string>rhotichookmod</string>
-			<string>gammamod-latin</string>
 			<string>lmod</string>
-			<string>tonebarextrahighmod</string>
-			<string>tonebarhighmod</string>
-			<string>tonebarmidmod</string>
-			<string>tonebarlowmod</string>
-			<string>tonebarextralowmod</string>
-			<string>lowringmod</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>circumflexcomb</string>
-			<string>tildecomb</string>
-			<string>macroncomb</string>
-			<string>overlinecomb</string>
-			<string>brevecomb</string>
-			<string>dieresiscomb</string>
-			<string>ringcomb</string>
-			<string>hungarumlautcomb</string>
-			<string>caroncomb</string>
-			<string>dblgravecomb</string>
-			<string>lefttackbelowcomb</string>
-			<string>righttackbelowcomb</string>
-			<string>leftangleabovecomb</string>
-			<string>ringhalfleftbelowcomb</string>
-			<string>uptackbelowcomb</string>
-			<string>downtackbelowcomb</string>
-			<string>plusbelowcomb</string>
-			<string>minusbelowcomb</string>
-			<string>dieresisbelowcomb</string>
-			<string>ringbelowcomb</string>
-			<string>verticallinebelowcomb</string>
-			<string>bridgebelowcomb</string>
-			<string>caronbelowcomb</string>
-			<string>breveinvertedbelowcomb</string>
-			<string>tildebelowcomb</string>
-			<string>lowlinecomb</string>
-			<string>tildeoverlaycomb</string>
-			<string>ringhalfrightbelowcomb</string>
-			<string>bridgeinvertedbelowcomb</string>
-			<string>squarebelowcomb</string>
-			<string>seagullbelowcomb</string>
-			<string>xabovecomb</string>
-			<string>doubleverticallinebelowcomb</string>
-			<string>doublebrevebelowcomb</string>
-			<string>breveinverteddoublecomb</string>
 			<string>beta</string>
 			<string>theta</string>
 			<string>chi</string>
@@ -286,16 +295,7 @@
 			<string>smiddletilde</string>
 			<string>tmiddletilde</string>
 			<string>zmiddletilde</string>
-			<string>macronacutecomb</string>
-			<string>gravemacroncomb</string>
-			<string>macrongravecomb</string>
-			<string>acutemacroncomb</string>
-			<string>graveacutegravecomb</string>
-			<string>acutegraveacutecomb</string>
-			<string>dblverticalbar</string>
-			<string>undertie</string>
 			<string>nmod</string>
-			<string>dottedCircle</string>
 			<string>raiseduparrowmod</string>
 			<string>raiseddownarrowmod</string>
 			<string>beta-latin</string>

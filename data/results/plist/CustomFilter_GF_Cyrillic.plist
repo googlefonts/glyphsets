@@ -5,22 +5,64 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>space</string>
-			<string>exclam</string>
-			<string>quotedbl</string>
-			<string>numbersign</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
+			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>multiply</string>
+			<string>divide</string>
+			<string>euro</string>
+			<string>numero</string>
+			<string>trademark</string>
+			<string>minus</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>guillemetleft</string>
+			<string>periodcentered</string>
+			<string>guillemetright</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotesinglbase</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>quotedblbase</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -31,13 +73,13 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>less</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>question</string>
-			<string>at</string>
+			<string>grave</string>
+			<string>apostrophemod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -64,12 +106,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>backslash</string>
-			<string>bracketright</string>
-			<string>asciicircum</string>
-			<string>underscore</string>
-			<string>grave</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -96,28 +132,6 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>braceleft</string>
-			<string>bar</string>
-			<string>braceright</string>
-			<string>asciitilde</string>
-			<string>nbspace</string>
-			<string>cent</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>copyright</string>
-			<string>guillemetleft</string>
-			<string>registered</string>
-			<string>degree</string>
-			<string>periodcentered</string>
-			<string>guillemetright</string>
-			<string>multiply</string>
-			<string>divide</string>
-			<string>apostrophemod</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>macroncomb</string>
-			<string>brevecomb</string>
-			<string>dieresiscomb</string>
 			<string>Io-cy</string>
 			<string>Dje-cy</string>
 			<string>E-cy</string>
@@ -232,20 +246,6 @@
 			<string>obarred-cy</string>
 			<string>Umacron-cy</string>
 			<string>umacron-cy</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotesinglbase</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>quotedblbase</string>
-			<string>bullet</string>
-			<string>ellipsis</string>
-			<string>euro</string>
-			<string>numero</string>
-			<string>trademark</string>
-			<string>minus</string>
 		</array>
 		<key>name</key>
 		<string>GF_Cyrillic_Core</string>
@@ -443,6 +443,14 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>thousand-cy</string>
+			<string>titlocomb-cy</string>
+			<string>palatalizationcomb-cy</string>
+			<string>dasiapneumatacomb-cy</string>
+			<string>psilipneumatacomb-cy</string>
+			<string>pokrytiecomb-cy</string>
+			<string>hundredthousandssigncomb-cy</string>
+			<string>millionssigncomb-cy</string>
 			<string>Omega-cy</string>
 			<string>omega-cy</string>
 			<string>Eiotified-cy</string>
@@ -469,14 +477,6 @@
 			<string>uni047F</string>
 			<string>Koppa-cy</string>
 			<string>koppa-cy</string>
-			<string>thousand-cy</string>
-			<string>titlocomb-cy</string>
-			<string>palatalizationcomb-cy</string>
-			<string>dasiapneumatacomb-cy</string>
-			<string>psilipneumatacomb-cy</string>
-			<string>pokrytiecomb-cy</string>
-			<string>hundredthousandssigncomb-cy</string>
-			<string>millionssigncomb-cy</string>
 			<string>OmegaBroad-cy</string>
 			<string>omegaBroad-cy</string>
 		</array>
@@ -486,22 +486,64 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>space</string>
-			<string>exclam</string>
-			<string>quotedbl</string>
-			<string>numbersign</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
+			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>multiply</string>
+			<string>divide</string>
+			<string>euro</string>
+			<string>numero</string>
+			<string>trademark</string>
+			<string>minus</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>guillemetleft</string>
+			<string>periodcentered</string>
+			<string>guillemetright</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotesinglbase</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>quotedblbase</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -512,13 +554,14 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>less</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>question</string>
-			<string>at</string>
+			<string>grave</string>
+			<string>apostrophemod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>hungarumlautcomb</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -545,12 +588,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>backslash</string>
-			<string>bracketright</string>
-			<string>asciicircum</string>
-			<string>underscore</string>
-			<string>grave</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -577,29 +614,6 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>braceleft</string>
-			<string>bar</string>
-			<string>braceright</string>
-			<string>asciitilde</string>
-			<string>nbspace</string>
-			<string>cent</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>copyright</string>
-			<string>guillemetleft</string>
-			<string>registered</string>
-			<string>degree</string>
-			<string>periodcentered</string>
-			<string>guillemetright</string>
-			<string>multiply</string>
-			<string>divide</string>
-			<string>apostrophemod</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>macroncomb</string>
-			<string>brevecomb</string>
-			<string>dieresiscomb</string>
-			<string>hungarumlautcomb</string>
 			<string>Io-cy</string>
 			<string>Dje-cy</string>
 			<string>Gje-cy</string>
@@ -756,20 +770,6 @@
 			<string>uhungarumlaut-cy</string>
 			<string>Chedieresis-cy</string>
 			<string>chedieresis-cy</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotesinglbase</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>quotedblbase</string>
-			<string>bullet</string>
-			<string>ellipsis</string>
-			<string>euro</string>
-			<string>numero</string>
-			<string>trademark</string>
-			<string>minus</string>
 		</array>
 		<key>name</key>
 		<string>GF_Cyrillic_Plus</string>
@@ -898,22 +898,64 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>space</string>
-			<string>exclam</string>
-			<string>quotedbl</string>
-			<string>numbersign</string>
 			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
+			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>multiply</string>
+			<string>divide</string>
+			<string>euro</string>
+			<string>numero</string>
+			<string>trademark</string>
+			<string>minus</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>exclam</string>
+			<string>quotedbl</string>
+			<string>numbersign</string>
 			<string>quotesingle</string>
 			<string>parenleft</string>
 			<string>parenright</string>
 			<string>asterisk</string>
-			<string>plus</string>
 			<string>comma</string>
 			<string>hyphen</string>
 			<string>period</string>
 			<string>slash</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>question</string>
+			<string>bracketleft</string>
+			<string>backslash</string>
+			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>guillemetleft</string>
+			<string>periodcentered</string>
+			<string>guillemetright</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotesinglbase</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>quotedblbase</string>
+			<string>bullet</string>
+			<string>ellipsis</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -924,13 +966,14 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>less</string>
-			<string>equal</string>
-			<string>greater</string>
-			<string>question</string>
-			<string>at</string>
+			<string>grave</string>
+			<string>apostrophemod</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>hungarumlautcomb</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -957,12 +1000,6 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
-			<string>bracketleft</string>
-			<string>backslash</string>
-			<string>bracketright</string>
-			<string>asciicircum</string>
-			<string>underscore</string>
-			<string>grave</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -989,29 +1026,6 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
-			<string>braceleft</string>
-			<string>bar</string>
-			<string>braceright</string>
-			<string>asciitilde</string>
-			<string>nbspace</string>
-			<string>cent</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>copyright</string>
-			<string>guillemetleft</string>
-			<string>registered</string>
-			<string>degree</string>
-			<string>periodcentered</string>
-			<string>guillemetright</string>
-			<string>multiply</string>
-			<string>divide</string>
-			<string>apostrophemod</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>macroncomb</string>
-			<string>brevecomb</string>
-			<string>dieresiscomb</string>
-			<string>hungarumlautcomb</string>
 			<string>Io-cy</string>
 			<string>Dje-cy</string>
 			<string>Gje-cy</string>
@@ -1222,20 +1236,6 @@
 			<string>enlefthook-cy</string>
 			<string>Eldescender-cy</string>
 			<string>eldescender-cy</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotesinglbase</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>quotedblbase</string>
-			<string>bullet</string>
-			<string>ellipsis</string>
-			<string>euro</string>
-			<string>numero</string>
-			<string>trademark</string>
-			<string>minus</string>
 		</array>
 		<key>name</key>
 		<string>GF_Cyrillic_Pro</string>
