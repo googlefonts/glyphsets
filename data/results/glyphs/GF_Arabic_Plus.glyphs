@@ -49,6 +49,12 @@ name = Regular;
 );
 glyphs = (
 {
+glyphname = "goalcomma-ar";
+},
+{
+glyphname = "fehdotless_alefMaksura-ar";
+},
+{
 glyphname = dottedCircle;
 unicode = 9676;
 },
@@ -297,6 +303,12 @@ glyphname = commareversed;
 unicode = 11841;
 },
 {
+glyphname = "fourFarsi-ar.urdu";
+},
+{
+glyphname = "sevenFarsi-ar.urdu";
+},
+{
 glyphname = zero;
 unicode = 48;
 },
@@ -425,6 +437,97 @@ glyphname = "nineFarsi-ar";
 unicode = 1785;
 },
 {
+glyphname = "tahabove-ar";
+unicode = 1557;
+},
+{
+glyphname = "dotabove-ar";
+},
+{
+glyphname = "dotbelow-ar";
+},
+{
+glyphname = "dotcenter-ar";
+},
+{
+glyphname = "twodotshorizontalabove-ar";
+},
+{
+glyphname = "twodotshorizontalbelow-ar";
+},
+{
+glyphname = "threedotsdownabove-ar";
+},
+{
+glyphname = "threedotsdownbelow-ar";
+},
+{
+glyphname = "threedotsdowncenter-ar";
+},
+{
+glyphname = "threedotsupabove-ar";
+},
+{
+glyphname = "wasla-ar";
+},
+{
+glyphname = "gafsarkashabove-ar";
+},
+{
+glyphname = "alefbelow-ar";
+unicode = 1622;
+},
+{
+glyphname = "hamzaaboveDamma-ar";
+},
+{
+glyphname = "hamzaaboveDammatan-ar";
+},
+{
+glyphname = "hamzaaboveFatha-ar";
+},
+{
+glyphname = "hamzaaboveFathatan-ar";
+},
+{
+glyphname = "hamzaaboveSukun-ar";
+},
+{
+glyphname = "hamzabelowKasra-ar";
+},
+{
+glyphname = "hamzabelowKasratan-ar";
+},
+{
+glyphname = "shaddaFathatan-ar";
+},
+{
+glyphname = "shaddaDammatan-ar";
+},
+{
+glyphname = "shaddaKasratan-ar";
+},
+{
+glyphname = "shaddaFatha-ar";
+},
+{
+glyphname = "shaddaDamma-ar";
+},
+{
+glyphname = "shaddaKasra-ar";
+},
+{
+glyphname = "shaddaAlefabove-ar";
+},
+{
+glyphname = "noonghunnaabove-ar";
+unicode = 1624;
+},
+{
+glyphname = "threedotsabove-ar";
+unicode = 1755;
+},
+{
 glyphname = grave;
 unicode = 96;
 },
@@ -467,6 +570,74 @@ unicode = 1620;
 {
 glyphname = "alefabove-ar";
 unicode = 1648;
+},
+{
+glyphname = "alef-ar.short";
+},
+{
+glyphname = "alefWasla-ar";
+unicode = 1649;
+},
+{
+glyphname = "behDotless-ar";
+unicode = 1646;
+},
+{
+glyphname = "fehDotless-ar";
+unicode = 1697;
+},
+{
+glyphname = "qafDotless-ar";
+unicode = 1647;
+},
+{
+glyphname = "noonghunna-ar";
+unicode = 1722;
+},
+{
+glyphname = "hehgoalHamzaabove-ar";
+unicode = 1730;
+},
+{
+glyphname = "tehMarbutagoal-ar";
+unicode = 1731;
+},
+{
+glyphname = "yehbarreeHamzaabove-ar";
+unicode = 1747;
+},
+{
+glyphname = "lam_alef-ar";
+},
+{
+glyphname = "lam_alefHamzaabove-ar";
+},
+{
+glyphname = "lam_alefHamzabelow-ar";
+},
+{
+glyphname = "lam_alefMadda-ar";
+},
+{
+glyphname = "lam_alefWasla-ar";
+},
+{
+glyphname = "feh_alefMaksura-ar";
+},
+{
+glyphname = "feh_yeh-ar";
+},
+{
+glyphname = "feh_yehHamzaabove-ar";
+},
+{
+glyphname = "qaf_alefMaksura-ar";
+},
+{
+glyphname = "qaf_yeh-ar";
+},
+{
+glyphname = "qaf_yehHamzaabove-ar";
 },
 {
 glyphname = A;

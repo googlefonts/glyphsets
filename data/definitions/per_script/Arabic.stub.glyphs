@@ -48,6 +48,212 @@ name = Regular;
 );
 glyphs = (
 {
+glyphname = "alef-ar.short";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "alefWasla-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1649;
+},
+{
+glyphname = "behDotless-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1646;
+},
+{
+glyphname = "fehDotless-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1697;
+},
+{
+glyphname = "qafDotless-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1647;
+},
+{
+glyphname = "noonghunna-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1722;
+},
+{
+glyphname = "hehgoalHamzaabove-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1730;
+},
+{
+glyphname = "tehMarbutagoal-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1731;
+},
+{
+glyphname = "yehbarreeHamzaabove-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1747;
+},
+{
+glyphname = "lam_alef-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "lam_alefHamzaabove-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "lam_alefHamzabelow-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "lam_alefMadda-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "lam_alefWasla-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "feh_alefMaksura-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "feh_yeh-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "feh_yehHamzaabove-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "qaf_alefMaksura-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "qaf_yeh-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "qaf_yehHamzaabove-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "fourFarsi-ar.urdu";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "sevenFarsi-ar.urdu";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
 glyphname = dottedCircle;
 layers = (
 {
@@ -56,6 +262,289 @@ width = 600;
 }
 );
 unicode = 9676;
+},
+{
+glyphname = "tahabove-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 1557;
+},
+{
+glyphname = "dotabove-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "dotbelow-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "dotcenter-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "twodotshorizontalabove-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "twodotshorizontalbelow-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "threedotsdownabove-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "threedotsdownbelow-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "threedotsdowncenter-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "threedotsupabove-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "wasla-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "gafsarkashabove-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "alefbelow-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 1622;
+},
+{
+glyphname = "hamzaaboveDamma-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "hamzaaboveDammatan-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "hamzaaboveFatha-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "hamzaaboveFathatan-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "hamzaaboveSukun-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "hamzabelowKasra-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "hamzabelowKasratan-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "shaddaFathatan-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "shaddaDammatan-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "shaddaKasratan-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "shaddaFatha-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "shaddaDamma-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "shaddaKasra-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "shaddaAlefabove-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "noonghunnaabove-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 1624;
+},
+{
+glyphname = "threedotsabove-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 1755;
+},
+{
+glyphname = "fehdotless_alefMaksura-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "goalcomma-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
 }
 );
 metrics = (

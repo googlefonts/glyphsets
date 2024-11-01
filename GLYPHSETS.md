@@ -41,17 +41,17 @@ Urdu (ur_Arab)
 
 ### Characters and Glyphs
 
-Letter (102 glyphs): 
-`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ـ ف ق ك ل م ن ه و ى ي ٹ پ چ ڈ ڑ ژ ک گ ھ ہ ی ے ݣ`
+Letter (122 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ـ ف ق ك ل م ن ه و ى ي ٮ ٯ ٱ ٹ پ چ ڈ ڑ ژ ڡ ک گ ں ھ ہ ۂ ۃ ی ے ۓ ݣ /alef-ar.short /feh_alefMaksura-ar /feh_yeh-ar /feh_yehHamzaabove-ar /lam_alef-ar /lam_alefHamzaabove-ar /lam_alefHamzabelow-ar /lam_alefMadda-ar /lam_alefWasla-ar /qaf_alefMaksura-ar /qaf_yeh-ar /qaf_yehHamzaabove-ar`
 
-Mark, nonspacing (12 glyphs): 
-`◌ً ◌ٌ ◌ٍ ◌َ ◌ُ ◌ِ ◌ّ ◌ْ ◌ٓ ◌ٔ ◌ٕ ◌ٰ`
+Mark, nonspacing (41 glyphs): 
+`◌ؕ ◌ً ◌ٌ ◌ٍ ◌َ ◌ُ ◌ِ ◌ّ ◌ْ ◌ٓ ◌ٔ ◌ٕ ◌ٖ ◌٘ ◌ٰ ◌ۛ ◌/dotabove-ar ◌/dotbelow-ar ◌/dotcenter-ar ◌/gafsarkashabove-ar ◌/hamzaaboveDamma-ar ◌/hamzaaboveDammatan-ar ◌/hamzaaboveFatha-ar ◌/hamzaaboveFathatan-ar ◌/hamzaaboveSukun-ar ◌/hamzabelowKasra-ar ◌/hamzabelowKasratan-ar ◌/shaddaAlefabove-ar ◌/shaddaDamma-ar ◌/shaddaDammatan-ar ◌/shaddaFatha-ar ◌/shaddaFathatan-ar ◌/shaddaKasra-ar ◌/shaddaKasratan-ar ◌/threedotsdownabove-ar ◌/threedotsdownbelow-ar ◌/threedotsdowncenter-ar ◌/threedotsupabove-ar ◌/twodotshorizontalabove-ar ◌/twodotshorizontalbelow-ar ◌/wasla-ar`
 
 Mark, spacing (1 glyphs): 
 `/grave`
 
-Number (32 glyphs): 
-`0 1 2 3 4 5 6 7 8 9 ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹`
+Number (34 glyphs): 
+`0 1 2 3 4 5 6 7 8 9 ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ /fourFarsi-ar.urdu /sevenFarsi-ar.urdu`
 
 Punctuation (41 glyphs): 
 `! " # ' ( ) * , - . / : ; ? [ \ ] _ { } « · » ، ؍ ؛ ؟ ٭ ۔ – — ‘ ’ “ ” • … ‹ › ﴾ ﴿`
@@ -61,6 +61,9 @@ Separator (2 glyphs):
 
 Symbol (25 glyphs): 
 `$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ ؉ ٪ € ™ − ◌`
+
+Uncategorized (2 glyphs): 
+`/fehdotless_alefMaksura-ar /goalcomma-ar`
 
 ### Resulting Glyphset Files
 
@@ -97,17 +100,17 @@ Uyghur (ug_Arab)
 
 ### Characters and Glyphs
 
-Letter (133 glyphs): 
-`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي ٺ ٻ ټ ٽ پ ٿ ڀ ځ ڃ ڄ څ چ ڇ ډ ڊ ڌ ڍ ڏ ړ ڕ ږ ژ ڙ ښ ڤ ڦ ک ڪ ګ ڭ گ ڱ ڳ ڵ ڻ ڼ ھ ۆ ۇ ۈ ۋ ی ۍ ێ ې ە`
+Letter (153 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي ٮ ٯ ٱ ٺ ٻ ټ ٽ پ ٿ ڀ ځ ڃ ڄ څ چ ڇ ډ ڊ ڌ ڍ ڏ ړ ڕ ږ ژ ڙ ښ ڡ ڤ ڦ ک ڪ ګ ڭ گ ڱ ڳ ڵ ں ڻ ڼ ھ ۂ ۃ ۆ ۇ ۈ ۋ ی ۍ ێ ې ۓ ە /alef-ar.short /feh_alefMaksura-ar /feh_yeh-ar /feh_yehHamzaabove-ar /lam_alef-ar /lam_alefHamzaabove-ar /lam_alefHamzabelow-ar /lam_alefMadda-ar /lam_alefWasla-ar /qaf_alefMaksura-ar /qaf_yeh-ar /qaf_yehHamzaabove-ar`
 
-Mark, nonspacing (10 glyphs): 
-`◌ً ◌ٌ ◌ٍ ◌َ ◌ُ ◌ِ ◌ّ ◌ْ ◌ٔ ◌ٰ`
+Mark, nonspacing (39 glyphs): 
+`◌ؕ ◌ً ◌ٌ ◌ٍ ◌َ ◌ُ ◌ِ ◌ّ ◌ْ ◌ٔ ◌ٖ ◌٘ ◌ٰ ◌ۛ ◌/dotabove-ar ◌/dotbelow-ar ◌/dotcenter-ar ◌/gafsarkashabove-ar ◌/hamzaaboveDamma-ar ◌/hamzaaboveDammatan-ar ◌/hamzaaboveFatha-ar ◌/hamzaaboveFathatan-ar ◌/hamzaaboveSukun-ar ◌/hamzabelowKasra-ar ◌/hamzabelowKasratan-ar ◌/shaddaAlefabove-ar ◌/shaddaDamma-ar ◌/shaddaDammatan-ar ◌/shaddaFatha-ar ◌/shaddaFathatan-ar ◌/shaddaKasra-ar ◌/shaddaKasratan-ar ◌/threedotsdownabove-ar ◌/threedotsdownbelow-ar ◌/threedotsdowncenter-ar ◌/threedotsupabove-ar ◌/twodotshorizontalabove-ar ◌/twodotshorizontalbelow-ar ◌/wasla-ar`
 
 Mark, spacing (1 glyphs): 
 `/grave`
 
-Number (32 glyphs): 
-`0 1 2 3 4 5 6 7 8 9 ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹`
+Number (34 glyphs): 
+`0 1 2 3 4 5 6 7 8 9 ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ /fourFarsi-ar.urdu /sevenFarsi-ar.urdu`
 
 Punctuation (34 glyphs): 
 `! " # ' ( ) * , - . / : ; ? [ \ ] _ { } · ، ۔ ۽ – — ‘ ’ “ ” • … ⁏ ⹁`
@@ -117,6 +120,9 @@ Separator (2 glyphs):
 
 Symbol (26 glyphs): 
 `$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ ؉ ٪ ۾ € ™ − ◌`
+
+Uncategorized (2 glyphs): 
+`/fehdotless_alefMaksura-ar /goalcomma-ar`
 
 ### Resulting Glyphset Files
 
