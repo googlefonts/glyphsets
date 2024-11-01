@@ -110,6 +110,7 @@ def build_glyphsapp_filter_list(glyphsets, out, use_production_names=False):
 
 REGIONS = gflanguages.LoadRegions()
 LANGUAGES = gflanguages.LoadLanguages()
+glyphset_cache = {}
 
 
 class GlyphSet(object):
@@ -119,7 +120,13 @@ class GlyphSet(object):
         """
         Class factory method to load a glyphset by name.
         Can later be altered to return different classes based on modifiers."""
-        return cls(name)
+
+        if name in glyphset_cache:
+            return glyphset_cache[name]
+        else:
+            glyphset = cls(name)
+            glyphset_cache[name] = glyphset
+            return glyphset
 
     def __init__(self, name):
         if " " in name:
