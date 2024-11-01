@@ -18,6 +18,7 @@ Below are the most important changes from each release.
 - Following inheritance, put out exclusive glyphsets for `.plist` files for now; may be extended to other outputs later
 - Add `CustomFilter_GF_All.plist.plist`
 - Manually added **GF_Latin_Kernel** to all modern **Arabic**, **Cyrillic** glyphsets as well as **GF_Greek_Core**
+- Added dynamic Cyrillic Roman/Italic localization glyphsets to `.plist` files
 
 ### v1.0.0 (2024-05-03)
 #### Changes since last release

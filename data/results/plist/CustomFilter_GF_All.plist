@@ -1083,6 +1083,64 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>De-cy.loclBGR</string>
+			<string>Ii-cy.loclBGR</string>
+			<string>Iishort-cy.loclBGR</string>
+			<string>El-cy.loclBGR</string>
+			<string>Ef-cy.loclBGR</string>
+			<string>Gestroke-cy.loclBSH</string>
+			<string>ve-cy.loclBGR</string>
+			<string>zhe-cy.loclBGR</string>
+			<string>ze-cy.loclBGR</string>
+			<string>ii-cy.loclBGR</string>
+			<string>iishort-cy.loclBGR</string>
+			<string>ka-cy.loclBGR</string>
+			<string>el-cy.loclBGR</string>
+			<string>pe-cy.loclBGR</string>
+			<string>te-cy.loclBGR</string>
+			<string>yu-cy.loclBGR</string>
+			<string>gestroke-cy.loclBSH</string>
+			<string>be-cy.loclSRB</string>
+		</array>
+		<key>name</key>
+		<string>GF_Cyrillic_Core Roman Localizations</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
+			<string>De-cy.loclBGR</string>
+			<string>Ii-cy.loclBGR</string>
+			<string>Iishort-cy.loclBGR</string>
+			<string>El-cy.loclBGR</string>
+			<string>Ef-cy.loclBGR</string>
+			<string>Gestroke-cy.loclBSH</string>
+			<string>ve-cy.loclBGR</string>
+			<string>ge-cy.loclBGR</string>
+			<string>de-cy.loclBGR</string>
+			<string>zhe-cy.loclBGR</string>
+			<string>ze-cy.loclBGR</string>
+			<string>ii-cy.loclBGR</string>
+			<string>iishort-cy.loclBGR</string>
+			<string>ka-cy.loclBGR</string>
+			<string>el-cy.loclBGR</string>
+			<string>pe-cy.loclBGR</string>
+			<string>te-cy.loclBGR</string>
+			<string>yu-cy.loclBGR</string>
+			<string>gestroke-cy.loclBSH</string>
+			<string>be-cy.loclSRB</string>
+			<string>ge-cy.loclSRB</string>
+			<string>de-cy.loclSRB</string>
+			<string>ii-cy.loclSRB</string>
+			<string>pe-cy.loclSRB</string>
+			<string>te-cy.loclSRB</string>
+			<string>sha-cy.loclSRB</string>
+		</array>
+		<key>name</key>
+		<string>GF_Cyrillic_Core Italic Localizations</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
 			<string>Omega-cy</string>
 			<string>omega-cy</string>
 			<string>Eiotified-cy</string>
@@ -1463,6 +1521,77 @@
 		</array>
 		<key>name</key>
 		<string>GF_Cyrillic_Plus Exclusive</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
+			<string>De-cy.loclBGR</string>
+			<string>Ii-cy.loclBGR</string>
+			<string>Iishort-cy.loclBGR</string>
+			<string>El-cy.loclBGR</string>
+			<string>Ef-cy.loclBGR</string>
+			<string>Gestroke-cy.loclBSH</string>
+			<string>Zedescender-cy.loclBSH</string>
+			<string>Esdescender-cy.loclBSH</string>
+			<string>Esdescender-cy.loclCHU</string>
+			<string>ve-cy.loclBGR</string>
+			<string>zhe-cy.loclBGR</string>
+			<string>ze-cy.loclBGR</string>
+			<string>ii-cy.loclBGR</string>
+			<string>iishort-cy.loclBGR</string>
+			<string>ka-cy.loclBGR</string>
+			<string>el-cy.loclBGR</string>
+			<string>pe-cy.loclBGR</string>
+			<string>te-cy.loclBGR</string>
+			<string>yu-cy.loclBGR</string>
+			<string>gestroke-cy.loclBSH</string>
+			<string>zedescender-cy.loclBSH</string>
+			<string>esdescender-cy.loclBSH</string>
+			<string>esdescender-cy.loclCHU</string>
+			<string>be-cy.loclSRB</string>
+		</array>
+		<key>name</key>
+		<string>GF_Cyrillic_Plus Roman Localizations</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
+			<string>De-cy.loclBGR</string>
+			<string>Ii-cy.loclBGR</string>
+			<string>Iishort-cy.loclBGR</string>
+			<string>El-cy.loclBGR</string>
+			<string>Ef-cy.loclBGR</string>
+			<string>Gestroke-cy.loclBSH</string>
+			<string>Zedescender-cy.loclBSH</string>
+			<string>Esdescender-cy.loclBSH</string>
+			<string>Esdescender-cy.loclCHU</string>
+			<string>ve-cy.loclBGR</string>
+			<string>ge-cy.loclBGR</string>
+			<string>de-cy.loclBGR</string>
+			<string>zhe-cy.loclBGR</string>
+			<string>ze-cy.loclBGR</string>
+			<string>ii-cy.loclBGR</string>
+			<string>iishort-cy.loclBGR</string>
+			<string>ka-cy.loclBGR</string>
+			<string>el-cy.loclBGR</string>
+			<string>pe-cy.loclBGR</string>
+			<string>te-cy.loclBGR</string>
+			<string>yu-cy.loclBGR</string>
+			<string>gestroke-cy.loclBSH</string>
+			<string>zedescender-cy.loclBSH</string>
+			<string>esdescender-cy.loclBSH</string>
+			<string>esdescender-cy.loclCHU</string>
+			<string>gje-cy.loclMKD</string>
+			<string>be-cy.loclSRB</string>
+			<string>ge-cy.loclSRB</string>
+			<string>de-cy.loclSRB</string>
+			<string>ii-cy.loclSRB</string>
+			<string>pe-cy.loclSRB</string>
+			<string>te-cy.loclSRB</string>
+			<string>sha-cy.loclSRB</string>
+		</array>
+		<key>name</key>
+		<string>GF_Cyrillic_Plus Italic Localizations</string>
 	</dict>
 	<dict>
 		<key>list</key>
@@ -1869,6 +1998,77 @@
 		</array>
 		<key>name</key>
 		<string>GF_Cyrillic_Pro Exclusive</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
+			<string>De-cy.loclBGR</string>
+			<string>Ii-cy.loclBGR</string>
+			<string>Iishort-cy.loclBGR</string>
+			<string>El-cy.loclBGR</string>
+			<string>Ef-cy.loclBGR</string>
+			<string>Gestroke-cy.loclBSH</string>
+			<string>Zedescender-cy.loclBSH</string>
+			<string>Esdescender-cy.loclBSH</string>
+			<string>Esdescender-cy.loclCHU</string>
+			<string>ve-cy.loclBGR</string>
+			<string>zhe-cy.loclBGR</string>
+			<string>ze-cy.loclBGR</string>
+			<string>ii-cy.loclBGR</string>
+			<string>iishort-cy.loclBGR</string>
+			<string>ka-cy.loclBGR</string>
+			<string>el-cy.loclBGR</string>
+			<string>pe-cy.loclBGR</string>
+			<string>te-cy.loclBGR</string>
+			<string>yu-cy.loclBGR</string>
+			<string>gestroke-cy.loclBSH</string>
+			<string>zedescender-cy.loclBSH</string>
+			<string>esdescender-cy.loclBSH</string>
+			<string>esdescender-cy.loclCHU</string>
+			<string>be-cy.loclSRB</string>
+		</array>
+		<key>name</key>
+		<string>GF_Cyrillic_Pro Roman Localizations</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
+			<string>De-cy.loclBGR</string>
+			<string>Ii-cy.loclBGR</string>
+			<string>Iishort-cy.loclBGR</string>
+			<string>El-cy.loclBGR</string>
+			<string>Ef-cy.loclBGR</string>
+			<string>Gestroke-cy.loclBSH</string>
+			<string>Zedescender-cy.loclBSH</string>
+			<string>Esdescender-cy.loclBSH</string>
+			<string>Esdescender-cy.loclCHU</string>
+			<string>ve-cy.loclBGR</string>
+			<string>ge-cy.loclBGR</string>
+			<string>de-cy.loclBGR</string>
+			<string>zhe-cy.loclBGR</string>
+			<string>ze-cy.loclBGR</string>
+			<string>ii-cy.loclBGR</string>
+			<string>iishort-cy.loclBGR</string>
+			<string>ka-cy.loclBGR</string>
+			<string>el-cy.loclBGR</string>
+			<string>pe-cy.loclBGR</string>
+			<string>te-cy.loclBGR</string>
+			<string>yu-cy.loclBGR</string>
+			<string>gestroke-cy.loclBSH</string>
+			<string>zedescender-cy.loclBSH</string>
+			<string>esdescender-cy.loclBSH</string>
+			<string>esdescender-cy.loclCHU</string>
+			<string>gje-cy.loclMKD</string>
+			<string>be-cy.loclSRB</string>
+			<string>ge-cy.loclSRB</string>
+			<string>de-cy.loclSRB</string>
+			<string>ii-cy.loclSRB</string>
+			<string>pe-cy.loclSRB</string>
+			<string>te-cy.loclSRB</string>
+			<string>sha-cy.loclSRB</string>
+		</array>
+		<key>name</key>
+		<string>GF_Cyrillic_Pro Italic Localizations</string>
 	</dict>
 	<dict>
 		<key>list</key>

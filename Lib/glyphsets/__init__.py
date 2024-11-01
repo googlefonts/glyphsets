@@ -187,6 +187,12 @@ class GlyphSet(object):
         if self.get_included_glyphsets():
             extended_glyphsets.append(self.name + " Exclusive")
 
+        # Cyrillic Roman/Italic variants
+        if self.script == "Cyrillic" and GlyphSet.load(f"{self.name} Roman Localizations").get_final_glyphnames():
+            extended_glyphsets.append(f"{self.name} Roman Localizations")
+        if self.script == "Cyrillic" and GlyphSet.load(f"{self.name} Italic Localizations").get_final_glyphnames():
+            extended_glyphsets.append(f"{self.name} Italic Localizations")
+
         return extended_glyphsets
 
     def get_language_codes(self):
@@ -382,6 +388,20 @@ class GlyphSet(object):
 
     def get_final_glyphnames(self, exclusive=True):
 
+        glyph_names = [glyph.name for glyph in self.get_final_glyph_objects()]
+
+        if self.script == "Cyrillic" and self.modifier in ("Roman Localizations", "Italic Localizations"):
+            font = glyphsLib.load(
+                os.path.join(
+                    root_folder, "definitions", "misc", f"cyrillic_locl_{self.modifier.split(' ')[0].lower()}.glyphs"
+                )
+            )
+            locl_glyphs = []
+            for glyph in font.glyphs:
+                if glyph.name.split(".")[0] in glyph_names:
+                    locl_glyphs.append(glyph.name)
+            return locl_glyphs
+
         if self.modifier == "Exclusive" and exclusive:
 
             inherited_glyphs = set()
@@ -397,7 +417,6 @@ class GlyphSet(object):
             return sorted(glyph_names, key=functools.cmp_to_key(sort_unicodes_by_name))
 
         else:
-            glyph_names = [glyph.name for glyph in self.get_final_glyph_objects()]
             return glyph_names
 
     def get_final_productionglyphnames(self):

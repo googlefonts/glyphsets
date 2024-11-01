@@ -63,7 +63,7 @@ def assemble_characterset(root_folder, glyphset_name):
 
     final_glyphnames = glyphset.get_final_glyphnames()
 
-    if glyphset.modifier not in ("Exclusive",):
+    if not glyphset.modifier:
 
         font = glyphset.get_final_glyphs_font()
 
