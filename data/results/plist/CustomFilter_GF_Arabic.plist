@@ -217,6 +217,7 @@
 			<string>euro</string>
 			<string>trademark</string>
 			<string>minus</string>
+			<string>dottedCircle</string>
 			<string>parenleft-ar</string>
 			<string>parenright-ar</string>
 		</array>
@@ -322,6 +323,7 @@
 			<string>kehehThreedotsabove-ar</string>
 			<string>guilsinglleft</string>
 			<string>guilsinglright</string>
+			<string>dottedCircle</string>
 			<string>parenleft-ar</string>
 			<string>parenright-ar</string>
 		</array>
@@ -567,6 +569,7 @@
 			<string>euro</string>
 			<string>trademark</string>
 			<string>minus</string>
+			<string>dottedCircle</string>
 			<string>commareversed</string>
 		</array>
 		<key>name</key>
@@ -695,6 +698,7 @@
 			<string>sindhiampersand-ar</string>
 			<string>sindhipostpositionmen-ar</string>
 			<string>reversedsemicolon</string>
+			<string>dottedCircle</string>
 			<string>commareversed</string>
 		</array>
 		<key>name</key>

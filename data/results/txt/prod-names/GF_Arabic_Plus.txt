@@ -235,4 +235,5 @@ uni204F
 Euro
 trademark
 minus
+uni25CC
 uni2E41

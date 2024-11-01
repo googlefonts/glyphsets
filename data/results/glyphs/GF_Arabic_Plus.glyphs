@@ -49,6 +49,10 @@ name = Regular;
 );
 glyphs = (
 {
+glyphname = dottedCircle;
+unicode = 9676;
+},
+{
 glyphname = dollar;
 unicode = 36;
 },

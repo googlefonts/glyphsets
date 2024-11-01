@@ -235,4 +235,5 @@ reversedsemicolon
 euro
 trademark
 minus
+dottedCircle
 commareversed

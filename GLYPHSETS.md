@@ -59,8 +59,8 @@ Punctuation (41 glyphs):
 Separator (2 glyphs): 
 `   `
 
-Symbol (24 glyphs): 
-`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ ؉ ٪ € ™ −`
+Symbol (25 glyphs): 
+`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ ؉ ٪ € ™ − ◌`
 
 ### Resulting Glyphset Files
 
@@ -115,8 +115,8 @@ Punctuation (34 glyphs):
 Separator (2 glyphs): 
 `   `
 
-Symbol (25 glyphs): 
-`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ ؉ ٪ ۾ € ™ −`
+Symbol (26 glyphs): 
+`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ ؉ ٪ ۾ € ™ − ◌`
 
 ### Resulting Glyphset Files
 
