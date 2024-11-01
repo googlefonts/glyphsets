@@ -1593,6 +1593,10 @@ glyphname = glottalstop;
 unicode = 660;
 },
 {
+glyphname = glottalstopreversed;
+unicode = 661;
+},
+{
 glyphname = bilabialclick;
 unicode = 664;
 },
@@ -1927,6 +1931,14 @@ unicode = 7806;
 {
 glyphname = vdotbelow;
 unicode = 7807;
+},
+{
+glyphname = Wacute;
+unicode = 7810;
+},
+{
+glyphname = wacute;
+unicode = 7811;
 },
 {
 glyphname = Wdieresis;

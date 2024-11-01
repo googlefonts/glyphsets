@@ -338,6 +338,7 @@ vhook
 vturned
 ezh
 glottalstop
+glottalstopreversed
 bilabialclick
 jcrossedtail
 wmod
@@ -456,6 +457,8 @@ Vtilde
 vtilde
 Vdotbelow
 vdotbelow
+Wacute
+wacute
 Wdieresis
 wdieresis
 Xdotaccent

@@ -822,7 +822,7 @@ Spanish (es_Latn)
 `
 
 
-The following list of **607** languages is computed as a result of the dynamic conditions described above:
+The following list of **617** languages is computed as a result of the dynamic conditions described above:
 
 `
 Abidji (abi_Latn),
@@ -914,7 +914,6 @@ Budu (buu_Latn),
 Bulu (bum_Latn),
 Bura-Pabir (bwr_Latn),
 Burak (bys_Latn),
-Burkinabè Kasem (xsm_Latn_BF),
 Bushi (buc_Latn),
 Bété, Daloa (bev_Latn),
 Bété, Guiberoua (bet_Latn),
@@ -996,6 +995,7 @@ Fur (fvr_Latn),
 Ga (gaa_Latn),
 Gamo (gmv_Latn),
 Ganda (lg_Latn),
+Gawwada (gwd_Latn),
 Gbari (gby_Latn),
 Gbaya, Sudan (krs_Latn),
 Gbaya-Mbodomo (gmm_Latn),
@@ -1024,6 +1024,7 @@ Guro (goa_Latn),
 Gusii (guz_Latn),
 Gwak (jgk_Latn),
 Gyele (gyi_Latn),
+Hadiyya (hdy_Latn),
 Hanga (hag_Latn),
 Harari (har_Latn),
 Hassaniyya (mey_Latn),
@@ -1044,6 +1045,7 @@ Ika (ikk_Latn),
 Ikposo (kpo_Latn),
 Ikwere (ikw_Latn),
 Ikwo (iqw_Latn),
+Iraqw (irk_Latn),
 Iten (etx_Latn),
 Ivbie North-Okpela-Arhe (atg_Latn),
 Izere (izr_Latn),
@@ -1073,9 +1075,12 @@ Kanuri, Central (knc_Latn),
 Kanuri, Manga (kby_Latn),
 Kaonde (kqn_Latn),
 Karaboro, Eastern (xrb_Latn),
+Karamojong (kdj_Latn),
 Karang (kzr_Latn),
 Karekare (kai_Latn),
 Kasem (xsm_Latn),
+Kasem, Burkina Faso (xsm_Latn_BF),
+Keliko (kbo_Latn),
 Kenga (kyq_Latn),
 Kenyang (ken_Latn),
 Kibaku (ckl_Latn),
@@ -1139,7 +1144,9 @@ Lobi (lob_Latn),
 Logo (log_Latn),
 Lokaa (yaz_Latn),
 Loko (lok_Latn),
+Loma, Liberia (lom_Latn),
 Lomwe (ngl_Latn),
+Longto (wok_Latn),
 Longuda (lnu_Latn),
 Lozi (loz_Latn),
 Luba-Katanga (lu_Latn),
@@ -1221,6 +1228,7 @@ Mwan (moa_Latn),
 Mwani (wmw_Latn),
 Ménik (tnr_Latn),
 Mündü (muh_Latn),
+Naba (mne_Latn),
 Nafaanra (nfr_Latn),
 Nama (naq_Latn),
 Nara (nrb_Latn),
@@ -1376,6 +1384,7 @@ Tooro (ttj_Latn),
 Toposa (toq_Latn),
 Toura (neb_Latn),
 Toussian, Southern (wib_Latn),
+Tsamai (tsb_Latn),
 Tsikimba (kdl_Latn),
 Tsishingini (tsw_Latn),
 Tsonga (ts_Latn),
@@ -1404,6 +1413,7 @@ Wamey (cou_Latn),
 Wan (wan_Latn),
 Wandala (mfi_Latn),
 Warji (wji_Latn),
+Western Krahn (krw_Latn),
 Winyé (kst_Latn),
 Wolaytta (Latin) (wal_Latn),
 Wolof (wo_Latn),
@@ -1436,8 +1446,8 @@ ut-Ma’in (gel_Latn)
 
 ### Characters and Glyphs
 
-Letter (439 glyphs): 
-`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ª º À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ó ô õ ö ø ù ú û ü ý ÿ Ā ā Ă ă Ą ą Ĉ ĉ Č č Đ đ Ē ē Ė ė Ę ę Ě ě Ĥ ĥ Ħ ħ Ĩ ĩ Ī ī Į į Ĺ ĺ Ń ń Ň ň Ŋ ŋ Ō ō Ő ő Œ œ Ŕ ŕ Ŗ ŗ Ř ř Ś ś Ŝ ŝ Ş ş Š š Ţ ţ Ŧ ŧ Ũ ũ Ū ū Ű ű Ų ų Ŵ ŵ Ŷ ŷ Ÿ Ż ż Ž ž Ɓ Ƃ ƃ Ɔ Ƈ ƈ Ɖ Ɗ Ǝ Ə Ɛ Ƒ Ɠ Ɣ Ɩ Ɨ Ƙ ƙ Ɯ Ɲ Ɵ Ƥ ƥ Ʃ Ƭ ƭ Ʈ Ʊ Ʋ Ƴ ƴ Ʒ Ƹ ƹ ǀ ǁ ǂ ǃ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǘ ǘ ǝ Ǣ ǣ Ǧ ǧ Ǫ ǫ ǰ Ǹ ǹ Ǽ ǽ Ǿ ǿ Ȁ ȁ Ȅ ȅ Ȉ ȉ Ȍ ȍ Ȓ ȓ Ȕ ȕ Ȧ ȧ Ȩ ȩ Ȳ ȳ Ɂ ɂ Ʉ Ʌ Ɉ ɉ Ɍ ɍ ɐ ɑ ɓ ɔ ɖ ɗ ə ɛ ɠ ɣ ɤ ɥ ɦ ɨ ɩ ɪ ɯ ɲ ɵ ɽ ʃ ʈ ʉ ʊ ʋ ʌ ʒ ʔ ʘ ʝ ʷ ᵃ ᵉ ᵋ ᵒ ᵓ ᵘ ᵽ ᶤ ᶶ Ḅ ḅ Ḇ ḇ Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḓ ḓ Ḕ ḕ Ḛ ḛ Ḣ ḣ Ḥ ḥ Ḭ ḭ Ḯ ḯ Ḳ ḳ Ḵ ḵ Ḷ ḷ Ḽ ḽ Ḿ ḿ Ṃ ṃ Ṅ ṅ Ṇ ṇ Ṉ ṉ Ṋ ṋ Ṍ ṍ Ṕ ṕ Ṛ ṛ Ṡ ṡ Ṣ ṣ Ṫ ṫ Ṭ ṭ Ṯ ṯ Ṱ ṱ Ṳ ṳ Ṵ ṵ Ṹ ṹ Ṽ ṽ Ṿ ṿ Ẅ ẅ Ẋ ẋ Ẓ ẓ ẖ Ạ ạ Ậ ậ Ẹ ẹ Ẽ ẽ Ệ ệ Ị ị Ọ ọ Ộ ộ Ụ ụ Ỳ ỳ Ỹ ỹ ⁱ Ᵽ Ɽ Ɑ Ɐ Ⱳ ⱳ Ꞌ ꞌ Ɥ Ɦ Ɪ Ʝ Ꞵ ꞵ Ꞷ ꞷ Ꟈ ꟈ Ɤ`
+Letter (442 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ª º À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ó ô õ ö ø ù ú û ü ý ÿ Ā ā Ă ă Ą ą Ĉ ĉ Č č Đ đ Ē ē Ė ė Ę ę Ě ě Ĥ ĥ Ħ ħ Ĩ ĩ Ī ī Į į Ĺ ĺ Ń ń Ň ň Ŋ ŋ Ō ō Ő ő Œ œ Ŕ ŕ Ŗ ŗ Ř ř Ś ś Ŝ ŝ Ş ş Š š Ţ ţ Ŧ ŧ Ũ ũ Ū ū Ű ű Ų ų Ŵ ŵ Ŷ ŷ Ÿ Ż ż Ž ž Ɓ Ƃ ƃ Ɔ Ƈ ƈ Ɖ Ɗ Ǝ Ə Ɛ Ƒ Ɠ Ɣ Ɩ Ɨ Ƙ ƙ Ɯ Ɲ Ɵ Ƥ ƥ Ʃ Ƭ ƭ Ʈ Ʊ Ʋ Ƴ ƴ Ʒ Ƹ ƹ ǀ ǁ ǂ ǃ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǘ ǘ ǝ Ǣ ǣ Ǧ ǧ Ǫ ǫ ǰ Ǹ ǹ Ǽ ǽ Ǿ ǿ Ȁ ȁ Ȅ ȅ Ȉ ȉ Ȍ ȍ Ȓ ȓ Ȕ ȕ Ȧ ȧ Ȩ ȩ Ȳ ȳ Ɂ ɂ Ʉ Ʌ Ɉ ɉ Ɍ ɍ ɐ ɑ ɓ ɔ ɖ ɗ ə ɛ ɠ ɣ ɤ ɥ ɦ ɨ ɩ ɪ ɯ ɲ ɵ ɽ ʃ ʈ ʉ ʊ ʋ ʌ ʒ ʔ ʕ ʘ ʝ ʷ ᵃ ᵉ ᵋ ᵒ ᵓ ᵘ ᵽ ᶤ ᶶ Ḅ ḅ Ḇ ḇ Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḓ ḓ Ḕ ḕ Ḛ ḛ Ḣ ḣ Ḥ ḥ Ḭ ḭ Ḯ ḯ Ḳ ḳ Ḵ ḵ Ḷ ḷ Ḽ ḽ Ḿ ḿ Ṃ ṃ Ṅ ṅ Ṇ ṇ Ṉ ṉ Ṋ ṋ Ṍ ṍ Ṕ ṕ Ṛ ṛ Ṡ ṡ Ṣ ṣ Ṫ ṫ Ṭ ṭ Ṯ ṯ Ṱ ṱ Ṳ ṳ Ṵ ṵ Ṹ ṹ Ṽ ṽ Ṿ ṿ Ẃ ẃ Ẅ ẅ Ẋ ẋ Ẓ ẓ ẖ Ạ ạ Ậ ậ Ẹ ẹ Ẽ ẽ Ệ ệ Ị ị Ọ ọ Ộ ộ Ụ ụ Ỳ ỳ Ỹ ỹ ⁱ Ᵽ Ɽ Ɑ Ɐ Ⱳ ⱳ Ꞌ ꞌ Ɥ Ɦ Ɪ Ʝ Ꞵ ꞵ Ꞷ ꞷ Ꟈ ꟈ Ɤ`
 
 Mark, nonspacing (28 glyphs): 
 `◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̊ ◌̋ ◌̌ ◌̍ ◌̏ ◌̑ ◌̣ ◌̤ ◌̥ ◌̧ ◌̨ ◌̭ ◌̯ ◌̰ ◌̱ ◌͟ ◌᷄ ◌᷅ ◌᷆ ◌᷇`
@@ -1456,10 +1466,10 @@ Symbol (11 glyphs):
 
 ### Character Sequences
 
-The following 762 composed character sequences are decomposed in the font:
+The following 776 composed character sequences are decomposed in the font:
 
 `
-A̋ A̍ A̧ A̧̍ A̰ A̱ A᷄ A᷅ A᷆ A᷇ B̀ B́ B̯ C̱ D̯ E̋ E̍ E̱ E᷄ E᷅ E᷆ E᷇ G̈ G̣ H̃ H̱ I̋ I̍ I̧ Ì̧ Í̧ Ī̧ I̱ I᷄ I᷅ I᷆ I᷇ J̌ L̀ L̄ L̥ M̀ Ḿ M̂ M̄ N̂ N̄ N̈ N̰ O̍ O̧ O̰ O̱ O᷄ O᷅ O᷆ O᷇ P̱ R̀ R̂ R̃ R̄ S̀ T̯ T͟H U̍ U̧ U̱ U᷄ U᷅ U᷆ U᷇ V̄ V̱ W̃ W̄ W̤ a̋ a̍ a̧ a̧̍ a̰ a̱ a᷄ a᷅ a᷆ a᷇ b̀ b́ b̯ c̱ d̯ e̋ e̍ e̱ e᷄ e᷅ e᷆ e᷇ g̈ g̣ h̃ i̋ i̍ i̧ ì̧ í̧ ī̧ i̱ i᷄ i᷅ i᷆ i᷇ l̀ l̄ l̥ m̀ ḿ m̂ m̄ n̂ n̄ n̈ n̰ o̍ o̧ o̰ o̱ o᷄ o᷅ o᷆ o᷇ p̱ r̀ r̂ r̃ r̄ s̀ t̯ t͟h u̍ u̧ u̱ u᷄ u᷅ u᷆ u᷇ v̄ v̱ w̃ w̄ w̤ À̧ À̰ Á̧ Á̰ Á̱ Â̧ Â̱ Ã̀ Ã́ Ã̂ Ã̄ Ã̌ Ã̍ Ä̀ Ä́ Ä̃ Æ̀ Æ̂ Æ̋ Æ̌ Æ̏ Ë́ Ë̃ Ë̱ Ì̧ Í̧ Í̱ Î̧ Ï̃ Ï̱ Ò̧ Ò̰ Ó̧ Ó̰ Ô̧ Õ̀ Õ̂ Õ̌ Õ̱ Ö́ Ö̃ Ø̀ Ø̂ Ø̃ Ø̃̀ Ø̃́ Ø̃̂ Ø̋ Ø̌ Ù̧ Ú̧ Û̧ Ü̃ Ü̱ à̧ à̰ á̧ á̰ á̱ â̧ â̱ ã̀ ã́ ã̂ ã̄ ã̌ ã̍ ä̀ ä́ ä̃ æ̀ æ̂ æ̋ æ̌ æ̏ ë́ ë̃ ë̱ ì̧ í̧ í̱ î̧ ï̃ ï̱ ò̧ ò̰ ó̧ ó̰ ô̧ õ̀ õ̂ õ̌ õ̱ ö́ ö̃ ø̀ ø̂ ø̃ ø̃̀ ø̃́ ø̃̂ ø̋ ø̌ ù̧ ú̧ û̧ ü̃ ü̱ Ā̧ Ā̰ ā̧ ā̰ Ą́ ą́ Ĩ̀ Ĩ́ Ĩ̂ Ĩ̌ Ĩ̍ ĩ̀ ĩ́ ĩ̂ ĩ̌ ĩ̍ Į́ į́ Ŋ̀ Ŋ́ Ŋ̂ Ŋ̄ Ŋ̈ Ŋ̍ ŋ̀ ŋ́ ŋ̂ ŋ̄ ŋ̈ ŋ̍ Ō̰ ō̰ Œ̀ Œ́ Œ̂ Œ̄ Œ̋ Œ̌ Œ̏ œ̀ œ́ œ̂ œ̄ œ̋ œ̌ œ̏ Ũ̀ Ũ̂ Ũ̄ Ũ̌ Ũ̍ Ũ᷆ ũ̀ ũ̂ ũ̄ ũ̌ ũ̍ ũ᷆ Ū̧ ū̧ Ų́ ų́ Ɔ̀ Ɔ́ Ɔ̂ Ɔ̃ Ɔ̃̀ Ɔ̃́ Ɔ̃̂ Ɔ̃̄ Ɔ̃̌ Ɔ̃̍ Ɔ̄ Ɔ̈ Ɔ̌ Ɔ̍ Ɔ̧ Ɔ̧̀ Ɔ̧́ Ɔ̧̂ Ɔ̧̄ Ɔ̧̌ Ɔ̨ Ɔ̨́ Ɔ̰ Ɔ̰̀ Ɔ̰́ Ɔ̰̄ Ɔ̱ Ɔ᷄ Ɔ᷅ Ɔ᷆ Ɔ᷇ Ǝ̀ Ǝ́ Ǝ̂ Ǝ̃ Ǝ̃̀ Ǝ̃́ Ǝ̃̂ Ǝ̄ Ǝ̌ Ǝ̰ Ə̀ Ə́ Ə̂ Ə̄ Ə̈ Ə̌ Ə̧ Ə̧̀ Ə̧́ Ə̧̂ Ə̨ Ə̨́ Ə̰ Ə̰̀ Ə̰́ Ə̰̄ Ɛ̀ Ɛ́ Ɛ̧́ Ɛ̂ Ɛ̧̂ Ɛ̃ Ɛ̃̀ Ɛ̃́ Ɛ̃̂ Ɛ̃̌ Ɛ̃̍ Ɛ̄ Ɛ̈ Ɛ̋ Ɛ̌ Ɛ̧̌ Ɛ̍ Ɛ̏ Ɛ̧ Ɛ̧́ Ɛ̧̂ Ɛ̧̄ Ɛ̨ Ɛ̨́ Ɛ̰ Ɛ̰̀ Ɛ̰́ Ɛ̰̄ Ɛ̱ Ɛ̱̈ Ɛ᷄ Ɛ᷅ Ɛ᷆ Ɛ᷇ Ɩ̀ Ɩ́ Ɩ̂ Ɩ̃ Ɩ̃̀ Ɩ̃́ Ɩ̃̂ Ɩ̃᷆ Ɩ̄ Ɩ̌ Ɩ᷆ Ɨ̀ Ɨ́ Ɨ̂ Ɨ̃ Ɨ̄ Ɨ̈ Ɨ̌ Ɨ̧ Ɨ̧̀ Ɨ̧́ Ɨ̧̂ Ɨ̧̌ Ɯ̀ Ɯ́ Ɯ̂ Ɯ̄ Ɯ̋ Ɯ̏ Ɲ̀ Ɲ́ Ɵ̀ Ɵ́ Ɵ̂ Ʊ̀ Ʊ́ Ʊ̂ Ʊ̃ Ʊ̃́ Ʊ̄ Ʊ̌ Ʋ̀ Ʋ́ Ʋ̂ Ʋ̃ Ʋ̃̀ Ʋ̃́ Ʋ̈ Ʋ̌ Ǎ̧ Ǎ̱ ǎ̧ ǎ̱ Ǒ̧ ǒ̧ Ǔ̧ ǔ̧ ǝ̀ ǝ́ ǝ̂ ǝ̃ ǝ̃̀ ǝ̃́ ǝ̃̂ ǝ̄ ǝ̌ ǝ̰ Ȩ̀ Ȩ́ Ȩ̂ Ȩ̌ ȩ̀ ȩ́ ȩ̂ ȩ̌ Ʉ̀ Ʉ́ Ʉ̂ Ʉ̃ Ʉ̄ Ʉ̈ Ʉ̌ Ʌ̀ Ʌ́ Ʌ̂ Ʌ̄ Ʌ̋ Ʌ̏ ɐ̀ ɐ́ ɐ̂ ɑ̀ ɑ́ ɑ̂ ɑ̄ ɑ̌ ɔ̀ ɔ́ ɔ̂ ɔ̃ ɔ̃̀ ɔ̃́ ɔ̃̂ ɔ̃̄ ɔ̃̌ ɔ̃̍ ɔ̄ ɔ̈ ɔ̌ ɔ̍ ɔ̧ ɔ̧̀ ɔ̧́ ɔ̧̂ ɔ̧̄ ɔ̧̌ ɔ̨ ɔ̨́ ɔ̰ ɔ̰̀ ɔ̰́ ɔ̰̄ ɔ̱ ɔ᷄ ɔ᷅ ɔ᷆ ɔ᷇ ə̀ ə́ ə̂ ə̄ ə̈ ə̌ ə̧ ə̧̀ ə̧́ ə̧̂ ə̨ ə̨́ ə̰ ə̰̀ ə̰́ ə̰̄ ɛ̀ ɛ́ ɛ̧́ ɛ̂ ɛ̧̂ ɛ̃ ɛ̃̀ ɛ̃́ ɛ̃̂ ɛ̃̌ ɛ̃̍ ɛ̄ ɛ̈ ɛ̋ ɛ̌ ɛ̧̌ ɛ̍ ɛ̏ ɛ̧ ɛ̧́ ɛ̧̂ ɛ̧̄ ɛ̨ ɛ̨́ ɛ̰ ɛ̰̀ ɛ̰́ ɛ̰̄ ɛ̱ ɛ̱̈ ɛ᷄ ɛ᷅ ɛ᷆ ɛ᷇ ɤ̀ ɤ́ ɤ̂ ɤ̄ ɤ̋ ɤ̏ ɥ̀ ɥ́ ɥ̂ ɥ̃̀ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̌ ɨ̧ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɩ̀ ɩ́ ɩ̂ ɩ̃ ɩ̃̀ ɩ̃́ ɩ̃̂ ɩ̃᷆ ɩ̄ ɩ̌ ɩ᷆ ɪ̃ ɯ̀ ɯ́ ɯ̂ ɯ̄ ɯ̋ ɯ̏ ɲ̀ ɲ́ ɵ̀ ɵ́ ɵ̂ ʉ̀ ʉ́ ʉ̂ ʉ̃ ʉ̄ ʉ̈ ʉ̌ ʊ̀ ʊ́ ʊ̂ ʊ̃ ʊ̃́ ʊ̄ ʊ̌ ʋ̀ ʋ́ ʋ̂ ʋ̃ ʋ̃̀ ʋ̃́ ʋ̈ ʋ̌ ʌ̀ ʌ́ ʌ̂ ʌ̄ ʌ̋ ʌ̏ Ḛ̀ Ḛ́ Ḛ̄ ḛ̀ ḛ́ ḛ̄ Ḭ̀ Ḭ́ Ḭ̄ ḭ̀ ḭ́ ḭ̄ Ṵ̀ Ṵ́ Ṵ̄ ṵ̀ ṵ́ ṵ̄ Ạ́ Ạ̃ ạ́ ạ̃ Ẹ̀ Ẹ́ Ẹ̃ Ẹ̄ Ẹ̌ ẹ̀ ẹ́ ẹ̃ ẹ̄ ẹ̌ Ẽ̀ Ẽ́ Ẽ̂ Ẽ̄ Ẽ̌ Ẽ̱ ẽ̀ ẽ́ ẽ̂ ẽ̄ ẽ̌ ẽ̱ Ị̀ Ị́ Ị̂ Ị̃ Ị̄ Ị̌ ị̀ ị́ ị̂ ị̃ ị̄ ị̌ Ọ̀ Ọ́ Ọ̃ Ọ̄ Ọ̌ ọ̀ ọ́ ọ̃ ọ̄ ọ̌ Ụ̀ Ụ́ Ụ̂ Ụ̃ Ụ̄ Ụ̌ ụ̀ ụ́ ụ̂ ụ̃ ụ̄ ụ̌ Ɑ̀ Ɑ́ Ɑ̂ Ɑ̄ Ɑ̌ Ɐ̀ Ɐ́ Ɐ̂ Ɥ̀ Ɥ́ Ɥ̂ Ɥ̃̀ Ɪ̃ Ꞷ̃ ꞷ̃ Ɤ̀ Ɤ́ Ɤ̂ Ɤ̄ Ɤ̋ Ɤ̏
+A̋ A̍ A̧ A̧̍ A̰ A̱ A᷄ A᷅ A᷆ A᷇ B̀ B́ B̯ C̱ D̯ E̋ E̍ E̱ E᷄ E᷅ E᷆ E᷇ G̈ G̣ H̃ H̱ I̋ I̍ I̧ Ì̧ Í̧ Ī̧ I̱ I᷄ I᷅ I᷆ I᷇ J̌ L̀ L̄ L̥ M̀ Ḿ M̂ M̄ N̂ N̄ N̈ N̰ N̰̄ O̍ O̧ O̰ O̱ O᷄ O᷅ O᷆ O᷇ P̱ R̀ R̂ R̃ R̄ S̀ T̯ T͟H U̍ U̧ U̱ U᷄ U᷅ U᷆ U᷇ V̄ V̱ W̃ W̄ W̤ a̋ a̍ a̧ a̧̍ a̰ a̱ a᷄ a᷅ a᷆ a᷇ b̀ b́ b̯ c̱ d̯ e̋ e̍ e̱ e᷄ e᷅ e᷆ e᷇ g̈ g̣ h̃ i̋ i̍ i̧ ì̧ í̧ ī̧ i̱ i᷄ i᷅ i᷆ i᷇ l̀ l̄ l̥ m̀ ḿ m̂ m̄ n̂ n̄ n̈ n̰ n̰̄ o̍ o̧ o̰ o̱ o᷄ o᷅ o᷆ o᷇ p̱ r̀ r̂ r̃ r̄ s̀ t̯ t͟h u̍ u̧ u̱ u᷄ u᷅ u᷆ u᷇ v̄ v̱ w̃ w̄ w̤ À̧ À̰ Á̧ Á̰ Á̱ Â̧ Â̱ Ã̀ Ã́ Ã̂ Ã̄ Ã̌ Ã̍ Ä̀ Ä́ Ä̃ Æ̀ Æ̂ Æ̋ Æ̌ Æ̏ Ë́ Ë̃ Ë̱ Ì̧ Í̧ Í̱ Î̧ Ï̃ Ï̱ Ò̧ Ò̰ Ó̧ Ó̰ Ô̧ Õ̀ Õ̂ Õ̌ Õ̱ Ö́ Ö̃ Ø̀ Ø̂ Ø̃ Ø̃̀ Ø̃́ Ø̃̂ Ø̋ Ø̌ Ù̧ Ú̧ Û̧ Ü̃ Ü̱ à̧ à̰ á̧ á̰ á̱ â̧ â̱ ã̀ ã́ ã̂ ã̄ ã̌ ã̍ ä̀ ä́ ä̃ æ̀ æ̂ æ̋ æ̌ æ̏ ë́ ë̃ ë̱ ì̧ í̧ í̱ î̧ ï̃ ï̱ ò̧ ò̰ ó̧ ó̰ ô̧ õ̀ õ̂ õ̌ õ̱ ö́ ö̃ ø̀ ø̂ ø̃ ø̃̀ ø̃́ ø̃̂ ø̋ ø̌ ù̧ ú̧ û̧ ü̃ ü̱ Ā̧ Ā̰ ā̧ ā̰ Ą́ ą́ Ĩ̀ Ĩ́ Ĩ̂ Ĩ̌ Ĩ̍ ĩ̀ ĩ́ ĩ̂ ĩ̌ ĩ̍ Į́ į́ Ń̰ ń̰ Ŋ̀ Ŋ́ Ŋ̂ Ŋ̄ Ŋ̈ Ŋ̍ ŋ̀ ŋ́ ŋ̂ ŋ̄ ŋ̈ ŋ̍ Ō̰ ō̰ Œ̀ Œ́ Œ̂ Œ̄ Œ̋ Œ̌ Œ̏ œ̀ œ́ œ̂ œ̄ œ̋ œ̌ œ̏ Ũ̀ Ũ̂ Ũ̄ Ũ̌ Ũ̍ Ũ᷆ ũ̀ ũ̂ ũ̄ ũ̌ ũ̍ ũ᷆ Ū̧ ū̧ Ų́ ų́ Ɔ̀ Ɔ́ Ɔ̂ Ɔ̃ Ɔ̃̀ Ɔ̃́ Ɔ̃̂ Ɔ̃̄ Ɔ̃̌ Ɔ̃̍ Ɔ̄ Ɔ̈ Ɔ̌ Ɔ̍ Ɔ̧ Ɔ̧̀ Ɔ̧́ Ɔ̧̂ Ɔ̧̄ Ɔ̧̌ Ɔ̨ Ɔ̨́ Ɔ̰ Ɔ̰̀ Ɔ̰́ Ɔ̰̄ Ɔ̱ Ɔ᷄ Ɔ᷅ Ɔ᷆ Ɔ᷇ Ǝ̀ Ǝ́ Ǝ̂ Ǝ̃ Ǝ̃̀ Ǝ̃́ Ǝ̃̂ Ǝ̄ Ǝ̌ Ǝ̰ Ə̀ Ə́ Ə̂ Ə̄ Ə̈ Ə̌ Ə̧ Ə̧̀ Ə̧́ Ə̧̂ Ə̨ Ə̨́ Ə̰ Ə̰̀ Ə̰́ Ə̰̄ Ɛ̀ Ɛ́ Ɛ̧́ Ɛ̂ Ɛ̧̂ Ɛ̃ Ɛ̃̀ Ɛ̃́ Ɛ̃̂ Ɛ̃̌ Ɛ̃̍ Ɛ̄ Ɛ̈ Ɛ̋ Ɛ̌ Ɛ̧̌ Ɛ̍ Ɛ̏ Ɛ̧ Ɛ̧́ Ɛ̧̂ Ɛ̧̄ Ɛ̨ Ɛ̨́ Ɛ̰ Ɛ̰̀ Ɛ̰́ Ɛ̰̄ Ɛ̱ Ɛ̱̈ Ɛ᷄ Ɛ᷅ Ɛ᷆ Ɛ᷇ Ɩ̀ Ɩ́ Ɩ̂ Ɩ̃ Ɩ̃̀ Ɩ̃́ Ɩ̃̂ Ɩ̃᷆ Ɩ̄ Ɩ̌ Ɩ᷆ Ɨ̀ Ɨ́ Ɨ̂ Ɨ̃ Ɨ̄ Ɨ̈ Ɨ̌ Ɨ̧ Ɨ̧̀ Ɨ̧́ Ɨ̧̂ Ɨ̧̌ Ɨ̱ Ɯ̀ Ɯ́ Ɯ̂ Ɯ̄ Ɯ̋ Ɯ̏ Ɲ̀ Ɲ́ Ɵ̀ Ɵ́ Ɵ̂ Ʊ̀ Ʊ́ Ʊ̂ Ʊ̃ Ʊ̃́ Ʊ̄ Ʊ̌ Ʋ̀ Ʋ́ Ʋ̂ Ʋ̃ Ʋ̃̀ Ʋ̃́ Ʋ̈ Ʋ̌ Ǎ̧ Ǎ̱ ǎ̧ ǎ̱ Ǒ̧ ǒ̧ Ǔ̧ ǔ̧ ǝ̀ ǝ́ ǝ̂ ǝ̃ ǝ̃̀ ǝ̃́ ǝ̃̂ ǝ̄ ǝ̌ ǝ̰ Ǹ̰ ǹ̰ Ȩ̀ Ȩ́ Ȩ̂ Ȩ̌ ȩ̀ ȩ́ ȩ̂ ȩ̌ Ʉ̀ Ʉ́ Ʉ̂ Ʉ̃ Ʉ̄ Ʉ̈ Ʉ̌ Ʉ̱ Ʌ̀ Ʌ́ Ʌ̂ Ʌ̄ Ʌ̋ Ʌ̏ ɐ̀ ɐ́ ɐ̂ ɑ̀ ɑ́ ɑ̂ ɑ̄ ɑ̌ ɔ̀ ɔ́ ɔ̂ ɔ̃ ɔ̃̀ ɔ̃́ ɔ̃̂ ɔ̃̄ ɔ̃̌ ɔ̃̍ ɔ̄ ɔ̈ ɔ̌ ɔ̍ ɔ̧ ɔ̧̀ ɔ̧́ ɔ̧̂ ɔ̧̄ ɔ̧̌ ɔ̨ ɔ̨́ ɔ̰ ɔ̰̀ ɔ̰́ ɔ̰̄ ɔ̱ ɔ᷄ ɔ᷅ ɔ᷆ ɔ᷇ ə̀ ə́ ə̂ ə̄ ə̈ ə̌ ə̧ ə̧̀ ə̧́ ə̧̂ ə̨ ə̨́ ə̰ ə̰̀ ə̰́ ə̰̄ ɛ̀ ɛ́ ɛ̧́ ɛ̂ ɛ̧̂ ɛ̃ ɛ̃̀ ɛ̃́ ɛ̃̂ ɛ̃̌ ɛ̃̍ ɛ̄ ɛ̈ ɛ̋ ɛ̌ ɛ̧̌ ɛ̍ ɛ̏ ɛ̧ ɛ̧́ ɛ̧̂ ɛ̧̄ ɛ̨ ɛ̨́ ɛ̰ ɛ̰̀ ɛ̰́ ɛ̰̄ ɛ̱ ɛ̱̈ ɛ᷄ ɛ᷅ ɛ᷆ ɛ᷇ ɤ̀ ɤ́ ɤ̂ ɤ̄ ɤ̋ ɤ̏ ɥ̀ ɥ́ ɥ̂ ɥ̃̀ ɥ̃́ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̌ ɨ̧ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱ ɩ̀ ɩ́ ɩ̂ ɩ̃ ɩ̃̀ ɩ̃́ ɩ̃̂ ɩ̃᷆ ɩ̄ ɩ̌ ɩ᷆ ɪ̃ ɯ̀ ɯ́ ɯ̂ ɯ̄ ɯ̋ ɯ̏ ɲ̀ ɲ́ ɵ̀ ɵ́ ɵ̂ ʉ̀ ʉ́ ʉ̂ ʉ̃ ʉ̄ ʉ̈ ʉ̌ ʉ̱ ʊ̀ ʊ́ ʊ̂ ʊ̃ ʊ̃́ ʊ̄ ʊ̌ ʋ̀ ʋ́ ʋ̂ ʋ̃ ʋ̃̀ ʋ̃́ ʋ̈ ʋ̌ ʌ̀ ʌ́ ʌ̂ ʌ̄ ʌ̋ ʌ̏ Ḛ̀ Ḛ́ Ḛ̄ ḛ̀ ḛ́ ḛ̄ Ḭ̀ Ḭ́ Ḭ̄ ḭ̀ ḭ́ ḭ̄ Ṵ̀ Ṵ́ Ṵ̄ ṵ̀ ṵ́ ṵ̄ Ạ́ Ạ̃ Ạ̄ ạ́ ạ̃ ạ̄ Ẹ̀ Ẹ́ Ẹ̃ Ẹ̄ Ẹ̌ ẹ̀ ẹ́ ẹ̃ ẹ̄ ẹ̌ Ẽ̀ Ẽ́ Ẽ̂ Ẽ̄ Ẽ̌ Ẽ̱ ẽ̀ ẽ́ ẽ̂ ẽ̄ ẽ̌ ẽ̱ Ị̀ Ị́ Ị̂ Ị̃ Ị̄ Ị̌ ị̀ ị́ ị̂ ị̃ ị̄ ị̌ Ọ̀ Ọ́ Ọ̃ Ọ̄ Ọ̌ ọ̀ ọ́ ọ̃ ọ̄ ọ̌ Ụ̀ Ụ́ Ụ̂ Ụ̃ Ụ̄ Ụ̌ ụ̀ ụ́ ụ̂ ụ̃ ụ̄ ụ̌ Ɑ̀ Ɑ́ Ɑ̂ Ɑ̄ Ɑ̌ Ɐ̀ Ɐ́ Ɐ̂ Ɥ̀ Ɥ́ Ɥ̂ Ɥ̃̀ Ɥ̃́ Ɪ̃ Ꞷ̃ ꞷ̃ Ɤ̀ Ɤ́ Ɤ̂ Ɤ̄ Ɤ̋ Ɤ̏
 `
 
 ### Resulting Glyphset Files

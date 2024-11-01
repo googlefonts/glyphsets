@@ -338,6 +338,7 @@ uni028B
 uni028C
 uni0292
 uni0294
+uni0295
 uni0298
 uni029D
 uni02B7
@@ -456,6 +457,8 @@ uni1E7C
 uni1E7D
 uni1E7E
 uni1E7F
+Wacute
+wacute
 Wdieresis
 wdieresis
 uni1E8A

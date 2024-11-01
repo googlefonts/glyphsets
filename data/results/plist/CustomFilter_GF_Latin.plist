@@ -344,6 +344,7 @@
 			<string>vturned</string>
 			<string>ezh</string>
 			<string>glottalstop</string>
+			<string>glottalstopreversed</string>
 			<string>bilabialclick</string>
 			<string>jcrossedtail</string>
 			<string>wmod</string>
@@ -462,6 +463,8 @@
 			<string>vtilde</string>
 			<string>Vdotbelow</string>
 			<string>vdotbelow</string>
+			<string>Wacute</string>
+			<string>wacute</string>
 			<string>Wdieresis</string>
 			<string>wdieresis</string>
 			<string>Xdotaccent</string>
