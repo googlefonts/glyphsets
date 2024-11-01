@@ -44,7 +44,7 @@ if __name__ == "__main__":
         for script in scripts:
             if i < len(script_dict[script]):
                 glyphset_name = script_dict[script][i]
-                glyphset = GlyphSet(glyphset_name)
+                glyphset = GlyphSet.load(glyphset_name)
                 abbr = glyphset_name.split("_")[-1]
                 _new_md, warning = glyphset.get_description()
                 warning_md = "✅"
@@ -66,7 +66,7 @@ if __name__ == "__main__":
 
     # Content
     for glyphset_name in defined_glyphsets():
-        glyphset = GlyphSet(glyphset_name)
+        glyphset = GlyphSet.load(glyphset_name)
         new_md, _warning = glyphset.get_description()
         md.append(new_md)
 

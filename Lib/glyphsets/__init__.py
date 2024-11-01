@@ -113,6 +113,14 @@ LANGUAGES = gflanguages.LoadLanguages()
 
 
 class GlyphSet(object):
+
+    @classmethod
+    def load(cls, name):
+        """
+        Class factory method to load a glyphset by name.
+        Can later be altered to return different classes based on modifiers."""
+        return cls(name)
+
     def __init__(self, name):
         if " " in name:
             self.name = name.split(" ")[0]
@@ -154,7 +162,7 @@ class GlyphSet(object):
         included_glyphsets = copy.copy(self.include_glyphsets)
 
         for glyphset in self.include_glyphsets:
-            for glyphset_name in GlyphSet(glyphset).get_included_glyphsets():
+            for glyphset_name in GlyphSet.load(glyphset).get_included_glyphsets():
                 if glyphset_name not in included_glyphsets:
                     included_glyphsets.append(glyphset_name)
 
@@ -181,7 +189,7 @@ class GlyphSet(object):
 
         # Include glyphset dependencies
         for glyphset in self.include_glyphsets:
-            for language_code in GlyphSet(glyphset).get_language_codes():
+            for language_code in GlyphSet.load(glyphset).get_language_codes():
                 if language_code not in language_codes:
                     language_codes.append(language_code)
 
@@ -237,7 +245,7 @@ class GlyphSet(object):
 
         # Include glyphset dependencies
         for glyphset in self.include_glyphsets:
-            for unicode in GlyphSet(glyphset).get_stub_characters():
+            for unicode in GlyphSet.load(glyphset).get_stub_characters():
                 if unicode not in character_set:
                     character_set.append(unicode)
 
@@ -258,7 +266,7 @@ class GlyphSet(object):
 
         # Include glyphset dependencies
         for glyphset in self.include_glyphsets:
-            for glyph in GlyphSet(glyphset).get_stub_glyph_objects():
+            for glyph in GlyphSet.load(glyphset).get_stub_glyph_objects():
                 if glyph.name not in [g.name for g in glyph_set]:
                     glyph_set.append(glyph)
 
@@ -371,7 +379,7 @@ class GlyphSet(object):
 
             inherited_glyphs = set()
             for glyphset in self.include_glyphsets:
-                inherited_glyphset = GlyphSet(glyphset)
+                inherited_glyphset = GlyphSet.load(glyphset)
                 this_inherited_glyphs = set(inherited_glyphset.get_final_glyphnames())
                 inherited_glyphs.update(this_inherited_glyphs)
 
@@ -463,7 +471,7 @@ class GlyphSet(object):
         md += "\n"
 
         if self.regions:
-            _languages_per_glyphset = GlyphSet(self.name).get_language_codes()
+            _languages_per_glyphset = GlyphSet.load(self.name).get_language_codes()
             md += (
                 f"\nThe following list of **{len(_languages_per_glyphset)}** languages is computed as a result "
                 + "of the dynamic conditions described above:\n\n`\n"
@@ -532,7 +540,7 @@ def extended_glyphsets():
     glyphsets = []
     for glyphset in defined_glyphsets():
         glyphsets.append(glyphset)
-        glyphsets.extend(GlyphSet(glyphset).get_extended_glyphsets())
+        glyphsets.extend(GlyphSet.load(glyphset).get_extended_glyphsets())
 
     return glyphsets
 
@@ -584,7 +592,7 @@ def glyphs_in_glyphsets(glyphset_names, production_names=False):
 
 
 def languages_per_glyphset(glyphset_name):
-    return GlyphSet(glyphset_name).get_language_codes()
+    return GlyphSet.load(glyphset_name).get_language_codes()
 
 
 # TODO:
@@ -778,7 +786,7 @@ def get_glyphsets_fulfilled(ttFont):
 
 def get_decomposed_chars(glyphset_name):
     allchars = set()
-    for lang_code in GlyphSet(glyphset_name).get_language_codes():
+    for lang_code in GlyphSet.load(glyphset_name).get_language_codes():
         lang = LANGUAGES[lang_code]
         allchars.update(getattr(getattr(lang, "exemplar_chars", {}), "base", "").split(" "))
         if get_glyphset_definition(glyphset_name).get("use_auxiliary"):
@@ -820,7 +828,7 @@ def analyze_font(ttFont):
 
                 not_covered = ""
                 if lower >= 0.8:
-                    languages = GlyphSet(key).get_language_codes()
+                    languages = GlyphSet.load(key).get_language_codes()
                     if not languages:
                         not_covered = (
                             f"{Colors.BROWN}(Not part of {Colors.ITALIC}shape_languages{Colors.END}"

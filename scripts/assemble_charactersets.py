@@ -29,7 +29,7 @@ def add_to_plist_file(plist_path, glyphset_name, final_glyphnames):
 
 def assemble_characterset(root_folder, glyphset_name):
 
-    glyphset = GlyphSet(glyphset_name)
+    glyphset = GlyphSet.load(glyphset_name)
 
     nam_path = os.path.join(root_folder, "results", "nam", f"{glyphset_name}.nam")
     nam_in_package_path = os.path.abspath(

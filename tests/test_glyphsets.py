@@ -17,12 +17,12 @@ FONT_PATH = os.path.join(DATA_FP, "MavenPro[wght].ttf")
 def test_definitions():
     assert len(unicodes_per_glyphset("GF_Latin_Core")) == 319
 
-    assert len(GlyphSet("GF_Arabic_Plus").get_language_codes()) == 5
-    assert len(GlyphSet("GF_Latin_African").get_language_codes()) == 607
+    assert len(GlyphSet.load("GF_Arabic_Plus").get_language_codes()) == 5
+    assert len(GlyphSet.load("GF_Latin_African").get_language_codes()) == 607
 
     # accidental double definitions
     for code in defined_glyphsets():
-        assert len(GlyphSet(code).get_language_codes()) == len(set(GlyphSet(code).get_language_codes()))
+        assert len(GlyphSet.load(code).get_language_codes()) == len(set(GlyphSet.load(code).get_language_codes()))
     assert len(defined_glyphsets()) == len(set(defined_glyphsets()))
 
     assert "GF_Latin_Core" in defined_glyphsets()
