@@ -20,6 +20,7 @@ Below are the most important changes from each release.
 - Manually added **GF_Latin_Kernel** to all modern **Arabic**, **Cyrillic** glyphsets as well as **GF_Greek_Core**
 - Added dynamic Cyrillic Roman/Italic localization glyphsets to `.plist` files based on manually curated files in `definitions/misc/`
 - Added `glyphsets print-unicodes` command that prints a list of unicodes of several defined glyphsets that can be piped into command line arguments, for instance for `pyftsubset font.ttf --unicodes=$(glyphsets print-unicodes GF_Latin_Core GF_Cyrillic_Core)`
+- Added a list of Arabic characters that either commonly included in fonts but are not in the Arabic language definitions (`alefWasla-ar`) or are commonly used as components (`behDotless-ar`)
 
 ### v1.0.0 (2024-05-03)
 #### Changes since last release
