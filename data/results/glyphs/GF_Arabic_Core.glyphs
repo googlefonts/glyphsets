@@ -907,6 +907,348 @@ unicode = 1746;
 {
 glyphname = "kehehThreedotsabove-ar";
 unicode = 1891;
+},
+{
+glyphname = "alefMadda-ar.fina";
+},
+{
+glyphname = "alefHamzaabove-ar.fina";
+},
+{
+glyphname = "wawHamzaabove-ar.fina";
+},
+{
+glyphname = "alefHamzabelow-ar.fina";
+},
+{
+glyphname = "yehHamzaabove-ar.init";
+},
+{
+glyphname = "yehHamzaabove-ar.medi";
+},
+{
+glyphname = "yehHamzaabove-ar.fina";
+},
+{
+glyphname = "alef-ar.fina";
+},
+{
+glyphname = "beh-ar.init";
+},
+{
+glyphname = "beh-ar.medi";
+},
+{
+glyphname = "beh-ar.fina";
+},
+{
+glyphname = "tehMarbuta-ar.fina";
+},
+{
+glyphname = "teh-ar.init";
+},
+{
+glyphname = "teh-ar.medi";
+},
+{
+glyphname = "teh-ar.fina";
+},
+{
+glyphname = "theh-ar.init";
+},
+{
+glyphname = "theh-ar.medi";
+},
+{
+glyphname = "theh-ar.fina";
+},
+{
+glyphname = "jeem-ar.init";
+},
+{
+glyphname = "jeem-ar.medi";
+},
+{
+glyphname = "jeem-ar.fina";
+},
+{
+glyphname = "hah-ar.init";
+},
+{
+glyphname = "hah-ar.medi";
+},
+{
+glyphname = "hah-ar.fina";
+},
+{
+glyphname = "khah-ar.init";
+},
+{
+glyphname = "khah-ar.medi";
+},
+{
+glyphname = "khah-ar.fina";
+},
+{
+glyphname = "dal-ar.fina";
+},
+{
+glyphname = "thal-ar.fina";
+},
+{
+glyphname = "reh-ar.fina";
+},
+{
+glyphname = "zain-ar.fina";
+},
+{
+glyphname = "seen-ar.init";
+},
+{
+glyphname = "seen-ar.medi";
+},
+{
+glyphname = "seen-ar.fina";
+},
+{
+glyphname = "sheen-ar.init";
+},
+{
+glyphname = "sheen-ar.medi";
+},
+{
+glyphname = "sheen-ar.fina";
+},
+{
+glyphname = "sad-ar.init";
+},
+{
+glyphname = "sad-ar.medi";
+},
+{
+glyphname = "sad-ar.fina";
+},
+{
+glyphname = "dad-ar.init";
+},
+{
+glyphname = "dad-ar.medi";
+},
+{
+glyphname = "dad-ar.fina";
+},
+{
+glyphname = "tah-ar.init";
+},
+{
+glyphname = "tah-ar.medi";
+},
+{
+glyphname = "tah-ar.fina";
+},
+{
+glyphname = "zah-ar.init";
+},
+{
+glyphname = "zah-ar.medi";
+},
+{
+glyphname = "zah-ar.fina";
+},
+{
+glyphname = "ain-ar.init";
+},
+{
+glyphname = "ain-ar.medi";
+},
+{
+glyphname = "ain-ar.fina";
+},
+{
+glyphname = "ghain-ar.init";
+},
+{
+glyphname = "ghain-ar.medi";
+},
+{
+glyphname = "ghain-ar.fina";
+},
+{
+glyphname = "feh-ar.init";
+},
+{
+glyphname = "feh-ar.medi";
+},
+{
+glyphname = "feh-ar.fina";
+},
+{
+glyphname = "qaf-ar.init";
+},
+{
+glyphname = "qaf-ar.medi";
+},
+{
+glyphname = "qaf-ar.fina";
+},
+{
+glyphname = "kaf-ar.init";
+},
+{
+glyphname = "kaf-ar.medi";
+},
+{
+glyphname = "kaf-ar.fina";
+},
+{
+glyphname = "lam-ar.init";
+},
+{
+glyphname = "lam-ar.medi";
+},
+{
+glyphname = "lam-ar.fina";
+},
+{
+glyphname = "meem-ar.init";
+},
+{
+glyphname = "meem-ar.medi";
+},
+{
+glyphname = "meem-ar.fina";
+},
+{
+glyphname = "noon-ar.init";
+},
+{
+glyphname = "noon-ar.medi";
+},
+{
+glyphname = "noon-ar.fina";
+},
+{
+glyphname = "heh-ar.init";
+},
+{
+glyphname = "heh-ar.medi";
+},
+{
+glyphname = "heh-ar.fina";
+},
+{
+glyphname = "waw-ar.fina";
+},
+{
+glyphname = "alefMaksura-ar.init";
+},
+{
+glyphname = "alefMaksura-ar.medi";
+},
+{
+glyphname = "alefMaksura-ar.fina";
+},
+{
+glyphname = "yeh-ar.init";
+},
+{
+glyphname = "yeh-ar.medi";
+},
+{
+glyphname = "yeh-ar.fina";
+},
+{
+glyphname = "tteh-ar.init";
+},
+{
+glyphname = "tteh-ar.medi";
+},
+{
+glyphname = "tteh-ar.fina";
+},
+{
+glyphname = "peh-ar.init";
+},
+{
+glyphname = "peh-ar.medi";
+},
+{
+glyphname = "peh-ar.fina";
+},
+{
+glyphname = "tcheh-ar.init";
+},
+{
+glyphname = "tcheh-ar.medi";
+},
+{
+glyphname = "tcheh-ar.fina";
+},
+{
+glyphname = "ddal-ar.fina";
+},
+{
+glyphname = "rreh-ar.fina";
+},
+{
+glyphname = "jeh-ar.fina";
+},
+{
+glyphname = "keheh-ar.init";
+},
+{
+glyphname = "keheh-ar.medi";
+},
+{
+glyphname = "keheh-ar.fina";
+},
+{
+glyphname = "gaf-ar.init";
+},
+{
+glyphname = "gaf-ar.medi";
+},
+{
+glyphname = "gaf-ar.fina";
+},
+{
+glyphname = "hehDoachashmee-ar.init";
+},
+{
+glyphname = "hehDoachashmee-ar.medi";
+},
+{
+glyphname = "hehDoachashmee-ar.fina";
+},
+{
+glyphname = "hehgoal-ar.init";
+},
+{
+glyphname = "hehgoal-ar.medi";
+},
+{
+glyphname = "hehgoal-ar.fina";
+},
+{
+glyphname = "yehFarsi-ar.init";
+},
+{
+glyphname = "yehFarsi-ar.medi";
+},
+{
+glyphname = "yehFarsi-ar.fina";
+},
+{
+glyphname = "yehbarree-ar.fina";
+},
+{
+glyphname = "kehehThreedotsabove-ar.init";
+},
+{
+glyphname = "kehehThreedotsabove-ar.medi";
+},
+{
+glyphname = "kehehThreedotsabove-ar.fina";
 }
 );
 instances = (

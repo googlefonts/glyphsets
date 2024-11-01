@@ -9,6 +9,7 @@ import functools
 from glyphsets.helpers import Colors, headline
 import tabulate
 import glyphsLib
+import youseedee
 
 from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
 
@@ -62,6 +63,23 @@ def sort_by_category(a, b):
         return 1
 
     value = sorted([info_a.category, info_b.category]).index(info_a.category)
+    if value == 0:
+        value = -1
+    value *= -1
+
+    return value
+
+
+def sort_by_name(a, b):
+    info_a = get_glyph(a)
+    info_b = get_glyph(b)
+
+    if info_a.category is None:
+        return -1
+    elif info_b.category is None:
+        return 1
+
+    value = sorted([info_a.name, info_b.name]).index(info_a.name)
     if value == 0:
         value = -1
     value *= -1
@@ -389,7 +407,30 @@ class GlyphSet(object):
                     new_glyph = glyphsLib.GSGlyph(glyph.name)
                     font.glyphs.append(new_glyph)
 
+            # Arabic presentation forms
+            if self.script == "Arabic":
+                for glyph in font.glyphs:
+                    if glyph.unicode:
+                        unicode = int(glyph.unicode, 16)
+                        ucd = youseedee.ucd_data(unicode)
+                        if ucd["Script"] == "Arabic":
+                            if (
+                                ucd["General_Category"] == "Lo"
+                                and "Joining_Type" in ucd
+                                and ucd["Joining_Type"] in ("D")
+                            ):
+                                font.glyphs.append(glyphsLib.GSGlyph(f"{glyph.name}.init"))
+                                font.glyphs.append(glyphsLib.GSGlyph(f"{glyph.name}.medi"))
+                                font.glyphs.append(glyphsLib.GSGlyph(f"{glyph.name}.fina"))
+                            elif (
+                                ucd["General_Category"] == "Lo"
+                                and "Joining_Type" in ucd
+                                and ucd["Joining_Type"] == "R"
+                            ):
+                                font.glyphs.append(glyphsLib.GSGlyph(f"{glyph.name}.fina"))
+
             # Sort
+            # font.glyphs = sorted(font.glyphs, key=lambda x: x.name)
             font.glyphs = sorted(font.glyphs, key=functools.cmp_to_key(sort_by_category))
 
             self._final_glyphs_font = font
