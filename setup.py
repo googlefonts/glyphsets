@@ -70,6 +70,7 @@ setup(
         "gflanguages>=0.7.0",
         "pyyaml",
         "tabulate",
+        "youseedee",
     ],
     extras_require={
         "dev": [  # For the tests to run
