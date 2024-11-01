@@ -325,30 +325,43 @@ class GlyphSet(object):
                         if int(glyph.unicode, 16) == unicode:
                             return True
 
+            def add_stub_glyphs(font, stub_path):
+                stub_font = glyphsLib.load(stub_path)
+
+                for glyph in stub_font.glyphs:
+
+                    # Add encoded characters to character_set
+                    if glyph.unicodes:
+                        for unicode in glyph.unicodes:
+                            character_set.update({int(unicode, 16)})
+
+                    # Add to glyphs to .glyphs file
+                    if (
+                        glyph.unicode
+                        and not _font_has_unicode(font, glyph.unicode)
+                        or not glyph.unicode
+                        and not font.glyphs[glyph.name]
+                    ):
+                        new_glyph = glyphsLib.GSGlyph(glyph.name)
+                        if glyph.unicode:
+                            new_glyph.unicode = glyph.unicodes[0]
+                        font.glyphs.append(new_glyph)
+
             # Add language-specific glyphs
             for language_code in self.get_language_codes():
-                per_language_glyphs_stub_path = os.path.join(
-                    root_folder, "definitions", "per_language", f"{language_code}.stub.glyphs"
-                )
-                if os.path.exists(per_language_glyphs_stub_path):
-                    per_language_font = glyphsLib.load(per_language_glyphs_stub_path)
+                stub_path = os.path.join(root_folder, "definitions", "per_language", f"{language_code}.stub.glyphs")
+                if os.path.exists(stub_path):
+                    add_stub_glyphs(font, stub_path)
 
-                    for glyph in per_language_font.glyphs:
+            # Add script-specific glyphs
+            stub_path = os.path.join(root_folder, "definitions", "per_script", f"{self.script}.stub.glyphs")
+            if os.path.exists(stub_path):
+                add_stub_glyphs(font, stub_path)
 
-                        # Add encoded characters to character_set
-                        if glyph.unicodes:
-                            for unicode in glyph.unicodes:
-                                character_set.update({int(unicode, 16)})
-
-                        # Add to glyphs to .glyphs file
-                        if (
-                            glyph.unicode
-                            and not _font_has_unicode(font, glyph.unicode)
-                            or not glyph.unicode
-                            and not font.glyphs[glyph.name]
-                        ):
-                            new_glyph = glyphsLib.GSGlyph(glyph.name)
-                            font.glyphs.append(new_glyph)
+            # Add stub for all glyphsets
+            stub_path = os.path.join(root_folder, "definitions", "all", "all.stub.glyphs")
+            if os.path.exists(stub_path):
+                add_stub_glyphs(font, stub_path)
 
             # TODO:
             # Make sure this code isn't a duplicate of the .stub.glyphs handling above
