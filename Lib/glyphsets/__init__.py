@@ -43,15 +43,15 @@ def sort_unicodes_by_name(a, b):
         return 0
 
 
-def sort_unicodes_by_glyphobject(a, b):
-    if a.unicode and b.unicode:
-        return int(a.unicode, 16) - int(b.unicode, 16)
-    elif a.unicode:
-        return -1
-    elif b.unicode:
-        return 1
-    else:
-        return 0
+# def sort_unicodes_by_glyphobject(a, b):
+#     if a.unicode and b.unicode:
+#         return int(a.unicode, 16) - int(b.unicode, 16)
+#     elif a.unicode:
+#         return -1
+#     elif b.unicode:
+#         return 1
+#     else:
+#         return 0
 
 
 def sort_by_category(a, b):
@@ -661,6 +661,7 @@ def unicodes_per_glyphset(glyphset_name):
         return read_nam_file(nam_path)
 
 
+# Public API (used by fontbakery, gftools, etc.)
 def glyphs_in_glyphsets(glyphset_names, production_names=False):
     glyphs = set()
     for glyphset_name in glyphset_names:
@@ -669,6 +670,7 @@ def glyphs_in_glyphsets(glyphset_names, production_names=False):
     return sorted(list(glyphs))
 
 
+# Public API (used by fontbakery, gftools, etc.)
 def languages_per_glyphset(glyphset_name):
     return GlyphSet.load(glyphset_name).get_language_codes()
 
