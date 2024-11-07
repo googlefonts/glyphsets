@@ -47,8 +47,14 @@ bracketright
 underscore
 braceleft
 braceright
+guillemotleft
 periodcentered
+guillemotright
 uni060C
+uni060D
+uni061B
+uni061F
+uni066D
 uni06D4
 uni06FD
 endash
@@ -59,8 +65,12 @@ quotedblleft
 quotedblright
 bullet
 ellipsis
+guilsinglleft
+guilsinglright
 uni204F
 uni2E41
+uniFD3E
+uniFD3F
 uni06F4.urdu
 uni06F7.urdu
 zero
@@ -133,7 +143,9 @@ uni064F
 uni0650
 uni0651
 uni0652
+uni0653
 uni0654
+uni0655
 uni0670
 uni0671
 uni0671.fina
@@ -217,6 +229,8 @@ uni0623
 uni0623.fina
 uni0624
 uni0624.fina
+uni0625
+uni0625.fina
 uni0626
 uni0626.init
 uni0626.medi
@@ -289,6 +303,7 @@ uni063A
 uni063A.init
 uni063A.medi
 uni063A.fina
+uni0640
 uni0641
 uni0641.init
 uni0641.medi
@@ -327,6 +342,10 @@ uni064A
 uni064A.init
 uni064A.medi
 uni064A.fina
+uni0679
+uni0679.init
+uni0679.medi
+uni0679.fina
 uni067A
 uni067A.init
 uni067A.medi
@@ -379,6 +398,8 @@ uni0687
 uni0687.init
 uni0687.medi
 uni0687.fina
+uni0688
+uni0688.fina
 uni0689
 uni0689.fina
 uni068A
@@ -389,6 +410,8 @@ uni068D
 uni068D.fina
 uni068F
 uni068F.fina
+uni0691
+uni0691.fina
 uni0693
 uni0693.fina
 uni0695
@@ -455,6 +478,10 @@ uni06BE
 uni06BE.init
 uni06BE.medi
 uni06BE.fina
+uni06C1
+uni06C1.init
+uni06C1.medi
+uni06C1.fina
 uni06C6
 uni06C6.fina
 uni06C7
@@ -477,5 +504,11 @@ uni06D0
 uni06D0.init
 uni06D0.medi
 uni06D0.fina
+uni06D2
+uni06D2.fina
 uni06D5
 uni06D5.fina
+uni0763
+uni0763.init
+uni0763.medi
+uni0763.fina

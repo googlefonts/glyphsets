@@ -241,12 +241,36 @@ glyphname = braceright;
 unicode = 125;
 },
 {
+glyphname = guillemetleft;
+unicode = 171;
+},
+{
 glyphname = periodcentered;
 unicode = 183;
 },
 {
+glyphname = guillemetright;
+unicode = 187;
+},
+{
 glyphname = "comma-ar";
 unicode = 1548;
+},
+{
+glyphname = "dateseparator-ar";
+unicode = 1549;
+},
+{
+glyphname = "semicolon-ar";
+unicode = 1563;
+},
+{
+glyphname = "question-ar";
+unicode = 1567;
+},
+{
+glyphname = "asterisk-ar";
+unicode = 1645;
 },
 {
 glyphname = "fullstop-ar";
@@ -289,12 +313,28 @@ glyphname = ellipsis;
 unicode = 8230;
 },
 {
+glyphname = guilsinglleft;
+unicode = 8249;
+},
+{
+glyphname = guilsinglright;
+unicode = 8250;
+},
+{
 glyphname = reversedsemicolon;
 unicode = 8271;
 },
 {
 glyphname = commareversed;
 unicode = 11841;
+},
+{
+glyphname = "parenleft-ar";
+unicode = 64830;
+},
+{
+glyphname = "parenright-ar";
+unicode = 64831;
 },
 {
 glyphname = "fourFarsi-ar.urdu";
@@ -558,8 +598,16 @@ glyphname = "sukun-ar";
 unicode = 1618;
 },
 {
+glyphname = "madda-ar";
+unicode = 1619;
+},
+{
 glyphname = "hamzaabove-ar";
 unicode = 1620;
+},
+{
+glyphname = "hamzabelow-ar";
+unicode = 1621;
 },
 {
 glyphname = "alefabove-ar";
@@ -873,6 +921,13 @@ unicode = 1572;
 glyphname = "wawHamzaabove-ar.fina";
 },
 {
+glyphname = "alefHamzabelow-ar";
+unicode = 1573;
+},
+{
+glyphname = "alefHamzabelow-ar.fina";
+},
+{
 glyphname = "yehHamzaabove-ar";
 unicode = 1574;
 },
@@ -1110,6 +1165,10 @@ glyphname = "ghain-ar.medi";
 glyphname = "ghain-ar.fina";
 },
 {
+glyphname = "kashida-ar";
+unicode = 1600;
+},
+{
 glyphname = "feh-ar";
 unicode = 1601;
 },
@@ -1232,6 +1291,19 @@ glyphname = "yeh-ar.medi";
 },
 {
 glyphname = "yeh-ar.fina";
+},
+{
+glyphname = "tteh-ar";
+unicode = 1657;
+},
+{
+glyphname = "tteh-ar.init";
+},
+{
+glyphname = "tteh-ar.medi";
+},
+{
+glyphname = "tteh-ar.fina";
 },
 {
 glyphname = "tteheh-ar";
@@ -1403,6 +1475,13 @@ glyphname = "tcheheh-ar.medi";
 glyphname = "tcheheh-ar.fina";
 },
 {
+glyphname = "ddal-ar";
+unicode = 1672;
+},
+{
+glyphname = "ddal-ar.fina";
+},
+{
 glyphname = "dalRing-ar";
 unicode = 1673;
 },
@@ -1436,6 +1515,13 @@ unicode = 1679;
 },
 {
 glyphname = "dalThreedotsdown-ar.fina";
+},
+{
+glyphname = "rreh-ar";
+unicode = 1681;
+},
+{
+glyphname = "rreh-ar.fina";
 },
 {
 glyphname = "rehRing-ar";
@@ -1655,6 +1741,19 @@ glyphname = "hehDoachashmee-ar.medi";
 glyphname = "hehDoachashmee-ar.fina";
 },
 {
+glyphname = "hehgoal-ar";
+unicode = 1729;
+},
+{
+glyphname = "hehgoal-ar.init";
+},
+{
+glyphname = "hehgoal-ar.medi";
+},
+{
+glyphname = "hehgoal-ar.fina";
+},
+{
 glyphname = "oe-ar";
 unicode = 1734;
 },
@@ -1729,11 +1828,31 @@ glyphname = "e-ar.medi";
 glyphname = "e-ar.fina";
 },
 {
+glyphname = "yehbarree-ar";
+unicode = 1746;
+},
+{
+glyphname = "yehbarree-ar.fina";
+},
+{
 glyphname = "ae-ar";
 unicode = 1749;
 },
 {
 glyphname = "ae-ar.fina";
+},
+{
+glyphname = "kehehThreedotsabove-ar";
+unicode = 1891;
+},
+{
+glyphname = "kehehThreedotsabove-ar.init";
+},
+{
+glyphname = "kehehThreedotsabove-ar.medi";
+},
+{
+glyphname = "kehehThreedotsabove-ar.fina";
 }
 );
 instances = (

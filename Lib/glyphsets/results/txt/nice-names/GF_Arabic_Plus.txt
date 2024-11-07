@@ -47,8 +47,14 @@ bracketright
 underscore
 braceleft
 braceright
+guillemetleft
 periodcentered
+guillemetright
 comma-ar
+dateseparator-ar
+semicolon-ar
+question-ar
+asterisk-ar
 fullstop-ar
 sindhiampersand-ar
 endash
@@ -59,8 +65,12 @@ quotedblleft
 quotedblright
 bullet
 ellipsis
+guilsinglleft
+guilsinglright
 reversedsemicolon
 commareversed
+parenleft-ar
+parenright-ar
 fourFarsi-ar.urdu
 sevenFarsi-ar.urdu
 zero
@@ -133,7 +143,9 @@ damma-ar
 kasra-ar
 shadda-ar
 sukun-ar
+madda-ar
 hamzaabove-ar
+hamzabelow-ar
 alefabove-ar
 alefWasla-ar
 alefWasla-ar.fina
@@ -217,6 +229,8 @@ alefHamzaabove-ar
 alefHamzaabove-ar.fina
 wawHamzaabove-ar
 wawHamzaabove-ar.fina
+alefHamzabelow-ar
+alefHamzabelow-ar.fina
 yehHamzaabove-ar
 yehHamzaabove-ar.init
 yehHamzaabove-ar.medi
@@ -289,6 +303,7 @@ ghain-ar
 ghain-ar.init
 ghain-ar.medi
 ghain-ar.fina
+kashida-ar
 feh-ar
 feh-ar.init
 feh-ar.medi
@@ -327,6 +342,10 @@ yeh-ar
 yeh-ar.init
 yeh-ar.medi
 yeh-ar.fina
+tteh-ar
+tteh-ar.init
+tteh-ar.medi
+tteh-ar.fina
 tteheh-ar
 tteheh-ar.init
 tteheh-ar.medi
@@ -379,6 +398,8 @@ tcheheh-ar
 tcheheh-ar.init
 tcheheh-ar.medi
 tcheheh-ar.fina
+ddal-ar
+ddal-ar.fina
 dalRing-ar
 dalRing-ar.fina
 dalDotbelow-ar
@@ -389,6 +410,8 @@ ddahal-ar
 ddahal-ar.fina
 dalThreedotsdown-ar
 dalThreedotsdown-ar.fina
+rreh-ar
+rreh-ar.fina
 rehRing-ar
 rehRing-ar.fina
 rehVbelow-ar
@@ -455,6 +478,10 @@ hehDoachashmee-ar
 hehDoachashmee-ar.init
 hehDoachashmee-ar.medi
 hehDoachashmee-ar.fina
+hehgoal-ar
+hehgoal-ar.init
+hehgoal-ar.medi
+hehgoal-ar.fina
 oe-ar
 oe-ar.fina
 u-ar
@@ -477,5 +504,11 @@ e-ar
 e-ar.init
 e-ar.medi
 e-ar.fina
+yehbarree-ar
+yehbarree-ar.fina
 ae-ar
 ae-ar.fina
+kehehThreedotsabove-ar
+kehehThreedotsabove-ar.init
+kehehThreedotsabove-ar.medi
+kehehThreedotsabove-ar.fina

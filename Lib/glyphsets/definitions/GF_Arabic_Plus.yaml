@@ -2,6 +2,7 @@ description: Covering additional less widely used languages (but not characters 
   for historical or specialized texts)
 include_glyphsets:
 - GF_Latin_Kernel
+- GF_Arabic_Core
 language_codes:
 - ckb_Arab
 - zlm_Arab
