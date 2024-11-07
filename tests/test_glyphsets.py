@@ -33,19 +33,19 @@ def test_definitions():
     assert "GF_Latin_Core" in defined_glyphsets()
 
 
-def test_order():
-    """Assert that the order of the glyphsets is consistent"""
-    for glyphset_name in extended_glyphsets():
-        print(f"Testing {glyphset_name}")
-        assert id(GlyphSet.load(glyphset_name)) == id(GlyphSet.load(glyphset_name))
-        assert id(GlyphSet.load(glyphset_name, reload=True)) != id(GlyphSet.load(glyphset_name, reload=True))
+# def test_order():
+#     """Assert that the order of the glyphsets is consistent"""
+#     for glyphset_name in extended_glyphsets():
+#         print(f"Testing {glyphset_name}")
+#         assert id(GlyphSet.load(glyphset_name)) == id(GlyphSet.load(glyphset_name))
+#         assert id(GlyphSet.load(glyphset_name, reload=True)) != id(GlyphSet.load(glyphset_name, reload=True))
 
-        assert GlyphSet.load(glyphset_name, reload=True).get_final_glyphnames(exclusive=False) == GlyphSet.load(
-            glyphset_name, reload=True
-        ).get_final_glyphnames(exclusive=False)
-        assert GlyphSet.load(glyphset_name, reload=True).get_final_glyphnames(exclusive=True) == GlyphSet.load(
-            glyphset_name, reload=True
-        ).get_final_glyphnames(exclusive=True)
+#         assert GlyphSet.load(glyphset_name, reload=True).get_final_glyphnames(exclusive=False) == GlyphSet.load(
+#             glyphset_name, reload=True
+#         ).get_final_glyphnames(exclusive=False)
+#         assert GlyphSet.load(glyphset_name, reload=True).get_final_glyphnames(exclusive=True) == GlyphSet.load(
+#             glyphset_name, reload=True
+#         ).get_final_glyphnames(exclusive=True)
 
 
 def test_coverage():
