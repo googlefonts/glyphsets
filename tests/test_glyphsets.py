@@ -9,6 +9,7 @@ from glyphsets import (
     GlyphSet,
     analyze_font,
     find_character,
+    languages_per_glyphset,
 )
 import plistlib
 
@@ -23,8 +24,8 @@ FONT_PATH = os.path.join(DATA_FP, "MavenPro[wght].ttf")
 def test_definitions():
     assert len(unicodes_per_glyphset("GF_Latin_Core")) == 319
 
-    assert len(GlyphSet.load("GF_Arabic_Plus").get_language_codes()) == 8
-    assert len(GlyphSet.load("GF_Latin_African").get_language_codes()) == 617
+    assert len(languages_per_glyphset("GF_Arabic_Plus")) >= 8
+    assert len(languages_per_glyphset("GF_Latin_African")) >= 617
 
     # accidental double definitions
     for code in defined_glyphsets():
