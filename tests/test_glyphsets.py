@@ -7,7 +7,8 @@ from glyphsets import (
     build_glyphsapp_filter_list,
     glyphs_in_glyphset,
     GlyphSet,
-    extended_glyphsets,
+    analyze_font,
+    find_character,
 )
 import plistlib
 
@@ -53,6 +54,7 @@ def test_coverage():
 
     ttFont = TTFont(FONT_PATH)
     assert get_glyphsets_fulfilled(ttFont)["GF_Latin_Core"]["percentage"] > 0.99
+    analyze_font(ttFont)
 
 
 def test_compare():
@@ -72,3 +74,8 @@ def test_filter_lists():
     assert test[1]["list"] == glyphs_in_glyphset("GF_Latin_Kernel")
     assert test[2]["list"] == glyphs_in_glyphset("GF_Latin_Plus")
     os.remove("CustomFiltertest.plist")
+
+
+def test_find():
+    find_character("ß")
+    find_character("0x00DF")
