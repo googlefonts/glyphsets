@@ -21,11 +21,6 @@ from glyphsLib.glyphdata import GLYPHDATA  # noqa E402
 
 assert type(GLYPHDATA) is glyphsLib.glyphdata.GlyphData
 
-try:
-    from ._version import version as __version__  # type: ignore
-except ImportError:
-    __version__ = "0.0.0+unknown"
-
 root_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data"))
 tool_folder = os.path.abspath(os.path.dirname(__file__))
 
