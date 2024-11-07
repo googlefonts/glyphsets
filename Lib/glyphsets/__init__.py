@@ -656,13 +656,12 @@ def unicodes_per_glyphset(glyphset_name):
         return read_nam_file(nam_path)
 
 
-# Public API (used by fontbakery, gftools, etc.)
-def glyphs_in_glyphsets(glyphset_names, production_names=False):
-    glyphs = set()
-    for glyphset_name in glyphset_names:
-        glyphs.update(glyphs_in_glyphset(glyphset_name, production_names))
+# def glyphs_in_glyphsets(glyphset_names, production_names=False):
+#     glyphs = set()
+#     for glyphset_name in glyphset_names:
+#         glyphs.update(glyphs_in_glyphset(glyphset_name, production_names))
 
-    return sorted(list(glyphs))
+#     return sorted(list(glyphs))
 
 
 # Public API (used by fontbakery, gftools, etc.)
@@ -670,6 +669,7 @@ def languages_per_glyphset(glyphset_name):
     return GlyphSet.load(glyphset_name).get_language_codes()
 
 
+# Public API (used by fontbakery, gftools, etc.)
 # TODO:
 # Rewrite this to be calculated live
 def glyphs_in_glyphset(glyphset_name, production_names=False):
