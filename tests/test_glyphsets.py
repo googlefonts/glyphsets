@@ -7,8 +7,13 @@ from glyphsets import (
     build_glyphsapp_filter_list,
     glyphs_in_glyphset,
     GlyphSet,
+    extended_glyphsets,
 )
 import plistlib
+
+import glyphsets
+
+print(glyphsets)
 
 DATA_FP = os.path.join(os.path.dirname(__file__), "data")
 FONT_PATH = os.path.join(DATA_FP, "MavenPro[wght].ttf")
@@ -28,6 +33,21 @@ def test_definitions():
     assert "GF_Latin_Core" in defined_glyphsets()
 
 
+def test_order():
+    """Assert that the order of the glyphsets is consistent"""
+    for glyphset_name in extended_glyphsets():
+        print(f"Testing {glyphset_name}")
+        assert id(GlyphSet.load(glyphset_name)) == id(GlyphSet.load(glyphset_name))
+        assert id(GlyphSet.load(glyphset_name, reload=True)) != id(GlyphSet.load(glyphset_name, reload=True))
+
+        assert GlyphSet.load(glyphset_name, reload=True).get_final_glyphnames(exclusive=False) == GlyphSet.load(
+            glyphset_name, reload=True
+        ).get_final_glyphnames(exclusive=False)
+        assert GlyphSet.load(glyphset_name, reload=True).get_final_glyphnames(exclusive=True) == GlyphSet.load(
+            glyphset_name, reload=True
+        ).get_final_glyphnames(exclusive=True)
+
+
 def test_coverage():
     from fontTools.ttLib import TTFont
 
@@ -37,6 +57,7 @@ def test_coverage():
 
 def test_compare():
     compare_glyphsets(["GF_Latin_Kernel", "GF_Latin_Core", "GF_Latin_Plus"])
+    compare_glyphsets(["GF_Cyrillic_Core", "GF_Cyrillic_Plus", "GF_Cyrillic_Pro"])
 
 
 def test_filter_lists():

@@ -10,6 +10,7 @@ from glyphsets.helpers import Colors, headline
 import tabulate
 import glyphsLib
 import youseedee
+import random
 
 from glyphsLib.glyphdata import get_glyph, _lookup_attributes_by_unicode
 
@@ -54,8 +55,8 @@ def sort_unicodes_by_glyphobject(a, b):
 
 
 def sort_by_category(a, b):
-    info_a = get_glyph(a.name)
-    info_b = get_glyph(b.name)
+    info_a = get_glyph(a.name if hasattr(a, "name") else a)
+    info_b = get_glyph(b.name if hasattr(b, "name") else b)
 
     if info_a.category is None:
         return -1
@@ -117,10 +118,15 @@ glyphset_cache = {}
 class GlyphSet(object):
 
     @classmethod
-    def load(cls, name):
+    def load(cls, name, reload=False):
         """
         Class factory method to load a glyphset by name.
         Can later be altered to return different classes based on modifiers."""
+
+        global glyphset_cache
+
+        if reload:
+            glyphset_cache = {}
 
         if name in glyphset_cache:
             return glyphset_cache[name]
@@ -456,9 +462,9 @@ class GlyphSet(object):
 
             # Subtract own glyphs
             complete_glyphs = set(self.get_final_glyphnames(exclusive=False))
-            glyph_names = list(set(complete_glyphs) - inherited_glyphs)
+            glyph_names = sorted(list(set(complete_glyphs) - inherited_glyphs))
 
-            return sorted(glyph_names, key=functools.cmp_to_key(sort_unicodes_by_name))
+            return sorted(glyph_names, key=functools.cmp_to_key(sort_by_category))
 
         else:
             return glyph_names

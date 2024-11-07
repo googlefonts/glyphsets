@@ -826,87 +826,87 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>lowernumeral-greek</string>
+			<string>numeral-greek</string>
+			<string>anoteleia</string>
 			<string>guillemetleft</string>
 			<string>guillemetright</string>
+			<string>questiongreek</string>
 			<string>acutecomb</string>
 			<string>dieresiscomb</string>
-			<string>numeral-greek</string>
-			<string>lowernumeral-greek</string>
-			<string>questiongreek</string>
-			<string>tonos</string>
 			<string>dieresistonos</string>
-			<string>Alphatonos</string>
-			<string>anoteleia</string>
-			<string>Epsilontonos</string>
-			<string>Etatonos</string>
-			<string>Iotatonos</string>
-			<string>Omicrontonos</string>
-			<string>Upsilontonos</string>
-			<string>Omegatonos</string>
-			<string>iotadieresistonos</string>
+			<string>tonos</string>
 			<string>Alpha</string>
+			<string>Alphatonos</string>
 			<string>Beta</string>
-			<string>Gamma</string>
+			<string>Chi</string>
 			<string>Delta</string>
 			<string>Epsilon</string>
-			<string>Zeta</string>
+			<string>Epsilontonos</string>
 			<string>Eta</string>
-			<string>Theta</string>
+			<string>Etatonos</string>
+			<string>Gamma</string>
 			<string>Iota</string>
+			<string>Iotadieresis</string>
+			<string>Iotatonos</string>
+			<string>KaiSymbol</string>
 			<string>Kappa</string>
 			<string>Lambda</string>
 			<string>Mu</string>
 			<string>Nu</string>
-			<string>Xi</string>
+			<string>Omega</string>
+			<string>Omegatonos</string>
 			<string>Omicron</string>
+			<string>Omicrontonos</string>
+			<string>Phi</string>
 			<string>Pi</string>
+			<string>Psi</string>
 			<string>Rho</string>
 			<string>Sigma</string>
 			<string>Tau</string>
+			<string>Theta</string>
 			<string>Upsilon</string>
-			<string>Phi</string>
-			<string>Chi</string>
-			<string>Psi</string>
-			<string>Omega</string>
-			<string>Iotadieresis</string>
 			<string>Upsilondieresis</string>
-			<string>alphatonos</string>
-			<string>epsilontonos</string>
-			<string>etatonos</string>
-			<string>iotatonos</string>
-			<string>upsilondieresistonos</string>
+			<string>Upsilontonos</string>
+			<string>Xi</string>
+			<string>Zeta</string>
 			<string>alpha</string>
+			<string>alphatonos</string>
 			<string>beta</string>
-			<string>gamma</string>
+			<string>chi</string>
 			<string>delta</string>
 			<string>epsilon</string>
-			<string>zeta</string>
+			<string>epsilontonos</string>
 			<string>eta</string>
-			<string>theta</string>
+			<string>etatonos</string>
+			<string>gamma</string>
 			<string>iota</string>
+			<string>iotadieresis</string>
+			<string>iotadieresistonos</string>
+			<string>iotatonos</string>
+			<string>kaiSymbol</string>
 			<string>kappa</string>
 			<string>lambda</string>
 			<string>mu</string>
 			<string>nu</string>
-			<string>xi</string>
-			<string>omicron</string>
-			<string>pi</string>
-			<string>rho</string>
-			<string>sigmafinal</string>
-			<string>sigma</string>
-			<string>tau</string>
-			<string>upsilon</string>
-			<string>phi</string>
-			<string>chi</string>
-			<string>psi</string>
 			<string>omega</string>
-			<string>iotadieresis</string>
-			<string>upsilondieresis</string>
-			<string>omicrontonos</string>
-			<string>upsilontonos</string>
 			<string>omegatonos</string>
-			<string>KaiSymbol</string>
-			<string>kaiSymbol</string>
+			<string>omicron</string>
+			<string>omicrontonos</string>
+			<string>phi</string>
+			<string>pi</string>
+			<string>psi</string>
+			<string>rho</string>
+			<string>sigma</string>
+			<string>sigmafinal</string>
+			<string>tau</string>
+			<string>theta</string>
+			<string>upsilon</string>
+			<string>upsilondieresis</string>
+			<string>upsilondieresistonos</string>
+			<string>upsilontonos</string>
+			<string>xi</string>
+			<string>zeta</string>
 		</array>
 		<key>name</key>
 		<string>GF_Greek_Core Exclusive</string>
