@@ -64,7 +64,7 @@ setup(
         "requests",
         "setuptools",
         "FontTools[ufo]",
-        "glyphsLib>=6.9.2",
+        "glyphsLib>=6.9.4",
         "defcon",
         "unicodedata2",
         "gflanguages>=0.7.0",
