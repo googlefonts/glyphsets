@@ -319,7 +319,7 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 > _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
-> For Headline typefaces (?), with language support more Non-Slavic languages. Additional characters in this set provide support for the following 18 languages: Abkhaz, Chukchi, Enets, Eskimo, Even, Evenki, Itelmen, Khanty, Kildin Sami, Koryak, Mansi, Nganasan, Nenets, Oroch, Orok, Sakha/Yakut, Tati, Yukaghir, Yupik Ulch
+> Additional characters in this set provide support for the following 18 Non-Slavic Cyrillic languages: Abkhaz, Chukchi, Enets, Eskimo, Even, Evenki, Itelmen, Khanty, Kildin Sami, Koryak, Mansi, Nganasan, Nenets, Oroch, Orok, Sakha/Yakut, Tati, Yukaghir, Yupik Ulch
 
 `GF_Cyrillic_Pro` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Cyrillic_Pro.yaml) as:
 
