@@ -1,5 +1,3 @@
-include_glyphsets:
-- GF_Latin_Core
 use_auxiliary: true
 historical: false
 population: 1
