@@ -49,6 +49,10 @@ name = Regular;
 );
 glyphs = (
 {
+glyphname = dollar;
+unicode = 36;
+},
+{
 glyphname = percent;
 unicode = 37;
 },
@@ -61,8 +65,72 @@ glyphname = plus;
 unicode = 43;
 },
 {
+glyphname = less;
+unicode = 60;
+},
+{
+glyphname = equal;
+unicode = 61;
+},
+{
+glyphname = greater;
+unicode = 62;
+},
+{
 glyphname = at;
 unicode = 64;
+},
+{
+glyphname = asciicircum;
+unicode = 94;
+},
+{
+glyphname = bar;
+unicode = 124;
+},
+{
+glyphname = asciitilde;
+unicode = 126;
+},
+{
+glyphname = cent;
+unicode = 162;
+},
+{
+glyphname = sterling;
+unicode = 163;
+},
+{
+glyphname = yen;
+unicode = 165;
+},
+{
+glyphname = section;
+unicode = 167;
+},
+{
+glyphname = copyright;
+unicode = 169;
+},
+{
+glyphname = registered;
+unicode = 174;
+},
+{
+glyphname = degree;
+unicode = 176;
+},
+{
+glyphname = paragraph;
+unicode = 182;
+},
+{
+glyphname = multiply;
+unicode = 215;
+},
+{
+glyphname = divide;
+unicode = 247;
 },
 {
 glyphname = florin;
@@ -75,6 +143,18 @@ unicode = 727;
 {
 glyphname = doubleapostrophemod;
 unicode = 750;
+},
+{
+glyphname = euro;
+unicode = 8364;
+},
+{
+glyphname = trademark;
+unicode = 8482;
+},
+{
+glyphname = minus;
+unicode = 8722;
 },
 {
 glyphname = A.circled;
@@ -91,6 +171,23 @@ unicode = 42889;
 {
 glyphname = shortequalmod;
 unicode = 42890;
+},
+{
+glyphname = space;
+unicode = 32;
+},
+{
+glyphname = nbspace;
+unicode = 160;
+},
+{
+glyphname = .notdef;
+},
+{
+glyphname = periodcentered.loclCAT;
+},
+{
+glyphname = periodcentered.loclCAT.case;
 },
 {
 glyphname = exclam;
@@ -153,16 +250,44 @@ glyphname = bracketleft;
 unicode = 91;
 },
 {
+glyphname = backslash;
+unicode = 92;
+},
+{
 glyphname = bracketright;
 unicode = 93;
+},
+{
+glyphname = underscore;
+unicode = 95;
+},
+{
+glyphname = braceleft;
+unicode = 123;
+},
+{
+glyphname = braceright;
+unicode = 125;
+},
+{
+glyphname = exclamdown;
+unicode = 161;
 },
 {
 glyphname = guillemetleft;
 unicode = 171;
 },
 {
+glyphname = periodcentered;
+unicode = 183;
+},
+{
 glyphname = guillemetright;
 unicode = 187;
+},
+{
+glyphname = questiondown;
+unicode = 191;
 },
 {
 glyphname = endash;
@@ -181,12 +306,24 @@ glyphname = quoteright;
 unicode = 8217;
 },
 {
+glyphname = quotesinglbase;
+unicode = 8218;
+},
+{
 glyphname = quotedblleft;
 unicode = 8220;
 },
 {
 glyphname = quotedblright;
 unicode = 8221;
+},
+{
+glyphname = quotedblbase;
+unicode = 8222;
+},
+{
+glyphname = bullet;
+unicode = 8226;
 },
 {
 glyphname = ellipsis;
@@ -241,6 +378,26 @@ glyphname = nine;
 unicode = 57;
 },
 {
+glyphname = grave;
+unicode = 96;
+},
+{
+glyphname = dieresis;
+unicode = 168;
+},
+{
+glyphname = macron;
+unicode = 175;
+},
+{
+glyphname = acute;
+unicode = 180;
+},
+{
+glyphname = cedilla;
+unicode = 184;
+},
+{
 glyphname = apostrophemod;
 unicode = 700;
 },
@@ -253,8 +410,36 @@ glyphname = circumflex;
 unicode = 710;
 },
 {
+glyphname = caron;
+unicode = 711;
+},
+{
 glyphname = verticallinemod;
 unicode = 712;
+},
+{
+glyphname = breve;
+unicode = 728;
+},
+{
+glyphname = dotaccent;
+unicode = 729;
+},
+{
+glyphname = ring;
+unicode = 730;
+},
+{
+glyphname = ogonek;
+unicode = 731;
+},
+{
+glyphname = tilde;
+unicode = 732;
+},
+{
+glyphname = hungarumlaut;
+unicode = 733;
 },
 {
 glyphname = gravecomb;
@@ -325,6 +510,10 @@ glyphname = ringbelowcomb;
 unicode = 805;
 },
 {
+glyphname = commaaccentcomb;
+unicode = 806;
+},
+{
 glyphname = cedillacomb;
 unicode = 807;
 },
@@ -367,6 +556,9 @@ unicode = 7622;
 {
 glyphname = acutemacroncomb;
 unicode = 7623;
+},
+{
+glyphname = caroncomb.alt;
 },
 {
 glyphname = A;
@@ -649,6 +841,10 @@ glyphname = Idieresis;
 unicode = 207;
 },
 {
+glyphname = Eth;
+unicode = 208;
+},
+{
 glyphname = Ntilde;
 unicode = 209;
 },
@@ -695,6 +891,14 @@ unicode = 220;
 {
 glyphname = Yacute;
 unicode = 221;
+},
+{
+glyphname = Thorn;
+unicode = 222;
+},
+{
+glyphname = germandbls;
+unicode = 223;
 },
 {
 glyphname = agrave;
@@ -761,6 +965,10 @@ glyphname = idieresis;
 unicode = 239;
 },
 {
+glyphname = eth;
+unicode = 240;
+},
+{
 glyphname = ntilde;
 unicode = 241;
 },
@@ -809,6 +1017,10 @@ glyphname = yacute;
 unicode = 253;
 },
 {
+glyphname = thorn;
+unicode = 254;
+},
+{
 glyphname = ydieresis;
 unicode = 255;
 },
@@ -837,6 +1049,14 @@ glyphname = aogonek;
 unicode = 261;
 },
 {
+glyphname = Cacute;
+unicode = 262;
+},
+{
+glyphname = cacute;
+unicode = 263;
+},
+{
 glyphname = Ccircumflex;
 unicode = 264;
 },
@@ -845,12 +1065,28 @@ glyphname = ccircumflex;
 unicode = 265;
 },
 {
+glyphname = Cdotaccent;
+unicode = 266;
+},
+{
+glyphname = cdotaccent;
+unicode = 267;
+},
+{
 glyphname = Ccaron;
 unicode = 268;
 },
 {
 glyphname = ccaron;
 unicode = 269;
+},
+{
+glyphname = Dcaron;
+unicode = 270;
+},
+{
+glyphname = dcaron;
+unicode = 271;
 },
 {
 glyphname = Dcroat;
@@ -867,6 +1103,14 @@ unicode = 274;
 {
 glyphname = emacron;
 unicode = 275;
+},
+{
+glyphname = Ebreve;
+unicode = 276;
+},
+{
+glyphname = ebreve;
+unicode = 277;
 },
 {
 glyphname = Edotaccent;
@@ -891,6 +1135,30 @@ unicode = 282;
 {
 glyphname = ecaron;
 unicode = 283;
+},
+{
+glyphname = Gbreve;
+unicode = 286;
+},
+{
+glyphname = gbreve;
+unicode = 287;
+},
+{
+glyphname = Gdotaccent;
+unicode = 288;
+},
+{
+glyphname = gdotaccent;
+unicode = 289;
+},
+{
+glyphname = Gcommaaccent;
+unicode = 290;
+},
+{
+glyphname = gcommaaccent;
+unicode = 291;
 },
 {
 glyphname = Hcircumflex;
@@ -925,12 +1193,44 @@ glyphname = imacron;
 unicode = 299;
 },
 {
+glyphname = Ibreve;
+unicode = 300;
+},
+{
+glyphname = ibreve;
+unicode = 301;
+},
+{
 glyphname = Iogonek;
 unicode = 302;
 },
 {
 glyphname = iogonek;
 unicode = 303;
+},
+{
+glyphname = Idotaccent;
+unicode = 304;
+},
+{
+glyphname = idotless;
+unicode = 305;
+},
+{
+glyphname = IJ;
+unicode = 306;
+},
+{
+glyphname = ij;
+unicode = 307;
+},
+{
+glyphname = Kcommaaccent;
+unicode = 310;
+},
+{
+glyphname = kcommaaccent;
+unicode = 311;
 },
 {
 glyphname = Lacute;
@@ -941,12 +1241,52 @@ glyphname = lacute;
 unicode = 314;
 },
 {
+glyphname = Lcommaaccent;
+unicode = 315;
+},
+{
+glyphname = lcommaaccent;
+unicode = 316;
+},
+{
+glyphname = Lcaron;
+unicode = 317;
+},
+{
+glyphname = lcaron;
+unicode = 318;
+},
+{
+glyphname = Ldot;
+unicode = 319;
+},
+{
+glyphname = ldot;
+unicode = 320;
+},
+{
+glyphname = Lslash;
+unicode = 321;
+},
+{
+glyphname = lslash;
+unicode = 322;
+},
+{
 glyphname = Nacute;
 unicode = 323;
 },
 {
 glyphname = nacute;
 unicode = 324;
+},
+{
+glyphname = Ncommaaccent;
+unicode = 325;
+},
+{
+glyphname = ncommaaccent;
+unicode = 326;
 },
 {
 glyphname = Ncaron;
@@ -971,6 +1311,14 @@ unicode = 332;
 {
 glyphname = omacron;
 unicode = 333;
+},
+{
+glyphname = Obreve;
+unicode = 334;
+},
+{
+glyphname = obreve;
+unicode = 335;
 },
 {
 glyphname = Ohungarumlaut;
@@ -1053,6 +1401,14 @@ glyphname = tcedilla;
 unicode = 355;
 },
 {
+glyphname = Tcaron;
+unicode = 356;
+},
+{
+glyphname = tcaron;
+unicode = 357;
+},
+{
 glyphname = Tbar;
 unicode = 358;
 },
@@ -1075,6 +1431,22 @@ unicode = 362;
 {
 glyphname = umacron;
 unicode = 363;
+},
+{
+glyphname = Ubreve;
+unicode = 364;
+},
+{
+glyphname = ubreve;
+unicode = 365;
+},
+{
+glyphname = Uring;
+unicode = 366;
+},
+{
+glyphname = uring;
+unicode = 367;
 },
 {
 glyphname = Uhungarumlaut;
@@ -1113,6 +1485,14 @@ glyphname = Ydieresis;
 unicode = 376;
 },
 {
+glyphname = Zacute;
+unicode = 377;
+},
+{
+glyphname = zacute;
+unicode = 378;
+},
+{
 glyphname = Zdotaccent;
 unicode = 379;
 },
@@ -1127,6 +1507,10 @@ unicode = 381;
 {
 glyphname = zcaron;
 unicode = 382;
+},
+{
+glyphname = longs;
+unicode = 383;
 },
 {
 glyphname = Bhook;
@@ -1333,6 +1717,14 @@ glyphname = aemacron;
 unicode = 483;
 },
 {
+glyphname = Gstroke;
+unicode = 484;
+},
+{
+glyphname = gstroke;
+unicode = 485;
+},
+{
 glyphname = Gcaron;
 unicode = 486;
 },
@@ -1341,12 +1733,28 @@ glyphname = gcaron;
 unicode = 487;
 },
 {
+glyphname = Kcaron;
+unicode = 488;
+},
+{
+glyphname = kcaron;
+unicode = 489;
+},
+{
 glyphname = Oogonek;
 unicode = 490;
 },
 {
 glyphname = oogonek;
 unicode = 491;
+},
+{
+glyphname = Ezhcaron;
+unicode = 494;
+},
+{
+glyphname = ezhcaron;
+unicode = 495;
 },
 {
 glyphname = jcaron;
@@ -1425,6 +1833,30 @@ glyphname = udblgrave;
 unicode = 533;
 },
 {
+glyphname = Scommaaccent;
+unicode = 536;
+},
+{
+glyphname = scommaaccent;
+unicode = 537;
+},
+{
+glyphname = Tcommaaccent;
+unicode = 538;
+},
+{
+glyphname = tcommaaccent;
+unicode = 539;
+},
+{
+glyphname = Hcaron;
+unicode = 542;
+},
+{
+glyphname = hcaron;
+unicode = 543;
+},
+{
 glyphname = Adotaccent;
 unicode = 550;
 },
@@ -1447,6 +1879,10 @@ unicode = 562;
 {
 glyphname = ymacron;
 unicode = 563;
+},
+{
+glyphname = jdotless;
+unicode = 567;
 },
 {
 glyphname = Glottalstopsmall;
@@ -1933,6 +2369,14 @@ glyphname = vdotbelow;
 unicode = 7807;
 },
 {
+glyphname = Wgrave;
+unicode = 7808;
+},
+{
+glyphname = wgrave;
+unicode = 7809;
+},
+{
 glyphname = Wacute;
 unicode = 7810;
 },
@@ -1967,6 +2411,10 @@ unicode = 7827;
 {
 glyphname = hmacronbelow;
 unicode = 7830;
+},
+{
+glyphname = Germandbls;
+unicode = 7838;
 },
 {
 glyphname = Adotbelow;
@@ -2135,6 +2583,9 @@ unicode = 42952;
 {
 glyphname = Ramshorn;
 unicode = 42955;
+},
+{
+glyphname = idotaccent;
 }
 );
 instances = (

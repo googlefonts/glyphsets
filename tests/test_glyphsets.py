@@ -25,7 +25,7 @@ def test_definitions():
     assert len(unicodes_per_glyphset("GF_Latin_Core")) == 319
 
     assert len(languages_per_glyphset("GF_Arabic_Plus")) >= 8
-    assert len(languages_per_glyphset("GF_Latin_African")) >= 617
+    assert len(languages_per_glyphset("GF_Latin_African")) >= 643
 
     # accidental double definitions
     for code in defined_glyphsets():

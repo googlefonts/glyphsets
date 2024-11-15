@@ -4255,17 +4255,42 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>dollar</string>
 			<string>percent</string>
 			<string>ampersand</string>
 			<string>plus</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
 			<string>at</string>
+			<string>asciicircum</string>
+			<string>bar</string>
+			<string>asciitilde</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>section</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>degree</string>
+			<string>paragraph</string>
+			<string>multiply</string>
+			<string>divide</string>
 			<string>florin</string>
 			<string>minusmod</string>
 			<string>doubleapostrophemod</string>
+			<string>euro</string>
+			<string>trademark</string>
+			<string>minus</string>
 			<string>A.circled</string>
 			<string>a.circled</string>
 			<string>colonmod</string>
 			<string>shortequalmod</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>.notdef</string>
+			<string>periodcentered.loclCAT</string>
+			<string>periodcentered.loclCAT.case</string>
 			<string>exclam</string>
 			<string>quotedbl</string>
 			<string>numbersign</string>
@@ -4281,15 +4306,25 @@
 			<string>semicolon</string>
 			<string>question</string>
 			<string>bracketleft</string>
+			<string>backslash</string>
 			<string>bracketright</string>
+			<string>underscore</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>exclamdown</string>
 			<string>guillemetleft</string>
+			<string>periodcentered</string>
 			<string>guillemetright</string>
+			<string>questiondown</string>
 			<string>endash</string>
 			<string>emdash</string>
 			<string>quoteleft</string>
 			<string>quoteright</string>
+			<string>quotesinglbase</string>
 			<string>quotedblleft</string>
 			<string>quotedblright</string>
+			<string>quotedblbase</string>
+			<string>bullet</string>
 			<string>ellipsis</string>
 			<string>guilsinglleft</string>
 			<string>guilsinglright</string>
@@ -4303,10 +4338,22 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
+			<string>grave</string>
+			<string>dieresis</string>
+			<string>macron</string>
+			<string>acute</string>
+			<string>cedilla</string>
 			<string>apostrophemod</string>
 			<string>glottalstopmod</string>
 			<string>circumflex</string>
+			<string>caron</string>
 			<string>verticallinemod</string>
+			<string>breve</string>
+			<string>dotaccent</string>
+			<string>ring</string>
+			<string>ogonek</string>
+			<string>tilde</string>
+			<string>hungarumlaut</string>
 			<string>gravecomb</string>
 			<string>acutecomb</string>
 			<string>circumflexcomb</string>
@@ -4324,6 +4371,7 @@
 			<string>dotbelowcomb</string>
 			<string>dieresisbelowcomb</string>
 			<string>ringbelowcomb</string>
+			<string>commaaccentcomb</string>
 			<string>cedillacomb</string>
 			<string>ogonekcomb</string>
 			<string>circumflexbelowcomb</string>
@@ -4335,6 +4383,7 @@
 			<string>gravemacroncomb</string>
 			<string>macrongravecomb</string>
 			<string>acutemacroncomb</string>
+			<string>caroncomb.alt</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -4405,6 +4454,7 @@
 			<string>Iacute</string>
 			<string>Icircumflex</string>
 			<string>Idieresis</string>
+			<string>Eth</string>
 			<string>Ntilde</string>
 			<string>Ograve</string>
 			<string>Oacute</string>
@@ -4417,6 +4467,8 @@
 			<string>Ucircumflex</string>
 			<string>Udieresis</string>
 			<string>Yacute</string>
+			<string>Thorn</string>
+			<string>germandbls</string>
 			<string>agrave</string>
 			<string>aacute</string>
 			<string>acircumflex</string>
@@ -4433,6 +4485,7 @@
 			<string>iacute</string>
 			<string>icircumflex</string>
 			<string>idieresis</string>
+			<string>eth</string>
 			<string>ntilde</string>
 			<string>ograve</string>
 			<string>oacute</string>
@@ -4445,6 +4498,7 @@
 			<string>ucircumflex</string>
 			<string>udieresis</string>
 			<string>yacute</string>
+			<string>thorn</string>
 			<string>ydieresis</string>
 			<string>Amacron</string>
 			<string>amacron</string>
@@ -4452,20 +4506,34 @@
 			<string>abreve</string>
 			<string>Aogonek</string>
 			<string>aogonek</string>
+			<string>Cacute</string>
+			<string>cacute</string>
 			<string>Ccircumflex</string>
 			<string>ccircumflex</string>
+			<string>Cdotaccent</string>
+			<string>cdotaccent</string>
 			<string>Ccaron</string>
 			<string>ccaron</string>
+			<string>Dcaron</string>
+			<string>dcaron</string>
 			<string>Dcroat</string>
 			<string>dcroat</string>
 			<string>Emacron</string>
 			<string>emacron</string>
+			<string>Ebreve</string>
+			<string>ebreve</string>
 			<string>Edotaccent</string>
 			<string>edotaccent</string>
 			<string>Eogonek</string>
 			<string>eogonek</string>
 			<string>Ecaron</string>
 			<string>ecaron</string>
+			<string>Gbreve</string>
+			<string>gbreve</string>
+			<string>Gdotaccent</string>
+			<string>gdotaccent</string>
+			<string>Gcommaaccent</string>
+			<string>gcommaaccent</string>
 			<string>Hcircumflex</string>
 			<string>hcircumflex</string>
 			<string>Hbar</string>
@@ -4474,18 +4542,38 @@
 			<string>itilde</string>
 			<string>Imacron</string>
 			<string>imacron</string>
+			<string>Ibreve</string>
+			<string>ibreve</string>
 			<string>Iogonek</string>
 			<string>iogonek</string>
+			<string>Idotaccent</string>
+			<string>idotless</string>
+			<string>IJ</string>
+			<string>ij</string>
+			<string>Kcommaaccent</string>
+			<string>kcommaaccent</string>
 			<string>Lacute</string>
 			<string>lacute</string>
+			<string>Lcommaaccent</string>
+			<string>lcommaaccent</string>
+			<string>Lcaron</string>
+			<string>lcaron</string>
+			<string>Ldot</string>
+			<string>ldot</string>
+			<string>Lslash</string>
+			<string>lslash</string>
 			<string>Nacute</string>
 			<string>nacute</string>
+			<string>Ncommaaccent</string>
+			<string>ncommaaccent</string>
 			<string>Ncaron</string>
 			<string>ncaron</string>
 			<string>Eng</string>
 			<string>eng</string>
 			<string>Omacron</string>
 			<string>omacron</string>
+			<string>Obreve</string>
+			<string>obreve</string>
 			<string>Ohungarumlaut</string>
 			<string>ohungarumlaut</string>
 			<string>OE</string>
@@ -4506,12 +4594,18 @@
 			<string>scaron</string>
 			<string>Tcedilla</string>
 			<string>tcedilla</string>
+			<string>Tcaron</string>
+			<string>tcaron</string>
 			<string>Tbar</string>
 			<string>tbar</string>
 			<string>Utilde</string>
 			<string>utilde</string>
 			<string>Umacron</string>
 			<string>umacron</string>
+			<string>Ubreve</string>
+			<string>ubreve</string>
+			<string>Uring</string>
+			<string>uring</string>
 			<string>Uhungarumlaut</string>
 			<string>uhungarumlaut</string>
 			<string>Uogonek</string>
@@ -4521,10 +4615,13 @@
 			<string>Ycircumflex</string>
 			<string>ycircumflex</string>
 			<string>Ydieresis</string>
+			<string>Zacute</string>
+			<string>zacute</string>
 			<string>Zdotaccent</string>
 			<string>zdotaccent</string>
 			<string>Zcaron</string>
 			<string>zcaron</string>
+			<string>longs</string>
 			<string>Bhook</string>
 			<string>Btopbar</string>
 			<string>btopbar</string>
@@ -4576,10 +4673,16 @@
 			<string>eturned</string>
 			<string>AEmacron</string>
 			<string>aemacron</string>
+			<string>Gstroke</string>
+			<string>gstroke</string>
 			<string>Gcaron</string>
 			<string>gcaron</string>
+			<string>Kcaron</string>
+			<string>kcaron</string>
 			<string>Oogonek</string>
 			<string>oogonek</string>
+			<string>Ezhcaron</string>
+			<string>ezhcaron</string>
 			<string>jcaron</string>
 			<string>Ngrave</string>
 			<string>ngrave</string>
@@ -4599,12 +4702,19 @@
 			<string>rinvertedbreve</string>
 			<string>Udblgrave</string>
 			<string>udblgrave</string>
+			<string>Scommaaccent</string>
+			<string>scommaaccent</string>
+			<string>Tcommaaccent</string>
+			<string>tcommaaccent</string>
+			<string>Hcaron</string>
+			<string>hcaron</string>
 			<string>Adotaccent</string>
 			<string>adotaccent</string>
 			<string>Ecedilla</string>
 			<string>ecedilla</string>
 			<string>Ymacron</string>
 			<string>ymacron</string>
+			<string>jdotless</string>
 			<string>Glottalstopsmall</string>
 			<string>glottalstopsmall</string>
 			<string>Ubar</string>
@@ -4726,6 +4836,8 @@
 			<string>vtilde</string>
 			<string>Vdotbelow</string>
 			<string>vdotbelow</string>
+			<string>Wgrave</string>
+			<string>wgrave</string>
 			<string>Wacute</string>
 			<string>wacute</string>
 			<string>Wdieresis</string>
@@ -4735,6 +4847,7 @@
 			<string>Zdotbelow</string>
 			<string>zdotbelow</string>
 			<string>hmacronbelow</string>
+			<string>Germandbls</string>
 			<string>Adotbelow</string>
 			<string>adotbelow</string>
 			<string>Acircumflexdotbelow</string>
@@ -4777,9 +4890,329 @@
 			<string>Dshortstrokeoverlay</string>
 			<string>dshortstrokeoverlay</string>
 			<string>Ramshorn</string>
+			<string>idotaccent</string>
 		</array>
 		<key>name</key>
 		<string>GF_Latin_African</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
+			<string>A.circled</string>
+			<string>a.circled</string>
+			<string>colonmod</string>
+			<string>doubleapostrophemod</string>
+			<string>florin</string>
+			<string>minusmod</string>
+			<string>shortequalmod</string>
+			<string>acutemacroncomb</string>
+			<string>apostrophemod</string>
+			<string>breveinvertedbelowcomb</string>
+			<string>breveinvertedcomb</string>
+			<string>circumflexbelowcomb</string>
+			<string>dblgravecomb</string>
+			<string>dieresisbelowcomb</string>
+			<string>dotbelowcomb</string>
+			<string>doublemacronbelowcomb</string>
+			<string>glottalstopmod</string>
+			<string>gravemacroncomb</string>
+			<string>macronacutecomb</string>
+			<string>macronbelowcomb</string>
+			<string>macrongravecomb</string>
+			<string>ringbelowcomb</string>
+			<string>tildebelowcomb</string>
+			<string>verticallineabovecomb</string>
+			<string>verticallinemod</string>
+			<string>AEacute</string>
+			<string>AEmacron</string>
+			<string>Acaron</string>
+			<string>Acircumflexdotbelow</string>
+			<string>Adblgrave</string>
+			<string>Adotaccent</string>
+			<string>Adotbelow</string>
+			<string>Alpha-latin</string>
+			<string>Aturned</string>
+			<string>Bdotbelow</string>
+			<string>Beta-latin</string>
+			<string>Bhook</string>
+			<string>Bmacronbelow</string>
+			<string>Btopbar</string>
+			<string>Ccircumflex</string>
+			<string>Chook</string>
+			<string>Dcircumflexbelow</string>
+			<string>Ddotaccent</string>
+			<string>Ddotbelow</string>
+			<string>Dhook</string>
+			<string>Dmacronbelow</string>
+			<string>Dshortstrokeoverlay</string>
+			<string>Dtail</string>
+			<string>Ebreve</string>
+			<string>Ecedilla</string>
+			<string>Ecircumflexdotbelow</string>
+			<string>Edblgrave</string>
+			<string>Edotbelow</string>
+			<string>Emacrongrave</string>
+			<string>Eng</string>
+			<string>Eopen</string>
+			<string>Esh</string>
+			<string>Etilde</string>
+			<string>Etildebelow</string>
+			<string>Eturned</string>
+			<string>Ezh</string>
+			<string>Ezhcaron</string>
+			<string>Ezhreversed</string>
+			<string>Fhook</string>
+			<string>Gamma-latin</string>
+			<string>Gcaron</string>
+			<string>Ghook</string>
+			<string>Glottalstopsmall</string>
+			<string>Gstroke</string>
+			<string>Hcaron</string>
+			<string>Hcircumflex</string>
+			<string>Hdotaccent</string>
+			<string>Hdotbelow</string>
+			<string>Hhook</string>
+			<string>Hturned</string>
+			<string>IJ</string>
+			<string>Ibreve</string>
+			<string>Icapitalsmall</string>
+			<string>Icaron</string>
+			<string>Idblgrave</string>
+			<string>Idieresisacute</string>
+			<string>Idotbelow</string>
+			<string>Iota-latin</string>
+			<string>Istroke</string>
+			<string>Itilde</string>
+			<string>Itildebelow</string>
+			<string>Jcrossedtail</string>
+			<string>Jstroke</string>
+			<string>Kcaron</string>
+			<string>Kdotbelow</string>
+			<string>Khook</string>
+			<string>Kmacronbelow</string>
+			<string>Lcircumflexbelow</string>
+			<string>Ldot</string>
+			<string>Ldotbelow</string>
+			<string>Macute</string>
+			<string>Mdotbelow</string>
+			<string>Mturned</string>
+			<string>Ncircumflexbelow</string>
+			<string>Ndotaccent</string>
+			<string>Ndotbelow</string>
+			<string>Ngrave</string>
+			<string>Nhookleft</string>
+			<string>Nmacronbelow</string>
+			<string>Obarred</string>
+			<string>Obreve</string>
+			<string>Ocaron</string>
+			<string>Ocircumflexdotbelow</string>
+			<string>Odblgrave</string>
+			<string>Odotbelow</string>
+			<string>Omacron</string>
+			<string>Omega-latin</string>
+			<string>Oogonek</string>
+			<string>Oopen</string>
+			<string>Oslashacute</string>
+			<string>Otildeacute</string>
+			<string>Pacute</string>
+			<string>Phook</string>
+			<string>Pstroke</string>
+			<string>Ramshorn</string>
+			<string>Rcommaaccent</string>
+			<string>Rdotbelow</string>
+			<string>Rinvertedbreve</string>
+			<string>Rstroke</string>
+			<string>Rtail</string>
+			<string>Saltillo</string>
+			<string>Schwa</string>
+			<string>Scircumflex</string>
+			<string>Sdotaccent</string>
+			<string>Sdotbelow</string>
+			<string>Tbar</string>
+			<string>Tcedilla</string>
+			<string>Tcircumflexbelow</string>
+			<string>Tdotaccent</string>
+			<string>Tdotbelow</string>
+			<string>Thook</string>
+			<string>Tmacronbelow</string>
+			<string>Tretroflexhook</string>
+			<string>Ubar</string>
+			<string>Ubreve</string>
+			<string>Ucaron</string>
+			<string>Udblgrave</string>
+			<string>Udieresisacute</string>
+			<string>Udieresisbelow</string>
+			<string>Udotbelow</string>
+			<string>Upsilon-latin</string>
+			<string>Utilde</string>
+			<string>Utildeacute</string>
+			<string>Utildebelow</string>
+			<string>Vdotbelow</string>
+			<string>Vhook</string>
+			<string>Vtilde</string>
+			<string>Vturned</string>
+			<string>Whook</string>
+			<string>Xdotaccent</string>
+			<string>Yhook</string>
+			<string>Ymacron</string>
+			<string>Ytilde</string>
+			<string>Zdotbelow</string>
+			<string>acaron</string>
+			<string>acircumflexdotbelow</string>
+			<string>adblgrave</string>
+			<string>adotaccent</string>
+			<string>adotbelow</string>
+			<string>aeacute</string>
+			<string>aemacron</string>
+			<string>alpha-latin</string>
+			<string>amod</string>
+			<string>aturned</string>
+			<string>bdotbelow</string>
+			<string>beta-latin</string>
+			<string>bhook</string>
+			<string>bilabialclick</string>
+			<string>bmacronbelow</string>
+			<string>btopbar</string>
+			<string>ccircumflex</string>
+			<string>chook</string>
+			<string>clickalveolar</string>
+			<string>clickdental</string>
+			<string>clicklateral</string>
+			<string>clickretroflex</string>
+			<string>dcircumflexbelow</string>
+			<string>ddotaccent</string>
+			<string>ddotbelow</string>
+			<string>dhook</string>
+			<string>dmacronbelow</string>
+			<string>dshortstrokeoverlay</string>
+			<string>dtail</string>
+			<string>eOpenmod</string>
+			<string>ebreve</string>
+			<string>ecedilla</string>
+			<string>ecircumflexdotbelow</string>
+			<string>edblgrave</string>
+			<string>edotbelow</string>
+			<string>emacrongrave</string>
+			<string>emod</string>
+			<string>eng</string>
+			<string>eopen</string>
+			<string>esh</string>
+			<string>etilde</string>
+			<string>etildebelow</string>
+			<string>eturned</string>
+			<string>ezh</string>
+			<string>ezhcaron</string>
+			<string>ezhreversed</string>
+			<string>gamma-latin</string>
+			<string>gcaron</string>
+			<string>ghook</string>
+			<string>glottalstop</string>
+			<string>glottalstopreversed</string>
+			<string>glottalstopsmall</string>
+			<string>gstroke</string>
+			<string>hcaron</string>
+			<string>hcircumflex</string>
+			<string>hdotaccent</string>
+			<string>hdotbelow</string>
+			<string>hhook</string>
+			<string>hmacronbelow</string>
+			<string>hturned</string>
+			<string>ibreve</string>
+			<string>icapitalsmall</string>
+			<string>icaron</string>
+			<string>idblgrave</string>
+			<string>idieresisacute</string>
+			<string>idotbelow</string>
+			<string>ij</string>
+			<string>imod</string>
+			<string>iota-latin</string>
+			<string>istroke</string>
+			<string>istrokemod</string>
+			<string>itilde</string>
+			<string>itildebelow</string>
+			<string>jcaron</string>
+			<string>jcrossedtail</string>
+			<string>jstroke</string>
+			<string>kcaron</string>
+			<string>kdotbelow</string>
+			<string>khook</string>
+			<string>kmacronbelow</string>
+			<string>lcircumflexbelow</string>
+			<string>ldot</string>
+			<string>ldotbelow</string>
+			<string>longs</string>
+			<string>macute</string>
+			<string>mdotbelow</string>
+			<string>mturned</string>
+			<string>ncircumflexbelow</string>
+			<string>ndotaccent</string>
+			<string>ndotbelow</string>
+			<string>ngrave</string>
+			<string>nhookleft</string>
+			<string>nmacronbelow</string>
+			<string>oOpenmod</string>
+			<string>obarred</string>
+			<string>obreve</string>
+			<string>ocaron</string>
+			<string>ocircumflexdotbelow</string>
+			<string>odblgrave</string>
+			<string>odotbelow</string>
+			<string>omacron</string>
+			<string>omega-latin</string>
+			<string>omod</string>
+			<string>oogonek</string>
+			<string>oopen</string>
+			<string>oslashacute</string>
+			<string>otildeacute</string>
+			<string>pacute</string>
+			<string>phook</string>
+			<string>pstroke</string>
+			<string>ramshorn</string>
+			<string>rcommaaccent</string>
+			<string>rdotbelow</string>
+			<string>rinvertedbreve</string>
+			<string>rstroke</string>
+			<string>rtail</string>
+			<string>saltillo</string>
+			<string>schwa</string>
+			<string>scircumflex</string>
+			<string>sdotaccent</string>
+			<string>sdotbelow</string>
+			<string>tbar</string>
+			<string>tcedilla</string>
+			<string>tcircumflexbelow</string>
+			<string>tdotaccent</string>
+			<string>tdotbelow</string>
+			<string>thook</string>
+			<string>tmacronbelow</string>
+			<string>tretroflexhook</string>
+			<string>ubar</string>
+			<string>ubarmod</string>
+			<string>ubreve</string>
+			<string>ucaron</string>
+			<string>udblgrave</string>
+			<string>udieresisacute</string>
+			<string>udieresisbelow</string>
+			<string>udotbelow</string>
+			<string>umod</string>
+			<string>upsilon-latin</string>
+			<string>utilde</string>
+			<string>utildeacute</string>
+			<string>utildebelow</string>
+			<string>vdotbelow</string>
+			<string>vhook</string>
+			<string>vtilde</string>
+			<string>vturned</string>
+			<string>whook</string>
+			<string>wmod</string>
+			<string>xdotaccent</string>
+			<string>yhook</string>
+			<string>ymacron</string>
+			<string>ytilde</string>
+			<string>zdotbelow</string>
+		</array>
+		<key>name</key>
+		<string>GF_Latin_African Exclusive</string>
 	</dict>
 	<dict>
 		<key>list</key>
