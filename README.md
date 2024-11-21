@@ -11,7 +11,7 @@ What is this _not_?
 
 These _glyphsets_ are not to be confused with the _subsets_ that the [Google Fonts API](https://developers.google.com/fonts/docs/getting_started#specifying_script_subsets) uses to minimize traffic by serving partial fonts based on subsets.
 
-These subset definitions used to be hosted here in this repository but are not found over in the separate [nam-files](https://github.com/googlefonts/nam-files) repository. 
+These subset definitions used to be hosted here in this repository but are now found over in the separate [nam-files](https://github.com/googlefonts/nam-files) repository. 
 
 What’s the difference?
 ----------------------
