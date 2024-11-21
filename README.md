@@ -11,14 +11,14 @@ What is this _not_?
 
 These _glyphsets_ are not to be confused with the _subsets_ that the [Google Fonts API](https://developers.google.com/fonts/docs/getting_started#specifying_script_subsets) uses to minimize traffic by serving partial fonts based on subsets.
 
-These subsets used to be hosted here in this repository, but are not found over in the newly created [nam-files](https://github.com/googlefonts/nam-files) repo. 
+These subset definitions used to be hosted here in this repository but are not found over in the separate [nam-files](https://github.com/googlefonts/nam-files) repository. 
 
 What’s the difference?
 ----------------------
 
-As a user of the Google Fonts API you may request a multi-script font to be served limited to a _subset_, usually a certain script, such as `https://fonts.googleapis.com/css?family=Roboto+Mono&subset=cyrillic`, to speed up file transfer by leaving out unnecessary glyphs.
+As a user of the [Google Fonts API](https://developers.google.com/fonts/docs/getting_started#specifying_script_subsets) you may request a multi-script font to be served limited to a _subset_ of glyphs, usually a certain script, such as `https://fonts.googleapis.com/css?family=Roboto+Mono&subset=cyrillic`, to speed up file transfer by leaving out unnecessary glyphs.
 
-_Glyphsets_ on the other hand are what Google Fonts requires font authors to put into fonts when designing them, and they’re not identical to subsets. You can get a font’s complete glyphset by manually downloading a TTF on [fonts.google.com](https://fonts.google.com/), but you typically don’t get the same glyphs in a font accessed through the Google Fonts API because these are subsetted.
+_Glyphsets_ on the other hand are what Google Fonts requires font authors to put into fonts when _designing_ them, and they’re not identical to subsets. You can get a font’s complete glyphset by manually downloading a TTF on [fonts.google.com](https://fonts.google.com/), but you typically don’t get the same glyphs in a font accessed through the Google Fonts API because these are subsetted.
 
 
 Glyphsets for font authoring
