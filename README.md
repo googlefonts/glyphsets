@@ -1,12 +1,27 @@
 Google Fonts Glyphset Definitions
 =================================
 
-This repository contains curated glyphsets that Google Fonts hands out to designers of commissioned fonts.
+What is this?
+-------------
 
-> [!NOTE]  
-> **If you are a user** and you want to merely get your hands on ready-made glyphsets, pick your files straight out of the [`/data/results`](/data/results) folder, such as `.glyphs` files with empty placeholder glyphs, or `.plist` files that are so-called _Custom Filters_ that will show up in the Glyphs.app sidebar when placed alongside your source files. Alternatively, you can cook your own Custom Filters with the `glyphsets` tool, see the _Glyphsets Tool_ section at the bottom of this document.
->
-> The rest of this README is addressing people who are **editing** glyphset and language definitions.
+This repository contains curated glyphsets that Google Fonts hands out to **designers of commissioned fonts** for font authoring.
+
+What is this _not_?
+-------------------
+
+These _glyphsets_ are not to be confused with the _subsets_ that the [Google Fonts API](https://developers.google.com/fonts/docs/getting_started#specifying_script_subsets) uses to minimize traffic by serving partial fonts based on subsets.
+
+These subsets used to be hosted here in this repository, but are not found over in the newly created [nam-files](https://github.com/googlefonts/nam-files) repo. 
+
+Glyphsets for font authoring
+----------------------------
+
+**If you are a font author** and you want to merely get your hands on ready-made glyphsets, pick your files straight out of the [`/data/results`](/data/results) folder, such as `.glyphs` files with empty placeholder glyphs, or `.plist` files that are so-called _Custom Filters_ that will show up in the Glyphs.app sidebar when placed alongside your source files. Alternatively, you can cook your own Custom Filters with the `glyphsets` tool, see the _Glyphsets Tool_ section at the bottom of this document.
+
+The rest of this README is addressing people who are **editing** glyphset and language definitions.
+
+Editing glyphsets
+-----------------
 
 The repository recently (end of 2023/start of 2024) underwent a bigger overhaul in how the glyphsets are assembled. 
 The current approach has become part of a bigger network of tools that is also comprised of [gflanguages](https://github.com/googlefonts/lang/) and [shaperglot](https://github.com/googlefonts/shaperglot), as well as [fontbakery’s](https://github.com/fonttools/fontbakery) `shape_languages` check.
