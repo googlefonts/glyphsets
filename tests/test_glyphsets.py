@@ -55,6 +55,8 @@ def test_coverage():
 
     ttFont = TTFont(FONT_PATH)
     assert get_glyphsets_fulfilled(ttFont)["GF_Latin_Core"]["percentage"] > 0.99
+    assert get_glyphsets_fulfilled(ttFont)["GF_Latin_Kernel"]["percentage"] == 1
+    assert get_glyphsets_fulfilled(ttFont)["GF_Latin_Vietnamese"]["percentage"] == 1
     analyze_font(ttFont)
 
 
