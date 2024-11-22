@@ -807,6 +807,12 @@ def add_language(code):
     return code
 
 
+def get_unicodes_unique_in_glyphset(glyphset_name, compare_against_glyphset):
+    unicodes_in_glyphset = set(unicodes_per_glyphset(glyphset_name))
+    unicodes_in_compare_against = set(unicodes_per_glyphset(compare_against_glyphset))
+    return unicodes_in_glyphset.difference(unicodes_in_compare_against)
+
+
 def get_glyphsets_fulfilled(ttFont):
     """Returns a dictionary of glyphsets that are fulfilled by the font,
     and the percentage of glyphs in the font that are in the glyphset.
@@ -836,16 +842,19 @@ def get_glyphsets_fulfilled(ttFont):
             # - Subtract Latin Core from the covered Unicodes
             # - Calculate percentage covered based on that
 
-            if glyphset == "GF_Latin_Core":
+            if glyphset in ("GF_Latin_Kernel", "GF_Latin_Core"):
                 if unicodes_in_glyphset:
                     has = res[glyphset]["has"]
                     res[glyphset]["percentage"] = len(has) / len(unicodes_in_glyphset)
                 else:
                     res[glyphset]["percentage"] = 0
             else:
-                unicodes_unique_in_glyphset = list(
-                    set(unicodes_per_glyphset(glyphset)).difference(set(unicodes_per_glyphset("GF_Latin_Core")))
-                )
+                if get_unicodes_unique_in_glyphset(glyphset, "GF_Latin_Core") > get_unicodes_unique_in_glyphset(
+                    glyphset, "GF_Latin_Kernel"
+                ):
+                    unicodes_unique_in_glyphset = list(get_unicodes_unique_in_glyphset(glyphset, "GF_Latin_Core"))
+                else:
+                    unicodes_unique_in_glyphset = list(get_unicodes_unique_in_glyphset(glyphset, "GF_Latin_Kernel"))
 
                 if unicodes_unique_in_glyphset:
 
