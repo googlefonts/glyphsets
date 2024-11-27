@@ -73,14 +73,6 @@ glyphname = "pokrytiecomb-cy";
 unicode = 1159;
 },
 {
-glyphname = "hundredthousandssigncomb-cy";
-unicode = 1160;
-},
-{
-glyphname = "millionssigncomb-cy";
-unicode = 1161;
-},
-{
 glyphname = "Omega-cy";
 unicode = 1120;
 },

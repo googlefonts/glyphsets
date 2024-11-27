@@ -216,9 +216,6 @@ Letter (28 glyphs):
 Mark, nonspacing (5 glyphs): 
 `◌҃ ◌҄ ◌҅ ◌҆ ◌҇`
 
-Mark, spacing (2 glyphs): 
-`҈ ҉`
-
 Symbol (1 glyphs): 
 `҂`
 

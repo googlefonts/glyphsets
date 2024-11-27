@@ -5,8 +5,6 @@ palatalizationcomb-cy
 dasiapneumatacomb-cy
 psilipneumatacomb-cy
 pokrytiecomb-cy
-hundredthousandssigncomb-cy
-millionssigncomb-cy
 Omega-cy
 omega-cy
 Eiotified-cy
