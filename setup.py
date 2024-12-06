@@ -67,7 +67,7 @@ setup(
         "glyphsLib>=6.9.5",
         "defcon",
         "unicodedata2",
-        "gflanguages>=0.7.0",
+        "gflanguages>=0.7.1",
         "pyyaml",
         "tabulate",
         "youseedee",
