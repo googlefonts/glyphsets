@@ -22,6 +22,7 @@ Below are the most important changes from each release.
 - Added `glyphsets print-unicodes` command that prints a list of unicodes of several defined glyphsets that can be piped into command line arguments, for instance for `pyftsubset font.ttf --unicodes=$(glyphsets print-unicodes GF_Latin_Core GF_Cyrillic_Core)`
 - Added a list of Arabic characters that either commonly included in fonts but are not in the Arabic language definitions (`alefWasla-ar`) or are commonly used as components (`behDotless-ar`)
 - Added automatic Arabic `.init/.medi/.fina` presentation forms (and changed sortin for all glyphsets as an implication)
+- Switched **GF_Cyrillic_Historical** from manual to language defintions, including Church Slavic (`cu_Cyrl`).
 
 ### v1.0.0 (2024-05-03)
 #### Changes since last release
