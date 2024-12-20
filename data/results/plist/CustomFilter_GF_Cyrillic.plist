@@ -443,30 +443,104 @@
 	<dict>
 		<key>list</key>
 		<array>
-			<string>thousand-cy</string>
-			<string>titlocomb-cy</string>
-			<string>palatalizationcomb-cy</string>
-			<string>dasiapneumatacomb-cy</string>
-			<string>psilipneumatacomb-cy</string>
-			<string>pokrytiecomb-cy</string>
+			<string>acutecomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>dblgravecomb</string>
+			<string>E-cy</string>
+			<string>Dze-cy</string>
+			<string>I-cy</string>
+			<string>Yi-cy</string>
+			<string>Dzhe-cy</string>
+			<string>A-cy</string>
+			<string>Be-cy</string>
+			<string>Ve-cy</string>
+			<string>Ge-cy</string>
+			<string>De-cy</string>
+			<string>Ie-cy</string>
+			<string>Zhe-cy</string>
+			<string>Ze-cy</string>
+			<string>Ii-cy</string>
+			<string>Iishort-cy</string>
+			<string>Ka-cy</string>
+			<string>El-cy</string>
+			<string>Em-cy</string>
+			<string>En-cy</string>
+			<string>O-cy</string>
+			<string>Pe-cy</string>
+			<string>Er-cy</string>
+			<string>Es-cy</string>
+			<string>Te-cy</string>
+			<string>U-cy</string>
+			<string>Ef-cy</string>
+			<string>Ha-cy</string>
+			<string>Tse-cy</string>
+			<string>Che-cy</string>
+			<string>Sha-cy</string>
+			<string>Shcha-cy</string>
+			<string>Hardsign-cy</string>
+			<string>Yeru-cy</string>
+			<string>Softsign-cy</string>
+			<string>Yu-cy</string>
+			<string>a-cy</string>
+			<string>be-cy</string>
+			<string>ve-cy</string>
+			<string>ge-cy</string>
+			<string>de-cy</string>
+			<string>ie-cy</string>
+			<string>zhe-cy</string>
+			<string>ze-cy</string>
+			<string>ii-cy</string>
+			<string>iishort-cy</string>
+			<string>ka-cy</string>
+			<string>el-cy</string>
+			<string>em-cy</string>
+			<string>en-cy</string>
+			<string>o-cy</string>
+			<string>pe-cy</string>
+			<string>er-cy</string>
+			<string>es-cy</string>
+			<string>te-cy</string>
+			<string>u-cy</string>
+			<string>ef-cy</string>
+			<string>ha-cy</string>
+			<string>tse-cy</string>
+			<string>che-cy</string>
+			<string>sha-cy</string>
+			<string>shcha-cy</string>
+			<string>hardsign-cy</string>
+			<string>yeru-cy</string>
+			<string>softsign-cy</string>
+			<string>yu-cy</string>
+			<string>e-cy</string>
+			<string>dze-cy</string>
+			<string>i-cy</string>
+			<string>yi-cy</string>
+			<string>dzhe-cy</string>
 			<string>Omega-cy</string>
 			<string>omega-cy</string>
+			<string>Yat-cy</string>
+			<string>yat-cy</string>
 			<string>Eiotified-cy</string>
 			<string>eiotified-cy</string>
 			<string>Yuslittle-cy</string>
 			<string>yuslittle-cy</string>
 			<string>Yuslittleiotified-cy</string>
 			<string>yuslittleiotified-cy</string>
+			<string>Yusbig-cy</string>
+			<string>yusbig-cy</string>
 			<string>Yusbigiotified-cy</string>
 			<string>yusbigiotified-cy</string>
 			<string>Ksi-cy</string>
 			<string>ksi-cy</string>
 			<string>Psi-cy</string>
 			<string>psi-cy</string>
+			<string>Fita-cy</string>
+			<string>fita-cy</string>
+			<string>Izhitsa-cy</string>
+			<string>izhitsa-cy</string>
 			<string>Izhitsadblgrave-cy</string>
 			<string>izhitsadblgrave-cy</string>
-			<string>Uk-cy</string>
-			<string>uk-cy</string>
 			<string>uni047A</string>
 			<string>uni047B</string>
 			<string>uni047C</string>
@@ -475,11 +549,73 @@
 			<string>uni047F</string>
 			<string>Koppa-cy</string>
 			<string>koppa-cy</string>
+			<string>Zemlya-cy</string>
+			<string>zemlya-cy</string>
+			<string>Dzelo-cy</string>
+			<string>dzelo-cy</string>
+			<string>UkMonograph-cy</string>
+			<string>ukMonograph-cy</string>
 			<string>OmegaBroad-cy</string>
 			<string>omegaBroad-cy</string>
+			<string>IotifiedA-cy</string>
+			<string>iotifieda-cy</string>
 		</array>
 		<key>name</key>
 		<string>GF_Cyrillic_Historical</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
+			<string>De-cy.loclBGR</string>
+			<string>Ii-cy.loclBGR</string>
+			<string>Iishort-cy.loclBGR</string>
+			<string>El-cy.loclBGR</string>
+			<string>Ef-cy.loclBGR</string>
+			<string>ve-cy.loclBGR</string>
+			<string>zhe-cy.loclBGR</string>
+			<string>ze-cy.loclBGR</string>
+			<string>ii-cy.loclBGR</string>
+			<string>iishort-cy.loclBGR</string>
+			<string>ka-cy.loclBGR</string>
+			<string>el-cy.loclBGR</string>
+			<string>pe-cy.loclBGR</string>
+			<string>te-cy.loclBGR</string>
+			<string>yu-cy.loclBGR</string>
+			<string>be-cy.loclSRB</string>
+		</array>
+		<key>name</key>
+		<string>GF_Cyrillic_Historical Roman Localizations</string>
+	</dict>
+	<dict>
+		<key>list</key>
+		<array>
+			<string>De-cy.loclBGR</string>
+			<string>Ii-cy.loclBGR</string>
+			<string>Iishort-cy.loclBGR</string>
+			<string>El-cy.loclBGR</string>
+			<string>Ef-cy.loclBGR</string>
+			<string>ve-cy.loclBGR</string>
+			<string>ge-cy.loclBGR</string>
+			<string>de-cy.loclBGR</string>
+			<string>zhe-cy.loclBGR</string>
+			<string>ze-cy.loclBGR</string>
+			<string>ii-cy.loclBGR</string>
+			<string>iishort-cy.loclBGR</string>
+			<string>ka-cy.loclBGR</string>
+			<string>el-cy.loclBGR</string>
+			<string>pe-cy.loclBGR</string>
+			<string>te-cy.loclBGR</string>
+			<string>yu-cy.loclBGR</string>
+			<string>be-cy.loclSRB</string>
+			<string>ge-cy.loclSRB</string>
+			<string>de-cy.loclSRB</string>
+			<string>ii-cy.loclSRB</string>
+			<string>pe-cy.loclSRB</string>
+			<string>te-cy.loclSRB</string>
+			<string>sha-cy.loclSRB</string>
+		</array>
+		<key>name</key>
+		<string>GF_Cyrillic_Historical Italic Localizations</string>
 	</dict>
 	<dict>
 		<key>list</key>

@@ -4,7 +4,7 @@
 | Arabic | Cyrillic | Greek | Latin | Phonetics | TransLatin |
 | --- | --- | --- | --- | --- | --- |
 | [✅ Core](#gf-arabic-core) | [✅ Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) | [🛑 APA](#gf-phonetics-apa) | [🛑 Arabic](#gf-translatin-arabic) |
-| [✅ Plus](#gf-arabic-plus) | [🛑 Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) | [🛑 DisorderedSpeech](#gf-phonetics-disorderedspeech) | [🛑 Pinyin](#gf-translatin-pinyin) |
+| [✅ Plus](#gf-arabic-plus) | [✅ Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) | [🛑 DisorderedSpeech](#gf-phonetics-disorderedspeech) | [🛑 Pinyin](#gf-translatin-pinyin) |
 |  | [✅ Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |  |
 |  | [🛑 Pro](#gf-cyrillic-pro) | [✅ Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
 |  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) | [🛑 SinoExt](#gf-phonetics-sinoext) |  |
@@ -202,22 +202,17 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 `GF_Cyrillic_Historical` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Cyrillic_Historical.yaml) as:
 
 * Script: Cyrillic
-* Characters and glyphs defined in [GF_Cyrillic_Historical.stub.glyphs](/data/definitions/per_glyphset/GF_Cyrillic_Historical.stub.glyphs)
-
-> [!CAUTION]  
-> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
-> Please add language code definions [here](/Lib/glyphsets/definitions/GF_Cyrillic_Historical.yaml).
+* List of languages: `
+Church Slavic (cu_Cyrl)
+`
 
 ### Characters and Glyphs
 
-Letter (28 glyphs): 
-`Ѡ ѡ Ѥ ѥ Ѧ ѧ Ѩ ѩ Ѭ ѭ Ѯ ѯ Ѱ ѱ Ѷ ѷ Ѹ ѹ Ҁ ҁ Ꙍ ꙍ /uni047A /uni047B /uni047C /uni047D /uni047E /uni047F`
+Letter (112 glyphs): 
+`Є Ѕ І Ї Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Ю а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ і ї џ Ѡ ѡ Ѣ ѣ Ѥ ѥ Ѧ ѧ Ѩ ѩ Ѫ ѫ Ѭ ѭ Ѯ ѯ Ѱ ѱ Ѳ ѳ Ѵ ѵ Ѷ ѷ Ҁ ҁ Ꙁ ꙁ Ꙃ ꙃ Ꙋ ꙋ Ꙍ ꙍ Ꙗ ꙗ /uni047A /uni047B /uni047C /uni047D /uni047E /uni047F`
 
-Mark, nonspacing (5 glyphs): 
-`◌҃ ◌҄ ◌҅ ◌҆ ◌҇`
-
-Symbol (1 glyphs): 
-`҂`
+Mark, nonspacing (4 glyphs): 
+`◌́ ◌̆ ◌̈ ◌̏`
 
 ### Resulting Glyphset Files
 
@@ -1641,12 +1636,7 @@ Glyphs.app Custom Filter List (contains all Latin glyphsets): [CustomFilter_GF_L
 
 > _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
 > 
-> Support ASCII + necessary punctuation and symbols for English language. This set is the minimal set required for non-latin script families that are not meant to be used in latin language based context. 
-> 
-> English support is still mandatory for technical reasons: application support on one hand, and GF platform display on the other hand (to avoid .notdef glyphs appearing everywhere on the website). GF encourages designers to also support GF Latin Core glyphset, in addition to any script, so native speakers living abroad can also enjoy and use the font wherever they are in the world.
-> 
-> **This below is taken from the old README and is not accurate, as it lists languages that accidentally happen to be covered under this glyphset but are not actually intended to be covered here. This set needs more consideration:** Afar, Eastern Arrernte, Amahuaca, Amis, Amarakaeri, Asu (Tanzania), Batak Toba, Bemba (Zambia), Bena (Tanzania), Bikol, Bislama, Batak Dairi, Batak Mandailing, Batak Simalungun, Batak Karo, Candoshi-Shapra, Cebuano, Chiga, Chokwe, Asháninka, Seselwa Creole French, Tedim Chin, Taita, Andaandi, Dongolawi, Nobiin, Fijian, Borana-Arsi-Guji Oromo, West Central Oromo, Gilbertese, Gusii, Eastern Oromo, Northern Qiandong Miao, Hiligaynon, Southern Qiandong Miao, Hani, Huastec, Indonesian, Jamaican Creole English, Japanese, Kalaallisut, Makonde, Kekchí, Kinyarwanda, Kalenjin, Kimbundu, Kongo, Shambala, Kituba (DRC), Kuanyama, Ladino, Latin, Luba-Lulua, Luo (Kenya and Tanzania), Mauritian Creole, Makhuwa-Meetto, Minangkabau, Murrinh-Patha, Ixcatlán Mazatec, Naga Pidgin, South Ndebele, North Ndebele, Ndonga, Ao Naga, Nyankole, Orma, Pampanga, Pintupi-Luritja, Paluan, Pohnpeian, Upper Guinea Crioulo, K'iche', Rotokas, Rundi, Rwa, Samburu, Sena, Shipibo-Conibo, Shawnee, Shona, Soninke, Somali, Swati, Maore Comorian, Congo Swahili, Swahili, Tok Pisin, Tsonga, Tumbuka, Tzeltal, Tzotzil, Northern Uzbek, Warlpiri, Wik-Mungkan, Mwani, Wiradjuri, Wangaaybuwan-Ngiyambaa, Xhosa, Kenzi, Mattokki, Soga, Yindjibarndi, Makwe, Ngazidja Comorian, Malaysian, Standard Malay, Zulu.
-> 
+> Support ASCII + necessary punctuation and symbols for English language. This set is the minimal set required for non-Latin script families that are not meant to be used in Latin-language based context. English support is still mandatory for technical reasons: application support on one hand, and GF platform display on the other hand (to avoid .notdef glyphs appearing everywhere on the website). GF encourages designers to also support the `GF Latin Core` glyphset, in addition to any script, so native speakers living abroad can also enjoy and use the font wherever they are in the world.
 
 `GF_Latin_Kernel` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Latin_Kernel.yaml) as:
 
