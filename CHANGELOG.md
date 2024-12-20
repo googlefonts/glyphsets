@@ -5,7 +5,7 @@ Below are the most important changes from each release.
 
 - 
 
-### v1.1.0 (2024-?)
+### v1.1.0 (2024-12-20)
 #### Changes since last release
 
 - Added Ⓓ (design right symbol) to **GF_Latin_Plus** (issue #217)
