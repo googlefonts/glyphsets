@@ -4,7 +4,7 @@ commaabovecomb
 ogonekcomb
 lacute
 lbar
-lambdastroke
+lambdastroke-latin
 ezhcaron
 jcaron
 odotaccent

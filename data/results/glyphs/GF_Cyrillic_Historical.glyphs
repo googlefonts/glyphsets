@@ -441,27 +441,27 @@ glyphname = "izhitsadblgrave-cy";
 unicode = 1143;
 },
 {
-glyphname = uni047A;
+glyphname = "Omegaround-cy";
 unicode = 1146;
 },
 {
-glyphname = uni047B;
+glyphname = "omegaround-cy";
 unicode = 1147;
 },
 {
-glyphname = uni047C;
+glyphname = "Omegatitlo-cy";
 unicode = 1148;
 },
 {
-glyphname = uni047D;
+glyphname = "omegatitlo-cy";
 unicode = 1149;
 },
 {
-glyphname = uni047E;
+glyphname = "Ot-cy";
 unicode = 1150;
 },
 {
-glyphname = uni047F;
+glyphname = "ot-cy";
 unicode = 1151;
 },
 {

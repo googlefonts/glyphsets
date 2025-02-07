@@ -245,6 +245,10 @@ glyphname = cedillacomb;
 unicode = 807;
 },
 {
+glyphname = verticallinebelowcomb;
+unicode = 809;
+},
+{
 glyphname = A;
 unicode = 65;
 },

@@ -48,6 +48,7 @@ dieresiscomb
 ringcomb
 dotbelowcomb
 cedillacomb
+verticallinebelowcomb
 A
 B
 C

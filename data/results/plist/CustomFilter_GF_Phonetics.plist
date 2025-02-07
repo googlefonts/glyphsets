@@ -10,7 +10,7 @@
 			<string>ogonekcomb</string>
 			<string>lacute</string>
 			<string>lbar</string>
-			<string>lambdastroke</string>
+			<string>lambdastroke-latin</string>
 			<string>ezhcaron</string>
 			<string>jcaron</string>
 			<string>odotaccent</string>
@@ -35,6 +35,14 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>uni1DF07</string>
+			<string>uni1DF06</string>
+			<string>uni1DF05</string>
+			<string>uni1DF04</string>
+			<string>uni1DF03</string>
+			<string>uni1DF02</string>
+			<string>uni1DF01</string>
+			<string>uni1DF00</string>
 			<string>voicingmod</string>
 			<string>unaspiratedmod</string>
 			<string>C.circled</string>
@@ -92,14 +100,6 @@
 			<string>Rsmallmod</string>
 			<string>fitalic-math</string>
 			<string>pitalic-math</string>
-			<string>fengdigraphetrill</string>
-			<string>gscriptreversed</string>
-			<string>Gsmallturned</string>
-			<string>kreversed</string>
-			<string>Lsmallbelt</string>
-			<string>lezhhookretroflex</string>
-			<string>yturnedbeld</string>
-			<string>engreversed</string>
 			<string>Kturned.circled</string>
 			<string>fitalic-math.subs</string>
 			<string>pitalic-math.subs</string>

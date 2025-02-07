@@ -49,6 +49,38 @@ name = Regular;
 );
 glyphs = (
 {
+glyphname = uni1DF07;
+unicode = 122631;
+},
+{
+glyphname = uni1DF06;
+unicode = 122630;
+},
+{
+glyphname = uni1DF05;
+unicode = 122629;
+},
+{
+glyphname = uni1DF04;
+unicode = 122628;
+},
+{
+glyphname = uni1DF03;
+unicode = 122627;
+},
+{
+glyphname = uni1DF02;
+unicode = 122626;
+},
+{
+glyphname = uni1DF01;
+unicode = 122625;
+},
+{
+glyphname = uni1DF00;
+unicode = 122624;
+},
+{
 glyphname = voicingmod;
 unicode = 748;
 },
@@ -275,38 +307,6 @@ unicode = 119891;
 {
 glyphname = "pitalic-math";
 unicode = 119901;
-},
-{
-glyphname = fengdigraphetrill;
-unicode = 122624;
-},
-{
-glyphname = gscriptreversed;
-unicode = 122625;
-},
-{
-glyphname = Gsmallturned;
-unicode = 122626;
-},
-{
-glyphname = kreversed;
-unicode = 122627;
-},
-{
-glyphname = Lsmallbelt;
-unicode = 122628;
-},
-{
-glyphname = lezhhookretroflex;
-unicode = 122629;
-},
-{
-glyphname = yturnedbeld;
-unicode = 122630;
-},
-{
-glyphname = engreversed;
-unicode = 122631;
 },
 {
 glyphname = Kturned.circled;
