@@ -1,0 +1,16 @@
+[package]
+name = "google-fonts-glyphsets"
+version = "1.1.0"
+edition = "2021"
+description = "Google Fonts font axis support data"
+repository = "https://github.com/googlefonts/glyphsets"
+license-file = "LICENSE"
+
+[build-dependencies]
+glob = "0"
+quote = "1.0"
+proc-macro2 = "1.0"
+syn = "2.0"
+itertools = "0.13"
+serde_json = "1.0"
+prettyplease = "0.2"

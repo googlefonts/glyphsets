@@ -69,7 +69,7 @@ glyphname = lbar;
 unicode = 410;
 },
 {
-glyphname = lambdastroke;
+glyphname = "lambdastroke-latin";
 unicode = 411;
 },
 {

@@ -37,7 +37,7 @@ Eopen
 Gamma-latin
 Istroke
 lbar
-lambdastroke
+lambdastroke-latin
 Upsilon-latin
 Ezh
 clickalveolar

@@ -3,7 +3,6 @@ percent
 ampersand
 plus
 at
-florin
 uni02D7
 uni02EE
 uni24B6
@@ -47,6 +46,7 @@ six
 seven
 eight
 nine
+uni02BB
 uni02BC
 uni02C0
 circumflex
@@ -70,10 +70,12 @@ uni0324
 uni0325
 uni0327
 uni0328
+uni0329
 uni032D
 uni032F
 uni0330
 uni0331
+uni0332
 uni035F
 uni1DC4
 uni1DC5
@@ -210,6 +212,8 @@ Eogonek
 eogonek
 Ecaron
 ecaron
+Gcircumflex
+gcircumflex
 Hcircumflex
 hcircumflex
 Hbar
@@ -220,6 +224,8 @@ Imacron
 imacron
 Iogonek
 iogonek
+Jcircumflex
+jcircumflex
 Lacute
 lacute
 Nacute
@@ -269,6 +275,7 @@ Zdotaccent
 zdotaccent
 Zcaron
 zcaron
+uni0180
 uni0181
 uni0182
 uni0183
@@ -281,6 +288,7 @@ uni018E
 uni018F
 uni0190
 uni0191
+florin
 uni0193
 uni0194
 uni0196
@@ -315,8 +323,14 @@ uni01D1
 uni01D2
 uni01D3
 uni01D4
+uni01D5
+uni01D6
 uni01D7
 uni01D8
+uni01D9
+uni01DA
+uni01DB
+uni01DC
 uni01DD
 uni01E2
 uni01E3
@@ -351,6 +365,7 @@ uni0232
 uni0233
 uni0241
 uni0242
+uni0243
 uni0244
 uni0245
 uni0248
@@ -470,12 +485,17 @@ uni1E7C
 uni1E7D
 uni1E7E
 uni1E7F
+Wgrave
+wgrave
 Wacute
 wacute
 Wdieresis
 wdieresis
+uni1E89
 uni1E8A
 uni1E8B
+uni1E90
+uni1E91
 uni1E92
 uni1E93
 uni1E96
@@ -493,6 +513,8 @@ uni1ECA
 uni1ECB
 uni1ECC
 uni1ECD
+uni1ED2
+uni1ED3
 uni1ED8
 uni1ED9
 uni1EE4

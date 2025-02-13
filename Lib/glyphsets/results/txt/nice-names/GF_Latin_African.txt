@@ -3,7 +3,6 @@ percent
 ampersand
 plus
 at
-florin
 minusmod
 doubleapostrophemod
 A.circled
@@ -47,6 +46,7 @@ six
 seven
 eight
 nine
+commaturnedmod
 apostrophemod
 glottalstopmod
 circumflex
@@ -70,10 +70,12 @@ dieresisbelowcomb
 ringbelowcomb
 cedillacomb
 ogonekcomb
+verticallinebelowcomb
 circumflexbelowcomb
 breveinvertedbelowcomb
 tildebelowcomb
 macronbelowcomb
+lowlinecomb
 doublemacronbelowcomb
 macronacutecomb
 gravemacroncomb
@@ -210,6 +212,8 @@ Eogonek
 eogonek
 Ecaron
 ecaron
+Gcircumflex
+gcircumflex
 Hcircumflex
 hcircumflex
 Hbar
@@ -220,6 +224,8 @@ Imacron
 imacron
 Iogonek
 iogonek
+Jcircumflex
+jcircumflex
 Lacute
 lacute
 Nacute
@@ -269,6 +275,7 @@ Zdotaccent
 zdotaccent
 Zcaron
 zcaron
+bstroke
 Bhook
 Btopbar
 btopbar
@@ -281,6 +288,7 @@ Eturned
 Schwa
 Eopen
 Fhook
+fhook
 Ghook
 Gamma-latin
 Iota-latin
@@ -315,8 +323,14 @@ Ocaron
 ocaron
 Ucaron
 ucaron
+Udieresismacron
+udieresismacron
 Udieresisacute
 udieresisacute
+Udieresiscaron
+udieresiscaron
+Udieresisgrave
+udieresisgrave
 eturned
 AEmacron
 aemacron
@@ -351,6 +365,7 @@ Ymacron
 ymacron
 Glottalstopsmall
 glottalstopsmall
+Bstroke
 Ubar
 Vturned
 Jstroke
@@ -470,12 +485,17 @@ Vtilde
 vtilde
 Vdotbelow
 vdotbelow
+Wgrave
+wgrave
 Wacute
 wacute
 Wdieresis
 wdieresis
+wdotbelow
 Xdotaccent
 xdotaccent
+Zcircumflex
+zcircumflex
 Zdotbelow
 zdotbelow
 hmacronbelow
@@ -493,6 +513,8 @@ Idotbelow
 idotbelow
 Odotbelow
 odotbelow
+Ocircumflexgrave
+ocircumflexgrave
 Ocircumflexdotbelow
 ocircumflexdotbelow
 Udotbelow
