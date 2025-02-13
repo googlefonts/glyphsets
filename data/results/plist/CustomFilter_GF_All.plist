@@ -1862,12 +1862,12 @@
 			<string>izhitsa-cy</string>
 			<string>Izhitsadblgrave-cy</string>
 			<string>izhitsadblgrave-cy</string>
-			<string>uni047A</string>
-			<string>uni047B</string>
-			<string>uni047C</string>
-			<string>uni047D</string>
-			<string>uni047E</string>
-			<string>uni047F</string>
+			<string>Omegaround-cy</string>
+			<string>omegaround-cy</string>
+			<string>Omegatitlo-cy</string>
+			<string>omegatitlo-cy</string>
+			<string>Ot-cy</string>
+			<string>ot-cy</string>
 			<string>Koppa-cy</string>
 			<string>koppa-cy</string>
 			<string>Zemlya-cy</string>
@@ -4393,7 +4393,6 @@
 			<string>ampersand</string>
 			<string>plus</string>
 			<string>at</string>
-			<string>florin</string>
 			<string>minusmod</string>
 			<string>doubleapostrophemod</string>
 			<string>A.circled</string>
@@ -4437,6 +4436,7 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
+			<string>commaturnedmod</string>
 			<string>apostrophemod</string>
 			<string>glottalstopmod</string>
 			<string>circumflex</string>
@@ -4460,10 +4460,12 @@
 			<string>ringbelowcomb</string>
 			<string>cedillacomb</string>
 			<string>ogonekcomb</string>
+			<string>verticallinebelowcomb</string>
 			<string>circumflexbelowcomb</string>
 			<string>breveinvertedbelowcomb</string>
 			<string>tildebelowcomb</string>
 			<string>macronbelowcomb</string>
+			<string>lowlinecomb</string>
 			<string>doublemacronbelowcomb</string>
 			<string>macronacutecomb</string>
 			<string>gravemacroncomb</string>
@@ -4600,6 +4602,8 @@
 			<string>eogonek</string>
 			<string>Ecaron</string>
 			<string>ecaron</string>
+			<string>Gcircumflex</string>
+			<string>gcircumflex</string>
 			<string>Hcircumflex</string>
 			<string>hcircumflex</string>
 			<string>Hbar</string>
@@ -4610,6 +4614,8 @@
 			<string>imacron</string>
 			<string>Iogonek</string>
 			<string>iogonek</string>
+			<string>Jcircumflex</string>
+			<string>jcircumflex</string>
 			<string>Lacute</string>
 			<string>lacute</string>
 			<string>Nacute</string>
@@ -4659,6 +4665,7 @@
 			<string>zdotaccent</string>
 			<string>Zcaron</string>
 			<string>zcaron</string>
+			<string>bstroke</string>
 			<string>Bhook</string>
 			<string>Btopbar</string>
 			<string>btopbar</string>
@@ -4671,6 +4678,7 @@
 			<string>Schwa</string>
 			<string>Eopen</string>
 			<string>Fhook</string>
+			<string>fhook</string>
 			<string>Ghook</string>
 			<string>Gamma-latin</string>
 			<string>Iota-latin</string>
@@ -4705,8 +4713,14 @@
 			<string>ocaron</string>
 			<string>Ucaron</string>
 			<string>ucaron</string>
+			<string>Udieresismacron</string>
+			<string>udieresismacron</string>
 			<string>Udieresisacute</string>
 			<string>udieresisacute</string>
+			<string>Udieresiscaron</string>
+			<string>udieresiscaron</string>
+			<string>Udieresisgrave</string>
+			<string>udieresisgrave</string>
 			<string>eturned</string>
 			<string>AEmacron</string>
 			<string>aemacron</string>
@@ -4741,6 +4755,7 @@
 			<string>ymacron</string>
 			<string>Glottalstopsmall</string>
 			<string>glottalstopsmall</string>
+			<string>Bstroke</string>
 			<string>Ubar</string>
 			<string>Vturned</string>
 			<string>Jstroke</string>
@@ -4860,12 +4875,17 @@
 			<string>vtilde</string>
 			<string>Vdotbelow</string>
 			<string>vdotbelow</string>
+			<string>Wgrave</string>
+			<string>wgrave</string>
 			<string>Wacute</string>
 			<string>wacute</string>
 			<string>Wdieresis</string>
 			<string>wdieresis</string>
+			<string>wdotbelow</string>
 			<string>Xdotaccent</string>
 			<string>xdotaccent</string>
+			<string>Zcircumflex</string>
+			<string>zcircumflex</string>
 			<string>Zdotbelow</string>
 			<string>zdotbelow</string>
 			<string>hmacronbelow</string>
@@ -4883,6 +4903,8 @@
 			<string>idotbelow</string>
 			<string>Odotbelow</string>
 			<string>odotbelow</string>
+			<string>Ocircumflexgrave</string>
+			<string>ocircumflexgrave</string>
 			<string>Ocircumflexdotbelow</string>
 			<string>ocircumflexdotbelow</string>
 			<string>Udotbelow</string>
@@ -4956,7 +4978,7 @@
 			<string>Gamma-latin</string>
 			<string>Istroke</string>
 			<string>lbar</string>
-			<string>lambdastroke</string>
+			<string>lambdastroke-latin</string>
 			<string>Upsilon-latin</string>
 			<string>Ezh</string>
 			<string>clickalveolar</string>
@@ -5710,6 +5732,7 @@
 			<string>ringcomb</string>
 			<string>dotbelowcomb</string>
 			<string>cedillacomb</string>
+			<string>verticallinebelowcomb</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -6096,7 +6119,7 @@
 			<string>ogonekcomb</string>
 			<string>lacute</string>
 			<string>lbar</string>
-			<string>lambdastroke</string>
+			<string>lambdastroke-latin</string>
 			<string>ezhcaron</string>
 			<string>jcaron</string>
 			<string>odotaccent</string>
@@ -6121,6 +6144,14 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>uni1DF07</string>
+			<string>uni1DF06</string>
+			<string>uni1DF05</string>
+			<string>uni1DF04</string>
+			<string>uni1DF03</string>
+			<string>uni1DF02</string>
+			<string>uni1DF01</string>
+			<string>uni1DF00</string>
 			<string>voicingmod</string>
 			<string>unaspiratedmod</string>
 			<string>C.circled</string>
@@ -6178,14 +6209,6 @@
 			<string>Rsmallmod</string>
 			<string>fitalic-math</string>
 			<string>pitalic-math</string>
-			<string>fengdigraphetrill</string>
-			<string>gscriptreversed</string>
-			<string>Gsmallturned</string>
-			<string>kreversed</string>
-			<string>Lsmallbelt</string>
-			<string>lezhhookretroflex</string>
-			<string>yturnedbeld</string>
-			<string>engreversed</string>
 			<string>Kturned.circled</string>
 			<string>fitalic-math.subs</string>
 			<string>pitalic-math.subs</string>
