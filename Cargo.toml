@@ -6,6 +6,12 @@ description = "Google Fonts font axis support data"
 repository = "https://github.com/googlefonts/glyphsets"
 license-file = "LICENSE"
 
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml_ng = "0.10"
+thiserror = "2.0.12"
+google-fonts-languages = "*"
+
 [build-dependencies]
 glob = "0"
 quote = "1.0"
