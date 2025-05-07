@@ -10,7 +10,7 @@ license-file = "LICENSE"
 serde = { version = "1.0", features = ["derive"] }
 serde_yaml_ng = "0.10"
 thiserror = "2.0.12"
-google-fonts-languages = "*"
+google-fonts-languages = "0"
 
 [build-dependencies]
 glob = "0"
