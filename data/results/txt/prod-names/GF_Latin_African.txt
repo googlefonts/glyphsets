@@ -3,7 +3,9 @@ percent
 ampersand
 plus
 at
+asciicircum
 uni02D7
+uni02E4
 uni02EE
 uni24B6
 uni24D0
@@ -49,6 +51,7 @@ nine
 uni02BB
 uni02BC
 uni02C0
+uni02C1
 circumflex
 uni02C8
 gravecomb
@@ -72,6 +75,7 @@ uni0327
 uni0328
 uni0329
 uni032D
+uni032E
 uni032F
 uni0330
 uni0331
@@ -214,6 +218,8 @@ Ecaron
 ecaron
 Gcircumflex
 gcircumflex
+Gdotaccent
+gdotaccent
 Hcircumflex
 hcircumflex
 Hbar
@@ -404,6 +410,7 @@ uni0295
 uni0298
 uni029D
 uni02B7
+uni02B8
 uni1D43
 uni1D49
 uni1D4B
@@ -429,10 +436,14 @@ uni1E14
 uni1E15
 uni1E1A
 uni1E1B
+uni1E1E
+uni1E1F
 uni1E22
 uni1E23
 uni1E24
 uni1E25
+uni1E2A
+uni1E2B
 uni1E2C
 uni1E2D
 uni1E2E
@@ -498,6 +509,8 @@ uni1E90
 uni1E91
 uni1E92
 uni1E93
+uni1E94
+uni1E95
 uni1E96
 uni1EA0
 uni1EA1

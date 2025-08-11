@@ -42,12 +42,9 @@ acutecomb
 uni0302
 tildecomb
 uni0304
-uni0306
 uni0307
 uni0308
-uni030A
 dotbelowcomb
-uni0327
 uni0329
 A
 B
