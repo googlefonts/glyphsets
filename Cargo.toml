@@ -15,7 +15,7 @@ google-fonts-languages = "*"
 [build-dependencies]
 glob = "0"
 quote = "1.0"
-proc-macro2 = "1.0"
+proc-macro2 = "1.0.101"
 syn = "2.0"
 itertools = "0.13"
 serde_json = "1.0"
