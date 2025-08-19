@@ -3,7 +3,9 @@ percent
 ampersand
 plus
 at
+asciicircum
 minusmod
+glottalstopreversedsuperior
 doubleapostrophemod
 A.circled
 a.circled
@@ -49,6 +51,7 @@ nine
 commaturnedmod
 apostrophemod
 glottalstopmod
+glottalstopreversedmod
 circumflex
 verticallinemod
 gravecomb
@@ -72,6 +75,7 @@ cedillacomb
 ogonekcomb
 verticallinebelowcomb
 circumflexbelowcomb
+brevebelowcomb
 breveinvertedbelowcomb
 tildebelowcomb
 macronbelowcomb
@@ -214,6 +218,8 @@ Ecaron
 ecaron
 Gcircumflex
 gcircumflex
+Gdotaccent
+gdotaccent
 Hcircumflex
 hcircumflex
 Hbar
@@ -404,6 +410,7 @@ glottalstopreversed
 bilabialclick
 jcrossedtail
 wmod
+ymod
 amod
 emod
 eOpenmod
@@ -429,10 +436,14 @@ Emacrongrave
 emacrongrave
 Etildebelow
 etildebelow
+Fdotaccent
+fdotaccent
 Hdotaccent
 hdotaccent
 Hdotbelow
 hdotbelow
+Hbrevebelow
+hbrevebelow
 Itildebelow
 itildebelow
 Idieresisacute
@@ -498,6 +509,8 @@ Zcircumflex
 zcircumflex
 Zdotbelow
 zdotbelow
+Zmacronbelow
+zmacronbelow
 hmacronbelow
 Adotbelow
 adotbelow
