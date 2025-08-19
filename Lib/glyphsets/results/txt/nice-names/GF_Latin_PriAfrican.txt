@@ -42,12 +42,9 @@ acutecomb
 circumflexcomb
 tildecomb
 macroncomb
-brevecomb
 dotaccentcomb
 dieresiscomb
-ringcomb
 dotbelowcomb
-cedillacomb
 verticallinebelowcomb
 A
 B
