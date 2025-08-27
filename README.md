@@ -191,7 +191,7 @@ Letter (168 glyphs):
 
 ## Find characters
 
-To help authoring glyphsets, use `glyphsets find ſ` or `glyphsets find 0x017F` to see in which language definions (and under which category therein) and glyphsets a character is defined. As usual, the definitions are pulled from the `glyphsets` and `gflanguages` modules that are currently installed on your machine or venv
+To help authoring glyphsets, use `glyphsets find ſ` or `glyphsets find 0x017F` to see in which language definitions (and under which category therein) and glyphsets a character is defined. As usual, the definitions are pulled from the `glyphsets` and `gflanguages` modules that are currently installed on your machine or venv
 
 ```
 glyphsets % glyphsets find ß
