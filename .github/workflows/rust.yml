@@ -1,0 +1,176 @@
+name: Rust
+
+on:
+  - push
+  - pull_request
+  - merge_group
+
+permissions:
+  contents: read
+
+env:
+  CARGO_TERM_COLOR: always
+  GH_TOKEN: ${{ github.token }}
+  PROJECT_NAME: google-fonts-glyphsets
+  CARGO_PUBLISH_ARGS: ""
+  CRATE_PATTERN: "google-fonts-glyphsets"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+        name: Set up Rust for caching
+      - name: Build
+        run: cargo build
+      - name: Run tests
+        run: |
+          cargo test --verbose --workspace 
+
+  formatting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+        name: Set up Rust for caching
+
+      - name: Lint for formatting
+        run: cargo fmt --all -- --check
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+        name: Set up Rust for caching
+      - name: Lint for warnings
+        run: cargo clippy --all-targets --all-features -- -D warnings
+
+  check-for-release:
+    name: Create release if needed
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v3
+      - if: contains(github.ref, 'refs/tags/v')
+        name: Check for release
+        id: create_release
+        run: |
+          if ! gh release view ${{ github.ref_name }}; then
+          git show -s --format=%B ${{ github.ref_name }} | tail -n +4 | gh release create ${{ github.ref_name }} -t ${{ github.ref_name }} -F -
+          fi
+
+  deploy-binaries:
+    name: Build and upload binaries
+    permissions:
+      contents: write
+      id-token: write
+    needs: [build, check-for-release]
+    runs-on: ${{ matrix.os.os }}
+    # Only build on main or tag
+    if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/')
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - build: linux
+            os: ubuntu-22.04
+            target: x86_64-unknown-linux-gnu
+
+          - build: macos
+            os: macos-latest
+            target: x86_64-apple-darwin
+
+          - build: macos-m1
+            os: macos-latest
+            target: aarch64-apple-darwin
+
+          - build: windows-gnu
+            os: windows-latest
+            target: x86_64-pc-windows-gnu
+        # python: ["3.9", "3.10", "3.11", "3.12", "3.13"]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Install Rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          target: ${{ matrix.os.target }}
+          cache-key: ${{ runner.os }}-rust-${{ hashFiles('**/Cargo.lock') }}
+      # - name: Set up python
+      #   uses: actions/setup-python@v5
+      #   with:
+      #     python-version: ${{ matrix.python }}
+      - name: Install protoc for lang repo
+        uses: arduino/setup-protoc@v3
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build
+        run: cargo build --verbose --release --target ${{ matrix.os.target }}
+      - name: Decide on our version name (tag or "dev")
+        id: version
+        shell: bash
+        run: |
+          if [ -n "$GITHUB_REF" ]; then
+              if [[ "$GITHUB_REF" == refs/tags/v* ]]; then
+                  echo "VERSION=${GITHUB_REF/refs\/tags\/v/}" >> $GITHUB_ENV
+              else
+                  echo "VERSION=dev" >> $GITHUB_ENV
+              fi
+          else
+              echo "VERSION=dev" >> $GITHUB_ENV
+          fi
+      - name: Build archive
+        shell: bash
+        run: |
+          # dirname="${{env.PROJECT_NAME}}-${{ env.VERSION }}-${{ matrix.os.target }}-py${{ matrix.python }}"
+          dirname="${{env.PROJECT_NAME}}-${{ env.VERSION }}-${{ matrix.os.target }}"
+          mkdir "$dirname"
+          if [ "${{ matrix.os.os }}" = "windows-latest" ]; then
+              mv "target/${{ matrix.os.target }}/release/"*.exe "$dirname"
+              7z a "$dirname.zip" "$dirname"
+              echo "ASSET=$dirname.zip" >> $GITHUB_ENV
+          else
+              mv "target/${{ matrix.os.target }}/release/${{env.PROJECT_NAME}}" "$dirname"
+              tar -czf "$dirname.tar.gz" "$dirname"
+              echo "ASSET=$dirname.tar.gz" >> $GITHUB_ENV
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.ASSET }}
+          path: ${{ env.ASSET }}
+      - if: contains(github.ref, 'refs/tags/v')
+        name: Add artefact to release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload v${{ env.VERSION }} ${{ env.ASSET }}
+
+  publish-crate:
+    needs: deploy-binaries
+    runs-on: ubuntu-latest
+    if: contains(github.ref, 'refs/tags/v')
+
+    steps:
+        - uses: actions/checkout@v3
+        - uses: actions-rs/toolchain@v1
+          with:
+            toolchain: stable
+            override: true
+        - run:
+            cargo publish ${{ env.CARGO_PUBLISH_ARGS }} --no-verify
+          env:
+              CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
