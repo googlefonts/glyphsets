@@ -56,6 +56,32 @@ impl Glyphset {
             .expect("Malformed glyphset name - no script")
             .to_string()
     }
+
+    /// Get an iterator over all codepoints in this glyphset, including those
+    /// from included glyphsets.
+    pub fn iter_codepoints(&self) -> impl Iterator<Item = u32> {
+        // Must recursively include codepoints from included glyphsets
+        // We can't make a recursive iterator, rustc goes crazy, so we'll
+        // just put everything in an owned hashset.
+
+        // Infinite loops are bad.
+        let mut seen_glyphsets = HashSet::new();
+        let mut codepoints = HashSet::new();
+        let mut to_process = vec![self.name.clone()];
+        while let Some(glyphset_name) = to_process.pop() {
+            if seen_glyphsets.contains(&glyphset_name) {
+                continue;
+            }
+            seen_glyphsets.insert(glyphset_name.clone());
+            let glyphset = GLYPHSETS
+                .get(&glyphset_name)
+                .expect("Malformed glyphset name in include_glyphsets");
+            for cp in &glyphset.codepoints {
+                codepoints.insert(*cp);
+            }
+        }
+        codepoints.into_iter()
+    }
 }
 
 /// A struct to hold coverage information for a single glyphset
@@ -180,5 +206,33 @@ mod tests {
     fn test_name() {
         assert!(languages_per_glyphset("GF_Arabic_Plus").unwrap().len() >= 8);
         assert!(languages_per_glyphset("GF_Latin_African").unwrap().len() >= 617);
+    }
+
+    #[test]
+    fn test_codepoints() {
+        let kernel_cps = GLYPHSETS
+            .get("GF_Latin_Kernel")
+            .unwrap()
+            .iter_codepoints()
+            .collect::<HashSet<_>>();
+        assert!(kernel_cps.contains(&0x0041)); // A
+        assert!(!kernel_cps.contains(&0x00E9)); // é
+                                                // Arabic core includes kernel plus basic Arabic glyphs
+        let arabic_core_cps = GLYPHSETS
+            .get("GF_Arabic_Core")
+            .unwrap()
+            .iter_codepoints()
+            .collect::<HashSet<_>>();
+        assert!(arabic_core_cps.is_superset(&kernel_cps));
+        assert!(arabic_core_cps.contains(&0x0627)); // ALEF
+                                                    // Arabic Plus includes Latin Kernel + Arabic Core plus more
+        let arabic_plus_cps = GLYPHSETS
+            .get("GF_Arabic_Plus")
+            .unwrap()
+            .iter_codepoints()
+            .collect::<HashSet<_>>();
+        assert!(arabic_plus_cps.is_superset(&arabic_core_cps));
+        assert!(arabic_plus_cps.is_superset(&kernel_cps));
+        assert!(arabic_plus_cps.contains(&0x06B3)); // ARABIC LETTER GUEH
     }
 }
