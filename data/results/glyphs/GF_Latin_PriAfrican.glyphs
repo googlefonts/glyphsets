@@ -221,10 +221,6 @@ glyphname = macroncomb;
 unicode = 772;
 },
 {
-glyphname = brevecomb;
-unicode = 774;
-},
-{
 glyphname = dotaccentcomb;
 unicode = 775;
 },
@@ -233,16 +229,8 @@ glyphname = dieresiscomb;
 unicode = 776;
 },
 {
-glyphname = ringcomb;
-unicode = 778;
-},
-{
 glyphname = dotbelowcomb;
 unicode = 803;
-},
-{
-glyphname = cedillacomb;
-unicode = 807;
 },
 {
 glyphname = verticallinebelowcomb;

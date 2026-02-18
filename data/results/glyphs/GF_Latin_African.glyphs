@@ -65,8 +65,16 @@ glyphname = at;
 unicode = 64;
 },
 {
+glyphname = asciicircum;
+unicode = 94;
+},
+{
 glyphname = minusmod;
 unicode = 727;
+},
+{
+glyphname = glottalstopreversedsuperior;
+unicode = 740;
 },
 {
 glyphname = doubleapostrophemod;
@@ -249,6 +257,10 @@ glyphname = glottalstopmod;
 unicode = 704;
 },
 {
+glyphname = glottalstopreversedmod;
+unicode = 705;
+},
+{
 glyphname = circumflex;
 unicode = 710;
 },
@@ -339,6 +351,10 @@ unicode = 809;
 {
 glyphname = circumflexbelowcomb;
 unicode = 813;
+},
+{
+glyphname = brevebelowcomb;
+unicode = 814;
 },
 {
 glyphname = breveinvertedbelowcomb;
@@ -907,6 +923,14 @@ unicode = 284;
 {
 glyphname = gcircumflex;
 unicode = 285;
+},
+{
+glyphname = Gdotaccent;
+unicode = 288;
+},
+{
+glyphname = gdotaccent;
+unicode = 289;
 },
 {
 glyphname = Hcircumflex;
@@ -1669,6 +1693,10 @@ glyphname = wmod;
 unicode = 695;
 },
 {
+glyphname = ymod;
+unicode = 696;
+},
+{
 glyphname = amod;
 unicode = 7491;
 },
@@ -1769,6 +1797,14 @@ glyphname = etildebelow;
 unicode = 7707;
 },
 {
+glyphname = Fdotaccent;
+unicode = 7710;
+},
+{
+glyphname = fdotaccent;
+unicode = 7711;
+},
+{
 glyphname = Hdotaccent;
 unicode = 7714;
 },
@@ -1783,6 +1819,14 @@ unicode = 7716;
 {
 glyphname = hdotbelow;
 unicode = 7717;
+},
+{
+glyphname = Hbrevebelow;
+unicode = 7722;
+},
+{
+glyphname = hbrevebelow;
+unicode = 7723;
 },
 {
 glyphname = Itildebelow;
@@ -2043,6 +2087,14 @@ unicode = 7826;
 {
 glyphname = zdotbelow;
 unicode = 7827;
+},
+{
+glyphname = Zmacronbelow;
+unicode = 7828;
+},
+{
+glyphname = zmacronbelow;
+unicode = 7829;
 },
 {
 glyphname = hmacronbelow;
