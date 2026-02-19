@@ -4393,7 +4393,9 @@
 			<string>ampersand</string>
 			<string>plus</string>
 			<string>at</string>
+			<string>asciicircum</string>
 			<string>minusmod</string>
+			<string>glottalstopreversedsuperior</string>
 			<string>doubleapostrophemod</string>
 			<string>A.circled</string>
 			<string>a.circled</string>
@@ -4439,6 +4441,7 @@
 			<string>commaturnedmod</string>
 			<string>apostrophemod</string>
 			<string>glottalstopmod</string>
+			<string>glottalstopreversedmod</string>
 			<string>circumflex</string>
 			<string>verticallinemod</string>
 			<string>gravecomb</string>
@@ -4462,6 +4465,7 @@
 			<string>ogonekcomb</string>
 			<string>verticallinebelowcomb</string>
 			<string>circumflexbelowcomb</string>
+			<string>brevebelowcomb</string>
 			<string>breveinvertedbelowcomb</string>
 			<string>tildebelowcomb</string>
 			<string>macronbelowcomb</string>
@@ -4604,6 +4608,8 @@
 			<string>ecaron</string>
 			<string>Gcircumflex</string>
 			<string>gcircumflex</string>
+			<string>Gdotaccent</string>
+			<string>gdotaccent</string>
 			<string>Hcircumflex</string>
 			<string>hcircumflex</string>
 			<string>Hbar</string>
@@ -4794,6 +4800,7 @@
 			<string>bilabialclick</string>
 			<string>jcrossedtail</string>
 			<string>wmod</string>
+			<string>ymod</string>
 			<string>amod</string>
 			<string>emod</string>
 			<string>eOpenmod</string>
@@ -4819,10 +4826,14 @@
 			<string>emacrongrave</string>
 			<string>Etildebelow</string>
 			<string>etildebelow</string>
+			<string>Fdotaccent</string>
+			<string>fdotaccent</string>
 			<string>Hdotaccent</string>
 			<string>hdotaccent</string>
 			<string>Hdotbelow</string>
 			<string>hdotbelow</string>
+			<string>Hbrevebelow</string>
+			<string>hbrevebelow</string>
 			<string>Itildebelow</string>
 			<string>itildebelow</string>
 			<string>Idieresisacute</string>
@@ -4888,6 +4899,8 @@
 			<string>zcircumflex</string>
 			<string>Zdotbelow</string>
 			<string>zdotbelow</string>
+			<string>Zmacronbelow</string>
+			<string>zmacronbelow</string>
 			<string>hmacronbelow</string>
 			<string>Adotbelow</string>
 			<string>adotbelow</string>
@@ -5726,12 +5739,9 @@
 			<string>circumflexcomb</string>
 			<string>tildecomb</string>
 			<string>macroncomb</string>
-			<string>brevecomb</string>
 			<string>dotaccentcomb</string>
 			<string>dieresiscomb</string>
-			<string>ringcomb</string>
 			<string>dotbelowcomb</string>
-			<string>cedillacomb</string>
 			<string>verticallinebelowcomb</string>
 			<string>A</string>
 			<string>B</string>
