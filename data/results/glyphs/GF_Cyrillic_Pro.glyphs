@@ -125,6 +125,10 @@ glyphname = divide;
 unicode = 247;
 },
 {
+glyphname = doubleapostrophemod;
+unicode = 750;
+},
+{
 glyphname = euro;
 unicode = 8364;
 },
@@ -335,6 +339,10 @@ unicode = 768;
 {
 glyphname = acutecomb;
 unicode = 769;
+},
+{
+glyphname = circumflexcomb;
+unicode = 770;
 },
 {
 glyphname = macroncomb;
@@ -1193,6 +1201,14 @@ glyphname = "abreve-cy";
 unicode = 1233;
 },
 {
+glyphname = "Adieresis-cy";
+unicode = 1234;
+},
+{
+glyphname = "adieresis-cy";
+unicode = 1235;
+},
+{
 glyphname = "Aie-cy";
 unicode = 1236;
 },
@@ -1329,6 +1345,14 @@ glyphname = "chedieresis-cy";
 unicode = 1269;
 },
 {
+glyphname = "Gedescender-cy";
+unicode = 1270;
+},
+{
+glyphname = "gedescender-cy";
+unicode = 1271;
+},
+{
 glyphname = "Gestrokehook-cy";
 unicode = 1274;
 },
@@ -1369,6 +1393,14 @@ glyphname = "elhook-cy";
 unicode = 1299;
 },
 {
+glyphname = "We-cy";
+unicode = 1308;
+},
+{
+glyphname = "we-cy";
+unicode = 1309;
+},
+{
 glyphname = "Pedescender-cy";
 unicode = 1316;
 },
@@ -1399,6 +1431,14 @@ unicode = 1326;
 {
 glyphname = "eldescender-cy";
 unicode = 1327;
+},
+{
+glyphname = "Tje-cy";
+unicode = 7305;
+},
+{
+glyphname = "tje-cy";
+unicode = 7306;
 }
 );
 instances = (

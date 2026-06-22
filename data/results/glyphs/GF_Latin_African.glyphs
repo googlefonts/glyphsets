@@ -81,6 +81,10 @@ glyphname = doubleapostrophemod;
 unicode = 750;
 },
 {
+glyphname = perthousand;
+unicode = 8240;
+},
+{
 glyphname = A.circled;
 unicode = 9398;
 },
@@ -167,6 +171,10 @@ unicode = 171;
 {
 glyphname = guillemetright;
 unicode = 187;
+},
+{
+glyphname = nonbreakinghyphen;
+unicode = 8209;
 },
 {
 glyphname = endash;

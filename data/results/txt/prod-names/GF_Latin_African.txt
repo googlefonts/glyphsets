@@ -7,6 +7,7 @@ asciicircum
 uni02D7
 uni02E4
 uni02EE
+perthousand
 uni24B6
 uni24D0
 uniA789
@@ -29,6 +30,7 @@ bracketleft
 bracketright
 guillemotleft
 guillemotright
+uni2011
 endash
 emdash
 quoteleft

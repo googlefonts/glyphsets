@@ -18,6 +18,7 @@ registered
 degree
 multiply
 divide
+doubleapostrophemod
 euro
 numero
 trademark
@@ -71,6 +72,7 @@ grave
 apostrophemod
 gravecomb
 acutecomb
+circumflexcomb
 macroncomb
 brevecomb
 dieresiscomb
@@ -285,6 +287,8 @@ emtail-cy
 palochka-cy
 Abreve-cy
 abreve-cy
+Adieresis-cy
+adieresis-cy
 Aie-cy
 aie-cy
 Iebreve-cy
@@ -319,6 +323,8 @@ Uhungarumlaut-cy
 uhungarumlaut-cy
 Chedieresis-cy
 chedieresis-cy
+Gedescender-cy
+gedescender-cy
 Gestrokehook-cy
 gestrokehook-cy
 Hahook-cy
@@ -329,6 +335,8 @@ Reversedze-cy
 reversedze-cy
 Elhook-cy
 elhook-cy
+We-cy
+we-cy
 Pedescender-cy
 pedescender-cy
 Shhadescender-cy
@@ -337,3 +345,5 @@ EnLeftHook-cy
 enlefthook-cy
 Eldescender-cy
 eldescender-cy
+Tje-cy
+tje-cy

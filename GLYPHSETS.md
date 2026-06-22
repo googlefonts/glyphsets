@@ -6,7 +6,7 @@
 | [✅ Core](#gf-arabic-core) | [✅ Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) | [🛑 APA](#gf-phonetics-apa) | [🛑 Arabic](#gf-translatin-arabic) |
 | [✅ Plus](#gf-arabic-plus) | [✅ Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) | [🛑 DisorderedSpeech](#gf-phonetics-disorderedspeech) | [🛑 Pinyin](#gf-translatin-pinyin) |
 |  | [✅ Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |  |
-|  | [🛑 Pro](#gf-cyrillic-pro) | [✅ Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
+|  | [✅ Pro](#gf-cyrillic-pro) | [✅ Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
 |  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) | [🛑 SinoExt](#gf-phonetics-sinoext) |  |
 |  |  | [🛑 Plus](#gf-greek-plus) | [✅ PriAfrican](#gf-latin-priafrican) |  |  |
 |  |  | [🛑 Pro](#gf-greek-pro) | [✅ Vietnamese](#gf-latin-vietnamese) |  |  |
@@ -321,19 +321,33 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 [`GF_Latin_Kernel`](#gf-latin-kernel),
 [`GF_Cyrillic_Plus`](#gf-cyrillic-plus)
 
+* List of languages: `
+Abkhazian (ab_Cyrl),
+Chukot (ckt_Cyrl),
+Even (eve_Cyrl),
+Evenki (evn_Cyrl),
+Forest Enets (enf_Cyrl),
+Itelmen (itl_Cyrl),
+Khanty (kca_Cyrl),
+Koryak (kpy_Cyrl),
+Mansi (mns_Cyrl),
+Muslim Tat (ttt_Cyrl),
+Nenets (yrk_Cyrl),
+Nganasan (nio_Cyrl),
+Orok (oaa_Cyrl),
+Sakha (sah_Cyrl),
+Tundra Enets (enh_Cyrl),
+Yukaghir, Northern (ykg_Cyrl)
+`
 * Characters and glyphs defined in [GF_Cyrillic_Pro.stub.glyphs](/data/definitions/per_glyphset/GF_Cyrillic_Pro.stub.glyphs)
-
-> [!CAUTION]  
-> Since this glyphset has no defined languages, it can't be checked via Fontbakery's `shape_languages` check.
-> Please add language code definions [here](/Lib/glyphsets/definitions/GF_Cyrillic_Pro.yaml).
 
 ### Characters and Glyphs
 
-Letter (262 glyphs): 
-`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ ѓ є ѕ і ї ј љ њ ћ ќ ў џ Ҋ ҋ Ҍ ҍ Ҏ ҏ Ґ ґ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҟ ҟ Ҡ ҡ Ң ң Ҥ ҥ Ҩ ҩ Ҫ ҫ Ҭ ҭ Ү ү Ұ ұ Ҳ ҳ Ҵ ҵ Ҷ ҷ Ҹ ҹ Һ һ Ҽ ҽ Ҿ ҿ Ӏ Ӄ ӄ Ӆ ӆ Ӈ ӈ Ӊ ӊ Ӎ ӎ ӏ Ӑ ӑ Ӕ ӕ Ӗ ӗ Ә ә Ӛ ӛ Ӝ ӝ Ӟ ӟ Ӡ ӡ Ӣ ӣ Ӥ ӥ Ӧ ӧ Ө ө Ӫ ӫ Ӭ ӭ Ӯ ӯ Ӱ ӱ Ӳ ӳ Ӵ ӵ Ӻ ӻ Ӽ ӽ Ӿ ӿ Ԑ ԑ Ԓ ԓ Ԥ ԥ Ԧ ԧ Ԩ ԩ Ԯ ԯ`
+Letter (270 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ђ ѓ є ѕ і ї ј љ њ ћ ќ ў џ Ҋ ҋ Ҍ ҍ Ҏ ҏ Ґ ґ Ғ ғ Ҕ ҕ Җ җ Ҙ ҙ Қ қ Ҝ ҝ Ҟ ҟ Ҡ ҡ Ң ң Ҥ ҥ Ҩ ҩ Ҫ ҫ Ҭ ҭ Ү ү Ұ ұ Ҳ ҳ Ҵ ҵ Ҷ ҷ Ҹ ҹ Һ һ Ҽ ҽ Ҿ ҿ Ӏ Ӄ ӄ Ӆ ӆ Ӈ ӈ Ӊ ӊ Ӎ ӎ ӏ Ӑ ӑ Ӓ ӓ Ӕ ӕ Ӗ ӗ Ә ә Ӛ ӛ Ӝ ӝ Ӟ ӟ Ӡ ӡ Ӣ ӣ Ӥ ӥ Ӧ ӧ Ө ө Ӫ ӫ Ӭ ӭ Ӯ ӯ Ӱ ӱ Ӳ ӳ Ӵ ӵ Ӷ ӷ Ӻ ӻ Ӽ ӽ Ӿ ӿ Ԑ ԑ Ԓ ԓ Ԝ ԝ Ԥ ԥ Ԧ ԧ Ԩ ԩ Ԯ ԯ Ᲊ ᲊ`
 
-Mark, nonspacing (6 glyphs): 
-`◌̀ ◌́ ◌̄ ◌̆ ◌̈ ◌̋`
+Mark, nonspacing (7 glyphs): 
+`◌̀ ◌́ ◌̂ ◌̄ ◌̆ ◌̈ ◌̋`
 
 Mark, spacing (2 glyphs): 
 `/grave ʼ`
@@ -347,8 +361,16 @@ Punctuation (33 glyphs):
 Separator (2 glyphs): 
 `   `
 
-Symbol (23 glyphs): 
-`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ € № ™ −`
+Symbol (24 glyphs): 
+`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ ˮ € № ™ −`
+
+### Character Sequences
+
+The following 4 composed character sequences are decomposed in the font:
+
+`
+О̂ о̂ Ө̆ ө̆
+`
 
 ### Resulting Glyphset Files
 
@@ -841,7 +863,7 @@ Spanish (es_Latn)
 `
 
 
-The following list of **621** languages is computed as a result of the dynamic conditions described above:
+The following list of **622** languages is computed as a result of the dynamic conditions described above:
 
 `
 Abidji (abi_Latn),
@@ -859,6 +881,7 @@ Aghem (agq_Latn),
 Agwagwune (yay_Latn),
 Ahanta (aha_Latn),
 Aja (ajg_Latn),
+Akan (ak_Latn),
 Akebu (keu_Latn),
 Akeselem (aks_Latn),
 Akoose (bss_Latn),
@@ -1481,11 +1504,11 @@ Mark, spacing (6 glyphs):
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
 
-Punctuation (27 glyphs): 
-`! " # ' ( ) * , - . / : ; ? [ ] « » – — ‘ ’ “ ” … ‹ ›`
+Punctuation (28 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ ] « » ‑ – — ‘ ’ “ ” … ‹ ›`
 
-Symbol (12 glyphs): 
-`% & + @ ^ ˗ ˤ ˮ Ⓐ ⓐ ꞉ ꞊`
+Symbol (13 glyphs): 
+`% & + @ ^ ˗ ˤ ˮ ‰ Ⓐ ⓐ ꞉ ꞊`
 
 ### Character Sequences
 
