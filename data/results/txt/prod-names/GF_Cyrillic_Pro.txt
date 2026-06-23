@@ -18,6 +18,7 @@ registered
 degree
 multiply
 divide
+uni02EE
 Euro
 uni2116
 trademark
@@ -71,6 +72,7 @@ grave
 uni02BC
 gravecomb
 acutecomb
+uni0302
 uni0304
 uni0306
 uni0308
@@ -285,6 +287,8 @@ uni04CE
 uni04CF
 uni04D0
 uni04D1
+uni04D2
+uni04D3
 uni04D4
 uni04D5
 uni04D6
@@ -319,6 +323,8 @@ uni04F2
 uni04F3
 uni04F4
 uni04F5
+uni04F6
+uni04F7
 uni04FA
 uni04FB
 uni04FC
@@ -329,6 +335,8 @@ uni0510
 uni0511
 uni0512
 uni0513
+uni051C
+uni051D
 uni0524
 uni0525
 uni0526
@@ -337,3 +345,5 @@ uni0528
 uni0529
 uni052E
 uni052F
+uni1C89
+uni1C8A

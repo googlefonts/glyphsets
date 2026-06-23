@@ -1051,6 +1051,7 @@
 			<string>degree</string>
 			<string>multiply</string>
 			<string>divide</string>
+			<string>doubleapostrophemod</string>
 			<string>euro</string>
 			<string>numero</string>
 			<string>trademark</string>
@@ -1104,6 +1105,7 @@
 			<string>apostrophemod</string>
 			<string>gravecomb</string>
 			<string>acutecomb</string>
+			<string>circumflexcomb</string>
 			<string>macroncomb</string>
 			<string>brevecomb</string>
 			<string>dieresiscomb</string>
@@ -1318,6 +1320,8 @@
 			<string>palochka-cy</string>
 			<string>Abreve-cy</string>
 			<string>abreve-cy</string>
+			<string>Adieresis-cy</string>
+			<string>adieresis-cy</string>
 			<string>Aie-cy</string>
 			<string>aie-cy</string>
 			<string>Iebreve-cy</string>
@@ -1352,6 +1356,8 @@
 			<string>uhungarumlaut-cy</string>
 			<string>Chedieresis-cy</string>
 			<string>chedieresis-cy</string>
+			<string>Gedescender-cy</string>
+			<string>gedescender-cy</string>
 			<string>Gestrokehook-cy</string>
 			<string>gestrokehook-cy</string>
 			<string>Hahook-cy</string>
@@ -1362,6 +1368,8 @@
 			<string>reversedze-cy</string>
 			<string>Elhook-cy</string>
 			<string>elhook-cy</string>
+			<string>We-cy</string>
+			<string>we-cy</string>
 			<string>Pedescender-cy</string>
 			<string>pedescender-cy</string>
 			<string>Shhadescender-cy</string>
@@ -1370,6 +1378,8 @@
 			<string>enlefthook-cy</string>
 			<string>Eldescender-cy</string>
 			<string>eldescender-cy</string>
+			<string>Tje-cy</string>
+			<string>tje-cy</string>
 		</array>
 		<key>name</key>
 		<string>GF_Cyrillic_Pro</string>
@@ -1377,6 +1387,9 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>doubleapostrophemod</string>
+			<string>circumflexcomb</string>
+			<string>Adieresis-cy</string>
 			<string>Cheabkhasian-cy</string>
 			<string>Chedescenderabkhasian-cy</string>
 			<string>Dzeabkhasian-cy</string>
@@ -1389,6 +1402,7 @@
 			<string>Enhook-cy</string>
 			<string>Entail-cy</string>
 			<string>Ertick-cy</string>
+			<string>Gedescender-cy</string>
 			<string>Gestrokehook-cy</string>
 			<string>Haabkhasian-cy</string>
 			<string>Hahook-cy</string>
@@ -1404,6 +1418,9 @@
 			<string>Shhadescender-cy</string>
 			<string>Tedescender-cy</string>
 			<string>Tetse-cy</string>
+			<string>Tje-cy</string>
+			<string>We-cy</string>
+			<string>adieresis-cy</string>
 			<string>cheabkhasian-cy</string>
 			<string>chedescenderabkhasian-cy</string>
 			<string>dzeabkhasian-cy</string>
@@ -1416,6 +1433,7 @@
 			<string>enlefthook-cy</string>
 			<string>entail-cy</string>
 			<string>ertick-cy</string>
+			<string>gedescender-cy</string>
 			<string>gestrokehook-cy</string>
 			<string>haabkhasian-cy</string>
 			<string>hahook-cy</string>
@@ -1431,6 +1449,8 @@
 			<string>shhadescender-cy</string>
 			<string>tedescender-cy</string>
 			<string>tetse-cy</string>
+			<string>tje-cy</string>
+			<string>we-cy</string>
 		</array>
 		<key>name</key>
 		<string>GF_Cyrillic_Pro Exclusive</string>

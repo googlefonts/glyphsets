@@ -1,5 +1,28 @@
 description: "Additional characters in this set provide support for the following 18 Non-Slavic Cyrillic languages: Abkhaz, Chukchi, Enets, Eskimo, Even, Evenki, Itelmen, Khanty, Kildin Sami, Koryak, Mansi, Nganasan, Nenets, Oroch, Orok, Sakha/Yakut, Tati, Yukaghir, Yupik Ulch"
 
 include_glyphsets:
-- GF_Cyrillic_Plus
-- GF_Latin_Kernel
+  - GF_Cyrillic_Plus
+  - GF_Latin_Kernel
+
+language_codes:
+  - ab_Cyrl
+  - ess_Cyrl
+  - ckt_Cyrl
+  - eve_Cyrl
+  - evn_Cyrl
+  - enf_Cyrl
+  - itl_Cyrl
+  - kca_Cyrl
+  - sjd_Cyrl
+  - kpy_Cyrl
+  - mns_Cyrl
+  - yrk_Cyrl
+  - nio_Cyrl
+  - oac_Cyrl
+  - oaa_Cyrl
+  - sah_Cyrl
+  # - ysr_Cyrl # Currently no data available
+  - ttt_Cyrl
+  - enh_Cyrl
+  - ulc_Cyrl
+  - ykg_Cyrl
