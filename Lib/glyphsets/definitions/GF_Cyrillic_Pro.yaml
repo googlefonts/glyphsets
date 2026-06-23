@@ -6,23 +6,23 @@ include_glyphsets:
 
 language_codes:
   - ab_Cyrl
-  # - ess_Cyrl - Add me to lang
+  - ess_Cyrl
   - ckt_Cyrl
   - eve_Cyrl
   - evn_Cyrl
   - enf_Cyrl
   - itl_Cyrl
   - kca_Cyrl
-  # - sjd_Cyrl - Add me to lang
+  - sjd_Cyrl
   - kpy_Cyrl
   - mns_Cyrl
   - yrk_Cyrl
   - nio_Cyrl
-  # - oac_Cyrl - Add me to lang
+  - oac_Cyrl
   - oaa_Cyrl
   - sah_Cyrl
-  # - ysr_Cyrl
+  # - ysr_Cyrl # Currently no data available
   - ttt_Cyrl
   - enh_Cyrl
-  # - ulc_Cyrl
+  - ulc_Cyrl
   - ykg_Cyrl
