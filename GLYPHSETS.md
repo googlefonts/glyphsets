@@ -323,20 +323,24 @@ Glyphs.app Custom Filter List (contains all Cyrillic glyphsets): [CustomFilter_G
 
 * List of languages: `
 Abkhazian (ab_Cyrl),
+Central Siberian Yupik (ess_Cyrl),
 Chukot (ckt_Cyrl),
 Even (eve_Cyrl),
 Evenki (evn_Cyrl),
 Forest Enets (enf_Cyrl),
 Itelmen (itl_Cyrl),
 Khanty (kca_Cyrl),
+Kildin Sami (sjd_Cyrl),
 Koryak (kpy_Cyrl),
 Mansi (mns_Cyrl),
 Muslim Tat (ttt_Cyrl),
 Nenets (yrk_Cyrl),
 Nganasan (nio_Cyrl),
+Oroch (oac_Cyrl),
 Orok (oaa_Cyrl),
 Sakha (sah_Cyrl),
 Tundra Enets (enh_Cyrl),
+Ulch (ulc_Cyrl),
 Yukaghir, Northern (ykg_Cyrl)
 `
 * Characters and glyphs defined in [GF_Cyrillic_Pro.stub.glyphs](/data/definitions/per_glyphset/GF_Cyrillic_Pro.stub.glyphs)
@@ -863,7 +867,7 @@ Spanish (es_Latn)
 `
 
 
-The following list of **622** languages is computed as a result of the dynamic conditions described above:
+The following list of **621** languages is computed as a result of the dynamic conditions described above:
 
 `
 Abidji (abi_Latn),
@@ -881,7 +885,6 @@ Aghem (agq_Latn),
 Agwagwune (yay_Latn),
 Ahanta (aha_Latn),
 Aja (ajg_Latn),
-Akan (ak_Latn),
 Akebu (keu_Latn),
 Akeselem (aks_Latn),
 Akoose (bss_Latn),
@@ -1504,11 +1507,11 @@ Mark, spacing (6 glyphs):
 Number (10 glyphs): 
 `0 1 2 3 4 5 6 7 8 9`
 
-Punctuation (28 glyphs): 
-`! " # ' ( ) * , - . / : ; ? [ ] « » ‑ – — ‘ ’ “ ” … ‹ ›`
+Punctuation (27 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ ] « » – — ‘ ’ “ ” … ‹ ›`
 
-Symbol (13 glyphs): 
-`% & + @ ^ ˗ ˤ ˮ ‰ Ⓐ ⓐ ꞉ ꞊`
+Symbol (12 glyphs): 
+`% & + @ ^ ˗ ˤ ˮ Ⓐ ⓐ ꞉ ꞊`
 
 ### Character Sequences
 

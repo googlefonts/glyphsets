@@ -7,7 +7,6 @@ asciicircum
 minusmod
 glottalstopreversedsuperior
 doubleapostrophemod
-perthousand
 A.circled
 a.circled
 colonmod
@@ -30,7 +29,6 @@ bracketleft
 bracketright
 guillemetleft
 guillemetright
-nonbreakinghyphen
 endash
 emdash
 quoteleft

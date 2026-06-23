@@ -13,7 +13,6 @@
 			<string>minusmod</string>
 			<string>glottalstopreversedsuperior</string>
 			<string>doubleapostrophemod</string>
-			<string>perthousand</string>
 			<string>A.circled</string>
 			<string>a.circled</string>
 			<string>colonmod</string>
@@ -36,7 +35,6 @@
 			<string>bracketright</string>
 			<string>guillemetleft</string>
 			<string>guillemetright</string>
-			<string>nonbreakinghyphen</string>
 			<string>endash</string>
 			<string>emdash</string>
 			<string>quoteleft</string>
