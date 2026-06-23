@@ -75,6 +75,7 @@ setup(
     extras_require={
         "dev": [  # For the tests to run
             "gfsubsets",
+            "pytest",
         ]
     },
 )

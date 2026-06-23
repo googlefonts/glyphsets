@@ -119,8 +119,7 @@ if __name__ == "__main__":
             installed = line.split(" ")[-1].strip()
         if "LATEST" in line:
             latest = line.split(" ")[-1].strip()
-    print(
-        f"""
+    print(f"""
 *************************************************************
 *
 *   WARNING:
@@ -131,8 +130,7 @@ if __name__ == "__main__":
 *   Location: {gflanguages.__file__}
 *
 *************************************************************
-"""
-    )
+""")
 
     root_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))
 
