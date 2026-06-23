@@ -1,2 +1,74 @@
+[build-system]
+requires = [
+   "setuptools>=45",
+   "setuptools_scm[toml]>=8.1.0,<8.2"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["Lib"]
+
+[tool.setuptools.package-data]
+glyphsets = [
+    "*.json",
+    "definitions/*.yaml",
+    "results/nam/*.nam",
+    "results/txt/nice-names/*.txt",
+]
+
+[tool.setuptools_scm]
+git_describe_command = "git describe --match 'v*' --tags"
+write_to = "Lib/glyphsets/_version.py"
+
 [tool.black]
 line-length = 119
+
+[project]
+dynamic = ["version"]
+
+name = "glyphsets"
+description = "A python API for evaluating coverage of glyph sets in font projects."
+requires-python = ">=3.8"
+readme = "README.md"
+authors = [
+   { name = "Dave Crossland" },
+   { name = "Eli Heuer" },
+   { name = "Felipe Sanches" },
+   { name = "Lasse Fister" },
+   { name = "Marc Foley" },
+   { name = "Yanone" },
+   { name = "Roderick Sheeter" },
+]
+
+classifiers = [
+    "Intended Audience :: Developers",
+    "Topic :: Text Processing :: Fonts",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = [
+   "requests",
+   "setuptools",
+   "FontTools[ufo]",
+   "glyphsLib>=6.9.5",
+   "defcon",
+   "unicodedata2",
+   "gflanguages>=0.7.9",
+   "pyyaml",
+   "tabulate",
+   "youseedee",
+]
+
+[project.optional-dependencies]
+dev = [
+   "gfsubsets",
+   "pytest",
+]
+
+[project.scripts]
+glyphsets = "glyphsets.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/googlefonts/glyphsets/"
