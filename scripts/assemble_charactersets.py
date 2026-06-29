@@ -49,7 +49,9 @@ def assemble_characterset(root_folder, glyphset_name):
         font.save(glyphs_path)
 
         # Just make sure there are no duplicates
-        duplicates = [glyph.name for glyph in font.glyphs if [glyph.name for glyph in font.glyphs].count(glyph.name) > 1]
+        duplicates = [
+            glyph.name for glyph in font.glyphs if [glyph.name for glyph in font.glyphs].count(glyph.name) > 1
+        ]
         assert duplicates == [], f"Duplicate glyph names in {glyphset_name}: {duplicates}"
 
     # Output sorted character set to .nam file
