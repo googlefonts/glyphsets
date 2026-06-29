@@ -31,40 +31,17 @@ def assemble_characterset(root_folder, glyphset_name):
 
     glyphset = GlyphSet.load(glyphset_name)
 
-    nam_path = os.path.join(root_folder, "results", "nam", f"{glyphset_name}.nam")
-    nam_in_package_path = os.path.abspath(
-        os.path.join(
-            root_folder,
-            "..",
-            "Lib",
-            "glyphsets",
-            "results",
-            "nam",
-            f"{glyphset_name}.nam",
-        )
-    )
-    txt_in_package_path = os.path.abspath(
-        os.path.join(
-            root_folder,
-            "..",
-            "Lib",
-            "glyphsets",
-            "results",
-            "txt",
-            "nice-names",
-            f"{glyphset_name}.txt",
-        )
-    )
-    glyphs_path = os.path.join(root_folder, "results", "glyphs", f"{glyphset_name}.glyphs")
-    txt_nicenames_path = os.path.join(root_folder, "results", "txt", "nice-names", f"{glyphset_name}.txt")
-    txt_prodnames_path = os.path.join(root_folder, "results", "txt", "prod-names", f"{glyphset_name}.txt")
     plist_path = os.path.join(root_folder, "results", "plist", f"CustomFilter_GF_{glyphset.script}.plist")
     plist_all_path = os.path.join(root_folder, "results", "plist", "CustomFilter_GF_All.plist")
 
     final_glyphnames = glyphset.get_final_glyphnames()
 
-    if not glyphset.modifier:
+    if glyphset.modifier:
+        glyphset_name = glyphset_name.replace(" ", "_")
 
+    glyphs_path = os.path.join(root_folder, "results", "glyphs", f"{glyphset_name}.glyphs")
+
+    if not glyphset.modifier:
         font = glyphset.get_final_glyphs_font()
 
         # Save glyphs file
@@ -77,34 +54,63 @@ def assemble_characterset(root_folder, glyphset_name):
         ]
         assert duplicates == [], f"Duplicate glyph names in {glyphset_name}: {duplicates}"
 
-        # Output sorted character set to .nam file
-        os.makedirs(os.path.dirname(nam_path), exist_ok=True)
-        os.makedirs(os.path.dirname(nam_in_package_path), exist_ok=True)
-        with open(nam_path, "w") as f:
-            f.write("# This file is auto-generated; do not edit. See /README.md for instructions.\n")
-            for i, unicode in enumerate(glyphset.get_final_unicodes()):
-                # unicode_string = f"{unicode:#0{6}X}".replace("0X", "0x")
-                unicode_string = f"0x{unicode}"
-                try:
-                    unicode_name = unicodedata.name(chr(int(unicode, 16)))
-                except ValueError:
-                    unicode_name = ""
-                f.write(f"{unicode_string} # {unicode_name}")
-                if i < len(glyphset.get_final_unicodes()) - 1:
-                    f.write("\n")
-        shutil.copyfile(nam_path, nam_in_package_path)
+    # Output sorted character set to .nam file
+    nam_path = os.path.join(root_folder, "results", "nam", f"{glyphset_name}.nam")
+    nam_in_package_path = os.path.abspath(
+        os.path.join(
+            root_folder,
+            "..",
+            "Lib",
+            "glyphsets",
+            "results",
+            "nam",
+            f"{glyphset_name}.nam",
+        )
+    )
+    os.makedirs(os.path.dirname(nam_path), exist_ok=True)
+    os.makedirs(os.path.dirname(nam_in_package_path), exist_ok=True)
+    with open(nam_path, "w") as f:
+        f.write("# This file is auto-generated; do not edit. See /README.md for instructions.\n")
+        for i, unicode in enumerate(glyphset.get_final_unicodes()):
+            # unicode_string = f"{unicode:#0{6}X}".replace("0X", "0x")
+            unicode_string = f"0x{unicode}"
+            try:
+                unicode_name = unicodedata.name(chr(int(unicode, 16)))
+            except ValueError:
+                unicode_name = ""
+            f.write(f"{unicode_string} # {unicode_name}")
+            if i < len(glyphset.get_final_unicodes()) - 1:
+                f.write("\n")
+    shutil.copyfile(nam_path, nam_in_package_path)
 
-        # Output txt files
-        os.makedirs(os.path.dirname(txt_nicenames_path), exist_ok=True)
-        with open(txt_nicenames_path, "w") as f:
-            f.write("# This file is auto-generated; do not edit. See /README.md for instructions.\n")
-            f.write("\n".join(final_glyphnames))
-        os.makedirs(os.path.dirname(txt_prodnames_path), exist_ok=True)
-        with open(txt_prodnames_path, "w") as f:
-            f.write("# This file is auto-generated; do not edit. See /README.md for instructions.\n")
-            f.write("\n".join(glyphset.get_final_productionglyphnames()))
-        os.makedirs(os.path.dirname(txt_in_package_path), exist_ok=True)
-        shutil.copyfile(txt_nicenames_path, txt_in_package_path)
+    # Output txt files
+    txt_nicenames_path = os.path.join(root_folder, "results", "txt", "nice-names", f"{glyphset_name}.txt")
+
+    os.makedirs(os.path.dirname(txt_nicenames_path), exist_ok=True)
+    with open(txt_nicenames_path, "w") as f:
+        f.write("# This file is auto-generated; do not edit. See /README.md for instructions.\n")
+        f.write("\n".join(final_glyphnames))
+
+    txt_prodnames_path = os.path.join(root_folder, "results", "txt", "prod-names", f"{glyphset_name}.txt")
+    os.makedirs(os.path.dirname(txt_prodnames_path), exist_ok=True)
+    with open(txt_prodnames_path, "w") as f:
+        f.write("# This file is auto-generated; do not edit. See /README.md for instructions.\n")
+        f.write("\n".join(glyphset.get_final_productionglyphnames()))
+
+    txt_in_package_path = os.path.abspath(
+        os.path.join(
+            root_folder,
+            "..",
+            "Lib",
+            "glyphsets",
+            "results",
+            "txt",
+            "nice-names",
+            f"{glyphset_name}.txt",
+        )
+    )
+    os.makedirs(os.path.dirname(txt_in_package_path), exist_ok=True)
+    shutil.copyfile(txt_nicenames_path, txt_in_package_path)
 
     add_to_plist_file(plist_path, glyphset.complete_name(), final_glyphnames)
     add_to_plist_file(plist_all_path, glyphset.complete_name(), final_glyphnames)
