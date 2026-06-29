@@ -41,17 +41,16 @@ def assemble_characterset(root_folder, glyphset_name):
 
     glyphs_path = os.path.join(root_folder, "results", "glyphs", f"{glyphset_name}.glyphs")
 
-    font = glyphset.get_final_glyphs_font()
+    if not glyphset.modifier:
+        font = glyphset.get_final_glyphs_font()
 
-    # Save glyphs file
-    os.makedirs(os.path.dirname(glyphs_path), exist_ok=True)
-    font.save(glyphs_path)
+        # Save glyphs file
+        os.makedirs(os.path.dirname(glyphs_path), exist_ok=True)
+        font.save(glyphs_path)
 
-    # Just make sure there are no duplicates
-    duplicates = [
-        glyph.name for glyph in font.glyphs if [glyph.name for glyph in font.glyphs].count(glyph.name) > 1
-    ]
-    assert duplicates == [], f"Duplicate glyph names in {glyphset_name}: {duplicates}"
+        # Just make sure there are no duplicates
+        duplicates = [glyph.name for glyph in font.glyphs if [glyph.name for glyph in font.glyphs].count(glyph.name) > 1]
+        assert duplicates == [], f"Duplicate glyph names in {glyphset_name}: {duplicates}"
 
     # Output sorted character set to .nam file
     nam_path = os.path.join(root_folder, "results", "nam", f"{glyphset_name}.nam")
