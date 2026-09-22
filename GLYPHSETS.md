@@ -4,8 +4,8 @@
 | Arabic | Cyrillic | Greek | Latin | Phonetics | TransLatin |
 | --- | --- | --- | --- | --- | --- |
 | [✅ Core](#gf-arabic-core) | [✅ Core](#gf-cyrillic-core) | [🛑 AncientMusicalSymbols](#gf-greek-ancientmusicalsymbols) | [✅ African](#gf-latin-african) | [🛑 APA](#gf-phonetics-apa) | [🛑 Arabic](#gf-translatin-arabic) |
-| [✅ Plus](#gf-arabic-plus) | [✅ Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) | [🛑 DisorderedSpeech](#gf-phonetics-disorderedspeech) | [🛑 Pinyin](#gf-translatin-pinyin) |
-|  | [✅ Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |  |
+| [✅ Kernel](#gf-arabic-kernel) | [✅ Historical](#gf-cyrillic-historical) | [🛑 Archaic](#gf-greek-archaic) | [🛑 Beyond](#gf-latin-beyond) | [🛑 DisorderedSpeech](#gf-phonetics-disorderedspeech) | [🛑 Pinyin](#gf-translatin-pinyin) |
+| [✅ Plus](#gf-arabic-plus) | [✅ Plus](#gf-cyrillic-plus) | [🛑 Coptic](#gf-greek-coptic) | [✅ Core](#gf-latin-core) | [🛑 IPAHistorical](#gf-phonetics-ipahistorical) |  |
 |  | [✅ Pro](#gf-cyrillic-pro) | [✅ Core](#gf-greek-core) | [🛑 Kernel](#gf-latin-kernel) | [🛑 IPAStandard](#gf-phonetics-ipastandard) |  |
 |  |  | [🛑 Expert](#gf-greek-expert) | [🛑 Plus](#gf-latin-plus) | [🛑 SinoExt](#gf-phonetics-sinoext) |  |
 |  |  | [🛑 Plus](#gf-greek-plus) | [✅ PriAfrican](#gf-latin-priafrican) |  |  |
@@ -69,6 +69,58 @@ Symbol (25 glyphs):
 Glyphs.app source file: [GF_Arabic_Core.glyphs](/data/results/glyphs/GF_Arabic_Core.glyphs)
 
 Text files: [GF_Arabic_Core.txt](/data/results/txt/nice-names/GF_Arabic_Core.txt) (nice names) and [GF_Arabic_Core.txt](/data/results/txt/prod-names/GF_Arabic_Core.txt) (production names)
+
+Glyphs.app Custom Filter List (contains all Arabic glyphsets): [CustomFilter_GF_Arabic.plist](/data/results/plist/CustomFilter_GF_Arabic.plist)
+
+ or [CustomFilter_GF_All.plist](/data/results/plist/CustomFilter_GF_All.plist) for the complete list.
+
+
+# GF Arabic Kernel
+
+> _Description partially salvaged from old README, so languages manually listed here (if any) may be outdated or irrelevant and need to be replaced by language code lists:_
+> 
+> Most basic character set covering standard Arabic
+
+`GF_Arabic_Kernel` is **statically** defined [here](/Lib/glyphsets/definitions/GF_Arabic_Kernel.yaml) as:
+
+* Script: Arabic
+* Includes glyphsets 
+[`GF_Latin_Kernel`](#gf-latin-kernel)
+
+* List of languages: `
+Arabic (ar_Arab)
+`
+
+### Characters and Glyphs
+
+Letter (195 glyphs): 
+`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ـ ف ق ك ل م ن ه و ى ي ٮ ٯ ٱ ڡ ں /ain-ar.fina /ain-ar.init /ain-ar.medi /alef-ar.fina /alefHamzaabove-ar.fina /alefHamzabelow-ar.fina /alefMadda-ar.fina /alefMaksura-ar.fina /alefMaksura-ar.init /alefMaksura-ar.medi /alefWasla-ar.fina /beh-ar.fina /beh-ar.init /beh-ar.medi /behDotless-ar.fina /behDotless-ar.init /behDotless-ar.medi /dad-ar.fina /dad-ar.init /dad-ar.medi /dal-ar.fina /feh-ar.fina /feh-ar.init /feh-ar.medi /fehDotless-ar.fina /fehDotless-ar.init /fehDotless-ar.medi /ghain-ar.fina /ghain-ar.init /ghain-ar.medi /hah-ar.fina /hah-ar.init /hah-ar.medi /heh-ar.fina /heh-ar.init /heh-ar.medi /jeem-ar.fina /jeem-ar.init /jeem-ar.medi /kaf-ar.fina /kaf-ar.init /kaf-ar.medi /khah-ar.fina /khah-ar.init /khah-ar.medi /lam-ar.fina /lam-ar.init /lam-ar.medi /lam_alef-ar /lam_alefHamzaabove-ar /lam_alefHamzabelow-ar /lam_alefMadda-ar /lam_alefWasla-ar /meem-ar.fina /meem-ar.init /meem-ar.medi /noon-ar.fina /noon-ar.init /noon-ar.medi /noonghunna-ar.fina /noonghunna-ar.init /noonghunna-ar.medi /qaf-ar.fina /qaf-ar.init /qaf-ar.medi /qafDotless-ar.fina /qafDotless-ar.init /qafDotless-ar.medi /reh-ar.fina /sad-ar.fina /sad-ar.init /sad-ar.medi /seen-ar.fina /seen-ar.init /seen-ar.medi /sheen-ar.fina /sheen-ar.init /sheen-ar.medi /tah-ar.fina /tah-ar.init /tah-ar.medi /teh-ar.fina /teh-ar.init /teh-ar.medi /tehMarbuta-ar.fina /thal-ar.fina /theh-ar.fina /theh-ar.init /theh-ar.medi /waw-ar.fina /wawHamzaabove-ar.fina /yeh-ar.fina /yeh-ar.init /yeh-ar.medi /yehHamzaabove-ar.fina /yehHamzaabove-ar.init /yehHamzaabove-ar.medi /zah-ar.fina /zah-ar.init /zah-ar.medi /zain-ar.fina`
+
+Mark, nonspacing (41 glyphs): 
+`◌ؕ ◌ً ◌ٌ ◌ٍ ◌َ ◌ُ ◌ِ ◌ّ ◌ْ ◌ٓ ◌ٔ ◌ٕ ◌ٖ ◌٘ ◌ٰ ◌ۛ ◌/dotabove-ar ◌/dotbelow-ar ◌/dotcenter-ar ◌/gafsarkashabove-ar ◌/hamzaaboveDamma-ar ◌/hamzaaboveDammatan-ar ◌/hamzaaboveFatha-ar ◌/hamzaaboveFathatan-ar ◌/hamzaaboveSukun-ar ◌/hamzabelowKasra-ar ◌/hamzabelowKasratan-ar ◌/shaddaAlefabove-ar ◌/shaddaDamma-ar ◌/shaddaDammatan-ar ◌/shaddaFatha-ar ◌/shaddaFathatan-ar ◌/shaddaKasra-ar ◌/shaddaKasratan-ar ◌/threedotsdownabove-ar ◌/threedotsdownbelow-ar ◌/threedotsdowncenter-ar ◌/threedotsupabove-ar ◌/twodotshorizontalabove-ar ◌/twodotshorizontalbelow-ar ◌/wasla-ar`
+
+Mark, spacing (1 glyphs): 
+`/grave`
+
+Number (24 glyphs): 
+`0 1 2 3 4 5 6 7 8 9 ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٫ ٬ /fourFarsi-ar.urdu /sevenFarsi-ar.urdu`
+
+Punctuation (39 glyphs): 
+`! " # ' ( ) * , - . / : ; ? [ \ ] _ { } « · » ، ؍ ؛ ؟ ٭ ۔ – — ‘ ’ “ ” • … ﴾ ﴿`
+
+Separator (2 glyphs): 
+`   `
+
+Symbol (25 glyphs): 
+`$ % & + < = > @ ^ | ~ ¢ £ ¥ © ® ° × ÷ ؉ ٪ € ™ − ◌`
+
+### Resulting Glyphset Files
+
+.nam file (only encoded characters): [GF_Arabic_Kernel.nam](/data/results/nam/GF_Arabic_Kernel.nam)
+
+Glyphs.app source file: [GF_Arabic_Kernel.glyphs](/data/results/glyphs/GF_Arabic_Kernel.glyphs)
+
+Text files: [GF_Arabic_Kernel.txt](/data/results/txt/nice-names/GF_Arabic_Kernel.txt) (nice names) and [GF_Arabic_Kernel.txt](/data/results/txt/prod-names/GF_Arabic_Kernel.txt) (production names)
 
 Glyphs.app Custom Filter List (contains all Arabic glyphsets): [CustomFilter_GF_Arabic.plist](/data/results/plist/CustomFilter_GF_Arabic.plist)
 
