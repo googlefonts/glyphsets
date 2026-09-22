@@ -1,0 +1,5 @@
+description: Most basic character set covering standard Arabic
+include_glyphsets:
+- GF_Latin_Kernel
+language_codes:
+- ar_Arab
