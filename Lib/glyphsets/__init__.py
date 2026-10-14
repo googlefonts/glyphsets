@@ -142,7 +142,7 @@ class GlyphSet(object):
         # Read definition
         yaml_path = os.path.join(os.path.dirname(__file__), "definitions", f"{self.name}.yaml")
         with open(yaml_path, "r", encoding="utf8") as f:
-            self.definition = yaml.load(f, Loader=yaml.FullLoader)
+            self.definition = yaml.safe_load(f)
 
         # Read definitions and set defaults
         self.description = self.definition.get("description", None)
@@ -640,7 +640,7 @@ def glyphsets_per_script(script):
 def get_glyphset_definition(glyphset_name):
     yaml_path = os.path.join(os.path.dirname(__file__), "definitions", f"{glyphset_name}.yaml")
     with open(yaml_path, "r", encoding="utf8") as f:
-        return yaml.load(f, Loader=yaml.FullLoader)
+        return yaml.safe_load(f)
 
 
 # Rewrite this to be calculated live
