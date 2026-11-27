@@ -152,7 +152,7 @@ jobs:
     steps:
       - uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3
       - uses: dtolnay/rust-toolchain@39008827e6b4319a349e9a42dfc90579dd25f1ca # stable
-      - run: cargo publish ${{ env.CARGO_PUBLISH_ARGS }} --no-verify
+      - run: cargo publish ${CARGO_PUBLISH_ARGS:-} --no-verify
         env:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
 
